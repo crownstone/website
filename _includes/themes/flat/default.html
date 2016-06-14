@@ -26,7 +26,7 @@
 <!-- Custom styles for this template -->
 
 {% stylesheet flexslider %}
-{% stylesheet dobots-style %}
+{% stylesheet crownstone-style %}
 
 <!--[if lt IE 9]>
 	<script src="{{ ASSET_PATH }}/resources/respond/Respond.min.js"></script>
@@ -78,7 +78,7 @@
 			<div class="col-md-12">
 				<ul class="list-unstyled sub-menu pull-left slogan">
 					<!--					<li>"Computers, come, join us in the real world!"</li> -->
-					<li><a href="/2014/05/23/best-european-startup/">Best European Startup Award</a> winner of <a href="http://robotlaunch.com/">Robot Launch</a>!
+					<li>Accepted in the <a href="http://www.rockstart.com/startups/crownstone/">Rockstart Accelerator</a>!
 					</li>
 				</ul>
 				<ul class="list-unstyled sub-menu pull-right">
@@ -114,17 +114,18 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-xs-6 col-sm-6 col-md-6 more-padding">
-				<img src="{{ BASE_PATH }}/images/youtube.png" alt="youtube"> Watch our <a href="https://www.youtube.com/channel/UC7bsuzp2BfL5F5RX07oLIzw">movies</a> and follow us on <a href="http://facebook.com/dobots">Facebook!</a></div>
+                <!--<img src="{{ BASE_PATH }}/images/youtube.png" alt="youtube"> Watch our <a href="https://www.youtube.com/channel/UC7bsuzp2BfL5F5RX07oLIzw">movies</a> and follow us on <a href="http://facebook.com/dobots">Facebook!</a></div> -->
+				Follow us on <a href="http://facebook.com/crownstones">Facebook!</a></div>
 			<div class="col-xs-6 col-sm-6 col-md-6">
 				<ul class="list-items pull-right gutter-top-btm">
 					<li><a href="index.html">
-						<img src="{{ BASE_PATH }}/images/footer-logo.png" class="img-responsive" alt="DoBots"></a></li>
+						<img src="{{ BASE_PATH }}/images/footer-logo.png" class="img-responsive" alt="Crownstone"></a></li>
 					<li class="robot-info-dilog"><a href="#">
 						<img src="{{ BASE_PATH }}/images/two-robot.png" width="103" height="85" alt="robot">
 					</a>
 					<div class="footer-robot-dilog">
 						<div class="inner-robot-dilog">
-							Do you have a question? <script type="text/javascript">/*<![CDATA[*/var a=new Array(".nl","bots","do","@","fo","in");document.write("<a href='mailto:");for(i=a.length-1;i>=0;i--){document.write(a[i])}document.write("?subject=DoBots Contact' class='btn btn-default'>Yes</a>");/*]]>*/</script>
+							Do you have a question? <script type="text/javascript">/*<![CDATA[*/var a=new Array(".nl","bots","do","@","fo","in");document.write("<a href='mailto:");for(i=a.length-1;i>=0;i--){document.write(a[i])}document.write("?subject=Crownstone Contact' class='btn btn-default'>Yes</a>");/*]]>*/</script>
 							<div class="inner-arrow-right">
 								<img alt="dilog" class="img-responsive" src="{{ BASE_PATH }}/images/inner-dilog.png" draggable="false"> </div>
 						</div>
@@ -149,70 +150,6 @@
 {% endif %}
 <script type="text/javascript" src="{{ ASSET_PATH }}/resources/bootstrap/js/bootstrap.min.js"></script>
 <script type="text/javascript" src="{{ ASSET_PATH }}/js/jquery.flexslider.js"></script>
-
-{% if page.twitter %}
-<script type="text/javascript" src="{{ ASSET_PATH }}/js/twitterFetcher_min.js"></script>
-
-<!-- get your own id at https://twitter.com/settings/widgets -->
-<script type="text/javascript">
-var config={
-	'id':'474532446478680064',
-	'domId':'twitter',
-	'maxTweets':10,
-	'showUser':false,
-	'dateFunction':formatDate,
-	'showRetweet':true,
-	'customCallback':handleTweets,
-	'showInteraction':false
-}
-
-twitterFetcher.fetch(config);
-
-
-function formatDate(date){
-	//return date.toString({day:'numeric', month:'long', year:'numeric'});
-	return date.toLocaleDateString('en-EN',{day:'numeric',month:'long',year:'numeric'});
-}
-
-
-function handleTweets(tweets){
-	var i=0;
-	var j=tweets.length;
-	var k=document.getElementById('twitter');
-	var l='<div id="tweets">';
-
-	while(i<j){
-		l+='<div class="tweet" id="cislo'+i+'">'+tweets[i]+'</div>';
-		i++;
-	}
-
-	l+='<a href="https://twitter.com/BotsDo" target="_blank"><i class="icon-twitter"></i></a>';
-	l+='</div>';
-
-	k.innerHTML=l;
-	var m=0;
-
-	function changeTweets(){
-		if(m==(tweets.length-1)){
-			m=0;
-		}else{
-			++m;
-		}
-
-		for(var n=0;n<tweets.length;n++){
-			document.getElementById('cislo'+n).style.display='none';
-		}
-
-		document.getElementById('cislo'+m).style.display='block';
-	}
-	changeTweets();
-
-	setInterval(changeTweets,5000);
-}
-</script>
-
-{% endif %}
-
 
 <script type="text/javascript" src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 

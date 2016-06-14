@@ -1,6 +1,6 @@
-# DoBots website
+# Crownstone website
 
-You can find this website at [www.dobots.nl](http://www.dobots.nl).
+You can find this website at [https://crownstone.rocks](https://crownstone.rocks).
 
 ## Prerequisites
 
