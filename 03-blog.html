@@ -1,0 +1,28 @@
+---
+layout: page
+title : Blog
+header : Blog
+group: navigation
+permalink: blog/
+---
+{% include JB/setup %}
+
+<!-- <div class="container"> -->
+<section class="dark-blue mini-wrap">
+	<div class="container">
+		<div class="row">
+			<h1>Blog</h1>
+			<p>At DoBots we all blog about a wide range of topics. Enjoy reading and feel free to contact us if you want to know more details!</p>
+		</div>
+	</div>
+</section>
+
+<section class="gray mini-wrap">
+	<div class="container">
+		<div class="row">
+			{% assign posts_collate = site.posts %}
+			{% include JB/posts_collate %}
+		</div>
+	</div>
+</section>
+<!-- </div> -->

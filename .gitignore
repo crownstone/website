@@ -1,0 +1,31 @@
+# The generated files do not need to be on github
+_site/*
+_theme_packages/*
+.bundle/*
+.sass-cache/
+# The identification for google analytics can be private
+google*
+
+serve
+
+Thumbs.db
+.DS_Store
+
+!.gitkeep
+
+.rbenv-version
+.rvmrc
+
+.env
+
+# Configuration files
+_config.yml
+_config-authors.yml
+
+# The scripts to create blog posts, or deploy the site
+# If you want them, give a yell!
+scripts/
+
+assets/resized
+
+attachments/hogeschool_rotterdam

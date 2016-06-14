@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="{{ site.description }}">
+<meta name="author" content="{{ site.author.name }}">
+<link rel="icon" type="image/x-icon" href="{{ BASE_PATH }}/images/favicon.ico?">
+<link rel="apple-touch-icon" href="{{ BASE_PATH }}/images/apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="72x72" href="{{ BASE_PATH }}/images/apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="114x114" href="{{ BASE_PATH }}/images/apple-touch-icon-114x114.png">
+
+{% if page.hide_title %}
+<title>DoBots</title>
+{% else %}
+<title>DoBots | {{ page.title }}</title>
+{% endif %}
+
+{% if page.description %}<meta name="description" content="{{ page.description }}">{% endif %}
+
+<link href="{{ ASSET_PATH }}/resources/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+{% stylesheet elusive-webfont %}
+
+<!-- Custom styles for this template -->
+
+{% stylesheet flexslider %}
+{% stylesheet dobots-style %}
+
+<!--[if lt IE 9]>
+	<script src="{{ ASSET_PATH }}/resources/respond/Respond.min.js"></script>
+<![endif]-->
+
+<link href="{{ BASE_PATH }}{{ site.JB.atom_path }}" type="application/atom+xml" rel="alternate" title="Sitewide ATOM Feed">
+<link href="{{ BASE_PATH }}{{ site.JB.rss_path }}" type="application/rss+xml" rel="alternate" title="Sitewide RSS Feed">
+
+
+</head>
+
+<body>
+    <!--
+<div id="headerBar" onclick="location.href='http://crownstone.rocks';">
+<center>
+<h4>
+<a href="http://crownstone.rocks/">http://crownstone.rocks</a> power outlet!
+</h4>
+</center>
+</div>
+    -->
+<header id="header" class="mini-wrap">
+	<div class="navbar navbar-inverse" role="navigation">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="{{ HOME_PATH }}"><img src="{{ BASE_PATH }}/images/logo.png" class="img-responsive" alt="DoBots"></a>
+			</div>
+
+			<div class="collapse navbar-collapse">
+				<ul class="nav navbar-nav navbar-right main-nav">
+					{% assign pages_list = site.pages | sort:"name" %}
+					{% assign group = 'navigation' %}
+					{% include JB/pages_list %}
+				</ul>
+			</div>
+		</div>
+	</div>
+</header>
+
+<section id="sub-menu"  class="mini-wrap">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<ul class="list-unstyled sub-menu pull-left slogan">
+					<!--					<li>"Computers, come, join us in the real world!"</li> -->
+					<li><a href="/2014/05/23/best-european-startup/">Best European Startup Award</a> winner of <a href="http://robotlaunch.com/">Robot Launch</a>!
+					</li>
+				</ul>
+				<ul class="list-unstyled sub-menu pull-right">
+					{% for node in site.pages %}
+						{% if node.url contains page.url and node.url != page.url and page.permalink != '/' %}
+							<li><a href="{{node.url}}">{{node.title}}</a></li>
+							{% assign menu_exists = true %}
+						{% endif %}
+					{% endfor %}
+					{% if menu_exists != true and page.permalink != '/' %}
+						{% assign url_parts = page.url | split: '/' %}
+						{% if url_parts %}
+							{% assign rm = url_parts | last %}
+							{% assign new_size = page.url.size | minus: rm.size %}
+							{% assign new_size = new_size | minus: 1 %}
+							{% assign base_url = page.url | truncate: new_size, '' %}
+							{% for node in site.pages %}
+								{% if node.url contains base_url and node.url != base_url and base_url != '/' %}
+								<li><a href="{{node.url}}">{{node.title}}</a></li>
+								{% endif %}
+							{% endfor %}
+						{% endif %}
+					{% endif %}
+				</ul>
+			</div>
+		</div>
+	</div>
+</section> <!--end / sub-menu-->
+
+{{ content }}
+
+<footer id="footer" class="mini-wrap gray">
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-6 col-sm-6 col-md-6 more-padding">
+				<img src="{{ BASE_PATH }}/images/youtube.png" alt="youtube"> Watch our <a href="https://www.youtube.com/channel/UC7bsuzp2BfL5F5RX07oLIzw">movies</a> and follow us on <a href="http://facebook.com/dobots">Facebook!</a></div>
+			<div class="col-xs-6 col-sm-6 col-md-6">
+				<ul class="list-items pull-right gutter-top-btm">
+					<li><a href="index.html">
+						<img src="{{ BASE_PATH }}/images/footer-logo.png" class="img-responsive" alt="DoBots"></a></li>
+					<li class="robot-info-dilog"><a href="#">
+						<img src="{{ BASE_PATH }}/images/two-robot.png" width="103" height="85" alt="robot">
+					</a>
+					<div class="footer-robot-dilog">
+						<div class="inner-robot-dilog">
+							Do you have a question? <script type="text/javascript">/*<![CDATA[*/var a=new Array(".nl","bots","do","@","fo","in");document.write("<a href='mailto:");for(i=a.length-1;i>=0;i--){document.write(a[i])}document.write("?subject=DoBots Contact' class='btn btn-default'>Yes</a>");/*]]>*/</script>
+							<div class="inner-arrow-right">
+								<img alt="dilog" class="img-responsive" src="{{ BASE_PATH }}/images/inner-dilog.png" draggable="false"> </div>
+						</div>
+
+					</div>
+					</li>
+				</ul>
+
+			</div>
+		</div>
+	</div>
+</footer>
+
+{% include JB/analytics %}
+
+<!-- in debug mode, Google Chrome worries about .map files, do not worry -->
+
+{% if page.skip_jquery %}
+<!-- Disable jQuery, use one in search.min.js -->
+{% else %}
+<script type="text/javascript" src="{{ ASSET_PATH }}/resources/jquery/jquery.min.js"></script>
+{% endif %}
+<script type="text/javascript" src="{{ ASSET_PATH }}/resources/bootstrap/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="{{ ASSET_PATH }}/js/jquery.flexslider.js"></script>
+
+{% if page.twitter %}
+<script type="text/javascript" src="{{ ASSET_PATH }}/js/twitterFetcher_min.js"></script>
+
+<!-- get your own id at https://twitter.com/settings/widgets -->
+<script type="text/javascript">
+var config={
+	'id':'474532446478680064',
+	'domId':'twitter',
+	'maxTweets':10,
+	'showUser':false,
+	'dateFunction':formatDate,
+	'showRetweet':true,
+	'customCallback':handleTweets,
+	'showInteraction':false
+}
+
+twitterFetcher.fetch(config);
+
+
+function formatDate(date){
+	//return date.toString({day:'numeric', month:'long', year:'numeric'});
+	return date.toLocaleDateString('en-EN',{day:'numeric',month:'long',year:'numeric'});
+}
+
+
+function handleTweets(tweets){
+	var i=0;
+	var j=tweets.length;
+	var k=document.getElementById('twitter');
+	var l='<div id="tweets">';
+
+	while(i<j){
+		l+='<div class="tweet" id="cislo'+i+'">'+tweets[i]+'</div>';
+		i++;
+	}
+
+	l+='<a href="https://twitter.com/BotsDo" target="_blank"><i class="icon-twitter"></i></a>';
+	l+='</div>';
+
+	k.innerHTML=l;
+	var m=0;
+
+	function changeTweets(){
+		if(m==(tweets.length-1)){
+			m=0;
+		}else{
+			++m;
+		}
+
+		for(var n=0;n<tweets.length;n++){
+			document.getElementById('cislo'+n).style.display='none';
+		}
+
+		document.getElementById('cislo'+m).style.display='block';
+	}
+	changeTweets();
+
+	setInterval(changeTweets,5000);
+}
+</script>
+
+{% endif %}
+
+
+<script type="text/javascript" src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+<script type="text/javascript">
+
+$(window).load(function(){
+		$('.text-slider').flexslider({
+			animation: "slide",
+			start: function(slider){
+				$('body').removeClass('loading');
+			}
+		});
+	});
+</script>
+
+</body>
+</html>

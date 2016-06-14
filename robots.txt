@@ -1,0 +1,6 @@
+User-agent: *
+
+Disallow: /error/
+Disallow: /scripts/
+Disallow: /js/
+Sitemap: https://dobots.nl/sitemap.txt
