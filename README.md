@@ -10,6 +10,11 @@ You can find this website at [https://crownstone.rocks](https://crownstone.rocks
     sudo gem install jekyll-assets
     sudo gem install jekyll-lunr-js-search
 
+
+## Bug fixing
+
+Jekyll uses `site.safe` to use `BASE_PATH`. Here we are only in production, but we do not want to set `safe: true` because that disables custom plugins. Hence in `_includes/JB/setup` we have removed the `site.safe` clause as indicated by ubershmekel at https://github.com/plusjade/jekyll-bootstrap/issues/84.
+
 ## Users
 
 You can add a blog post by:

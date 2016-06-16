@@ -20,7 +20,7 @@ Normally the robot will not be able to make a distiction between a fake and a
 real power outlet. However, with the additional distance information from the
 laser, it can! You will hear the robot respond to the real power outlet.
 
-{% youtube ogFNDs1SgwY %}
+<iframe width="560" height="420" src="//www.youtube.com/embed/ogFNDs1SgwY?color=white&amp;theme=light"></iframe>
 
 This research robot is available in our webshop because it is really good for
 research that involves a robot camera. The robot contains a Blackfin
