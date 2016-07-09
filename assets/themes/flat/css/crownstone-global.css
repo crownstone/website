@@ -1,0 +1,237 @@
+---
+title: CSS stylesheet
+---
+@font-face {
+    font-family: Lato;
+    src: url(../fonts/Lato-Regular.woff);
+}
+
+@font-face {
+    font-family: LatoLight;
+    src: url(../fonts/Lato-Light.woff);
+}
+
+@font-face {
+    font-family: LatoThin;
+    src: url(../fonts/Lato-Thin.woff);
+}
+
+@font-face {
+    font-family: LatoHairline;
+    src: url(../fonts/Lato-Hairline.woff);
+}
+
+body {
+    font-family: 'LatoLight';
+    font-size: 12pt;
+    line-height: 27pt;
+}
+
+@media (min-width: 768px) {
+    body {
+        font-size: 14pt;
+    }
+}
+
+h3,
+h4,
+h5,
+h6,
+.h3,
+.h4,
+.h5,
+.h6 {
+    font-family: 'LatoLight';
+}
+
+h1,
+h2,
+.h1,
+.h2 {
+    font-family: 'Lato';
+}
+
+.nav > li > a {
+    font-family: 'LatoLight';
+    font-size: 16px;
+    padding: 18px 20px 17px 20px;
+}
+
+.dropdown-menu > li > a {
+    font-family: 'LatoLight';
+}
+
+.navbar-static-top {
+    margin-bottom: 0;
+}
+
+
+img.topLogo {
+    padding: 5px;
+    padding-right: 22px;
+}
+
+img.topLogo.xs {
+    float:left;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+div.bannerContainer {
+    position:relative;
+    background-position: center;
+    background-size: cover;
+    padding:0;
+    overflow:hidden;
+    border-width: 1px 0px 1px 0px;
+    border-style: solid;
+    border-color: #111924;
+    margin-bottom:30px;
+}
+
+div.usecaseBackground {
+    background-image: url("{{ BASE_URL }}/images/usecase_placeholder.jpg");
+}
+div.introBackground {
+    background-image: url("{{ BASE_URL }}/images/header_w_text_bold.jpg");
+}
+div.teamBackground {
+    background-image: url("{{ BASE_URL }}/images/team/header.jpg");
+}
+div.jobsBackground {
+    background-image: url("{{ BASE_URL }}/images/jobs.jpg");
+}
+div.comingSoon {
+    background-image: url("{{ BASE_URL }}/images/comingSoon.jpg");
+}
+div.consumerTechnologyBackground {
+    background-image: url("{{ BASE_URL }}/images/crownstoneConsumerTechnology.jpg");
+}
+
+div.logoOverlay {
+    background-image: url("{{ BASE_URL }}/images/logoOverlay.png");
+    background-size:cover;
+    position:absolute;
+    top:0;
+    height:350px;
+    min-height:350px;
+    width:100%;
+}
+
+div.bannerContainer.xl { height:1050px; }
+div.bannerContainer.lg { height:750px; }
+div.bannerContainer.mdlg { height:550px; }
+div.bannerContainer.md { height:450px; }
+div.bannerContainer.sm { height:350px; }
+div.bannerContainer.xs { height:180px; }
+
+.navbar-default .navbar-nav > .active > a {
+    background-color: #00253c;
+    color: white
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+    background-color: #007cc3;
+    color: white
+}
+
+.navbar-default .navbar-nav > li > a:focus {
+    background-color: #007cc3;
+    color: white
+}
+
+div.crownstoneText {
+    float:left;
+    height:50px;
+    line-height: 50px;
+    font-size: 20px;
+}
+
+div.videoContainer {
+    position:relative;
+    width: 100%;
+}
+
+div.videoContainer.xl { min-width:2400px; }
+div.videoContainer.lg { min-width:1700px; }
+div.videoContainer.mdlg { min-width:1100px; }
+div.videoContainer.md { min-width:929px; }
+div.videoContainer.sm { min-width:723px; }
+
+.featurette-divider {
+    margin: 80px 0; /* Space out the Bootstrap <hr> more */
+    border-top: 1px solid #d2d2d2;
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+    font-weight: 300;
+    line-height: 1;
+    letter-spacing: -1px;
+}
+
+video.headerVideo {
+    width:100%;
+}
+
+
+div.kid {
+    background-image: url("../images/kid.png");
+    background-position: center;
+    background-size: cover;
+    border-width: 1px 0px 1px 0px;
+    border-style: solid;
+    border-color: #111924;
+    margin-bottom:30px;
+    height:100px;
+}
+
+div.footer {
+    margin-top:50px;
+    background-color: #00253c;
+    color:white;
+}
+
+div.fullWidthImage {
+    position:relative;
+    background-image: url("../images/renderCombined.png");
+    background-position: center;
+    background-size: cover;
+    padding:0;
+    border-width: 1px 0px 1px 0px;
+    border-style: solid;
+    border-color: #111924;
+    height: 500px;
+    overflow: hidden;
+    margin-top:30px;
+    margin-bottom:40px;
+}
+
+
+div.fullWidthImage.lg { height:600px; }
+div.fullWidthImage.md { height:500px; }
+div.fullWidthImage.sm { height:350px; }
+div.fullWidthImage.xs { height:200px; }
+
+div.marginTopM {
+    margin-top:40px;
+}
+
+
+a.footer {
+    color:#dddddd;
+}
+
+i.footer {
+    margin-right:20px;
+}
+
+p.sitemap {
+
+}
+
+div.colofon {
+    font-size:10pt;
+    color:#aaaaaa;
+    line-height: 12pt;
+}

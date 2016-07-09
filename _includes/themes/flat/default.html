@@ -1,141 +1,184 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="{{ site.description }}">
-<meta name="author" content="{{ site.author.name }}">
-<link rel="icon" type="image/x-icon" href="{{ BASE_PATH }}/images/favicon.ico?">
-<link rel="apple-touch-icon" href="{{ BASE_PATH }}/images/apple-touch-icon.png">
-<link rel="apple-touch-icon" sizes="72x72" href="{{ BASE_PATH }}/images/apple-touch-icon-72x72.png">
-<link rel="apple-touch-icon" sizes="114x114" href="{{ BASE_PATH }}/images/apple-touch-icon-114x114.png">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="{{ site.description }}">
+    <meta name="author" content="{{ site.author.name }}">
+    <link rel="icon" type="image/x-icon" href="{{ BASE_PATH }}/images/favicon.ico?">
+    <link rel="apple-touch-icon" href="{{ BASE_PATH }}/images/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="{{ BASE_PATH }}/images/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="{{ BASE_PATH }}/images/apple-touch-icon-114x114.png">
 
-{% if page.hide_title %}
-<title>DoBots</title>
-{% else %}
-<title>DoBots | {{ page.title }}</title>
-{% endif %}
+    {% if page.hide_title %}
+    <title>Crownstone</title>
+    {% else %}
+    <title>Crownstone | {{ page.title }}</title>
+    {% endif %}
 
-{% if page.description %}<meta name="description" content="{{ page.description }}">{% endif %}
+    {% if page.description %}<meta name="description" content="{{ page.description }}">{% endif %}
 
-<link href="{{ ASSET_PATH }}/resources/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="{{ ASSET_PATH }}/resources/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-<!-- stylesheet plugin doesn't respect BASE_PATH before assets -->
-{% stylesheet elusive-webfont %}
-{% stylesheet flexslider %}
-{% stylesheet crownstone-style %}
+    <!--
+    {% stylesheet elusive-webfont %}
+    {% stylesheet flexslider %}
+    -->
+    <!-- Custom styles for this template -->
+    <!--
+    {% stylesheet crownstone-navbar-static-top %}
+    -->
+    <link href="{{ ASSET_PATH }}/css/crownstone-navbar-static-top.css" rel="stylesheet"> 
+    
+    <!-- Overwrites navbar-static-top ! -->
+    <link href="{{ ASSET_PATH }}/css/crownstone-global.css" rel="stylesheet"> 
+    
 
-<!--[if lt IE 9]>
-	<script src="{{ ASSET_PATH }}/resources/respond/Respond.min.js"></script>
-<![endif]-->
+    <!--    <link href="css/navbar-static-top.css" rel="stylesheet"> -->
 
-<link href="{{ BASE_PATH }}{{ site.JB.atom_path }}" type="application/atom+xml" rel="alternate" title="Sitewide ATOM Feed">
-<link href="{{ BASE_PATH }}{{ site.JB.rss_path }}" type="application/rss+xml" rel="alternate" title="Sitewide RSS Feed">
+    <!--[if lt IE 9]>
+        <script src="{{ ASSET_PATH }}/resources/respond/Respond.min.js"></script>
+    <![endif]-->
 
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <!-- <link href="./bootstrap/css/ie10-viewport-bug-workaround.css" rel="stylesheet"> -->
+
+    <link href="{{ BASE_PATH }}{{ site.JB.atom_path }}" type="application/atom+xml" rel="alternate" title="Sitewide ATOM Feed">
+    <link href="{{ BASE_PATH }}{{ site.JB.rss_path }}" type="application/rss+xml" rel="alternate" title="Sitewide RSS Feed">
+
+    <script>
+        // set the appropriate background image
+        BACKGROUND_CLASS = 'introBackground';
+    </script>
 
 </head>
 
 <body>
-    <!--
-<div id="headerBar" onclick="location.href='http://crownstone.rocks';">
-<center>
-<h4>
-<a href="http://crownstone.rocks/">http://crownstone.rocks</a> power outlet!
-</h4>
-</center>
-</div>
-    -->
-<header id="header" class="mini-wrap">
-	<div class="navbar navbar-inverse" role="navigation">
-		<div class="container">
+
+	<nav class="navbar navbar-default navbar-static-top">
+        <div class="container navContainer">
 			<div class="navbar-header">
-				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-control="navbar">
 					<span class="sr-only">Toggle navigation</span>
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 				</button>
-				<a class="navbar-brand" href="{{ HOME_PATH }}"><img src="{{ BASE_PATH }}/images/logo.png" class="img-responsive" alt="DoBots"></a>
+                <div class="visible-xs">
+                    <img class="topLogo xs" src="{{ BASE_PATH }}/images/crownstoneLogoExtraSmall.png" />
+                    <div class="crownstoneText">Crownstone</div>
+                </div>
+<!--				<a class="navbar-brand" href="{{ HOME_PATH }}"><img src="{{ BASE_PATH }}/images/logo.png" class="img-responsive" alt="DoBots"></a>
+-->
 			</div>
 
-			<div class="collapse navbar-collapse">
-				<ul class="nav navbar-nav navbar-right main-nav">
+			<div id="navbar" class="collapse navbar-collapse">
+				<ul class="nav navbar-nav">
+                    {% capture cache %}
 					{% assign pages_list = site.pages | sort:"name" %}
 					{% assign group = 'navigation' %}
 					{% include JB/pages_list %}
+                    {% endcapture %}{{ cache | strip_newlines }}
 				</ul>
 			</div>
 		</div>
-	</div>
-</header>
-
-<section id="sub-menu"  class="mini-wrap">
-	<div class="container">
-		<div class="row">
-			<div class="col-md-12">
-				<ul class="list-unstyled sub-menu pull-left slogan">
-					<!--					<li>"Computers, come, join us in the real world!"</li> -->
-					<li>Accepted in the <a href="http://www.rockstart.com/startups/crownstone/">Rockstart Accelerator</a>!
-					</li>
-				</ul>
-				<ul class="list-unstyled sub-menu pull-right">
-					{% for node in site.pages %}
-						{% if node.url contains page.url and node.url != page.url and page.permalink != '/' %}
-							<li><a href="{{node.url}}">{{node.title}}</a></li>
-							{% assign menu_exists = true %}
-						{% endif %}
-					{% endfor %}
-					{% if menu_exists != true and page.permalink != '/' %}
-						{% assign url_parts = page.url | split: '/' %}
-						{% if url_parts %}
-							{% assign rm = url_parts | last %}
-							{% assign new_size = page.url.size | minus: rm.size %}
-							{% assign new_size = new_size | minus: 1 %}
-							{% assign base_url = page.url | truncate: new_size, '' %}
-							{% for node in site.pages %}
-								{% if node.url contains base_url and node.url != base_url and base_url != '/' %}
-								<li><a href="{{node.url}}">{{node.title}}</a></li>
-								{% endif %}
-							{% endfor %}
-						{% endif %}
-					{% endif %}
-				</ul>
-			</div>
-		</div>
-	</div>
-</section> <!--end / sub-menu-->
+	</nav>
 
 {{ content }}
 
-<footer id="footer" class="mini-wrap gray">
-	<div class="container">
-		<div class="row">
-			<div class="col-xs-6 col-sm-6 col-md-6 more-padding">
-                <!--<img src="{{ BASE_PATH }}/images/youtube.png" alt="youtube"> Watch our <a href="https://www.youtube.com/channel/UC7bsuzp2BfL5F5RX07oLIzw">movies</a> and follow us on <a href="http://facebook.com/dobots">Facebook!</a></div> -->
-				Follow us on <a href="http://facebook.com/crownstones">Facebook!</a></div>
-			<div class="col-xs-6 col-sm-6 col-md-6">
-				<ul class="list-items pull-right gutter-top-btm">
-					<li><a href="index.html">
-						<img src="{{ BASE_PATH }}/images/footer-logo.png" class="img-responsive" alt="Crownstone"></a></li>
-					<li class="robot-info-dilog"><a href="#">
-						<img src="{{ BASE_PATH }}/images/two-robot.png" width="103" height="85" alt="robot">
-					</a>
-					<div class="footer-robot-dilog">
-						<div class="inner-robot-dilog">
-							Do you have a question? <script type="text/javascript">/*<![CDATA[*/var a=new Array(".nl","bots","do","@","fo","in");document.write("<a href='mailto:");for(i=a.length-1;i>=0;i--){document.write(a[i])}document.write("?subject=Crownstone Contact' class='btn btn-default'>Yes</a>");/*]]>*/</script>
-							<div class="inner-arrow-right">
-								<img alt="dilog" class="img-responsive" src="{{ BASE_PATH }}/images/inner-dilog.png" draggable="false"> </div>
-						</div>
+<div class="footer">
+    <br />
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-1"></div>
+            <div class="col-sm-10">
+                <div class="row">
+                    <div class="col-sm-4 text-center">
+                        <h4>Crownstone</h4>
+                        <div style="display:inline-block;">
+                            <ul class="list-unstyled">
+                                <li><a href="./index.html" class="footer">Home</a></li>
+                                <li><a href="./technologyConsumer.html" class="footer">Technology</a></li>
+                                <li><a href="./scenarios.html" class="footer">Scenarios</a></li>
+                                <li><a href="https://shop.crownstone.rocks" class="footer">Shop</a></li>
+                                <li><a href="./blog.html" class="footer">Blog</a></li>
+                                <li><a href="./team.html" class="footer">Team</a></li>
+                                <li><a href="./jobs.html" class="footer">Jobs</a></li>
+                            </ul>
+                        </div>
+                    </div>
 
-					</div>
-					</li>
-				</ul>
+                    <div class="col-sm-4 text-center">
+                        <h4>Business to Business</h4>
+                        <div style="display:inline-block;">
+                            <ul class="list-unstyled">
+                                <li><a href="./business.html" class="footer">Home</a></li>
+                                <li><a href="./comingSoon.html" class="footer">Sectors</a></li>
+                                <li><a href="./comingSoon.html" class="footer">Coming Soon</a></li>
+                            </ul>
+                        </div>
+                    </div>
 
-			</div>
-		</div>
-	</div>
-</footer>
+                    <div class="col-sm-4 text-center">
+                        <h4>Contact</h4>
+                        <div style="display:inline-block;">
+                            <ul class="list-unstyled text-left">
+                                <li>
+                                    <a href="mailto:info@crownstone.rocks?subject=Get in contact" class="footer">
+                                        <i class="el el-envelope footer"></i>Email us!
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.linkedin.com/company/10784461?trk=prof-exp-company-name" target="_blank" class="footer">
+                                        <i class="el el-linkedin footer"></i>Linkedin
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.facebook.com/crownstones/" target="_blank" class="footer">
+                                        <i class="el el-facebook footer"></i>Facebook
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://twitter.com/crownstone_db" target="_blank" class="footer">
+                                        <i class="el el-twitter footer"></i>Twitter
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://vimeo.com/alexdemulder" target="_blank" class="footer">
+                                        <i class="el el-vimeo footer"></i>Vimeo
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.youtube.com/channel/UC7bsuzp2BfL5F5RX07oLIzw" target="_blank" class="footer">
+                                        <i class="el el-youtube footer"></i>Youtube
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="./comingSoon.html" class="footer">
+                                        <i class="el el-arrow-down footer"></i>Presskit
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-1"></div>
+        </div>
+        <br/>
+        <div class="row">
+            <div class="col-sm-12 text-center colofon">
+                Crownstone<br/>
+                Stationsplein 45, unit 205-207<br/>
+                3013 AK Rotterdam<br/>
+                +31 (0)10 404 9444
+            </div>
+        </div>
+    </div>
+    <br />
+</div>
+
 
 {% include JB/analytics %}
 
@@ -146,22 +189,21 @@
 {% else %}
 <script type="text/javascript" src="{{ ASSET_PATH }}/resources/jquery/jquery.min.js"></script>
 {% endif %}
+
 <script type="text/javascript" src="{{ ASSET_PATH }}/resources/bootstrap/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="{{ ASSET_PATH }}/js/adaptingVideoSize.js"></script>
+
+<!--
 <script type="text/javascript" src="{{ ASSET_PATH }}/js/jquery.flexslider.js"></script>
+-->
 
+<!--
 <script type="text/javascript" src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+-->
 
-<script type="text/javascript">
-
-$(window).load(function(){
-		$('.text-slider').flexslider({
-			animation: "slide",
-			start: function(slider){
-				$('body').removeClass('loading');
-			}
-		});
-	});
-</script>
+<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+<script type="text/javascript" src="{{ ASSET_PATH }}/resources/bootstrap/js/ie10-viewport-bug-workaround.js"></script>
 
 </body>
 </html>
