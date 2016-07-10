@@ -38,7 +38,6 @@ Usage:
       {% endif %}
     {% endif %}
   {% endfor %}
-<!--	<li><a href="mailto:info@dobots.nl?subject=Get in contact">Contact</a></li> -->
 {% endif %}
 {% assign pages_list = nil %}
 {% assign group = nil %}

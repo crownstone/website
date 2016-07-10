@@ -5,20 +5,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="{{ site.description }}">
+    <meta name="keywords" content="{{ site.keywords }}">
     <meta name="author" content="{{ site.author.name }}">
     <link rel="icon" type="image/x-icon" href="{{ BASE_PATH }}/images/favicon.ico?">
     <link rel="apple-touch-icon" href="{{ BASE_PATH }}/images/apple-touch-icon.png">
     <link rel="apple-touch-icon" sizes="72x72" href="{{ BASE_PATH }}/images/apple-touch-icon-72x72.png">
     <link rel="apple-touch-icon" sizes="114x114" href="{{ BASE_PATH }}/images/apple-touch-icon-114x114.png">
-
+    {% strip %}
+    
     {% if page.hide_title %}
     <title>Crownstone</title>
     {% else %}
     <title>Crownstone | {{ page.title }}</title>
     {% endif %}
 
-    {% if page.description %}<meta name="description" content="{{ page.description }}">{% endif %}
+    {% if page.description %}
+    <meta name="description" content="{{ page.description }}">
+    {% endif %}
 
+    <!-- Bootstrap as framework -->
     <link href="{{ ASSET_PATH }}/resources/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
@@ -38,14 +43,17 @@
 
     <link href="{{ BASE_PATH }}{{ site.JB.atom_path }}" type="application/atom+xml" rel="alternate" title="Sitewide ATOM Feed">
     <link href="{{ BASE_PATH }}{{ site.JB.rss_path }}" type="application/rss+xml" rel="alternate" title="Sitewide RSS Feed">
+    {% endstrip %}
 
+    {% strip %}
     {% if page.background %}
     <script>
         // set the appropriate background image
         BACKGROUND_CLASS = '{{ page.background }}';
     </script>
     {% endif %}
-
+    {% endstrip %}
+    
 </head>
 
 <body>
@@ -63,17 +71,15 @@
                     <img class="topLogo xs" src="{{ BASE_PATH }}/images/crownstoneLogoExtraSmall.png" />
                     <div class="crownstoneText">Crownstone</div>
                 </div>
-<!--				<a class="navbar-brand" href="{{ HOME_PATH }}"><img src="{{ BASE_PATH }}/images/logo.png" class="img-responsive" alt="DoBots"></a>
--->
 			</div>
 
 			<div id="navbar" class="collapse navbar-collapse">
 				<ul class="nav navbar-nav">
-                    {% capture cache %}
+                    {% strip %}
 					{% assign pages_list = site.pages | sort:"name" %}
 					{% assign group = 'navigation' %}
 					{% include JB/pages_list %}
-                    {% endcapture %}{{ cache | strip_newlines }}
+                    {% endstrip %}
 				</ul>
                 <ul class="nav navbar-nav pull-right">
                     <li><a href="https://shop.crownstone.rocks/products/ready-to-go-kit-with-two-plug-in-crownstones?ref=http://crownstone.rocks/goshop">Go shop!</a></li>
@@ -95,11 +101,11 @@
                         <h4>Crownstone for Consumers</h4>
                         <div style="display:inline-block;">
                             <ul class="list-unstyled">
-                    {% capture cache %}
-					{% assign pages_list = site.pages | sort:"name" %}
-					{% assign group = 'navigation-consumer-footer' %}
-					{% include JB/pages_list %}
-                    {% endcapture %}{{ cache | strip_newlines }}
+                                {% strip %}
+                                {% assign pages_list = site.pages | sort:"name" %}
+                                {% assign group = 'navigation-consumer-footer' %}
+                                {% include JB/pages_list %}
+                                {% endstrip %}
                             </ul>
                         </div>
                     </div>
@@ -108,11 +114,11 @@
                         <h4>Business to Business</h4>
                         <div style="display:inline-block;">
                             <ul class="list-unstyled">
-                    {% capture cache %}
-					{% assign pages_list = site.pages | sort:"name" %}
-					{% assign group = 'navigation-business-footer' %}
-					{% include JB/pages_list %}
-                    {% endcapture %}{{ cache | strip_newlines }}
+                                {% strip %}
+                                {% assign pages_list = site.pages | sort:"name" %}
+                                {% assign group = 'navigation-business-footer' %}
+                                {% include JB/pages_list %}
+                                {% endstrip %}
                             </ul>
                         </div>
                     </div>
@@ -174,12 +180,17 @@
     <br />
 </div>
 
+{% strip %}
 
 {% include JB/analytics %}
 
-<!-- in debug mode, Google Chrome complains about .map files, do not worry -->
+{% endstrip %}
 
-{% if page.skip_jquery %}
+{% strip %}
+
+<!-- in debug mode, Google Chrome complains about .map files, do not worry -->                    
+
+{% if page.skip_jquery -%}
 <!-- Disable jQuery, use the one embedded in search.min.js -->
 {% else %}
 <script type="text/javascript" src="{{ ASSET_PATH }}/resources/jquery/jquery.min.js"></script>
@@ -197,6 +208,8 @@
 
 <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
 <script type="text/javascript" src="{{ ASSET_PATH }}/resources/bootstrap/js/ie10-viewport-bug-workaround.js"></script>
+                    
+{% endstrip %}
 
 </body>
 </html>
