@@ -63,6 +63,7 @@ h2,
 
 .navbar-static-top {
     margin-bottom: 0;
+    border-width: 0px;
 }
 
 
@@ -96,7 +97,7 @@ div.introBackground {
     background-image: url("{{ BASE_URL }}/images/header_w_text_bold.jpg");
 }
 div.teamBackground {
-    background-image: url("{{ BASE_URL }}/images/team/header.jpg");
+    background-image: url("{{ BASE_URL }}/images/team_header.jpg");
 }
 div.jobsBackground {
     background-image: url("{{ BASE_URL }}/images/jobs.jpg");

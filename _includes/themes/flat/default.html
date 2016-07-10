@@ -21,22 +21,14 @@
 
     <link href="{{ ASSET_PATH }}/resources/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-    <!--
-    {% stylesheet elusive-webfont %}
-    {% stylesheet flexslider %}
-    -->
     <!-- Custom styles for this template -->
-    <!--
-    {% stylesheet crownstone-navbar-static-top %}
-    -->
     <link href="{{ ASSET_PATH }}/css/crownstone-navbar-static-top.css" rel="stylesheet"> 
     
     <!-- Overwrites navbar-static-top ! -->
     <link href="{{ ASSET_PATH }}/css/crownstone-global.css" rel="stylesheet"> 
     
-
-    <!--    <link href="css/navbar-static-top.css" rel="stylesheet"> -->
-
+    <link href="{{ ASSET_PATH }}/css/elusive-icons.min.css" rel="stylesheet"> 
+    
     <!--[if lt IE 9]>
         <script src="{{ ASSET_PATH }}/resources/respond/Respond.min.js"></script>
     <![endif]-->
@@ -47,10 +39,12 @@
     <link href="{{ BASE_PATH }}{{ site.JB.atom_path }}" type="application/atom+xml" rel="alternate" title="Sitewide ATOM Feed">
     <link href="{{ BASE_PATH }}{{ site.JB.rss_path }}" type="application/rss+xml" rel="alternate" title="Sitewide RSS Feed">
 
+    {% if page.background %}
     <script>
         // set the appropriate background image
-        BACKGROUND_CLASS = 'introBackground';
+        BACKGROUND_CLASS = '{{ page.background }}';
     </script>
+    {% endif %}
 
 </head>
 
@@ -81,6 +75,9 @@
 					{% include JB/pages_list %}
                     {% endcapture %}{{ cache | strip_newlines }}
 				</ul>
+                <ul class="nav navbar-nav pull-right">
+                    <li><a href="https://shop.crownstone.rocks/products/ready-to-go-kit-with-two-plug-in-crownstones?ref=http://crownstone.rocks/goshop">Go shop!</a></li>
+                </ul>
 			</div>
 		</div>
 	</nav>
@@ -95,16 +92,14 @@
             <div class="col-sm-10">
                 <div class="row">
                     <div class="col-sm-4 text-center">
-                        <h4>Crownstone</h4>
+                        <h4>Crownstone for Consumers</h4>
                         <div style="display:inline-block;">
                             <ul class="list-unstyled">
-                                <li><a href="./index.html" class="footer">Home</a></li>
-                                <li><a href="./technologyConsumer.html" class="footer">Technology</a></li>
-                                <li><a href="./scenarios.html" class="footer">Scenarios</a></li>
-                                <li><a href="https://shop.crownstone.rocks" class="footer">Shop</a></li>
-                                <li><a href="./blog.html" class="footer">Blog</a></li>
-                                <li><a href="./team.html" class="footer">Team</a></li>
-                                <li><a href="./jobs.html" class="footer">Jobs</a></li>
+                    {% capture cache %}
+					{% assign pages_list = site.pages | sort:"name" %}
+					{% assign group = 'navigation-consumer-footer' %}
+					{% include JB/pages_list %}
+                    {% endcapture %}{{ cache | strip_newlines }}
                             </ul>
                         </div>
                     </div>
@@ -113,9 +108,11 @@
                         <h4>Business to Business</h4>
                         <div style="display:inline-block;">
                             <ul class="list-unstyled">
-                                <li><a href="./business.html" class="footer">Home</a></li>
-                                <li><a href="./comingSoon.html" class="footer">Sectors</a></li>
-                                <li><a href="./comingSoon.html" class="footer">Coming Soon</a></li>
+                    {% capture cache %}
+					{% assign pages_list = site.pages | sort:"name" %}
+					{% assign group = 'navigation-business-footer' %}
+					{% include JB/pages_list %}
+                    {% endcapture %}{{ cache | strip_newlines }}
                             </ul>
                         </div>
                     </div>
@@ -125,9 +122,7 @@
                         <div style="display:inline-block;">
                             <ul class="list-unstyled text-left">
                                 <li>
-                                    <a href="mailto:info@crownstone.rocks?subject=Get in contact" class="footer">
-                                        <i class="el el-envelope footer"></i>Email us!
-                                    </a>
+                                    <script type="text/javascript">/*<![CDATA[*/var a=new Array("{{ site.contact-team.email[0] }}", "{{ site.contact-team.email[1] }}", "{{ site.contact-team.email[2] }}", "{{ site.contact-team.email[3] }}", "{{ site.contact-team.email[4] }}", "{{ site.contact-team.email[5] }}");document.write("<a href='mailto:");for(i=a.length-1;i>=0;i--){document.write(a[i])}document.write("?subject=Get in contact' class='footer'><i class='el el-envelope footer'></i>Email us!</a>");/*]]>*/</script>
                                 </li>
                                 <li>
                                     <a href="https://www.linkedin.com/company/10784461?trk=prof-exp-company-name" target="_blank" class="footer">
@@ -155,7 +150,7 @@
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="./comingSoon.html" class="footer">
+                                    <a href="https://cdn.shopify.com/s/files/1/1030/5157/files/Press_Kit-2016-04-01.zip?14879015916008726670" class="footer">
                                         <i class="el el-arrow-down footer"></i>Presskit
                                     </a>
                                 </li>
@@ -182,25 +177,23 @@
 
 {% include JB/analytics %}
 
-<!-- in debug mode, Google Chrome worries about .map files, do not worry -->
+<!-- in debug mode, Google Chrome complains about .map files, do not worry -->
 
 {% if page.skip_jquery %}
-<!-- Disable jQuery, use one in search.min.js -->
+<!-- Disable jQuery, use the one embedded in search.min.js -->
 {% else %}
 <script type="text/javascript" src="{{ ASSET_PATH }}/resources/jquery/jquery.min.js"></script>
 {% endif %}
 
 <script type="text/javascript" src="{{ ASSET_PATH }}/resources/bootstrap/js/bootstrap.min.js"></script>
 
+{% if page.background %}
 <script type="text/javascript" src="{{ ASSET_PATH }}/js/adaptingVideoSize.js"></script>
+{% endif %}
 
-<!--
-<script type="text/javascript" src="{{ ASSET_PATH }}/js/jquery.flexslider.js"></script>
--->
-
-<!--
+{% if post.math %}
 <script type="text/javascript" src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
--->
+{% endif %}
 
 <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
 <script type="text/javascript" src="{{ ASSET_PATH }}/resources/bootstrap/js/ie10-viewport-bug-workaround.js"></script>

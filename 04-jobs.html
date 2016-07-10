@@ -2,10 +2,15 @@
 layout: page
 title: Jobs
 header: Pages
-group: navigation
+group: [navigation, navigation-consumer-footer]
 permalink: jobs/
 ---
 {% include JB/setup %}
+
+<div class="bannerContainer lg visible-lg jobsBackground"></div>
+<div class="bannerContainer md visible-md jobsBackground"></div>
+<div class="bannerContainer sm visible-sm jobsBackground"></div>
+<div class="bannerContainer xs visible-xs jobsBackground"></div>
 
 <section class="dark-blue">
 	<div class="container">
@@ -13,10 +18,7 @@ permalink: jobs/
 			<div class="col-xs-6 col-sm-6 col-md-6">
 				<h2>Jobs</h2>
 				<p>
-				DoBots is always looking for talented people with expertise in embedded programming, artificial intelligence, machine learning, or statistical physics.
-				</p>
-				<p>
-				Join us as we develop software that's built to scale and change robotics forever!
+				Crownstone is always looking for talented people with expertise in embedded programming, artificial intelligence, machine learning, or statistical physics.
 				</p>
 				<h2>Interns</h2>
 				<p>
@@ -33,12 +35,14 @@ permalink: jobs/
 				<!--	<div class="col-sm-6"> -->
 				<h2>Open applications</h2>
 				<p>
-				You're welcome! If you have an interesting story that is :-) </p>
-				<p>Please, send it to our lead R&Der: <script type="text/javascript">/*<![CDATA[*/var a=new Array(".nl","bots","do","@","ne","an");document.write("<a href='mailto:");for(i=a.length-1;i>=0;i--){document.write(a[i])}document.write("?subject=Open application'>Anne van Rossum</a>");/*]]>*/</script>
+				You're welcome! If you have an interesting story that is :-) 
+                Please email <script type="text/javascript">/*<![CDATA[*/var a=new Array("{{ site.contact-job.email[0] }}", "{{ site.contact-job.email[1] }}", "{{ site.contact-job.email[2] }}", "{{ site.contact-job.email[3] }}", "{{ site.contact-job.email[4] }}", "{{ site.contact-job.email[5] }}");document.write("<a href='mailto:");for(i=a.length-1;i>=0;i--){document.write(a[i])}document.write("?subject=Open application'>{{ site.contact-job.name }}</a>");/*]]>*/</script> your motivation.
 				</p>
 				<h2>Full-time positions</h2>
 				<p>
-				Currently, there are no open positions available. Thank you for considering us!
+                There is currently an open position for an electrical engineer (see <a href="https://www.linkedin.com/pulse/wanted-enthusiastic-electrical-engineer-chlo%C3%A9-pothof">LinkedIn</a> for a description).
+                Also, if you have experience with bringing B2C products to the market, email 
+                <script type="text/javascript">/*<![CDATA[*/var a=new Array("{{ site.contact-job.email[0] }}", "{{ site.contact-job.email[1] }}", "{{ site.contact-job.email[2] }}", "{{ site.contact-job.email[3] }}", "{{ site.contact-job.email[4] }}", "{{ site.contact-job.email[5] }}");document.write("<a href='mailto:");for(i=a.length-1;i>=0;i--){document.write(a[i])}document.write("?subject=Website application'>{{ site.contact-job.name }}</a>");/*]]>*/</script>.
 				</p>
 
 			</div><!--/.row-->
@@ -49,8 +53,8 @@ permalink: jobs/
 <section class="gray">
 	<div class="container">
 		<div class="row">
-			<h2>"Algorithmic" graduation projects</h2>
-			<p>These graduation projects are focused on algorithms, software and/or control. Please, only apply if you live in the Netherlands and in the context of a graduation project. Proficient English is required, Dutch isn't.
+			<h2>Graduation projects</h2>
+			<p>Please, only apply if you live in the Netherlands and in the context of a graduation project. Proficient English is required, Dutch isn't.
 			</p>
 		</div>
 		<div class="row">
@@ -65,7 +69,16 @@ permalink: jobs/
 					</p>
 				</div>
 			</div>
-
+			<div class="col-md-3 col-xs-6">
+				<div class="center forget-box">
+					<h3>Detect daily activities</h3>
+					<p>Crownstones can detect so-called activities of daily life. They are able to (1) help elderly to turn off devices if they start to forget things, (2) diagnose dementia, (3) detect anomalies in daily life, for example, not leaving the bedroom, (4) support communication with their children.
+                   <!-- (<a href="https://docs.google.com/document/d/130tMgaEEL04bdGByvQVc-BBRSyXfvJa2dUnN5GPue68/edit?usp=sharing">Read more</a>)
+                   <div class="forget-button"><a href="https://docs.google.com/document/d/130tMgaEEL04bdGByvQVc-BBRSyXfvJa2dUnN5GPue68/edit?usp=sharing" class="btn btn-default">Reserved</a></div> -->
+					</p>
+				</div>
+			</div>
+<!--
 			<div class="col-md-3 col-xs-6">
 				<div class="center forget-box">
 					<h3>Compressed sensing</h3>
@@ -74,81 +87,8 @@ permalink: jobs/
 					</p>
 				</div>
 			</div>
-<!--
-			<div class="col-md-3 col-xs-6">
-				<div class="center forget-box">
-					<h3>Vision-based spatial awareness</h3>
-					<p>Devise a method that can extract features from video that are important for localization; in particular large planes such as the ground plane, walls and ceilings! (<a href="https://docs.google.com/document/d/1uPVIiBFAEP__MEwJh5bawbNWQzeJDPXJr03DY-_VN3Y/edit?usp=sharing">Read more</a>)
-					<div class="forget-button"><a href="https://docs.google.com/document/d/1uPVIiBFAEP__MEwJh5bawbNWQzeJDPXJr03DY-_VN3Y/edit?usp=sharing" class="btn btn-default">Fulfilled</a></div>
-					</p>
-				</div>
-			</div>
 -->
-			<div class="col-md-3 col-xs-6">
-				<div class="center">
-					<h3>Virtual Coach</h3>
-					<p>Find out why people exercise! We are building a recommender engine, not for showing ads, but to help
-				       people with healthy activities. Your chance to know everything about collaborative filtering!
-				       (<a href="https://docs.google.com/document/d/1gsAXe7R3F-0hPsKZYLjR7E70XDoILePy5s6_Q4k_O6k/edit?usp=sharing">Read more</a>)
-					</p>
-				</div>
-			</div>
-
 		</div>
-
-		<hr class="sep">
-
-		<div class="row">
-			<h2>"Technological" graduation projects</h2>
-			<p>The following graduation projects are focused on full solutions, hardware development, and embedded programming.
-			</p>
-		</div>
-		<div class="row">
-			<div class="col-md-3 col-xs-6">
-				<div class="center forget-box">
-					<h3>3D printing of phone bodies</h3>
-					<p>Work on a robotic body for a smartphone which can be used for multi-robot demos and experiments! (<a href="https://docs.google.com/document/d/11F7o2IamSFN9OlE5EIFOMtQVJ-x8W3JCxjL0k1KHEmE/edit?pli=1">Read more</a>)
-					<div class="forget-button"><a href="https://docs.google.com/document/d/11F7o2IamSFN9OlE5EIFOMtQVJ-x8W3JCxjL0k1KHEmE/edit?pli=1" class="btn btn-default">Fulfilled</a></div>
-					</p>
-				</div>
-			</div>
-		<!--
-			<div class="col-md-3 col-xs-6">
-				<div class="center">
-					<h3>First aid quadcopter</h3>
-					<p>Work on a hardware prototype of the payload using a commercial-off-the-shelf quadcopter such as the Parrot and enable it to reliably fly towards a person in need and come back! (<a href="https://docs.google.com/a/almende.org/document/d/1Ug3pWOSYgey3OJ2bGO9QctlMRVZQLITIlynqQSB0FVs/edit#">Read more</a>)
-					</p>
-				</div>
-			</div>
-
-			<div class="col-md-3 col-xs-6">
-				<div class="center">
-					<h3>Design a farm land robot</h3>
-					<p>Find out what farmers need and define the requirements of the robot, based on an application in agriculture like inspecting crops for insects or certain colors! (<a href="https://docs.google.com/document/d/1HmlC-QqWp1GJdW2G-N763bDI2qz1H5AJMiZR3WpGDN0/edit?usp=sharing">Read more</a>)
-					</p>
-				</div>
-			</div>
-		-->
-		</div>
-		<hr class="sep">
-
-		<!--
-		<div class="row">
-			<h2>"Business" graduation projects</h2>
-			<p>The following graduation projects are focused on market research, business development, and other topics that are not only centered around technology alone.
-			</p>
-		</div>
-		<div class="row">
-			<div class="col-md-3 col-xs-6">
-				<div class="center">
-					<h3>3D printing for everybody</h3>
-					<p>Startups in Holland can benefit tremendously from 3D prototyping. Find out how to be a 3D printing expert and share your expertise with us and <a href="http://3dhubs.com">3D Hubs</a>! (<a href="https://docs.google.com/a/almende.org/document/d/11VHQQIG9Cgl0Z3WUCccD1uxWYeygxn2gP944rZxwXzI">Read more</a>)
-					</p>
-				</div>
-			</div>
-
-		</div>
-		-->
 	</div>
 </section>
 

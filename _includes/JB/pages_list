@@ -25,16 +25,20 @@ Usage:
 {% else %}
   {% for node in pages_list %}
     {% if node.title != null %}
-      {% if group == null or group == node.group %}
-      	{% if page.url == node.url %}
-      	<li class="active"><a href="{{ BASE_PATH }}{{node.url}}" class="active">{{node.title}}</a></li>
-      	{% else %}
-      	<li><a href="{{ BASE_PATH }}{{node.url}}">{{node.title}}</a></li>
+      {% if group == null or node.group contains group %}
+        {% if group == 'navigation-consumer-footer' %}
+      	    <li><a href="{{ BASE_PATH }}{{node.url}}" class="footer">{{node.title}}</a></li>
+        {% else %}
+          	{% if page.url == node.url %}
+          	<li class="active"><a href="{{ BASE_PATH }}{{node.url}}" class="active">{{node.title}}</a></li>
+          	{% else %}
+          	<li><a href="{{ BASE_PATH }}{{node.url}}">{{node.title}}</a></li>
+      	    {% endif %}
       	{% endif %}
       {% endif %}
     {% endif %}
   {% endfor %}
-	<li><a href="mailto:info@dobots.nl?subject=Get in contact">Contact</a></li>
+<!--	<li><a href="mailto:info@dobots.nl?subject=Get in contact">Contact</a></li> -->
 {% endif %}
 {% assign pages_list = nil %}
 {% assign group = nil %}
