@@ -104,11 +104,16 @@ Write here your own keys to get the analytics and use embedly (although the latt
 
 ## Deploy
 
-To deploy to github pages, do the following:
+The "source code" for the website is required before you can uploaded the compiled website:
 
     git clone git@github.com:crownstone/website
 
-This will download the source of the website. In `.gitignore` you will notice that the website generated in `_site` is excluded from the master branch. This is because this directory is stored as the `gh-pages` branch:
+This will download the source of the website. You build in the usual way, by something like:
+
+    export GOOGLE_ANALYTICS_KEY=UA-*
+    bundle exec jekyll build --config _config.yml,_config-authors.yml
+
+In `.gitignore` you will notice that the website generated in `_site` is excluded from the master branch. This is because this directory is stored as the `gh-pages` branch:
 
     cd _site
     git clone -b gh-pages git@github.com:crownstone/website
