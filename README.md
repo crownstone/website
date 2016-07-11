@@ -102,6 +102,30 @@ The information for the different plugins is stored in an `.env` file which is n
 
 Write here your own keys to get the analytics and use embedly (although the latter I found not so convenient in the end, requiring paid subscriptions already after showing a movie only several times).
 
+## Deploy
+
+To deploy to github pages, do the following:
+
+    git clone git@github.com:crownstone/website
+
+This will download the source of the website. In `.gitignore` you will notice that the website generated in `_site` is excluded from the master branch. This is because this directory is stored as the `gh-pages` branch:
+
+    cd _site
+    git clone -b gh-pages git@github.com:crownstone/website
+
+So, the result in `_site/.git/config` should be:
+
+    [remote "gh-pages"]
+        url = git@github.com:crownstone/website.git
+        fetch = +refs/heads/*:refs/remotes/gh-pages/*
+    [branch "gh-pages"]
+        remote = gh-pages
+        merge = refs/heads/gh-pages
+
+Now, you can just build the website and subsequently push the source as well as the website itself by `git push` in the respective directory.
+
+Note, that `_config.yml` and `_config-authors.yml` are not in the github repository. Although the information is not entirely confidential, if someone wants to use this as a basis of their website, these files need to be adapted anyway.
+
 ## Copyrights
 
 The license for the Jekyll part is MIT. The license for Bootstrap as well. The copryights of Bootstrap belong to Twitter.
