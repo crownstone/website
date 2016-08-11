@@ -31,23 +31,44 @@ group: navigation
             </div>
         </section>
 
-        <section id="search-results">
-          <div class="entries">
-          </div>
+        <section class="gray mini-wrap">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-12 col-md-12">
+                        <div id="search-results">
+                            <div class="entries">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
 
         {% raw %}
         <script id="search-results-template" type="text/mustache">
           {{#entries}}
-            <article>
+            <div class="search-result">
               <h3>
                 {{#date}}<small><time datetime="{{pubdate}}" pubdate>{{displaydate}}</time></small>{{/date}}
                 <a href="{{url}}">{{title}}</a>
               </h3>
-            </article>
+            </div>
           {{/entries}}
         </script>
         {% endraw %}
+
+        <section class="gray mini-wrap">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-12 col-md-12">
+                        <h1 class="big-title">Forum</h1>
+                        <br/>
+                        <p>For questions and suggestions that are of value to the community at large you can use our muut forum:</p>
+                        <a class="muut" href="https://muut.com/i/dobots">Crownstone Forum</a><script src="//cdn.muut.com/1/moot.min.js"></script>
+                    </div>
+                </div>
+            </div>
+        </section>
 
         <script src="/js/search.min.js" type="text/javascript" charset="utf-8"></script>
 
