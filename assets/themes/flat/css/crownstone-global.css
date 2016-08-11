@@ -21,15 +21,15 @@ title: CSS stylesheet
     src: url(../fonts/Lato-Hairline.woff);
 }
 
-body {
+body p, li, a {
     font-family: 'LatoLight';
     font-size: 12pt;
     line-height: 18pt;
 }
 
 @media (min-width: 768px) {
-    body {
-        font-size: 14pt;
+    body p, li, a {
+	font-size: 14pt;
         line-height: 27pt;
     }
 }
@@ -236,4 +236,64 @@ div.colofon {
     font-size:10pt;
     color:#aaaaaa;
     line-height: 12pt;
+}
+
+/* Date unit at the left side of each blog post */
+
+.date {
+  background: transparent url("{{ site.baseurl }}/assets/themes/flat/images/calendar_background.png") no-repeat;
+  display: block;
+  width: 60px;
+  height: 60px;
+  float: left;
+  margin: 15px 2px -40px -108px;
+  padding: 0 0 8px 0px;
+  border: 0;
+  text-transform: uppercase;
+  font-family: "Open Sans", sans-serif;
+}
+
+.date_month {
+  display: block;
+  font-size: 15px;
+  font-weight: bold;
+  margin-top: -1px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.date_day {
+  display: block;
+  font-size: 28px;
+  font-weight: bold;
+  margin-top: -8px;
+  text-align: center;
+  color: #282828;
+}
+
+.date_year {
+  display: block;
+  font-size: 10px;
+  margin-top: -8px;
+  text-align: center;
+  color: #282828;
+}
+
+/* Author at the right side of each blog post */
+
+.author-block {
+  font-family: 'LatoLight';
+  display: block;
+  margin: 20px 0px 0px 20px;
+  float: right;
+  border: 0;
+  text-transform: uppercase;
+  height: auto;
+}
+
+/* Social buttons at the right in the footer of each blog post */
+
+.social-button-footer {
+  float: right;
+  margin: 25px 0px 0px 0px;
 }

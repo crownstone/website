@@ -131,6 +131,12 @@ Now, you can just build the website and subsequently push the source as well as 
 
 Note, that `_config.yml` and `_config-authors.yml` are not in the github repository. Although the information is not entirely confidential, if someone wants to use this as a basis of their website, these files need to be adapted anyway.
 
+## Website structure
+
+The defaults for a page or post can be found in `_includes/themes/flat/default.html`.
+
+The particular stylesheet in use for Crownstone can be found in `assets/themes/flat/css/crownstone-global.css`.
+
 ## Copyrights
 
 The license for the Jekyll part is MIT. The license for Bootstrap as well. The copryights of Bootstrap belong to Twitter.

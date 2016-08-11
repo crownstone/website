@@ -23,7 +23,7 @@
 
 				{% unless page.categories == empty %}
 				<ul class="tag_box inline">
-					<li><i class="icon-folder-open"></i></li>
+					<li><i class="el el-folder-open"></i></li>
 					{% assign categories_list = page.categories %}
 					{% include JB/categories_list %}
 				</ul>
@@ -31,7 +31,7 @@
 
 				{% unless page.tags == empty %}
 				<div class="tag_box inline">
-					<i class="icon-tags"></i>
+					<i class="el el-tags"></i>
 
 					{% assign tags_list = page.tags %}
 					{% include JB/tags_list %}
@@ -41,11 +41,11 @@
 
 				<div class="social-button-footer">
 					<p>
-					<a class="btn btn-social-icon btn-twitter" href="http://twitter.com/intent/tweet?url={{ site.production_url }}{{ page.url }}&text={{ page.title }}"><i class="icon-twitter"></i></a>
-					<a class="btn btn-social-icon btn-facebook" href="http://facebook.com/sharer.php?u={{ site.production_url }}{{ page.url }}"><i class="icon-facebook"></i></a>
-					<a class="btn btn-social-icon btn-googleplus" href="https://plus.google.com/share?url={{ site.production_url }}{{ page.url }}"><i class="icon-googleplus"></i></a>
-					<a class="btn btn-social-icon btn-linkedin" href="https://www.linkedin.com/shareArticle?mini=true&url={{ site.production_url }}{{ page.url }}"><i class="icon-linkedin"></i></a>
-					<a class="btn btn-social-icon btn-reddit" href="http://reddit.com/submit?url={{ site.production_url }}{{ page.url }}&title={{ page.title }}"><i class="icon-reddit"></i></a>
+					<a class="btn btn-social-icon btn-twitter" href="http://twitter.com/intent/tweet?url={{ site.production_url }}{{ page.url }}&text={{ page.title }}"><i class="el el-twitter"></i></a>
+					<a class="btn btn-social-icon btn-facebook" href="http://facebook.com/sharer.php?u={{ site.production_url }}{{ page.url }}"><i class="el el-facebook"></i></a>
+					<a class="btn btn-social-icon btn-googleplus" href="https://plus.google.com/share?url={{ site.production_url }}{{ page.url }}"><i class="el el-googleplus"></i></a>
+					<a class="btn btn-social-icon btn-linkedin" href="https://www.linkedin.com/shareArticle?mini=true&url={{ site.production_url }}{{ page.url }}"><i class="el el-linkedin"></i></a>
+					<a class="btn btn-social-icon btn-reddit" href="http://reddit.com/submit?url={{ site.production_url }}{{ page.url }}&title={{ page.title }}"><i class="el el-reddit"></i></a>
 					</p>
 				</div>
 
