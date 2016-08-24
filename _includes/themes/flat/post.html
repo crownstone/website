@@ -5,7 +5,6 @@
 				<strong class="date_month">{{ page.date | date: "%-b" }}</strong>
 				<strong class="date_day">{{ page.date | date: "%-d" }}</strong>
 				<strong class="date_year">{{ page.date | date: "%-Y" }}</strong>
-				<!--      <span>{{ page.date | date_to_long_string }}</span> -->
 			</div>
 			{% assign author = site.authors[page.author] %}
 			{% if author %}
@@ -20,6 +19,13 @@
 				<div class="content">
 					{{ content }}
 				</div>
+				
+				<div class="visible-xs visible-sm visible-md">
+					<div class="text-date">
+						<p>{{ page.date | date_to_long_string }}</p> 
+					</div>
+				</div>
+
 
 				{% unless page.categories == empty %}
 				<ul class="tag_box inline">

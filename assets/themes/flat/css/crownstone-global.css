@@ -240,6 +240,12 @@ div.colofon {
     line-height: 12pt;
 }
 
+/* Date as text on small devices */
+.text-date {
+	text-align: right;
+	font-size:12pt;
+}
+
 /* Date unit at the left side of each blog post */
 
 .date {
