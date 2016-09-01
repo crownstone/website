@@ -1,0 +1,56 @@
+---
+layout: page
+title: Ethical Policy
+hide_title: true
+header: Ethics
+group: Policy
+markdown: true
+permalink: ethical-policy/
+---
+{% include JB/setup %}
+
+# Ethical Policy
+
+The current times require companies and organizations to operate in a transparent manner. We believe that a healthy company should have a proactive attitude towards ethical issues such as privacy and security. Crownstone, operating in the exciting but delicate fields of building automation, home automation, and indoor localization, has set itself the golden number of seven rules which anticipate difficult dilemmas. Besides our [privacy policy](/privacy-policy) and our [terms of service](/terms-of-service) our company values are represented most by this ethical policy!
+
+## SECTION 1 - HELPING, NOT HARMING
+
+Indoor localization means interaction with people. This might be search and rescue, knowing where your colleague is, to recognize someone to open his/her door. Crownstone advances technologies in which people can be sought out as customers or victims, never as perpetrators. We provide technologies to help people, for instance recognizing people drowning at sea, fainting in a crowd, or guiding people in an evacuation scenario. Crownstone will not provide technologies to recognize hooligans, protesters or criminals, nor will we participate in defense projects, or projects of a military nature.
+
+
+## SECTION 2 - NO SPYING
+
+Indoor localization requires a lot of data. We are aware that some of this data might contain privacy-sensitive information about third parties, such as children, visitors, or location information of third party Bluetooth devices.
+We believe that aggregated data is much less privacy-sensitive than raw data. For that reason, we will chose to work with data on high abstraction levels. So, we will use data from cities rather than individual households. Regarding the ownership of the data, see also SECTION 4!
+
+
+## SECTION 3 - BETTER SAFE THAN SAVED
+
+Data is paramount to proper indoor localization, home and building automation, be it device recognition or environnmental monitoring. Crownstone develops data interpretation technologies that
+can function on premise. The more information can be processed in house, the less raw information needs to be stored on a (central) server.
+In case information does need to be streamed to the internet, we avoid having to store the raw data. Only aggregated data that is required to perform the task at hand will be communicated to an operator.
+As soon as <a href="http://www.wikiwand.com/en/Homomorphic_encryption" target="_blank">homomorphic encryption</a> (process data without decrypting it) becomes computationally feasible, we aim to switch to such a cloud service.
+
+
+## SECTION 4 - YOU OWN YOUR OWN DATA
+
+Your data belongs to you. When you use our tools to collect data, we do not have access to it, nor will we share or delete your data without your consent. You may of course share the data you collect, for instance to allow a swarm of bots to learn from other bots in the neighborhood.
+You are always the one who decides what you share, who you share it with, and when to stop sharing. Crownstone use of BLE (Bluetooth Low-Energy) rather than Wifi for indoor localization reflects this choice for example. BLE is <strong>opt-in</strong>, Wifi is opt-out.
+
+
+## SECTION 5 - WORK TOGETHER
+
+We believe technology can make the best and fastest advancements, if different parties are given the freedom to share and cooperate without restrictions. Crownstone therefore actively promotes open source standards. Almost our entire code base is published under an open source license, allowing third party users to view, modify and redistribute the code of our projects, provided original copyrights and author information is left intact.
+
+## SECTION 6 - BETTER SAFE THAN SORRY
+
+Keeping in mind possible security risks, all necessary precautions will be taken regarding safe storage of data.
+Most importantly, data which does not need to be stored, will not be stored to begin with. Please, bear with us the discomfort of having to provide information twice.
+If data does have to be stored, this will be done with the utmost care, using encryption and taking precautions against unlawful access by governmental, civilian, or other parties.
+If Crownstones servers should be hacked, this will be reported to the authorities.
+
+
+## SECTION 7 - DON'T TAKE OUR WORD FOR IT
+
+We do have internal controls in place, but you should not just take our word for it. For now, there are no independent auditors yet in The Netherlands which would be able to comment on the implementation of our policies. Hence, please feel free to recommend an organization to us that would be able to fulfill this role.
+
