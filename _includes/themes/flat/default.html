@@ -42,7 +42,9 @@
     <![endif]-->
 
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <!-- <link href="./bootstrap/css/ie10-viewport-bug-workaround.css" rel="stylesheet"> -->
+    <!--[if gt IE 9]>
+    <link href="./bootstrap/css/ie10-viewport-bug-workaround.css" rel="stylesheet"> 
+    <![endif]-->
 
     <link href="{{ BASE_PATH }}{{ site.JB.atom_path }}" type="application/atom+xml" rel="alternate" title="Sitewide ATOM Feed">
     <link href="{{ BASE_PATH }}{{ site.JB.rss_path }}" type="application/rss+xml" rel="alternate" title="Sitewide RSS Feed">
@@ -224,7 +226,9 @@
 {% endif %}
 
 <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+<!--[if gt IE 9]>
 <script type="text/javascript" src="{{ ASSET_PATH }}/resources/bootstrap/js/ie10-viewport-bug-workaround.js"></script>
+<![endif]-->
                     
 {% endstrip %}
 

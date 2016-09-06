@@ -9,8 +9,11 @@ function moveVideo() {
   var windowWidth = $( window ).width();
   var videoContainer = document.getElementById("videoContainer");
   var bannerContainer = document.getElementById("videoHeader");
+  var debug = false;
 
-//  console.log("video: ", videoContainer);
+  if (debug) {
+//    console.log("video: ", videoContainer);
+  }
 
   // center the video in the div.
   var width = videoContainer.offsetWidth;
@@ -46,8 +49,10 @@ function moveVideo() {
     newVideoContainerClassname = 'hidden-xs videoContainer xl';
   }
 
-  // console.log("START")
-  // console.log(bannerContainer.className, newBannerContainerClassname, videoContainer.className, newVideoContainerClassname)
+  if (debug) {
+    console.log("START");
+    console.log(bannerContainer.className, newBannerContainerClassname, videoContainer.className, newVideoContainerClassname);
+  }
 
   if (bannerContainer.className !== newBannerContainerClassname || videoContainer.className !== newVideoContainerClassname) {
     bannerContainer.className = newBannerContainerClassname;
@@ -62,8 +67,11 @@ function moveVideo() {
   if (headerWidth < width)
     newLeftPosition = 0.5 * (headerWidth - width) + 'px';
 
-  // console.log(width,  height, headerWidth, headerHeight)
-  // console.log(videoContainer.style.top, newTopPosition, videoContainer.style.left, newLeftPosition)
+  if (debug) {
+    console.log(width, height, headerWidth, headerHeight)
+    console.log(videoContainer.style.top, newTopPosition, videoContainer.style.left, newLeftPosition)
+  }
+
   if (videoContainer.style.top !== newTopPosition || videoContainer.style.left !== newLeftPosition) {
     videoContainer.style.left = newLeftPosition;
     videoContainer.style.top = newTopPosition;
@@ -71,8 +79,8 @@ function moveVideo() {
   }
 
   if (repeatMove) {
-    console.log("here")
-    setTimeout(moveVideo,10);
+    console.log("moveVideo in 10 milliseconds")
+    setTimeout(moveVideo, 10);
   }
 
 
