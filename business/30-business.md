@@ -1,8 +1,9 @@
 ---
 layout: page
 title: Home
-header: Pages
+header: Business
 group: [navigation-business-footer]
+markdown: true
 permalink: business/
 ---
 {% include JB/setup %}
