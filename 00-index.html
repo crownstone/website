@@ -8,15 +8,24 @@ group: [navigation, navigation-consumer-footer]
 background: introBackground
 permalink: /
 ---
+<!-- ffprobe -v error -select_streams v:0 -show_entries stream=profile,level -of default=noprint_wrappers=1  clips/intro.mp4 -->
+<!-- shows for video level=40 (0x28) and profile=High (0x6400) -->
 {% include JB/setup %}
 
-    <div class="container-fluid bannerContainer lg " id="videoHeader">
-        <div class="videoContainer hidden-xs hidden-sm" id="videoContainer">
-            <video class="headerVideo" autoplay preload="none" loop>
-                <source src="{{ BASE_PATH }}/clips/intro.mp4" type="video/mp4">
-            </video>
+    <!-- use full-width container -->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="hidden-xs hidden-sm">
+                <video width="100%" muted autoplay loop>
+                    <!--                <source src="{{ BASE_PATH }}/clips/intro.ogg" type='video/ogg'> -->
+                    <source src="{{ BASE_PATH }}/clips/intro.webm" type='video/webm'>
+                    <source src="{{ BASE_PATH }}/clips/intro.mp4" type='video/mp4; codecs="avc1.640028"'>
+                    Your browser doesn't support the video tag.
+                </video>
+            </div>
+            <div class="hidden-xs hidden-sm logoOverlay">
+            </div> 
         </div>
-        <div class="hidden-xs logoOverlay"></div>
     </div>
 
     <div class="container">
