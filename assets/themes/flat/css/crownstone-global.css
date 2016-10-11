@@ -34,6 +34,9 @@ body p, li, a, th, td {
 	font-size: 14pt;
         line-height: 27pt;
     }
+    body small a {
+      font-size: 100%;
+    }
 }
 
 h3,
@@ -329,3 +332,4 @@ div.colofon {
     background-image: -o-linear-gradient(top, rgba(255, 255, 255, 0), #e1e3e5);
     background-image: linear-gradient(top, rgba(255, 255, 255, 0), #16e3e5); 
 }
+
