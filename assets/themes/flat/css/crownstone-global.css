@@ -29,13 +29,14 @@ body p, li, a, th, td {
     line-height: 18pt;
 }
 
+body small a {
+  font-size: 75%;
+}
+
 @media (min-width: 768px) {
     body p, li, a, th, td {
 	font-size: 14pt;
         line-height: 27pt;
-    }
-    body small a {
-      font-size: 100%;
     }
 }
 
