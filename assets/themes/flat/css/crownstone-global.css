@@ -417,15 +417,15 @@ div.colofon {
 
 /* Newsletter button */
 
-button {
+.newsletter button {
     overflow: visible
 }
 
-button[disabled],html input[disabled] {
+.newsletter button[disabled],html input[disabled] {
     cursor: default
 }
 
-.btn,.btn--secondary,.rte .btn--secondary,.rte .btn,.rte .btn--secondary {
+.newsletter .btn,.btn--secondary,.rte .btn--secondary,.rte .btn,.rte .btn--secondary {
     display: inline-block;
     padding: 8px 10px;
     margin: 0;
@@ -457,21 +457,11 @@ button[disabled],html input[disabled] {
     font-weight: 400;
     font-style: normal;
     letter-spacing: 0.1em; 
-}
-
-.btn,.btn--secondary {
-/*    font-family: "Montserrat","HelveticaNeue","Helvetica Neue",sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    letter-spacing: 0.1em; */
     font-family: "Montserrat","HelveticaNeue","Helvetica Neue",sans-serif;
     text-transform: uppercase;
-/*
-    padding: 12px 20px;
-    font-size: 0.76471em */
 }
 
-.btn:hover,.btn--secondary:hover,.rte .btn:hover,.rte .btn--secondary:hover {
+.newsletter .btn:hover,.btn--secondary:hover,.rte .btn:hover,.rte .btn--secondary:hover {
     -webkit-transition: background-color 0.15s ease-out;
     -moz-transition: background-color 0.15s ease-out;
     -ms-transition: background-color 0.15s ease-out;
@@ -481,7 +471,7 @@ button[disabled],html input[disabled] {
     color: #fff
 }
 
-.btn:active,.btn--secondary:active,.rte .btn:active,.rte .btn--secondary:active {
+.newsletter .btn:active,.btn--secondary:active,.rte .btn:active,.rte .btn--secondary:active {
     -webkit-transition: background-color 0.15s ease-out;
     -moz-transition: background-color 0.15s ease-out;
     -ms-transition: background-color 0.15s ease-out;
@@ -491,37 +481,37 @@ button[disabled],html input[disabled] {
     color: #fff
 }
 
-.btn[disabled],[disabled].btn--secondary,.btn.disabled,.disabled.btn--secondary,.rte .btn[disabled],.rte [disabled].btn--secondary,.rte .btn.disabled,.rte .disabled.btn--secondary {
+.newsletter .btn[disabled],[disabled].btn--secondary,.btn.disabled,.disabled.btn--secondary,.rte .btn[disabled],.rte [disabled].btn--secondary,.rte .btn.disabled,.rte .disabled.btn--secondary {
     cursor: default;
     color: #b6b6b6;
     background-color: #f6f6f6
 }
 
-.btn--secondary,.rte .btn--secondary {
+.newsletter .btn--secondary,.rte .btn--secondary {
     background-color: #c7ac7f
 }
 
-.btn--secondary:hover,.rte .btn--secondary:hover {
+.newsletter .btn--secondary:hover,.rte .btn--secondary:hover {
     background-color: #d7c3a2;
     color: #1c1d1d
 }
 
-.btn--secondary:active,.rte .btn--secondary:active {
+.newsletter .btn--secondary:active,.rte .btn--secondary:active {
     background-color: #b7955c;
     color: #1c1d1d
 }
 
-.btn--small {
+.newsletter .btn--small {
     padding: 4px 5px;
     font-size: 0.70588em
 }
 
-.btn--large {
+.newsletter .btn--large {
     padding: 12px 15px;
     font-size: 0.94118em
 }
 
-.btn--full {
+.newsletter .btn--full {
     width: 100%
 }
 
@@ -530,7 +520,7 @@ button[disabled],html input[disabled] {
     border-color: #343535
 }
 
-.hidden-label {
+.newsletter .hidden-label {
     clip: rect(0 0 0 0);
     clip: rect(0, 0, 0, 0);
     overflow: hidden;
@@ -539,7 +529,7 @@ button[disabled],html input[disabled] {
     width: 1px
 }
 
-.ie9 .hidden-label,.lt-ie9 .hidden-label {
+.ie9 .newsletter .hidden-label,.lt-ie9 .hidden-label {
     position: static;
     height: auto;
     width: auto;
@@ -548,11 +538,11 @@ button[disabled],html input[disabled] {
     clip: initial
 }
 
-input, textarea, select {
+.newsletter input, textarea, select {
 	border-color: transparent;
 }
 
-.input-group .input-group-field {
+.newsletter .input-group .input-group-field {
 	height: 45px;
 	width: 100%;
 }
