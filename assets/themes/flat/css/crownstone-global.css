@@ -547,3 +547,9 @@ div.colofon {
 	width: 100%;
 }
 
+.hall-of-fame {
+    font: normal 18px/1 "oswaldbold", Helvetica, sans-serif;
+    background-color: #f6f6f6; 
+    text-align: center;
+    text-transform: uppercase;
+}
