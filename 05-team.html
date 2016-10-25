@@ -49,13 +49,13 @@ permalink: team/
                 <p>
                 Crownstone
                 <br>
-                Stationsplein 45, unit d1.118
+                {{ site.company.street }}
                 <br>
-                3013 AK Rotterdam, The Netherlands
+                {{ site.company.postal_code }}
                 <br>
-                KvK: 66065208
+                KvK: {{ site.company.kvk }}
                 <br>
-                BTW/VAT: NL856381111B01
+                BTW/VAT: {{ site.company.vat }}
                 <br>
                 <i class='el el-envelope'></i> 
                 email: 
@@ -63,7 +63,7 @@ permalink: team/
                 <br>
                 <i class='el el-phone'></i> 
                 phone: 
-                <a href="tel:+31103073955">+31103073955</a> / 010-3073955
+                <a href="tel:{{ site.company.phone_international }}">{{ site.company.phone_international }}</a> / {{ site.company.phone_local }}
                 </p>
             </div>
             <div class="col-xs-6 col-sm-6 col-md-6">
@@ -262,7 +262,7 @@ permalink: team/
                 </p>
                 <br />
                 <p>
-                    Really, go to there! :-) There is lot of interesting research and perhaps software you can use yourself!
+                    Really, go there! :-) There is lot of interesting research and perhaps software you can use yourself!
                 </p>
             </div>
         </div>

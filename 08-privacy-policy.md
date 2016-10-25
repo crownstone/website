@@ -30,7 +30,7 @@ How do I withdraw my consent?
 <p>
 If after you opt-in, you change your mind, you may withdraw your consent for us to contact you, for the continued collection, use or disclosure of your information, at anytime, by contacting us at 
 <script type="text/javascript">/*<![CDATA[*/var a=new Array("{{ site.contact-team.email[0] }}", "{{ site.contact-team.email[1] }}", "{{ site.contact-team.email[2] }}", "{{ site.contact-team.email[3] }}", "{{ site.contact-team.email[4] }}", "{{ site.contact-team.email[5] }}");document.write("<a href='mailto:");for(i=a.length-1;i>=0;i--){document.write(a[i])}document.write("?subject=Crownstone Team'>team@crownstone.rocks</a>");/*]]>*/</script>
-or by mail at Crownstone, Stationsplein 45, unit a1.205-207, 3013 AK, Rotterdam.
+or by mail at Crownstone, {{ site.company.address }}.
 </p>
 
 ## SECTION 3 - DISCLOSURE
@@ -96,5 +96,5 @@ If our store is acquired or merged with another company, your information may be
 
 <p>If you would like to: access, correct, amend or delete any personal information we have about you, register a complaint, or simply want more information contact us at 
 <script type="text/javascript">/*<![CDATA[*/var a=new Array("{{ site.contact-team.email[0] }}", "{{ site.contact-team.email[1] }}", "{{ site.contact-team.email[2] }}", "{{ site.contact-team.email[3] }}", "{{ site.contact-team.email[4] }}", "{{ site.contact-team.email[5] }}");document.write("<a href='mailto:");for(i=a.length-1;i>=0;i--){document.write(a[i])}document.write("?subject=Crownstone Team'>team@crownstone.rocks</a>");/*]]>*/</script>
-or by mail at Crownstone, Stationsplein 45, unit a1.205-207, 3013 AK, Rotterdam.</p>
+or by mail at Crownstone, {{ site.company.address }}.</p>
 
