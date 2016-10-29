@@ -23,39 +23,32 @@ title: CSS stylesheet
 
 /* Default font properties for standard elements */
 
-body p, li, a, th, td {
+body p, li, th, td {
     font-family: 'LatoLight';
-    font-size: 12pt;
-    line-height: 18pt;
+    font-size: 1.5em;
+    line-height: 1.5em;
 }
 
 body small a {
   font-size: 75%;
 }
 
-@media (min-width: 768px) {
+/*
+  @media (min-width: 7680px) {
     body p, li, a, th, td {
-	font-size: 14pt;
+    	font-size: 14pt;
         line-height: 27pt;
     }
 }
+*/
 
-h3,
-h4,
-h5,
-h6,
-.h3,
-.h4,
-.h5,
-.h6 {
-    font-family: 'LatoLight';
+h1, h2, .h1, .h2 {
+    font-family: 'Lato';
+/*    line-height: 1.5em; */
 }
 
-h1,
-h2,
-.h1,
-.h2 {
-    font-family: 'Lato';
+h3, h4, h5, h6, .h3, .h4, .h5, .h6 {
+    font-family: 'LatoLight';
 }
 
 .nav > li > a {
@@ -72,7 +65,6 @@ h2,
     margin-bottom: 0;
     border-width: 0px;
 }
-
 
 img.topLogo {
     padding: 5px;
@@ -167,7 +159,7 @@ div.videoContainer.md { min-width:929px; }
 div.videoContainer.sm { min-width:723px; }
 
 .featurette-divider {
-    margin: 80px 0; /* Space out the Bootstrap <hr> more */
+    margin: 80px 0 40px 0; /* Space out the Bootstrap <hr> more */
     border-top: 1px solid #d2d2d2;
 }
 
@@ -386,8 +378,8 @@ div.colofon {
 
 @media screen and (min-width: 591px) {
     .newsletter .newsletter__input {
-        font-size: 150%; 
-	font-family: 'Lato';
+      font-size: 150%; 
+      font-family: 'Lato';
     }
 }
 
