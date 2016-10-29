@@ -34,9 +34,9 @@ The Guidestone Lite is a simplified Crownstone (<a href="https://shop.crownstone
 
 This product is that far simplified, that we have competitors (although they use USB beacons that require an additional adaptor). For a comparison, look at:
 
-* Radbeacon's shop lists <a href="http://store.radiusnetworks.com/collections/all/products/radbeacon-usb-2">$29</a> plus <a href="http://store.radiusnetworks.com/collections/all/products/radbeacon-usb-power-supply">$ 9</a> for an adaptor.
-* Kontakt's shop lists <a href="https://store.kontakt.io/our-products/29-usb-beacon.html">$ 60</a> without adaptor.
-* Glimworm's shop lists <a href="https://glimwormbeacons.com/buy/ibeacons">€ 25 euro</a> without adaptor.
+* Radbeacon's shop lists <a href="http://store.radiusnetworks.com/collections/all/products/radbeacon-usb-2">$29</a> plus <a href="http://store.radiusnetworks.com/collections/all/products/radbeacon-usb-power-supply">$9</a> for an adaptor.
+* Kontakt's shop lists <a href="https://store.kontakt.io/our-products/29-usb-beacon.html">$60</a> without adaptor.
+* Glimworm's shop lists <a href="https://glimwormbeacons.com/buy/ibeacons">€25 euro</a> without adaptor.
 
 # Guidestone Mesh
 
