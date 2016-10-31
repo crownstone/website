@@ -10,19 +10,20 @@ permalink: business/
 
 # Crownstone
 
-The Crownstone infrastructure can be used in smart offices to:
+The Crownstone infrastructure can be used in smart offices for sustainability and communication.
 
-* save energy
+Sustainability, who does not dislike the fact that all our offices light up like christmas trees during the entire night! That's such a waste!
 
-    * switch off office equipment (multi-functionals, coffee machines, televisions, electronic equipment) when nobody is around
-    * switch off lights when nobody is around (and not when someone is still working!!)
+* switch off office equipment (multi-functionals, coffee machines, televisions, electronic equipment) when nobody is around
+* switch off lights when nobody is around (and not when someone is still working!!)
 
-* find people and places
+Productivity is about not spending time on aspects that do not have to do with your job. People are spending nowadays a lot of time in finding a desk to work, finding a meeting room, and even finding colleagues. Time that can be spent better!
 
-    * know if your colleague is working from home, in a meeting room, or where he or she is in the building
-    * find an unoccupied meeting room
-    * find a desk
+* know if your colleague is working from home, in a meeting room, or where he or she is in the building
+* find an unoccupied meeting room
+* find a desk
 
+Moreover, there is little known in many organizations on how often people meet up and how long the meetings last. There is a lot to gain also by analyzing this and for example organize a little "notch" from the meeting room to round up!
         
 # Guidestone Lite
 
