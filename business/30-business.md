@@ -27,7 +27,7 @@ Moreover, there is little known in many organizations on how often people meet u
         
 # Guidestone Lite
 
-The Guidestone Lite is a simplified Crownstone (<a href="https://shop.crownstone.rocks/products/guidestones-light">shop</a>) that works as an iBeacon and comes with indoor localization capabilities alone (it is not a switch, dimmer, etc.). The benefits of the Guidestones above ordinary battery-based iBeacons:
+The Guidestone Lite is a simplified Crownstone (<a href="https://shop.crownstone.rocks/products/guidestones-lite">shop</a>) that works as an iBeacon and comes with indoor localization capabilities alone (it is not a switch, dimmer, etc.). The benefits of the Guidestones above ordinary battery-based iBeacons:
 
 * A short advertisement interval means frequent updates and thus faster localization.
 * A high signal strength means more beacons visible through walls that are difficult to penetrate which increases localization accuracy.
