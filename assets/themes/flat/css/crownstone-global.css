@@ -25,8 +25,8 @@ title: CSS stylesheet
 
 body p, li, th, td {
     font-family: 'LatoLight';
-    font-size: 1.5em;
-    line-height: 1.5em;
+    font-size: 2rem;
+    line-height: 2.5rem;
 }
 
 body small a {
@@ -293,6 +293,11 @@ div.colofon {
   border: 0;
   text-transform: uppercase;
   height: auto;
+}
+
+/* Align right */
+.float-right {
+  float: right;
 }
 
 /* Social buttons at the right in the footer of each blog post */
