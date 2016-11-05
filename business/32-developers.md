@@ -10,11 +10,7 @@ permalink: business/developers/
 
 # Integration
 
-The Crownstones can be integrated in many solutions and on many different levels.
-
-# Crownstone SDK
-
-The Crownstone SDK exists of three parts (in an increasing order of integration):
+The Crownstones can be integrated in many solutions and on many different levels. Towards this the Crownstone SDK exists of three parts (in an increasing order of integration):
 
 * A [REST API](#rest_api) in the cloud
 
@@ -22,20 +18,23 @@ The Crownstone SDK exists of three parts (in an increasing order of integration)
 
 * The [firmware](#bluenet) on the Crownstones, called Bluenet
 
-## <a name="rest_api"></a>REST API
+# <a name="rest_api"></a>REST API
 
 The cloud is required to setup the Crownstones: keys and IDs will be generated, and locations can be set.
 After that, it can be used to add users, so they can also make use of your Crownstones.
 The cloud is also used to synchronize data between users, and serves as data storage.
-You can read how to use it in the [REST API documentation](REST_API.md).
+You can read how to use it in the [REST API documentation](https://github.com/crownstone/crownstone-sdk/blob/master/REST_API.md).
 
 ![Image of Strongloop API Explorer](https://raw.githubusercontent.com/crownstone/crownstone-sdk/master/images/strongloop-api-explorer.png){: style="width: 100%"}
 
-## <a name="smartphone_libs"></a>Smartphone libraries
+# <a name="smartphone_libs"></a>Smartphone libraries
+
 To make things easy, we provide native libraries for smartphones. The following libraries are available and can be found on github:
 
 - [Android](https://github.com/crownstone/bluenet-lib-android)
 - [iOS](https://github.com/crownstone/bluenet-lib-ios)
+
+## <a name="bluenet_lib"></a>Controlling and reading out Crownstones
 
 ![Image of Bluetooth logo](https://raw.githubusercontent.com/crownstone/crownstone-sdk/master/images/bluetooth-logo.png){: .float-right}
 
@@ -43,7 +42,7 @@ The libraries abstract the communication with the Crownstones. They simplify sca
 
 The following features will be available (some are still in development):
 
-#### <a name="bluenet_lib_commands"></a>Commands
+### <a name="bluenet_lib_commands"></a>Commands
 
 - Switch/dim
 - Set time
@@ -55,7 +54,7 @@ The following features will be available (some are still in development):
 - Enable/disable continous scanning
 - Enable/disable continous high frequency power sampling
 
-#### Notified data
+### Notified data
 This data streams in regularly via a callback.
 
 - Switch state (0-100)
@@ -63,7 +62,8 @@ This data streams in regularly via a callback.
 - Total energy usage (Wh)
 - Chip temperature (°C)
 
-#### <a name="bluenet_lib_configs"></a>Get/set configurations:
+### <a name="bluenet_lib_configs"></a>Get/set configurations:
+
 Configurations that can be set and read. 
 
 Note: The enable/disable states can only be set using the corresponding [command](#bluenet_lib_commands) but they can be read through the config.
@@ -77,7 +77,7 @@ Note: The enable/disable states can only be set using the corresponding [command
 - Toggle switch after Crownstone reboot.
 - Continous scanning interval, duration and filter
 
-#### Mesh commands
+### Mesh commands
 Commands that can be issued to other Crownstones via the mesh. In case a command asks for a return value, the value will be notified via a callback.
 
 - Switch
@@ -87,7 +87,7 @@ Commands that can be issued to other Crownstones via the mesh. In case a command
 - Enable/disable scanning or high frequency power sampling
 
 
-### Indoor localization
+## Indoor localization
 
 ![Image of Indoor Localization](https://raw.githubusercontent.com/crownstone/crownstone-sdk/master/images/indoor-localization.png){: style="width: 100%"}
 
@@ -107,7 +107,7 @@ Features (in development):
 - Get predicted next room
 - Get location (room) of other users
 
-### Example app
+## Example Apps
 
 ![Image of Example app](https://raw.githubusercontent.com/crownstone/crownstone-sdk/master/images/crownstone-app-small.png)
 ![Second image of Example app](https://raw.githubusercontent.com/crownstone/crownstone-sdk/master/images/crownstone-app-small1.png)
@@ -119,10 +119,16 @@ The [Crownstone app](https://github.com/crownstone/CrownstoneApp) (Android and i
 The Crownstone app can be used as starting point to develop your own stand-alone app.
 It is written in React Native.
 
-## <a name="bluenet"></a>Bluenet Firmware
+# <a name="bluenet"></a>Bluenet Firmware
 
-The [Bluenet](https://github.com/crownstone/bluenet/) firmware can be downloaded from github. For the documentation, see the following links
+The [Bluenet](https://github.com/crownstone/bluenet/) firmware can be downloaded from github. 
 
+![Protocol example](https://raw.githubusercontent.com/crownstone/bluenet/master/docs/diagrams/adv-packet.png)
+
+For the documentation, see the following links:
+
+- [Bluenet](https://github.com/crownstone/bluenet/) 
+The firmware itself. 
 - [Bluetooth Protocol](https://github.com/crownstone/bluenet/blob/master/docs/PROTOCOL.md)
 Protocol description of the services, characteristics, advertisements, and mesh.
 - [Installation Manual](https://github.com/crownstone/bluenet/blob/master/docs/INSTALL.md) 
@@ -131,3 +137,6 @@ A step by step description to install the build system required to build and run
 Triple licensed (LGPLv3, Apache, MIT License).
 - [Bootloader](https://github.com/crownstone/bluenet-bootloader). 
 A slightly modified version of the bootloader (compared to the one from Nordic).
+
+Have fun!
+
