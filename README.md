@@ -43,6 +43,15 @@ An example of a right-floated image:
 
 Here we use kramdown to use the css style `float-right`.
 
+An example of a centered image:
+
+    ![Mould]({{ site.url }}/attachments/mould0.png "Mould for Crownstone"){: style="display:block;margin-left: auto;margin-right: auto;"}
+
+Or, the short-hand:
+
+    ![Mould]({{ site.url }}/attachments/mould0.png "Mould for Crownstone"){: .img-center}
+
+
 An example of a resized image: 
 
     ![Barbecue color]({{ site.url }}/attachments/barbecue_test_5.png "Barbecue color"){: style="width: 500px"}
@@ -146,7 +155,7 @@ The license for the Jekyll part is MIT. The license for Bootstrap as well. The c
 With respect to our companies theme, please, try to create a distinct look for your users compared to ours. However, we won't mind if you use parts of it. The copyrights (2013) of these belong to:
 
 * Author: Anne van Rossum
-* Almende B.V., http://www.almende.com and DoBots, http://www.dobots.nl
+* Crownstone B.V., https://crownstone.rocks
 * Rotterdam, The Netherlands
 
-The theme design itself is done by Ahmet Bektes. The content of our website is our own, and thanks to Bart, Remco, Dominik, Marc, Peet, Anne, Roemer, Laurens, Jorik, Merel, Bhenaz, Remco, Janny, Alexander, and others.
+The theme design is done by Alex de Mulder. The content of our website is our own, and thanks to Bart, Remco, Dominik, Marc, Peet, Anne, Roemer, Laurens, Jorik, Merel, Bhenaz, Remco, Janny, Alexander, and others.

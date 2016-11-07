@@ -300,6 +300,17 @@ div.colofon {
   float: right;
 }
 
+.float-left {
+  float: left;
+}
+
+
+.img-center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 /* Social buttons at the right in the footer of each blog post */
 
 .social-button-footer {
