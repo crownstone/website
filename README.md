@@ -1,5 +1,7 @@
 # Crownstone website
 
+[![Website](https://img.shields.io/website-up-down-green-red/https/crownstone.rocks.svg)]()
+
 You can find this website at [https://crownstone.rocks](https://crownstone.rocks).
 
 ## Prerequisites
