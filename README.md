@@ -1,6 +1,7 @@
 # Crownstone website
 
 [![Website](https://img.shields.io/website-up-down-green-red/https/crownstone.rocks.svg)]()
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 You can find this website at [https://crownstone.rocks](https://crownstone.rocks).
 
