@@ -39,6 +39,10 @@ Lights can be light to signal simple helpful facts. You want to catch a train at
 
 A Philips Wake-up light can be used to gently wake up in the morning. This can also be done with your normal ceiling lights! Never waking up rudely by that annoying sound of your smartphone alarm. That sound that will not even understand that you took a train early and shocks the entire coupé.
 
+## "Alexa, turn off the television!"
+
+Of course, we can switch off devices ourselves physically. The Crownstones now automate a lot of that. However, in practice the world might be slightly in the middle. We would like to be lazy and correct our smart home when we want to. That's where voice recognition comes in. It is really nice to enter your home and say "Alexa, some relaxing music please!". Likewise, at times you do not want to enter or leave the room to interact with a device, you just want to tell it to shut up!
+
 # Installation
 
 The Crownstones will come with free delivery and installation worth € 100,-. There will be a free cloud service as well. Plus a 2-year warranty on parts and services.
