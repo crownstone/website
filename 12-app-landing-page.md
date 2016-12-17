@@ -43,6 +43,6 @@ Download the app at "coming soon"!
 
 # Future
 
-We're working hard on adding all of the features in our vision to the Crownstone app! We will update the app every few weeks with new functionality! You can find and vote for features on our [https://trello.com/b/6rUcIt62/crownstone-transparent-product-roadmap](roadmap)!
+We're working hard on adding all of the features in our vision to the Crownstone app! We will update the app every few weeks with new functionality! You can find and vote for features on our [roadmap](https://trello.com/b/6rUcIt62/crownstone-transparent-product-roadmap)!
 
 
