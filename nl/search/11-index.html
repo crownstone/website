@@ -1,12 +1,14 @@
 ---
 layout: page
-title: Search
+title: Zoeken
 hide_title: false
 skip_jquery: true
-header: Search DoBots website
+header: Zoek door de Crownstone website
 permalink: search/
+lang: nl
 group: navigation
-# This does make use of Mustache templates which seems to be broken all the time by jekyll, raw doesn't help much.
+# This does make use of Mustache templates which seems to be broken all the time by jekyll.
+# Raw tags don't help, hence we're using elaborate way of escaping the curly brackets.
 ---
 {% include JB/setup %}
 
@@ -20,13 +22,15 @@ group: navigation
             <div class="container">
                 <div class="row">
                     <div class="col-xs-12 col-sm-12 col-md-12">
-                        <h1 class="big-title">Search</h1>
+                        <h1 class="big-title">Zoeken</h1>
                         <br/>
-                        <p>This is a local search (you will not be referred to Google). The minimum number of
-                        tokens is three. Try SLAM, Bayesian, UAV, or Crownstone.</p>
+                        <p>
+                            Deze zoekaktie is alleen op deze website (je zoekopdracht wordt niet gedeeld met Google). Het minimum aantal tekens is drie.
+                            Probeer bijvoorbeeld localisation, Bayesian of power consumption. De Crownstone blog is in het Engels.
+                        </p>
                         <div id="search">
                             <form action="/search" method="get">
-                                <input type="text" id="search-query" class="search-query" name="q" placeholder="Search" autocomplete="off">
+                                <input type="text" id="search-query" class="search-query" name="q" placeholder="Zoeken" autocomplete="off">
                             </form>
                         </div>
                         <br/>

@@ -1,0 +1,44 @@
+---
+layout: page
+title : Blog
+header : Blog
+group: [navigation, navigation-consumer-footer]
+lang: nl
+permalink: blog/
+---
+{% include JB/setup %}
+
+<!-- <div class="container"> -->
+<section class="dark-blue mini-wrap">
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-12">
+			<h1>Blog</h1>
+			<p>
+				Bij Crownstone bloggen we over een brede reeks van onderwerpen die te maken hebben met domotica, positiebepaling en consumentenelektronica. 
+				Geniet ervan en neem contact op als je ergens meer van wilt weten!
+				De blog is in het Engels geschreven.
+			</p>
+			<p>
+				Onze nieuwsbrieven zijn ook zeer interessant en betreffen ook onze eigen activiteiten (ze zijn beschikbaar via onze website na een bepaalde tijd).
+				Je kan de nieuwsbrieven teruglezen via
+				<a href="http://us10.campaign-archive2.com/home/?u=d03baf337210e326a61dc14d5&id=a23d3e9ded">dit online archief</a> 
+				en je aanmelden via de link onderaan deze pagina als je graag meer wilt weten van Crownstone.
+				De nieuwsbrief is ook in het Engels geschreven.
+			</p>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section class="gray mini-wrap">
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-12">
+			{% assign posts_collate = site.posts %}
+			{% include JB/posts_collate %}
+			</div>
+		</div>
+	</div>
+</section>
+<!-- </div> -->

@@ -11,8 +11,10 @@
     <link rel="apple-touch-icon" href="{{ BASE_PATH }}/images/apple-touch-icon.png">
     <link rel="apple-touch-icon" sizes="72x72" href="{{ BASE_PATH }}/images/apple-touch-icon-72x72.png">
     <link rel="apple-touch-icon" sizes="114x114" href="{{ BASE_PATH }}/images/apple-touch-icon-114x114.png">
+    {% I18n_Headers https://crownstone.rocks %}
+
     {% strip %}
-    
+
     {% if page.hide_title %}
     <title>Crownstone</title>
     {% else %}
@@ -87,9 +89,18 @@
                     {% endstrip %}
 				</ul>
                 <ul class="nav navbar-nav pull-right">
-
-                    <li><a href="https://shop.crownstone.rocks?ref=http://crownstone.rocks{{ page.url }}">
-                            Shop <i class="el el-shopping-cart"></i>
+                    {% for tongue in site.languages %}
+                     <li>
+                    <a {% if tongue == site.active_lang %}style="font-weight: bold;"{% endif %} href="{% if tongue == site.default_lang %} {{site.baseurl}}{{page.url}} {% else %} {{site.baseurl}}/{{ tongue }}{{page.url}} {% endif %}">{{ tongue }}</a>
+                     </li>
+                    {% endfor %}
+                    <li><a href="https://shop.crownstone.rocks?ref=http://crownstone.rocks/{{ site.active_lang}}{{ page.url }}">
+                          {% if site.active_lang == "nl" %}
+                            Winkel
+                          {% else %}
+                            Shop
+                          {% endif %}
+                            <i class="el el-shopping-cart"></i>
                         </a>
                     </li>
                 </ul>
