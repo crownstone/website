@@ -5,6 +5,7 @@ hide_title: true
 header: Crownstone Apps
 group: Landing
 markdown: true
+lang: nl
 permalink: app/
 ---
 {% include JB/setup %}
