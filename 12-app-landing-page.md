@@ -51,7 +51,7 @@ Download the iOS app from the Apple
 ## Android
 
 Download the app at the Google 
-[Play Store](https://play.google.com/store/apps/details?id=nl.dobots.crownstoneapp).
+[Play Store](https://play.google.com/store/apps/details?id=rocks.crownstone.crownstoneapp).
 
 # Future
 
