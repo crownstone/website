@@ -40,7 +40,7 @@ Dimming is already possible in the Crownstone firmware. However, to prevent you 
                         <div id="collapseTwo" class="panel-collapse collapse">
                             <div class="panel-body">
                                 <p>
-One basic concept the Crownstone app introduces is the **sphere**. A sphere is a loosely connected group of Crownstones, a little bit like a 
+                                One basic concept the Crownstone app introduces is the <strong>sphere</strong>. A sphere is a loosely connected group of Crownstones, a little bit like a 
 <a href="https://support.google.com/plus/answer/6320407?hl=en">circle on Google+</a>, 
 a 
 <a href="https://www.facebook.com/help/104002523024878">page on Facebook</a>, 
