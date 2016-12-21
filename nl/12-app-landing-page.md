@@ -51,7 +51,8 @@ Download de iOS app van de Apple
 
 ## Android
 
-Download de Android app van "binnenkort beschikbaar"!
+Download de Android app van de Google
+[Play Store](https://play.google.com/store/apps/details?id=nl.dobots.crownstoneapp).
 
 # Toekomst
 
