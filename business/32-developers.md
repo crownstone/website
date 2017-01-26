@@ -18,6 +18,8 @@ The Crownstones can be integrated in many solutions and on many different levels
 
 * The [firmware](#bluenet) on the Crownstones, called Bluenet
 
+![Integration]({{ BASE_URL }}/images/crownstone-integration.svg){: style="width: 100%"}
+
 # <a name="rest_api"></a>REST API
 
 The cloud is required to setup the Crownstones: keys and IDs will be generated, and locations can be set.

@@ -51,6 +51,7 @@ A very logical sphere is your home. Another logical sphere is your office. Howev
                             </div>
                         </div>
                     </div>
+
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h4 class="panel-title">
@@ -65,8 +66,24 @@ A very logical sphere is your home. Another logical sphere is your office. Howev
                             </div>
                         </div>
                     </div>
+
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">I tried turning off my LED light with the Crownstone and it's still on (or flashes intermittently). Is this to be expected?</a>
+                            </h4>
+                        </div>
+                        <div id="collapseThree" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <p>
+This is a known issue. The current version of the Crownstone plugs (not the built-in version) implements a filter that allows small amounts of current to pass through to the device that's plugged in. Normally this is no issue, but nowadays ther are LED lights that are so efficient that they can still function using this tiny bit of current. The next version of the Crownstone plug will not have this behavior, but will be functionally completely equivalent. 
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
-                    <p><strong>Note:</strong> Click on the linked heading text to expand or collapse the answers.</p>
+                <p><strong>Note:</strong> Click on the linked heading text to expand or collapse the answers.</p>
             </div>
         </div>
     </div>  
