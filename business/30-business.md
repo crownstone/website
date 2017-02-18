@@ -72,4 +72,3 @@ Crownstone is a **platform provider**. Our resellers provide these services to t
 Fill in <a href="https://crownstone.typeform.com/to/j2qpoR">this form</a> to apply for a partnership with Crownstone.
 
 
-
