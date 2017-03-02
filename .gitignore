@@ -30,4 +30,4 @@ attachments/hogeschool_rotterdam
 
 .idea/*
 
-/deploy.sh
+/*.sh
