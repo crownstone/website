@@ -13,6 +13,6 @@ The Crownstone is able to cope with very high currents. This however does not me
 
 ![Prongs]({{ site.url }}/attachments/burnt_prong.jpg){: width="90%"}
 
-In the right circles you see burned plastic. Needless to say that these prongs pose a fire hazard and I shouldn't have used this electric heater. However, I think this experiment is both (1) a nice testimony to the robustness of the Crownstone plugs and (2) a fair warning to people to use common sense with household appliances. 
+In the red circles you see black stuff: charcoaled plastic. Needless to say that these prongs pose a fire hazard and I shouldn't have used this electric heater to begin with. However, I did this experiment on purpose, because it is both (1) a nice testimony to the robustness of the builtin Crownstones and (2) a fair warning to people to use common sense with household appliances. 
 
 With Crownstones we are one step closer to safer homes!
