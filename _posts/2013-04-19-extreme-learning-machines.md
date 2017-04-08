@@ -35,7 +35,7 @@ will first show a summary of the theory behind this algorithm, and then
 provide a supervised learning example implemented in MATLAB.
 
 Note that this technique is very similar to Reservoir Computing techniques for
-recurrent neural networks. See [Remco’s blog about Echo State Networks]({{ site.url }}/2012/07/06/echo-state-networks/) for a description.
+recurrent neural networks. See [Remco’s blog about Echo State Networks]({{ site.url }}/2012/07/06/echo-state-networks) for a description.
 
 ## Theory
 
