@@ -4,6 +4,7 @@ title: "A nonparametric Bayesian lesson"
 description: "An introduction to nonparametric Bayesian methods"
 category: 
 tags: [machine learning, inference, statistics]
+math: true
 ---
 {% include JB/setup %}
 

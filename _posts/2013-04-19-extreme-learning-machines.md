@@ -5,6 +5,7 @@ description:
 category: 
 tags: []
 author: laurensbliek
+math: true
 ---
 {% include JB/setup %}
 
