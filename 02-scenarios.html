@@ -9,18 +9,33 @@ background: usecaseBackground
 ---
 {% include JB/setup %}
 
-    <div class="container-fluid bannerContainer lg" id="videoHeader">
-        <div class="videoContainer hidden-xs" id="videoContainer">
-            <video class="headerVideo" autoplay loop>
-                <source src="{{ BASE_PATH }}/clips/usecase.mp4" type="video/mp4">
-            </video>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="hidden-xs hidden-sm bannerVideoContainer">
+                <video width="100%" muted autoplay loop>
+                    <source src="{{ BASE_PATH }}/clips/usecase.mp4" type="video/mp4">
+                    Your browser doesn't support the video tag.
+                </video>
+            </div>
         </div>
     </div>
 
+    <!--
+    <div class="container-fluid bannerContainer lg" id="videoHeader">
+        <div class="row">
+            <div class="videoContainer hidden-xs" id="videoContainer">
+                <video class="headerVideo" autoplay loop>
+                    <source src="{{ BASE_PATH }}/clips/usecase.mp4" type="video/mp4">
+                    Your browser doesn't support the video tag.
+                </video>
+            </div>
+        </div>
+    </div>
+    -->
     <div class="container">
         <div class="row">
             <div class="col-md-12 col-sm-12">
-                <h1>Everyday usages of the Crownstone</h1>
+                <h1>Everyday usage of the Crownstone</h1>
                 <p>
                     Small daily tasks can sometimes create a lot of hassle. Crownstone enables you to run things more smoothly.
                     Use one on a lamp as a wake-up light to start your day, or as a night-light that subtly goes off when you go to bed.

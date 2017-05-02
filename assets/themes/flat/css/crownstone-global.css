@@ -77,6 +77,11 @@ img.topLogo.xs {
     padding-left: 10px;
 }
 
+div.bannerVideoContainer {
+    max-height: 750px;
+    overflow:hidden;
+}
+
 div.bannerContainer {
     position:relative;
     background-position: center;
