@@ -7,6 +7,8 @@ author: annevanrossum
 ---
 {% include JB/setup %}
 
+# Fancy lights
+
 Last Friday we had a goodbye event for Dominik. We will miss you, Dominik! After a [successful bank robbery](https://www.facebook.com/crownstones/posts/596056237246625), we dropped by at a restaurant at Oude Haven, where they have these beautiful big light bulbs...
 
 These light bulbs are advertised as carbon filament bulbs (Dutch: kooldraad), although they often don't contain carbon. Bulbs with carbon filament created from bamboo were the bulbs patented by Edison ([history](https://www.wikiwand.com/en/Incandescent_light_bulb)) long before tungsten became widespread. One of the challenges was to turn the carbon into graphite, which had a positive rather than a negative temperature coefficient. The latter is detrimental to the lifetime of a lamp: the warmer it gets, the lower the resistance, the more current it draws, the warmer it gets. You don't want that as a bulb designer! Apparently, nowadays you can buy these beautiful big light bulbs again, but know that there is a fly in the ointment... They are very likely to be energy inefficient and can only be sold due to a loophole where manufacturers state that "these lamps are not for domestic use".
@@ -25,13 +27,13 @@ Functionality like a dimming button in the app has very little to do with the sl
 
 The delivery of the built-ins will be immediately after we have received the final go from the third party that gives us a EU/EC declaration of conformity for CE marking, expected very soon now! Note, that we are "more Catholic than the Pope" in the sense that most of the manufacturers just declare to be conform without using a third party at all. In Europe the legally binding [directives](https://www.wikiwand.com/en/List_of_European_Union_directives) are implemented through norms. The challenge is to choose those norms that respect the electronic functionality we've been able to achieve!
 
-![Assembly Built-in]({{ site.url }}/attachments/assembly-builtin0.jpg "Assembly Built-in"){: .float-left width="42%" style="margin:4%"}
-![Assembly Built-in]({{ site.url }}/attachments/assembly-builtin1.jpg "Assembly Built-in"){: .float-right width="42%" style="margin:4%"}
+![Assembly Built-in]({{ site.url }}/attachments/assembly-builtin1.jpg "Assembly Built-in"){: .float-left width="42%" style="margin:4%"}
+![Assembly Built-in]({{ site.url }}/attachments/assembly-builtin2.jpg "Assembly Built-in"){: .float-right width="42%" style="margin:4%"}
 
 One of the things that is done by our certification partner is opening up the casing of all components and physically check if they are conforming to electrical specifications. Above you see for example the Panasonic relay when it's open (left) and when it's closed (right).
 
-![Bistable Relay]({{ site.url }}/attachments/bistable-relay0.jpg "Bistable Relay"){: .float-left width="42%" style="margin:4%"}
-![Bistable Relay]({{ site.url }}/attachments/bistable-relay1.jpg "Bistable Relay"){: .float-right width="42%" style="margin:4%"}
+![Bistable Relay]({{ site.url }}/attachments/bistable-relay1.jpg "Bistable Relay"){: .float-left width="42%" style="margin:4%"}
+![Bistable Relay]({{ site.url }}/attachments/bistable-relay2.jpg "Bistable Relay"){: .float-right width="42%" style="margin:4%"}
 
 We're also testing each item individually with heavy loads and are helped in this by three new team members from Human Technology, Bart Versluis, Mourad Fattouch, and Tim Prins. We are also joined by Jasper Makkinje and Riccardo Bellana who will be contributing activity recognition and device identification algorithms. By the way, if you know someone who loves software challenges, drop us a message!
 
