@@ -22,9 +22,45 @@ Usage:
 {% else %}
   {% for post in posts_collate  %}
     {% capture this_year %}{{ post.date | date: "%Y" }}{% endcapture %}
-    {% capture this_month %}{{ post.date | date: "%B" }}{% endcapture %}
+    {% if page.lang == "nl" %}
+		{% assign m = post.date | date: "%-m" %}
+		{% case m %}
+		{% when '1' %}{% capture this_month %}Januari{% endcapture %}
+		{% when '2' %}{% capture this_month %}Februari{% endcapture %}
+		{% when '3' %}{% capture this_month %}Maart{% endcapture %}
+		{% when '4' %}{% capture this_month %}April{% endcapture %}
+		{% when '5' %}{% capture this_month %}Mei{% endcapture %}
+		{% when '6' %}{% capture this_month %}Juni{% endcapture %}
+		{% when '7' %}{% capture this_month %}Juli{% endcapture %}
+		{% when '8' %}{% capture this_month %}Augustus{% endcapture %}
+		{% when '9' %}{% capture this_month %}September{% endcapture %}
+		{% when '10' %}{% capture this_month %}Oktober{% endcapture %}
+		{% when '11' %}{% capture this_month %}November{% endcapture %}
+		{% when '12' %}{% capture this_month %}December{% endcapture %}
+		{% endcase %}
+	{% else %}
+		{% capture this_month %}{{ post.date | date: "%B" }}{% endcapture %}
+	{% endif %}
     {% capture next_year %}{{ post.previous.date | date: "%Y" }}{% endcapture %}
-    {% capture next_month %}{{ post.previous.date | date: "%B" }}{% endcapture %}
+    {% if page.lang == "nl" %}
+		{% assign m = post.previous.date | date: "%-m" %}
+		{% case m %}
+		{% when '1' %}{% capture next_month %}Januari{% endcapture %}
+		{% when '2' %}{% capture next_month %}Februari{% endcapture %}
+		{% when '3' %}{% capture next_month %}Maart{% endcapture %}
+		{% when '4' %}{% capture next_month %}April{% endcapture %}
+		{% when '5' %}{% capture next_month %}Mei{% endcapture %}
+		{% when '6' %}{% capture next_month %}Juni{% endcapture %}
+		{% when '7' %}{% capture next_month %}Juli{% endcapture %}
+		{% when '8' %}{% capture next_month %}Augustus{% endcapture %}
+		{% when '9' %}{% capture next_month %}September{% endcapture %}
+		{% when '10' %}{% capture next_month %}Oktober{% endcapture %}
+		{% when '11' %}{% capture next_month %}November{% endcapture %}
+		{% when '12' %}{% capture next_month %}December{% endcapture %}
+		{% endcase %}
+	{% else %}
+    	{% capture next_month %}{{ post.previous.date | date: "%B" }}{% endcapture %}
+	{% endif %}
   
     {% if forloop.first %}
       <h2>{{this_year}}</h2>
@@ -32,7 +68,7 @@ Usage:
       <ul>
     {% endif %}
   
-    <li><span>{{ post.date | date: "%B %e, %Y" }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
+    <li><span><a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
   
     {% if forloop.last %}
       </ul>
