@@ -51,6 +51,12 @@ h3, h4, h5, h6, .h3, .h4, .h5, .h6 {
     font-family: 'LatoLight';
 }
 
+/** To overwrite theme settings of shopify theme **/
+
+h4 {
+    text-transform: normal;
+}
+
 .nav > li > a {
     font-family: 'LatoLight';
     font-size: 16px;
