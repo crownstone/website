@@ -3,6 +3,8 @@ layout: page
 title: Crownstone Apps
 hide_title: true
 header: Crownstone Apps
+description: "App om Crownstones aan te sturen en uit te lezen."
+keywords: "app, smartphone app, android, ios, iphone, Crownstone"
 group: Landing
 markdown: true
 lang: nl

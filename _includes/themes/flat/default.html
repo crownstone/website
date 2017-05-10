@@ -4,8 +4,16 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {% if page.description %}
+    <meta name="description" content="{{ page.description }}">
+    {% else %}
     <meta name="description" content="{{ site.description }}">
+    {% endif %}
+    {% if page.keywords %}
+    <meta name="keywords" content="{{ page.keywords }}">
+    {% else %}
     <meta name="keywords" content="{{ site.keywords }}">
+    {% endif %}
     <meta name="author" content="{{ site.author.name }}">
     <link rel="icon" type="image/x-icon" href="{{ site.production_url }}/images/favicon.ico?">
     <link rel="apple-touch-icon" href="{{ site.production_url }}/images/apple-touch-icon.png">
@@ -19,10 +27,6 @@
     <title>Crownstone</title>
     {% else %}
     <title>Crownstone | {{ page.title }}</title>
-    {% endif %}
-
-    {% if page.description %}
-    <meta name="description" content="{{ page.description }}">
     {% endif %}
 
     <!-- Bootstrap as framework -->
