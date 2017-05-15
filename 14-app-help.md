@@ -82,6 +82,29 @@ This is a known issue. The current version of the Crownstone plugs (not the buil
                         </div>
                     </div>
 
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#accordion" href="#collapseFive">How to install the built-in Crownstones?</a>
+                            </h4>
+                        </div>
+                        <div id="collapseFive" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <p>
+Installation of the built-in Crownstone should be exactly as indicated in the installation manual included in every package (see also below). What is very important to do is to pre-bend the wires. Strip the wires at 7-9 mm. It can be at 7 mm if you have standard 2.5mm^2 wires of which the plastic fits snugly into the connector. You should not have thicker wires such as 6mm^2 (because these are meant for 32-40A appliances).</p>
+<p>
+<img src="{{ site.url }}/attachments/installing-crownstone-light.png" title="Crownstone installation manual behind a light switch" alt="Crownstone installation manual behind a light switch">
+</p>
+<p>
+Note that the <a href="https://en.wikipedia.org/wiki/Electrical_wiring">wire coloring</a> are different in each country. More importantly, in your home they might be incorrect!
+</p>
+<p>
+It is always recommended to switch the <strong>live</strong> line. The Crownstone switches between 1 and 4. The connectors 2 and 3 are shorted internally. The numbering is as follows: (1) live to load (to the light), (2) neutral to load, (3) neutral from source (from the wall/grid), and (4) live/phase from source. 
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
                 <p><strong>Note:</strong> Click on the linked heading text to expand or collapse the answers.</p>
             </div>
