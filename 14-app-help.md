@@ -82,6 +82,8 @@ This is a known issue. The current version of the Crownstone plugs (not the buil
                         </div>
                     </div>
 
+
+
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h4 class="panel-title">
@@ -104,6 +106,25 @@ It is always recommended to switch the <strong>live</strong> line. The Crownston
                             </div>
                         </div>
                     </div>
+                    
+                    
+                    
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#accordion" href="#collapseSix">How can I factory reset the Crownstone?</a>
+                            </h4>
+                        </div>
+                        <div id="collapseSix" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <p>
+                                Due to security reasons you cannot always perform a factory reset. A factory reset is only possible the first 20 seconds after you have put power on the Crownstone. After that initial period this will not be possible except if you turn the power off and on again. Note that the possibility of a factory reset might be disabled in future editions (in that case this answer will be updated). 
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+
 
                 </div>
                 <p><strong>Note:</strong> Click on the linked heading text to expand or collapse the answers.</p>
