@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Visualizing accelerometer data
-description: 
+title: "Visualizing accelerometer data"
+description: "Visualization of accelerometer data for the purpose of human activity recognition."
 category: 
 tags: []
 author: roemervlasveld

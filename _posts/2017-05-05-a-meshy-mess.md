@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "A meshy mess"
-description: ""
+description: "The Crownstone mesh software."
 tags: []
 author: annevanrossum
 ---

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Why is engineering of the utmost importance?"
-description: ""
+description: "Good electrical engineering is an art."
 tags: []
 author: 
 ---

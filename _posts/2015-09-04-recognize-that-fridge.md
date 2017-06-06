@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Recognize that fridge!"
-description: "Recognition of "
+description: "Recognition of household appliances like fridges and televisions."
 tags: []
 author: merijnvantooren
 published: true

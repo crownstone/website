@@ -1,7 +1,7 @@
 ---
 layout: post
-title: In the spotlight, Linux!
-description: 
+title: "In the spotlight, Linux!"
+description: "FireSwarm drones running Linux."
 category: 
 tags: []
 author: annevanrossum

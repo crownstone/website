@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Introduction to One-Class Support Vector Machine
-description: 
+title: "Introduction to One-Class Support Vector Machine"
+description: "An introduction to the one-class Support Vector Machine."
 category: 
 tags: []
 author: roemervlasveld

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Inertia energy balance management system"
-description: ""
+description: "Inertia, a European project establishing an energy balance management system."
 tags: []
 author: peetvantooren
 ---

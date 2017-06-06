@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Extreme Learning Machines"
-description: 
+description: "Extreme Learning Machines, another reservoir computing method, besides Echo State Networks and Liquid State Machines."
 category: 
 tags: []
 author: laurensbliek

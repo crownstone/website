@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Do you want fancy light bulbs? Think again!"
-description: ""
+description: "The shady world of fancy light bulbs. They are not environmentally friendly!"
 tags: []
 author: annevanrossum
 ---

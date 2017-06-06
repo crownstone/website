@@ -2,7 +2,7 @@
 layout: post
 title: "Maker Inspiration"
 author: remcotukker
-description: 
+description: "The maker movement, from the Nabaztag to RFID"
 category: 
 tags: ["maker culture", "nabaztag", "rfid"]
 ---
@@ -10,7 +10,7 @@ tags: ["maker culture", "nabaztag", "rfid"]
 
 # Maker Inspiration
 
-When browsing through the various blogposts, I noticed that the ideas of DO
+When browsing through the various blogposts, I noticed that the ideas of DoBots
 have many parallels with the [maker culture](http://en.wikipedia.org/wiki/Maker_culture). The maker movement has
 quickly been gaining popularity over the past years, and in that respect DoBots is
 a typical example of modern engineering culture: we like rapid prototyping, we

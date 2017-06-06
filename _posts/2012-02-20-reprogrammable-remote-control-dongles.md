@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Reprogrammable Remote Control dongles
-description: 
+title: "Reprogrammable Remote Control dongles"
+description: "Joybien and programmable remote control dongles as smartphone accessories."
 category: 
 tags: []
 author: annevanrossum

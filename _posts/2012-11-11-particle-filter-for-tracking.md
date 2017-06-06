@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Particle filter for tracking"
-description: 
+description: "A particle filter for tracking a robot using an ordinary webcam."
 category: 
 tags: []
 author: annevanrossum

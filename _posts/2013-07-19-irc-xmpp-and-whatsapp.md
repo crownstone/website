@@ -2,7 +2,7 @@
 author: bartvanvliet
 layout: post
 title: "IRC, XMPP and WhatsApp"
-description: 
+description: "Different communication methods, IRC, XMPP, and Whatsapp."
 category: 
 tags: []
 ---

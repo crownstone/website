@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Echo State Networks
+title: "Echo State Networks"
 author: remcotukker
-description: 
+description: "Echo State Networks for classification of environments and abstract context."
 category: 
 tags: ["robot control", "echo state networks"]
 ---

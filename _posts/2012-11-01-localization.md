@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Localization
+title: "Localization"
 author: remcotukker
-description: 
+description: "Localization of humans."
 category: 
 tags: ["localization", "slam"]
 ---
@@ -46,17 +46,13 @@ an unknown dynamic environment.
 
 ##  Ceiling odometry
 
-
-
 As a start, we are building a simple 2d demo. We can use a camera to look at
 the ceiling and use this video stream to estimate where we have walked. The
 first step is to detect and track features on the ceiling. This may seem easy,
 but to find stable features for tracking is easier said than done. To track
 these features and find out where they moved, we can use the iterative Lucas-
-Kanade method*. [This method](http://docs.opencv.org/modules/video/doc/motion_analysis_and_object_tracking.html) is built into OpenCV and
+Kanade method [1]. [This method](http://docs.opencv.org/modules/video/doc/motion_analysis_and_object_tracking.html) is built into OpenCV and
 gives good results.
-
-
 
 Then, we can calculate the
 [homography](http://en.wikipedia.org/wiki/Homography) between the old and new
@@ -70,7 +66,7 @@ app for Android!
 
 
 
-*Alternatively, we can use [phase correlation](http://en.wikipedia.org/wiki/Phase_correlation), which is based on a Fourier transform over the old and new images. OpenCV only includes a function to use this method for translations, but it has been shown that it can also be used to find rotations. While initial tests did not give great results, I would like to look into this further, as it seems to be a good method to quickly use all the information in an image to estimate rotation and translation.
+[1] Alternatively, we can use [phase correlation](http://en.wikipedia.org/wiki/Phase_correlation), which is based on a Fourier transform over the old and new images. OpenCV only includes a function to use this method for translations, but it has been shown that it can also be used to find rotations. While initial tests did not give great results, I would like to look into this further, as it seems to be a good method to quickly use all the information in an image to estimate rotation and translation.
 
 
 

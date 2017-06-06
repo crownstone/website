@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Does Alexa have skills?"
-description: ""
+description: "Developing Smart Home skills for Alexa"
 tags: []
 author: 
 ---

@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Smartphone add-ons
-description: 
+title: "Smartphone add-ons"
+description: "There are so many smartphone add-ons! This contains references to all kind of add-ons you might encounter."
 category: 
 tags: [smartphone, romo]
 author: annevanrossum

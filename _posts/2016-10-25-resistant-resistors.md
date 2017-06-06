@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Resistant Resistors"
-description: ""
+description: "Optimizing the hardware for low power consumption."
 tags: []
 author: 
 ---

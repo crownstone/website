@@ -1,7 +1,7 @@
 ---
 layout: post
-title: The renormalization group on networks, an introduction
-description: 
+title: "The renormalization group on networks, an introduction"
+description: "The renormalization group, an interesting method from statistical physics."
 category: 
 tags: []
 author: annevanrossum

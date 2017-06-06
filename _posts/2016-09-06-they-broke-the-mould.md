@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "They broke the mould"
-description: ""
+description: "The manufacturing of moulds for the Crownstone plugs."
 tags: []
 author: 
 ---

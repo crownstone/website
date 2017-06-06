@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Self-organisation Literature
-description: 
+title: "Self-organisation Literature"
+description: "Literature on self-organization, from embodied intelligence to polychronization."
 category: 
 tags: []
 author: annevanrossum
