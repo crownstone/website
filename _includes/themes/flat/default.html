@@ -83,10 +83,10 @@
     {% endstrip %}
 
     {% strip %}
-    {% if page.background %}
+    {% if page.background-video %}
     <script>
         // set the appropriate background image
-        BACKGROUND_CLASS = '{{ page.background }}';
+        BACKGROUND_CLASS = '{{ page.background-video }}';
     </script>
     {% endif %}
     {% endstrip %}
@@ -137,6 +137,13 @@
 			</div>
 		</div>
 	</nav>
+
+{% if page.background-image %}
+<div class="bannerContainer lg visible-lg {{ page.background-image }}"></div>                                          
+<div class="bannerContainer md visible-md {{ page.background-image }}"></div>                                          
+<div class="bannerContainer sm visible-sm {{ page.background-image }}"></div>                                          
+<div class="bannerContainer xs visible-xs {{ page.background-image }}"></div> 
+{% endif %}
 
 {% if page.markdown %}
 <div class="container">
