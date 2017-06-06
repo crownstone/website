@@ -2,7 +2,14 @@
 # Remember to set production_url in your _config.yml file!
 title : Sitemap
 ---
+{% strip %}
 {% for page in site.pages %}
-{{site.production_url}}{{ page.url }}{% endfor %}
+{% if page.url != '/error/' %}
+{% unless page.url contains '/assets/' %}
+{{site.production_url}}{{ page.url }}
+{% endunless %}
+{% endif %}
+{% endfor %}
 {% for post in site.posts %}
 {{site.production_url}}{{ post.url }}{% endfor %}
+{% endstrip %}
