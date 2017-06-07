@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Ethical Policy
+description: Ethical Policy at Crownstone from privacy to data ownership.
 hide_title: true
 header: Ethics
 group: Policy

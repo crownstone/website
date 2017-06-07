@@ -2,6 +2,7 @@
 layout: page
 title: Home
 header: Business
+description: "Crownstone for businesses"
 group: [navigation-business-footer]
 markdown: true
 permalink: business/

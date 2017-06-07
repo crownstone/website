@@ -3,4 +3,6 @@ User-agent: *
 Disallow: /error/
 Disallow: /scripts/
 Disallow: /js/
-Sitemap: https://dobots.nl/sitemap.txt
+
+Sitemap: https://crownstone.rocks/sitemap.txt
+Sitemap: https://crownstone.rocks/nl/sitemap.txt

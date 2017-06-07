@@ -3,6 +3,7 @@ layout: page
 title: Terms of Service
 hide_title: true
 header: Terms of Service
+description: Terms of Service
 group: Policy
 markdown: true
 permalink: terms-of-service/

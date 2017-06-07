@@ -2,6 +2,7 @@
 layout: page
 title: Internet of Things
 header: Business
+description: "The type of data that can originate from Crownstone hardware."
 group: [navigation-business-footer]
 markdown: true
 permalink: business/data/
