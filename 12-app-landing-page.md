@@ -1,8 +1,7 @@
 ---
 layout: page
-title: Crownstone Apps
-hide_title: true
-header: Crownstone Apps
+title: Smartphone apps
+header: Crownstone Smartphone Apps
 description: "App to control and read out Crownstones."
 keywords: "app, smartphone app, android, ios, iphone, Crownstone"
 group: Landing

@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Privacy Policy
-hide_title: true
 header: Privacy
 description: Privacy Policy of Crownstone
 group: Policy

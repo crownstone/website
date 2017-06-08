@@ -1,7 +1,6 @@
 ---
 layout: page
 title: App Help
-hide_title: true
 header: Crownstone Apps
 group: Landing
 permalink: app-help/
