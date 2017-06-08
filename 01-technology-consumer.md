@@ -87,7 +87,7 @@ For detailed specifications, see the [specification page](/pages/specifications)
 <div class="row"></div>
 <hr class="featurette-divider" />
 
-# State
+# Roadmap
 
 The current Crownstone iOS and Android apps have the following functionality. Every few weeks a new update is rolled out:
 
@@ -111,5 +111,9 @@ The current Crownstone iOS and Android apps have the following functionality. Ev
 | Integration with thermostat radiator valves     | To be done               | To be done                |
 | Multi-user setup (don't leave user in the dark) | To be done               | To be done                |
 
-On [our roadmap](https://trello.com/b/6rUcIt62/crownstone-transparent-product-roadmap) you will find more tasks that are planned already, from integration with Alexa to configuration of preconfigured scenes. A nice example of another company that brings a lot of firmware updates is Fujifilm. Look at [this list](https://petapixel.com/2017/03/22/fujifilm-x-t2x-pro2-firmware-update-bring-33-improvements/) of impressive updates that are so significant that it feels like you own a completely new camera! We will always have a few features under the radar that hopefully will make you feel the same!
+On our roadmap you will find more tasks that are planned already, from integration with Alexa to configuration of preconfigured scenes. 
+
+<iframe src="https://trello.com/b/6rUcIt62.html" frameborder="0" width="100%" height="600"></iframe>
+
+You can vote for it [on trello](https://trello.com/b/6rUcIt62/crownstone-transparent-product-roadmap) if you'd like to. A nice example of another company that brings a lot of firmware updates is Fujifilm. Look at [this list](https://petapixel.com/2017/03/22/fujifilm-x-t2x-pro2-firmware-update-bring-33-improvements/) of impressive updates that are so significant that it feels like you own a completely new camera! We will always have a few features under the radar that hopefully will make you feel the same!
 

@@ -11,7 +11,7 @@ permalink: app/
 ---
 {% include JB/setup %}
 
-# Crownstones, what are they again?
+# Smartphone apps
 
 The Crownstone app is the software that belongs to hardware that can be bought at 
 [shop.crownstone.rocks](https://shop.crownstone.rocks). 
