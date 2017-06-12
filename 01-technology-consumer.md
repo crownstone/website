@@ -61,55 +61,59 @@ Get a look and feel by playing around with the Crownstones models here!
 
 <hr class="featurette-divider" />
 
-<div class="col-xs-12 col-sm-6 col-md-6">
-<div class="embed-responsive embed-responsive-16by9">
-<iframe class="embed-responsive-item" src="//player.vimeo.com/video/139371752"></iframe>
-</div>
-</div>
-
-# Kickstarter
-				
-The Crownstone is originally developed for a [Kickstarter](https://www.kickstarter.com/projects/dobots/crownstone) project. We were on many European news sites and in general this really kickstarted our business in many ways (being accepted in the Rockstart accelerator for example). Some of the features of the Crownstone you can watch in this Kickstarter promo.
-
-<div class="row"></div>
-<hr class="featurette-divider" />
-
-<div class="col-xs-12 col-sm-6 col-md-6">
-  <div class="embed-responsive embed-responsive-16by9">
-  <iframe class="embed-responsive-item" src="//player.vimeo.com/video/138335017"></iframe>
+<div class="row">
+  <div class="col-xs-12 col-sm-6 col-md-6">
+    <div class="embed-responsive embed-responsive-16by9">
+      <iframe class="embed-responsive-item" src="//player.vimeo.com/video/139371752"></iframe>
+    </div>
+  </div>
+  <div class="col-xs-12 col-sm-6 col-md-6">
+    <h1>Kickstarter</h1>
+    <p>
+    The Crownstone is originally developed for a <a href="https://www.kickstarter.com/projects/dobots/crownstone">Kickstarter</a> project. We were featured on many European news sites and in general this really kickstarted our business in many ways (being accepted in the Rockstart accelerator for example). Some of the features of the Crownstone you can watch in this Kickstarter promo.
+    </p>
   </div>
 </div>
 
-# Specifications
+<hr class="featurette-divider" />
 
-For detailed specifications, see the [specification page](/pages/specifications).
+<div class="row">
+  <div class="col-xs-12 col-sm-6 col-md-6">
+    <h1>Specifications</h1>
+    <p>For detailed specifications, see the <a href="/pages/specifications">specification page</a></p>.
+  </div>
+  <div class="col-xs-12 col-sm-6 col-md-6">
+    <div class="embed-responsive embed-responsive-16by9">
+      <iframe class="embed-responsive-item" src="//player.vimeo.com/video/138335017"></iframe>
+    </div>
+  </div>
+</div>
 
-<div class="row"></div>
 <hr class="featurette-divider" />
 
 # Roadmap
 
 The current Crownstone iOS and Android apps have the following functionality. Every few weeks a new update is rolled out:
 
-| Functionality                                   | State Firmware           | State Smartphone Apps     | 
-| ---                                             | ---                      | ---                       |
-| Switching                                       | Done                     | Done                      |
-| Instantaneous power consumption                 | Done                     | Done                      |
-| Reacting on close proximity (tap-to-toggle)     | Done                     | Done                      |
-| Reacting on moderate proximity (presence)       | Done                     | Done                      |
-| Reacting on room-level indoor positioning       | Done                     | Done                      |
-| User-controlled upload of data to the cloud     | Done                     | Done                      |
-| Sending commands through the internet           | Done                     | Done                      |
-| Visualizing other users in the app              | Done                     | To be done on Android     |
-| Scheduling                                      | To be done               | To be done                |
-| Wake-up light                                   | To be done               | To be done                |
-| Dimming (PWM at 50Hz)                           | To be done               | To be done                |
-| Power consumption history                       | To be done               | To be done                |
-| Integration with Toon                           | To be done               | To be done                |
-| Device identification                           | To be done               | To be done                |
-| Control by non-registered guest users           | To be done               | To be done                |
-| Integration with thermostat radiator valves     | To be done               | To be done                |
-| Multi-user setup (don't leave user in the dark) | To be done               | To be done                |
+| Functionality                                   | State Firm&shy;ware                             | State Apps                                       | 
+| ---                                             | ---                                             | ---                                              |
+| Switching                                       | <i class="el el-check"></i>                     | <i class="el el-check"></i>                      |
+| Instantaneous power consumption                 | <i class="el el-check"></i>                     | <i class="el el-check"></i>                      |
+| Reacting on close proximity (tap-to-toggle)     | <i class="el el-check"></i>                     | <i class="el el-check"></i>                      |
+| Reacting on moderate proximity (presence)       | <i class="el el-check"></i>                     | <i class="el el-check"></i>                      |
+| Reacting on room-level indoor positioning       | <i class="el el-check"></i>                     | <i class="el el-check"></i>                      |
+| User-controlled upload of data to the cloud     | <i class="el el-check"></i>                     | <i class="el el-check"></i>                      |
+| Sending commands through the internet           | <i class="el el-check"></i>                     | <i class="el el-check"></i>                      |
+| Visualizing other users in the app              | <i class="el el-check"></i>                     | <i class="el el-check-empty"></i>                |
+| Scheduling                                      | <i class="el el-check-empty"></i>               | <i class="el el-check-empty"></i>                |
+| Wake-up light                                   | <i class="el el-check-empty"></i>               | <i class="el el-check-empty"></i>                |
+| Dimming (PWM at 50Hz)                           | <i class="el el-check-empty"></i>               | <i class="el el-check-empty"></i>                |
+| Power consumption history                       | <i class="el el-check-empty"></i>               | <i class="el el-check-empty"></i>                |
+| Integration with Toon                           | <i class="el el-check-empty"></i>               | <i class="el el-check-empty"></i>                |
+| Device identification                           | <i class="el el-check-empty"></i>               | <i class="el el-check-empty"></i>                |
+| Control by non-registered guest users           | <i class="el el-check-empty"></i>               | <i class="el el-check-empty"></i>                |
+| Integration with thermostat radiator valves     | <i class="el el-check-empty"></i>               | <i class="el el-check-empty"></i>                |
+| Multi-user setup (don't leave user in the dark) | <i class="el el-check-empty"></i>               | <i class="el el-check-empty"></i>                |
 
 On our roadmap you will find more tasks that are planned already, from integration with Alexa to configuration of preconfigured scenes. 
 
