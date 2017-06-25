@@ -33,15 +33,15 @@ The Crownstone compares favorably to the competition:
 
 | Function                     | Competing products                                         | 
 | ---                          | ---                                                        |
-| Switch (16 A)                | Fibaro (€ 52,50), Digitalstrom (€ 95,60)                   |
-| Dimmer                       | Fibaro (€ 54,95)                                           |
-| Wake-up light                | Philips (€ 59,95)                                          |
-| Energy monitor               | Plugwise (€ 44,99)                                         |
-| Standby killer               | Elro (€25,00)                                              |
-| Device identification        | Smappee (€ 250,00), Curb (€ 400,00), for entire home       |
-| Presence sensor              | Kontakt (€ 37,09)                                          |
+| Switch (16 A)                | Fibaro (€ 52.50), Digitalstrom (€ 95.60)                   |
+| Dimmer                       | Fibaro (€ 54.95)                                           |
+| Wake-up light                | Philips (€ 59.95)                                          |
+| Energy monitor               | Plugwise (€ 44.99)                                         |
+| Standby killer               | Elro (€25.00)                                              |
+| Device identification        | Smappee (€ 250.00), Curb (€ 400.00), for entire home       |
+| Presence sensor              | Kontakt (€ 37.09)                                          |
 
-Note, that often the Crownstone functionality is already competing on price with a single product type. 
+Note, that often the Crownstone functionality is already competing on price (see [shop](https://shop.crownstone.rocks?ref=comparison), € 44.99 each) with a single product type. Just getting yourself a dimmer might be more costly than buying state-of-the-art Crownstone technology.
 
 # Play around!
 
