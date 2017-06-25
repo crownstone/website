@@ -16,6 +16,22 @@ permalink: app-help/
 
             <div class="bs-example">
                 <div class="panel-group" id="accordion">
+
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#accordion" href="#collapseNewStone">How to add a Crownstone in the app?</a>
+                            </h4>
+                        </div>
+                        <div id="collapseNewStone" class="panel-collapse collapse in">
+                            <div class="panel-body">
+                                <p>
+                                Open the Crownstone app, just in the general overview. Now power on the Crownstone (plug it in). Keep the phone <strong>really close</strong> and this means <strong>really</strong> close. You will see a blue icon flashing. This is the Crownstone discovered by the phone. Click on it and read the instruction for setup. After this procedure you are the digital owner of the Crownstone and you can decide who is allowed to use it.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h4 class="panel-title">
@@ -94,7 +110,7 @@ This is a known issue. The current version of the Crownstone plugs (not the buil
                                 <p>
 Installation of the built-in Crownstone should be exactly as indicated in the installation manual included in every package (see also below). What is very important to do is to pre-bend the wires. Strip the wires at 7-9 mm. It can be at 7 mm if you have standard 2.5mm^2 wires of which the plastic fits snugly into the connector. You should not have thicker wires such as 6mm^2 (because these are meant for 32-40A appliances).</p>
 <p>
-<img src="{{ site.url }}/attachments/installing-crownstone-light.png" title="Crownstone installation manual behind a light switch" alt="Crownstone installation manual behind a light switch">
+<img src="{{ site.url }}/attachments/installing-crownstone-light.png" width="100%" title="Crownstone installation manual behind a light switch" alt="Crownstone installation manual behind a light switch">
 </p>
 <p>
 Note that the <a href="https://en.wikipedia.org/wiki/Electrical_wiring">wire coloring</a> are different in each country. More importantly, in your home they might be incorrect!
