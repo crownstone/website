@@ -51,6 +51,11 @@ h3, h4, h5, h6, .h3, .h4, .h5, .h6 {
     font-family: 'LatoLight';
 }
 
+.call-to-action h3 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
 /** To overwrite theme settings of shopify theme **/
 
 h4 {
@@ -81,6 +86,11 @@ img.topLogo.xs {
     float:left;
     padding-right: 10px;
     padding-left: 10px;
+}
+
+.carousel {
+    width: 75%;
+    margin: 0 auto;
 }
 
 div.bannerVideoContainer {
