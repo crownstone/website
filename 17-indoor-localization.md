@@ -29,7 +29,7 @@ Disadvantages:
 
 ## Fingerprinting
 
-In the Crownstone at home setting, an AI (artificial intelligence) resides on your phone. Currently, this entity is not particular intelligent, but it is meant to become smarter over time. One of the components of this AI is a so-called classifier. The AI initiates the user to walk around in a predefined (labeled) room. At regular time intervals the AI collects Bluetooth Low Energy signal strengths (RSSI values). If a user covers the room while this is done the AI has collected a set of those RSSI values for a wide diversity of locations within the room. Each item in this set belongs to the same label "living room". The classifier has as task to pair a set of RSSI values with the proper room label.
+In the Crownstone at home setting, an AI (artificial intelligence) resides on your phone. Currently, this entity is not particularly intelligent, but it is meant to become smarter over time. One of the components of this AI is a so-called classifier. The AI initiates the user to walk around in a predefined (labeled) room. The AI collects Bluetooth Low Energy signal strengths (RSSI values). If a user covers the room while this is done the AI has collected a set of those RSSI values for a wide diversity of locations within the room. Each item in this set belongs to the same label "living room". The classifier has as task to pair a set of RSSI values with the proper room label.
 
 Advantages:
 
@@ -42,15 +42,15 @@ Disadvantages:
 
 * The user has to carry a smartphone with an app.
 * RSSI values are different per phone model and per individual phone (smartphone covers, cases, etc. slightly disturb BLE signals). Part of this might be solved by so-called *transfer learning*, in which an AI on one phone learns from an AI on another phone. However, that is a non-trivial problem.
-* In daily operation the smartphone has to listen to RSSI values all the time (in the background). This can be done, although it takes care to achieve continuous listening on iOS devices. However, regarding battery life it needs to be taken into account that listening costs energy, even if it is not much. 
+* In daily operation the smartphone has to listen to RSSI values all the time (in the background). This can be done, although it requires background location permissions achieve continuous listening on iOS devices. However, regarding battery life it needs to be taken into account that listening costs energy, even if it is not much. 
 
 Things to consider:
 
-* Messages have to be sent as unconnectable iBeacon messages to be received by iPhones. This means that smart home devices such as Crownstones need to toggle between connectable BLE messages and unconnectable iBeacon messages.
+* Messages have to be sent as unconnectable iBeacon messages to be received by iPhones per iBeacon specification. This means that smart home devices such as Crownstones need to toggle between connectable BLE messages and unconnectable iBeacon messages.
 
 ## Region monitoring
 
-There is a particular option in iOS available that allows an app developer to only have information flowing to the app when a user enters or exists a particular region. The data in an iBeacon message contains a proximity UUID, major, and minor number. When a particular proximity UUID is registered, it can be searched for in the app. Note, that it has to be known beforehand! The software framework in iOS, called Core Location, limits the number of regions to 20. An app is not able to simultaneously monitor more than 20 regions. This means that if every room gets its own UUID or major/minor, it is only possible to have 20 rooms in total for a particular user.
+There is a particular option in iOS available that allows an app developer to only have information flowing to the app when a user enters or exists a particular region. The data in an iBeacon message contains a proximity UUID, major, and minor number. When a particular proximity UUID is registered, the app can monitor for it. It cannot scan all available iBeacon broadcasts and then pick on to listen to. The software framework in iOS, called Core Location, limits the number of regions to 20. An app is not able to simultaneously monitor more than 20 regions. This means that if every room gets its own UUID or major/minor and is defined as an individual region, it is only possible to have 20 rooms in total for a particular user.
 
 There are several ways to circumvent this:
 
@@ -67,6 +67,7 @@ Disadvantages:
 * Assuming no additional ranging, only an accuracy defined by typical BLE transmission distance is available. This can deviate from 20 to 70 meter. This is a level of accuracy that defines a building or a wing of a building, but not much more.
 * Circumventing the 20 region limit is hard in practice. 
 * There are all kind of edge cases and noise often screws up the application. Region enter and exit events are easily missed. 
+* When telling an app to monitor for certain iBeacon region while the app is in the background, it will not always keep the app active in the background.
 
 ## In-network tracking
 
