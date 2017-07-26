@@ -82,6 +82,36 @@ Disadvantages:
 * A BLE wearable might not always transmit BLE messages. For example when it is connected to a smartphone it might stop sending regular messages. This means that each BLE wearable has to be checked upon its compatibility.
 * The information needs to go through a BLE mesh network, a gateway, and the internet. This means that this information has high latency.
 
+## Trilateration
 
+By creating a single map with the positions of all beacons on that map, it is possible to perform trilateration. This is often called triangulation, however trilateration uses the BLE received signal strengths, not angles (and Pythagoras).
 
+Advantages:
 
+* Quite accurate positioning possible.
+* Trilateration is a very well known problem with many off-the-shelf solutions.
+
+Disadvantages:
+
+* All locations of beacons have to be put on an accurate (metric) map.
+* If beacons change position this has to be noted and adjusted on the map.
+* The app on the phone has to get a map from a building before being able to perform positioning.
+* The metric positions (indoor GPS coordinates) have to be mapped to semantic labels (e.g. meeting room or hallway).
+
+## Simultaneous localization and mapping
+
+Simultaneous localization and mapping is a technique from robotics in which - in this case - the map (locations of beacons) are automatically discovered by the smartphones localizing themselves. This is an incrementally improving method. First the locations of the beacons are wrong. However, by knowing things about the movement of smartphones (e.g. the smoothness of a trajectory), the system learns which beacons are close to each other and which are not.
+
+Advantages:
+
+* Quite accurate positoning possible.
+* No need to put the beacons on a map.
+
+Disadvantages:
+
+* Difficult algorithms with a lot of corner cases.
+* The metric positions (indoor GPS coordinates) have to be mapped to semantic labels (e.g. meeting room or hallway).
+
+# Other points
+
+There are a lot of other things that can improve the positioning or the user experience. It is possible for example to use odometry information (movement or lack of movement of a smartphone) to improve the positioning accuracy (both in resolution and in latency). The use of accelerometer, gyroscope data however also has an influence on battery life. Besides that there are additional sensors that can be used on a smartphone. A camera is an obvious possibility. Less well-known is the possibility to use small deviations in a smartphone's compass. Those small deviations are typical for metal in the environment and thus typical for particular locations within a building. At Crownstone we will always use whatever becomes available to provide state-of-the-art localization results.
