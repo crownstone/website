@@ -1,12 +1,22 @@
-<div id="disqus_thread"></div>
+<div id="disqus_thread">
+  <a href="#" onclick="disqus();return false;"><i class="el el-group"></i> Show Comments</a> 
+</div>
+
 <script type="text/javascript">
-    var disqus_shortname = '{{ site.JB.comments.disqus.short_name }}'; 
-    {% if page.wordpress_id %}var disqus_identifier = '{{page.wordpress_id}} {{site.production_url}}/?p={{page.wordpress_id}}';{% endif %}
-    (function() {
-        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-    })();
+	var disqus_shortname = '{{ site.JB.comments.disqus.short_name }}'; 
+	var disqus_loaded = false;
+	// load disqus comments only on demand
+	function disqus() {
+
+	  if (!disqus_loaded)  {
+		var e = document.createElement("script");
+		e.type = "text/javascript";
+		e.async = true;
+		e.src = "//" + disqus_shortname + ".disqus.com/embed.js";
+		(document.getElementsByTagName("head")[0] ||
+		 document.getElementsByTagName("body")[0])
+		.appendChild(e);
+	  }
+	} 
 </script>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-<a href="https://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
+
