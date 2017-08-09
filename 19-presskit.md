@@ -33,6 +33,7 @@ Social media:
 * [LinkedIn](https://www.linkedin.com/company/crownstone)
 * [Facebook](https://www.facebook.com/crownstones/)
 * [Twitter](https://twitter.com/CrownstoneRocks)
+* [YouTube](https://www.youtube.com/channel/UCru1PX6P1JyhsI-OEMXnBdg)
 
 ## Press releases
 
