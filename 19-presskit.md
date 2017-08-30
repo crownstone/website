@@ -33,15 +33,62 @@ Social media:
 * [LinkedIn](https://www.linkedin.com/company/crownstone)
 * [Facebook](https://www.facebook.com/crownstones/)
 * [Twitter](https://twitter.com/CrownstoneRocks)
-* [YouTube](https://www.youtube.com/channel/UCru1PX6P1JyhsI-OEMXnBdg)
+* [Youtube](https://www.youtube.com/channel/UCru1PX6P1JyhsI-OEMXnBdg)
 
-## Press releases
+## Press releases / in the press
+
+International:
+
+* "Indoor localization with the Internet of Things", 2017, [shared press release together with EnOcean](https://crownstone.rocks/attachments/PressReleaseCrownstoneEnOcean.pdf).
+* "Crownstone takes home automation beyond Alexa", Cate Lawrence, 2016, [readwrite.com](https://readwrite.com/2016/05/16/crownstones-go-beyond-voice-home-alexa-vt4/).
+* "Crownstone, the Smart Power Outlet that Uses Indoor Location", Ludovic Privat, 2015, [gpsbusinessnews](http://www.gpsbusinessnews.com/Crownstone-the-Smart-Power-Outlet-That-Uses-Indoor-Location_a5668.html).
+* "Slim, heel slim, dit stopcontact", 2016, [innovatief.be](https://www.innovatief.be/nl/nieuws//bouwen/slim-heel-slim-dit-stopcontact/191).
+* "Smart stuff", Bruce Byfield, 2015, [linux-magazine.com](http://www.linux-magazine.com/Issues/2015/181/DoBots-Crownstone).
+
+National:
+
+* "Als een smart plug niet smart genoeg is, dan ontwerpen we er zelf maar een", 2017, [FWD Magazine](https://www.ced.group/nl-NL/Nieuws/FWD-Magazine).
+* "Nederlandse start-up introduceert module om stopcontacten slim te maken", Olaf van Miltenburg, 2015, [Tweakers](https://tweakers.net/nieuws/105284/nederlandse-start-up-introduceert-module-om-stopcontacten-slim-te-maken.html).
+* "Rotterdammers lanceren 'slim' stopcontact Crownstone", 2015, [nu.nl](http://www.nu.nl/gadgets/4126449/rotterdammers-lanceren-slim-stopcontact-crownstone.html).
+* "Slimmer huis dankzij een stekker", Samira Himmit, 2016, [NRC](https://www.nrc.nl/nieuws/2016/12/15/slimmer-huis-dankzij-een-stekker-5780952-a1536988).
+* "Smart Industry in de praktijk: DoBots lanceert slim stopcontact op Kickstarter", 2015, [smartindustry.nl](https://www.smartindustry.nl/nieuws/smart-industry-in-de-praktijk-dobots-lanceert-slim-stopcontact-op-kickstarter/).
+* "Crownstone: slim stopcontact maakt van jouw huis een smart home", Sophie de Kok, 2015, [dutchcowboys.nl](http://www.dutchcowboys.nl/technology/crownstone-slim-stopcontact-maakt-van-jouw-huis-een-smarthome).
+* "Crownstone: met dit slimme stopcontact kun je energie besparen in huis", 2015 [businessinsider.nl](https://www.businessinsider.nl/crownstone-met-dit-slimme-stopcontact-kun-je-energie-besparen-in-huis-491717/).
+* "Crownstone: een simpele oplossing voor een slimmer huis", 2015 [fme](https://www.fme.nl/en/node/4173).
+* "Deze ondernemer ontdekte het grote verschil tussen Kickstarter en Indiegogo", Maarten Keswiel, 2015, [sprout.nl](https://www.sprout.nl/artikel/crowdfunding/deze-ondernemer-ontdekte-het-grote-verschil-tussen-kickstarter-en-indiegogo).
+* "Nederlandse Dobots Kickstart Crownstone: iBeacons in je stopcontact", Remco Bron, 2015, [ibeacon-nieuws.nl](https://ibeacon-nieuws.nl/nederlandse-dobots-kickstart-crownstone-ibeacons-in-je-stopcontact/).
+* "Crownstone: Nederlanders maken slim stopcontact dat je moet hebben", Milton Broen, 2015, [want.nl](https://www.want.nl/crownstone-nederlanders-maken-slim-stopcontact-dat-je-moet-hebben/).
 
 ## Video files
 
+Product demos:
+
+* Demo on Crownstone turning off dangerous devices, 2016, [Youtube]( https://www.youtube.com/watch?v=bJZy1G756oM).
+* Demo on Crownstone hardware features, 2015, [Youtube](https://www.youtube.com/watch?v=JS4tf2v2Wg4&t=3s).
+
+Pitches:
+
+* Demo day at Rockstart, 2016, [Youtube](https://www.youtube.com/watch?v=Hdi8aaQ3oM0)
+* Crownstone pitch at EcoSummit 2016, [Youtube](https://www.youtube.com/watch?v=AjW-ZXw1NSo).
+* Second place in GetInTheRing contest at Mediamarkt, 2016, [article](https://getinthering.co/dutch-startup-flow-ai-starts-pilot-project-at-media-markt/).
+
+Talks:
+
+* "Ontleed het brein van een smarthome" / "Dissect the brain of a smart home", Tweakers Smart Home event, 2017, [Youtube](https://www.youtube.com/watch?v=o-UCFUcDbkM).
+
+## Podcasts
+
+* "Open source power outlets", 2015, [Linux Unplugged](http://www.jupiterbroadcasting.com/88416/open-source-power-outlets-lup-112/).
+
+## Webinars
+
+Upcoming!
+
+* "ISSO organiseert webinar over indoor locatiebepaling", 2017, [ISSO](https://isso.nl/updates/nieuws/nieuwsitem/news/isso-organiseert-webinar-over-indoor-locatiebepaling/)
+
 ## Other items
 
-* [presskit visuals](https://github.com/crownstone/website/releases/download/v.0.0.1-alpha/presskit.zip)
+* [presskit visuals](https://github.com/crownstone/website/releases/download/v.0.0.1-alpha/presskit.zip).
 
 ## Frequently asked questions
 
