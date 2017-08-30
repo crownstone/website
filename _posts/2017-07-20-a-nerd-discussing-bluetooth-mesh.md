@@ -81,7 +81,7 @@ next!
 
 # People
 
-The people that worked on it and are explicitly mentioned in the documents are:
+The people who worked on it and are explicitly mentioned in the documents are:
 
 * [Robin Heydon](https://www.linkedin.com/in/robinheydon), Qualcomm ([twitter](https://twitter.com/robinheydon))
 * [Jonathan Tanner](https://www.linkedin.com/in/jgtanner), Qualcomm

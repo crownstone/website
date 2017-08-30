@@ -10,7 +10,7 @@ tags: ["robot control", "echo state networks"]
 
 # Echo State Networks
 
-Just a quick post for people that are interested in Echo State Networks.
+Just a quick post for people who are interested in Echo State Networks.
   
 The past months I spent my time at DoBots to investigate Echo State Networks
 (ESNs) as part of my studies Cognitive Neuroscience. ESNs are a type of

@@ -20,7 +20,7 @@ Crownstone has support from Almende as research company and from Almende Investm
 
 Crownstone's unique selling point is indoor localization. This has not been capitalized upon by any competitor in the home automation market, and only a few in the building automation market. 
 
-There are already many people that have bought Crownstones. They can be ordered at <https://shop.crownstone.rocks>.
+There are already many people who have bought Crownstones. The Crownstones can be ordered at <https://shop.crownstone.rocks>.
 
 ## Product information
 
