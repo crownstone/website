@@ -21,6 +21,23 @@ title: CSS stylesheet
     src: url(../fonts/Lato-Hairline.woff);
 }
 
+/*
+ * Colors in use:
+ *
+ * dark blue      main color, active menu, footer   #003e52
+ * orange         complementary accents             #ff8400
+ * white          just white                        #ffffff
+ * 
+ * gray           accents                           #f6f6f6
+ * light blue     hovering menu item                #007cc3
+ * almost black   placeholder text                  #1c1d1d
+ * gray text      text in footer (blue bckgrnd)     #dddddd
+ *
+ * Fonts:
+ *
+ * LATO medium
+ */
+
 /* Default font properties for standard elements */
 
 body p, li, th, td {
@@ -51,9 +68,26 @@ h3, h4, h5, h6, .h3, .h4, .h5, .h6 {
     font-family: 'LatoLight';
 }
 
-.call-to-action h3 {
-    margin-top: 20px;
-    margin-bottom: 20px;
+.call-to-action  {
+  background-color: #dddddd;
+  padding: 60px;
+  /*color: #ff8400; */
+  font-family: 'Lato';
+  font-size: 150%;
+}
+
+.boxed {
+  margin: 0 auto;
+  padding: 18px;
+  background-color: white;
+}
+
+.accent, .accent * {
+  color: #ff8400 !important;
+}
+
+.no-padding {
+  padding: 0 !important;
 }
 
 /** To overwrite theme settings of shopify theme **/
@@ -147,7 +181,7 @@ div.bannerContainer.sm { height:350px; }
 div.bannerContainer.xs { height:180px; }
 
 .navbar-default .navbar-nav > .active > a {
-    background-color: #00253c;
+    background-color: #003e52;
     color: white
 }
 
@@ -195,26 +229,13 @@ video.headerVideo {
     width:100%;
 }
 
-
-div.kid {
-    background-image: url("../images/kid.png");
-    background-position: center;
-    background-size: cover;
-    border-width: 1px 0px 1px 0px;
-    border-style: solid;
-    border-color: #111924;
-    margin-bottom:30px;
-    height:100px;
-}
-
 div.blueblock {
-    background-color: #00253c;
+    background-color: #003e52;
     color:white;
 }
 
 div.footer {
-/*    margin-top:50px; */
-    background-color: #00253c;
+    background-color: #003e52;
     color:white;
 }
 
@@ -243,7 +264,6 @@ div.marginTopM {
     margin-top:40px;
 }
 
-
 a.footer {
     color:#dddddd;
 }
@@ -256,10 +276,11 @@ p.sitemap {
 
 }
 
-div.colofon {
+div.colofon * {
     font-size:10pt;
     color:#aaaaaa;
     line-height: 12pt;
+    margin: 0px 0px;
 }
 
 /* URL as a button */
@@ -382,11 +403,15 @@ a.button-link:active {
 
 .forget-box {
   position: relative;
-  overflow: hidden; }
-  .forget-box .btn-default {
-    font: normal 18px/1 "oswaldbold", Helvetica, sans-serif;
-    color: #2398d6; }
-  .forget-box .forget-button {
+  overflow: hidden; 
+}
+
+.forget-box .btn-default {
+  font: normal 18px/1 "oswaldbold", Helvetica, sans-serif;
+  color: #2398d6; 
+}
+
+.forget-box .forget-button {
     position: absolute;
     bottom: 0;
     left: 0;
@@ -426,7 +451,7 @@ a.button-link:active {
 }
 
 .newsletter form,.newsletter .newsletter__input {
-    background-color: #fff;
+    background-color: white;
 }
 
 .newsletter .newsletter__input {
@@ -502,7 +527,6 @@ a.button-link:active {
     margin: 0;
     width: auto;
     line-height: 1.42;
-/*    font-weight: bold; */
     text-decoration: none;
     text-align: center;
     vertical-align: middle;
@@ -517,8 +541,8 @@ a.button-link:active {
     -webkit-appearance: none;
     -moz-appearance: none;
     border-radius: 0;
-    background-color: #1c1d1d;
-    color: #fff;
+    background-color: #ff8400;
+    color: white;
     -webkit-transition: background-color 0.4s ease-out;
     -moz-transition: background-color 0.4s ease-out;
     -ms-transition: background-color 0.4s ease-out;
