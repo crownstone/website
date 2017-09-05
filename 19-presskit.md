@@ -94,7 +94,7 @@ Upcoming!
 
 Q. Do I need to be close to a Crownstone to control it?
 
-A. If you have multiple Crownstones they form a **mesh** network. If there is one Crownstone in your proximity they can forward the information to the entire network. It is also possible to control the Crownstone from online by leaving a smartphone or tablet at home.
+A. If you have multiple Crownstones they form a mesh network. If there is one Crownstone in your proximity they can forward the information to the entire network. It is also possible to control the Crownstone from online by leaving a smartphone or tablet at home.
 
 Q. How accurate does a Crownstone measure my position?
 
