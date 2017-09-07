@@ -40,7 +40,7 @@ title: CSS stylesheet
 
 /* Default font properties for standard elements */
 
-body p, li, th, td {
+body p, li, th, td, .rte-font {
     font-family: 'LatoLight';
     font-size: 1.7rem;
     line-height: 2.5rem;
@@ -82,12 +82,12 @@ h3, h4, h5, h6, .h3, .h4, .h5, .h6 {
   background-color: white;
 }
 
-.accent, .accent * {
-  color: #ff8400 !important;
-}
-
 .no-padding {
   padding: 0 !important;
+}
+
+.accent, .accent * {
+  color: #ff8400 !important;
 }
 
 /** To overwrite theme settings of shopify theme **/
