@@ -43,6 +43,15 @@ The Crownstone compares favorably to the competition:
 
 Note, that often the Crownstone functionality is already competing on price (see [shop](https://shop.crownstone.rocks?ref=comparison), € 44.99 each) with a single product type. Just getting yourself a dimmer might be more costly than buying state-of-the-art Crownstone technology.
 
+<!--
+https://www.domoticaexpert.nl/product/676267/fibaro-dimmer-2.html Fibaro dimmer 2: 59,95
+minus point: works only with Fibaro basisstation
+https://www.domoticaexpert.nl/product/676665/fibaro-dimmer-2-triple-pack.html
+3x times: 172, euro, at Crownstone: 135
+https://www.domoticaexpert.nl/product/759604/fibaro-wall-plug-type-f-werkt-met-toon.html, Fibaro: 64,95.
+fibaro gateway required
+-->
+
 # Play around!
 
 Get a look and feel by playing around with the Crownstones models here!
