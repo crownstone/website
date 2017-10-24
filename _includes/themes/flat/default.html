@@ -42,7 +42,13 @@
     <link href="{{ ASSET_PATH }}/css/crownstone-global.css" rel="stylesheet"> 
     
     <link href="{{ ASSET_PATH }}/css/elusive-icons.min.css" rel="stylesheet"> 
- 
+
+    {% if page.custom_css %}
+    {% for stylesheet in page.custom_css %}
+    <link rel="stylesheet" href="{{ stylesheet }}" media="screen" type="text/css">
+    {% endfor %}
+    {% endif %}
+
     <meta property="og:type" content="website">
     <meta property="og:title" content="Crownstone: Your Presence Makes a Difference">
     <meta property="og:url" content="https://crownstone.rocks/">

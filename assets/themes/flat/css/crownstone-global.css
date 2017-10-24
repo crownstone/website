@@ -905,3 +905,22 @@ p.thought:after {
   -moz-border-radius: 18px;
   border-radius: 18px;
 }
+
+/* Color of devicons, change at once? */
+.same-colored path {
+  fill: #007cc3;
+}
+
+.same-colored {
+  color: #007cc3;
+}
+
+.small-icon {
+  height: 1em;
+  vertical-align: text-top;
+}
+
+.widget9292 {
+  display:block;
+  max-width: 100%;
+}

@@ -7,6 +7,8 @@ keywords: "team, follow us, facebook, twitter, contact, personal, Crownstone"
 group: [navigation, navigation-consumer-footer]
 lang: en
 permalink: team/
+custom_css:
+- https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css
 ---
 {% include JB/setup %}
 
@@ -44,7 +46,7 @@ permalink: team/
     <div class="container">
         <div class="row">
             <br/>
-            <div class="col-xs-6 col-sm-6 col-md-6">
+            <div class="col-xs-12 col-sm-6 col-md-6">
                 <h1>Where are we?</h1>
                 <p>
                     Crownstone is a startup from Rotterdam which brings together indoor localization with home automation. 
@@ -70,17 +72,18 @@ permalink: team/
                 <a href="tel:{{ site.company.phone_international }}">{{ site.company.phone_international }}</a> / {{ site.company.phone_local }}
                 </p>
             </div>
-            <div class="col-xs-6 col-sm-6 col-md-6">
+            <div class="col-xs-12 col-sm-6 col-md-6">
                 <h1>How to get there?</h1>
                 <p> 
                 Crownstone is housed in the beautiful Groothandelsgebouw at Rotterdam Central Station (<a href="http://ghg.nl/en/contact/">parking for and direction by car</a>). We recommend to come by public transport, it's at the station!
                 </p>
                 <!-- 9292 widget v2 -->
+                <div class="widget">
                 <center>
-                                  
-                    <a href='//9292.nl/en?to=rotterdam%2Fstationsplein-45' data-9292='widget' data-9292-text='Crownstone' data-9292-ref='rotterdam/stationsplein-45' data-9292-width='340' data-9292-height='550' data-9292-api-key='de198d3c876f29d3ca91379d27873b7d741a86dcf61dcdca60920e38dc45ffee' data-9292-widget-key='3bbbf433cf353c1fca32bb2a9327c8497556f7b27ae6d388ef9e02f195d17667' data-targetblank="">Plan my journey</a>
+                    <a href='//9292.nl/en?to=rotterdam%2Fstationsplein-45' data-9292='widget' data-9292-text='Crownstone' data-9292-ref='rotterdam/stationsplein-45' data-9292-width='290' data-9292-height='550' data-9292-api-key='de198d3c876f29d3ca91379d27873b7d741a86dcf61dcdca60920e38dc45ffee' data-9292-widget-key='3bbbf433cf353c1fca32bb2a9327c8497556f7b27ae6d388ef9e02f195d17667' data-targetblank="">Plan my journey</a>
                     <script src='//9292.nl/static/js/widget.js'></script>
                 </center>
+                </div>
                 <p>Plan your return trip with <a href="http://www.ns.nl/actuele-vertrektijden/avt?station=RTD">Rotterdam Central departure times</a>. Count two minutes walking through the Groothandelsgebouw.
             </div>
         </div>
@@ -134,6 +137,16 @@ permalink: team/
                         <a class="btn btn-social-icon btn-github" href="https://github.com/mrquincle"><i class="el el-github"></i></a>
                         <a class="btn btn-social-icon btn-home" href="http://annevanrossum.com"><i class="el el-home"></i></a>
                     </p>
+                    <p>
+                    <i class="devicon-cplusplus-plain same-colored"></i>
+                    <i class="devicon-ubuntu-plain same-colored"></i>
+                    <i class="devicon-vim-plain same-colored"></i>
+                    <i class="devicon-heroku-plain same-colored"></i>
+                    <i class="devicon-amazonwebservices-plain same-colored"></i>
+                    <img class="small-icon" src="{{ site.url }}/attachments/icons/blue/pipedrive.png"></img>
+                    <img class="small-icon" src="{{ site.url }}/attachments/icons/blue/jekyll.png"></img>
+                    <img class="small-icon" src="{{ site.url }}/attachments/icons/blue/shopify.png"></img>
+                    </p>
                     <p>Anne studied electrical engineering and cognitive psychology. At Almende and DoBots he coordinated and did research on autonomous robots. Every wednesday is math day!</p>
                 </div>
             </div>
@@ -145,6 +158,10 @@ permalink: team/
                         <a class="btn btn-social-icon btn-linkedin" href="https://www.linkedin.com/in/peetvantooren"><i class="el el-linkedin"></i></a>
                         <a class="btn btn-social-icon btn-googleplus" href="https://plus.google.com/+PeetToorenvan"><i class="el el-googleplus"></i></a>
                         <a class="btn btn-social-icon btn-twitter" href="https://twitter.com/PMAvanTooren"><i class="el el-twitter"></i></a>
+                    </p>
+                    <p>
+                    <i class="devicon-ssh-plain same-colored"></i>
+                    <i class="devicon-c-plain same-colored"></i>
                     </p>
                     <p>Peet worked for a lot of international companies (Siemens, Philips) in the car industry, mainly on navigation software.</p>
                 </div>
@@ -160,6 +177,14 @@ permalink: team/
                         <a class="btn btn-social-icon btn-github" href="https://github.com/vliedel"><i class="el el-github"></i></a>
                         <a class="btn btn-social-icon btn-twitter" href="https://twitter.com/Bart_vanVliet"><i class="el el-twitter"></i></a>
                     </p>
+                    <p>
+                    <i class="devicon-android-plain same-colored"></i>
+                    <i class="devicon-cplusplus-plain same-colored"></i>
+                    <i class="devicon-ubuntu-plain same-colored"></i>
+                    <i class="devicon-mongodb-plain same-colored"></i>
+                    <i class="devicon-python-plain same-colored"></i>
+                    <i class="devicon-docker-plain same-colored"></i>
+                    </p>
                     <p>Bart has a masters in Mechanical Engineering and does not shy away from the most in-depth embedded programming jobs. Ask him anything on the nRF architecture!</p>
                 </div>
             </div>
@@ -172,6 +197,11 @@ permalink: team/
                         <a class="btn btn-social-icon btn-github" href="https://github.com/marciwi"><i class="el el-github"></i></a>
                         <a class="btn btn-social-icon btn-twitter" href="https://twitter.com/Marc_Hulscher"><i class="el el-twitter"></i></a>
                     </p>
+                    <p>
+                    <img class="small-icon" src="{{ site.url }}/attachments/icons/blue/pspice.png"></img>
+                    <i class="devicon-python-plain same-colored"></i>
+                    <img class="small-icon" src="{{ site.url }}/attachments/icons/blue/jlink.png"></img>
+                    </p>
                     <p>Marc has a masters in Systems and Control and makes sure all the electronics is up to his standards.</p>
                 </div>
             </div>
@@ -183,6 +213,15 @@ permalink: team/
                         <a class="btn btn-social btn-linkedin" href="https://www.linkedin.com/in/alex-de-mulder-443a1bb"><i class="el el-linkedin"></i></a>
                         <a class="btn btn-social-icon btn-github" href="https://github.com/AlexDM0"><i class="el el-github"></i></a>
                         <a class="btn btn-social-icon btn-vimeo" href="https://vimeo.com/alexdemulder"><i class="el el-vimeo"></i></a>
+                    </p>
+                    <p>
+                    <i class="devicon-apple-original same-colored"></i>
+                    <i class="devicon-javascript-original same-colored"></i>
+                    <i class="devicon-react-original same-colored"></i>
+                    <i class="devicon-nodejs-plain same-colored"></i>
+                    <i class="devicon-mongodb-plain same-colored"></i>
+                    <i class="devicon-illustrator-plain same-colored"></i>
+                    <i class="devicon-python-plain same-colored"></i>
                     </p>
                     <p>Alex has a masters in Applied Physics and is a stellar developer. At times his physics training shows, for example in the beautiful visualizations in our app.</p>
                 </div>
