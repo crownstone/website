@@ -35,6 +35,11 @@ permalink: address/
 	    phone: 
 	    <a href="tel:{{ site.company.phone_international }}">{{ site.company.phone_international }}</a> / {{ site.company.phone_local }}
 	    </p>
+	    <br>
+	    <br>
+	    <p>
+	    Important. When sending parcels to our address make sure you use the complete street number: {{ site.company.street_number }}
+	    </p>
 	</div>
     </div>
 </div>

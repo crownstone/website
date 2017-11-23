@@ -104,25 +104,26 @@ Get a look and feel by playing around with the Crownstones models here!
 
 The current Crownstone iOS and Android apps have the following functionality. Every few weeks a new update is rolled out:
 
-| Functionality                                   | State Firm&shy;ware                             | State Apps                                       | 
-| ---                                             | ---                                             | ---                                              |
-| Switching                                       | <i class="el el-check"></i>                     | <i class="el el-check"></i>                      |
-| Instantaneous power consumption                 | <i class="el el-check"></i>                     | <i class="el el-check"></i>                      |
-| Reacting on close proximity (tap-to-toggle)     | <i class="el el-check"></i>                     | <i class="el el-check"></i>                      |
-| Reacting on moderate proximity (presence)       | <i class="el el-check"></i>                     | <i class="el el-check"></i>                      |
-| Reacting on room-level indoor positioning       | <i class="el el-check"></i>                     | <i class="el el-check"></i>                      |
-| User-controlled upload of data to the cloud     | <i class="el el-check"></i>                     | <i class="el el-check"></i>                      |
-| Sending commands through the internet           | <i class="el el-check"></i>                     | <i class="el el-check"></i>                      |
-| Visualizing other users in the app              | <i class="el el-check"></i>                     | <i class="el el-check-empty"></i>                |
-| Scheduling                                      | <i class="el el-check-empty"></i>               | <i class="el el-check-empty"></i>                |
-| Wake-up light                                   | <i class="el el-check-empty"></i>               | <i class="el el-check-empty"></i>                |
-| Dimming (PWM at 50Hz)                           | <i class="el el-check-empty"></i>               | <i class="el el-check-empty"></i>                |
-| Power consumption history                       | <i class="el el-check-empty"></i>               | <i class="el el-check-empty"></i>                |
-| Integration with Toon                           | <i class="el el-check-empty"></i>               | <i class="el el-check-empty"></i>                |
-| Device identification                           | <i class="el el-check-empty"></i>               | <i class="el el-check-empty"></i>                |
-| Control by non-registered guest users           | <i class="el el-check-empty"></i>               | <i class="el el-check-empty"></i>                |
-| Integration with thermostat radiator valves     | <i class="el el-check-empty"></i>               | <i class="el el-check-empty"></i>                |
-| Multi-user setup (don't leave user in the dark) | <i class="el el-check-empty"></i>               | <i class="el el-check-empty"></i>                |
+| Functionality                                     | State Firm&shy;ware                             | State Apps                                       | 
+| ---                                               | ---                                             | ---                                              |
+| Switch                                            | <i class="el el-check"></i>                     | <i class="el el-check"></i>                      |
+| Instantaneous power consumption                   | <i class="el el-check"></i>                     | <i class="el el-check"></i>                      |
+| Reacting on close proximity (tap-to-toggle)       | <i class="el el-check"></i>                     | <i class="el el-check"></i>                      |
+| Reacting on moderate proximity (presence)         | <i class="el el-check"></i>                     | <i class="el el-check"></i>                      |
+| Reacting on room-level indoor positioning         | <i class="el el-check"></i>                     | <i class="el el-check"></i>                      |
+| User-controlled upload of data to the cloud       | <i class="el el-check"></i>                     | <i class="el el-check"></i>                      |
+| Send commands through the internet                | <i class="el el-check"></i>                     | <i class="el el-check"></i>                      |
+| Visualize other users in the app                  | <i class="el el-check"></i>                     | <i class="el el-check"></i>                      |
+| Scheduler                                         | <i class="el el-check"></i>                     | <i class="el el-check"></i>                      |
+| Wake-up light                                     | <i class="el el-check-empty"></i>               | <i class="el el-check-empty"></i>                |
+| Dimmer (PWM at 50Hz)                              | <i class="el el-check"></i>                     | <i class="el el-check-empty"></i>                |
+| Send a nice message to someone on entering a room | <i class="el el-check"></i>                     | <i class="el el-check"></i>                      |
+| Power consumption history                         | <i class="el el-check-empty"></i>               | <i class="el el-check-empty"></i>                |
+| Integration with Toon                             | <i class="el el-check-empty"></i>               | <i class="el el-check-empty"></i>                |
+| Device identification                             | <i class="el el-check-empty"></i>               | <i class="el el-check-empty"></i>                |
+| Control by non-registered guest users             | <i class="el el-check-empty"></i>               | <i class="el el-check-empty"></i>                |
+| Integration with thermostat radiator valves       | <i class="el el-check-empty"></i>               | <i class="el el-check-empty"></i>                |
+| Multi-user setup (don't leave user in the dark)   | <i class="el el-check-empty"></i>               | <i class="el el-check-empty"></i>                |
 
 On our roadmap you will find more tasks that are planned already, from integration with Alexa to configuration of preconfigured scenes. 
 
