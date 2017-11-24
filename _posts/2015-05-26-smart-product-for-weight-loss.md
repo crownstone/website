@@ -9,8 +9,7 @@ tags: [BLE, behavior change, weight loss, habits, smartphone, master thesis]
 
 # A smart product for weight loss through behavior change
 
-![Bitslab functions]({{ site.url }}/attachments/bitslab_functions.png "BitsLab functionality")
-{:.some-css-class style="width: 400px; float: right"}
+![Bitslab functions]({{ site.url }}/attachments/bitslab_functions.png "BitsLab functionality"){:.some-css-class style="width: 35%; float: right"}
 
 Though an increased caloric intake is the most influential cause of the high and rising prevalence of overweight and obesity, there are no proper technical solutions yet that address this problem. Monitoring intake has shown to be an effective method for reducing intake. However, manual tracking tends to be inaccurate. Additionally, manual tracking requires too much mental effort for prolonged use.
 
@@ -21,8 +20,7 @@ Within her graduation project, [Anne Bekker]({{ site.url }}/hall-of-fame/) has c
 
 ## Sensing technology
 
-![Talking, Chewing]({{ site.url }}/attachments/chewing.png "Talking, Chewing")
-{:.some-css-class style="width: 400px; float: right; margin: 0px 0px 15px 20px;"}
+![Talking, Chewing]({{ site.url }}/attachments/chewing.png "Talking, Chewing"){:.some-css-class style="width: 35%; float: right; margin: 0px 0px 15px 20px;"}
 
 The chewing sensor, a piezoelectric transducer, monitors chewing trough bone conducted audio. The following sample demonstrates a recording of speech followed by the chewing of a pepernoot.
 
@@ -30,20 +28,19 @@ The chewing sensor, a piezoelectric transducer, monitors chewing trough bone con
 
 ## App
 
-The app (which is not yet developed) helps users to find out what it is they are actually craving at moments their craving for undesired eating strikes, and to find a substitute behavior that satisfies the same craving. Consecutively, the BitsLab helps users discover what triggers their craving by sending them prompts at times unplanned eating occurs. When filled in, these prompts gather categorized data on potential triggers which can be analyzed by the app and the user.
+![App Screen]({{ site.url }}/attachments/bitslab_app_screen.png "App Screen"){:.some-css-class style="width: 18%; float: left; margin: 0px 20px 0px 0px;"}
 
-![App Screen]({{ site.url }}/attachments/bitslab_app_screen.png "App Screen")
-{:.some-css-class style="width: 200px; float: left; margin: 0px 20px 0px 0px;"}
+The app (which is not yet developed) helps users to find out what it is they are actually craving at moments their craving for undesired eating strikes, and to find a substitute behavior that satisfies the same craving. Consecutively, the BitsLab helps users discover what triggers their craving by sending them prompts at times unplanned eating occurs. When filled in, these prompts gather categorized data on potential triggers which can be analyzed by the app and the user.
 
 Once users have discovered what it is they are craving as well as what triggers this craving, they can start changing the habit. This consists of substituting the routine of unwanted eating by an alternative, healthy behaviour, which was found to satisfy the same craving.
 
-![Loop]({{ site.url }}/attachments/bitslab_loop.jpg "Habit-changing loop")
-{:.some-css-class style="float: center;"}
+![Loop]({{ site.url }}/attachments/bitslab_loop.jpg "Habit-changing loop"){:.some-css-class style="width: 30%; float: right;"}
 
 In addition to changing habits, the app will teach users how to form new habits. By taking very small steps, and executing them consistently at a set point within their established routine, a habit will form without requiring much effort.
 
-![Prototype]({{ site.url }}/attachments/bitslab_prototype.jpg "Prototype")
-{:.some-css-class style="width: 35%; float: right; margin: 0px 0px 0px 20px;"}
+<br/>
+
+![Prototype]({{ site.url }}/attachments/bitslab_prototype.jpg "Prototype"){:.some-css-class style="width: 35%; float: right; margin: 0px 0px 0px 20px;"}
 
 ## Proof of concept prototype
 
