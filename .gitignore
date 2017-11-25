@@ -16,10 +16,6 @@ Thumbs.db
 
 .env
 
-# Configuration files
-_config.yml
-_config-authors.yml
-
 # The scripts to create blog posts, or deploy the site
 # If you want them, give a yell!
 scripts/

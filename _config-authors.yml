@@ -1,0 +1,64 @@
+# Here fill in your data, note that this is available to people online through github
+# If you want things not public, don't set them here.
+# The email address will be appended by @dobots.nl with a bit of Javascript obfuscation
+
+authors:
+  annevanrossum:
+    display_name: Anne van Rossum
+    gravatar: 818dc2df03cd2f1ca7d6e6e701052f0c
+    email: anne
+    web: http://www.annevanrossum.nl
+    twitter: annevanrossum
+    github: mrquincle
+
+  laurensbliek:
+    display_name: Laurens Bliek
+
+  faridrached:
+    display_name: Farid Rached
+    email: farid
+
+  remcotukker:
+    display_name: Remco Tukker
+    gravatar: 2efef82d2217ade927a37228652970cd
+    email: remco
+    github: remcotukker
+
+  jannyramakers:
+    display_name: Janny Ramakers
+
+  marchulscher:
+    display_name: Marc Hulscher
+
+  bartvanvliet:
+    display_name: Bart van Vliet
+    gravatar: d106002c1e7daa7c0e4fea564f9cb377
+    email: bart
+    github: vliedel
+
+  dominikegger:
+    display_name: Dominik Egger
+    gravatar: ca712f67c149fb1b49fdd673a4a758a5
+    email: dominik
+    github: eggerdo
+
+  roemervlasveld:
+    display_name: Roemer Vlasveld
+
+  behnazshirmohamadi:
+    display_name: Behnaz Shirmohamadi
+
+  peetvantooren:
+    display_name: Peet van Tooren
+
+  annebekker:
+    display_name: Anne Bekker
+
+  wouterbulten:
+    display_name: Wouter Bulten
+    github: wouterbulten
+    gravatar: 95be418a0d147888e2ba0f2ad7c1f4b2
+
+  merijnvantooren:
+    display_name: Merijn van Tooren
+
