@@ -101,6 +101,11 @@ task :preview do
   system "jekyll serve -w"
 end # task :preview
 
+desc "Build"
+task :default do
+  system "jekyll build --config _config.yml,_config-authors.yml"
+end # task :build
+
 # Public: Alias - Maintains backwards compatability for theme switching.
 task :switch_theme => "theme:switch"
 

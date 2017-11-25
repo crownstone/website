@@ -6,16 +6,12 @@ gem 'kramdown'
 gem 'json'
 gem 'domainatrix'
 
-#group :jekyll_plugins do
+group :jekyll_plugins do
 gem 'jekyll-lunr-js-search'
-#end
-#gem 'jekyll-responsive_image'
-
 gem 'jekyll-assets'
+gem "jekyll-polyglot"
+end
 
 gem 'sass'
 gem 'uglifier'
-
-#group :jekyll_plugins do
-gem "jekyll-polyglot"
-#end
+gem 'rake'

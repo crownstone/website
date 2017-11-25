@@ -1,0 +1,7 @@
+deploy:
+  provider: pages
+  local_dir: _site
+  skip_cleanup: true
+  github_token: $GH_TOKEN
+  on:
+    branch: master
