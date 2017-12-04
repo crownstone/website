@@ -63,10 +63,10 @@ custom_css:
             <div class="col-xs-12 col-sm-6 col-md-6">
                 <h1>Where are we?</h1>
                 <p>
-                    Crownstone is a startup from Rotterdam which brings together indoor localization with home automation. 
+                    Right in the center of Rotterdam!
                 </p>
                 <p>
-                Crownstone
+                <strong>Crownstone</strong>
                 <br>
                 {{ site.company.street }}
                 <br>
@@ -75,12 +75,15 @@ custom_css:
                 KvK: {{ site.company.kvk }}
                 <br>
                 BTW/VAT: {{ site.company.vat }}
-                <br>
+                </p>
+               
+                <h2>Contact</h2>
+                <div class="email">
                 <i class='el el-envelope'></i> 
-                email: 
-                <script type="text/javascript">/*<![CDATA[*/var a=new Array("{{ site.contact-team.email[0] }}", "{{ site.contact-team.email[1] }}", "{{ site.contact-team.email[2] }}", "{{ site.contact-team.email[3] }}", "{{ site.contact-team.email[4] }}", "{{ site.contact-team.email[5] }}");document.write("<a href='mailto:");for(i=a.length-1;i>=0;i--){document.write(a[i])};document.write("?subject=Crownstone Team'>");for(i=a.length-1;i>=0;i--){document.write(a[i])};document.write("</a>");/*]]>*/</script>
-                <noscript>team@...</noscript>
-                <br>
+                email: team@...
+                </div>
+
+                <p>
                 <i class='el el-phone'></i> 
                 phone: 
                 <a href="tel:{{ site.company.phone_international }}">{{ site.company.phone_international }}</a> / {{ site.company.phone_local }}
@@ -376,3 +379,17 @@ custom_css:
         </div>
     </div>
 
+<script type="text/javascript">
+  function addEmailAddress() {
+    var a = new Array("{{ site.contact-team.email[0] }}", "{{ site.contact-team.email[1] }}", "{{ site.contact-team.email[2] }}", "{{ site.contact-team.email[3] }}", "{{ site.contact-team.email[4] }}", "{{ site.contact-team.email[5] }}");
+    var address = "";
+    for (var i = a.length - 1; i >=0; i--) {
+      address += a[i];
+    }
+    var list = document.getElementsByClassName("email");
+    for (var i = 0; i < list.length; i++) {
+      list[i].innerHTML = "<p><i class='el el-envelope'></i> email: <a href='mailto:'" + address + ">" + address + "</a></p>";
+    }
+  }
+  addEmailAddress();
+</script>

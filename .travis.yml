@@ -5,3 +5,8 @@ deploy:
   github_token: $GH_TOKEN
   on:
     branch: master
+
+notifications:
+  email: 
+    on_success: never
+    on_failure: always
