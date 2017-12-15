@@ -5,10 +5,18 @@ header: Presskit
 group: Landing
 markdown: true
 permalink: presskit/
+description: "In the press, additional pictures for the press and much more."
+keywords: "press, presskit, CES, Consumer Electronics Show, 2018, pictures, Crownstone, history"
 ---
 {% include JB/setup %}
 
 # Presskit
+
+## Come, visit us in the US!
+
+We will be present at **CES 2018** at booth 50922. Welcome!!!
+
+![Crownstone at CES]({{ site.url }}/attachments/engie-crownstone.jpeg "Crownstone at CES"){: style="width:100%"}
 
 ## Company history
 
@@ -82,13 +90,30 @@ Talks:
 
 ## Webinars
 
-Upcoming!
-
 * "ISSO organiseert webinar over indoor locatiebepaling", 2017, [ISSO](https://isso.nl/updates/nieuws/nieuwsitem/news/isso-organiseert-webinar-over-indoor-locatiebepaling/)
+
+## Styleguide
+
+![Crownstone Styleguide]({{ site.url }}/attachments/crownstone_styleguide.png "Crownstone Styleguide"){: style="width:40%" .float-right}
+
+There are the usual considerations, just a few:
+
+* Logo is white on blue
+* Try to use bands, not circles. 
+* On products - or if otherwise not attractive - use a black logo on white. 
+* Do not use too many colors in supporting photographs and search for consistency with the brand colors.  
 
 ## Other items
 
-* [presskit visuals](https://github.com/crownstone/website/releases/download/v.0.0.1-alpha/presskit.zip).
+The presskit contains the following folders:
+
+* Diagrams: grayscale installation sketches.
+* Icons: for dimming, switching, positioning, etc.
+* Logo: black, transparent svg.
+* Products: pictures of Crownstone plugs, builtin Crownstones, Guidestones, and PCBs.
+* Renders: exploded views and renderings in living room setting.
+
+It can be downloaded here: [presskit visuals (zip, 342 MB)](https://github.com/crownstone/website/releases/download/v.0.0.1-alpha/presskit.zip).
 
 ## Frequently asked questions
 
