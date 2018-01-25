@@ -41,7 +41,7 @@ phone:
     }
     var list = document.getElementsByClassName("email");
     for (var i = 0; i < list.length; i++) {
-      list[i].innerHTML = "<p><i class='el el-envelope'></i> email: <a href='mailto:'" + address + ">" + address + "</a></p>";
+      list[i].innerHTML = "<p><i class='el el-envelope'></i> email: <a href='mailto:" + address + "'>" + address + "</a></p>";
     }
   }
   addEmailAddress();

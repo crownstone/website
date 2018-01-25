@@ -49,6 +49,10 @@
     {% endfor %}
     {% endif %}
 
+    {% if page.redirect_url %}
+    <meta http-equiv="refresh" content="0; url={{ page.redirect_url }}">
+    {% endif %}
+
     <meta property="og:type" content="website">
     <meta property="og:title" content="Crownstone: Your Presence Makes a Difference">
     <meta property="og:url" content="https://crownstone.rocks/">
