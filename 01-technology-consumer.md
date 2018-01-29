@@ -89,7 +89,7 @@ Get a look and feel by playing around with the Crownstones models here!
 <div class="row">
   <div class="col-xs-12 col-sm-6 col-md-6">
     <h1>Specifications</h1>
-    <p>For detailed specifications, see the <a href="/pages/specifications">specification page</a></p>.
+    <p>For detailed specifications, see the <a href="https://shop.crownstone.rocks/pages/specifications">specification page</a></p>.
   </div>
   <div class="col-xs-12 col-sm-6 col-md-6">
     <div class="embed-responsive embed-responsive-16by9">
