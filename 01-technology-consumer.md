@@ -27,6 +27,22 @@ And you'll definitely have to check the [scenarios]({{ BASE_PATH }}/scenarios)!
 
 <hr class="featurette-divider">
 
+<div class="row">
+  <div class="col-xs-12 col-sm-6 col-md-6">
+    <div class="embed-responsive embed-responsive-16by9">
+{% youtube ZtnYH53A4zE %}
+    </div>
+  </div>
+  <div class="col-xs-12 col-sm-6 col-md-6">
+    <h1>Indoor positioning</h1>
+    <p>
+Bluetooth Low Energy positioning can be fairly accurate. It all depends on the number of Crownstones you use! See in this below video clip how we move a smartphone in a miniature house from room to room and you see how the picture moves accordingly.
+    </p>
+  </div>
+</div>
+
+<hr class="featurette-divider">
+
 # Comparison
 
 The Crownstone compares favorably to the competition:
