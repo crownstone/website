@@ -12,12 +12,6 @@ keywords: "press, presskit, CES, Consumer Electronics Show, 2018, pictures, Crow
 
 # Presskit
 
-## Come, visit us in the US!
-
-We will be present at **CES 2018** at booth 50922. Welcome!!!
-
-![Crownstone at CES]({{ site.url }}/attachments/engie-crownstone.jpeg "Crownstone at CES"){: style="width:100%"}
-
 ## Company history
 
 Crownstone, founded in 2016, is a company that combines indoor localization with building automation for homes and offices. 
@@ -98,12 +92,23 @@ Talks:
 
 There are the usual considerations, just a few:
 
-* Logo is white on blue
-* Try to use bands, not circles. 
-* On products - or if otherwise not attractive - use a black logo on white. 
-* Do not use too many colors in supporting photographs and search for consistency with the brand colors.  
+* Use a black logo on a white background, especially on products or material that does not benefit from color. 
+* Logo is white on blue in the case where the logo really needs to pop out.
+* Use bands over the full width, do not use a circle around the logo. 
+* Do not use too many colors in supporting photographs and search for consistency with the brand colors.
+* The brand colors are a shade of blue (#003e52) and the complementary shade of orange (#ff8400).
+* Use the orange shade as an accent, e.g. for line separation, emphasis, not as a primary color. 
+* Use Lato medium as a font.
+* Use the blue font on summaries or accentuated text. Use just a black font wherever possible for the primary text.
 
-## Other items
+## Brochures
+
+For an example of a brochure that is created using the above styleguide see:
+
+* [Crownstone Brochure Smart Home]({{ site.url }}/attachments/brochures/Crownstone_Brochure_SmartHome.pdf)
+* [Crownstone Brochure Green Home]({{ site.url }}/attachments/brochures/Crownstone_Brochure_GreenHome.pdf)
+
+## Presskit ZIP file
 
 The presskit contains the following folders:
 
@@ -114,6 +119,14 @@ The presskit contains the following folders:
 * Renders: exploded views and renderings in living room setting.
 
 It can be downloaded here: [presskit visuals (zip, 342 MB)](https://github.com/crownstone/website/releases/download/v.0.0.1-alpha/presskit.zip).
+
+The [logos (zip)]({{ site.url }}/attachments/logos-on-website.zip) can be downloaded separately.
+
+## Events, fairs
+
+![Crownstone at CES]({{ site.url }}/attachments/engie-crownstone.jpeg "Crownstone at CES"){: style="width:40%" .float-right}
+
+* CES, Consumer Electronics Show, Las Vegas, Jan. 8-12, 2018
 
 ## Frequently asked questions
 
