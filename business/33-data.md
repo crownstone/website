@@ -45,7 +45,7 @@ There are many services that will be built on top of this data in the (near) fut
 | Delivery                     | Delivery of packages should be synchronized with when someone is home                       |
 | Alarm service                | If an older person stays in the bathroom, there might be something wrong!                   |
 | Alarm service                | If an older person wears a wearable, anomalies can be detected                              |
-| Insurance                    | Save money by reduce risks for the insurer                                                  |
+| Insurance                    | Save money by reducing risks for the insurer                                                |
 | Social borrowing             | Borrow electronic tools (see [Peerby](https://go.peerby.com))                               |
 | Insurance                    | Have lights act as if you're home when you're on holidays                                   |
 | Social services              | Messages per living room, kitchen (e.g. [Foursquare, but indoors](https://foursquare.com/)) |
