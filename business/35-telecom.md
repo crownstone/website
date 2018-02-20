@@ -3,7 +3,6 @@ layout: page
 title: IoT Crownstone
 header: Business
 description: "Internet-connected Crownstone"
-group: [navigation-business-footer]
 markdown: true
 permalink: business/telecom
 ---
