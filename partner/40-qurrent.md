@@ -12,9 +12,9 @@ permalink: partner/qurrent
 
 ![Qurrent logo]({{ site.url }}/attachments/qurrent_logo.png){: style="width: 20%" .float-right}
 
-Allereerst hartelijk bedankt voor de deelname aan de [Qurrent inkoopactie](https://www.qurrent.nl/inkoopactie/54/crownstone/)! In een korte periode hebben jullie gezamenlijk de maximale korting bereikt, gefeliciteerd!!
+Bedankt voor je deelname aan de [Qurrent inkoopactie](https://www.qurrent.nl/inkoopactie/54/crownstone/)! In een korte periode hebben jullie gezamenlijk de maximale korting bereikt, gefeliciteerd! De Qurrent prijs is daardoor €62,99 geworden.
 
-Vanuit Qurrent hebben jullie een unieke discount code gekregen. Deze kan gebruikt worden op <https://shop.crownstone.rocks/> om een Crownstone product te kopen. De adviesprijs van €89,99 is daarmee met wel liefst €27,- korting, de mooie Qurrentprijs geworden van €62,99. 
+Vanuit Qurrent hebben jullie een unieke discount code gekregen. Deze kun je in de webshop <https://shop.crownstone.rocks/> gebruiken om een Crownstone product te kopen. 
 
 Meer informatie over de Crownstone plugs kan worden gevonden in de [shop](https://shop.crownstone.rocks/products/crownstone-plugs?locale=nl).
 
