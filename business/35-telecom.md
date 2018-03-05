@@ -35,9 +35,9 @@ The key thing is making the hardware cheaper. Once you get time and variable pri
 
 This means that for the domestic market there is a large opportunity for telecom providers to sell subscriptions. The following estimates are the potential number of subscriptions per year that can be realized for the European market:
 
-* > 3.4 million cars
-* > 2.2 million boillers
-* > 1.9 million solar panels
+* 3.4+ million cars
+* 2.2+ million boillers
+* 1.9+ million solar panels
 
 ## Telemonitoring
 
@@ -47,9 +47,9 @@ In retail there are many devices that would benefit from telemonitoring. The fai
 
 There are many subscriptions that can be sold (per year) for telemonitoring in Europe alone:
 
-* > 20 million fridges
-* > 15 million washing machines
-* > 0.5 million vending machines
+* 20+ million fridges
+* 15+ million washing machines
+*  0.5+ million vending machines
 
 The Crownstone plugs work independently from the appliance brand. Moreover, the Crownstone can be physically locked with the plug of the appliance such that it becomes impossible to use the appliance without the Crownstone registering its use.
 
@@ -59,9 +59,9 @@ One of the largest markets around maintenance is still surprisingly the many mil
 
 There are many appliances sold that benefit from preventive maintenance and are often already sold with maintenance contracts:
 
-> 25 million printers
-> 6 million air conditioners
-> 2.6 million heat pumps
+* 25+ million printers
+*  6+ million air conditioners
+*  2.6+ million heat pumps
 
 The benefit for a telecom provider is that there is already an existing channel to the market of partners that have maintenance contracts with end customers about this type of equipment. Crownstone technology does not necessarily need to be integrated with these devices and can already send important information to those parties which would allow them to achieve all kind of performance goals and potentially save a lot of money.
 
