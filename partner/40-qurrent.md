@@ -18,7 +18,8 @@ Je kunt je kortingscode in de webshop gebruiken om de Plug-en-play kit met 2 Cro
 
 Bestel de Crownstones hier!
 
-<form method="get" action="https://shop.crownstone.rocks/products/crownstone-plugs?launch=nl">
+<form method="get" action="https://shop.crownstone.rocks/products/crownstone-plugs">
+  <input type="hidden" name="launch" value="nl" />
   <button type="submit" class="btn-orange">Bestel</button>
 </form>
 
