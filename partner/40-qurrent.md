@@ -12,25 +12,17 @@ permalink: partner/qurrent
 
 ![Qurrent logo]({{ site.url }}/attachments/qurrent_logo.png){: style="width: 20%" .float-right}
 
-Bedankt voor je deelname aan de [Qurrent inkoopactie](https://www.qurrent.nl/inkoopactie/54/crownstone/)! In een korte periode hebben jullie gezamenlijk de maximale korting bereikt, gefeliciteerd! De Qurrent prijs is daardoor €62,99 geworden.
+Bedankt voor je deelname aan de [Qurrent inkoopactie](https://www.qurrent.nl/inkoopactie/54/crownstone/)! In een korte periode hebben jullie gezamenlijk de maximale korting bereikt, gefeliciteerd! De prijs is daardoor €62,99 geworden.
 
-Vanuit Qurrent hebben jullie een unieke discount code gekregen. Deze kun je in de webshop <https://shop.crownstone.rocks/> gebruiken om een Crownstone product te kopen. 
+Je kunt je kortingscode in de webshop gebruiken om de Plug-en-play kit met 2 Crownstone stekkers te kopen. 
 
-Meer informatie over de Crownstone plugs kan worden gevonden in de [shop](https://shop.crownstone.rocks/products/crownstone-plugs?locale=nl).
+Bestel de Crownstones hier!
 
-# Proces
+<form method="get" action="https://shop.crownstone.rocks/products/crownstone-plugs?launch=nl">
+  <button type="submit" class="btn-orange">Bestel</button>
+</form>
 
-Het is vrij eenvoudig de Crownstones aan te schaffen. Het eerste scherm geeft het aantal Crownstones aan dat wordt aangeschaft. 
-
-![Crownstone winkelwagen]({{ site.url }}/attachments/crownstone_winkelwagen.png){: style="width: 80%" .img-center}
-
-In het tweede scherm kan de kortingscode worden ingevuld.
-
-![Crownstone kortings]({{ site.url }}/attachments/crownstone_kortingscode.png){: style="width: 80%" .img-center}
-
-Het is mogelijk om gebruik te maken van iDeal, PayPal, eveneens als veelgebruikte Belgische en Duitse betaalmogelijkheden. De actie is in principe bedoelt voor de Crownstone plug, echter het is ook mogelijk om builtins te bestellen. In totaal wordt er €27,- korting gegeven per klant, ongeacht het product.
-
-## Contact
+# Contact
 
 Op [Twitter](https://twitter.com/CrownstoneRocks) kan je direct je ervaringen delen of via de contactgegevens op de [team pagina](https://crownstone.rocks/team/). Als je geinteresseerd bent in de onderliggende technologie, neem een kijkje op de [Crownstone github pagina](https://github.com/crownstone).
 
