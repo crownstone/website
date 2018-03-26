@@ -156,6 +156,9 @@ div.teamBackground {
 div.jobsBackground {
     background-image: url("{{ BASE_URL }}/images/jobs.jpg");
 }
+div.officeBackground {
+    background-image: url("{{ BASE_URL }}/images/office-background.jpg");
+}
 div.comingSoon {
     background-image: url("{{ BASE_URL }}/images/comingSoon.jpg");
 }

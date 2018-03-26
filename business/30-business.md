@@ -5,6 +5,7 @@ header: Business
 description: "Crownstone for businesses"
 group: [navigation-business-footer]
 markdown: true
+background-image: officeBackground
 permalink: business/
 ---
 {% include JB/setup %}
