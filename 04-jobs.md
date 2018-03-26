@@ -4,15 +4,12 @@ title: Jobs
 header: Pages
 description: "Jobs and internships in internet of things, home automation, smart homes"
 keywords: "job, internship, graduation project, machine learning, artificial intelligence, internet of things, home automation, smart homes"
+markdown: true
+background-image: jobsBackground
 group: [navigation, navigation-consumer-footer]
 permalink: jobs/
 ---
 {% include JB/setup %}
-
-<div class="bannerContainer lg visible-lg jobsBackground"></div>
-<div class="bannerContainer md visible-md jobsBackground"></div>
-<div class="bannerContainer sm visible-sm jobsBackground"></div>
-<div class="bannerContainer xs visible-xs jobsBackground"></div>
 
 <div class="container">
 	<div class="row">
@@ -134,43 +131,22 @@ permalink: jobs/
 	</div>
 </div>
 
-<!--
-<div class="container">
-	<hr class="featurette-divider">
-	<div class="row">
-		<div class="col-xs-12">
-			<h2>Current master students</h2>
-			<p>
-			Check our current master students at the <a href="{{ site.url }}/team">team</a> page.
-			</p>
-		</div>
-	</div>
-</div>
--->
+<hr class="featurette-divider">
+
+## Hall of fame
+
+We had many master students graduating over the years. We had the pleasure to always work with people who have ambition and who proved that by their high grades! Anne will help you further if you are not certain if something fits or you require more information.
+Look at our [hall of fame]({{ site.url }}/hall-of-fame) to get an idea about the projects of our **former graduates**!
+
+Companies which captured the interest of our graduates are tech companies like ASML, Facebook, Amadeus, consultancy clubs like ORTEC, ARUP, to startups in AI, from Signal Ocean, Sense Observation Systems, to stealthy ones you won't see on any LinkedIn page.
 
 <div class="container">
-	<hr class="featurette-divider">
-	<div class="row">
-		<div class="col-xs-12">
-			<h2>Hall of fame</h2>
-			<p>We had many master students graduating over the years in collaboration with the mother company Almende. We had the pleasure to always work with people with ambition proving it by high grades.
-			<script type="text/javascript">/*<![CDATA[*/var a=new Array(".nl","bots","do","@","ne","an");document.write("<a href='mailto:");for(i=a.length-1;i>=0;i--){document.write(a[i])}document.write("?subject=Internship'>Anne</a>");/*]]>*/</script>
-			will help you further if you are not certain if something fits or you require more information.</p>
-		</div>
-	</div>
-	<div class="row">
-		<div class="col-xs-12">
-			<div class="hall-of-fame">
-			<p>Look at our <a href="{{ site.url }}/hall-of-fame">hall of fame</a> to get an idea about the projects of our previous graduates!</p>
-			</div>
-		</div>
-	</div>
-	<div class="row">
-		<div class="col-xs-12">
-			<p>
-			Companies that in the end captured the interest of our graduates are tech companies like ASML, Facebook, Amadeus, consultancy clubs like ORTEC, ARUP, to startups in AI, from Signal Ocean, Sense to stealthy ones you won't see on any LinkedIn page.
-			</p>
-		</div>
-	</div>
+<div class="row">
+<div class="col-xs-12">
+<p>>> Get in contact with 
+<script type="text/javascript">/*<![CDATA[*/var a=new Array(".rocks","stone","crown","@","ne","an");document.write("<a href='mailto:");for(i=a.length-1;i>=0;i--){document.write(a[i])}document.write("?subject=Internship Crownstone'>Anne</a>");/*]]>*/</script>
+to explore the possibilities!</p>
+</div>
+</div>
 </div>
 

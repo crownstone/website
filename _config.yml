@@ -70,7 +70,8 @@ production_url : https://crownstone.rocks
 markdown : kramdown
 
 kramdown:
-  auto_ids: false
+  auto_ids: true
+  auto_id_prefix: 'header-'
 
 plugins: 
 - 'jekyll-lunr-js-search'
