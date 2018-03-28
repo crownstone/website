@@ -3,6 +3,7 @@ User-agent: *
 Disallow: /error/
 Disallow: /scripts/
 Disallow: /js/
+Disallow: /mail
 
 Sitemap: https://crownstone.rocks/sitemap.txt
 Sitemap: https://crownstone.rocks/nl/sitemap.txt
