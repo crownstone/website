@@ -99,7 +99,7 @@ And, no, we are not afraid to use Lego or Arduino if that helps us with prototyp
 
 Crownstones can not only operate as iBeacons, but also as scanning devices that can localize anything that sends out BLE messages, such as wearables (Apple Watch, Fitbit, Jawbone, but also special watches carried by people with dementia). Localization of these devices is very challenging!
 
-{% include snippets/internship-end urlpdf="https://docs.google.com/document/d/1As9rY5-jWdyDmgVhuye1kmyxPMGYe_1rT4Cdgg-p_J0/export?format=pdf" %}
+{% include snippets/internship-end taken="true" urlpdf="https://docs.google.com/document/d/1As9rY5-jWdyDmgVhuye1kmyxPMGYe_1rT4Cdgg-p_J0/export?format=pdf" %}
 
 
 
