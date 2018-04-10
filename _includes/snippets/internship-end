@@ -1,0 +1,9 @@
+{% if include.taken %}
+<div class="forget-button"><a href="{{ include.urlpdf }}" class="btn btn-default">Taken</a></div>
+</div>
+</div>
+{% else %}
+<div class="read-more-button"><a href="{{ include.urlpdf }}" class="btn btn-default">Read more</a></div>
+</div>
+</div>
+{% endif %}
