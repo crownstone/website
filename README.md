@@ -55,6 +55,9 @@ Or, the short-hand:
 
     ![Mould]({{ site.url }}/attachments/mould0.png "Mould for Crownstone"){: .img-center}
 
+With maximum width:
+    
+    ![Mould]({{ site.url }}/attachments/mould0.png "Mould for Crownstone"){: .limit-width}
 
 An example of a resized image: 
 

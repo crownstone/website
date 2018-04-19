@@ -388,11 +388,14 @@ a.button-link:active {
   float: left;
 }
 
-
 .img-center {
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+.limit-width {
+  max-width: 100%;
 }
 
 /* Social buttons at the right in the footer of each blog post */

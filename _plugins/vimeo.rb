@@ -1,4 +1,4 @@
-class YouTube < Liquid::Tag
+class Vimeo < Liquid::Tag
 	Syntax = /^\s*([^\s]+)(\s+(\d+)\s+(\d+)\s*)?/
 
 	def initialize(tagName, markup, tokens)
@@ -7,7 +7,7 @@ class YouTube < Liquid::Tag
 		if markup =~ Syntax then
 			@id = $1
 		else
-			raise "No YouTube ID provided in the \"youtube\" tag"
+			raise "No Vimeo ID provided in the \"vimeo\" tag"
 		end
 
 		array = markup.scan(/(?:"")|(?:"(.*[^\\])")|(\w+)/).flatten.compact
@@ -30,13 +30,12 @@ class YouTube < Liquid::Tag
 	end
 
 	def render(context)
-		# "<iframe width=\"#{@width}\" height=\"#{@height}\" src=\"http://www.youtube.com/embed/#{@id}\" frameborder=\"0\"allowfullscreen></iframe>"
 		"<div class=\"videowrapper\">
 		<center>
-		<iframe frameborder=\"0\" width=\"#{@width}\" height=\"#{@height}\" src=\"//www.youtube.com/embed/#{@id}?color=white&theme=light&title=#{@title}\"></iframe>
+		<iframe frameborder=\"0\" width=\"#{@width}\" height=\"#{@height}\" src=\"//player.vimeo.com/video/#{@id}?color=white&theme=light\"></iframe>
 		</center>
 		</div>"
 	end
 
-	Liquid::Template.register_tag "youtube", self
+	Liquid::Template.register_tag "vimeo", self
 end

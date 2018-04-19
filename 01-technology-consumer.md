@@ -30,7 +30,7 @@ And you'll definitely have to check the [scenarios]({{ BASE_PATH }}/scenarios)!
 <div class="row">
   <div class="col-xs-12 col-sm-6 col-md-6">
     <div class="embed-responsive embed-responsive-16by9">
-{% youtube ZtnYH53A4zE %}
+{% youtube ZtnYH53A4zE "Bluetooth Positioning" %}
     </div>
   </div>
   <div class="col-xs-12 col-sm-6 col-md-6">
@@ -131,9 +131,10 @@ The current Crownstone iOS and Android apps have the following functionality. Ev
 | Send commands through the internet                | <i class="el el-check"></i>                     | <i class="el el-check"></i>                      |
 | Visualize other users in the app                  | <i class="el el-check"></i>                     | <i class="el el-check"></i>                      |
 | Scheduler                                         | <i class="el el-check"></i>                     | <i class="el el-check"></i>                      |
-| Wake-up light                                     | <i class="el el-check-empty"></i>               | <i class="el el-check-empty"></i>                |
-| Dimmer (PWM at 50Hz)                              | <i class="el el-check"></i>                     | <i class="el el-check-empty"></i>                |
+| Dimmer (LED)                                      | <i class="el el-check"></i>                     | <i class="el el-check"></i>                      |
 | Send a nice message to someone on entering a room | <i class="el el-check"></i>                     | <i class="el el-check"></i>                      |
+| Switchcraft (switch simultaneously physically and digitally)     | <i class="el el-check"></i>               | <i class="el el-check-empty"></i>                |
+| Wake-up light                                     | <i class="el el-check-empty"></i>               | <i class="el el-check-empty"></i>                |
 | Power consumption history                         | <i class="el el-check-empty"></i>               | <i class="el el-check-empty"></i>                |
 | Integration with Toon                             | <i class="el el-check-empty"></i>               | <i class="el el-check-empty"></i>                |
 | Device identification                             | <i class="el el-check-empty"></i>               | <i class="el el-check-empty"></i>                |
