@@ -5,6 +5,7 @@ header: Business
 description: "Product development and partnerships"
 group: [navigation-business-footer]
 markdown: true
+background-image: banner-development.jpg
 permalink: business/product-development/
 ---
 {% include JB/setup %}

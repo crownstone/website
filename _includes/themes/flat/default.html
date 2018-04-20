@@ -155,10 +155,10 @@
    </nav>
 
 {% if page.background-image %}
-<div class="bannerContainer lg visible-lg {{ page.background-image }}"></div>                                          
-<div class="bannerContainer md visible-md {{ page.background-image }}"></div>                                          
-<div class="bannerContainer sm visible-sm {{ page.background-image }}"></div>                                          
-<div class="bannerContainer xs visible-xs {{ page.background-image }}"></div> 
+<div class="bannerContainer lg visible-lg {{ page.background-image }}" style="background-image: url({{BASE_URL}}/images/banners/{{page.background-image}})"></div>            
+<div class="bannerContainer md visible-md {{ page.background-image }}" style="background-image: url({{BASE_URL}}/images/banners/{{page.background-image}})"></div>            
+<div class="bannerContainer sm visible-sm {{ page.background-image }}" style="background-image: url({{BASE_URL}}/images/banners/{{page.background-image}})"></div>            
+<div class="bannerContainer xs visible-xs {{ page.background-image }}" style="background-image: url({{BASE_URL}}/images/banners/{{page.background-image}})"></div>            
 {% endif %}
 
 {% if page.markdown %}

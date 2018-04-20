@@ -144,6 +144,7 @@ div.bannerContainer {
     margin-bottom:30px;
 }
 
+/*
 div.usecaseBackground {
     background-image: url("{{ BASE_URL }}/images/usecase_placeholder.jpg");
 }
@@ -165,7 +166,7 @@ div.comingSoon {
 div.consumerTechnologyBackground {
     background-image: url("{{ BASE_URL }}/images/crownstoneConsumerTechnology.jpg");
 }
-
+*/
 div.logoOverlay {
     background-image: url("{{ BASE_URL }}/images/logoOverlay.png");
     background-size:cover;

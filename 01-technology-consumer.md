@@ -6,7 +6,7 @@ description: "It is a switch, a dimmer, a power monitor, and a standby killer at
 keywords: "switch, smart switch, dimmer, power monitor, standby killer, energy savings, home automation"
 group: [navigation, navigation-consumer-footer]
 markdown: true
-background-image: consumerTechnologyBackground
+background-image: banner-crownstone-tech.jpg
 permalink: technology-consumer/
 ---
 {% include JB/setup %}
