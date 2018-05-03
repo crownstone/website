@@ -85,9 +85,6 @@ embedly :
   youtube :
     text-align: center;
 
-inspectlet:
-  wid: 944274067
-
 # All Jekyll-Bootstrap specific configurations are namespaced into this hash
 #
 JB :
