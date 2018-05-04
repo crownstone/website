@@ -1,2 +1,5 @@
 </div>
+{% if include.no-container-end %}
+{% else %}
 </div>
+{% endif %}

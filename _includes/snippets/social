@@ -1,0 +1,13 @@
+{% if include.channel == "linkedin" %}
+<a class="btn btn-social-icon btn-linkedin" href="http://nl.linkedin.com/in/{{ include.nickname }}/"><i class="el el-linkedin"></i></a>
+{% elsif include.channel == "twitter" %}
+<a class="btn btn-social-icon btn-twitter" href="https://twitter.com/{{ include.nickname }}"><i class="el el-twitter"></i></a> 
+{% elsif include.channel == "googleplus" %}
+<a class="btn btn-social-icon btn-googleplus" href="https://plus.google.com/{{ include.nickname }}"><i class="el el-googleplus"></i></a>
+{% elsif include.channel == "github" %}
+<a class="btn btn-social-icon btn-github" href="https://github.com/{{ include.nickname }}"><i class="el el-github"></i></a>
+{% elsif include.channel == "vimeo" %}
+<a class="btn btn-social-icon btn-vimeo" href="https://vimeo.com/{{ include.nickname }}"><i class="el el-vimeo"></i></a>
+{% elsif include.channel == "website" %}
+<a class="btn btn-social-icon btn-home" href="http://{{ include.nickname }}"><i class="el el-home"></i></a>
+{% endif %}

@@ -127,7 +127,12 @@
             <ul class="nav navbar-nav pull-right">
                {% for tongue in site.languages %}
                <li>
-                  <a {% if tongue == site.active_lang %}style="font-weight: bold;"{% endif %} href="{% if tongue == site.default_lang %}{{site.baseurl}}{{page.url}}{% else %}{{site.baseurl}}/{{ tongue }}{{page.url}}{% endif %}">{{ tongue }}</a>
+                  {% assign nav-url = page.url | prepend:site.baseurl | prepend:site.url %}
+                  {% if tongue != site.default_lang %}
+                  {% assign nav-url = page.url | prepend:tongue | prepend:'/' | prepend:site.baseurl | prepend:site.url %}
+                  {% endif %}
+                  <!-- note the space before nav-url, without it polyglot will relativize it: https://github.com/untra/polyglot -->
+                  <a {% if tongue == site.active_lang %}style="font-weight: bold;"{% endif %} href=" {{ nav-url }}">{{ tongue }}</a>
                </li>
                {% endfor %}
                <li class="accent"><a href="https://shop.crownstone.rocks?launch={{ site.active_lang }}&ref=http://crownstone.rocks/{{ site.active_lang}}{{ page.url }}">

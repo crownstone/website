@@ -103,6 +103,7 @@ end # task :preview
 
 desc "Build"
 task :default do
+  #system "jekyll build --config _config.yml,_config-authors.yml"
   system "jekyll build --config _config.yml,_config-authors.yml"
 end # task :build
 

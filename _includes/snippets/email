@@ -1,0 +1,12 @@
+{% if include.email %}
+  {% assign email = include.email %}
+{% else %}
+  {% assign email = site.contact-job.email %}
+{% endif %}
+{% if include.to %}
+  {% assign towards = include.to %}
+{% else %}
+  {% assign towards = site.contact-job.name %}
+{% endif %}
+
+<script type="text/javascript">/*<![CDATA[*/var a=new Array("{{ email[0] }}", "{{ email[1] }}", "{{ email[2] }}", "{{ email[3] }}", "{{ email[4] }}", "{{ email[5] }}");document.write("<p>{{ include.prefix }} <a href='mailto:");for(i=a.length-1;i>=0;i--){document.write(a[i])}document.write("?subject={{ include.subject}}'>{{ towards }}</a> {{ include.postfix }}</p>");/*]]>*/</script> 

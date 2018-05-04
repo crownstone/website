@@ -1,0 +1,4 @@
+<div class="col-md-3 col-xs-12">
+<div class="center text-center">
+<p><img class="img-responsive img-thumbnail img-circle" src="{{ BASE_PATH }}/images/team/{{ include.picture }}" alt="{{ include.name }}"></p>
+<h5>{{ include.name }}<small class="designation muted"> {{ include.title}}</small></h5>

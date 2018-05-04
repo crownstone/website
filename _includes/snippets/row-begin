@@ -1,2 +1,5 @@
+{% if include.no-container-begin %}
+{% else %}
 <div class="container">
+{% endif %}
 <div class="row">

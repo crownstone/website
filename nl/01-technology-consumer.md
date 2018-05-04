@@ -6,7 +6,7 @@ description: "Een schakelaar, dimmer, vermogensmeter, en standby killer ineen."
 keywords: "schakelaar, slimme schakelaar, dimmer, vermogensmeter, standby killer, domotica"
 group: [navigation, navigation-consumer-footer]
 markdown: true
-background-image: consumerTechnologyBackground
+background-image: banner-crownstone-tech.jpg
 permalink: technology-consumer/
 lang: nl
 ---

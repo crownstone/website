@@ -4,25 +4,51 @@
   {% assign gallery = page.gallery %}
 {% endif %}
 
-<div class="gallery masonry-gallery">
-  {% for img in gallery %}
+<div class="row">
 
-  <figure class="gallery-item">
+  {% assign cntr = 0 %}
 
-    <header class='gallery-icon'>
+  {% for person in gallery %}
 
-      <a href="{{ site.pictureurl }}{{ img.image_path }}" class="popup" title="{{ img.image-caption }}" data-caption="{{ img.image-copyright }}">
-	<img src="{{ site.pictureurl }}{{ img.image_path }}"></a>
+  {% if person.enable == false %}
 
-    </header>	
+  {% else %}
 
-    <figcaption class='gallery-caption'>
-      <div class="entry-summary" id="{{ img.image-caption }}">
-	<h3>{{img.image-caption}}</h3>
-	<p>{{img.image-copyright}}</p>
-      </div>
-    </figcaption>
-  </figure>
+  <div class="col-md-3 col-sm-6 col-xs-12">
+    <div class="center text-center">
+      <p><img class="img-responsive img-thumbnail img-circle" src="{{ BASE_PATH}}/images/team/{{ person.image }}" width="128px" height="128px" alt="{{ person.name }}"></p>
+	  <h5>{{ person.name }} <small class="designation muted"> {{ person.title}}{{ person.affiliation}}</small></h5>
+	  {% if person.linkedin %}
+      <a class="btn btn-social btn-linkedin" href="{{ person.linkedin}}"><i class="el el-linkedin"></i></a>
+	  {% endif %}
+	  {% if person.report %}
+	  <p>
+	  {% if person.report.award %}
+	  <a href="{{ person.report.award }}"><i class="el el-idea"></i></a>
+	  {% endif %}
+	  {{ person.report.title }} {% if person.report.url %}(<a href="{{ BASE_PATH }}/attachments/{{ person.report.url }}">pdf</a>){% endif %} {% if person.report.movie %}(<a href="{{ person.report.movie }}">movie</a>){% endif %}
+	  {% if person.articles %}
+	    (papers
+		{% for article in person.articles %}
+		<a href="{{article.url}}">{{article.ref}}</a>
+		{% endfor %}
+		)
+	  {% endif %}
+	  </p>
+	  {% endif %}
+    </div>	
+  </div>
+  {% assign cntr = cntr | plus: 1 %}
+
+  {% assign two_items = cntr | modulo: 2 %}
+  {% assign four_items = cntr | modulo: 4 %}
+  {% if four_items == 0 %}
+  <div class="clearfix visible-xl-block"></div>
+  {% elsif two_items == 0 %}
+  <div class="clearfix visible-sm-block"></div>
+  {% endif %}
+  
+  {% endif %}
 
   {% endfor %}
 </div>
