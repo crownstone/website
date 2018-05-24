@@ -41,7 +41,7 @@ Social media:
 
 International:
 
-* "Crownstone Plugs für Indoor Localization und Building Automation", 2018 [Home & Smart](https://www.homeandsmart.de/crownstone-plug-indoor-localisation)
+* "Crownstone Plugs für Indoor Localization und Building Automation", 2018, [Home & Smart](https://www.homeandsmart.de/crownstone-plug-indoor-localisation).
 * "Indoor localization with the Internet of Things", 2017, [shared press release together with EnOcean](https://crownstone.rocks/attachments/PressReleaseCrownstoneEnOcean.pdf).
 * "Crownstone takes home automation beyond Alexa", Cate Lawrence, 2016, [readwrite.com](https://readwrite.com/2016/05/16/crownstones-go-beyond-voice-home-alexa-vt4/).
 * "Crownstone, the Smart Power Outlet that Uses Indoor Location", Ludovic Privat, 2015, [gpsbusinessnews](http://www.gpsbusinessnews.com/Crownstone-the-Smart-Power-Outlet-That-Uses-Indoor-Location_a5668.html).
