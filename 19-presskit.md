@@ -41,6 +41,7 @@ Social media:
 
 International:
 
+* "Crownstone Plugs für Indoor Localization und Building Automation", 2018 [Home & Smart](https://www.homeandsmart.de/crownstone-plug-indoor-localisation)
 * "Indoor localization with the Internet of Things", 2017, [shared press release together with EnOcean](https://crownstone.rocks/attachments/PressReleaseCrownstoneEnOcean.pdf).
 * "Crownstone takes home automation beyond Alexa", Cate Lawrence, 2016, [readwrite.com](https://readwrite.com/2016/05/16/crownstones-go-beyond-voice-home-alexa-vt4/).
 * "Crownstone, the Smart Power Outlet that Uses Indoor Location", Ludovic Privat, 2015, [gpsbusinessnews](http://www.gpsbusinessnews.com/Crownstone-the-Smart-Power-Outlet-That-Uses-Indoor-Location_a5668.html).
@@ -122,11 +123,21 @@ It can be downloaded here: [presskit visuals (zip, 342 MB)](https://github.com/c
 
 The [logos (zip)]({{ site.url }}/attachments/logos-on-website.zip) can be downloaded separately.
 
-## Events, fairs
+## Events, fairs, talks
 
 ![Crownstone at CES]({{ site.url }}/attachments/engie-crownstone.jpeg "Crownstone at CES"){: style="width:40%" .float-right}
 
+* Maatschap [The Future Group](https://www.the-future-group.com/), May 22, 2018
+* Hannover Messe, Hannover, Apr. 23-27, 2018
+* Building Holland, Amsterdam, May 17-19, 2018
 * CES, Consumer Electronics Show, Las Vegas, Jan. 8-12, 2018
+* Schneider Electric, Amsterdam, Nov. 30, 2017
+
+## Meetups
+
+At Crownstone we organize a bimonthly [Smart Home & Bluetooth Hackerspace](https://www.meetup.com/Smart-Home-Bluetooth-Hackerspace/) meetup. The topic is slightly different each time, mostly concentrating on integrating other technology within the Crownstone positioning system.
+
+* Smart Home Meetup - Homey, Jun. 1, 2018
 
 ## Frequently asked questions
 

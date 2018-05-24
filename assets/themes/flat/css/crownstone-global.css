@@ -1,4 +1,4 @@
----
+
 title: CSS stylesheet
 ---
 @font-face {
@@ -42,8 +42,8 @@ title: CSS stylesheet
 
 body p, li, th, td, .rte-font {
     font-family: 'LatoLight';
-    font-size: 1.7rem;
-    line-height: 2.5rem;
+    font-size: 2.0rem;
+    line-height: 3.5rem;
 }
 
 body small a {
@@ -61,7 +61,7 @@ body small a {
 
 h1, h2, .h1, .h2 {
     font-family: 'Lato';
-/*    line-height: 1.5em; */
+    line-height: 2.3em; 
 }
 
 h3, h4, h5, h6, .h3, .h4, .h5, .h6 {
