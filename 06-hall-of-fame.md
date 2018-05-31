@@ -39,12 +39,14 @@ graduate-gallery:
     name: "Nanne Wieling"
     report:
       title: "Configuration of Ambient Environments by Speech"
+      url: "thesis/nannewielinga.pdf"
     affiliation: "Software Engineering and Technology Research Group, TU Eindhoven"
     linkedin: "https://www.linkedin.com/in/andreas-sofos"
   - image: "riccardobellana.jpg"
     name: "Riccardo Bellana"
     report:
       title: "Deep Learning for Daily Activity Recognition"
+      url: "thesis/jaspermakkinje.pdf"
     affiliation: "Utrecht University"
     linkedin: "https://www.linkedin.com/in/riccardo-bellana-14074b150"
   - image: "jaspermakkinje.jpg"
