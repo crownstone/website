@@ -27,7 +27,11 @@ Usage:
     {% if node.title != null %}
       {% if group == null or node.group contains group %}
         {% if group contains 'footer' %}
+		    {% if node.footer-title != null %}
+      	    <li><a href="{{ BASE_PATH }}{{node.url}}" class="footer">{{node.footer-title}}</a></li>
+			{% else %}
       	    <li><a href="{{ BASE_PATH }}{{node.url}}" class="footer">{{node.title}}</a></li>
+			{% endif %}
         {% else %}
           	{% if page.url == node.url %}
           	<li class="active"><a href="{{ BASE_PATH }}{{node.url}}" class="active">{{node.title}}</a></li>

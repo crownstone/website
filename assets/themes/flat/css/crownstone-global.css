@@ -39,7 +39,7 @@ title: CSS stylesheet
 
 /* Default font properties for standard elements */
 
-body p, li, th, td, .rte-font {
+body, body p, li, th, td, .rte-font {
   font-family: 'LatoLight';
   font-size: 2.0rem;
   line-height: 3.5rem;
@@ -54,15 +54,10 @@ h1, h2, .h1, .h2 {
   line-height: 1.5em; 
 }
 
-/*
-p::first-letter {
-  color: #ff8400;
-}
-*/
-
 h1, h2, h3, .h1, .h2, .h3 {
   margin-top: 30px;
   margin-bottom: 15px;
+  font-weight: bold;
 }
 
 h3, h4, h5, h6, .h3, .h4, .h5, .h6 {
@@ -221,6 +216,7 @@ div.blueblock {
 div.footer {
   background-color: #003e52;
   color:white;
+  margin-top: 40px;
 }
 
 div.fullWidthImage {
@@ -414,16 +410,98 @@ a.button-link:active {
   background-image: linear-gradient(top, rgba(255, 255, 255, 0), #16e3e5); 
 }
 
+/* Newsletter as separate page */
+
+#mc_embed_signup form {display:block; position:relative; text-align:left; padding:10px 0 10px 3%}
+#mc_embed_signup input {border: 1px solid #ABB0B2; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px;}
+#mc_embed_signup input[type=checkbox]{-webkit-appearance:checkbox;}
+#mc_embed_signup input[type=radio]{-webkit-appearance:radio;}
+#mc_embed_signup input:focus {border-color:#333;}
+#mc_embed_signup .button {
+  padding: 8px 10px;
+  margin: 0;
+  width: auto;
+  line-height: 1.42;
+  text-decoration: none;
+  text-align: center;
+  vertical-align: middle;
+  white-space: normal;
+  cursor: pointer;
+  border: 1px solid transparent;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  border-radius: 0;
+  background-color: #ff8400;
+  color: white;
+  -webkit-transition: background-color 0.4s ease-out;
+  -moz-transition: background-color 0.4s ease-out;
+  -ms-transition: background-color 0.4s ease-out;
+  -o-transition: background-color 0.4s ease-out;
+  transition: background-color 0.4s ease-out
+  font-size: 14;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: 0.1em; 
+  text-transform: uppercase;
+}
+
+#mc_embed_signup .button:hover {background-color:#777;}
+#mc_embed_signup .small-meta {font-size: 11px;}
+#mc_embed_signup .nowrap {white-space:nowrap;}
+
+#mc_embed_signup .mc-field-group {clear:left; position:relative; width:96%; padding-bottom:3%; min-height:50px;}
+#mc_embed_signup .size1of2 {clear:none; float:left; display:inline-block; width:46%; margin-right:4%;}
+* html #mc_embed_signup .size1of2 {margin-right:2%; /* Fix for IE6 double margins. */}
+#mc_embed_signup .mc-field-group label {display:block; margin-bottom:3px;}
+#mc_embed_signup .mc-field-group input {display:block; width:100%; padding:8px 0; text-indent:2%;}
+#mc_embed_signup .mc-field-group select {display:inline-block; width:99%; padding:5px 0; margin-bottom:2px;}
+
+#mc_embed_signup .datefield, #mc_embed_signup .phonefield-us{padding:5px 0;}
+#mc_embed_signup .datefield input, #mc_embed_signup .phonefield-us input{display:inline; width:60px; margin:0 2px; letter-spacing:1px; text-align:center; padding:5px 0 2px 0;}
+#mc_embed_signup .phonefield-us .phonearea input, #mc_embed_signup .phonefield-us .phonedetail1 input{width:40px;}
+#mc_embed_signup .datefield .monthfield input, #mc_embed_signup .datefield .dayfield input{width:30px;}
+#mc_embed_signup .datefield label, #mc_embed_signup .phonefield-us label{display:none;}
+
+#mc_embed_signup .indicates-required {text-align:right; font-size:11px; margin-right:4%;}
+#mc_embed_signup .asterisk {color:#e85c41; font-size:150%; font-weight:normal; position:relative; top:5px;}     
+#mc_embed_signup .clear {clear:both;}
+
+#mc_embed_signup .mc-field-group.input-group ul {margin:0; padding:5px 0; list-style:none;}
+#mc_embed_signup .mc-field-group.input-group ul li {display:block; padding:3px 0; margin:0;}
+#mc_embed_signup .mc-field-group.input-group label {display:inline;}
+#mc_embed_signup .mc-field-group.input-group input {display:inline; width:auto; border:none;}
+
+#mc_embed_signup div#mce-responses {float:left; top:-1.4em; padding:0em .5em 0em .5em; overflow:hidden; width:90%; margin: 0 5%; clear: both;}
+#mc_embed_signup div.response {margin:1em 0; padding:1em .5em .5em 0; font-weight:bold; float:left; top:-1.5em; z-index:1; width:80%;}
+#mc_embed_signup #mce-error-response {display:none;}
+#mc_embed_signup #mce-success-response {color:#529214; display:none;}
+#mc_embed_signup label.error {display:block; float:none; width:auto; margin-left:1.05em; text-align:left; padding:.5em 0;}
+
+#mc-embedded-subscribe {clear:both; width:auto; display:block; margin:1em 0 1em 5%;}
+#mc_embed_signup #num-subscribers {font-size:1.1em;}
+#mc_embed_signup #num-subscribers span {padding:.5em; border:1px solid #ccc; margin-right:.5em; font-weight:bold;}
+
+#mc_embed_signup #mc-embedded-subscribe-form div.mce_inline_error {display:inline-block; margin:2px 0 1em 0; padding:5px 10px; background-color:rgba(255,255,255,0.85); -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; font-size:14px; font-weight:normal; z-index:1; color:#e85c41;}
+#mc_embed_signup #mc-embedded-subscribe-form input.mce_inline_error {border:2px solid #e85c41;}
+
+
+
 /* Newsletter at the bottom */
 
 .extra-top-margin {
   margin-top: 60px 
 }
 
+/*
 .newsletter {
   background-color: #f6f6f6;
   padding: 30px 0;
-}
+}*/
 
 @media screen and (min-width: 591px) {
   .newsletter {
@@ -508,7 +586,7 @@ a.button-link:active {
   cursor: default
 }
 
-.newsletter .btn,.btn--secondary,.rte .btn--secondary,.rte .btn,.rte .btn--secondary,.btn-orange {
+.newsletter .btn, .newsletter button, .btn--secondary,.rte .btn--secondary,.rte .btn,.rte .btn--secondary,.btn-orange {
   display: inline-block;
   padding: 8px 10px;
   margin: 0;

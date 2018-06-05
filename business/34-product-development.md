@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Product development
+title: Product Development
 header: Business
 description: "Product development and partnerships"
 group: [navigation-business-footer]

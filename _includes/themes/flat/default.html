@@ -170,41 +170,6 @@
 </div>
 {% endif %}
 
-<div class="container-fluid extra-top-margin">
-
-   <div class="row">
-
-      <div class="col-xs-12 col-lg-6 no-padding">
-         <div class="call-to-action">
-            <div class="boxed">
-               Crownstones now available at the <a href="https://shop.crownstone.rocks">shop</a>.
-            </div>
-         </div>
-      </div>
-
-      <div class="clearfix visible-xs"></div>
-
-      <div class="col-xs-12 col-lg-6 no-padding">
-         <div class="newsletter">
-            <div class="wrapper">
-               <form action="//rocks.us10.list-manage.com/subscribe/post?u=d03baf337210e326a61dc14d5&amp;id=a23d3e9ded" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" target="_blank">
-                  <label for="Email" class="newsletter__label hidden-label">Sign up to our mailing list</label>
-                  <div class="input-group">
-                     <input type="email" value="" placeholder="Sign up to our mailing list" name="EMAIL" id="Email" class="input-group-field newsletter__input" autocorrect="off" autocapitalize="off">
-                     <span class="input-group-btn">
-                        <button type="submit" class="btn newsletter__submit" name="subscribe" id="Subscribe">
-                           <span class="newsletter__submit-text--large">Subscribe</span>
-                           <span class="newsletter__submit-text--small">&rarr;</span>
-                        </button>
-                     </span>
-                  </div>
-               </form>
-            </div>
-         </div>
-      </div>
-   </div>
-</div>
-
 <div class="footer">
     <br />
     <div class="container">
@@ -213,7 +178,7 @@
             <div class="col-sm-10">
                 <div class="row">
                     <div class="col-sm-4 text-center">
-                        <h3>Crownstone for Consumers</h3>
+                        <h3>Consumers</h3>
                         <div style="display:inline-block;">
                             <ul class="list-unstyled">
                                 {% strip %}
@@ -226,12 +191,22 @@
                     </div>
 
                     <div class="col-sm-4 text-center">
-                        <h3>Crownstone for Business Partners</h3>
+                        <h3>Business</h3>
+                        <div style="display:inline-block;">
+                            <ul class="list-unstyled">
+                                {% strip %}
+                                {% assign pages_list = site.pages | sort:"header" %}
+                                {% assign group = 'navigation-business-footer' %}
+                                {% include JB/pages_list %}
+                                {% endstrip %}
+                            </ul>
+                        </div>
+                        <h3>News</h3>
                         <div style="display:inline-block;">
                             <ul class="list-unstyled">
                                 {% strip %}
                                 {% assign pages_list = site.pages | sort:"name" %}
-                                {% assign group = 'navigation-business-footer' %}
+                                {% assign group = 'navigation-action-footer' %}
                                 {% include JB/pages_list %}
                                 {% endstrip %}
                             </ul>
@@ -239,6 +214,28 @@
                     </div>
 
                     <div class="col-sm-4 text-center">
+                        <h3>Order</h3>
+                        <div style="display:inline-block;">
+                            <ul class="list-unstyled text-left">
+                               <li>
+                                     {% if site.active_lang == "nl" %}
+                                     In de 
+                                     {% else %}
+                                     At the
+                                     {% endif %}
+                                  <a class="footer" href="https://shop.crownstone.rocks?launch={{ site.active_lang }}&ref=http://crownstone.rocks/{{ site.active_lang}}{{ page.url }}">
+                                     {% if site.active_lang == "nl" %}
+                                     webwinkel
+                                     {% else %}
+                                     webshop
+                                     {% endif %}
+                                     <i class="el el-shopping-cart footer"></i>
+                                  </a>
+                               </li>
+                            </ul>
+
+                        </div>
+                        </h3>
                         <h3>Contact</h3>
                         <div style="display:inline-block;">
                             <ul class="list-unstyled text-left">
@@ -246,11 +243,13 @@
                                     <script type="text/javascript">/*<![CDATA[*/var a=new Array("{{ site.contact-team.email[0] }}", "{{ site.contact-team.email[1] }}", "{{ site.contact-team.email[2] }}", "{{ site.contact-team.email[3] }}", "{{ site.contact-team.email[4] }}", "{{ site.contact-team.email[5] }}");document.write("<a href='mailto:");for(i=a.length-1;i>=0;i--){document.write(a[i])}document.write("?subject=Get in contact' class='footer'><i class='el el-envelope footer'></i>Email us!</a>");/*]]>*/</script>
                                     <noscript><i class="el el-envelope footer"></i>Email team@...</noscript>
                                 </li>
+                                <!--
                                 <li>
                                     <a href="https://www.linkedin.com/company/crownstone" target="_blank" class="footer">
                                         <i class="el el-linkedin footer"></i>Linkedin
                                     </a>
                                 </li>
+                                -->
                                 <li>
                                     <a href="https://www.facebook.com/crownstones/" target="_blank" class="footer">
                                         <i class="el el-facebook footer"></i>Facebook
@@ -261,11 +260,13 @@
                                         <i class="el el-twitter footer"></i>Twitter
                                     </a>
                                 </li>
+                                <!--
                                 <li>
                                     <a href="https://vimeo.com/alexdemulder" target="_blank" class="footer">
                                         <i class="el el-vimeo footer"></i>Vimeo
                                     </a>
                                 </li>
+                                -->
                                 <li>
                                     <a href="https://www.youtube.com/channel/UCru1PX6P1JyhsI-OEMXnBdg" target="_blank" class="footer">
                                         <i class="el el-youtube footer"></i>Youtube
@@ -295,6 +296,10 @@
                <p>{{ site.company.street }}</p>
                <p>{{ site.company.postal_code }}</p>
                <p>{{ site.company.phone_international }} / {{ site.company.phone_local }}</p>
+               <br/>
+               <p>
+               This site uses external services. Cookies for the tawk.to chat box (<a href="https://www.tawk.to/privacy-policy/">privacy policy</a>) and the shopify webshop (<a href="https://www.shopify.com/legal/cookies">cookie policy</a>).
+               </p>
             </div>
         </div>
     </div>

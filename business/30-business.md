@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Business
+footer-title: Overview
 header: Business
 description: "Crownstone for businesses"
 group: [navigation-business-footer]

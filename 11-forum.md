@@ -5,20 +5,12 @@ header: Forum
 description: "Community forum to discuss smart homes, indoor localization, and Crownstones in particular."
 keywords: "forum, community, smart homes, indoor localization, Crownstone, Guidestone"
 group: [navigation, navigation-consumer-footer]
-markup: hidden-md hidden-sm
+markdown: true
 permalink: forum/
+redirect_url: https://crownstone.slack.com/
 ---
 {% include JB/setup %}
 
-<section class="gray mini-wrap">
-    <div class="container">
-	<div class="row">
-	    <div class="col-xs-12 col-sm-12 col-md-12">
-		<h1 class="big-title">Forum</h1>
-		<br/>
-		<p>For questions and suggestions that are of value to the community at large you can use our muut forum:</p>
-		<a class="muut md-boxed md-sidebar-shad" href="https://muut.com/i/dobots">Crownstone Forum</a><script src="//cdn.muut.com/1/moot.min.js"></script>
-	    </div>
-	</div>
-    </div>
-</section>
+# Forum
+
+Using Slack... You will be automatically redirected..." If this does not happen within a few seconds, navigate to <https://crownstone.slack.com>.

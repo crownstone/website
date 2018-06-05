@@ -3,23 +3,14 @@ layout: page
 title: Forum
 header: Forum
 group: [navigation, navigation-consumer-footer]
-markup: hidden-md hidden-sm
+markdown: true
 lang: nl
 permalink: forum/
+redirect_url: https://crownstone.slack.com/
 ---
 {% include JB/setup %}
 
-<section class="gray mini-wrap">
-    <div class="container">
-	<div class="row">
-	    <div class="col-xs-12 col-sm-12 col-md-12">
-		<h1 class="big-title">Forum</h1>
-		<br/>
-		<p>
-		    Voor vragen en suggesties die andere mensen ook kunnen helpen, gebruik vooral ons muut forum:
-		</p>
-		<a class="muut" href="https://muut.com/i/dobots">Crownstone Forum</a><script src="//cdn.muut.com/1/moot.min.js"></script>
-	    </div>
-	</div>
-    </div>
-</section>
+# Forum
+
+We gebruiken Slack... Je zal automatisch worden verwezen... Als dit niet binnen enkele seconden gebeurt, navigeer naar <https://crownstone.slack.com>.
+
