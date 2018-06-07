@@ -94,7 +94,8 @@ h4 {
 
 .nav > li > a {
   font-family: 'LatoLight';
-  font-size: 16px;
+  font-size: 20px;
+  line-height: 25px;
   padding: 18px 20px 17px 20px;
 }
 
@@ -161,17 +162,17 @@ div.bannerContainer.xs { height:180px; }
 
 .navbar-default .navbar-nav > .active > a {
   background-color: #003e52;
-  color: white
+  color: white;
 }
 
 .navbar-default .navbar-nav > li > a:hover {
   background-color: #007cc3;
-  color: white
+  color: white;
 }
 
 .navbar-default .navbar-nav > li > a:focus {
   background-color: #007cc3;
-  color: white
+  color: white;
 }
 
 div.crownstoneText {

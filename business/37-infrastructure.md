@@ -1,13 +1,13 @@
 ---
 layout: page
-title: Business
-footer-title: Overview
+title: Infrastructure
+footer-title: Infrastructure
 header: Business
 description: "Crownstone for businesses"
 group: [navigation-business-footer]
 markdown: true
 background-image: banner-office.jpg
-permalink: business/
+permalink: infrastructure/
 ---
 {% include JB/setup %}
 

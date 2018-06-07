@@ -33,10 +33,14 @@ Usage:
       	    <li><a href="{{ BASE_PATH }}{{node.url}}" class="footer">{{node.title}}</a></li>
 			{% endif %}
         {% else %}
-          	{% if page.url == node.url %}
-          	<li class="active"><a href="{{ BASE_PATH }}{{node.url}}" class="active">{{node.title}}</a></li>
+          	{% if node.permalink == "/search/" %}
+          	<li><a href="{{ BASE_PATH }}{{node.url}}" class="active"><i class="el el-search"></i></a></li>
           	{% else %}
-          	<li class="inactive {{node.markup}}"><a href="{{ BASE_PATH }}{{node.url}}">{{node.title}}</a></li>
+				{% if page.url == node.url %}
+				<li class="active"><a href="{{ BASE_PATH }}{{node.url}}" class="active">{{node.title}}</a></li>
+				{% else %}
+				<li class="inactive {{node.markup}}"><a href="{{ BASE_PATH }}{{node.url}}">{{node.title}}</a></li>
+				{% endif %}
       	    {% endif %}
       	{% endif %}
       {% endif %}
