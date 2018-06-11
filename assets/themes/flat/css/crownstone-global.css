@@ -137,7 +137,7 @@ div.bannerContainer {
   background-size: cover;
   padding:0;
   overflow:hidden;
-  border-width: 1px 0px 1px 0px;
+  border-width: 1px 0px 0px 0px;
   border-style: solid;
   border-color: #111924;
   margin-bottom:30px;
