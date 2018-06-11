@@ -198,6 +198,16 @@ div.videoContainer.sm { min-width:723px; }
   border-top: 1px solid #d2d2d2;
 }
 
+/* Google maps
+ */
+#map {
+  margin-top: 40px;
+  height: 800px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 /* Thin out the marketing headings */
 .featurette-heading {
   font-weight: 300;
