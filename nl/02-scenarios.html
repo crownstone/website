@@ -10,14 +10,17 @@ background: usecaseBackground
 ---
 {% include JB/setup %}
 
-    <div class="container-fluid bannerContainer lg" id="videoHeader">
-        <div class="videoContainer hidden-xs" id="videoContainer">
-            <video class="headerVideo" autoplay loop>
-                <source src="{{ BASE_PATH }}/clips/usecase.mp4" type="video/mp4">
-            </video>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="hidden-xs hidden-sm bannerVideoContainer">
+                <video width="100%" muted autoplay loop>
+                    <source src="{{ BASE_PATH }}/clips/usecase.mp4" type="video/mp4">
+                    Your browser doesn't support the video tag.
+                </video>
+            </div>
         </div>
     </div>
-
+    
     <div class="container">
         <div class="row">
             <div class="col-md-12 col-sm-12">

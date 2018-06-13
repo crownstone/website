@@ -1,5 +1,5 @@
-</div>
+</div><!-- row -->
 {% if include.no-container-end %}
 {% else %}
-</div>
+</div><!-- container -->
 {% endif %}
