@@ -6,6 +6,7 @@ description: "App om Crownstones aan te sturen en uit te lezen."
 keywords: "app, smartphone app, android, ios, iphone, Crownstone"
 group: Landing
 markdown: true
+background-image: banner-app.jpg
 lang: nl
 permalink: app/
 ---
@@ -53,7 +54,7 @@ Download de iOS app van de Apple
 ## Android
 
 Download de Android app van de Google
-[Play Store](https://play.google.com/store/apps/details?id=nl.dobots.crownstoneapp).
+[Play Store](https://play.google.com/store/apps/details?id=rocks.crownstone.consumerapp).
 
 # Toekomst
 
