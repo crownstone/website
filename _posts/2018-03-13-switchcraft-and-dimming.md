@@ -4,16 +4,20 @@ title: "Switchcraft and dimming!"
 description: "An intelligent way to switch digitally and physically at the same time."
 tags: [switchcraft, dimming]
 author: annevanrossum
+picture: attachments/allow-dimming1.png
+excerpt: "We have been testing the dimming behavior extensively and are rolling this out as we speak. Yes, LED dimming as well!"
 ---
 {% include JB/setup %}
 
-![Twitter feedback]({{ site.url }}/attachments/twitter-feedback.png){: .float-right style="width:20%"}
-
 # Yeah! :-)
+
+![Twitter feedback]({{ site.url }}/attachments/twitter-feedback.png){: .float-right style="max-width:30%"}
 
 To start, thanks everybody for driving our growth! We've been busy with many, many partners from venture funds, distributors, to real estate developers and store owners. CES seems so long ago already (we're still the first combining indoor localization with home automation, check this [BBC](http://www.bbc.com/news/technology-42574569) article)!
 
 Please, keep sending us your feedback! Much appreciated!
+
+<!-- more -->
 
 ## Dimming & locks
 
