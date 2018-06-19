@@ -1,0 +1,5 @@
+<div class="bubble-{{ include.align }} clearfix">
+<img src="{{ site.url }}/attachments/{{ include.picture }}" alt="Person">
+<div class="bubble-content">
+<div class="point"></div>
+<div class="bubble-text" markdown="1">

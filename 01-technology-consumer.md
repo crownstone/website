@@ -45,19 +45,25 @@ Bluetooth Low Energy positioning can be fairly accurate. It all depends on the n
 
 # Comparison
 
-The Crownstone compares favorably to the competition:
+The Crownstone is a device with many functions. 
+If only picking one function, it already compares favorably to the competition:
 
-| Function                     | Competing products                                         | 
-| ---                          | ---                                                        |
-| Switch (16 A)                | Fibaro (€ 52.50), Digitalstrom (€ 95.60)                   |
-| Dimmer                       | Fibaro (€ 54.95)                                           |
-| Wake-up light                | Philips (€ 59.95)                                          |
-| Energy monitor               | Plugwise (€ 44.99)                                         |
-| Standby killer               | Elro (€25.00)                                              |
-| Device identification        | Smappee (€ 250.00), Curb (€ 400.00), for entire home       |
-| Presence sensor              | Kontakt (€ 37.09)                                          |
+<div class="competitors" markdown="1">
 
-Note, that often the Crownstone functionality is already competing on price (see [shop](https://shop.crownstone.rocks?ref=comparison), € 44.99 each) with a single product type. Just getting yourself a dimmer might be more costly than buying state-of-the-art Crownstone technology.
+| Brand                     | Switches 16A                 | LED dimming                  |  Wake-up light                | Energy monitoring      | Standby killer            | Device identification        | Presence sensor              |
+| ---                       | ---                          | ---                          |
+| Crownstone                | <i class="el el-check"></i>  | <i class="el el-check"></i>  | <i class="el el-check"></i>   | <i class="el el-check"></i>   | <i class="el el-check"></i>   | <i class="el el-check"></i>   | <i class="el el-check"></i>   
+| Fibaro switch             | <i class="el el-check"></i>  | <i class="el el-check-empty"></i>  | <i class="el el-check-empty"></i>   | <i class="el el-check-empty"></i>   | <i class="el el-check-empty"></i>   | <i class="el el-check-empty"></i>   | <i class="el el-check-empty"></i>   
+| Fibaro dimmer                | <i class="el el-check-empty"></i>  | <i class="el el-check"></i>  | <i class="el el-check-empty"></i>   | <i class="el el-check-empty"></i>   | <i class="el el-check-empty"></i>   | <i class="el el-check-empty"></i>   | <i class="el el-check-empty"></i>   
+| Philips                 | <i class="el el-check-empty"></i>  | <i class="el el-check-empty"></i>  | <i class="el el-check"></i>   | <i class="el el-check-empty"></i>   | <i class="el el-check-empty"></i>   | <i class="el el-check-empty"></i>   | <i class="el el-check-empty"></i>   
+| Plugwise | <i class="el el-check"></i>  | <i class="el el-check-empty"></i>  | <i class="el el-check-empty"></i>   | <i class="el el-check"></i>   | <i class="el el-check-empty"></i>   | <i class="el el-check-empty"></i>   | <i class="el el-check-empty"></i>   
+| Elro                | <i class="el el-check-empty"></i>  | <i class="el el-check-empty"></i>  | <i class="el el-check-empty"></i>   | <i class="el el-check-empty"></i>   | <i class="el el-check"></i>   | <i class="el el-check-empty"></i>   | <i class="el el-check-empty"></i>   
+| Smappee                | <i class="el el-check-empty"></i>  | <i class="el el-check-empty"></i>  | <i class="el el-check-empty"></i>   | <i class="el el-check-empty"></i>   | <i class="el el-check-empty"></i>   | <i class="el el-check"></i>   | <i class="el el-check-empty"></i>   
+| Kontakt                | <i class="el el-check-empty"></i>  | <i class="el el-check-empty"></i>  | <i class="el el-check-empty"></i>   | <i class="el el-check-empty"></i>   | <i class="el el-check-empty"></i>   | <i class="el el-check-empty"></i>   | <i class="el el-check"></i>   
+
+</div>
+
+Crownstones are very affordable, check the [shop](https://shop.crownstone.rocks?ref=comparison). Already just a LED dimmer can be more costly than buying a state-of-the-art Crownstone with many more functions.
 
 <!--
 https://www.domoticaexpert.nl/product/676267/fibaro-dimmer-2.html Fibaro dimmer 2: 59,95
@@ -120,27 +126,28 @@ Get a look and feel by playing around with the Crownstones models here!
 
 The current Crownstone iOS and Android apps have the following functionality. Every few weeks a new update is rolled out:
 
-| Functionality                                     | State Firm&shy;ware                             | State Apps                                       | 
-| ---                                               | ---                                             | ---                                              |
-| Switch                                            | <i class="el el-check"></i>                     | <i class="el el-check"></i>                      |
-| Instantaneous power consumption                   | <i class="el el-check"></i>                     | <i class="el el-check"></i>                      |
-| Reacting on close proximity (tap-to-toggle)       | <i class="el el-check"></i>                     | <i class="el el-check"></i>                      |
-| Reacting on moderate proximity (presence)         | <i class="el el-check"></i>                     | <i class="el el-check"></i>                      |
-| Reacting on room-level indoor positioning         | <i class="el el-check"></i>                     | <i class="el el-check"></i>                      |
-| User-controlled upload of data to the cloud       | <i class="el el-check"></i>                     | <i class="el el-check"></i>                      |
-| Send commands through the internet                | <i class="el el-check"></i>                     | <i class="el el-check"></i>                      |
-| Visualize other users in the app                  | <i class="el el-check"></i>                     | <i class="el el-check"></i>                      |
-| Scheduler                                         | <i class="el el-check"></i>                     | <i class="el el-check"></i>                      |
-| Dimmer (LED)                                      | <i class="el el-check"></i>                     | <i class="el el-check"></i>                      |
-| Send a nice message to someone on entering a room | <i class="el el-check"></i>                     | <i class="el el-check"></i>                      |
-| Switchcraft (switch simultaneously physically and digitally)     | <i class="el el-check"></i>               | <i class="el el-check-empty"></i>                |
-| Wake-up light                                     | <i class="el el-check-empty"></i>               | <i class="el el-check-empty"></i>                |
-| Power consumption history                         | <i class="el el-check-empty"></i>               | <i class="el el-check-empty"></i>                |
-| Integration with Toon                             | <i class="el el-check-empty"></i>               | <i class="el el-check-empty"></i>                |
-| Device identification                             | <i class="el el-check-empty"></i>               | <i class="el el-check-empty"></i>                |
-| Control by non-registered guest users             | <i class="el el-check-empty"></i>               | <i class="el el-check-empty"></i>                |
-| Integration with thermostat radiator valves       | <i class="el el-check-empty"></i>               | <i class="el el-check-empty"></i>                |
-| Multi-user setup (don't leave user in the dark)   | <i class="el el-check-empty"></i>               | <i class="el el-check-empty"></i>                |
+| Functionality                                     | State Soft&shy;ware                             | 
+| ---                                               | ---                                             |
+| Switch                                            | <i class="el el-check"></i>                     |
+| Instantaneous power consumption                   | <i class="el el-check"></i>                     |
+| Reacting on close proximity (tap-to-toggle)       | <i class="el el-check"></i>                     |
+| Reacting on moderate proximity (presence)         | <i class="el el-check"></i>                     |
+| Reacting on room-level indoor positioning         | <i class="el el-check"></i>                     |
+| User-controlled upload of data to the cloud       | <i class="el el-check"></i>                     |
+| Send commands through the internet                | <i class="el el-check"></i>                     |
+| Visualize other users in the app                  | <i class="el el-check"></i>                     |
+| Scheduler                                         | <i class="el el-check"></i>                     |
+| Dimmer (LED)                                      | <i class="el el-check"></i>                     |
+| Send a nice message to someone on entering a room | <i class="el el-check"></i>                     |
+| Wake-up light                                     | <i class="el el-check-empty"></i>               |
+| Power consumption history                         | <i class="el el-check-empty"></i>               |
+| Integration with Toon                             | <i class="el el-check-empty"></i>               |
+| Integration with Alexa                            | <i class="el el-check-empty"></i>               |
+| Integration with Homey                            | <i class="el el-check-empty"></i>               |
+| Device identification                             | <i class="el el-check-empty"></i>               |
+| Control by non-registered guest users             | <i class="el el-check-empty"></i>               |
+| Integration with thermostat radiator valves       | <i class="el el-check-empty"></i>               |
+| Multi-user setup (don't leave user in the dark)   | <i class="el el-check-empty"></i>               |
 
 On our roadmap you will find more tasks that are planned already, from integration with Alexa to configuration of preconfigured scenes. 
 

@@ -1,0 +1,30 @@
+<div class="container">
+	<div class="row text-center hidden-xs marginTopM">
+		<div class="col-md-2 col-sm-2"><img class="img-responsive center-block" src="{{ BASE_PATH }}/images/icons/switch.png" alt="Crownstone switch icon"/>
+			<p>Switch</p>
+		</div>
+		<div class="col-md-2 col-sm-2"><img class="img-responsive center-block" src="{{ BASE_PATH }}/images/icons/dimming.png" alt="Crownstone dimming icon" />
+			<p>Dimmer</p>
+		</div>
+		<div class="col-md-2 col-sm-2"><img class="img-responsive center-block" src="{{ BASE_PATH }}/images/icons/localization.png" alt="Crownstone localization icon"/>
+			<p>Presence Detector</p>
+		</div>
+		<div class="col-md-2 col-sm-2"><img class="img-responsive center-block" src="{{ BASE_PATH }}/images/icons/measuring.png" alt="Crownstone power monitor icon" />
+			<p>Power Monitor</p>
+		</div>
+		<div class="col-md-2 col-sm-2"><img class="img-responsive center-block" src="{{ BASE_PATH }}/images/icons/ai.png" alt="Crownstone AI icon"/>
+			<p>AI</p>
+		</div>
+		<div class="col-md-2 col-sm-2"><img class="img-responsive center-block" src="{{ BASE_PATH }}/images/icons/crownstone.png" alt="Crownstone open platform icon" />
+			<p>Open Source</p>
+		</div>
+	</div>
+	<div class="row text-center visible-xs">
+		<div class="col-xs-2"><img class="img-responsive center-block" src="{{ BASE_PATH }}/images/icons/switch.png" /></div>
+		<div class="col-xs-2"><img class="img-responsive center-block" src="{{ BASE_PATH }}/images/icons/dimming.png" /></div>
+		<div class="col-xs-2"><img class="img-responsive center-block" src="{{ BASE_PATH }}/images/icons/localization.png" /></div>
+		<div class="col-xs-2"><img class="img-responsive center-block" src="{{ BASE_PATH }}/images/icons/measuring.png" /></div>
+		<div class="col-xs-2"><img class="img-responsive center-block" src="{{ BASE_PATH }}/images/icons/ai.png" /></div>
+		<div class="col-xs-2"><img class="img-responsive center-block" src="{{ BASE_PATH }}/images/icons/crownstone.png" /></div>
+	</div>
+</div>

@@ -1,0 +1,20 @@
+<!-- ffprobe -v error -select_streams v:0 -show_entries stream=profile,level -of default=noprint_wrappers=1  clips/intro.mp4 -->
+<!-- shows for video level=40 (0x28) and profile=High (0x6400) -->
+
+<div class="container-fluid">
+	<div class="row">
+		<div class="hidden-xs hidden-sm">
+			<video width="100%" muted autoplay loop>
+				<source src="{{ include.video }}.webm" type='video/webm'>
+				<source src="{{ include.video }}.mp4" type='video/mp4; codecs="avc1.640028"'>
+				Your browser doesn't support the video tag.
+			</video>
+		</div>
+		<div class="hidden-xs hidden-sm logoOverlay">
+		</div> 
+		<div class="visible-xs visible-sm">
+			<img class="img-responsive center-block" src="{{ include.placeholder }}" alt="{{ include.alt }}"/>
+		</div>
+	</div>
+</div>
+
