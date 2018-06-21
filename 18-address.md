@@ -4,13 +4,14 @@ title: Address
 header: Address
 group: Landing
 markdown: true
+background-image: banner-address.jpg
 permalink: address/
 ---
 {% include JB/setup %}
 
 # Physical address
 
-The address of Crownstone HQ:
+The address of Crownstone head quarters:
 
 **Crownstone**
 <br>
@@ -26,27 +27,22 @@ IBAN: {{ site.company.iban }}
 <br>
 BIC/SWIFT: {{ site.company.bic }}
 
-Important. When sending parcels to our address make sure you use the complete street number: {{ site.company.street_number }}
+Important. When sending parcels to our address make sure you use the complete street number: **{{ site.company.street_number }}**
 
-# Contact
+# Financial Contact
 
-<div class="email"><i class='el el-envelope'></i>email: team@</div>
+For questions regarding offers, quotes, invoices, and other financial information, you can contact us best at:
+
+{% assign email = ".rocks, stone, crown, @, ling, bil" | split: ", "  %}
+<div class="email"><i class='el el-envelope'></i> email: {% include snippets/email subject="Financial Inquiry" email=email %}</div>
+
+
+# General Contact
+
+{% assign email = ".rocks, stone, crown, @, am, te" | split: ", "  %}
+<div class="email"><i class='el el-envelope'></i> email: {% include snippets/email subject="General Inquiry" email=email %}</div>
 
 <i class='el el-phone'></i> 
 phone: 
 <a href="tel:{{ site.company.phone_international }}">{{ site.company.phone_international }}</a> / {{ site.company.phone_local }}
-	    
-<script type="text/javascript">
-  function addEmailAddress() {
-    var a = new Array("{{ site.contact-team.email[0] }}", "{{ site.contact-team.email[1] }}", "{{ site.contact-team.email[2] }}", "{{ site.contact-team.email[3] }}", "{{ site.contact-team.email[4] }}", "{{ site.contact-team.email[5] }}");
-    var address = "";
-    for (var i = a.length - 1; i >=0; i--) {
-      address += a[i];
-    }
-    var list = document.getElementsByClassName("email");
-    for (var i = 0; i < list.length; i++) {
-      list[i].innerHTML = "<p><i class='el el-envelope'></i> email: <a href='mailto:" + address + "'>" + address + "</a></p>";
-    }
-  }
-  addEmailAddress();
-</script>
+
