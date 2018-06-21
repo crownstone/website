@@ -29,13 +29,15 @@ author :
   github : crownstone
 
 company : 
-  address : Stationsplein 45 D1.118, 3013 AK Rotterdam, The Netherlands
-  street : Stationsplein 45 D1.118
-  street_number: 45 D1.118
+  address : Stationsplein 45 d1.118, 3013 AK Rotterdam, The Netherlands
+  street : Stationsplein 45 d1.118
+  street_number: 45 d1.118
   postal_code : 3013 AK Rotterdam, The Netherlands
   postcode : 3013 AK Rotterdam
   kvk : 66065208
   vat : NL856381111B01
+  iban : NL36RABO0310477395
+  bic : RABONL2U
   phone_international : 0031103073955
   phone_local : 010-3073955
 
