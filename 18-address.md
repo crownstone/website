@@ -21,6 +21,10 @@ The address of Crownstone HQ:
 KvK: {{ site.company.kvk }}
 <br>
 BTW/VAT: {{ site.company.vat }}
+<br>
+IBAN: {{ site.company.iban }}
+<br>
+BIC/SWIFT: {{ site.company.bic }}
 
 Important. When sending parcels to our address make sure you use the complete street number: {{ site.company.street_number }}
 
