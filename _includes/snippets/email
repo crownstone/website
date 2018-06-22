@@ -7,7 +7,7 @@
 <script type="text/javascript">
 	/*<![CDATA[*/
 	var a=new Array("{{ email[0] }}", "{{ email[1] }}", "{{ email[2] }}", "{{ email[3] }}", "{{ email[4] }}", "{{ email[5] }}");
-	document.write("{{ include.prefix }} <a href='mailto:");
+	document.write("{{ include.prefix }}<a href='mailto:");
 	for(i=a.length-1;i>=0;i--) { 
 		document.write(a[i])
 	}
@@ -17,7 +17,7 @@
 		document.write(a[i])
 	}
 	{% endif %}
-	document.write("</a> {{ include.postfix }}");
+	document.write("</a>{{ include.postfix }}");
 	/*]]>*/
 </script> 
 <noscript>team@...</noscript>

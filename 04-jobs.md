@@ -30,7 +30,7 @@ Apart from the products we have developed we have multiple products in the pipel
 ## Software developer
 			
 We have many interesting opportunities for ambitious developers. It's not just coding a front-end! 
-For example, the implementation of an Arduino runtime environment, including updates over the air from the Arduino graphical user interface. Interfacing multiple smart home BLE devices in our infrastructure. These can be radiator valves, door sensors, lights, etc. This means integration on all levels from integrating the devices into the Crownstone mesh to the graphical user interface. Also integration tasks with home assistant, domoticz, openhab, openmotics and IoT frameworks and protocols like IFTTT MQTT.
+Crownstone is foremost searching for a developer who is experienced in embedded development. You can find more at a [dedicated page to our software challenges]({{ site.url }}/challenges/software).
 			
 ## Finance
 			
@@ -38,8 +38,8 @@ You want to play a significant role in an innovative company! You like to establ
 
 ## Email 
 
-<script type="text/javascript">/*<![CDATA[*/var a=new Array("{{ site.contact-job.email[0] }}", "{{ site.contact-job.email[1] }}", "{{ site.contact-job.email[2] }}", "{{ site.contact-job.email[3] }}", "{{ site.contact-job.email[4] }}", "{{ site.contact-job.email[5] }}");document.write("<p>Email <a href='mailto:");for(i=a.length-1;i>=0;i--){document.write(a[i])}document.write("?subject=Website application'>{{ site.contact-job.name }}</a> if you are interested!</p>");/*]]>*/</script> 
-		
+{% include snippets/email subject="Website application" to="us" prefix="Email " postfix=" if you are interested!" %}
+
 {% include snippets/column-end %}
 {% include snippets/column-begin %}
 	
@@ -61,7 +61,7 @@ For the topics our current master students are working on, see the [team]({{ sit
 			
 You're welcome! If you have an interesting story that is :-) 
 
-<script type="text/javascript">/*<![CDATA[*/var a=new Array("{{ site.contact-job.email[0] }}", "{{ site.contact-job.email[1] }}", "{{ site.contact-job.email[2] }}", "{{ site.contact-job.email[3] }}", "{{ site.contact-job.email[4] }}", "{{ site.contact-job.email[5] }}");document.write("<p>Please email <a href='mailto:");for(i=a.length-1;i>=0;i--){document.write(a[i])}document.write("?subject=Open application'>{{ site.contact-job.name }}</a> your motivation.</p>");/*]]>*/</script> 
+{% include snippets/email subject="Open application" to="us" prefix="Please email " postfix=" your motivation." %}
 
 {% include snippets/column-end %}
 {% include snippets/row-end %}
@@ -152,7 +152,7 @@ Companies which captured the interest of our graduates are tech companies like A
 {% include snippets/row-begin %}
 {% include snippets/column-begin colsize="12" %}
 
-<script type="text/javascript">/*<![CDATA[*/var a=new Array("{{ site.contact-job.email[0] }}", "{{ site.contact-job.email[1] }}", "{{ site.contact-job.email[2] }}", "{{ site.contact-job.email[3] }}", "{{ site.contact-job.email[4] }}", "{{ site.contact-job.email[5] }}");document.write("<p>Get in contact with <a href='mailto:");for(i=a.length-1;i>=0;i--){document.write(a[i])}document.write("?subject=Internship Crownstone'>{{ site.contact-job.name }}</a> to explore the possibilities.</p>");/*]]>*/</script> 
+{% include snippets/email subject="Internship Crownstone" to="our team" prefix="Get in contact with " postfix=" to explore the possibilities." %}
 
 {% include snippets/column-end %}
 {% include snippets/row-end %}
