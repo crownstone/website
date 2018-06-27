@@ -63,10 +63,8 @@ BTW/VAT: {{ site.company.vat }}
  
 ## Contact
 
-<div class="email">
-<i class='el el-envelope'></i> 
-email: team@...
-</div>
+{% assign email = ".rocks, stone, crown, @, am, te" | split: ", "  %}
+<div class="email"><i class='el el-envelope'></i> email: {% include snippets/email subject="Crownstone Contact" email=email %}</div>
 
 <p>
 <i class='el el-phone'></i> 
@@ -161,6 +159,8 @@ Peet worked for a lot of international companies (Siemens, Philips) in the car i
 
 {% include snippets/team-member-end %}
 
+<div class="clearfix visible-sm-block"></div>
+
 {% include snippets/team-member-begin name="Bart van Vliet" picture="bartvanvliet.jpg" title="Software developer" %}
                     
 <p>
@@ -186,6 +186,25 @@ Bart has a masters in Mechanical Engineering and does not shy away from the most
 <p>
 Alex has a masters in Applied Physics and is a stellar developer. At times his physics training shows, for example in the beautiful visualizations in our app.
 </p>
+
+{% include snippets/team-member-end %}
+
+<div class="clearfix visible-xl-block"></div>
+
+{% include snippets/team-member-begin name="Fija Pijpelink" picture="fijapijpelink.jpg" title="Design/Communication Specialist" %}
+
+<p>
+Fija makes sure our communication is clear and beautiful.
+</p>
+
+{% include snippets/team-member-end %}
+
+{% include snippets/team-member-begin name="Frans Dijckmeester" picture="fransdijckmeester.jpg" title="Assistant Financial Controller" %}
+
+<p>
+Frans streamlines and automates our finances and administration!
+</p>
+
 
 {% include snippets/team-member-end %}
 
@@ -299,18 +318,3 @@ Really, go there! :-) There is lot of interesting research and perhaps software 
 {% include snippets/column-end %}
 {% include snippets/row-end %}
 
-
-<script type="text/javascript">
-  function addEmailAddress() {
-    var a = new Array("{{ site.contact-team.email[0] }}", "{{ site.contact-team.email[1] }}", "{{ site.contact-team.email[2] }}", "{{ site.contact-team.email[3] }}", "{{ site.contact-team.email[4] }}", "{{ site.contact-team.email[5] }}");
-    var address = "";
-    for (var i = a.length - 1; i >=0; i--) {
-      address += a[i];
-    }
-    var list = document.getElementsByClassName("email");
-    for (var i = 0; i < list.length; i++) {
-      list[i].innerHTML = "<p><i class='el el-envelope'></i> email: <a href='mailto:" + address + "'>" + address + "</a></p>";
-    }
-  }
-  addEmailAddress();
-</script>

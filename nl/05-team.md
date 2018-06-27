@@ -64,10 +64,8 @@ BTW/VAT: {{ site.company.vat }}
  
 ## Contact
 
-<div class="email">
-<i class='el el-envelope'></i> 
-email: team@...
-</div>
+{% assign email = ".rocks, stone, crown, @, am, te" | split: ", "  %}
+<div class="email"><i class='el el-envelope'></i> email: {% include snippets/email subject="Crownstone Contact" email=email %}</div>
 
 <p>
 <i class='el el-phone'></i> 
@@ -203,6 +201,24 @@ Alex heeft een master in natuurkunde en is een sterontwikkelaar. Zijn natuurkund
 
 {% include snippets/team-member-end %}
 
+<div class="clearfix visible-xl-block"></div>
+
+{% include snippets/team-member-begin name="Fija Pijpelink" picture="fijapijpelink.jpg" title="Design/Communication Specialist" %}
+
+<p>
+Fija zorgt dat onze communicatie duidelijk en mooi is.
+</p>
+
+{% include snippets/team-member-end %}
+
+{% include snippets/team-member-begin name="Frans Dijckmeester" picture="fransdijckmeester.jpg" title="Assistant Financial Controller" %}
+
+<p>
+Frans verzorgt en automatiseert onze financieen en boekhouding.
+</p>
+
+{% include snippets/team-member-end %}
+
 {% include snippets/row-end %}
 
 {% include snippets/divider %}
@@ -318,20 +334,4 @@ Dat menen we echt! :-) Over de afgelopen jaren hebben we veel interessant onderz
 
 {% include snippets/column-end %}
 {% include snippets/row-end %}
-
-
-<script type="text/javascript">
-  function addEmailAddress() {
-    var a = new Array("{{ site.contact-team.email[0] }}", "{{ site.contact-team.email[1] }}", "{{ site.contact-team.email[2] }}", "{{ site.contact-team.email[3] }}", "{{ site.contact-team.email[4] }}", "{{ site.contact-team.email[5] }}");
-    var address = "";
-    for (var i = a.length - 1; i >=0; i--) {
-      address += a[i];
-    }
-    var list = document.getElementsByClassName("email");
-    for (var i = 0; i < list.length; i++) {
-      list[i].innerHTML = "<p><i class='el el-envelope'></i> email: <a href='mailto:" + address + "'>" + address + "</a></p>";
-    }
-  }
-  addEmailAddress();
-</script>
 
