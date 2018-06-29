@@ -1,0 +1,5 @@
+{% strip %}                                                                                              
+{% assign pages_list = site.pages | sort:"name" %}                                                       
+{% assign group = 'navigation' %}                                                                        
+{% include JB/pages_list %}                                                                              
+{% endstrip %}                       

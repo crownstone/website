@@ -179,6 +179,10 @@ div.bannerContainer.xs { height:180px; }
   color: white;
 }
 
+.pull-center {
+  text-align: center;
+}
+
 div.crownstoneText {
   float:left;
   height:50px;
