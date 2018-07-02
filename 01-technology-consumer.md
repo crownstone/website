@@ -5,11 +5,13 @@ header: Pages
 description: "It is a switch, a dimmer, a power monitor, and a standby killer at once."
 keywords: "switch, smart switch, dimmer, power monitor, standby killer, energy savings, home automation"
 group: [navigation, navigation-consumer-footer]
-markdown: true
 background-image: banner-crownstone-tech.jpg
 permalink: technology-consumer/
 ---
 {% include JB/setup %}
+
+{% include snippets/row-begin %}
+{% include snippets/column-begin colsize="12" %}
 
 # Technology
                 
@@ -25,23 +27,32 @@ What can the Crownstones do for you at home?
                 
 And you'll definitely have to check the [scenarios]({{ BASE_PATH }}/scenarios)!
 
-<hr class="featurette-divider">
+{% include snippets/column-end %}
+{% include snippets/row-end no-container-end="true" %}
 
-<div class="row">
-  <div class="col-xs-12 col-sm-6 col-md-6">
-    <div class="embed-responsive embed-responsive-16by9">
+{% include snippets/divider %}
+
+{% include snippets/row-begin no-container-begin="true" %}
+{% include snippets/column-begin colsize="6" %}
+
+<div class="embed-responsive embed-responsive-16by9">
 {% youtube ZtnYH53A4zE "Bluetooth Positioning" %}
-    </div>
-  </div>
-  <div class="col-xs-12 col-sm-6 col-md-6">
-    <h1>Indoor positioning</h1>
-    <p>
-Bluetooth Low Energy positioning can be fairly accurate. It all depends on the number of Crownstones you use! See in this below video clip how we move a smartphone in a miniature house from room to room and you see how the picture moves accordingly.
-    </p>
-  </div>
 </div>
 
-<hr class="featurette-divider">
+{% include snippets/column-end %}
+{% include snippets/column-begin colsize="6" %}
+
+# Indoor positioning
+
+Bluetooth Low Energy positioning can be fairly accurate. It all depends on the number of Crownstones you use! See in this below video clip how we move a smartphone in a miniature house from room to room and you see how the picture moves accordingly.
+
+{% include snippets/column-end %}
+{% include snippets/row-end no-container-end="true" %}
+
+{% include snippets/divider %}
+
+{% include snippets/row-begin no-container-begin="true" %}
+{% include snippets/column-begin colsize="12" %}
 
 # Comparison
 
@@ -65,6 +76,10 @@ If only picking one function, it already compares favorably to the competition:
 
 Crownstones are very affordable, check the [shop](https://shop.crownstone.rocks?ref=comparison). Already just a LED dimmer can be more costly than buying a state-of-the-art Crownstone with many more functions.
 
+{% include snippets/column-end %}
+{% include snippets/row-end %}
+
+
 <!--
 https://www.domoticaexpert.nl/product/676267/fibaro-dimmer-2.html Fibaro dimmer 2: 59,95
 minus point: works only with Fibaro basisstation
@@ -74,53 +89,71 @@ https://www.domoticaexpert.nl/product/759604/fibaro-wall-plug-type-f-werkt-met-t
 fibaro gateway required
 -->
 
+{% include snippets/row-begin %}
+{% include snippets/column-begin colsize="12" %}
+
 # Play around!
 
 Get a look and feel by playing around with the Crownstones models here!
 
-<div class="sketchfab-embed-wrapper"><iframe width="100%" height="480" src="https://sketchfab.com/models/ef92123227c24517bbff7ad2b9f44c37/embed" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" onmousewheel=""></iframe>
+<div class="sketchfab-embed-wrapper"><iframe src="https://sketchfab.com/models/ef92123227c24517bbff7ad2b9f44c37/embed" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" onmousewheel=""></iframe>
   <p style="font-size: 13px; font-weight: normal; margin: 5px; color: #4A4A4A;">
   <a href="https://sketchfab.com/models/ef92123227c24517bbff7ad2b9f44c37?utm_medium=embed&utm_source=website&utm_campain=share-popup" target="_blank" style="font-weight: bold; color: #1CAAD9;">Crownstone Plug</a>
   </p>
 </div>
 
-<div class="sketchfab-embed-wrapper"><iframe width="100%" height="480" src="https://sketchfab.com/models/b5fa4e4bc93f48c5901b4735b7c0e71a/embed" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" onmousewheel=""></iframe>
+<div class="sketchfab-embed-wrapper"><iframe src="https://sketchfab.com/models/b5fa4e4bc93f48c5901b4735b7c0e71a/embed" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" onmousewheel=""></iframe>
   <p style="font-size: 13px; font-weight: normal; margin: 5px; color: #4A4A4A;">
   <a href="https://sketchfab.com/models/b5fa4e4bc93f48c5901b4735b7c0e71a?utm_medium=embed&utm_source=website&utm_campain=share-popup" target="_blank" style="font-weight: bold; color: #1CAAD9;">Built-in Crownstone</a>
   </p>
 </div>
 
-<hr class="featurette-divider" />
+{% include snippets/column-end %}
+{% include snippets/row-end %}
 
-<div class="row">
-  <div class="col-xs-12 col-sm-6 col-md-6">
-    <div class="embed-responsive embed-responsive-16by9">
-      <iframe class="embed-responsive-item" src="//player.vimeo.com/video/139371752"></iframe>
-    </div>
-  </div>
-  <div class="col-xs-12 col-sm-6 col-md-6">
-    <h1>Kickstarter</h1>
-    <p>
-    The Crownstone is originally developed for a <a href="https://www.kickstarter.com/projects/dobots/crownstone">Kickstarter</a> project. We were featured on many European news sites and in general this really kickstarted our business in many ways (being accepted in the Rockstart accelerator for example). Some of the features of the Crownstone you can watch in this Kickstarter promo.
-    </p>
-  </div>
+{% include snippets/divider %}
+
+{% include snippets/row-begin %}
+{% include snippets/column-begin colsize="6" %}
+
+<div class="embed-responsive embed-responsive-16by9">
+<iframe class="embed-responsive-item" src="//player.vimeo.com/video/139371752"></iframe>
 </div>
 
-<hr class="featurette-divider" />
+{% include snippets/column-end %}
 
-<div class="row">
-  <div class="col-xs-12 col-sm-6 col-md-6">
-    <h1>Specifications</h1>
-    <p>For detailed specifications, see the <a href="https://shop.crownstone.rocks/pages/specifications">specification page</a></p>.
-  </div>
-  <div class="col-xs-12 col-sm-6 col-md-6">
-    <div class="embed-responsive embed-responsive-16by9">
-      <iframe class="embed-responsive-item" src="//player.vimeo.com/video/138335017"></iframe>
-    </div>
-  </div>
+{% include snippets/column-begin colsize="6" %}
+
+# Kickstarter
+
+The Crownstone has been originally developed for a [Kickstarter](https://www.kickstarter.com/projects/dobots/crownstone) project. We were featured on many European news sites and in general this really kickstarted our business in many ways (being accepted in the Rockstart accelerator for example). Some of the features of the Crownstone you can watch in this Kickstarter promo.
+
+{% include snippets/column-end %}
+{% include snippets/row-end %}
+
+{% include snippets/divider %}
+
+{% include snippets/row-begin %}
+{% include snippets/column-begin colsize="6" %}
+
+# Specifications
+
+For detailed specifications, see the [specification page](https://shop.crownstone.rocks/pages/specifications).
+
+{% include snippets/column-end %}
+{% include snippets/column-begin colsize="6" %}
+
+<div class="embed-responsive embed-responsive-16by9">
+<iframe class="embed-responsive-item" src="//player.vimeo.com/video/138335017"></iframe>
 </div>
 
-<hr class="featurette-divider" />
+{% include snippets/column-end %}
+{% include snippets/row-end %}
+
+{% include snippets/divider %}
+
+{% include snippets/row-begin %}
+{% include snippets/column-begin colsize="12" %}
 
 # Roadmap
 
@@ -155,3 +188,5 @@ On our roadmap you will find more tasks that are planned already, from integrati
 
 You can vote for it [on trello](https://trello.com/b/6rUcIt62/crownstone-transparent-product-roadmap) if you'd like to. A nice example of another company that brings a lot of firmware updates is Fujifilm. Look at [this list](https://petapixel.com/2017/03/22/fujifilm-x-t2x-pro2-firmware-update-bring-33-improvements/) of impressive updates that are so significant that it feels like you own a completely new camera! We will always have a few features under the radar that hopefully will make you feel the same!
 
+{% include snippets/column-end %}
+{% include snippets/row-end %}
