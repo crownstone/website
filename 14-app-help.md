@@ -19,9 +19,26 @@ The app itself is self-explanatory. However, if there are particular questions c
 
 {% include snippets/faq-group-begin %}
 
-{% include snippets/faq-begin ref="faqNewStone" question="How to add a Crownstone in the app?" dontcollapse="in" %}
+{% include snippets/faq-begin ref="faqHelp" question="Where can I find help?" dontcollapse="in" %}
+
+Apart from this list of questions, there is also a "Help" in the app itself. You will find it in the app menu.
+
+{% include snippets/faq-end %}
+
+{% include snippets/faq-begin ref="faqNewStone" question="How to add a Crownstone in the app?" %}
 
 Open the Crownstone app, just in the general overview. Now power on the Crownstone (plug it in). Keep the phone **really close** and this means **really** close. You will see a blue icon flashing. This is the Crownstone discovered by the phone. Click on it and read the instruction for setup. After this procedure you are the digital owner of the Crownstone and you can decide who is allowed to use it.
+
+{% include snippets/faq-end %}
+
+{% include snippets/faq-begin ref="faqShow" question="What to do when a Crownstone does not show up?" %}
+
+Make sure that the Crownstone is powered and that your smartphone is really close to it. During setup mode the Crownstone
+transmits very quitely so other people cannot claim your Crownstone!
+
+If the Crownstone still does not show up, you might want to try a recovery procedure. This is a factory reset 
+procedure that will clear all the data on the Crownstone. The state of the Crownstone will be subsequently as if was
+just obtained from the store. The factory reset procedure is called a "recovery" (see below).
 
 {% include snippets/faq-end %}
 
@@ -71,9 +88,10 @@ It is always recommended to switch the **live** line. The Crownstone switches be
 
 {% include snippets/faq-end %}
 
-{% include snippets/faq-begin ref="faqFactoryReset" question="How can I factory reset the Crownstone?" %}
+{% include snippets/faq-begin ref="faqFactoryReset" question="How to perform a factory reset of the Crownstone?" %}
                                 
-Due to security reasons you cannot always perform a factory reset. A factory reset is only possible the first 20 seconds after you have put power on the Crownstone. After that initial period this will not be possible except if you turn the power off and on again. Note that the possibility of a factory reset might be disabled in future editions (in that case this answer will be updated). 
+Due to security reasons you cannot always perform a factory reset. A factory reset is only possible the first **20 seconds** after you have powered the Crownstone. After that initial period it will not be possible to perform a factory reset. You will have to cycle the power off and on again to perform a factory reset at a later stage. 
+The factory reset option is a final resort. The option you will find in the application at the "Help" menu. Navigate to "What to do if...", and "I need to recover a Crownstone". You see there a button you can press: "Recover Crownstone".
 
 {% include snippets/faq-end %}
 
