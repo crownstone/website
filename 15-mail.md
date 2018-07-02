@@ -4,18 +4,12 @@ title: Mail
 header: Mail
 group: Landing
 permalink: mail/
+markdown: true
 redirect_url: mailto:team@crownstone.rocks
 ---
 {% include JB/setup %}
 
-<div class="container">
-    <div class="row">
-        <div class="col-md-12 col-sm-12">
-            <h1>Mail</h1>
+# Mail
 
-            <p>
-            You will be (if supported by the browser) automatically redirected to <a href="mailto:team@crownstone.rocks">team@crownstone.rocks</a>.
-            </p>
-        </div>
-    </div>  
-</div>
+{% assign email = ".rocks, stone, crown, @, am, te" | split: ", "  %}
+<div class="email">{% include snippets/email subject="Crownstone" email=email prefix="You will be (if supported by the browser) automatically redirected to: " postfix="." %}</div>
