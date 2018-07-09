@@ -733,6 +733,13 @@ a.button-link:active {
   text-transform: uppercase;
 }
 
+/*
+.collapse:focus {
+  display: block;
+  visibility: visible;
+  background-color: yellow;
+}*/
+
 /**
  * The following is designed by http://jackrugile.com/images/misc/noise-diagonal.png for tables.
  */

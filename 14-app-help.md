@@ -21,7 +21,7 @@ The app itself is self-explanatory. However, if there are particular questions c
 
 {% include snippets/faq-begin ref="faqHelp" question="Where can I find help?" dontcollapse="in" %}
 
-Apart from this list of questions, there is also a "Help" in the app itself. You will find it in the app menu.
+Apart from this list of questions, there is also a "Help" section in the app itself. You will find it in the app menu.
 
 {% include snippets/faq-end %}
 
@@ -34,7 +34,7 @@ Open the Crownstone app, just in the general overview. Now power on the Crownsto
 {% include snippets/faq-begin ref="faqShow" question="What to do when a Crownstone does not show up?" %}
 
 Make sure that the Crownstone is powered and that your smartphone is really close to it. During setup mode the Crownstone
-transmits very quitely so other people cannot claim your Crownstone!
+transmits very quietly so other people cannot claim your Crownstone!
 
 If the Crownstone still does not show up, you might want to try a recovery procedure. This is a factory reset 
 procedure that will clear all the data on the Crownstone. The state of the Crownstone will be subsequently as if was
@@ -64,10 +64,44 @@ A very logical sphere is your home. Another logical sphere is your office. Howev
 
 {% include snippets/faq-end %}
 
+{% include snippets/faq-begin ref="faqPresence" question="The Crownstone does not seem to respond to my presence?" %}
+You have to enable the function for a particular Crownstone. Click on a Crownstone and swipe left will show you a tab to configure the Crownstone's behaviour.
+
+![Crownstone behaviour]({{ site.url }}/attachments/screenshots/screenshot_behaviour2.jpg){: style="width:23%"}
+![Crownstone behaviour]({{ site.url }}/attachments/screenshots/screenshot_behaviour1.jpg){: style="width:23%"}
+
+If you click on "When you enter the Sphere", "I won't do anything", you can adjust the behaviour. For example you can have a light switch on when you enter the sphere. Note, that this is the proximity function with fewer than four Crownstones. If you more than four Crownstones you can use real indoor positioning where the system knows in which room you are.  
+
+{% include snippets/faq-end %}
+
+{% include snippets/faq-begin ref="faqToggle" question="The Crownstone seems to turn on/off (toggle) sporadically?" %}
+One of the functions of the Crownstone is "tap to toggle". By holding the smartphone very close to the Crownstone, it will switch its state from on to off and the other way around. It will even do this if the app is in the background. This means that you do not need to navigate to the right screen to flip the (digital) switch. Just hold it close!
+
+![Crownstone tap-to-toggle]({{ site.url }}/attachments/screenshots/screenshot_taptotoggle_explanation.png){: style="width:23%"}
+![Crownstone tap-to-toggle]({{ site.url }}/attachments/screenshots/screenshot_taptotoggle_explanation1.png){: style="width:23%"}
+![Crownstone tap-to-toggle]({{ site.url }}/attachments/screenshots/screenshot_taptotoggle_explanation2.png){: style="width:23%"}
+![Crownstone tap-to-toggle]({{ site.url }}/attachments/screenshots/screenshot_taptotoggle_per_crownstone.png){: style="width:23%"}
+
+If you cannot enable the "tap to toggle" function, make sure it is enabled in the app preferences.
+
+![Crownstone tap-to-toggle]({{ site.url }}/attachments/screenshots/screenshot_preferences.jpg){: style="width:23%"}
+
+If you enable the "tap to toggle" function, it is enabled per **device type**. For example, you can configure it at once for all floor lamps. 
+
+{% include snippets/faq-end %}
+
 {% include snippets/faq-begin ref="faqLocalization" question="How to enable indoor localization?" %}
                                 
-If you have four or more Crownstones in a single sphere, there will be an icon at the top-left that allows you to initiate teaching your home the rooms that are available. Each room gets a little sign that indicates that it can be taught. It is important not to place the Crownstones too far from each other. They have to be a maximum of 10-20 meters apart, preferably in adjacent rooms. Currently the indoor localization is disabled if in a room not enough Crownstones are visible. This is due to the fact that the current machine learning method cannot cope yet with seeing less Crownstones. The training itself is by walking around in the room when pressing a big round button in the interface. You can subsequently couple actions to the interface if you enable Beta functionality.
+If you have four or more Crownstones in a single sphere, there will be an icon at the top-left that allows you to initiate teaching your home the rooms that are available. Each room gets a little sign that indicates that it can be taught. 
 
+![Crownstone indoor positioning]({{ site.url }}/attachments/screenshots/screenshot_positioning1.png){: style="width:23%"}
+![Crownstone indoor positioning]({{ site.url }}/attachments/screenshots/screenshot_positioning3.png){: style="width:23%"}
+
+It is important not to place the Crownstones too far from each other. They have to be at a maximum of 10-20 meters apart, preferably in adjacent rooms. Currently the indoor localization is disabled if not enough Crownstones are visible from the smartphone. The indoor localization needs to be trained by walking around in the room after pressing a big round button in the interface. 
+
+![Crownstone indoor positioning]({{ site.url }}/attachments/screenshots/screenshot_positioning4.png){: style="width:23%"}
+![Crownstone indoor positioning]({{ site.url }}/attachments/screenshots/screenshot_positioning5.png){: style="width:23%"}
+![Crownstone indoor positioning]({{ site.url }}/attachments/screenshots/screenshot_positioning6.png){: style="width:23%"}
 {% include snippets/faq-end %}
 
 {% include snippets/faq-begin ref="faqFlashing" question="I tried turning off my LED light and it is still on (or flashes intermittently). Is this to be expected?" %}
@@ -101,3 +135,13 @@ The factory reset option is a final resort. The option you will find in the appl
 
 {% include snippets/column-end %}
 {% include snippets/row-end %}
+
+<script>
+window.onload = function() {
+    var hash = window.location.hash; 
+    if(hash != "") {
+        var id = hash.substr(1); 
+        document.getElementById(id).classList.add("in");
+    }
+};
+</script>

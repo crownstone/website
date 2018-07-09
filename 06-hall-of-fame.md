@@ -35,6 +35,13 @@ employee-gallery:
     title: "Junior researcher"
     linkedin: "https://nl.linkedin.com/pub/behnaz-shirmohamadi/39/75b/540"
 graduate-gallery:
+  - image: "riccardobellana.jpg"
+    name: "Riccardo Bellana"
+    report:
+      title: "Anomaly Detection using Autoencoders for Ambient Assisted Living"
+      url: "thesis/riccardobellana.pdf"
+    affiliation: "Utrecht University"
+    linkedin: "https://www.linkedin.com/in/riccardo-bellana-14074b150"
   - image: "nannewielinga.jpg"
     name: "Nanne Wieling"
     report:
@@ -42,17 +49,11 @@ graduate-gallery:
       url: "thesis/nannewielinga.pdf"
     affiliation: "Software Engineering and Technology Research Group, TU Eindhoven"
     linkedin: "https://www.linkedin.com/in/andreas-sofos"
-  - image: "riccardobellana.jpg"
-    name: "Riccardo Bellana"
-    report:
-      title: "Deep Learning for Daily Activity Recognition"
-      url: "thesis/jaspermakkinje.pdf"
-    affiliation: "Utrecht University"
-    linkedin: "https://www.linkedin.com/in/riccardo-bellana-14074b150"
   - image: "jaspermakkinje.jpg"
     name: "Jasper Makkinje"
     report:
       title: "Deep Learning for Device Identification"
+      url: "thesis/jaspermakkinje.pdf"
     affiliation: "Utrecht University"
     linkedin: "https://www.linkedin.com/in/jaspermakkinje/"
   - image: "frerikandriessen.jpg"
