@@ -70,7 +70,7 @@ You have to enable the function for a particular Crownstone. Click on a Crownsto
 ![Crownstone behaviour]({{ site.url }}/attachments/screenshots/screenshot_behaviour2.jpg){: style="width:23%"}
 ![Crownstone behaviour]({{ site.url }}/attachments/screenshots/screenshot_behaviour1.jpg){: style="width:23%"}
 
-If you click on "When you enter the Sphere", "I won't do anything", you can adjust the behaviour. For example you can have a light switch on when you enter the sphere. Note, that this is the proximity function with fewer than four Crownstones. If you more than four Crownstones you can use real indoor positioning where the system knows in which room you are.  
+If you click on "When you enter the Sphere", "I won't do anything", you can adjust the behaviour. For example you can have a light switch on when you enter the sphere. Note, that this is the proximity function with fewer than four Crownstones. If you have more than four Crownstones you can use real indoor positioning. Then it is possible to configure behaviour when you enter or exit a room!
 
 {% include snippets/faq-end %}
 
