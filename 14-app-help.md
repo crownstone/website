@@ -65,7 +65,7 @@ A very logical sphere is your home. Another logical sphere is your office. Howev
 {% include snippets/faq-end %}
 
 {% include snippets/faq-begin ref="faqPresence" question="The Crownstone does not seem to respond to my presence?" %}
-You have to enable the function for a particular Crownstone. Click on a Crownstone and swipe left will show you a tab to configure the Crownstone's behaviour.
+You have to enable the function for a particular Crownstone. Click on a Crownstone and swipe left. This will show you a tab to configure the Crownstone's behaviour.
 
 ![Crownstone behaviour]({{ site.url }}/attachments/screenshots/screenshot_behaviour2.jpg){: style="width:23%"}
 ![Crownstone behaviour]({{ site.url }}/attachments/screenshots/screenshot_behaviour1.jpg){: style="width:23%"}
