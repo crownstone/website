@@ -30,10 +30,9 @@ class YouTube < Liquid::Tag
 	end
 
 	def render(context)
-		# "<iframe width=\"#{@width}\" height=\"#{@height}\" src=\"http://www.youtube.com/embed/#{@id}\" frameborder=\"0\"allowfullscreen></iframe>"
 		"<div class=\"videowrapper\">
 		<center>
-		<iframe frameborder=\"0\" width=\"#{@width}\" height=\"#{@height}\" src=\"//www.youtube.com/embed/#{@id}?color=white&theme=light&title=#{@title}\"></iframe>
+		<iframe frameborder=\"0\" width=\"#{@width}\" height=\"#{@height}\" allowfullscreen src=\"//www.youtube.com/embed/#{@id}?color=white&theme=light&title=#{@title}\"></iframe>
 		</center>
 		</div>"
 	end

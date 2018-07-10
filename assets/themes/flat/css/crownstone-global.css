@@ -201,6 +201,23 @@ div.videoContainer.mdlg { min-width:1100px; }
 div.videoContainer.md { min-width:929px; }
 div.videoContainer.sm { min-width:723px; }
 
+.videowrapper {
+  float: none;
+  clear: both;
+  width: 100%;
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 25px;
+  height: 0;
+}
+.videowrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
 .featurette-divider {
   margin: 80px 0 40px 0; /* Space out the Bootstrap <hr> more */
   border-top: 1px solid #d2d2d2;
