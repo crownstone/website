@@ -205,6 +205,7 @@ intern-gallery:
     affiliation: "ENSTA Bretagne"
     report:
       title: "Fingerprinting across Multiple Smartphones"
+      url: "internships/nimamehdi.pdf"
   - image: "tomvandijk.jpg"
     name: "Tom van Dijk"
     affiliation: "TU Delft"
