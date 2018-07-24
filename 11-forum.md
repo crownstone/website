@@ -7,10 +7,14 @@ keywords: "forum, community, smart homes, indoor localization, Crownstone, Guide
 group: [navigation-consumer-footer]
 markdown: true
 permalink: forum/
-redirect_url: https://crownstone.slack.com/
 ---
 {% include JB/setup %}
 
 # Forum
 
-Using Slack... You will be automatically redirected..." If this does not happen within a few seconds, navigate to <https://crownstone.slack.com>.
+We are using Slack. You are welcome at <http://crownstone.slack.com>!
+
+## Sign-up
+
+You can sign up via [this link](https://join.slack.com/t/crownstone/shared_invite/enQtNDAzOTY5NDU1MDQ1LWI4MzFiYTg4OWU3NzI3ZTVmNTA3MjQzZGQzZjQwZjA3ZmQzNDYxNjAzZTQyMDMyZTJiN2RhMTM0ODE2M2ZiMmM).
+
