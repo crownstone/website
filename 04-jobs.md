@@ -46,14 +46,18 @@ You want to play a significant role in an innovative company! You like to establ
 # Jobs
 			
 Crownstone is always looking for talented people with expertise in embedded programming, artificial intelligence, machine learning, or statistical physics.
+If you send us a motivation letter with links to past projects on github, or have done Kaggle competitions, this is a big plus!
+We have just one requirement:
+
+* A **European** work permit (non-EU is a [bureaucratic nightmare and noncompetitive](https://expatlaw.nl/dutch-highly-skilled-migrant)).
 			
 # Interns
 			
 For an internship we have the following requirements:
 			
-* It must be a graduation (**master thesis**) project
-* **European** citizen (outside of Europe we pay large fees)
-* Final project plan will be written **by you** and approved by your professor(s)
+* It must be a graduation (**master thesis**) project.
+* Your studying at a **European** educational institute (non-EU is not an option).
+* Final project plan will be written **by you** and approved by your professor(s).
 
 For the topics our current master students are working on, see the [team]({{ site.url }}/team) page.
 
