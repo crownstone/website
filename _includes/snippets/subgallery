@@ -8,6 +8,12 @@
 
   {% assign cntr = 0 %}
 
+  {% if page.gallery_img_size %}
+	  {% assign img_size = page.gallery_img_size %}
+  {% else %}
+	  {% assign img_size = "128px" %}
+  {% endif %}
+
   {% for person in gallery %}
 
   {% if person.enable == false %}
@@ -16,15 +22,30 @@
 
   <div class="col-md-3 col-sm-6 col-xs-12">
     <div class="center text-center">
-      <p><img class="img-responsive img-thumbnail img-circle" src="{{ BASE_PATH}}/images/team/{{ person.image }}" width="128px" height="128px" alt="{{ person.name }}"></p>
+      <p><img class="img-responsive img-thumbnail img-circle" src="{{ BASE_PATH}}/images/team/{{ person.image }}" width="{{ img_size }}" height="{{ img_size }}" alt="{{ person.name }}"></p>
 	  <h5>{{ person.name }} <small class="designation muted"> {{ person.title}}{{ person.affiliation}}</small></h5>
 	  {% if person.linkedin %}
-      <a class="btn btn-social btn-linkedin" href="{{ person.linkedin}}"><i class="el el-linkedin"></i></a>
+		<a class="btn btn-social-icon btn-linkedin" href="http://nl.linkedin.com/in/{{ person.linkedin }}/"><i class="el el-linkedin"></i></a>
+	  {% endif %}
+	  {% if person.twitter %}
+		<a class="btn btn-social-icon btn-twitter" href="https://twitter.com/{{ person.twitter }}"><i class="el el-twitter"></i></a> 
+	  {% endif %}
+	  {% if person.googleplus %}
+		<a class="btn btn-social-icon btn-googleplus" href="https://plus.google.com/{{ person.googleplus }}"><i class="el el-googleplus"></i></a>
+	  {% endif %}
+	  {% if person.github %}
+		<a class="btn btn-social-icon btn-github" href="https://github.com/{{ person.github }}"><i class="el el-github"></i></a>
+	  {% endif %}
+	  {% if person.website %}
+		<a class="btn btn-social-icon btn-home" href="http://{{ person.website }}"><i class="el el-home"></i></a>
+	  {% endif %}
+	  {% if person.vimeo %}
+		<a class="btn btn-social-icon btn-vimeo" href="https://vimeo.com/{{ person.vimeo }}"><i class="el el-vimeo"></i></a>
 	  {% endif %}
 	  {% if person.report %}
 	  <p>
 	  {% if person.report.award %}
-	  <a href="{{ person.report.award }}"><i class="el el-idea"></i></a>
+		  <a href="{{ person.report.award }}"><i class="el el-idea"></i></a>
 	  {% endif %}
 	  {{ person.report.title }} {% if person.report.url %}(<a href="{{ BASE_PATH }}/attachments/{{ person.report.url }}">pdf</a>){% endif %} {% if person.report.movie %}(<a href="{{ person.report.movie }}">movie</a>){% endif %}
 	  {% if person.articles %}

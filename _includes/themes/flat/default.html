@@ -132,24 +132,30 @@
    </nav>
 
 {% if page.background-image %}
+<!-- background-image -->
 <div class="bannerContainer lg visible-lg {{ page.background-image }}" style="background-image: url({{BASE_URL}}/images/banners/{{page.background-image}})"></div>            
 <div class="bannerContainer md visible-md {{ page.background-image }}" style="background-image: url({{BASE_URL}}/images/banners/{{page.background-image}})"></div>            
 <div class="bannerContainer sm visible-sm {{ page.background-image }}" style="background-image: url({{BASE_URL}}/images/banners/{{page.background-image}})"></div>            
 <div class="bannerContainer xs visible-xs {{ page.background-image }}" style="background-image: url({{BASE_URL}}/images/banners/{{page.background-image}})"></div>            
+<!-- end background-image -->
 {% endif %}
 
 {% if page.markdown %}
+<!-- markdown wrapper -->
 <div class="container">
-	<div class="row">
-           <div class="col-xs-12">
+<div class="row">
+<div class="col-xs-12">
+<!-- markdown wrapper -->
 {% endif %}
 
 {{ content }}
 
 {% if page.markdown %}
-            </div>
-	</div>
-</div>
+<!-- markdown wrapper -->
+</div><!-- container -->
+</div><!-- row -->
+</div><!-- col-xs-12 -->
+<!-- markdown wrapper -->
 {% endif %}
 
 <div class="footer">

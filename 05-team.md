@@ -11,6 +11,86 @@ group: [navigation, navigation-consumer-footer]
 permalink: team/
 custom_css:
 - https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css
+gallery_img_size: "200px"
+graduates-gallery:
+  - image: "victoriamavrikopoulou.png"
+    name: "Victoria Mavrikopoulou"
+    affiliation: "TU Delft"
+    report:
+      title: "In-network localization"
+intern-gallery:
+  - image: "alexanderderidder.png"
+    name: "Alex de Ridder"
+    affiliation: "Technische Informatica, Hogeschool Rotterdam"
+  - image: "gijstamminga.jpg"
+    name: "Gijs Tamminga"
+    affiliation: "Human Technologies, Techniek College Rotterdam" 
+  - image: "florijnvanzundert.png"
+    name: "Florijn van Zundert" 
+    affiliation: "Human Technologies, Techniek College Rotterdam" 
+advisors-gallery:
+  - image: "hansabbink.jpg"
+    name: "Hans Abbink"
+    affiliation: "Founder Almende Investments"
+    linkedin: "hansabbink"
+    twitter: "hans_abbink"
+    website: "almende-investments.com/"
+  - image: "alexanderweisz.jpg"
+    name: "Alexander Weisz"
+    affiliation: "Business Consultant"
+    linked: "alexanderjweisz"
+    twitter: "alexander_we"
+    website: "alexanderweisz.nl"
+  - image: "berendolderikkert.jpg"
+    name: "Berend Olde Rikkert"
+    affiliation: "Partnership Director"
+    linkedin: "berend-olde-rikkert-5904421"
+    twitter: "berendor"
+core-team-gallery:
+  - image: "annevanrossum.jpg"
+    name: "Anne van Rossum"
+    affiliation: "CEO"
+    linkedin: "annevanrossum"
+    twitter: "annevanrossum"
+    googleplus: "+Annevanrossum"
+    github: "mrquincle"
+    website: "annevanrossum.com"
+    report:
+      title: Anne studied electrical engineering and cognitive psychology. At Almende and DoBots he coordinated and did research on autonomous robots. Every Thursday is math day!
+  - image: "peetvantooren.jpg"
+    name: "Peet van Tooren"
+    affiliation: "CTO"
+    linkedin: "peetvantooren"
+    twitter: "PMAvanTooren"
+    googleplus: "+PeetvanToorenvan"
+    report:
+      title: Peet worked for a lot of international companies (Siemens, Philips) in the car industry, mainly on navigation software.
+  - image: "bartvanvliet.jpg"
+    name: "Bart van Vliet"
+    affiliation: "Software developer"
+    linkedin: "bart-van-vliet-4197b8103"
+    twitter: "Bart_vanVliet"
+    github: "vliedel"
+    report:
+      title: "Bart has a masters in Mechanical Engineering and does not shy away from the most in-depth embedded programming jobs. Ask him anything on the nRF architecture!"
+  - image: "alexdemulder.jpg"
+    name: "Alex de Mulder"
+    affiliation: "Design & Software developer"
+    linkedin: "alex-de-mulder-443a1bb"
+    vimeo: "alexdemulder"
+    github: "AlexDM0"
+    report:
+      title: "Alex has a masters in Applied Physics and is a stellar developer. At times his physics training shows, for example in the beautiful visualizations in our app."
+  - image: "fijapijpelink.jpg"
+    name: "Fija Pijpelink"
+    affiliation: "Design/Communication Specialist"
+    report:
+      title: "Fija makes sure our communication is clear and beautiful."
+  - image: "fransdijckmeester.jpg"
+    name: "Frans Dijckmeester"
+    affiliation: "Assistant Financial Controller"
+    report:
+      title: "Frans streamlines and automates our finances and administration!"
 ---
 {% include JB/setup %}
 
@@ -129,84 +209,7 @@ It is easy to contact each of us individually. Just use our first name and <abbr
 
 {% include snippets/row-begin no-container-begin=true %}
 
-{% include snippets/team-member-begin name="Anne van Rossum" picture="annevanrossum.jpg" title="CEO" %}
-
-<p>
-{% include snippets/social channel="linkedin" nickname="annevanrossum" %}
-{% include snippets/social channel="twitter" nickname="annevanrossum" %}
-{% include snippets/social channel="googleplus" nickname="+Annevanrossum" %}
-{% include snippets/social channel="github" nickname="mrquincle" %}
-{% include snippets/social channel="website" nickname="annevanrossum.com" %}
-</p>
-
-<p>
-Anne studied electrical engineering and cognitive psychology. At Almende and DoBots he coordinated and did research on autonomous robots. Every Wednesday is math day!
-</p>
-
-{% include snippets/team-member-end %}
-
-{% include snippets/team-member-begin name="Peet van Tooren" picture="peetvantooren.jpg" title="CTO" %}
-                    
-<p>
-{% include snippets/social channel="linkedin" nickname="peetvantooren" %}
-{% include snippets/social channel="twitter" nickname="PMAvanTooren" %}
-{% include snippets/social channel="googleplus" nickname="+PeetToorenvan" %}
-</p>
-                    
-<p>
-Peet worked for a lot of international companies (Siemens, Philips) in the car industry, mainly on navigation software.
-</p>
-
-{% include snippets/team-member-end %}
-
-<div class="clearfix visible-sm-block"></div>
-
-{% include snippets/team-member-begin name="Bart van Vliet" picture="bartvanvliet.jpg" title="Software developer" %}
-                    
-<p>
-{% include snippets/social channel="linkedin" nickname="bart-van-vliet-4197b8103" %}
-{% include snippets/social channel="twitter" nickname="Bart_vanVliet" %}
-{% include snippets/social channel="github" nickname="vliedel" %}
-</p>
-
-<p>
-Bart has a masters in Mechanical Engineering and does not shy away from the most in-depth embedded programming jobs. Ask him anything on the nRF architecture!
-</p>
-
-{% include snippets/team-member-end %}
-
-{% include snippets/team-member-begin name="Alex de Mulder" picture="alexdemulder.jpg" title="Designer & Software developer" %}
-
-<p>
-{% include snippets/social channel="linkedin" nickname="alex-de-mulder-443a1bb" %}
-{% include snippets/social channel="vimeo" nickname="alexdemulder" %}
-{% include snippets/social channel="github" nickname="AlexDM0" %}
-</p>
-
-<p>
-Alex has a masters in Applied Physics and is a stellar developer. At times his physics training shows, for example in the beautiful visualizations in our app.
-</p>
-
-{% include snippets/team-member-end %}
-
-<div class="clearfix visible-xl-block"></div>
-
-{% include snippets/team-member-begin name="Fija Pijpelink" picture="fijapijpelink.jpg" title="Design/Communication Specialist" %}
-
-<p>
-Fija makes sure our communication is clear and beautiful.
-</p>
-
-{% include snippets/team-member-end %}
-
-{% include snippets/team-member-begin name="Frans Dijckmeester" picture="fransdijckmeester.jpg" title="Assistant Financial Controller" %}
-
-<p>
-Frans streamlines and automates our finances and administration!
-</p>
-
-
-{% include snippets/team-member-end %}
+{% include snippets/subgallery id="core-team-gallery" %}
 
 {% include snippets/row-end %}
 
@@ -225,34 +228,7 @@ At Crownstone we have multiple advisors and experts who help us bring Crownstone
 
 {% include snippets/row-begin no-container-begin=true %}
 
-{% include snippets/team-member-begin name="Hans Abbink" picture="hansabbink.jpg" title="Founder Almende Investments" %}
-
-<p>
-{% include snippets/social channel="linkedin" nickname="hansabbink" %}
-{% include snippets/social channel="twitter" nickname="hans_abbink" %}
-{% include snippets/social channel="website" nickname="almende-investments.com/" %}
-</p>
-
-{% include snippets/team-member-end %}
-
-{% include snippets/team-member-begin name="Alexander Weisz" picture="alexanderweisz.jpg" title="Business Consultant" %}
-
-<p>
-{% include snippets/social channel="linkedin" nickname="alexanderjweisz" %}
-{% include snippets/social channel="twitter" nickname="alexander_we" %}
-{% include snippets/social channel="website" nickname="alexanderweisz.nl" %}
-</p>
-
-{% include snippets/team-member-end %}
-
-{% include snippets/team-member-begin name="Berend Olde Rikkert" picture="berendolderikkert.jpg" title="Partnership Director" %}
-
-<p>
-{% include snippets/social channel="linkedin" nickname="berend-olde-rikkert-5904421" %}
-{% include snippets/social channel="twitter" nickname="berendor" %}
-</p>
-
-{% include snippets/team-member-end %}
+{% include snippets/subgallery id="advisors-gallery" %}
 
 {% include snippets/row-end %}
 
@@ -270,13 +246,7 @@ Feel free to contact our master students to get some additional insight into Cro
 
 {% include snippets/row-begin no-container-begin=true %}
 
-{% include snippets/team-member-begin name="Victoria Mavrikopoulou" picture="victoriamavrikopoulou.png" title="TU Delft" %}
-
-<p>
-Active and passive in-network localization
-</p>
-
-{% include snippets/team-member-end %}
+{% include snippets/subgallery id="graduates-gallery" %}
 
 {% include snippets/row-end %}
 
@@ -294,13 +264,7 @@ Our most recent interns, who perform a wide range of tasks. They help people wit
 
 {% include snippets/row-begin no-container-begin=true %}
 
-{% include snippets/team-member-begin name="Edwin Aleksanian" picture="edwinaleksanian.png" title="Human Technologies, Techniek College Rotterdam" %}
-
-{% include snippets/team-member-end %}
-
-{% include snippets/team-member-begin name="Jeandre Artsen" picture="jeandreartsen.png" title="Human Technologies, Techniek College Rotterdam" %}
-
-{% include snippets/team-member-end %}
+{% include snippets/subgallery id="intern-gallery" %}
 
 {% include snippets/row-end %}
 

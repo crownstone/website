@@ -184,6 +184,12 @@ graduate-gallery:
     affiliation: " Utrecht University"
     linkedin: "https://nl.linkedin.com/in/freek-van-polen-08960719"
 intern-gallery:
+  - image: "edwinaleksanian.png"
+    name: "Edwin Aleksanian"
+    affiliation: "Human Technologies, Techniek College Rotterdam" 
+  - image: "jeandreartsen.png"
+    name: "Jeandre Artsen" 
+    affiliation: "Human Technologies, Techniek College Rotterdam" 
   - image: "zjhounathanevans.png"
     name: "Zjhounathan Evans"
     affiliation: "Human Technologies, Techniek College Rotterdam"
