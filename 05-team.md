@@ -19,7 +19,7 @@ graduates-gallery:
     report:
       title: "In-network localization"
 intern-gallery:
-  - image: "alexanderderidder.png"
+  - image: "alexanderderidder.jpg"
     name: "Alex de Ridder"
     affiliation: "Technische Informatica, Hogeschool Rotterdam"
   - image: "gijstamminga.jpg"
