@@ -3,7 +3,9 @@ layout: post
 title: "Thermostats and energy labels fail!"
 description: "Saving energy by introducing indoor localization in the form of zoned heating"
 tags: [energy savings, indoor localization, heating, zoned heating]
-author: annevanrossum 
+author: annevanrossum
+picture: attachments/bluetooth-product-listing.jpg
+excerpt: "Thermostats and energy labels are not what they should be. A technology that works is zoned heating. In the meantime we got our Bluetooth certification!"
 ---
 {% include JB/setup %}
 

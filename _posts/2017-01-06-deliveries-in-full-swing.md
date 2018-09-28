@@ -4,6 +4,8 @@ title: "Deliveries in full swing"
 description: "The plugs are being delivered to Crownstone's first customers just before the holidays."
 tags: [Crownstone, plugs, roadmap, delivery, addresses, artificial light, LED, Nordic, EnOcean, Consumer Electronics Show]
 author: annevanrossum
+picture: attachments/delivery-going-out.jpg
+excerpt: "Delivering Crownstone plugs! After a very busy time just before and during the holidays we shipped!"
 ---
 {% include JB/setup %}
 

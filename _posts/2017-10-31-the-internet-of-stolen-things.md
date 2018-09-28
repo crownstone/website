@@ -1,9 +1,11 @@
 ---
 layout: post
 title: "The internet of stolen things"
-description: ""
-tags: []
-author: 
+description: "A bike of other object can have an iBeacon attached to it. If Crownstones are strategically positioned they can help scanning for these beacons when such an object is stolen."
+tags: [internet of things, anti-theft, beacons]
+author: annevanrossum
+picture: attachments/guidestones.jpg
+excerpt: "A bike of other object can have an iBeacon attached to it. If Crownstones are strategically positioned they can help scanning for these beacons when such an object is stolen."
 ---
 {% include JB/setup %}
 
