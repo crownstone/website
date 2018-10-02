@@ -2,12 +2,99 @@
 layout: page
 title: Team
 header: Pages
-group: [navigation, navigation-consumer-footer]
+description: "Volg ons op Facebook, Twitter, of stuur ons een persoonlijk berichtje!"
+keywords: "team, volg ons, facebook, twitter, contact, persoonlijk, informatie, Crownstone"
 lang: nl
 kramdown: 
   parse_block_html: true
 background-image: banner-team.jpg
+group: [navigation, navigation-consumer-footer]
 permalink: team/
+gallery_img_size: "200px"
+graduates-gallery:
+  - image: "victoriamavrikopoulou.png"
+    name: "Victoria Mavrikopoulou"
+    affiliation: "TU Delft"
+    report:
+      title: "In-network localization"
+intern-gallery:
+  - image: "alexanderderidder.jpg"
+    name: "Alex de Ridder"
+    affiliation: "Technische Informatica, Hogeschool Rotterdam"
+  - image: "gijstamminga.jpg"
+    name: "Gijs Tamminga"
+    affiliation: "Human Technologies, Techniek College Rotterdam" 
+  - image: "florijnvanzundert.png"
+    name: "Florijn van Zundert" 
+    affiliation: "Human Technologies, Techniek College Rotterdam" 
+advisors-gallery:
+  - image: "hansabbink.jpg"
+    name: "Hans Abbink"
+    affiliation: "Founder Almende Investments"
+    linkedin: "hansabbink"
+    twitter: "hans_abbink"
+    website: "almende-investments.com/"
+  - image: "alexanderweisz.jpg"
+    name: "Alexander Weisz"
+    affiliation: "Business Consultant"
+    linked: "alexanderjweisz"
+    twitter: "alexander_we"
+    website: "alexanderweisz.nl"
+  - image: "berendolderikkert.jpg"
+    name: "Berend Olde Rikkert"
+    affiliation: "Partnership Director"
+    linkedin: "berend-olde-rikkert-5904421"
+    twitter: "berendor"
+core-team-gallery:
+  - image: "annevanrossum.jpg"
+    name: "Anne van Rossum"
+    affiliation: "CEO"
+    linkedin: "annevanrossum"
+    twitter: "annevanrossum"
+    googleplus: "+Annevanrossum"
+    github: "mrquincle"
+    website: "annevanrossum.com"
+    report:
+      title: "Anne studeerde electrotechniek en cognitieve psychologie. Bij Almende en DoBots heeft hij veel onderzoek gedaan naar autonome robots. Elke donderdag is wiskundedag!"
+  - image: "peetvantooren.jpg"
+    name: "Peet van Tooren"
+    affiliation: "CTO"
+    linkedin: "peetvantooren"
+    twitter: "PMAvanTooren"
+    googleplus: "+PeetvanToorenvan"
+    report:
+      title: "Peet heeft voor veel internationale bedrijven (Siemens, Philips) gewerkt, vooral in de autoindustrie, voornamelijk op navigatiesoftware."
+  - image: "bartvanvliet.jpg"
+    name: "Bart van Vliet"
+    affiliation: "Software developer"
+    linkedin: "bart-van-vliet-4197b8103"
+    twitter: "Bart_vanVliet"
+    github: "vliedel"
+    report:
+      title: "Bart heeft een master in werktuigbouwkunde en is niet bang voor de meest uitdagende embedded software problemen. Vraag hem alles over de nRF architectuur!"
+  - image: "alexdemulder.jpg"
+    name: "Alex de Mulder"
+    affiliation: "Design & Software developer"
+    linkedin: "alex-de-mulder-443a1bb"
+    vimeo: "alexdemulder"
+    github: "AlexDM0"
+    report:
+      title: "Alex heeft een master in natuurkunde en is een sterontwikkelaar. Zijn natuurkunde achtergrond fonkelt soms door in bijvoorbeeld de mooie visualisaties in onze app."
+  - image: "fijapijpelink.jpg"
+    name: "Fija Pijpelink"
+    affiliation: "Design/Communication Specialist"
+    report:
+      title: "Fija zorgt dat onze communicatie duidelijk en mooi is."
+  - image: "fransdijckmeester.jpg"
+    name: "Frans Dijckmeester"
+    affiliation: "Assistant Financial Controller"
+    report:
+      title: "Frans verzorgt en automatiseert onze financieen en boekhouding."
+  - image: "marevandenputte.jpg"
+    name: "Mare van den Putte"
+    affiliation: "Community Manager"
+    report:
+      title: "Mare will make sure you benefit from what we build!"
 ---
 {% include JB/setup %}
 
@@ -85,8 +172,8 @@ We raden aan om met het openbaar vervoer te komen, het is echt naast het station
 <!-- 9292 widget v1 -->
 <div class="widget">
 <center>
-<a href='https://9292.nl/?naar=rotterdam%2Fstationsplein-45' data-9292='widget' data-9292-text='Crownstone' data-9292-ref='rotterdam/stationsplein-45' data-9292-width='290' data-9292-height='550' data-9292-api-key='de198d3c876f29d3ca91379d27873b7d741a86dcf61dcdca60920e38dc45ffee' data-9292-widget-key='3bbbf433cf353c1fca32bb2a9327c8497556f7b27ae6d388ef9e02f195d17667' data-targetblank="on">Plan mijn reis</a>
-<script src='https://9292.nl/static/js/widget.js'></script>
+<a href='//9292.nl/?naar=rotterdam%2Fstationsplein-45' data-9292='widget' data-9292-text='Crownstone' data-9292-ref='rotterdam/stationsplein-45' data-9292-width='290' data-9292-height='550' data-9292-api-key='de198d3c876f29d3ca91379d27873b7d741a86dcf61dcdca60920e38dc45ffee' data-9292-widget-key='3bbbf433cf353c1fca32bb2a9327c8497556f7b27ae6d388ef9e02f195d17667' data-targetblank="on">Plan mijn reis</a>
+<script src='//9292.nl/static/js/widget.js'></script>
 </center>
 </div>
 
@@ -143,81 +230,7 @@ Het is erg gemakkelijk om met een ieder van ons in contact te komen. Gebruik onz
 
 {% include snippets/row-begin no-container-begin=true %}
 
-{% include snippets/team-member-begin name="Anne van Rossum" picture="annevanrossum.jpg" title="CEO" %}
-
-<p>
-{% include snippets/social channel="linkedin" nickname="annevanrossum" %}
-{% include snippets/social channel="twitter" nickname="annevanrossum" %}
-{% include snippets/social channel="googleplus" nickname="+Annevanrossum" %}
-{% include snippets/social channel="github" nickname="mrquincle" %}
-{% include snippets/social channel="website" nickname="annevanrossum.com" %}
-</p>
-
-<p>
-Anne studeerde electrotechniek en cognitieve psychologie. Bij Almende en DoBots heeft hij veel onderzoek gedaan naar autonome robots. Elke woensdag is wiskundedag!
-</p>
-
-{% include snippets/team-member-end %}
-
-{% include snippets/team-member-begin name="Peet van Tooren" picture="peetvantooren.jpg" title="CTO" %}
-                    
-<p>
-{% include snippets/social channel="linkedin" nickname="peetvantooren" %}
-{% include snippets/social channel="twitter" nickname="PMAvanTooren" %}
-{% include snippets/social channel="googleplus" nickname="+PeetToorenvan" %}
-</p>
-                    
-<p>
-Peet heeft voor veel internationale bedrijven (Siemens, Philips) gewerkt, vooral in de autoindustrie, voornamelijk op navigatiesoftware.
-</p>
-
-{% include snippets/team-member-end %}
-
-{% include snippets/team-member-begin name="Bart van Vliet" picture="bartvanvliet.jpg" title="Software developer" %}
-                    
-<p>
-{% include snippets/social channel="linkedin" nickname="bart-van-vliet-4197b8103" %}
-{% include snippets/social channel="twitter" nickname="Bart_vanVliet" %}
-{% include snippets/social channel="github" nickname="vliedel" %}
-</p>
-
-<p>
-Bart heeft een master in werktuigbouwkunde en is niet bang voor de meest uitdagende embedded software problemen. Vraag hem alles over de nRF architectuur!
-</p>
-
-{% include snippets/team-member-end %}
-
-{% include snippets/team-member-begin name="Alex de Mulder" picture="alexdemulder.jpg" title="Designer & Software developer" %}
-
-<p>
-{% include snippets/social channel="linkedin" nickname="alex-de-mulder-443a1bb" %}
-{% include snippets/social channel="vimeo" nickname="alexdemulder" %}
-{% include snippets/social channel="github" nickname="AlexDM0" %}
-</p>
-
-<p>
-Alex heeft een master in natuurkunde en is een sterontwikkelaar. Zijn natuurkunde achtergrond fonkelt soms door in bijvoorbeeld de mooie visualisaties in onze app.
-</p>
-
-{% include snippets/team-member-end %}
-
-<div class="clearfix visible-xl-block"></div>
-
-{% include snippets/team-member-begin name="Fija Pijpelink" picture="fijapijpelink.jpg" title="Design/Communication Specialist" %}
-
-<p>
-Fija zorgt dat onze communicatie duidelijk en mooi is.
-</p>
-
-{% include snippets/team-member-end %}
-
-{% include snippets/team-member-begin name="Frans Dijckmeester" picture="fransdijckmeester.jpg" title="Assistant Financial Controller" %}
-
-<p>
-Frans verzorgt en automatiseert onze financieen en boekhouding.
-</p>
-
-{% include snippets/team-member-end %}
+{% include snippets/subgallery id="core-team-gallery" %}
 
 {% include snippets/row-end %}
 
@@ -239,34 +252,7 @@ Berend Olde Rikkert heeft enorme ervaring in de energiesector, bijvoorbeeld bij 
 
 {% include snippets/row-begin no-container-begin=true %}
 
-{% include snippets/team-member-begin name="Hans Abbink" picture="hansabbink.jpg" title="Founder Almende Investments" %}
-
-<p>
-{% include snippets/social channel="linkedin" nickname="hansabbink" %}
-{% include snippets/social channel="twitter" nickname="hans_abbink" %}
-{% include snippets/social channel="website" nickname="almende-investments.com/" %}
-</p>
-
-{% include snippets/team-member-end %}
-
-{% include snippets/team-member-begin name="Alexander Weisz" picture="alexanderweisz.jpg" title="Business Consultant" %}
-
-<p>
-{% include snippets/social channel="linkedin" nickname="alexanderjweisz" %}
-{% include snippets/social channel="twitter" nickname="alexander_we" %}
-{% include snippets/social channel="website" nickname="alexanderweisz.nl" %}
-</p>
-
-{% include snippets/team-member-end %}
-
-{% include snippets/team-member-begin name="Berend Olde Rikkert" picture="berendolderikkert.jpg" title="Partnership Director" %}
-
-<p>
-{% include snippets/social channel="linkedin" nickname="berend-olde-rikkert-5904421" %}
-{% include snippets/social channel="twitter" nickname="berendor" %}
-</p>
-
-{% include snippets/team-member-end %}
+{% include snippets/subgallery id="advisors-gallery" %}
 
 {% include snippets/row-end %}
 
@@ -285,13 +271,7 @@ Voel je vrij om onze huidige studenten wat te vragen, dat geeft je ongetwijfeld 
 
 {% include snippets/row-begin no-container-begin=true %}
 
-{% include snippets/team-member-begin name="Victoria Mavrikopoulou" picture="victoriamavrikopoulou.png" title="TU Delft" %}
-
-<p>
-Active and passive in-network localization
-</p>
-
-{% include snippets/team-member-end %}
+{% include snippets/subgallery id="graduates-gallery" %}
 
 {% include snippets/row-end %}
 
@@ -309,13 +289,7 @@ Onze huidige interns oefenen een hele reeks van diverse taken uit. Ze helpen men
 
 {% include snippets/row-begin no-container-begin=true %}
 
-{% include snippets/team-member-begin name="Edwin Aleksanian" picture="edwinaleksanian.png" title="Human Technologies, Techniek College Rotterdam" %}
-
-{% include snippets/team-member-end %}
-
-{% include snippets/team-member-begin name="Jeandre Artsen" picture="jeandreartsen.png" title="Human Technologies, Techniek College Rotterdam" %}
-
-{% include snippets/team-member-end %}
+{% include snippets/subgallery id="intern-gallery" %}
 
 {% include snippets/row-end %}
 
@@ -326,9 +300,7 @@ Onze huidige interns oefenen een hele reeks van diverse taken uit. Ze helpen men
 
 # Hall of Fame
 
-
-
-Voor een mooi overzicht van voormalige medewerkers en stagiaires die aan robotica, draadloze sensornetwerken bij Crownstone, ons zusterbedrijf [DoBots](http://dobots.nl) (robotica), of ons moederbedrijf [Almende](http://almende.com) (wetenschappelijk onderzoek), hebben gewerkt, kijk vooral in onze [hall of fame]({{ BASE_PATH}}/hall-of-fame)!
+Voor een mooi overzicht van voormalige medewerkers en stagiaires die aan robotica, draadloze sensornetwerken bij Crownstone, ons zusterbedrijf [DoBots](http://dobots.nl) (robotica), of ons moederbedrijf [Almende](http://almende.com) (wetenschappelijk onderzoek), hebben gewerkt, kijk vooral in onze [hall of fame]({{ BASE_PATH }}/hall-of-fame)!
 
 Dat menen we echt! :-) Over de afgelopen jaren hebben we veel interessant onderzoek gedaan met software relevant voor een groot aantal applicaties in kunstmatige intelligente, machine learning, of internet of things!
 

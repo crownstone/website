@@ -56,7 +56,7 @@ core-team-gallery:
     github: "mrquincle"
     website: "annevanrossum.com"
     report:
-      title: Anne studied electrical engineering and cognitive psychology. At Almende and DoBots he coordinated and did research on autonomous robots. Every Thursday is math day!
+      title: "Anne studied electrical engineering and cognitive psychology. At Almende and DoBots he coordinated and did research on autonomous robots. Every Thursday is math day!"
   - image: "peetvantooren.jpg"
     name: "Peet van Tooren"
     affiliation: "CTO"
@@ -64,7 +64,7 @@ core-team-gallery:
     twitter: "PMAvanTooren"
     googleplus: "+PeetvanToorenvan"
     report:
-      title: Peet worked for a lot of international companies (Siemens, Philips) in the car industry, mainly on navigation software.
+      title: "Peet worked for a lot of international companies (Siemens, Philips) in the car industry, mainly on navigation software."
   - image: "bartvanvliet.jpg"
     name: "Bart van Vliet"
     affiliation: "Software developer"
@@ -91,6 +91,11 @@ core-team-gallery:
     affiliation: "Assistant Financial Controller"
     report:
       title: "Frans streamlines and automates our finances and administration!"
+  - image: "marevandenputte.jpg"
+    name: "Mare van den Putte"
+    affiliation: "Community Manager"
+    report:
+      title: "Mare might very well be the person through whom you've heard from us!"
 ---
 {% include JB/setup %}
 
