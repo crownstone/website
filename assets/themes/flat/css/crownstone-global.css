@@ -103,6 +103,23 @@ h4 {
   font-family: 'LatoLight';
 }
 
+.text-bar {
+  padding: 1rem;
+  background: #ff8400;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+}
+
+.text-bar > a {
+  color: white;
+  text-decoration: underline;
+}
+
+.text-bar > a:hover, .text-bar > a:active, .text-bar a:focus {
+  font-style: italic;
+}
+
 .navbar-static-top {
   margin-bottom: 0;
   border-width: 0px;
@@ -155,6 +172,7 @@ div.logoOverlay {
   height:350px;
   min-height:350px;
   width:100%;
+  pointer-events: none; /* make click through */
 }
 
 div.bannerContainer.xl { height:1050px; }
