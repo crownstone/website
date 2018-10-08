@@ -5,9 +5,10 @@ header: Business
 description: "The type of data that can originate from Crownstone hardware."
 group: [navigation-business-footer]
 markdown: true
-permalink: business/data/
 background-image: banner-theft.jpg
+permalink: business/data/
 ---
+
 {% include JB/setup %}
 
 # Crownstone

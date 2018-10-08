@@ -5,7 +5,8 @@ header: Crownstone werkt met Toon
 description: "Crownstone geeft Toon positie informatie zodat de verwarming niet uitgaat volgens het standaard schema, maar netjes aanblijft in het geval je besluit thuis te blijven."
 background-image: banner-toon.png
 markdown: true
-permalink: /integrations/toon/
+permalink: integrations/toon/
+lang: nl
 ---
 
 {% include JB/setup %}

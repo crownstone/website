@@ -5,7 +5,7 @@ header: Crownstone works with Toon
 description: "Crownstone provides presence based information to the Toon so the heating is not turned off according to the standard schedule but is kept on when staying at home."
 background-image: banner-toon.png
 markdown: true
-permalink: /integrations/toon/
+permalink: integrations/toon/
 ---
 
 {% include JB/setup %}
