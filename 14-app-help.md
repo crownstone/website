@@ -36,9 +36,9 @@ Open the Crownstone app, just in the general overview. Now power on the Crownsto
 Make sure that the Crownstone is powered and that your smartphone is really close to it. During setup mode the Crownstone
 transmits very quietly so other people cannot claim your Crownstone!
 
-If the Crownstone still does not show up, you might want to try a recovery procedure. This is a factory reset 
+If the Crownstone still does not show up, you might want to try a factory reset procedure. This is a factory reset 
 procedure that will clear all the data on the Crownstone. The state of the Crownstone will be subsequently as if was
-just obtained from the store. The factory reset procedure is called a "recovery" (see below).
+just obtained from the store. The process of a factory reset is described below.
 
 {% include snippets/faq-end %}
 
@@ -125,7 +125,7 @@ It is always recommended to switch the **live** line. The Crownstone switches be
 {% include snippets/faq-begin ref="faqFactoryReset" question="How to perform a factory reset of the Crownstone?" %}
                                 
 Due to security reasons you cannot always perform a factory reset. A factory reset is only possible the first **20 seconds** after you have powered the Crownstone. After that initial period it will not be possible to perform a factory reset. You will have to cycle the power off and on again to perform a factory reset at a later stage. 
-The factory reset option is a final resort. The option you will find in the application at the "Help" menu. Navigate to "What to do if...", and "I need to recover a Crownstone". You see there a button you can press: "Recover Crownstone".
+The factory reset option is a final resort. The option you will find in the application at the "Help" menu. Navigate to "What to do if...", and "I need to factory reset a Crownstone". You see there a button you can press: "Factory Reset". In older versions of the app, factory reset was called "recovery" (e.g. "I need to recover a Crownstone"). 
 
 {% include snippets/faq-end %}
 
