@@ -13,18 +13,19 @@ lang: nl
 
 # Toon
 
-Toon is een slimme thermostaat die best veel wordt gebruikt in Nederland. Het apparaatje is gemaakt door Quby en je 
-krijgt het gratis bij een vierjarig Eneco energiecontract. Je kan er meer over lezen op de 
+Toon is een van de meest succesvolle slimme thermostaten in Nederland. Het handige apparaat is gemaakt door Quby en 
+het kan gratis worden verkregen met een vierjarig Eneco energiecontract. Je kan er meer over lezen op de 
 [Eneco website](https://www.eneco.nl/energieproducten/toon-thermostaat/).
 
-Als je een beetje hebt rondgekeken op onze website, ben je de meest in het oog springende eigenschap van Crownstone
-tegengekomen. Het kunnen bepalen waar iemand is in huis. Per kamer kunnen allerlei dingen automatisch voor je worden 
-gedaan. Hiervoor heb je een aardig aantal Crownstones nodig. Hoe meer hoe beter voor een nauwkeurige positiebepaling.
+Wanneer je hebt rondgekeken op onze website, ben je de meest in het oog springende eigenschap van Crownstone
+tegengekomen. Die eigenschap die nog geen enkel domotica systeem heeft! Namelijk, het kunnen bepalen waar iemand is in huis!
+Per kamer kunnen allerlei dingen automatisch voor je worden 
+gedaan. Hiervoor heb je uiteraard de fysieke Crownstones nodig. Hoe meer hoe beter de positiebepaling is!
 
-Als je slechts een paar Crownstones hebt, kan je huis echter ook al leuke dingen voor je doen. Die Crownstones werken
-namelijk als een soort van sensoren die een ander systeem kunnen vertellen of je thuis bent of niet.
+Ook als je een klein aantal Crownstones hebt, kan je huis al leuke dingen voor je doen. De Crownstones werken
+namelijk als een soort van aanwezigheidssensoren. Ze kunnen apparaten in huis vertellen of je thuis bent of niet!
 
-Op de Toon thermostaat kan een weekschema worden ingesteld. Dit geeft aan wanneer iemand thuis is en wanneer niet.
+Op de Toon thermostaat kan een weekschema worden ingesteld. Zo'n schema geeft aan wanneer iemand thuis is en wanneer niet.
 Crownstone voegt hier locatie informatie aan toe. Normaliter, zou je iets instellen zoals: "Zet de verwarming uit om
 acht uur 's ochtends". Dit wordt dan inderdaad netjes uitgevoerd. Echter, soms is het allemaal niet zo volgens het 
 boekje. Er kan een belangrijk pakketje komen waarvoor je wat uurtjes langer thuis blijft. Of je wil van thuis werken
