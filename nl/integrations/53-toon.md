@@ -28,17 +28,23 @@ namelijk als een soort van aanwezigheidssensoren. Ze kunnen apparaten in huis ve
 Op de Toon thermostaat kan een weekschema worden ingesteld. Zo'n schema geeft aan wanneer iemand thuis is en wanneer niet.
 Crownstone voegt hier locatie informatie aan toe. Normaliter, zou je iets instellen zoals: "Zet de verwarming uit om
 acht uur 's ochtends". Dit wordt dan inderdaad netjes uitgevoerd. Echter, soms is het allemaal niet zo volgens het 
-boekje. Er kan een belangrijk pakketje komen waarvoor je wat uurtjes langer thuis blijft. Of je wil van thuis werken
-voor een dag. Of je bent gewoon wat ziek en besluit even uit te zieken.
+boekje! 
+
+* Er kan een belangrijk pakketje komen waarvoor je wat uurtjes langer thuis blijft. 
+* Van thuis werken voor een dag is goed voor de productiviteit.
+* Je voelt je grieperig en besluit even uit te zieken.
+
+Het zou handig zijn als de Toon herkent dat je nog steeds thuis bent! 
 
 ![Toon within the Crownstone app](/attachments/toon-image4.png){: style="width: 25%"}
 ![Toon within the Crownstone app](/attachments/toon-image3.png){: style="width: 25%"}
 ![Toon within the Crownstone app](/attachments/toon-image2.png){: style="width: 25%"}
 
-Het zou handig zijn als de Toon herkent dat je nog steeds thuis bent! Dat is precies hoe Crownstone werkt met Toon!
+Herkennen dat je nog thuis bent is precies hoe Crownstone werkt met Toon!
+
 In plaats van het uitzetten van de verwarming wordt de verwarming netjes aangehouden als je besluit thuis te blijven.
 Pas wanneer je daadwerkelijk het huis verlaat gaat het standaard schema in werking. Gebruik makend van de Crownstone
 cloud zorgen we er ook voor dat dit werkt voor meerdere mensen in een huishouden! Het werkt zelfs in het speciale geval
-waarbij iemand meerdere Toon apparaatjes.
+waarbij iemand meerdere Toon apparaatjes heeft!
 
 Super handig als je leven net wat onregelmatiger is!
