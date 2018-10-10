@@ -1,4 +1,16 @@
 body {
 /*  min-height: 2000px; */
-  padding-top: 60px;
+  padding-top: 6rem; 
+}
+
+@media only screen and (min-width: 768px) and (max-width: 979px) { 
+  body { 
+    padding-top: 12rem;  
+  } 
+}
+
+@media only screen and (max-width: 767px) { 
+  body { 
+    padding-top: 5rem;  
+  } 
 }

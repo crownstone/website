@@ -3,14 +3,14 @@
 
 <div class="container-fluid">
 	<div class="row">
-		<div class="hidden-xs hidden-sm">
+		<div class="videoBanner hidden-xs hidden-sm">
 			<video width="100%" muted autoplay loop>
 				<source src="{{ include.video }}.webm" type='video/webm'>
 				<source src="{{ include.video }}.mp4" type='video/mp4; codecs="avc1.640028"'>
 				Your browser doesn't support the video tag.
 			</video>
+			<div class="logoOverlay">
 		</div>
-		<div class="hidden-xs hidden-sm logoOverlay">
 		</div> 
 		<div class="visible-xs visible-sm">
 			<img class="img-responsive center-block" src="{{ include.placeholder }}" alt="{{ include.alt }}"/>

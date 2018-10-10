@@ -13,8 +13,12 @@ permalink: /
 
 {% include JB/setup %}
 
+<div class="container-fluid"> 
+<div class="row">
 <div class="text-bar">
 New! Crownstone works with Toon! <a href="/integrations/toon">Learn more!</a>
+</div>
+</div>
 </div>
 
 {% include snippets/video-banner video='/clips/intro' placeholder='/attachments/crownstone_in_living_room.jpg' alt="Crownstone in a living room" %}
