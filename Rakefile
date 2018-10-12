@@ -40,11 +40,30 @@ module JB
   end #Path
 end #JB
 
+#######################
+# Working with Jekyll #
+#######################
+
+desc "Launch preview environment"
+task :preview do
+  system "jekyll serve -w"
+end # task :preview
+
+desc "Generate jekyll site"
+task :default do
+  #system "jekyll build --config _config.yml,_config-authors.yml"
+  system "jekyll build --config _config.yml,_config-authors.yml"
+end # task :build
+
 # Usage: rake post title="A Title" [date="2012-02-09"] [tags=[tag1, tag2]]
 desc "Begin a new post in #{CONFIG['posts']}"
-task :post do
+task :post, :title do |t, args|
+  if args.title
+    title = args.title
+  else
+    title = get_stdin("Enter a title for your post: ")
+  end
   abort("rake aborted: '#{CONFIG['posts']}' directory not found.") unless FileTest.directory?(CONFIG['posts'])
-  title = ENV["title"] || "new-post"
   tags = ENV["tags"] || "[]"
   slug = title.downcase.strip.gsub(' ', '-').gsub(/[^\w-]/, '')
   begin
@@ -61,13 +80,19 @@ task :post do
   puts "Creating new post: #{filename}"
   open(filename, 'w') do |post|
     post.puts "---"
-    post.puts "layout: post"
-    post.puts "title: \"#{title.gsub(/-/,' ')}\""
-    post.puts 'description: ""'
-    post.puts "tags: #{tags}"
-    post.puts "author: "
+    post.puts "layout      : post"
+    post.puts "title       : \"#{title.gsub(/-/,' ')}\""
+    post.puts "description : \"#{title.gsub(/-/,' ')}\""
+    post.puts "tags        : #{tags}"
+    post.puts "author      : "
+    post.puts "picture     : attachments/blog/picture.png"
+    post.puts "excerpt     : \"Text on main blog page\""
     post.puts "---"
     post.puts "{% include JB/setup %}"
+    post.puts ""
+    post.puts "# Header"
+    post.puts ""
+    post.puts "![Picture]({{ site.url }}/attachments/blog/picture.png)"
   end
 end # task :post
 
@@ -95,17 +120,6 @@ task :page do
     post.puts "{% include JB/setup %}"
   end
 end # task :page
-
-desc "Launch preview environment"
-task :preview do
-  system "jekyll serve -w"
-end # task :preview
-
-desc "Build"
-task :default do
-  #system "jekyll build --config _config.yml,_config-authors.yml"
-  system "jekyll build --config _config.yml,_config-authors.yml"
-end # task :build
 
 # Public: Alias - Maintains backwards compatability for theme switching.
 task :switch_theme => "theme:switch"
