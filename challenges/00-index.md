@@ -14,7 +14,9 @@ permalink: challenges/software
 
 We have many interesting challenges for developers! From the Crownstone firmware to the clouds, there are many distinct fields and puzzles to solve. 
 
-We’re a small team of flexible developers, working on many aspects of the Crownstone and its accompanying services. 
+We're a small team of flexible developers, working on many aspects of the Crownstone and its accompanying services. To just see a subset of our busy hive check this video:
+
+{% youtube XI9GMjByfVk %}
 
 # Embedded software engineer
 
