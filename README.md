@@ -55,13 +55,17 @@ Or, the short-hand:
 
     ![Mould]({{ site.url }}/attachments/mould0.png "Mould for Crownstone"){: .img-center}
 
-With maximum width:
+With maximum width set to the complete view port (100%):
     
     ![Mould]({{ site.url }}/attachments/mould0.png "Mould for Crownstone"){: .limit-width}
 
 An example of a resized image: 
 
     ![Barbecue color]({{ site.url }}/attachments/barbecue_test_5.png "Barbecue color"){: style="width: 500px"}
+
+To set for example maximum width to half the page and have it aligned to the right:
+
+    ![Mould]({{ site.url }}/attachments/mould0.png "Mould for Crownstone"){: style="max-width: 50%"}{: .float-right}
 
 ### Equation
 
@@ -72,12 +76,12 @@ A mathematical equation can be described with
 ### Code snippet
 
 To add a piece of code formatted as a given language, use
- 	~~~
-	def what?
-	 42
-	end
+
+ 	~~~ c
+	int main() {
+	 printf("Hi, this is Crownstone!\n")
+	}
 	~~~
-	{: .language-ruby}
 
 You will need to add the .css file then. We use `rouge` as highlighter and use the style `github` for now.
 
