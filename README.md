@@ -72,12 +72,12 @@ A mathematical equation can be described with
 ### Code snippet
 
 To add a piece of code formatted as a given language, use
- 	~~~
+
+ 	~~~ c
 	def what?
 	 42
 	end
 	~~~
-	{: .language-ruby}
 
 You will need to add the .css file then. We use `rouge` as highlighter and use the style `github` for now.
 
