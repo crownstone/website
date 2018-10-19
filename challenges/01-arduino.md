@@ -60,10 +60,12 @@ This means the following:
 
 Once the Arduino implementation is realised, people could start using their Crownstones to do a variety of tasks. For example: 
 
-* Switch devices based on electricity prices;
+* Switch devices based on **electricity prices**;
 * Switch/dim a light in your room when someone rings the (Arduino) doorbell;
-* Switch/dim lights based on outside conditions (ambient light measuring) or even your mood;
-* Turn on your lights when you open a door: add extra sensors (senses!) to your Crownstones;
+* Switch/dim lights based on **outside conditions** (ambient light measuring) or even your mood;
+* Turn on your lights when you open a door: add extra sensors (senses!) to your Crownstones.
+
+For more inspiration about what is possible check out the Raspberry Pi CM-3 Home at [interesting engineering](https://interestingengineering.com/this-device-gives-users-the-power-to-program-their-own-smart-home) or [Guiott](http://www.guiott.com/). 
 
 ## You like to contribute anyway as an open-source developer
 
