@@ -52,6 +52,12 @@
     <link rel="stylesheet" href="{{ stylesheet }}" media="screen" type="text/css">
     {% endfor %}
     {% endif %}
+    
+    {% if page.local_css %}
+    {% for stylesheet in page.local_css %}
+    {% asset '{{ stylesheet }}' %}
+    {% endfor %}
+    {% endif %}
 
     {% if page.redirect_url %}
     <meta http-equiv="refresh" content="0; url={{ page.redirect_url }}">

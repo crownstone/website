@@ -15,3 +15,5 @@ end
 gem 'sass'
 gem 'uglifier'
 gem 'rake'
+
+gem "rouge", "~> 3.2"

@@ -120,6 +120,7 @@ DEPENDENCIES
   json
   kramdown
   rake
+  rouge (~> 3.2)
   sass
   uglifier
 

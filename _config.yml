@@ -6,7 +6,7 @@ relative_permalinks: false
 
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", "Gemfile","Gemfile.lock","Procfile","vendor",
   "build.sh", "run.sh", "deploy.sh", ".gitignore"]
-highlighter: pygments
+highlighter: rouge
 
 languages: ["en", "nl"]
 default_lang: "en"

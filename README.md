@@ -79,6 +79,15 @@ To add a piece of code formatted as a given language, use
 	~~~
 	{: .language-ruby}
 
+You will need to add the .css file then. We use `rouge` as highlighter and use the style `github` for now.
+
+    rougify style monokai > assets/themes/flat/css/syntax.css
+
+To include this file add the following to the header:
+
+	local_css:
+	  - syntax.css
+
 Other syntax options you can probably find in no time searching online or checking other posts.
 
 ## Admin
