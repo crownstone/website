@@ -16,7 +16,7 @@ permalink: challenges/arduino
 
 # Arduino
 
-At Crownstone we are developing the first open source smart switch. With our Crownstones you can easily and affordably create your own smart home. We believe a smart home should blend in the background and function independently. This means a smart home should be automatic, something current 'smart' switches are not. Therefore they are just that: switches. 
+At Crownstone we are developing the first open source smart switch. With our Crownstones you can easily and affordably create your own smart home. We believe a **Smart Home** should blend in the background and function independently. This means a smart home should be automatic, something current 'smart' switches are not. Therefore they are just that: switches. 
     But by coupling iBeacon technology and a switch we can know where you are in your house and switch the Crownstones accordingly. This opens up a whole world of possibilities! 
     
 But there is more. What if you, the users, can create their own behaviour and couple their own creations to the crownstones?
