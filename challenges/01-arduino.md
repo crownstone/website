@@ -16,10 +16,10 @@ permalink: challenges/arduino
 
 # Arduino
 
-At crownstones we are developing the first open source smart switch. With our Crownstones you can easily and affordably create your own smart home. We believe a smart home should blend in the background and work for you. This means a smart home should be automatic, something current switches are not. Therefore they are just that: switches. 
+At Crownstone we are developing the first open source smart switch. With our Crownstones you can easily and affordably create your own smart home. We believe a **Smart Home** should blend in the background and function independently. This means a smart home should be automatic, something current 'smart' switches are not. Therefore they are just that: switches. 
     But by coupling iBeacon technology and a switch we can know where you are in your house and switch the Crownstones accordingly. This opens up a whole world of possibilities! 
-    But there is more. What if you, the users, can create their own behaviour and couple their own creations to the crownstones?
-
+    
+But there is more. What if you, the users, can create their own behaviour and couple their own creations to the crownstones?
 One of the things that would be valuable is to run Arduino code on the Crownstone. It is possible to be Arduino compatible on a hardware level (regarding pin layout) or on a software level. This text concerns compatibility on a software level. This means that applications written with the .ino extension in the Arduino editor can run on the Crownstone itself.
 
 Code to toggle a Crownstone device would then look for example like this:
