@@ -109,6 +109,14 @@ For an example of a brochure that is created using the above styleguide see:
 * [Crownstone Brochure Smart Home]({{ site.url }}/attachments/brochures/Crownstone_Brochure_SmartHome.pdf)
 * [Crownstone Brochure Green Home]({{ site.url }}/attachments/brochures/Crownstone_Brochure_GreenHome.pdf)
 
+## Presentations
+
+If you need a slide deck for a particular customer, feel free to contact us for your particular needs. 
+
+* [Crownstone Real Estate - Commercial & Residential]({{ site.url }}/attachments/presskit/Crownstone Real Estate - Commercial & Residential.pdf)
+* [Crownstone Summary]({{ site.url }}/attachments/presskit/Crownstone Summary.pdf)
+* [Crownstone Product Deck voor Consumenten (Dutch)]({{ site.url }}/attachments/presskit/Crownstone Product Deck - Consumenten.pdf)
+
 ## Presskit ZIP file
 
 The presskit contains the following folders:
