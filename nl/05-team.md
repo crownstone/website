@@ -120,7 +120,7 @@ Ook kan je ons individueel volgen op bijvoorbeeld Twitter, bijvoorbeeld [Hans](h
 als Rotterdamse ondernemer, [Peet](https://twitter.com/pmavantooren), 
 een fervent supporter van crowdfunding projecten, of [Anne](https://twitter.com/annevanrossum), met zijn voorkeur voor robots en kunstmatige intelligentie.
 
-ls je graag wilt sparren (en dan bedoelen we vechtsporten), stuur Bart een berichtje. Peet houdt daarnaast van alles dat audio betreft, en een van Alex' favoriete bezigheden is 3D animaties.
+Als je graag wilt sparren (en dan bedoelen we een vechtsport), stuur Bart een berichtje. Peet houdt daarnaast van alles dat audio betreft, en een van Alex' favoriete bezigheden is 3D animaties.
 
 {% include snippets/column-end %}
 {% include snippets/column-begin %}
