@@ -74,17 +74,12 @@ core-team-gallery:
       title: "Bart heeft een master in werktuigbouwkunde en is niet bang voor de meest uitdagende embedded software problemen. Vraag hem alles over de nRF architectuur!"
   - image: "alexdemulder.jpg"
     name: "Alex de Mulder"
-    affiliation: "Design & Software developer"
+    affiliation: "Designer & Software developer"
     linkedin: "alex-de-mulder-443a1bb"
     vimeo: "alexdemulder"
     github: "AlexDM0"
     report:
       title: "Alex heeft een master in natuurkunde en is een sterontwikkelaar. Zijn natuurkunde achtergrond fonkelt soms door in bijvoorbeeld de mooie visualisaties in onze app."
-  - image: "fijapijpelink.jpg"
-    name: "Fija Pijpelink"
-    affiliation: "Design/Communication Specialist"
-    report:
-      title: "Fija zorgt dat onze communicatie duidelijk en mooi is."
   - image: "fransdijckmeester.jpg"
     name: "Frans Dijckmeester"
     affiliation: "Assistant Financial Controller"

@@ -75,17 +75,12 @@ core-team-gallery:
       title: "Bart has a masters in Mechanical Engineering and does not shy away from the most in-depth embedded programming jobs. Ask him anything on the nRF architecture!"
   - image: "alexdemulder.jpg"
     name: "Alex de Mulder"
-    affiliation: "Design & Software developer"
+    affiliation: "Designer & Software developer"
     linkedin: "alex-de-mulder-443a1bb"
     vimeo: "alexdemulder"
     github: "AlexDM0"
     report:
       title: "Alex has a masters in Applied Physics and is a stellar developer. At times his physics training shows, for example in the beautiful visualizations in our app."
-  - image: "fijapijpelink.jpg"
-    name: "Fija Pijpelink"
-    affiliation: "Design/Communication Specialist"
-    report:
-      title: "Fija makes sure our communication is clear and beautiful."
   - image: "fransdijckmeester.jpg"
     name: "Frans Dijckmeester"
     affiliation: "Assistant Financial Controller"

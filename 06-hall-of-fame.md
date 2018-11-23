@@ -6,6 +6,10 @@ description: "Hall of fame with former colleagues, graduation students, and inte
 group:
 permalink: hall-of-fame/
 employee-gallery:
+  - image: "fijapijpelink.jpg"
+    name: "Fija Pijpelink"
+    title: "Design/Communication Specialist"
+    linkedin: "https://www.linkedin.com/in/fijasantina/"
   - image: "marchulscher.jpg"
     name: "Marc Hulscher"
     title: "Hardware developer"
