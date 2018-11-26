@@ -184,7 +184,7 @@ Plan ook je terugreis via [Rotterdam Centraal, actuele vertrektijden](http://www
                 
 # Geschiedenis
 
-Crownstone is oorspronkelijk ontwikkelt door Distributed Organimsm B.V. (DoBots) en heeft achter zich als investeerder 
+Crownstone is oorspronkelijk ontwikkelt door Distributed Organisms B.V. (DoBots) en heeft achter zich als investeerder 
 [Almende Investments](http://almende-investments.com/)
 en de 
 [Rockstart accelerator](http://www.rockstart.com/blog/rockstart-introduces-participants-of-2016-smart-energy-accelerator/).

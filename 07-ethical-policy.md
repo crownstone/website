@@ -26,7 +26,7 @@ We believe that aggregated data is much less privacy-sensitive than raw data. Fo
 
 ## SECTION 3 - BETTER SAFE THAN SAVED
 
-Data is paramount to proper indoor localization, home and building automation, be it device recognition or environnmental monitoring. Crownstone develops data interpretation technologies that
+Data is paramount to proper indoor localization, home and building automation, be it device recognition or environmental monitoring. Crownstone develops data interpretation technologies that
 can function on premise. The more information can be processed in house, the less raw information needs to be stored on a (central) server.
 In case information does need to be streamed to the internet, we avoid having to store the raw data. Only aggregated data that is required to perform the task at hand will be communicated to an operator.
 As soon as <a href="http://www.wikiwand.com/en/Homomorphic_encryption" target="_blank">homomorphic encryption</a> (process data without decrypting it) becomes computationally feasible, we aim to switch to such a cloud service.
@@ -35,7 +35,7 @@ As soon as <a href="http://www.wikiwand.com/en/Homomorphic_encryption" target="_
 ## SECTION 4 - YOU OWN YOUR OWN DATA
 
 Your data belongs to you. When you use our tools to collect data, we do not have access to it, nor will we share or delete your data without your consent. You may of course share the data you collect, for instance to allow a swarm of bots to learn from other bots in the neighborhood.
-You are always the one who decides what you share, who you share it with, and when to stop sharing. Crownstone use of BLE (Bluetooth Low-Energy) rather than Wifi for indoor localization reflects this choice for example. BLE is <strong>opt-in</strong>, Wifi is opt-out.
+You are always the one who decides what you share, who you share it with, and when to stop sharing. Crownstone use of BLE (Bluetooth Low-Energy) rather than WiFi for indoor localization reflects this choice for example. BLE is <strong>opt-in</strong>, WiFi is opt-out.
 
 
 ## SECTION 5 - WORK TOGETHER

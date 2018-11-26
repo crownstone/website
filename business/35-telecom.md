@@ -10,7 +10,7 @@ permalink: business/telecom
 
 # IoT Crownstone
 
-The IoT version of the Crownstone is an ordinary Crownstone plug with capabilities such as power monitoring, device recognition, and even presence detection, plus a SIM card. It is connected by other Crownstones through a Bluetooth mesh andcan send data to and receive control information from the cloud. It is directly hooked up to a telecom network without reliance on Wifi, LoRa, SigFox. Coverage is just as good as for ordinary smartphones.
+The IoT version of the Crownstone is an ordinary Crownstone plug with capabilities such as power monitoring, device recognition, and even presence detection, plus a SIM card. It is connected by other Crownstones through a Bluetooth mesh and can send data to and receive control information from the cloud. It is directly hooked up to a telecom network without reliance on WiFi, LoRa, SigFox. Coverage is just as good as for ordinary smartphones.
 
 ## Peak shaving
 
@@ -36,7 +36,7 @@ The key thing is making the hardware cheaper. Once you get time and variable pri
 This means that for the domestic market there is a large opportunity for telecom providers to sell subscriptions. The following estimates are the potential number of subscriptions per year that can be realized for the European market:
 
 * 3.4+ million cars
-* 2.2+ million boillers
+* 2.2+ million boilers
 * 1.9+ million solar panels
 
 ## Telemonitoring

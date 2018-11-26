@@ -33,7 +33,7 @@ You can read how to use it in the [REST API documentation](https://github.com/cr
 
 # <a name="smartphone_libs"></a>Smartphone libraries
 
-To make things easy, we provide native libraries for smartphones. The following libraries are available and can be found on github:
+To make things easy, we provide native libraries for smartphones. The following libraries are available and can be found on GitHub:
 
 - [Android](https://github.com/crownstone/bluenet-lib-android)
 - [iOS](https://github.com/crownstone/bluenet-lib-ios)
@@ -42,7 +42,7 @@ To make things easy, we provide native libraries for smartphones. The following 
 
 ![Image of Bluetooth logo](https://raw.githubusercontent.com/crownstone/crownstone-sdk/master/images/bluetooth-logo.png){: .float-right}
 
-The libraries abstract the communication with the Crownstones. They simplify scanning/search for crownstones, wrap the messages into easy-to-use objects, and provide simple functions to access the functionalities provided on the Crownstones. This means that you do not need to write the code to connect to the devices over Bluetooth. You can just use our simplified interface.
+The libraries abstract the communication with the Crownstones. They simplify scanning/search for Crownstones, wrap the messages into easy-to-use objects, and provide simple functions to access the functionalities provided on the Crownstones. This means that you do not need to write the code to connect to the devices over Bluetooth. You can just use our simplified interface.
 
 The following features will be available (some are still in development):
 
@@ -55,8 +55,8 @@ The following features will be available (some are still in development):
 - Enable/disable iBeacon
 - Enable/disable encryption
 - Enable/disable mesh
-- Enable/disable continous scanning
-- Enable/disable continous high frequency power sampling
+- Enable/disable continuous scanning
+- Enable/disable continuous high frequency power sampling
 
 ### Notified data
 This data streams in regularly via a callback.
@@ -79,7 +79,7 @@ Note: The enable/disable states can only be set using the corresponding [command
 - Advertisement interval
 - Schedule (switch on/off at certain times)
 - Toggle switch after Crownstone reboot.
-- Continous scanning interval, duration and filter
+- Continuous scanning interval, duration and filter
 
 ### Mesh commands
 Commands that can be issued to other Crownstones via the mesh. In case a command asks for a return value, the value will be notified via a callback.
@@ -125,7 +125,7 @@ It is written in React Native.
 
 # <a name="bluenet"></a>Bluenet Firmware
 
-The [Bluenet](https://github.com/crownstone/bluenet/) firmware can be downloaded from github. 
+The [Bluenet](https://github.com/crownstone/bluenet/) firmware can be downloaded from GitHub. 
 
 ![Protocol example](https://raw.githubusercontent.com/crownstone/bluenet/master/docs/diagrams/adv-packet.png)
 

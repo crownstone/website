@@ -52,6 +52,9 @@ To make sure someone else cannot register with your email address, we kindly ask
 
 To get you started, we gathered some links to resources here for you:
 
+* [Alexa]({{ site.url }}/integrations/alexa), where the integration with Alexa is described. You do need the Crownstone
+hardware for this!
+
 * [Crownstone for business](https://crownstone.rocks/business/), where we describe our position w.r.t. indoor localization and automation in the larger ecosystem of the industry. 
 
 * [Technology](https://crownstone.rocks/technology-consumer/), on the website gives an overview of the technology currently implemented and the features that are upcoming.

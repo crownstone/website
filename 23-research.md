@@ -47,12 +47,12 @@ This means you can walk around in your home with just your watch.
 not forget your wallet or handbag if you leave the house!
 Even simple beacons can be used (they can be as cheap as three dollars) for asset tracking. 
 * If you set up a connection over Bluetooth, even with an iPhone, this takes around two seconds. If you enter a room 
-and the lights have to switch on, this happens only after a noticable delay. In contrast, if the network itself can
+and the lights have to switch on, this happens only after a noticeable delay. In contrast, if the network itself can
 decide what happens if a person enters a room, the *latency* can be reduced significantly.
 
 Our current research on indoor positioning does not yet address in-network localization:
 
-- Human SLAM: Simultaneous Localisation and Configuration (SLAC) of indoor Wireless Sensor Networks and their users (Wouter Bulten, 2015, [pdf](https://crownstone.rocks/attachments/thesis/wouterbulten.pdf))
+- Human SLAM: Simultaneous Localization and Configuration (SLAC) of indoor Wireless Sensor Networks and their users (Wouter Bulten, 2015, [pdf](https://crownstone.rocks/attachments/thesis/wouterbulten.pdf))
 
 ![SLAC overview]({{ site.url }}/attachments/slac-overview.png "SLAC overview"){: style="max-width: 100%"}
 
@@ -67,7 +67,7 @@ plugged in. This distortion can subsequently be used to identify that particular
 In the above thesis you see that deep learning is used to perform appliance identification. 
 Here below you see for example the current consumption of a laptop over a single curve on 50 Hz (which means 20 ms). 
 You see that it is quite spiky, quite different from a normal resistive load! The [PLAID](http://www.plaidplug.com/)
-dataset is also a very good source for high resolution current and voltage data (30 kHz) for a set of 11 devices.
+data set is also a very good source for high resolution current and voltage data (30 kHz) for a set of 11 devices.
 
 ![Laptop current consumption]({{ site.url }}/attachments/laptop_current_consumption.png "Laptop current consumption"){: style="max-width: 100%"}
 
@@ -109,10 +109,10 @@ your home smarter. This is especially useful for elderly people. Lights, coffee 
 like normal. However, when for example an elderly person slips and falls down, the house might recognize that 
 something is off. For example, the light in the bathroom stays on for a prolonged time. Algorithms in the cloud can
 use high-level data on the use of appliances and lights to detect if there is an anomaly with respect to normal 
-activities in the house. In the thesis below deep learning (autoencoders) are used to detect if something is out of the
+activities in the house. In the thesis below deep learning (auto-encoders) are used to detect if something is out of the
 ordinary.
 
-- Anomaly detection using autoencoders for Ambient Assisted Living (Riccardo Bellana, 2018, [pdf](https://crownstone.rocks/attachments/thesis/riccardobellana.pdf))
+- Anomaly detection using auto-encoders for Ambient Assisted Living (Riccardo Bellana, 2018, [pdf](https://crownstone.rocks/attachments/thesis/riccardobellana.pdf))
 
 ## Speech programming
 

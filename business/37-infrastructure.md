@@ -15,7 +15,7 @@ permalink: infrastructure/
 
 The Crownstone infrastructure can be used in smart offices for sustainability and communication.
 
-Sustainability, who does not dislike the fact that all our offices light up like christmas trees during the entire night! That's such a waste!
+Sustainability, who does not dislike the fact that all our offices light up like Christmas trees during the entire night! That's such a waste!
 
 * switch off office equipment (multi-functionals, coffee machines, televisions, electronic equipment) when nobody is around
 * switch off lights when nobody is around (and not when someone is still working!!)
@@ -44,13 +44,13 @@ The Guidestone is a simplified Crownstone (<a href="https://shop.crownstone.rock
 * A high signal strength means more beacons visible through walls that are difficult to penetrate which increases localization accuracy.
 * Indoor localization algorithms on the phone (there are a lot of parties that use only proximity to beacons for localization, this does not work, you need to use machine learning).
 * The Guidestones can be updated at all once from a central location because they are all inter-connected through a mesh.
-* The Guidestones are able to scan for BLE (Bluetooth Low-Energy) devices. This means that they can scan for the presence of people carrying bracelets, watches, or any other deivce that sends out regular BLE messages. They can even track iBeacons!
+* The Guidestones are able to scan for BLE (Bluetooth Low-Energy) devices. This means that they can scan for the presence of people carrying bracelets, watches, or any other device that sends out regular BLE messages. They can even track iBeacons!
 
-This product is that far simplified, that we have competitors (although they use USB beacons that require an additional adaptor). For a comparison, look at:
+This product is that far simplified, that we have competitors (although they use USB beacons that require an additional adapter). For a comparison, look at:
 
-* Radbeacon's shop lists <a href="http://store.radiusnetworks.com/collections/all/products/radbeacon-usb-2">$29</a> plus <a href="http://store.radiusnetworks.com/collections/all/products/radbeacon-usb-power-supply">$9</a> for an adaptor.
+* Radbeacon's shop lists <a href="http://store.radiusnetworks.com/collections/all/products/radbeacon-usb-2">$29</a> plus <a href="http://store.radiusnetworks.com/collections/all/products/radbeacon-usb-power-supply">$9</a> for an adapter.
 * Kontakt's shop lists <a href="https://store.kontakt.io/our-products/29-usb-beacon.html">$60</a> without adaptor.
-* Glimworm's shop lists <a href="https://glimwormbeacons.com/buy/ibeacons">€25 euro</a> without adaptor.
+* Glimworm's shop lists <a href="https://glimwormbeacons.com/buy/ibeacons">€25 euro</a> without adapter.
 
 ## Architecture 
 
@@ -64,7 +64,7 @@ Currently Crownstone partners with consumer partners, application partners, and 
 
 ![Crownstone Partners]({{ BASE_URL }}/images/crownstone-partners.svg){: style="width: 100%"}
 
-Moreover, Crownstone has particular tools and applications for flexible working that allows our partners to directly perform sales without a co-development traject. For other verticals we provide partners with APIs and libraries to build their own value-added proposition to a particular market segment.
+Moreover, Crownstone has particular tools and applications for flexible working that allows our partners to directly perform sales without a co-development project. For other verticals we provide partners with APIs and libraries to build their own value-added proposition to a particular market segment.
 
 # Partners
 

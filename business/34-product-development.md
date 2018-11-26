@@ -12,7 +12,7 @@ permalink: business/product-development/
 
 # Collaboration
 
-How does a parternship with Crownstone work? 
+How does a partnership with Crownstone work? 
 
 Crownstone tech itself might be sufficient to build a solution for your particular sector. However, it might be the 
 case that product development is in order. There are many sensors and actuators that can enrich our buildings, or 

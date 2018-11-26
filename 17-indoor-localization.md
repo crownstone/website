@@ -16,7 +16,7 @@ There are many ways in which localization can be done and we would like to give 
 
 ## Proximity
 
-Most iBeacon solutions run sofware on a smartphone that detects if the user is in proximity of the beacon. There is no indoor localization involved.
+Most iBeacon solutions run software on a smartphone that detects if the user is in proximity of the beacon. There is no indoor localization involved.
 
 Advantages:
 
@@ -24,7 +24,7 @@ Advantages:
 
 Disadvantages:
 
-* The user has to carry a smartphpone with an app.
+* The user has to carry a smartphone with an app.
 * Only knowledge about the proximity of a user is known to the app.
 
 ## Fingerprinting
@@ -35,7 +35,7 @@ Advantages:
 
 * Works already with only a few Crownstones (four and up)
 * No metric information required (no need to measure distances between Crownstones)
-* Accuracy can be addressed by the user. People can retrain if they move furniture, do remodelling, etc.
+* Accuracy can be addressed by the user. People can retrain if they move furniture, do remodeling, etc.
 * Room-level accuracy can be obtained (at around 1.5 meters).
 
 Disadvantages:

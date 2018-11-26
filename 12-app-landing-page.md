@@ -3,7 +3,7 @@ layout: page
 title: Smartphone apps
 header: Crownstone Smartphone Apps
 description: "App to control and read out Crownstones."
-keywords: "app, smartphone app, android, ios, iphone, Crownstone"
+keywords: "app, smartphone app, android, iOS, iPhone, Crownstone"
 group: Landing
 markdown: true
 background-image: banner-app.jpg
