@@ -17,10 +17,10 @@ At Crownstone we incorporate artificial intelligence or more old-fashioned machi
 in our products to create really smart homes. A smart home does things for you automatically. A smartphone app that
 only provides you with yet another option to control a light is not what Crownstone is after. It would mean that
 you have to unlock your phone, open the right app, navigate to the right screen, and click the right button. That can
-be much easier accomplished by just flipping a light switch. No, we want that your home responds to your presence
+be accomplished much easier by just flipping a light switch. No, we want that your home responds to your presence
 without you having to do anything!
 
-For that we develop an artificial intelligence (AI) who partly resides on a smartphone, partly on the Crownstones, 
+For that we develop artificial intelligence (AI) which partly resides on a smartphone, partly on the Crownstones, 
 and partly in the cloud. If you just have bought a Crownstone system, one of the first interactions with the AI is
 to give it a name (see the screenshot at the right). This is all cool, but what's the type of AI that we are developing?
 There are multiple research directions:
@@ -118,8 +118,8 @@ ordinary.
 
 Crownstone wants to make your home smarter. To configure your home through your smartphone is a necessary evil. Since
 December 2018 Crownstone can be controlled from an Alexa device. Control is nice, but we want something more. It 
-would be great to actual tell Crownstones to perform certain actions when you enter the room. This means that you
-actually can program or configure the Crownstones by speech. Moreover, if the AI is turning on a light, you might 
+would be great to actually tell Crownstones to perform certain actions when you enter the room. This means that you
+can program or configure the Crownstones by speech. Moreover, if the AI is turning on a light, you might 
 wonder: "Why are the lights turned on?". This type of retrospection is yet another level of intelligence that would be
 awesome for our customers!
 
