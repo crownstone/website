@@ -20,9 +20,7 @@ you have to unlock your phone, open the right app, navigate to the right screen,
 be accomplished much easier by just flipping a light switch. No, we want that your home responds to your presence
 without you having to do anything!
 
-For that we develop artificial intelligence (AI) which partly resides on a smartphone, partly on the Crownstones, 
-and partly in the cloud. If you just have bought a Crownstone system, one of the first interactions with the AI is
-to give it a name (see the screenshot at the right). This is all cool, but what's the type of AI that we are developing?
+For that we develop **resource-constrained artificial intelligence** (AI) which resides on the embedded chips on the Crownstones themselves - plus taking into consideration bandwidth and latency - on the smartphones, and in the cloud. If you just have bought a Crownstone system, one of the first interactions with the AI is to give it a name (see the screenshot at the right). This is all cool, but what are the capabilities of the AI that we are developing?
 There are multiple research directions:
 
 1. In-network localization.
