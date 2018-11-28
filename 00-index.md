@@ -16,7 +16,7 @@ permalink: /
 <div class="container-fluid"> 
 <div class="row">
 <div class="text-bar">
-New! Crownstone works with Toon! <a href="/integrations/toon">Learn more!</a>
+Crownstone will be at CES, Las Vegas! <a href="https://ces19.mapyourshow.com/7_0/exhibitor/exhibitor-details.cfm?ExhID=T0000336">Visit us for a demo!</a>
 </div>
 </div>
 </div>
