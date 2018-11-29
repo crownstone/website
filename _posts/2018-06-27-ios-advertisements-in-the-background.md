@@ -66,3 +66,10 @@ Note that `LD_LIBRARY_PATH` only needs to be added when the linker cannot find t
 # Mapping
 
 The exact mapping from UUIDs to the bit mask in the overflow area has been reverse engineered by Crownstone. If you are interested in this functionality, we can provide that under a suitable license.
+
+# Support / Disclaimer
+
+For all people who want to know more... Or have particular issues with their operating system. 
+We do not provide support for this functionality!
+If you cannot make it work, then please look somewhere online for help! We are extremely limited in time and need all
+of it for our open-source solutions at [github](https://github.com/crownstone/). Thank you for your consideration!
