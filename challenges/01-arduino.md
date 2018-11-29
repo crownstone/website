@@ -10,7 +10,7 @@ markdown: true
 local_css:
   - syntax.css
 background-image: banner-arduino-pcb.jpg
-permalink: challenges/arduino
+permalink: challenges/arduino/
 ---
 {% include JB/setup %}
 
