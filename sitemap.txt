@@ -4,8 +4,8 @@ title : Sitemap
 ---
 {% strip %}
 {% for page in site.pages %}
-{% if page.url != '/error/' %}
-{% unless page.url contains '/assets/' %}
+{% if page.url != '/error/' and page.url != '/mail/' and page.url != '/404.html' %}
+{% unless page.url contains '/assets/'%}
 {{site.production_url}}{{ page.url }}
 {% endunless %}
 {% endif %}

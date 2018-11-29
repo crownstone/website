@@ -235,13 +235,6 @@
                                     <script type="text/javascript">/*<![CDATA[*/var a=new Array("{{ site.contact-team.email[0] }}", "{{ site.contact-team.email[1] }}", "{{ site.contact-team.email[2] }}", "{{ site.contact-team.email[3] }}", "{{ site.contact-team.email[4] }}", "{{ site.contact-team.email[5] }}");document.write("<a href='mailto:");for(i=a.length-1;i>=0;i--){document.write(a[i])}document.write("?subject=Get in contact' class='footer'><i class='el el-envelope footer'></i>Email us!</a>");/*]]>*/</script>
                                     <noscript><i class="el el-envelope footer"></i>Email team@...</noscript>
                                 </li>
-                                <!--
-                                <li>
-                                    <a href="https://www.linkedin.com/company/crownstone" target="_blank" class="footer">
-                                        <i class="el el-linkedin footer"></i>Linkedin
-                                    </a>
-                                </li>
-                                -->
                                 <li>
                                     <a href="https://www.facebook.com/crownstones/" target="_blank" class="footer">
                                         <i class="el el-facebook footer"></i>Facebook
@@ -252,27 +245,20 @@
                                         <i class="el el-twitter footer"></i>Twitter
                                     </a>
                                 </li>
-                                <!--
-                                <li>
-                                    <a href="https://vimeo.com/alexdemulder" target="_blank" class="footer">
-                                        <i class="el el-vimeo footer"></i>Vimeo
-                                    </a>
-                                </li>
-                                -->
                                 <li>
                                     <a href="https://www.youtube.com/channel/UCru1PX6P1JyhsI-OEMXnBdg" target="_blank" class="footer">
                                         <i class="el el-youtube footer"></i>Youtube
                                     </a>
                                 </li>
                                 <li>
+                                    <a href="https://www.linkedin.com/company/crownstone" target="_blank" class="footer">
+                                        <i class="el el-linkedin footer"></i>Linkedin
+                                    </a>
+                                </li>
+                                <li>
                                    <a href="{{ site.url }}/presskit" class="footer">
                                         <i class="el el-arrow-down footer"></i>Press
                                     </a>
-                                    <!--
-                                    <a href="https://github.com/crownstone/website/releases/download/v.0.0.1-alpha/presskit.zip" class="footer">
-                                        <i class="el el-arrow-down footer"></i>Presskit
-                                    </a>
-                                    -->
                                 </li>
                             </ul>
                         </div>
@@ -327,6 +313,8 @@
                     
 {% endstrip %}
 
+<!-- Disable tawk on blog because preferred way of communication is disqus for blog posts. -->
+{% if page.layout != 'post' %}
 <!--Start of Tawk.to Script-->
 <script type="text/javascript">
 var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
@@ -340,6 +328,7 @@ s0.parentNode.insertBefore(s1,s0);
 })();
 </script>
 <!--End of Tawk.to Script-->
+{% endif %}
 
 </body>
 </html>
