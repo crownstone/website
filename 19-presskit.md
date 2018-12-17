@@ -101,6 +101,7 @@ There are the usual considerations, just a few:
 * Use the orange shade as an accent, e.g. for line separation, emphasis, not as a primary color. 
 * Use Lato medium as a font.
 * Use the blue font on summaries or accentuated text. Use just a black font wherever possible for the primary text.
+* In case ligher shades of colors are required. Go to the [Adobe color wheel](https://color.adobe.com/create/color-wheel/?base=0&rule=Analogous&selected=3&name=My%20Color%20Theme&mode=rgb&rgbvalues=1,0.5176470588235295,0,0,0.23631049943210286,0.32156862745098036,0.5321115173241195,1,0.04999999999999993,0.8844330991828997,0.04999999999999993,1,0.050000000000000044,0.7437521349992267,1&swatchOrder=1,0,2,3,4). Click on "HSB" and adjust the second row. This will only adjust the saturation of a color, not the hue.
 
 ## Brochures
 
