@@ -4,6 +4,7 @@ title: US Launch
 header: Our first US customers!
 group: []
 markdown: true
+background-image: BuiltInSpot1.jpg
 permalink: campaigns/us-launch/
 ---
 {% include JB/setup %}
