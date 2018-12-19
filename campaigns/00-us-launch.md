@@ -8,6 +8,10 @@ permalink: campaigns/us-launch/
 ---
 {% include JB/setup %}
 
+# Yes, I want to stay up to date about the Built-in Crownstone!
+
+We are proud to release our new and improved Built-in. If you want to stay up to date about all the information concerning our release, special offers and pre ordering the built-in Crownstone sign up here for our special newsletter. We hope you are as exited as us!
+
 <!-- Begin MailChimp Signup Form -->
 <!--
 <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
@@ -20,7 +24,7 @@ permalink: campaigns/us-launch/
 <div id="mc_embed_signup" class="newsletter">
 <form action="https://rocks.us10.list-manage.com/subscribe/post?u=d03baf337210e326a61dc14d5&amp;id=a23d3e9ded" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
     <div id="mc_embed_signup_scroll">
-	<h2>Be the first to know about our US Launch!</h2>
+	<h2>Sign up here:</h2>
 <div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
 <div class="mc-field-group">
 	<label for="mce-EMAIL">Email Address  <span class="asterisk">*</span>
