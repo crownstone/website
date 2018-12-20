@@ -186,6 +186,41 @@ div.bannerContainer.md { height:450px; }
 div.bannerContainer.sm { height:350px; }
 div.bannerContainer.xs { height:180px; }
 
+.container-launch {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+
+}
+
+.container-launch h1, 
+.container-launch h2, 
+.container-launch h3, 
+.container-launch h4, 
+.container-launch p {
+  color: white;
+}
+
+.container-launch .newsletter form {
+  background-color: transparent;
+  margin: 0 0;
+}
+
+.container-launch #mc_embed_signup form {
+  padding: 0 0 0 0;
+}
+
+.container-launch .newsletter form h1, 
+.container-launch .newsletter form h2, 
+.container-launch .newsletter form h3, 
+.container-launch .newsletter form h4, 
+.container-launch .newsletter form p, 
+.container-launch .newsletter form label, 
+.container-launch .newsletter form .indicates-required {
+  color: white;
+}
+
 .navbar-default .navbar-nav > .active > a {
   background-color: #003e52;
   color: white;
@@ -273,8 +308,7 @@ div.blueblock {
 
 div.footer {
   background-color: #003e52;
-  color:white;
-  margin-top: 40px;
+  color:white;  
 }
 
 div.fullWidthImage {
