@@ -66,15 +66,24 @@
     <meta property="og:type" content="website">
     <meta property="og:title" content="Crownstone: Your Presence Makes a Difference">
     <meta property="og:url" content="https://crownstone.rocks/">
+    {% if page.social-image %}
+    <meta property="og:image" content="{{ site.production_url }}/{{ page.social-image }}">
+    <meta property="og:image:secure_url" content="{{ site.production_url }}/{{ page.social-image }}">
+    {% else %}
     <meta property="og:image" content="{{ site.production_url }}/images/crownstone-logo.png">
     <meta property="og:image:secure_url" content="{{ site.production_url }}/images/crownstone-logo.png">
+    {% endif %}
     <meta property="og:description" content="Crownstones switch and dim devices and lamps based on your presence. Energy savings and home automation at once!">
     <meta property="og:site_name" content="Crownstone">
 
     <meta name="twitter:card" content="summary">
     <meta name="twitter:title" content="Crownstone, a smart power outlet">
     <meta name="twitter:description" content="Crownstone, the outlet that reacts to your presence because it knows where you are">
+    {% if page.social-image %}
+    <meta name="twitter:image" content="{{ site.production_url }}/{{ page.social-image }}">
+    {% else %}
     <meta name="twitter:image" content="{{ site.production_url }}/images/plugs_in_room.jpg">
+    {% endif %}
     <meta name="twitter:image:width" content="240">
     <meta name="twitter:image:height" content="240">
 
