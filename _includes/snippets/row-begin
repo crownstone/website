@@ -1,5 +1,9 @@
 {% if include.no-container-begin %}
 {% else %}
+{% if include.container-bottom-margin %}
+<div class="container container-bottom-margin">
+{% else %}
 <div class="container">
+{% endif %}
 {% endif %}
 <div class="row {{ include.visibility }}">

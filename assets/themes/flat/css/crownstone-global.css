@@ -186,12 +186,16 @@ div.bannerContainer.md { height:450px; }
 div.bannerContainer.sm { height:350px; }
 div.bannerContainer.xs { height:180px; }
 
+.container-bottom-margin {
+  margin-bottom: 45px;
+}
+
 .container-launch {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
-
+  margin-bottom: 0;
 }
 
 .container-launch h1, 
