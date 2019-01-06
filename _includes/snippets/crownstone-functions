@@ -1,22 +1,42 @@
 <div class="container">
 	<div class="row text-center hidden-xs marginTopM">
 		<div class="col-md-2 col-sm-2"><img class="img-responsive center-block" src="{{ BASE_PATH }}/images/icons/switch.png" alt="Crownstone switch icon"/>
+			{% if include.lang == "nl" %}
+			<p>Schakelaar</p>
+			{% else %}
 			<p>Switch</p>
+			{% endif %}
 		</div>
 		<div class="col-md-2 col-sm-2"><img class="img-responsive center-block" src="{{ BASE_PATH }}/images/icons/dimming.png" alt="Crownstone dimming icon" />
 			<p>Dimmer</p>
 		</div>
 		<div class="col-md-2 col-sm-2"><img class="img-responsive center-block" src="{{ BASE_PATH }}/images/icons/localization.png" alt="Crownstone localization icon"/>
+			{% if include.lang == "nl" %}
+			<p>Aanwezigheidssensor</p>
+			{% else %}
 			<p>Presence Detector</p>
+			{% endif %}
 		</div>
 		<div class="col-md-2 col-sm-2"><img class="img-responsive center-block" src="{{ BASE_PATH }}/images/icons/measuring.png" alt="Crownstone power monitor icon" />
+			{% if include.lang == "nl" %}
+            <p>Vermogensmeter</p>
+			{% else %}
 			<p>Power Monitor</p>
+			{% endif %}
 		</div>
 		<div class="col-md-2 col-sm-2"><img class="img-responsive center-block" src="{{ BASE_PATH }}/images/icons/ai.png" alt="Crownstone AI icon"/>
+			{% if include.lang == "nl" %}
+            <p>Kunstmatige Intelligentie</p>
+			{% else %}
 			<p>AI</p>
+			{% endif %}
 		</div>
 		<div class="col-md-2 col-sm-2"><img class="img-responsive center-block" src="{{ BASE_PATH }}/images/icons/crownstone.png" alt="Crownstone open platform icon" />
+			{% if include.lang == "nl" %}
+			<p>Open Platform</p>
+			{% else %}
 			<p>Open Source</p>
+			{% endif %}
 		</div>
 	</div>
 	<div class="row text-center visible-xs">
