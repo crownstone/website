@@ -39,49 +39,21 @@ A Crownstone is a switch, a dimmer, a presence detector, and a power monitor, al
 
 {% include snippets/crownstone-functions %}
 
-<!--
 
-{% include snippets/row-begin visibility="hidden-xs" %}
 
-{% include snippets/column-begin colsize="12" %}
 
-# Customers
 
-There are already many customers making use of Crownstones. Just ask around to find out about their experience! 
 
-{% include snippets/bubbles-begin %}
 
-{% include snippets/bubble-begin align="left" picture="allertpost.png" %}
 
-Magic! Last week I got totally new functions by just holding my phone close to the Crownstone! Even car manufacturers like BMW can't figure this out.
 
-{% include snippets/bubble-end %}
 
-{% include snippets/bubble-begin align="right" picture="patrickkoch.jpg" %}
 
-Products, also suited for existing buildings, will always win out over products, only suited for new builts.
 
-{% include snippets/bubble-end %}
 
-{% include snippets/bubble-begin align="left" picture="xanderheijman.jpg" %}
-							
-Wow! I always disliked Bluetooth: the car audio system always gave me trouble. However, Bluetooth as done by Crownstone works every single time!
 
-{% include snippets/bubble-end %}
 
-{% include snippets/markdown-begin %}
 
-Read [here]({{ site.url }}/presskit) more about Crownstone in the news.
-
-{% include snippets/markdown-end %}
-
-{% include snippets/bubbles-end %}
-
-{% include snippets/column-end %}
-
-{% include snippets/row-end %}
-
--->
 
 {% include snippets/row-begin %}
 
