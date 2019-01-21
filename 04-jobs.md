@@ -56,7 +56,7 @@ We have just one requirement:
 For an internship we have the following requirements:
 			
 * It must be a graduation (**master thesis**) project.
-* Your studying at a **European** educational institute (non-EU is not an option).
+* You're studying at a **European** educational institute (non-EU is not an option).
 * Final project plan will be written **by you** and approved by your professor(s).
 
 For the topics our current master students are working on, see the [team]({{ site.url }}/team) page.
