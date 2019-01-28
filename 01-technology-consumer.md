@@ -174,8 +174,8 @@ The current Crownstone iOS and Android apps have the following functionality. Ev
 | Send a nice message to someone on entering a room | <i class="el el-check"></i>                     |
 | Wake-up light                                     | <i class="el el-check-empty"></i>               |
 | Power consumption history                         | <i class="el el-check-empty"></i>               |
-| Integration with Toon                             | <i class="el el-check-empty"></i>               |
-| Integration with Alexa                            | <i class="el el-check-empty"></i>               |
+| Integration with Toon                             | <i class="el el-check"></i>               |
+| Integration with Alexa                            | <i class="el el-check"></i>               |
 | Integration with Homey                            | <i class="el el-check-empty"></i>               |
 | Device identification                             | <i class="el el-check-empty"></i>               |
 | Control by non-registered guest users             | <i class="el el-check-empty"></i>               |
