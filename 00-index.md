@@ -13,14 +13,6 @@ permalink: /
 
 {% include JB/setup %}
 
-<div class="container-fluid"> 
-<div class="row">
-<div class="text-bar">
-Crownstone will be at CES, Las Vegas! <a href="https://ces19.mapyourshow.com/7_0/exhibitor/exhibitor-details.cfm?ExhID=T0000336">Visit us for a demo!</a>
-</div>
-</div>
-</div>
-
 {% include snippets/video-banner video='/clips/intro' placeholder='/attachments/crownstone_in_living_room.jpg' alt="Crownstone in a living room" %}
 
 {% include snippets/row-begin %}
