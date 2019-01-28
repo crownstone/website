@@ -32,15 +32,20 @@ Bekijk ook andere [scenario's]({{ BASE_PATH }}/scenarios)!
 
 Vergeleken met soortgelijke producten, heeft de Crownstone flink wat extra te bieden:
 
-| Functie                      | Vergelijkend product                                       | 
-| ---                          | ---                                                        |
-| Schakelaar (16 A)            | Fibaro (€ 52.50), Digitalstrom (€ 95.60)                   |
-| Dimmer                       | Fibaro (€ 54.95)                                           |
-| Lichtalarm                   | Philips (€ 59.95)                                          |
-| Energiemonitor               | Plugwise (€ 44.99)                                         |
-| Standby killer               | Elro (€25.00)                                              |
-| Apparaatherkenner            | Smappee (€ 250.00), Curb (€ 400.00), voor het hele huis    |
-| Aanwezigheidssensor          | Kontakt (€ 37.09)                                          |
+<div class="competitors" markdown="1">
+
+| Merk                     | Schakelen 16A                 | LED dimmer                  |  Lichtwekker                | Energiemonitor      | Standby killer            | Apparaatherkenner        | Aanwezigheidssensor              |
+| ---                       | ---                          | ---                          |
+| Crownstone                | <i class="el el-check"></i>  | <i class="el el-check"></i>  | <i class="el el-check"></i>   | <i class="el el-check"></i>   | <i class="el el-check"></i>   | <i class="el el-check"></i>   | <i class="el el-check"></i>   
+| Fibaro switch             | <i class="el el-check"></i>  | <i class="el el-check-empty"></i>  | <i class="el el-check-empty"></i>   | <i class="el el-check-empty"></i>   | <i class="el el-check-empty"></i>   | <i class="el el-check-empty"></i>   | <i class="el el-check-empty"></i>   
+| Fibaro dimmer                | <i class="el el-check-empty"></i>  | <i class="el el-check"></i>  | <i class="el el-check-empty"></i>   | <i class="el el-check-empty"></i>   | <i class="el el-check-empty"></i>   | <i class="el el-check-empty"></i>   | <i class="el el-check-empty"></i>   
+| Philips                 | <i class="el el-check-empty"></i>  | <i class="el el-check-empty"></i>  | <i class="el el-check"></i>   | <i class="el el-check-empty"></i>   | <i class="el el-check-empty"></i>   | <i class="el el-check-empty"></i>   | <i class="el el-check-empty"></i>   
+| Plugwise | <i class="el el-check"></i>  | <i class="el el-check-empty"></i>  | <i class="el el-check-empty"></i>   | <i class="el el-check"></i>   | <i class="el el-check-empty"></i>   | <i class="el el-check-empty"></i>   | <i class="el el-check-empty"></i>   
+| Elro                | <i class="el el-check-empty"></i>  | <i class="el el-check-empty"></i>  | <i class="el el-check-empty"></i>   | <i class="el el-check-empty"></i>   | <i class="el el-check"></i>   | <i class="el el-check-empty"></i>   | <i class="el el-check-empty"></i>   
+| Smappee                | <i class="el el-check-empty"></i>  | <i class="el el-check-empty"></i>  | <i class="el el-check-empty"></i>   | <i class="el el-check-empty"></i>   | <i class="el el-check-empty"></i>   | <i class="el el-check"></i>   | <i class="el el-check-empty"></i>   
+| Kontakt                | <i class="el el-check-empty"></i>  | <i class="el el-check-empty"></i>  | <i class="el el-check-empty"></i>   | <i class="el el-check-empty"></i>   | <i class="el el-check-empty"></i>   | <i class="el el-check-empty"></i>   | <i class="el el-check"></i>   
+
+</div>
 
 De Crownstone is vaak al even goed geprijst als de concurrentie (zie [webwinkel](https://shop.crownstone.rocks?launch=nl&ref=vergelijking), € 44.99 per stuk) als er alleen gekeken wordt naar een enkele fuctie. Alleen al een dimmer kan duurder zijn dan een Crownstone kopen met toffe state-of-the-art technologie!
 
@@ -100,28 +105,30 @@ Krijg een beetje gevoel voor de Crownstones door in deze modellen met ze te inte
 
 # Roadmap
 
-De huidige Crownstone iPhone en Android apps hebben de volgende functies. Elke twee, drie weken is er een update met nieuwe functionaliteit:
+De huidige Crownstone iPhone en Android apps hebben de volgende functies. Om de zoveel weken is er een update met nieuwe functionaliteit:
 
-| Functie                                           | Status Firm&shy;ware                            | Status Apps                                      | 
-| ---                                               | ---                                             | ---                                              |
-| Schakelaar                                        | <i class="el el-check"></i>                     | <i class="el el-check"></i>                      |
-| Instantaan energieverbruik                        | <i class="el el-check"></i>                     | <i class="el el-check"></i>                      |
-| Reageren op heel dichtbij zijn (tap-to-toggle)    | <i class="el el-check"></i>                     | <i class="el el-check"></i>                      |
-| Reageren op dichtbij zijn (presentie)             | <i class="el el-check"></i>                     | <i class="el el-check"></i>                      |
-| Reageren op aanwezigheid per kamer                | <i class="el el-check"></i>                     | <i class="el el-check"></i>                      |
-| Door gebruiker gecontrolleerde data upload        | <i class="el el-check"></i>                     | <i class="el el-check"></i>                      |
-| Verzenden van commando's vanaf het internet       | <i class="el el-check"></i>                     | <i class="el el-check"></i>                      |
-| Visualiseren van andere gebruikers in de app      | <i class="el el-check"></i>                     | <i class="el el-check"></i>                      |
-| Tijdschakelaar                                    | <i class="el el-check"></i>                     | <i class="el el-check"></i>                      |
-| Alarmlicht                                        | <i class="el el-check-empty"></i>               | <i class="el el-check-empty"></i>                |
-| Dimmer                                            | <i class="el el-check"></i>                     | <i class="el el-check-empty"></i>                |
-| Aardig berichtje sturen bij binnenkomst kamer     | <i class="el el-check"></i>                     | <i class="el el-check"></i>                      |
-| Geschiedenis van energieverbruik                  | <i class="el el-check-empty"></i>               | <i class="el el-check-empty"></i>                |
-| Integratie met Toon                               | <i class="el el-check-empty"></i>               | <i class="el el-check-empty"></i>                |
-| Apparaatherkenner                                 | <i class="el el-check-empty"></i>               | <i class="el el-check-empty"></i>                |
-| Schakelen zonder registratieproces                | <i class="el el-check-empty"></i>               | <i class="el el-check-empty"></i>                |
-| Integratie met BLE thermostaatknoppen             | <i class="el el-check-empty"></i>               | <i class="el el-check-empty"></i>                |
-| Meerdere gebruikers (niemand in het donker)       | <i class="el el-check-empty"></i>               | <i class="el el-check-empty"></i>                |
+| Functie                                           | Status Software                                  | 
+| ---                                               | ---                                              |
+| Schakelaar                                        | <i class="el el-check"></i>                      |
+| Instantaan energieverbruik                        | <i class="el el-check"></i>                      |
+| Reageren op heel dichtbij zijn (tap-to-toggle)    | <i class="el el-check"></i>                      |
+| Reageren op dichtbij zijn (presentie)             | <i class="el el-check"></i>                      |
+| Reageren op aanwezigheid per kamer                | <i class="el el-check"></i>                      |
+| Door gebruiker gecontrolleerde data upload        | <i class="el el-check"></i>                      |
+| Verzenden van commando's vanaf het internet       | <i class="el el-check"></i>                      |
+| Visualiseren van andere gebruikers in de app      | <i class="el el-check"></i>                      |
+| Tijdschakelaar                                    | <i class="el el-check"></i>                      |
+| Dimmer                                            | <i class="el el-check"></i>                      |
+| Aardig berichtje sturen bij binnenkomst kamer     | <i class="el el-check"></i>                      |
+| Alarmlicht                                        | <i class="el el-check-empty"></i>                |
+| Geschiedenis van energieverbruik                  | <i class="el el-check-empty"></i>                |
+| Integratie met Toon                               | <i class="el el-check"></i>                      |
+| Integratie met Alexa                              | <i class="el el-check"></i>                      |
+| Integratie met Homey                              | <i class="el el-check-empty"></i>                |
+| Apparaatherkenner                                 | <i class="el el-check-empty"></i>                |
+| Schakelen zonder registratieproces                | <i class="el el-check-empty"></i>                |
+| Integratie met BLE thermostaatknoppen             | <i class="el el-check-empty"></i>                |
+| Meerdere gebruikers (niemand in het donker)       | <i class="el el-check-empty"></i>                |
 
 Op deze roadmap staan nog veel meer taken die al zijn gepland, van het integreren met Alexa tot en met het configureren van scenes.
 
