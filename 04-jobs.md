@@ -143,6 +143,8 @@ It is possible to infer from Bluetooth disturbances alone that there are people 
 {% include snippets/row-begin %}
 {% include snippets/column-begin colsize="12" %}
 
+Note that if a graduation position has been taken, this does not mean that all corresponding problems have been solved. These are multifaceted problems that require a lot of people to tackle. If something captures your interest, you should get in contact!
+
 ## Hall of fame
 
 We had many master students graduating over the years. We had the pleasure to always work with people who have ambition and who proved that by their high grades! Anne will help you further if you are not certain if something fits or you require more information.

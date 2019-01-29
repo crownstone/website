@@ -144,6 +144,8 @@ It is possible to infer from Bluetooth disturbances alone that there are people 
 {% include snippets/row-begin %}
 {% include snippets/column-begin colsize="12" %}
 
+Als een bepaalde afstudeeropdracht al is vervuld, betekent dit niet dat alle problematiek is geadresseerd. Dit zijn zeer complexe problemen die contributies van meerdere mensen nodig hebben. Als iets je interesse heeft gewekt, neem contact op!
+
 ## Hall of fame
 
 We hebben veel masterstudenten gehad over de loop der jaren die zijn afgestudeerd bij ons, ons zusterbedrijf DoBots, of ons moederbedrijf Almende. We hebben altijd met veel plezier gewerkt met mensen die ambitieus zijn en de cijfers voor het afstuderen bewijzen dit ook wel! Anne zal je verder helpen als je niet zeker bent van iets of meer informatie nodig hebt.
