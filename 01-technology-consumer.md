@@ -190,3 +190,5 @@ You can vote for it [on trello](https://trello.com/b/6rUcIt62/crownstone-transpa
 
 {% include snippets/column-end %}
 {% include snippets/row-end %}
+
+{% include snippets/bottom-margin %}

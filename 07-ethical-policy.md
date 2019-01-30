@@ -54,3 +54,5 @@ If Crownstones servers should be hacked, this will be reported to the authoritie
 
 We do have internal controls in place, but you should not just take our word for it. For now, there are no independent auditors yet in The Netherlands which would be able to comment on the implementation of our policies. Hence, please feel free to recommend an organization to us that would be able to fulfill this role.
 
+{% include snippets/bottom-margin %}
+

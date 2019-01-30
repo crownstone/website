@@ -98,3 +98,4 @@ If our store is acquired or merged with another company, your information may be
 <script type="text/javascript">/*<![CDATA[*/var a=new Array("{{ site.contact-team.email[0] }}", "{{ site.contact-team.email[1] }}", "{{ site.contact-team.email[2] }}", "{{ site.contact-team.email[3] }}", "{{ site.contact-team.email[4] }}", "{{ site.contact-team.email[5] }}");document.write("<a href='mailto:");for(i=a.length-1;i>=0;i--){document.write(a[i])}document.write("?subject=Crownstone Team'>team@crownstone.rocks</a>");/*]]>*/</script>
 or by mail at Crownstone, {{ site.company.address }}.</p>
 
+{% include snippets/bottom-margin %}

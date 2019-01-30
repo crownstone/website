@@ -67,3 +67,4 @@ hardware for this!
 
 * You've free access to an [archive of past issues](http://us10.campaign-archive2.com/home/?u=d03baf337210e326a61dc14d5&id=a23d3e9ded) as well. Read up on fancy, but energy hungry light bulbs or how Bluetooth Low Energy messages are actually constructed for example.
 
+{% include snippets/bottom-margin %}

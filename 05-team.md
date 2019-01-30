@@ -282,3 +282,4 @@ Really, go there! :-) There is lot of interesting research and perhaps software 
 {% include snippets/column-end %}
 {% include snippets/row-end %}
 
+{% include snippets/bottom-margin %}

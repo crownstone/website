@@ -284,6 +284,11 @@ div.videoContainer.sm { min-width:723px; }
   border-top: 1px solid #d2d2d2;
 }
 
+.bottom-margin {
+  margin: 0px 0 40px 0; 
+  border-top: 0px;
+}
+
 /* Google maps
  */
 #map {

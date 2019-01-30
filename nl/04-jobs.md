@@ -158,3 +158,5 @@ Voorbeelden van bedrijven waar onze afstudeerders zijn terechtgekomen zijn techn
 {% include snippets/column-end %}
 {% include snippets/row-end %}
 
+{% include snippets/bottom-margin %}
+

@@ -136,3 +136,5 @@ We reserve the right, at our sole discretion, to update, change or replace any p
 Questions about the Terms of Service should be sent to us at 
 <script type="text/javascript">/*<![CDATA[*/var a=new Array("{{ site.contact-team.email[0] }}", "{{ site.contact-team.email[1] }}", "{{ site.contact-team.email[2] }}", "{{ site.contact-team.email[3] }}", "{{ site.contact-team.email[4] }}", "{{ site.contact-team.email[5] }}");document.write("<a href='mailto:");for(i=a.length-1;i>=0;i--){document.write(a[i])}document.write("?subject=Crownstone Team'>team@crownstone.rocks</a>");/*]]>*/</script>.
 </p>
+
+{% include snippets/bottom-margin %}

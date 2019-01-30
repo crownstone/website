@@ -62,4 +62,5 @@ We werken hard aan het toevoegen van alle features die beantwoorden aan onze vis
 [roadmap](https://trello.com/b/6rUcIt62/crownstone-transparent-product-roadmap)
 en er ook op stemmen!
 
+{% include snippets/bottom-margin %}
 

@@ -62,3 +62,4 @@ There are many challenges ahead, integration with IoT platforms, new features in
 
 {% include snippets/email subject="Software developer inquiry" prefix="You can reach us at " postfix="." %}
 
+{% include snippets/bottom-margin %}
