@@ -105,7 +105,7 @@ Onderstaande opdrachten zijn in het Engels geformuleerd.
 
 Crownstones can not only operate as iBeacons, but also as scanning devices that can localize anything that sends out BLE messages, such as wearables (Apple Watch, Fitbit, Jawbone, but also special watches carried by people with dementia). Localization of these devices is very challenging!
 
-{% include snippets/internship-end taken="true" urlpdf="https://docs.google.com/document/d/1As9rY5-jWdyDmgVhuye1kmyxPMGYe_1rT4Cdgg-p_J0/export?format=pdf" %}
+{% include snippets/internship-end urlpdf="https://docs.google.com/document/d/1As9rY5-jWdyDmgVhuye1kmyxPMGYe_1rT4Cdgg-p_J0/export?format=pdf" %}
 
 
 
@@ -125,7 +125,7 @@ Crownstones can monitor machines, tools, appliances. This allows them to recogni
 
 Crownstones can distinghuish devices based on a "footprint" of current and voltage levels over time. To do this properly advanced machine learning is required, hence deep learning!
 
-{% include snippets/internship-end taken="true" urlpdf="https://docs.google.com/document/d/1_KFARtHk35xYPuTZ0ELSSYMtzJwtzKnauewwFsbddAk/export?format=pdf" %}
+{% include snippets/internship-end urlpdf="https://docs.google.com/document/d/1_KFARtHk35xYPuTZ0ELSSYMtzJwtzKnauewwFsbddAk/export?format=pdf" %}
 
 
 {% include snippets/internship-begin %}
@@ -134,7 +134,7 @@ Crownstones can distinghuish devices based on a "footprint" of current and volta
 			
 It is possible to infer from Bluetooth disturbances alone that there are people around, magic! If you want to learn a lot about state-of-the-art signal processing, this is your internship!
 
-{% include snippets/internship-end taken="true" urlpdf="https://docs.google.com/document/d/1ueT68ln1fLUbdVk4uW5Ohai09G7xjJr3o504Dlv_J2U/export?format=pdf" %}
+{% include snippets/internship-end urlpdf="https://docs.google.com/document/d/1ueT68ln1fLUbdVk4uW5Ohai09G7xjJr3o504Dlv_J2U/export?format=pdf" %}
 
 {% include snippets/row-end %}
 
