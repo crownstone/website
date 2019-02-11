@@ -35,7 +35,7 @@ We are proud to release our new and improved builtin Crownstone. Stay up to date
 	<label for="mce-LNAME">Last Name </label>
 	<input type="text" value="" name="LNAME" class="" id="mce-LNAME">
 </div>
-<!-- <p> <a href="https://us10.campaign-archive.com/home/?u=d03baf337210e326a61dc14d5&id=a23d3e9ded" title="Previous communication">Previous communication.</a></p> -->
+<!-- https://us10.campaign-archive.com/home?u=d03baf337210e326a61dc14d5&amp;id=2f6334dba1 -->
 	<div id="mce-responses" class="clear">
 		<div class="response" id="mce-error-response" style="display:none"></div>
 		<div class="response" id="mce-success-response" style="display:none"></div>
