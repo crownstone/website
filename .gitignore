@@ -15,6 +15,7 @@ Thumbs.db
 .rvmrc
 
 .env
+.jekyll-cache
 
 # The scripts to create blog posts, or deploy the site
 # If you want them, give a yell!
@@ -27,3 +28,5 @@ attachments/hogeschool_rotterdam
 .idea/*
 
 /*.sh
+
+package-lock.json
