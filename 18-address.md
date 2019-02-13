@@ -46,3 +46,4 @@ For questions regarding offers, quotes, invoices, and other financial informatio
 phone: 
 <a href="tel:{{ site.company.phone_international }}">{{ site.company.phone_international }}</a> / {{ site.company.phone_local }}
 
+{% include snippets/bottom-margin %}

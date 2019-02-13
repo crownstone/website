@@ -29,7 +29,7 @@ title: CSS stylesheet
  * 
  * gray           accents                           #f6f6f6
  * light blue     hovering menu item                #007cc3
- * almost black   placeholder text                  #1c1d1d
+ * almost black   placeholder text                  #1c1d1d (opacity 0.4)
  * gray text      text in footer (blue bckgrnd)     #dddddd
  *
  * Fonts:
@@ -577,8 +577,18 @@ a.button-link:active {
 #mc_embed_signup .mc-field-group.input-group label {display:inline;}
 #mc_embed_signup .mc-field-group.input-group input {display:inline; width:auto; border:none;}
 
-#mc_embed_signup div#mce-responses {float:left; top:-1.4em; padding:0em .5em 0em .5em; overflow:hidden; width:90%; margin: 0 5%; clear: both;}
-#mc_embed_signup div.response {margin:1em 0; padding:1em .5em .5em 0; font-weight:bold; float:left; top:-1.5em; z-index:1; width:80%;}
+#mc_embed_signup div#mce-responses {
+  float:left; top:-1.4em; padding:0em .5em 0em .5em; overflow:hidden; width:90%; margin: 0 5%; clear: both;
+  color: #ff8400;
+}
+#mc_embed_signup div.response {
+  margin:1em 0; padding:1em .5em .5em 0; font-weight:bold; float:left; top:-1.5em; z-index:1; width:80%;
+}
+#mc_embed_signup div.response a {
+  color: #ff8400;
+  font-style: italic;
+}
+
 #mc_embed_signup #mce-error-response {display:none;}
 #mc_embed_signup #mce-success-response {color:#529214; display:none;}
 #mc_embed_signup label.error {display:block; float:none; width:auto; margin-left:1.05em; text-align:left; padding:.5em 0;}
@@ -598,15 +608,18 @@ a.button-link:active {
   margin-top: 60px 
 }
 
-/*
 .newsletter {
+  padding: 40px 0px 80px 20px;
+}
+
+.newsletter.bottom {
   background-color: #f6f6f6;
   padding: 30px 0;
-}*/
+}
 
 @media screen and (min-width: 591px) {
-  .newsletter {
-    padding:60px 0
+  .newsletter.bottom {
+    padding: 60px 0
   }
 }
 
@@ -627,22 +640,22 @@ a.button-link:active {
   appearance: textfield;
 }
 
-.newsletter .newsletter__input::-webkit-input-placeholder {
+.newsletter.bottom .newsletter__input::-webkit-input-placeholder {
   color: #1c1d1d;
-  opacity: 1
+  opacity: 0.4
 }
 
-.newsletter .newsletter__input:-moz-placeholder {
+.newsletter.bottom .newsletter__input:-moz-placeholder {
   color: #1c1d1d;
-  opacity: 1
+  opacity: 0.4
 }
 
-.newsletter .newsletter__input::-moz-placeholder {
+.newsletter.bottom .newsletter__input::-moz-placeholder {
   color: #1c1d1d;
-  opacity: 1
+  opacity: 0.4
 }
 
-.newsletter .newsletter__input:-ms-input-placeholder {
+.newsletter.bottom .newsletter__input:-ms-input-placeholder {
   color: #1c1d1d;
 }
 
@@ -803,9 +816,24 @@ a.button-link:active {
   border-color: transparent;
 }
 
-.newsletter .input-group .input-group-field {
+.newsletter.bottom .input-group .input-group-field {
   height: 45px;
   width: 100%;
+  font-size: 100%;
+}
+
+.newsletter.bottom .input-group .input-group-addon,
+.newsletter.bottom .input-group .input-group-addon * {
+  border: none;
+  background-color: transparent;
+}
+
+.newsletter.bottom .input-group .input-group-btn > * {
+  white-space: nowrap;
+}
+
+.newsletter.bottom .newsletter__input {
+  font-size: 100%;
 }
 
 .hall-of-fame {

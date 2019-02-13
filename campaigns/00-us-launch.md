@@ -5,6 +5,7 @@ header: Our first US customers!
 group: []
 keywords: [Crownstone, US Launch, United States, 110V, American, North-America, International]
 social-image: images/backgrounds/us-launch-builtin-crownstone.jpg
+skip-newsletter: true
 permalink: campaigns/us-launch/
 ---
 {% include JB/setup %}

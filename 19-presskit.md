@@ -178,3 +178,4 @@ Q. What is the protocol used by the Crownstone?
 
 A. The Crownstone uses Bluetooth Low Energy. This technology is directly available on a contemporary smartphone. The Crownstones can directly be controlled from your smartphone without the need for a hub. Moreover, the location of your smartphone can be used to turn off devices when you leave a room or turn on the lights when you enter a room. 
 
+{% include snippets/bottom-margin %}

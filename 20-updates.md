@@ -15,3 +15,5 @@ You can find previous updates from the Crownstone team [online](https://us10.cam
 Our updates are on a variety of topics all related to home automation, energy, and internet of things. Even if you are not interested in Crownstone technology in particular, it might be a nice read! 
 
 To sign up for our newsletter, just click subscribe at the bottom! 
+
+{% include snippets/bottom-margin %}

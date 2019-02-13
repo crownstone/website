@@ -5,6 +5,7 @@ header: Smart Home for a Monthly Subscription!
 group: []
 keywords: [Crownstone, subscription, monthly subscription, smart home, smart home as a service, including installation]
 social-image: images/backgrounds/us-launch-builtin-crownstone.jpg
+skip-newsletter: true
 permalink: campaigns/subscription/
 ---
 {% include JB/setup %}

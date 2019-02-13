@@ -173,6 +173,11 @@
 <!-- markdown wrapper -->
 {% endif %}
 
+{% if page.skip-newsletter %}
+{% else %}
+{% include snippets/newsletter %}
+{% endif %}
+
 <div class="footer">
     <br />
     <div class="container">
