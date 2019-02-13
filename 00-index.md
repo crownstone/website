@@ -13,6 +13,8 @@ permalink: /
 
 {% include JB/setup %}
 
+{% include snippets/orange-top-bar url='https://www.realiseerjedroomhuis.nl/crownstone' text='Visit us at the largest fair on building your own home,' urltext='Beurs Eigen Huis' %}
+
 {% include snippets/video-banner video='/clips/intro' placeholder='/attachments/crownstone_in_living_room.jpg' alt="Crownstone in a living room" %}
 
 {% include snippets/row-begin %}

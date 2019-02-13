@@ -17,10 +17,6 @@ Thumbs.db
 .env
 .jekyll-cache
 
-# The scripts to create blog posts, or deploy the site
-# If you want them, give a yell!
-scripts/
-
 assets/resized
 
 attachments/hogeschool_rotterdam

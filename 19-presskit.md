@@ -41,7 +41,10 @@ Social media:
 
 International:
 
+* "Sockets and Light Switches Follow You in House with Crownstone", 2019, [Smarthome Magazine](https://smarthomemagazine.net/sockets-and-light-switches-follow-you-in-house-with-crownstone/)
 * "Crownstone Plugs für Indoor Localization und Building Automation", 2018, [Home & Smart](https://www.homeandsmart.de/crownstone-plug-indoor-localisation).
+* "CES 2018: Tech Preview of the Show's Coolest New Products", 2018, [BBC News](https://www.bbc.com/news/technology-42574569)
+* "Crownstone: Plug-and-play indoor positioning", 2017 [ENGIE](https://innovation.engie.com/en/news/news/smart-buildings/crownstone-plug-and-play-indoor-positioning/8237)
 * "Indoor localization with the Internet of Things", 2017, [shared press release together with EnOcean](https://crownstone.rocks/attachments/PressReleaseCrownstoneEnOcean.pdf).
 * "Crownstone takes home automation beyond Alexa", Cate Lawrence, 2016, [readwrite.com](https://readwrite.com/2016/05/16/crownstones-go-beyond-voice-home-alexa-vt4/).
 * "Crownstone, the Smart Power Outlet that Uses Indoor Location", Ludovic Privat, 2015, [gpsbusinessnews](http://www.gpsbusinessnews.com/Crownstone-the-Smart-Power-Outlet-That-Uses-Indoor-Location_a5668.html).
@@ -50,6 +53,8 @@ International:
 
 National:
 
+* "CES round-up: Wat brengt 2019 op het gebied van smarthome?", 2019, [FWD Magazine](https://www.smarthomemagazine.nl/2019/01/ces-round-up-wat-brengt-2019-op-het-gebied-van-smarthome/)
+* "Stopcontacten en lichtschakelaars kunnen je in huis volgen met Crownstone", 2019, [FWD Magazine](https://www.smarthomemagazine.nl/2019/01/stopcontacten-en-lichtschakelaars-kunnen-je-in-huis-volgen-met-crownstone/)
 * "Als een smart plug niet smart genoeg is, dan ontwerpen we er zelf maar een", 2017, [FWD Magazine](https://www.ced.group/nl-NL/Nieuws/FWD-Magazine).
 * "Nederlandse start-up introduceert module om stopcontacten slim te maken", Olaf van Miltenburg, 2015, [Tweakers](https://tweakers.net/nieuws/105284/nederlandse-start-up-introduceert-module-om-stopcontacten-slim-te-maken.html).
 * "Rotterdammers lanceren 'slim' stopcontact Crownstone", 2015, [nu.nl](http://www.nu.nl/gadgets/4126449/rotterdammers-lanceren-slim-stopcontact-crownstone.html).
@@ -136,17 +141,24 @@ The [logos (zip)]({{ site.url }}/attachments/logos-on-website.zip) can be downlo
 
 ![Crownstone at CES]({{ site.url }}/attachments/engie-crownstone.jpeg "Crownstone at CES"){: style="width:40%" .float-right}
 
+* [Beurs Eigen Huis](https://www.realiseerjedroomhuis.nl/crownstone/), Mar. 15-17, 2019
+* [CES 2019](https://ces19.mapyourshow.com/7_0/exhibitor/exhibitor-details.cfm?ExhID=T0000336), Consumer Electronics Show, Las Vegas, Jan. 8-11, 2019
+* CES Unveiled, Amsterdam, Sep. 27, 2018
 * Maatschap [The Future Group](https://www.the-future-group.com/), May 22, 2018
 * Hannover Messe, Hannover, Apr. 23-27, 2018
 * Building Holland, Amsterdam, May 17-19, 2018
-* CES, Consumer Electronics Show, Las Vegas, Jan. 8-12, 2018
+* CES 2018, Consumer Electronics Show, Las Vegas, Jan. 8-12, 2018
 * Schneider Electric, Amsterdam, Nov. 30, 2017
 
 ## Meetups
 
-At Crownstone we organize a bimonthly [Smart Home & Bluetooth Hackerspace](https://www.meetup.com/Smart-Home-Bluetooth-Hackerspace/) meetup. The topic is slightly different each time, mostly concentrating on integrating other technology within the Crownstone positioning system.
+At Crownstone we organize a [Smart Home & Bluetooth Hackerspace](https://www.meetup.com/Smart-Home-Bluetooth-Hackerspace/) meetup. The topic is slightly different each time, mostly concentrating on integrating other technology within the Crownstone positioning system.
 
-* Smart Home Meetup - Homey, Jun. 1, 2018
+## Investors
+
+* [Rockstart](https://www.rockstart.com/startups/crownstone/)
+* [Almende Investments](https://almende-investments.com/crownstone/)
+* Overview at [Crunchbase](https://www.crunchbase.com/organization/crownstone)
 
 ## Frequently asked questions
 
