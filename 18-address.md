@@ -46,4 +46,12 @@ For questions regarding offers, quotes, invoices, and other financial informatio
 phone: 
 <a href="tel:{{ site.company.phone_international }}">{{ site.company.phone_international }}</a> / {{ site.company.phone_local }}
 
+# Directions within the building
+
+To find the Crownstone office in the "Groothandelsgebouw", enter through the main entrance. Here, follow the 
+directions for "Kleinhandel". This means, go to the first floor (there is a staircase next to the elevators).
+On the first floor, the entrance to Kleinhandel is to the left with a door that opens automatically. Follow the
+corridor all the way to the back of the building (you will pass several doors). Almost at the back of the building
+you will see the Crownstone office at the right.
+
 {% include snippets/bottom-margin %}

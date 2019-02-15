@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Email Updates
+title: Fun Newsletter!
 header: Get to know everything about Smart Home tech!
 group: [navigation-action-footer]
 keywords: [Crownstone, newsletter, updates, smart home updates, subscription]

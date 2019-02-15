@@ -84,6 +84,7 @@ h3, h4, h5, h6, .h3, .h4, .h5, .h6 {
 
 .accent, .accent * {
   color: #ff8400 !important;
+  font-weight: bold;
 }
 
 /** To overwrite theme settings of shopify theme **/

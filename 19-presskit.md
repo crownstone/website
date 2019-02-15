@@ -43,6 +43,7 @@ International:
 
 * "Sockets and Light Switches Follow You in House with Crownstone", 2019, [Smarthome Magazine](https://smarthomemagazine.net/sockets-and-light-switches-follow-you-in-house-with-crownstone/)
 * "Crownstone Plugs für Indoor Localization und Building Automation", 2018, [Home & Smart](https://www.homeandsmart.de/crownstone-plug-indoor-localisation).
+* "Switch to a Smarter Future", 2018, [Hannover Messe](https://www.hannovermesse.de/en/news/news-details_80642-504194.xhtml)
 * "CES 2018: Tech Preview of the Show's Coolest New Products", 2018, [BBC News](https://www.bbc.com/news/technology-42574569)
 * "Crownstone: Plug-and-play indoor positioning", 2017 [ENGIE](https://innovation.engie.com/en/news/news/smart-buildings/crownstone-plug-and-play-indoor-positioning/8237)
 * "Indoor localization with the Internet of Things", 2017, [shared press release together with EnOcean](https://crownstone.rocks/attachments/PressReleaseCrownstoneEnOcean.pdf).
@@ -143,7 +144,7 @@ The [logos (zip)]({{ site.url }}/attachments/logos-on-website.zip) can be downlo
 
 * [Beurs Eigen Huis](https://www.realiseerjedroomhuis.nl/crownstone/), Mar. 15-17, 2019
 * [CES 2019](https://ces19.mapyourshow.com/7_0/exhibitor/exhibitor-details.cfm?ExhID=T0000336), Consumer Electronics Show, Las Vegas, Jan. 8-11, 2019
-* CES Unveiled, Amsterdam, Sep. 27, 2018
+* [CES Unveiled](https://www.ces.tech/Events-Programs/CES-Unveiled/Amsterdam/Exhibitors.aspx), Amsterdam, Sep. 27, 2018
 * Maatschap [The Future Group](https://www.the-future-group.com/), May 22, 2018
 * Hannover Messe, Hannover, Apr. 23-27, 2018
 * Building Holland, Amsterdam, May 17-19, 2018
