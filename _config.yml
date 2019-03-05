@@ -6,11 +6,12 @@ relative_permalinks: false
 
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", "Gemfile","Gemfile.lock","Procfile","vendor",
   "build.sh", "run.sh", "deploy.sh", ".gitignore", "_site", ".jekyll-cache", ".sass-cache"]
+
 highlighter: rouge
 
 languages: ["en", "nl"]
 default_lang: "en"
-exclude_from_localization: ["javascript", "images", "css"]
+exclude_from_localization: ["javascript", "images", "css", "scripts", "nl/attachments/brochures/*"]
 parallel_localization: true
 
 # Safe mode disables all custom plugins
@@ -25,7 +26,7 @@ title : Crownstone
 tagline: "Crownstone: Your Presence Makes a Difference"
 author :
   name : Crownstone B.V.
-  email : team@crownstone.rocks
+  email : ask@crownstone.rocks
   github : crownstone
 
 company : 

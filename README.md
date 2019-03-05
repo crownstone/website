@@ -131,6 +131,10 @@ The information for the different plugins is stored in an `.env` file which is n
 
 Write here your own keys to get the analytics and use embedly (although the latter I found not so convenient in the end, requiring paid subscriptions already after showing a movie only several times).
 
+### Localization
+
+Added as plugin in Gemfile: [polyglot](https://github.com/untra/polyglot).
+
 ## Deploy
 
 The "source code" for the website is required before you can uploaded the compiled website:
