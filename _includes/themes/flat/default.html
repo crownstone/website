@@ -274,6 +274,11 @@
                                         <i class="el el-arrow-down footer"></i>Press
                                     </a>
                                 </li>
+                                <li>
+                                   <a href="#" onclick="load_tawk();return false;" class="footer">
+                                        <i class="el el-question footer"></i>Chat
+                                    </a>
+                                </li>
                             </ul>
                         </div>
                     </div>
@@ -331,15 +336,23 @@
 {% if page.layout != 'post' %}
 <!--Start of Tawk.to Script-->
 <script type="text/javascript">
-var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
-(function(){
-var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
-s1.async=true;
-s1.src='https://embed.tawk.to/565d82718c0c22d759259aee/default';
-s1.charset='UTF-8';
-s1.setAttribute('crossorigin','*');
-s0.parentNode.insertBefore(s1,s0);
-})();
+   var tawk_loaded = false;
+   // load tawk chat window only on demand
+   function load_tawk() {
+      if (!tawk_loaded) {
+         var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+         (function(){
+            var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+            s1.async=true;
+            s1.src='https://embed.tawk.to/565d82718c0c22d759259aee/default';
+            s1.charset='UTF-8';
+            s1.setAttribute('crossorigin','*');
+            s0.parentNode.insertBefore(s1,s0);
+         })();
+         
+//         Tawk_API.maximize();
+      }
+   }
 </script>
 <!--End of Tawk.to Script-->
 {% endif %}
