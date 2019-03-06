@@ -1179,3 +1179,120 @@ p.thought:after {
   display:block;
   max-width: 100%;
 }
+
+.tawk-dummy {
+	outline: currentcolor none medium !important;
+	visibility: visible !important;
+	resize: none !important;
+	box-shadow: none !important;
+	overflow: visible !important;
+	background: transparent none repeat scroll 0% 0% !important;
+	opacity: 1 !important;
+	position: fixed !important;
+	border: 0px none !important;
+	padding: 0px !important;
+	transition-property: none !important;
+	z-index: 1000001 !important;
+	cursor: auto !important;
+	float: none !important;
+	height: 40px !important;
+	min-height: 40px !important;
+	max-height: 40px !important;
+	width: 320px !important;
+	min-width: 320px !important;
+	max-width: 320px !important;
+	border-radius: 0px !important;
+	transform: rotate(0deg) translateZ(0px) !important;
+	transform-origin: 0px center 0px !important;
+	margin: 0px !important;
+	top: auto !important;
+	bottom: 0px !important;
+	right: 10px !important;
+	left: auto !important;
+	display: block !important;
+}
+
+#tawkchat-minified-wrapper {
+	z-index: 999997;
+	cursor: pointer;
+	height: 100%;
+	width: 100%;
+}
+
+#tawkchat-minified-container {
+	margin: 0;
+	border: 0 none;
+	padding: 0;
+	cursor: pointer;
+	z-index: 999999;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	width: auto;
+	height: auto;
+	left: 0;
+	right: 0;
+	border-bottom: 0;
+}
+
+#tawkchat-status-middle {
+	border: 0 none;
+	margin: 0 auto;
+	font-size: 17px;
+	vertical-align: middle;
+	position: absolute;
+	top: 50%;
+	left: 15px;
+	right: 15px;
+	transform: translate(0%,-50%);
+	-webkit-transform: translate(0%,-50%);
+	-moz-transform: translate(0%,-50%);
+	-ms-transform: translate(0%,-50%);
+	-o-transform: translate(0%,-50%);
+	*width: expression(this.parentNode.clientWidth - 20+'px');
+	*top: 0;
+	*position: static;
+	*margin-top: 10px;
+}
+
+#tawkchat-status-icon-container, #tawkchat-status-text-container {
+	display: inline-block;
+	vertical-align: top;
+}
+
+#tawkchat-status-message {
+	border: 0 none;
+	margin: 0 26px 0 0;
+	padding: 0;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	text-align: left;
+	font-size: 17px;
+	*width: expression(this.parentNode.clientWidth+'px');
+	*margin: 0;
+}
+
+#short-message, #maximizeChat, #minimizeChatMinifiedBtn {
+	line-height: 40px;
+}
+
+#short-message {
+	display: inline-block;
+	width: auto;
+	cursor: pointer;
+	font-size: 17px;
+    font-family: Lato;
+}
+
+.theme-background-color {
+  background-color: #ff8400;
+}
+
+.theme-text-color {
+  color: white;
+}
+
+.agent-profile {
+  color: white;
+}
