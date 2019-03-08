@@ -25,7 +25,7 @@ verwacht wat betreft luxe, veiligheid en duurzaamheid! Schrijf je nu in als je m
 <form action="https://rocks.us10.list-manage.com/subscribe/post?u=d03baf337210e326a61dc14d5&amp;id=29d18543b3" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
     <div id="mc_embed_signup_scroll">
 	<h2>Ja, ik wil op de wachtlijst!</h2>
-<div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
+<div class="indicates-required"><span class="asterisk">*</span> velden met sterretje minimaal invullen</div>
 <div class="mc-field-group">
 	<label for="mce-EMAIL">Email <span class="asterisk">*</span>
 </label>
