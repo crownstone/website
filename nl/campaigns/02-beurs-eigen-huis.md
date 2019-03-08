@@ -13,30 +13,30 @@ permalink: campaigns/beurs-eigen-huis/
 
 <div class="container-fluid container-launch" style="background-image: url(/images/backgrounds/beurs-eigen-huis-comfort.jpg);">
 <div class="row">
-<div class="col-xs-12 col-md-6" markdown="1">
+<div class="col-xs-12 col-md-6" markdown="1" style="padding-left: 10%; font-weight: bold">
 
-# Beurs Eigen Huis
+# Ik ben geïnteresseerd in een smart home
 
-Je eigen slimme huis! Kom meer te weten over wat precies voor jouw situatie nodig is! Hoeveel kamers zijn er? 
+Je eigen slimme huis, op maat gemaakt door Crownstone. Kom meer te weten over wat precies voor jouw situatie nodig is! Hoeveel kamers zijn er? 
 Hoeveel stopcontacten? We leiden je door het hele proces om er voor te zorgen dat alles precies zo is als dat je 
-verwacht wat betreft luxe, veiligheid en duurzaamheid!
+verwacht wat betreft luxe, veiligheid en duurzaamheid! Schrijf je nu in als je meer wilt weten over de mogelijkheden!
 
-<div id="mc_embed_signup" class="newsletter">
+<div id="mc_embed_signup" class="newsletter" style="padding:40px 0px 400px 0px">
 <form action="https://rocks.us10.list-manage.com/subscribe/post?u=d03baf337210e326a61dc14d5&amp;id=29d18543b3" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
     <div id="mc_embed_signup_scroll">
-	<h2>Sign up here:</h2>
+	<h2>Ja, ik wil op de wachtlijst!</h2>
 <div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
 <div class="mc-field-group">
-	<label for="mce-EMAIL">Email Address  <span class="asterisk">*</span>
+	<label for="mce-EMAIL">Email <span class="asterisk">*</span>
 </label>
 	<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
 </div>
 <div class="mc-field-group">
-	<label for="mce-FNAME">First Name </label>
+	<label for="mce-FNAME">Voornaam </label>
 	<input type="text" value="" name="FNAME" class="" id="mce-FNAME">
 </div>
 <div class="mc-field-group">
-	<label for="mce-LNAME">Last Name </label>
+	<label for="mce-LNAME">Achternaam </label>
 	<input type="text" value="" name="LNAME" class="" id="mce-LNAME">
 </div>
 <!-- https://us10.campaign-archive.com/home?u=d03baf337210e326a61dc14d5&amp;id=2f6334dba1 -->
