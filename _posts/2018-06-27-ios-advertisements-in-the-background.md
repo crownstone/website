@@ -36,7 +36,8 @@ I've sniffed the packets over the air. You can read the details on [github](http
 
 You see here `02` somewhere surrounded by zeros (preceding `D3` the 8-bit RSSI value).
 Every UUID is one-hot encoded to a bit in this range. This will lead to collisions. You will notice that if you send `1001` by one iPhone and scan for `3333` by another iPhone you will receive the advertisements as if UUID `3333` is sent. 
-Note, there is a lot of nonsense written about this. For example, it is just a regular undirected BLE packet; it is not a scan response. 
+
+Note, you see that this message is sent as a connectable, undirected BLE packet. It is not a scan response. However, this is on iOS 10. On iOS 12 the type of the packet has changed to a scan response. This has quite an impact on the receiving side which now has to send out scan requests. Pity!
 
 # Results
 
