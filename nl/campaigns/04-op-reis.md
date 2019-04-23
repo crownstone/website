@@ -8,7 +8,7 @@ social-image: images/banners/op-reis.jpg
 background-image: op-reis.jpg
 markdown: true
 lang: nl
-permalink: campaigns/op-reis
+permalink: campaigns/opreis
 ---
 {% include JB/setup %}
 
@@ -50,7 +50,7 @@ om in te stellen.
 ## Hoe werkt het?
 
 Het Crownstone systeem bevat individuele blokjes, een soort digitale kroonsteentjes (de naam Crownstone is hiervan
-afgeleid). Deze kunnen net zoals kroonsteentjes worden aangesloten bij een plafondlamp.
+afgeleid). Deze kunnen net zoals kroonsteentjes worden aangesloten bij een plafondlamp. 
 
 <!--
 ## Installatie
@@ -66,7 +66,7 @@ De installatie bij een plafondlamp is te zien in de volgende plaatjes:
 ## Waar kan ik het kopen?
 
 De Crownstones zijn te koop in de [webshop](https://shop.crownstone.rocks/products/built-in-crownstone). Gebruik
-de code `OP_REIS` bij de betaling.
+de code `GERUST_OP_REIS` bij de betaling.
 
 
 <!--
