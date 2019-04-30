@@ -6,7 +6,8 @@ description: "Jobs and internships in internet of things, home automation, smart
 keywords: "job, internship, graduation project, machine learning, artificial intelligence, internet of things, home automation, smart homes"
 kramdown: 
   parse_block_html: true
-background-image: banner-jobs.jpg
+background-image: banner-product-plug.jpg
+banner-caption: "Come join us!"
 group: [navigation, navigation-consumer-footer]
 permalink: jobs/
 ---
