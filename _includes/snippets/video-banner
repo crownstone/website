@@ -10,7 +10,7 @@
 				Your browser doesn't support the video tag.
 			</video>
 			<div class="logoOverlay">
-		</div>
+			</div>
 		</div> 
 		<div class="visible-xs visible-sm">
 			<img class="img-responsive center-block" src="{{ include.placeholder }}" alt="{{ include.alt }}"/>
