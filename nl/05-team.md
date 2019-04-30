@@ -80,16 +80,17 @@ core-team-gallery:
     github: "AlexDM0"
     report:
       title: "Alex heeft een master in natuurkunde en is een sterontwikkelaar. Zijn natuurkunde achtergrond fonkelt soms door in bijvoorbeeld de mooie visualisaties in onze app."
-  - image: "fransdijckmeester.jpg"
-    name: "Frans Dijckmeester"
-    affiliation: "Assistant Financial Controller"
+  - image: "teresavandam.jpg"
+    name: "Teresa van Dam"
+    affiliation: "Business developer"
+    linkedin: "teresa-jacqueline-van-dam-a9386aa1"
     report:
-      title: "Frans verzorgt en automatiseert onze financieen en boekhouding."
+      title: "Teresa heeft een master in data science. Ze zorgt ervoor dat onze product en diensten op de markt komen!"
   - image: "marevandenputte.jpg"
     name: "Mare van den Putte"
     affiliation: "Community Manager"
     report:
-      title: "Mare will make sure you benefit from what we build!"
+      title: "Nu op een sabbatical!"
 ---
 {% include JB/setup %}
 

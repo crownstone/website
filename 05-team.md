@@ -75,16 +75,17 @@ core-team-gallery:
     github: "AlexDM0"
     report:
       title: "Alex has a masters in Applied Physics and is a stellar developer. At times his physics training shows, for example in the beautiful visualizations in our app."
-  - image: "fransdijckmeester.jpg"
-    name: "Frans Dijckmeester"
-    affiliation: "Assistant Financial Controller"
+  - image: "teresavandam.jpg"
+    name: "Teresa van Dam"
+    affiliation: "Business developer"
+    linkedin: "teresa-jacqueline-van-dam-a9386aa1"
     report:
-      title: "Frans streamlines and automates our finances and administration!"
+      title: "Teresa has a masters in Data Science and makes sure that our products and services are embraced by the market!"
   - image: "marevandenputte.jpg"
     name: "Mare van den Putte"
     affiliation: "Community Manager"
     report:
-      title: "Mare might very well be the person through whom you've heard from us!"
+      title: "Currently on a sabbatical! :-)"
 ---
 {% include JB/setup %}
 

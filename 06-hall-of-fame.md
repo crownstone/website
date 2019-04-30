@@ -6,6 +6,10 @@ description: "Hall of fame with former colleagues, graduation students, and inte
 group:
 permalink: hall-of-fame/
 employee-gallery:
+  - image: "fransdijckmeester.jpg"
+    name: "Frans Dijckmeester"
+    title: "Assistant Financial Controller"
+    linkedin: "https://www.linkedin.com/in/frans-dijckmeester-b6b4a5a9/"
   - image: "fijapijpelink.jpg"
     name: "Fija Pijpelink"
     title: "Design/Communication Specialist"
