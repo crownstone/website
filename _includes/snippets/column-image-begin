@@ -1,0 +1,9 @@
+<div class="visible-xs col-md-4 col-sm-4">
+<img class="img-thumbnail usecase" src="{{ include.image }}" />
+</div>
+{% if include.align == "left" %}
+<div class="hidden-xs col-md-4 col-sm-4 hidden-xs">
+  <img class="img-responsive img-rounded usecase" src="{{ include.image }}" />
+</div>
+{% endif %}
+<div class="col-md-8 col-sm-8" markdown="1">
