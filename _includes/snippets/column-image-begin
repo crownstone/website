@@ -1,9 +1,18 @@
+{% if page.debug_comments %}
+<!-- Set variables to be used at closing tags in column-image-end-->
+{% endif %}
+{% if include.style %}
+  {% assign ci-style = include.style %} 
+{% endif %}
+{% assign ci-image = include.image %} 
+{% assign ci-align = include.align %} 
+
 <div class="visible-xs col-md-4 col-sm-4">
-<img class="img-thumbnail usecase" src="{{ include.image }}" />
+<img class="img-thumbnail usecase" src="{{ ci-image }}" style="{{ ci-style }}" />
 </div>
-{% if include.align == "left" %}
+{% if ci-align == "left" %}
 <div class="hidden-xs col-md-4 col-sm-4 hidden-xs">
-  <img class="img-responsive img-rounded usecase" src="{{ include.image }}" />
+  <img class="img-responsive img-rounded usecase" src="{{ ci-image }}" style="{{ ci-style }}" />
 </div>
 {% endif %}
 <div class="col-md-8 col-sm-8" markdown="1">

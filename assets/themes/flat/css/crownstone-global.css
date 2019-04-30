@@ -130,6 +130,11 @@ img {
   max-width: 100%;
 }
 
+/* Override bootstrap default border */
+.img-thumbnail {
+  border: none;
+}
+
 img.topLogo {
   padding: 5px;
   padding-right: 22px;
@@ -209,9 +214,12 @@ div.bannerContainer .white-caption {
  * color then white for the text in the banner. Note that the background-color is inverted. Due to the screen
  * mix-blend-mode everything that is black becomes white and vice versa. The text-shadow rgba(0,0,0,1) similarly
  * becomes white.
+ *
+ * Becomes orange: #007bff
+ * Becomes blue: #ffc1ad
  */
 div.bannerContainer .colored-caption {
-  background-color: #FFC1AD;
+  background-color: #007BFF;
   mix-blend-mode: difference;
   text-shadow: 0 5px 10px rgba(0,0,0,1);
 }
@@ -233,8 +241,14 @@ div.bannerContainer.xs h1 {
 }
 
 
-div.bannerContainer.xl { height:1050px; }
-div.bannerContainer.lg { height:750px; }
+div.bannerContainer.xl { 
+  height:1050px; 
+}
+div.bannerContainer.lg { 
+  height:750px; 
+  border-bottom-width: 11px;
+  border-bottom-color: #ff8400;
+}
 div.bannerContainer.mdlg { height:550px; }
 div.bannerContainer.md { height:450px; }
 div.bannerContainer.sm { height:350px; }
