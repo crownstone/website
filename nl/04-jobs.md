@@ -10,7 +10,7 @@ group: [navigation, navigation-consumer-footer]
 lang: nl
 permalink: jobs/
 background-image: banner-product-plug.jpg
-banner-caption: "Gezellig! :-)"
+banner-caption: "Kom erbij!"
 ---
 {% include JB/setup %}
 
