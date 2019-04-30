@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Werken bij
+title: Banen
 header: Pages
 description: "Banen en afstudeerstages rondom artificial intelligence, smart homes"
 keywords: "baan, afstudeerstage, afstuderen, stage, machine learning, kunstmatige intelligentie, artificial intelligence, internet of things, domotica, smart homes, afstudeeronderzoek, stagiair, master, afstudeeropdracht, bedrijf"
@@ -9,7 +9,8 @@ kramdown:
 group: [navigation, navigation-consumer-footer]
 lang: nl
 permalink: jobs/
-background-image: banner-jobs.jpg
+background-image: banner-product-plug.jpg
+banner-caption: "Gezellig! :-)"
 ---
 {% include JB/setup %}
 

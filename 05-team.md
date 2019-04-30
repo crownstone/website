@@ -7,6 +7,7 @@ keywords: "team, follow us, facebook, twitter, contact, personal, Crownstone"
 kramdown: 
   parse_block_html: true
 background-image: banner-team.jpg
+banner-caption: "Meet us!"
 group: [navigation, navigation-consumer-footer]
 permalink: team/
 custom_css:

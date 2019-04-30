@@ -7,6 +7,7 @@ keywords: "team, volg ons, facebook, twitter, contact, persoonlijk, informatie, 
 lang: nl
 kramdown: 
   parse_block_html: true
+banner-caption: "Ons clubje!"
 background-image: banner-team.jpg
 group: [navigation, navigation-consumer-footer]
 permalink: team/
