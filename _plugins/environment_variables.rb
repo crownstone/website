@@ -3,9 +3,9 @@ module Jekyll
 		# Check also: https://stackoverflow.com/questions/11410611/get-jekyll-configuration-inside-plugin
 		def generate(site)
 			site.config['env'] = ENV['JEKYLL_ENV'] || 'development'
-
-			if site.config['JB']['analytics']['google'] 
-				site.config['JB']['analytics']['google']['tracking_id'] = ENV['GOOGLE_ANALYTICS_KEY'] || 'ga-unknown'
+				
+			if ENV['GOOGLE_ANALYTICS_KEY'] 
+				site.config['JB']['analytics']['google']['tracking_id'] = ENV['GOOGLE_ANALYTICS_KEY'] 
 			end
 		end
 
