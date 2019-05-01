@@ -37,12 +37,15 @@ title: CSS stylesheet
  * LATO medium
  */
 
-/* Default font properties for standard elements */
+/* Default font properties for standard elements 
+ * In bootstrap v4 there are no default options anymore, so change from 2rem and 3.5rem for size and line height
+ * to absolute sizes.
+ */
 
 body, body p, li, th, td, .rte-font {
   font-family: 'LatoLight';
-  font-size: 2.0rem;
-  line-height: 3.5rem;
+  font-size: 20px;
+  line-height: 35px;
 }
 
 body small a {
@@ -93,13 +96,6 @@ h4 {
   text-transform: normal;
 }
 
-.nav > li > a {
-  font-family: 'LatoLight';
-  font-size: 20px;
-  line-height: 25px;
-  padding: 18px 20px 17px 20px;
-}
-
 .dropdown-menu > li > a {
   font-family: 'LatoLight';
 }
@@ -119,11 +115,6 @@ h4 {
 
 .text-bar > a:hover, .text-bar > a:active, .text-bar a:focus {
   font-style: italic;
-}
-
-.navbar-static-top {
-  margin-bottom: 0;
-  border-width: 0px;
 }
 
 img {
@@ -185,20 +176,35 @@ div.logoOverlay {
   pointer-events: none; /* make click through */
 }
 
+div.bannerContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 /*
  * Shifts entire block to 50% and then shift back to center. This can be used to center an absolute element.
  * The absolute positioning is used to create two captions on top of each other, white-caption and colored-caption.
  */
 div.bannerContainer .banner-caption {
+  /*
+   flex-shrink: 0;
+  position: relative;
+  text-align: center;
+  left: 0;
+  right: 0;
+  display: block;
+  margin: 0 auto;
   position: absolute;
   top: 50%;
-  left: 50%;
+  left: 50%;*/
   padding: 0em 2em;
   z-index: 0;
   font-family: Lato;
   font-weight: 1000;
   text-transform: uppercase;
-  transform: translate(-50%, -50%) skew(-20deg);
+  transform: skew(-20deg);
+/*  transform: translate(-50%, -50%) skew(-20deg);*/
 }
 
 /*
@@ -206,7 +212,7 @@ div.bannerContainer .banner-caption {
  */
 div.bannerContainer .white-caption {
   background-color: white;
-  mix-blend-mode: screen;
+  color: #003e52;
 }
 
 /*
@@ -224,8 +230,12 @@ div.bannerContainer .colored-caption {
   text-shadow: 0 5px 10px rgba(0,0,0,1);
 }
 
-div.bannerContainer.lg h1 {
+div.bannerContainer.xl h1 {
   font-size: 6em;
+}
+
+div.bannerContainer.lg h1 {
+  font-size: 4.5em;
 }
 
 div.bannerContainer.md h1 {
@@ -293,19 +303,39 @@ div.bannerContainer.xs { height:180px; }
   color: white;
 }
 
-.navbar-default .navbar-nav > .active > a {
+.navbar {
+  padding: 0 0;
+}
+
+#navbarContents {
+  justify-content: space-between;
+}
+
+.navbar .navbar-light {
+  margin-bottom: 0;
+  border-width: 0px;
+}
+
+.navbar-light .navbar-nav > .active > a {
   background-color: #003e52;
-  color: white;
+  color: white !important;
 }
 
-.navbar-default .navbar-nav > li > a:hover {
+.navbar-light .navbar-nav > li > a:hover {
   background-color: #007cc3;
-  color: white;
+  color: white !important;
 }
 
-.navbar-default .navbar-nav > li > a:focus {
+.navbar-light .navbar-nav > li > a:focus {
   background-color: #007cc3;
-  color: white;
+  color: white !important;
+}
+
+.navbar-nav .nav-link {
+  font-family: 'LatoLight';
+  font-size: 20px;
+  line-height: 25px;
+  padding: 18px 20px 17px 20px !important;
 }
 
 .pull-center {
@@ -561,6 +591,7 @@ a.button-link:active {
 .forget-box .btn-default {
   font: normal 18px/1 "oswaldbold", Helvetica, sans-serif;
   color: #2398d6; 
+  border-color: #ccc;
 }
 
 .forget-box .forget-button {
@@ -683,6 +714,10 @@ a.button-link:active {
 .newsletter.bottom {
   background-color: #f6f6f6;
   padding: 30px 0;
+}
+
+.newsletter.bottom .input-group {
+  flex-wrap: nowrap;
 }
 
 @media screen and (min-width: 591px) {

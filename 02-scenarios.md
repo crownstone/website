@@ -39,7 +39,8 @@ When you leave the room it can be set to turn of a particular outlet. The iron, 
 will be turned off as well.
 In this way, Crownstone can make sure that such appliances only work when you are in the room.
 
-{% include snippets/column-image-end image="/images/scenarios/scenario-iron.jpg" align="right" %}
+{% include snippets/column-image-end %}
+{% include snippets/row-end %}
 
 {% include snippets/row-begin %}
 {% include snippets/column-begin colsize="12" %}

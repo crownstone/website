@@ -1,36 +1,34 @@
 {% if page.background-image %}
 <!-- background-image -->
-<div class="bannerContainer lg visible-lg {{ page.background-image }}" style="background-image: url({{BASE_URL}}/images/banners/{{page.background-image}})">
+<div class="bannerContainer xl d-none d-xl-flex {{ page.background-image }}" style="background-image: url({{BASE_URL}}/images/banners/{{page.background-image}})">
    {% if.page.banner-caption %}
    <div class="banner-caption white-caption">
    <h1>{{page.banner-caption}}</h1>
    </div>
-   <div class="banner-caption colored-caption">
-   <h1>{{page.banner-caption}}</h1>
-   </div>
    {% endif %}
 </div>
-<div class="bannerContainer md visible-md {{ page.background-image }}" style="background-image: url({{BASE_URL}}/images/banners/{{page.background-image}})">
+<div class="bannerContainer lg d-none d-lg-flex d-xl-none {{ page.background-image }}" style="background-image: url({{BASE_URL}}/images/banners/{{page.background-image}})">
    {% if.page.banner-caption %}
    <div class="banner-caption white-caption">
    <h1>{{page.banner-caption}}</h1>
    </div>
-   <div class="banner-caption colored-caption">
-   <h1>{{page.banner-caption}}</h1>
-   </div>
    {% endif %}
 </div>
-<div class="bannerContainer sm visible-sm {{ page.background-image }}" style="background-image: url({{BASE_URL}}/images/banners/{{page.background-image}})">
+<div class="bannerContainer md d-none d-md-flex d-lg-none {{ page.background-image }}" style="background-image: url({{BASE_URL}}/images/banners/{{page.background-image}})">
    {% if.page.banner-caption %}
    <div class="banner-caption white-caption">
    <h1>{{page.banner-caption}}</h1>
    </div>
-   <div class="banner-caption colored-caption">
+   {% endif %}
+</div>
+<div class="bannerContainer sm d-none d-sm-flex d-md-none {{ page.background-image }}" style="background-image: url({{BASE_URL}}/images/banners/{{page.background-image}})">
+   {% if.page.banner-caption %}
+   <div class="banner-caption white-caption">
    <h1>{{page.banner-caption}}</h1>
    </div>
    {% endif %}
 </div>
-<div class="bannerContainer xs visible-xs {{ page.background-image }}" style="background-image: url({{BASE_URL}}/images/banners/{{page.background-image}})">
+<div class="bannerContainer xs d-flex d-sm-none {{ page.background-image }}" style="background-image: url({{BASE_URL}}/images/banners/{{page.background-image}})">
 </div>
 <!-- end background-image -->
 {% endif %}

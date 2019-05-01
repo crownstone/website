@@ -204,7 +204,6 @@ Vind meer fotografisch materiaal, logo's en renders op de pagina met de [persmap
 
 {% include snippets/divider %}
 
-
 {% include snippets/row-begin %}
 {% include snippets/column-begin colsize="12" %}
 
@@ -219,11 +218,9 @@ Het is erg gemakkelijk om met een ieder van ons in contact te komen. Gebruik onz
 {% include snippets/column-end %}
 {% include snippets/row-end no-container-end=true %}
 
-{% include snippets/row-begin no-container-begin=true %}
-
 {% include snippets/subgallery id="core-team-gallery" %}
 
-{% include snippets/row-end %}
+{% include snippets/container-end %}
 
 {% include snippets/divider %}
 
@@ -241,11 +238,9 @@ Berend Olde Rikkert heeft enorme ervaring in de energiesector, bijvoorbeeld bij 
 {% include snippets/column-end %}
 {% include snippets/row-end no-container-end=true %}
 
-{% include snippets/row-begin no-container-begin=true %}
-
 {% include snippets/subgallery id="advisors-gallery" %}
 
-{% include snippets/row-end %}
+{% include snippets/container-end %}
 
 {% include snippets/divider %}
 
@@ -260,11 +255,9 @@ Voel je vrij om onze huidige studenten wat te vragen, dat geeft je ongetwijfeld 
 {% include snippets/column-end %}
 {% include snippets/row-end no-container-end=true %}
 
-{% include snippets/row-begin no-container-begin=true %}
-
 {% include snippets/subgallery id="graduates-gallery" %}
 
-{% include snippets/row-end %}
+{% include snippets/container-end %}
 
 {% include snippets/divider %}
 
@@ -278,11 +271,9 @@ Onze huidige interns oefenen een hele reeks van diverse taken uit. Ze helpen men
 {% include snippets/column-end %}
 {% include snippets/row-end no-container-end=true %}
 
-{% include snippets/row-begin no-container-begin=true %}
-
 {% include snippets/subgallery id="intern-gallery" %}
 
-{% include snippets/row-end %}
+{% include snippets/container-end %}
 
 {% include snippets/divider %}
 

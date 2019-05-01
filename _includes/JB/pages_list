@@ -34,12 +34,12 @@ Usage:
 			{% endif %}
         {% else %}
           	{% if node.permalink == "/search/" %}
-          	<li><a href="{{ BASE_PATH }}{{node.url}}" class="active"><i class="el el-search"></i></a></li>
+          	<li class="nav-item"><a href="{{ BASE_PATH }}{{node.url}}" class="nav-link active"><i class="el el-search"></i></a></li>
           	{% else %}
 				{% if page.url == node.url %}
-				<li class="active"><a href="{{ BASE_PATH }}{{node.url}}" class="active">{{node.title}}</a></li>
+				<li class="nav-item active"><a href="{{ BASE_PATH }}{{node.url}}" class="nav-link active">{{node.title}}</a></li>
 				{% else %}
-				<li class="inactive {{node.markup}}"><a href="{{ BASE_PATH }}{{node.url}}">{{node.title}}</a></li>
+				<li class="nav-item inactive {{node.markup}}"><a href="{{ BASE_PATH }}{{node.url}}" class="nav-link">{{node.title}}</a></li>
 				{% endif %}
       	    {% endif %}
       	{% endif %}

@@ -189,7 +189,6 @@ Find pictures and logos on the [press kit]({{ BASE_PATH }}/presskit) page.
 
 {% include snippets/divider %}
 
-
 {% include snippets/row-begin %}
 {% include snippets/column-begin colsize="12" %}
 
@@ -203,11 +202,9 @@ It is easy to contact each of us individually. Just use our first name and <abbr
 {% include snippets/column-end %}
 {% include snippets/row-end no-container-end=true %}
 
-{% include snippets/row-begin no-container-begin=true %}
-
 {% include snippets/subgallery id="core-team-gallery" %}
 
-{% include snippets/row-end %}
+{% include snippets/container-end %}
 
 {% include snippets/divider %}
 
@@ -222,11 +219,9 @@ At Crownstone we have multiple advisors and experts who help us bring Crownstone
 {% include snippets/column-end %}
 {% include snippets/row-end no-container-end=true %}
 
-{% include snippets/row-begin no-container-begin=true %}
-
 {% include snippets/subgallery id="advisors-gallery" %}
 
-{% include snippets/row-end %}
+{% include snippets/container-end %}
 
 {% include snippets/divider %}
 
@@ -240,11 +235,9 @@ Feel free to contact our master students to get some additional insight into Cro
 {% include snippets/column-end %}
 {% include snippets/row-end no-container-end=true %}
 
-{% include snippets/row-begin no-container-begin=true %}
-
 {% include snippets/subgallery id="graduates-gallery" %}
 
-{% include snippets/row-end %}
+{% include snippets/container-end %}
 
 {% include snippets/divider %}
 
@@ -258,11 +251,9 @@ Our most recent interns, who perform a wide range of tasks. They help people wit
 {% include snippets/column-end %}
 {% include snippets/row-end no-container-end=true %}
 
-{% include snippets/row-begin no-container-begin=true %}
-
 {% include snippets/subgallery id="intern-gallery" %}
 
-{% include snippets/row-end %}
+{% include snippets/container-end %}
 
 {% include snippets/divider %}
 

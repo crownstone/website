@@ -11,8 +11,6 @@ banner-caption: "Wat doet 't?"
 ---
 {% include JB/setup %}
 
-{% include JB/setup %}
-
 {% include snippets/row-begin %}
 {% include snippets/column-begin colsize="12" %}
 
@@ -40,7 +38,8 @@ Als je kinderen in de keuken zijn terwijl je de was aan het doen bent, hoef je j
 Crownstones kunnen er zorg voor dragen dat dit soort apparatuur alleen door jou kan worden aangezet. 
 Als je niet aanwezig bent kan de waterkoker niet worden aangezet. Loop je weg, dan kan je ervoor kiezen dat de waterkoker aan blijft staan of dat deze ook automatisch uit gaat.
 
-{% include snippets/column-image-end image="/images/scenarios/scenario-iron.jpg" align="right" %}
+{% include snippets/column-image-end %}
+{% include snippets/row-end %}
 
 {% include snippets/row-begin %}
 {% include snippets/column-begin colsize="12" %}
@@ -64,7 +63,7 @@ Met de Crownstones kan je inzicht krijgen in je energieverbruik. In de app kan j
 Crownstones kunnen ook herkennen welk apparaat in de Crownstone is gestoken door te kijken naar het energieverbruik over de dag. Het herkent de televisie, de koelkast, etc. dus het weet welk apparaat kan worden uitgeschakeld als je het huis verlaat.
 De Crownstones verschaffen dus niet alleen maar inzicht, maar kunnen apparaten ook uitzetten! Dat bespaart energie en geld!
                     
-{% include snippets/column-image-end image="/images/phoneCouple.jpg" align="left" %}
+{% include snippets/column-image-end %}
 {% include snippets/row-end %}
 
 {% include snippets/divider %}
@@ -116,96 +115,3 @@ Crownstones maken het mogelijk om een huis te hebben dat beantwoord aan je gemoe
 
 {% include snippets/bottom-margin %}
 
-    
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12 col-sm-12">
-                <h1>Alledaags gebruik van de Crownstone</h1>
-                <p>
-                </p>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-4 col-sm-4 col-xs-4">
-                <img class="img-responsive pull-left"  src="{{ BASE_PATH }}/images/plugin_front.jpg">
-            </div>
-            <div class="col-md-4 col-sm-4 col-xs-4">
-                <img class="img-responsive" src="{{ BASE_PATH }}/images/plugin_side.jpg">
-            </div>
-            <div class="col-md-4 col-sm-4 col-xs-4">
-                <img class="img-responsive pull-right" src="{{ BASE_PATH }}/images/builtin.png">
-            </div>
-        </div>
-
-        <hr class="featurette-divider hidden-xs">
-
-        <div class="row">
-            <div class="visible-xs col-md-4 col-sm-4">
-                <img class="img-thumbnail usecase" src="{{ BASE_PATH }}/images/kid.jpg" />
-            </div>
-            <div class="col-md-8 col-sm-8">
-                <h1>Veilig thuis!</h1>
-                <p>
-                </p>
-            </div>
-            <div class="hidden-xs col-md-4 col-sm-4 hidden-xs">
-                <img class="img-responsive img-rounded usecase" src="{{ BASE_PATH }}/images/kid.jpg" />
-            </div>
-        </div>
-        <hr class="featurette-divider">
-        <div class="row">
-            <div class="visible-xs col-md-4 col-sm-4">
-                <img class="img-thumbnail usecase" src="{{ BASE_PATH }}/images/phoneCouple.jpg" />
-            </div>
-            <div class="hidden-xs col-md-4 col-sm-4 hidden-xs">
-                <img class="img-responsive img-rounded usecase" src="{{ BASE_PATH }}/images/phoneCouple.jpg" />
-            </div>
-            <div class="col-md-8 col-sm-8">
-                <h1>Inzicht in energieverbruik en er iets mee doen!</h1>
-                <p>
-                </p>
-            </div>
-        </div>
-        <hr class="featurette-divider">
-        <div class="row">
-            <div class="visible-xs col-md-4 col-sm-4">
-                <img class="img-thumbnail usecase" src="{{ BASE_PATH }}/images/iot.jpg" />
-            </div>
-            <div class="col-md-8 col-sm-8">
-                <h1>Een slim huis met IoT</h1>
-                <p>
-                </p>
-            </div>
-            <div class="hidden-xs col-md-4 col-sm-4 hidden-xs">
-                <img class="img-responsive img-rounded usecase" src="{{ BASE_PATH }}/images/iot.jpg" />
-            </div>
-        </div>
-        <hr class="featurette-divider">
-        <div class="row">
-            <div class="visible-xs col-md-4 col-sm-4">
-                <img class="img-thumbnail usecase" src="{{ BASE_PATH }}/images/oldLady.jpg" />
-            </div>
-            <div class="hidden-xs col-md-4 col-sm-4 hidden-xs">
-                <img class="img-responsive img-rounded usecase" src="{{ BASE_PATH }}/images/oldLady.jpg" />
-            </div>
-            <div class="col-md-8 col-sm-8">
-                <h1>Zorg door patronen te herkennen</h1>
-                <p>
-                </p>
-            </div>
-        </div>
-        <hr class="featurette-divider">
-        <div class="row">
-            <div class="visible-xs col-md-4 col-sm-4">
-                <img class="img-thumbnail usecase" src="{{ BASE_PATH }}/images/comfort.jpg" />
-            </div>
-            <div class="col-md-8 col-sm-8">
-                <h1>Comfort</h1>
-                <p>
-                </p>
-            </div>
-            <div class="hidden-xs col-md-4 col-sm-4 hidden-xs">
-                <img class="img-responsive img-rounded usecase" src="{{ BASE_PATH }}/images/comfort.jpg" />
-            </div>
-        </div>
-    </div>

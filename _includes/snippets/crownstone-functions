@@ -1,5 +1,5 @@
 <div class="container">
-	<div class="row text-center hidden-xs marginTopM">
+	<div class="row text-center marginTopM">
 		<div class="col-md-2 col-sm-2"><img class="img-responsive center-block" src="{{ BASE_PATH }}/images/icons/switch.png" alt="Crownstone switch icon"/>
 			{% if include.lang == "nl" %}
 			<p>Schakelaar</p>
@@ -39,7 +39,7 @@
 			{% endif %}
 		</div>
 	</div>
-	<div class="row text-center visible-xs">
+	<div class="row text-center d-block d-sm-none">
 		<div class="col-xs-2"><img class="img-responsive center-block" src="{{ BASE_PATH }}/images/icons/switch.png" /></div>
 		<div class="col-xs-2"><img class="img-responsive center-block" src="{{ BASE_PATH }}/images/icons/dimming.png" /></div>
 		<div class="col-xs-2"><img class="img-responsive center-block" src="{{ BASE_PATH }}/images/icons/localization.png" /></div>

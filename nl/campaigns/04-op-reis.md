@@ -107,7 +107,9 @@ De installatie bij een plafondlamp is te zien in de volgende plaatjes:
 ## Waar kan ik het kopen?
 
 De Crownstones zijn te koop in de [webshop](https://shop.crownstone.rocks/products/built-in-crownstone). Gebruik
-de code `GERUST_OP_REIS` bij de betaling.
+de code `GERUST_OP_REIS` bij de betaling. Dit betreft de Crownstone One. Deze wordt op dit moment in
+een oplage van 3000 stuks geproduceerd. De levertijd van deze Crownstones is Juni 2019. De korting is geldig
+tot deze datum en zolang de voorraad strekt.
 
 
 <!--

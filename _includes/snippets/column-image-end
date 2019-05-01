@@ -1,9 +1,9 @@
-{% if ci-align == "left" %}
+{% if ci-align == "right" %}
+</div>
+<div class="d-none d-md-block col-md-6 col-sm-12">
+  <img class="img-responsive img-rounded usecase" src="{{ ci-image }}" style="{{ ci-style }}" />
 </div>
 {% else %}
-</div>
-<div class="hidden-xs col-md-4 col-sm-4 hidden-xs">
-  <img class="img-responsive img-rounded usecase" src="{{ ci-image }}" style="{{ ci-style }}" />
 </div>
 {% endif %}
 <!-- image col -->
