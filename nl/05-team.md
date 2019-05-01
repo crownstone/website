@@ -22,6 +22,9 @@ intern-gallery:
   - image: "marcdegroot.jpg"
     name: "Marc de Groot"
     affiliation: "Human Technologies, Techniek College Rotterdam" 
+  - image: "elikruunenberg.jpg"
+    name: "Eli Kruunenberg"
+    affiliation: "Small Business and Retail Management, Hogeschool Utrecht"
 advisors-gallery:
   - image: "hansabbink.jpg"
     name: "Hans Abbink"
