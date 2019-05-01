@@ -305,6 +305,7 @@ div.bannerContainer.xs { height:180px; }
 
 .navbar {
   padding: 0 0;
+  background-color: #f8f8f8;
 }
 
 #navbarContents {
