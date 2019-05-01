@@ -166,7 +166,7 @@ We raden aan om met het openbaar vervoer te komen, het is echt naast het station
 <!-- 9292 widget v1 -->
 <div class="widget">
 <center>
-<a href='//9292.nl/?naar=rotterdam%2Fstationsplein-45' data-9292='widget' data-9292-text='Crownstone' data-9292-ref='rotterdam/stationsplein-45' data-9292-width='290' data-9292-height='550' data-9292-api-key='de198d3c876f29d3ca91379d27873b7d741a86dcf61dcdca60920e38dc45ffee' data-9292-widget-key='3bbbf433cf353c1fca32bb2a9327c8497556f7b27ae6d388ef9e02f195d17667' data-targetblank="on">Plan mijn reis</a>
+<a href='https://9292.nl/?naar=rotterdam%2Fstationsplein-45' data-9292='widget' data-9292-text='Crownstone' data-9292-ref='rotterdam/stationsplein-45' data-9292-width='290' data-9292-height='550' data-9292-api-key='de198d3c876f29d3ca91379d27873b7d741a86dcf61dcdca60920e38dc45ffee' data-9292-widget-key='3bbbf433cf353c1fca32bb2a9327c8497556f7b27ae6d388ef9e02f195d17667' data-targetblank="on">Plan mijn reis</a>
 <script src='//9292.nl/static/js/widget.js'></script>
 </center>
 </div>
