@@ -1,0 +1,12 @@
+<script>
+var focused = true;
+document.addEventListener("visibilitychange", function () {
+  focused = !focused;
+  if (!focused) {
+	  document.getElementById("video").pause();
+  } else {
+	  document.getElementById("video").play();
+  }
+});
+</script>
+
