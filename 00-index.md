@@ -31,22 +31,6 @@ A Crownstone is a switch, a dimmer, a presence detector, and a power monitor, al
 
 {% include snippets/crownstone-functions %}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 {% include snippets/row-begin %}
 
 {% include snippets/column-begin colsize="12" %}
@@ -113,3 +97,4 @@ if you think presence and proximity is indeed gonna be the game changer that we 
 
 {% include snippets/row-end %}
 
+{% include snippets/video-banner-reload %}

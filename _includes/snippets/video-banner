@@ -4,7 +4,7 @@
 <div class="container-fluid">
 	<div class="row">
 		<div class="videoBanner hidden-xs hidden-sm">
-			<video width="100%" muted autoplay loop>
+			<video id="video" width="100%" muted autoplay loop>
 				<source src="{{ include.video }}.webm" type='video/webm'>
 				<source src="{{ include.video }}.mp4" type='video/mp4; codecs="avc1.640028"'>
 				Your browser doesn't support the video tag.
