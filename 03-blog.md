@@ -23,15 +23,13 @@ and subscribe at the bottom of this page if you want to stay on top!
 {% include snippets/column-end %}
 {% include snippets/row-end %}
 
-<section class="gray mini-wrap">
-	<div class="container">
-		<div class="row">
-			<div class="col-xs-12">
-			{% assign posts_collate = site.posts %}
-			{% include JB/posts_collate %}
-			</div>
+<div class="container">
+	<div class="row">
+		<div class="col-xs-12 col-sm-12 col-md-12">
+		{% assign posts_collate = site.posts %}
+		{% include JB/posts_collate %}
 		</div>
 	</div>
-</section>
+</div>
 
 {% include snippets/bottom-margin %}

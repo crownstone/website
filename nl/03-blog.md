@@ -28,15 +28,13 @@ De nieuwsbrief is eveneens in het Engels geschreven, sorry! :-)
 {% include snippets/column-end %}
 {% include snippets/row-end %}
 
-<section class="gray mini-wrap">
-	<div class="container">
-		<div class="row">
-			<div class="col-xs-12">
-			{% assign posts_collate = site.posts %}
-			{% include JB/posts_collate %}
-			</div>
+<div class="container">
+	<div class="row">
+		<div class="col-xs-12 col-sm-12 col-md-12">
+		{% assign posts_collate = site.posts %}
+		{% include JB/posts_collate %}
 		</div>
 	</div>
-</section>
+</div>
 
 {% include snippets/bottom-margin %}
