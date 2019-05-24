@@ -30,7 +30,7 @@ Slowly, however there are are also actuators (things with a motor) attached to
 the smartphone as an add-on. There is for example the [Xappr gun](http://www.xapprgun.com/), the [Vibease
 vibrator](http://www.techinasia.com/vibease-pre-order/), the [Cobra key finder](https://www.cobra.com/detail/cobra-phonetag.cfm) and the
 [bikn](http://www.bikn.com/index.php), the Panasonic [rice cooker](http://www.cnet.com/8301-13553_1-57400077-32/smartphone-talks-to-panasonic-rice-cooker/), several [PTZ IP cameras](http://www.lightinthebox.com/unique-design-h-264-wireless-ptz-ip-camera-smartphone-control-msn-server_p238092.html), numerous helicopters, the [Parrot
-quadrocopter](http://ardrone.parrot.com/parrot-ar-drone/), the
+quadrocopter](https://www.parrot.com/global/drones/parrot-ardrone-20-elite-edition), the
 [sphero](http://www.gosphero.com/), an underwater robot, the Hydroview (3000
 dollar) from Aquabotix, the [Biometerrarium](http://samuelwilkinson.com/biome/), the [Orb music player](http://www.orb.com/en/store.html), etcetera, etcetera.
 
