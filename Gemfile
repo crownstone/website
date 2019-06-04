@@ -9,11 +9,12 @@ gem 'domainatrix'
 group :jekyll_plugins do
 gem 'jekyll-lunr-js-search'
 gem 'jekyll-assets'
-gem "jekyll-polyglot"
+gem 'jekyll-polyglot'
+gem 'jekyll-babel'
 end
 
 gem 'sass'
 gem 'uglifier'
 gem 'rake'
 
-gem "rouge", "~> 3.2"
+gem 'rouge', '~> 3.2'

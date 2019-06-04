@@ -1,8 +1,8 @@
-<div class="panel panel-default">
-<div class="panel-heading">
-<h4 class="panel-title">
+<div class="card">
+<div class="card-heading">
+<h4 class="card-title">
 <a data-toggle="collapse" data-parent="#accordion" href="#{{ include.ref }}">{{ include.question }}</a>
 </h4>
 </div>
-<div id="{{ include.ref }}" class="panel-collapse collapse {{ include.dontcollapse }}">
-<div class="panel-body" markdown="1">
+<div id="{{ include.ref }}" class="card-collapse collapse {{ include.dontcollapse }}">
+<div class="card-body" markdown="1">

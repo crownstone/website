@@ -27,3 +27,5 @@ attachments/hogeschool_rotterdam
 /*.sh
 
 package-lock.json
+
+node_modules

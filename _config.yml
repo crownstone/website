@@ -5,7 +5,7 @@ permalink: /:categories/:year/:month/:day/:title
 relative_permalinks: false
 
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", "Gemfile","Gemfile.lock","Procfile","vendor",
-  "build.sh", "run.sh", "deploy.sh", ".gitignore", "_site", ".jekyll-cache", ".sass-cache"]
+  "build.sh", "run.sh", "deploy.sh", ".gitignore", "_site", ".jekyll-cache", ".sass-cache", "node_modules", ".git"]
 
 highlighter: rouge
 
@@ -79,6 +79,7 @@ kramdown:
 plugins: 
 - 'jekyll-lunr-js-search'
 - 'jekyll-polyglot'
+- 'jekyll-babel'
 
 lunr_search:
   excludes: [rss.xml, atom.xml]

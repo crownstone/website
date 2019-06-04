@@ -49,9 +49,10 @@ task :preview do
   system "jekyll serve -w"
 end # task :preview
 
+# Default target, bundle rake exec will execute this task
 desc "Generate jekyll site"
 task :default do
-  #system "jekyll build --config _config.yml,_config-authors.yml"
+  system "webpack"
   system "jekyll build --config _config.yml,_config-authors.yml"
 end # task :build
 

@@ -1,0 +1,35 @@
+{
+  "name": "crownstone.rocks",
+  "version": "1.0.0",
+  "description": "Crownstone Smart Home",
+  "main": "webpack.config.js",
+  "dependencies": {
+    "babel-core": "^6.26.3",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "react": "^16.8.6",
+    "react-addons-update": "^15.6.2",
+    "react-dom": "^16.8.6",
+    "webpack": "^4.31.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.4",
+    "@babel/preset-env": "^7.4.4",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.6",
+    "webpack-cli": "^3.3.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/crownstone/website.git"
+  },
+  "author": "A.C. van Rossum",
+  "license": "LGPLv3",
+  "bugs": {
+    "url": "https://github.com/crownstone/website/issues"
+  },
+  "homepage": "https://crownstone.rocks"
+}
