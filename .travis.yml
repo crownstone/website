@@ -1,6 +1,8 @@
 before_install:
   - echo 'Run npm install'
   - npm install 
+  - npm install -g webpack-cli
+  - which webpack
 
 deploy:
   provider: pages
