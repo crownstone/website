@@ -33,6 +33,10 @@ advisors-gallery:
     linkedin: "hansabbink"
     twitter: "hans_abbink"
     website: "almende-investments.com/"
+  - image: "antonmontagne.jpg"
+    name: "Anton Montagne"
+    affiliation: "Structured Electronic Designer"
+    website: "analog-electronics.eu"
   - image: "alexanderweisz.jpg"
     name: "Alexander Weisz"
     affiliation: "Business Consultant"
@@ -217,7 +221,9 @@ It is easy to contact each of us individually. Just use our first name and <abbr
 
 # Crownstone Advisors and Experts
 
-At Crownstone we have multiple advisors and experts who help us bring Crownstone to the market. Hans Abbink is a successful entrepreneur and investor in the Rotterdam region under the investment company [Almende Investments](http://almende-investments.com). Alexander Weisz is an expert in management and business development for starting companies such as [Finch Buildings](http://www.finchbuildings.com/en/) and [Quantoz](https://quantoz.com). Berend Olde Rikkert has ample experience in the energy sector, for example at the successful [Quby](https://www.quby.com) company, known from the Eneco Toon and as vice president Energy and Utilities at Capgemini.
+At Crownstone we have multiple advisors and experts who help us bring Crownstone to the market. Hans Abbink is a successful entrepreneur and investor in the Rotterdam region under the investment company [Almende Investments](http://almende-investments.com). 
+Anton Montagne wrote the book on [electronic design](https://www.analog-electronics.eu/Structured-Electronic-Design/structured-electronic-design.html) and teaches at the Technical University Delft.
+Alexander Weisz is an expert in management and business development for starting companies such as [Finch Buildings](http://www.finchbuildings.com/en/) and [Quantoz](https://quantoz.com). Berend Olde Rikkert has ample experience in the energy sector, for example at the successful [Quby](https://www.quby.com) company, known from the Eneco Toon and as vice president Energy and Utilities at Capgemini.
 
 {% include snippets/column-end %}
 {% include snippets/row-end no-container-end=true %}

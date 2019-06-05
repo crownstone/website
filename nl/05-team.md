@@ -32,6 +32,10 @@ advisors-gallery:
     linkedin: "hansabbink"
     twitter: "hans_abbink"
     website: "almende-investments.com/"
+  - image: "antonmontagne.jpg"
+    name: "Anton Montagne"
+    affiliation: "Structured Electronic Designer"
+    website: "analog-electronics.eu"
   - image: "alexanderweisz.jpg"
     name: "Alexander Weisz"
     affiliation: "Business Consultant"
@@ -235,6 +239,7 @@ Het is erg gemakkelijk om met een ieder van ons in contact te komen. Gebruik onz
 
 Crownstone heeft de luxe gebruik te kunnen maken van meerdere adviseurs en experts om onze producten en diensten naar de markt brengen. 
 Hans Abbink is een succesvolle ondernemer en investeerder in de regio Rotterdam met de investeringsmaatschappij [Almende Investments](http://almende-investments.com). 
+Anton Montagne schreef het tekstboek voor [elektronisch ontwerpen](https://www.analog-electronics.eu/Structured-Electronic-Design/structured-electronic-design.html) en doceert aan de Technische Universiteit Delft.
 Alexander Weisz is een expert in management en business development voor startende ondernemingen zoals [Finch Buildings](http://www.finchbuildings.com/) en [Quantoz](https://quantoz.com). 
 Berend Olde Rikkert heeft enorme ervaring in de energiesector, bijvoorbeeld bij het succesvolle [Quby](https://www.quby.com), bekend van de Eneco Toon en als vice president Energy en Utilities bij Capgemini.
 
