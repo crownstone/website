@@ -1,7 +1,8 @@
 <div class="container">
 	<div class="row post-full">
 		<div class="col-md-12">
-			<div class="date">
+			
+			<div class="date d-none d-lg-block">
 				<strong class="date_month">{{ page.date | date: "%-b" }}</strong>
 				<strong class="date_day">{{ page.date | date: "%-d" }}</strong>
 				<strong class="date_year">{{ page.date | date: "%-Y" }}</strong>
@@ -20,12 +21,11 @@
 					{{ content }}
 				</div>
 				
-				<div class="visible-xs visible-sm visible-md">
+				<div class="d-lg-none">
 					<div class="text-date">
 						<p>{{ page.date | date_to_long_string }}</p> 
 					</div>
 				</div>
-
 
 				{% unless page.categories == empty %}
 				<ul class="tag_box inline">
@@ -43,7 +43,6 @@
 					{% include JB/tags_list %}
 				</div>
 				{% endunless %}
-				<hr>
 
 				<div class="social-button-footer">
 					<p>
@@ -55,21 +54,22 @@
 					</p>
 				</div>
 
-
 				<ul class="pagination">
 					{% if page.previous %}
-					<li class="prev"><a href="{{ BASE_PATH }}{{ page.previous.url }}" title="{{ page.previous.title }}">&larr; Previous</a></li>
+					<li class="page-item prev"><a class="page-link" href="{{ BASE_PATH }}{{ page.previous.url }}" title="{{ page.previous.title }}">&larr; Previous</a></li>
 					{% else %}
-					<li class="prev disabled"><a>&larr; Previous</a></li>
+					<li class="page-item prev disabled"><a class="page-link">&larr; Previous</a></li>
 					{% endif %}
-					<li><a href="{{ BASE_PATH }}{{ site.JB.archive_path }}">Archive</a></li>
+					<li class="page-item"><a class="page-link" href="{{ BASE_PATH }}{{ site.JB.archive_path }}">Archive</a></li>
 					{% if page.next %}
-					<li class="next"><a href="{{ BASE_PATH }}{{ page.next.url }}" title="{{ page.next.title }}">Next &rarr;</a></li>
+					<li class="page-item next"><a class="page-link" href="{{ BASE_PATH }}{{ page.next.url }}" title="{{ page.next.title }}">Next &rarr;</a></li>
 					{% else %}
-					<li class="next disabled"><a>Next &rarr;</a>
+					<li class="page-item next disabled"><a class="page-link">Next &rarr;</a>
 					{% endif %}
 				</ul>
+
 				<hr>
+				
 				{% include JB/comments %}
 			</div>
 		</div>

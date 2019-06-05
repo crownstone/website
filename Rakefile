@@ -49,6 +49,11 @@ task :preview do
   system "jekyll serve -w"
 end # task :preview
 
+desc "Run webpack to update bundle.js"
+task :webpack do
+  system "webpack --mode production"
+end # task :webpack
+
 # Default target, bundle rake exec will execute this task
 desc "Generate jekyll site"
 task :default do

@@ -5,7 +5,7 @@ permalink: /:categories/:year/:month/:day/:title
 relative_permalinks: false
 
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", "Gemfile","Gemfile.lock","Procfile","vendor",
-  "build.sh", "run.sh", "deploy.sh", ".gitignore", "_site", ".jekyll-cache", ".sass-cache", "node_modules", ".git"]
+  "build.sh", "run.sh", "deploy.sh", ".gitignore", "_site", ".jekyll-cache", ".sass-cache", "node_modules", ".git", "webpack-src"]
 
 highlighter: rouge
 

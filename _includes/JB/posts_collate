@@ -73,7 +73,7 @@ Usage:
 	<p>{{ post.excerpt }}</p>
 	{% endif %}
 	{% if post.picture %}
-	  <img src="{{ site.url }}/{{ post.picture }}" alt="{{ post.title }}" max-width="40%">
+	  <img src="{{ site.url }}/{{ post.picture }}" alt="{{ post.title }}" width="100%">
 	{% endif %}
   
     {% if forloop.last %}

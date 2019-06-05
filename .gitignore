@@ -28,4 +28,11 @@ attachments/hogeschool_rotterdam
 
 package-lock.json
 
+# Have npm packages in local node_modules
 node_modules
+
+# Will be generated
+assets/themes/flat/js/bundle.js
+
+# Store gems in local vendor folder
+vendor
