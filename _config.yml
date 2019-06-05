@@ -194,6 +194,8 @@ JB :
   #   ./_includes/custom/[HELPER]
   # where [HELPER] is the name of the helper you are overriding. 
 
+inspectlet: true
+
 responsive_image:
   # [Required]
   # Path to the image template.
