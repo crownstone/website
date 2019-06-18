@@ -19,6 +19,10 @@ class App1 extends Component {
  }
 }
 
+render(<App1 />, document.getElementById('nameform'));
+
+/**
+ * If there is no nameform document, it seems the hello component is not rendered either.
+ */
 render(<App />, document.getElementById('hello'));
 
-render(<App1 />, document.getElementById('nameform'));

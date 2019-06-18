@@ -700,6 +700,110 @@ a.button-link:active {
 #mc_embed_signup #mc-embedded-subscribe-form input.mce_inline_error {border:2px solid #e85c41;}
 
 
+/* Forms are just fields in a block display with a label each */
+
+.nameform .button:hover {background-color:#777;}
+.nameform .small-meta {font-size: 11px;}
+.nameform .nowrap {white-space:nowrap;}
+
+.nameform {
+  clear:          left; 
+  position:       relative; 
+  width:          96%; 
+  min-height:     50px;
+  max-width:      520px;
+  padding:        40px 0px 80px 20px;
+}
+
+.nameform .item-group {
+  clear:left; 
+  position:relative; 
+  width:96%; 
+  padding-bottom:3%; 
+  min-height:50px;
+}
+
+.nameform .size1of2 {clear:none; float:left; display:inline-block; width:46%; margin-right:4%;}
+* html .nameform .size1of2 {margin-right:2%; /* Fix for IE6 double margins. */}
+.nameform label {
+  display:block; 
+  margin-bottom:3px;
+  color: white;
+}
+.nameform input {display:block; width:100%; padding:8px 0; text-indent:2%;}
+.nameform select {display:inline-block; width:99%; padding:5px 0; margin-bottom:2px;}
+
+.nameform .indicates-required {
+  text-align:right; 
+  font-size:11px; 
+  /*margin-right:4%; */
+  color: white;
+}
+.nameform .asterisk {color:#e85c41; font-size:150%; font-weight:normal; position:relative; top:5px;}     
+.nameform .clear {clear:both;}
+
+.nameform .input-group ul {margin:0; padding:5px 0; list-style:none;}
+.nameform .input-group ul li {display:block; padding:3px 0; margin:0;}
+.nameform .input-group label {display:inline;}
+.nameform .input-group input {display:inline; width:auto; border:none;}
+
+.nameform div#mce-responses {
+  float:left; top:-1.4em; padding:0em .5em 0em .5em; overflow:hidden; width:90%; margin: 0 5%; clear: both;
+  color: #ff8400;
+}
+.nameform div.response {
+  margin:1em 0; padding:1em .5em .5em 0; font-weight:bold; float:left; top:-1.5em; z-index:1; width:80%;
+}
+.nameform div.response a {
+  color: #ff8400;
+  font-style: italic;
+}
+
+.nameform #mce-error-response {display:none;}
+.nameform #mce-success-response {color:#529214; display:none;}
+.nameform label.error {display:block; float:none; width:auto; margin-left:1.05em; text-align:left; padding:.5em 0;}
+
+#mc-embedded-subscribe {clear:both; width:auto; display:block; margin:1em 0 1em 5%;}
+.nameform #num-subscribers {font-size:1.1em;}
+.nameform #num-subscribers span {padding:.5em; border:1px solid #ccc; margin-right:.5em; font-weight:bold;}
+
+.nameform #mc-embedded-subscribe-form div.mce_inline_error {display:inline-block; margin:2px 0 1em 0; padding:5px 10px; background-color:rgba(255,255,255,0.85); -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; font-size:14px; font-weight:normal; z-index:1; color:#e85c41;}
+.nameform #mc-embedded-subscribe-form input.mce_inline_error {border:2px solid #e85c41;}
+
+.nameform .button {
+  padding: 8px 10px;
+  margin: 0;
+  width: auto;
+  line-height: 1.42;
+  text-decoration: none;
+  text-align: center;
+  vertical-align: middle;
+  white-space: normal;
+  cursor: pointer;
+  border: 1px solid transparent;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  border-radius: 0;
+  background-color: #ff8400;
+  color: white;
+  -webkit-transition: background-color 0.4s ease-out;
+  -moz-transition: background-color 0.4s ease-out;
+  -ms-transition: background-color 0.4s ease-out;
+  -o-transition: background-color 0.4s ease-out;
+  transition: background-color 0.4s ease-out
+  font-size: 14;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: 0.1em; 
+  text-transform: uppercase;
+}
+
+
 
 /* Newsletter at the bottom */
 

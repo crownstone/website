@@ -16,10 +16,16 @@ permalink: campaigns/first-served/
 
 <div class="col-xs-12 col-md-6" markdown="1">
 
-# Hi
+# Ja, ik wil een smart home voor 15 euro per maand!
 
-<div id="hello"></div>
-<div id="nameform"></div>
+Crownstone levert een compleet nieuwe dienst! Je hoeft je geen zorgen meer te maken over hoe duur een smart home is! Je
+hoeft je geen zorgen te maken over de installatie. Meld je aan voor een smart home voor een maandelijkse fee!
+
+## Als je een uitnodigingscode hebt ontvangen, kan je je nu aanmelden!
+
+De uitnodigingscodes zijn beperkt verkrijgbaar.
+
+<div id="nameform" class="nameform"></div>
 
 Sweet
 
