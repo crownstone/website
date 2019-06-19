@@ -25,6 +25,21 @@ intern-gallery:
   - image: "elikruunenberg.jpg"
     name: "Eli Kruunenberg"
     affiliation: "Small Business and Retail Management, Hogeschool Utrecht"
+  - image: "aniketsamant.jpg"
+    name: "Aniket Samant"
+    affiliation: "Electrical Engineering, TU Delft (starting July)"
+  - image: "person_anonymous.png"
+    name: "Naveen Chakravarthy"
+    affiliation: "Electrical Engineering, TU Delft (starting July)"
+  - image: "paulwondel.jpg"
+    name: "Paul Wondel"
+    affiliation: "Technische Informatica, Hogeschool Rotterdam (starting Sept.)"
+  - image: "person_anonymous.png"
+    name: "Meralynn Mohabir"
+    affiliation: "Technische Informatica, Hogeschool Rotterdam (starting Sept.)"
+  - image: "person_anonymous.png"
+    name: "Ilhan Delic"
+    affiliation: "Technische Informatica, Hogeschool Rotterdam (starting Sept.)"
 advisors-gallery:
   - image: "hansabbink.jpg"
     name: "Hans Abbink"
@@ -88,11 +103,6 @@ core-team-gallery:
     linkedin: "teresa-jacqueline-van-dam-a9386aa1"
     report:
       title: "Teresa heeft een master in data science. Ze zorgt ervoor dat onze product en diensten op de markt komen!"
-  - image: "marevandenputte.jpg"
-    name: "Mare van den Putte"
-    affiliation: "Community Manager"
-    report:
-      title: "Nu op een sabbatical!"
 ---
 {% include JB/setup %}
 
