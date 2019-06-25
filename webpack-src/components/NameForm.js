@@ -28,42 +28,42 @@ class NameForm extends React.Component {
     return (
       <form onSubmit={this.handleSubmit}>
         <h1>Beste {this.state.firstName} {this.state.lastName} </h1>
-        <div class="indicates-required"><span class="asterisk">*</span> verplicht</div>
-        <div class="item-group">
+        <div className="indicates-required"><span className="asterisk">*</span> verplicht</div>
+        <div className="item-group">
         <label>
           Email
-          <span class="asterisk"> *</span>
+          <span className="asterisk"> *</span>
         </label>
-        <input type="email" name="email" class="required email" onChange={this.handleChange} />
+        <input type="email" name="email" className="required email" onChange={this.handleChange} />
         </div>
-        <div class="item-group">
+        <div className="item-group">
         <label>
           Voornaam
-          <span class="asterisk"> *</span>
+          <span className="asterisk"> *</span>
         </label>
-        <input type="text" name="firstName" class="required" onChange={this.handleChange} />
+        <input type="text" name="firstName" className="required" onChange={this.handleChange} />
         </div>
-        <div class="item-group">
+        <div className="item-group">
         <label>
           Achternaam
-          <span class="asterisk"> *</span>
+          <span className="asterisk"> *</span>
         </label>
-        <input type="text" name="lastName" class="required" onChange={this.handleChange} />
+        <input type="text" name="lastName" className="required" onChange={this.handleChange} />
         </div>
-        <div class="item-group">
+        <div className="item-group">
         <label>
           Schuilnaam
         </label>
         <input type="text" name="nickName" onChange={this.handleChange} />
         </div>
-        <div class="item-group">
+        <div className="item-group">
         <label>
           Uitnodigingscode
-          <span class="asterisk"> *</span>
+          <span className="asterisk"> *</span>
         </label>
         <input type="text" name="inviteCode" onChange={this.handleChange} />
         </div>
-        <input type="submit" class="button" value="Aanmelden" />
+        <input type="submit" className="button" value="Aanmelden" />
       </form>
     );
   }

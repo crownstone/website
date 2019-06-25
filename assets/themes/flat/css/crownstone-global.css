@@ -1491,3 +1491,13 @@ p.thought:after {
 .agent-profile {
   color: white;
 }
+
+/**
+ * React native components
+ */
+
+.bordercircle p {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+

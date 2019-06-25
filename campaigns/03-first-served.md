@@ -25,9 +25,11 @@ hoeft je geen zorgen te maken over de installatie. Meld je aan voor een smart ho
 
 De uitnodigingscodes zijn beperkt verkrijgbaar.
 
-<div id="nameform" class="nameform"></div>
+<div id="bordercircle" class="bordercircle"></div>
 
-Sweet
+<div id="circlelist" class="circlelist"></div>
+
+<div id="nameform" class="nameform"></div>
 
 </div><!-- col-xs-12 -->
 </div><!-- row -->

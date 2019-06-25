@@ -54,6 +54,11 @@ task :webpack do
   system "webpack --mode production"
 end # task :webpack
 
+desc "Run webpack to update bundle.js and watch for changes"
+task :webpack_watch do
+  system "webpack --mode development --watch"
+end # task :webpack-watch
+
 # Default target, bundle rake exec will execute this task
 desc "Generate jekyll site"
 task :default do
