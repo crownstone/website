@@ -160,13 +160,17 @@ JB :
       colorscheme: light
    
   # Settings for analytics helper
-  # Set 'provider' to the analytics provider you want to use.
+  # Set 'provider' to the analytics provider you want to use, you can use multiple in an array
   # Set 'provider' to false to turn analytics off globally.
   #        
   analytics :
-    provider : google 
+    provider : 
+    - simpleanalytics
+    - google 
     google : 
         tracking_id : 'UA-17146802-16'
+    simpleanalytics:
+      site_id : 'crownstone.rocks'
     getclicky :
       site_id : 
     mixpanel :
