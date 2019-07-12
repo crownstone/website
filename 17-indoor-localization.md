@@ -80,7 +80,8 @@ Advantages:
 Disadvantages:
 
 * A BLE wearable might not always transmit BLE messages. For example when it is connected to a smartphone it might stop sending regular messages. This means that each BLE wearable has to be checked upon its compatibility.
-* The information needs to go through a BLE mesh network, a gateway, and the internet. This means that this information has high latency.
+* The information needs to go through a BLE mesh network, a gateway, and the internet. This means that this information has high latency. In contrast, if the information is only used locally, the latency can be very low. For example, a Crownstone can react extremely fast on incoming iBeacon messages (even faster than normal because no connection process is required).
+* A BLE wearable might not be able to transmit a BLE message that is identifiable. This also requires a check on compatibility. If there is full control encrypted BLE messages can be send. If there is no complete control, it might be possible to send identifiable BLE messages, but they won't be encrypted (which means other entities might be able to track as well if they build BLE scanners).
 
 ## Trilateration
 
