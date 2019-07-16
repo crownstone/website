@@ -21,7 +21,7 @@
 
     {% if page.tags and page.tags != '' %}
     {% assign page_tags = page.tags | join: ', ' %}
-    {% assign page_keywords = page_keywords | append: ', ' | append: page_tags %}
+    {% assign page_keywords = page_tags | append: ', ' | append: page_keywords %}
     {% endif %}
 
     <meta name="keywords" content="{{ page_keywords }}">
