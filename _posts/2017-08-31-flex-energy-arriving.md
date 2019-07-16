@@ -1,9 +1,9 @@
 ---
 layout: post
 title: "Flex energy arriving?"
-description: ""
-tags: []
-author: 
+description: "A Qurrent hackathon and flexible energy contracts."
+tags: [flex energy, qurrent, hackathon]
+author: annevanrossum
 ---
 {% include JB/setup %}
 

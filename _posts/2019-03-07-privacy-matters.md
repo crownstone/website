@@ -2,7 +2,7 @@
 layout      : post
 title       : "Privacy matters"
 description : "Privacy matters"
-tags        : [privacy]
+tags        : [privacy, privacy matters, heidegger, product lifetime]
 author      : annevanrossum 
 picture     : attachments/blog/heidegger.jpg
 excerpt     : "When we enter a hotel room in a new country the small changes that normally get unnoticed suddenly get noticed. Dan Hill cites Timothy Morton: '*the light switch seems a little closer than normal, a little differently placed on the wall*'. Technology should be seamlessly integrated in our environment."

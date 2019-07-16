@@ -3,7 +3,7 @@ layout: post
 title: "The renormalization group on networks, an introduction"
 description: "The renormalization group, an interesting method from statistical physics."
 category: 
-tags: []
+tags: [renormalization group, statistics, introduction, networks]
 author: annevanrossum
 math: true
 ---

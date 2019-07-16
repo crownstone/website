@@ -3,7 +3,7 @@ layout: post
 title: "RFduino without RFduino code"
 description: "RFduino, an Arduino for Bluetooth Low Energy."
 category: 
-tags: []
+tags: [rfduino, bluetooth low energy]
 author: annevanrossum
 ---
 {% include JB/setup %}

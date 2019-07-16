@@ -2,7 +2,7 @@
 layout      : post
 title       : "Firmware and hardware wizardry"
 description : "Firmware and hardware wizardry"
-tags        : []
+tags        : [firmware, hardware, nRF52, developer, programmer]
 author      : 
 picture     : attachments/blog/firmware_developer.png
 excerpt     : "For a noob, the code on a device like Crownstone might look like magic spells; the programmer might look like a wizard including the long hair; the computer like a science-fiction console. However, did you know that as a firmware developer most of the time is spend on debugging!?"
