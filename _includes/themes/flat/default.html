@@ -4,16 +4,28 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
     {% if page.description %}
-    <meta name="description" content="{{ page.description }}">
+    {% assign page_description = page.description %}
     {% else %}
-    <meta name="description" content="{{ site.description }}">
+    {% assign page_description = site.description %}
     {% endif %}
+
+    <meta name="description" content="{{ page_description }}">
+
     {% if page.keywords %}
-    <meta name="keywords" content="{{ page.keywords }}">
+    {% assign page_keywords = page.keywords %}
     {% else %}
-    <meta name="keywords" content="{{ site.keywords }}">
+    {% assign page_keywords = site.keywords %}
     {% endif %}
+
+    {% if page.tags and page.tags != '' %}
+    {% assign page_tags = page.tags | join: ', ' %}
+    {% assign page_keywords = page_keywords | append: ', ' | append: page_tags %}
+    {% endif %}
+
+    <meta name="keywords" content="{{ page_keywords }}">
+    
     <meta name="author" content="{{ site.author.name }}">
     <link rel="icon" type="image/x-icon" href="{{ site.production_url }}/images/favicon.ico?">
     <link rel="apple-touch-icon" href="{{ site.production_url }}/images/apple-touch-icon.png">
