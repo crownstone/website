@@ -124,6 +124,8 @@ img {
 /* Override bootstrap default border */
 .img-thumbnail {
   border: none;
+  height: 200px;
+  width: 200px;
 }
 
 img.topLogo {

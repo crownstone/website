@@ -196,6 +196,9 @@ graduate-gallery:
     affiliation: " Utrecht University"
     linkedin: "https://nl.linkedin.com/in/freek-van-polen-08960719"
 intern-gallery:
+  - image: "marcdegroot.jpg"
+    name: "Marc de Groot"
+    affiliation: "Human Technologies, Techniek College Rotterdam" 
   - image: "alexanderderidder.jpg"
     name: "Alex de Ridder"
     affiliation: "Technische Informatica, Hogeschool Rotterdam"
