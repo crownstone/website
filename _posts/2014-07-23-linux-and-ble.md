@@ -69,6 +69,12 @@ We can get the services:
     attr handle: 0x0008, end grp handle: 0x000b uuid: 00001801-0000-1000-8000-00805f9b34fb
     attr handle: 0x000c, end grp handle: 0xffff uuid: 00002220-0000-1000-8000-00805f9b34fb
 
+It might happen that you still get a Connection refused (111) error. In that case, make sure you define that you use
+a random address for the gatttool itself.
+
+    ✗ sudo gatttool -i hci1 -b CF:72:4E:70:A6:DB --interactive -t random
+    [   ][CF:72:4E:70:A6:DB][LE]> connect
+
 And the characteristics:
 
     [CON][CF:72:4E:70:A6:DB][LE]> characteristics
