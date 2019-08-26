@@ -27,7 +27,7 @@ intern-gallery:
     affiliation: "Electrical Engineering, TU Delft"
   - image: "aniketsamant.jpg"
     name: "Aniket Samant"
-    affiliation: "Electrical Engineering, TU Delft (starting August)"
+    affiliation: "Electrical Engineering, TU Delft"
   - image: "paulwondel.jpg"
     name: "Paul Wondel"
     affiliation: "Technische Informatica, Hogeschool Rotterdam (starting Sept.)"
