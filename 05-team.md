@@ -23,21 +23,33 @@ intern-gallery:
   - image: "elikruunenberg.jpg"
     name: "Eli Kruunenberg"
     affiliation: "Small Business and Retail Management, Hogeschool Utrecht"
+    report:
+      title: "Exploring new Crownstone business models"
   - image: "naveenchakravarthy.jpg"
     name: "Naveen Chakravarthy"
     affiliation: "Electrical Engineering, TU Delft"
+    report:
+      title: "Implementing a reliable low-level bootloader upgrade process"
   - image: "aniketsamant.jpg"
     name: "Aniket Samant"
     affiliation: "Electrical Engineering, TU Delft"
+    report:
+      title: "Implementing flicker-free dimming through optimizing ADC functions"
   - image: "paulwondel.jpg"
     name: "Paul Wondel"
     affiliation: "Technische Informatica, Hogeschool Rotterdam (starting Sept.)"
+    report:
+      title: "Make Crownstone Arduino compatible"
   - image: "meralynnmohabir.jpg"
     name: "Meralynn Mohabir"
     affiliation: "Technische Informatica, Hogeschool Rotterdam (starting Sept.)"
+    report:
+      title: "Indoor Localization within the mesh network"
   - image: "ilhandelic.jpg"
     name: "Ilhan Delic"
     affiliation: "Technische Informatica, Hogeschool Rotterdam (starting Sept.)"
+    report:
+      title: "Crownstone smart home hub"
   - image: "joybaris.jpg"
     name: "Joy Baris"
     affiliation: "Human Technologies, Techniek College Rotterdam (starting Sept.)" 
