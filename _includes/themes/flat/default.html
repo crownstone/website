@@ -63,7 +63,7 @@
     
     {% if page.local_css %}
     {% for stylesheet in page.local_css %}
-    {% asset '{{ stylesheet }}' %}
+    <link rel="stylesheet" href="{{ stylesheet }}" media="screen" type="text/css">
     {% endfor %}
     {% endif %}
 

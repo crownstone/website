@@ -11,7 +11,7 @@ banner-caption: "Meet us!"
 group: [navigation, navigation-consumer-footer]
 permalink: team/
 custom_css:
-- https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css
+  - https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css
 gallery_img_size: "200px"
 graduates-gallery:
   - image: "victoriamavrikopoulou.png"
