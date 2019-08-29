@@ -6,6 +6,10 @@ description: "Hall of fame with former colleagues, graduation students, and inte
 group:
 permalink: hall-of-fame/
 employee-gallery:
+  - image: "marevandenputte.jpg"
+    name: "Mare van den Putte"
+    title: "Community Manager"
+    linkedin: "https://www.linkedin.com/in/mare-van-den-putte-6b514211b"
   - image: "fransdijckmeester.jpg"
     name: "Frans Dijckmeester"
     title: "Assistant Financial Controller"
@@ -42,10 +46,6 @@ employee-gallery:
     name: "Behnaz Shirmohamadi"
     title: "Junior researcher"
     linkedin: "https://nl.linkedin.com/pub/behnaz-shirmohamadi/39/75b/540"
-  - image: "marevandenputte.jpg"
-    name: "Mare van den Putte"
-    title: "Community Manager"
-    linkedin: "https://www.linkedin.com/in/mare-van-den-putte-6b514211b"
 graduate-gallery:
   - image: "riccardobellana.jpg"
     name: "Riccardo Bellana"

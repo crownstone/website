@@ -23,7 +23,8 @@
   <div class="col-md-3 col-sm-6 col-xs-12">
     <div class="center text-center">
       <p><img class="img-responsive img-thumbnail rounded-circle" src="{{ BASE_PATH}}/images/team/{{ person.image }}" width="{{ img_size }}" height="{{ img_size }}" alt="{{ person.name }}"></p>
-	  <h5>{{ person.name }} <small class="designation muted"> {{ person.title}}{{ person.affiliation}}</small></h5>
+	  <h5>{{ person.name }}</h5>
+	  <h5><small class="designation muted"> {{ person.title}}{{ person.affiliation}}</small></h5>
 	  {% if person.linkedin %}
 		<a class="btn btn-social-icon btn-linkedin" href="http://nl.linkedin.com/in/{{ person.linkedin }}/"><i class="el el-linkedin"></i></a>
 	  {% endif %}
