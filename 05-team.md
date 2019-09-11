@@ -116,6 +116,13 @@ core-team-gallery:
     linkedin: "teresa-jacqueline-van-dam-a9386aa1"
     report:
       title: "Teresa has a masters in Data Science and makes sure that our products and services are embraced by the market!"
+  - image: "arenddejonge.png"
+    name: "Arend de Jonge"
+    affiliation: "Algorithm Designer & Firmware Developer"
+    linkedin: "arend-de-jonge-2b2512187"
+    github: "ArrowAcrobatics"
+    report:
+      title: "Arend has a masters in Mathematics. He'll make sure Crownstone is secure and our algorithms are top-notch."
 ---
 {% include JB/setup %}
 

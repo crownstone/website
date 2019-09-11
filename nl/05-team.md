@@ -103,6 +103,13 @@ core-team-gallery:
     linkedin: "teresa-jacqueline-van-dam-a9386aa1"
     report:
       title: "Teresa heeft een master in data science. Ze zorgt ervoor dat onze product en diensten op de markt komen!"
+  - image: "arenddejonge.png"
+    name: "Arend de Jonge"
+    affiliation: "Algoritme ontwerper & Firmware developer"
+    linkedin: "arend-de-jonge-2b2512187"
+    github: "ArrowAcrobatics"
+    report:
+      title: "Arend heeft een master in wiskunde. Hij draagt zorg voor veilige en vooruitstrevende algoritmes!"
 ---
 {% include JB/setup %}
 
