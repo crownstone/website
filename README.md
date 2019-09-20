@@ -104,6 +104,12 @@ Or if you have an older jekyll installation
 
     jekyll --server --auto
 
+If you run an incremental version, you will run into polyglot errors regarding `out` not being defined on a `doc` yet:
+
+    jekyll serve -w -i
+
+It might actually be the case that running it once without `-i` or `--interactive` already repairs the build.
+
 You can then see the website served at:
 
     localhost:4000

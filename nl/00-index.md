@@ -55,7 +55,7 @@ De Crownstones doen de lichten aan als je binnenkomt met je handen vol met boods
 
 {% include snippets/column-begin colsize="12" %}
 
-![Crownstone in een huis]({{ BASE_PATH }}/images/plugs_in_room.jpg)
+![Crownstone in een huis]({{ BASE_PATH }}/images/plugs_in_room.jpg){: style="width: 100%"}
 
 # Crownstone Plug
 
@@ -84,7 +84,7 @@ Je kan dan ook berichtjes sturen naar een specifieke kamer! Denk bijvoorbeeld aa
 
 {% include snippets/column-begin colsize="12" %}
 
-![Inbouw Crownstones in verpakking]({{ BASE_PATH }}/images/builtins-on-box.jpg)
+![Inbouw Crownstones in verpakking]({{ BASE_PATH }}/images/builtins-on-box.jpg){: style="width: 100%"}
 
 # Inbouw Crownstone
 

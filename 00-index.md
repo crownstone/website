@@ -49,7 +49,7 @@ It turns on the lights for you when you enter with your hands full of groceries 
 
 {% include snippets/column-begin colsize="12" %}
 
-![Crownstone in a nice home]({{ BASE_PATH }}/images/plugs_in_room.jpg)
+![Crownstone in a nice home]({{ BASE_PATH }}/images/plugs_in_room.jpg){: style="width: 100%"} 
 
 # Crownstone Plug
       
@@ -74,7 +74,7 @@ or "@mylove #bathroom Light a match, lol!"
 
 {% include snippets/column-begin colsize="12" %}
 
-![Builtin Crownstones in their packaging]({{ BASE_PATH }}/images/builtins-on-box.jpg)
+![Builtin Crownstones in their packaging]({{ BASE_PATH }}/images/builtins-on-box.jpg){: style="width: 100%"}
 
 # Built-in Crownstone
                 
