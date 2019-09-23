@@ -188,4 +188,4 @@ With respect to our companies theme, please, try to create a distinct look for y
 * Crownstone B.V., https://crownstone.rocks
 * Rotterdam, The Netherlands
 
-The theme design is done by Alex de Mulder. The content of our website is our own, and thanks to Bart, Remco, Dominik, Marc, Peet, Anne, Roemer, Laurens, Jorik, Merel, Bhenaz, Remco, Janny, Alexander, and others.
+The theme design is done by Alex de Mulder. The contents of the website is Crownstone's; thanks to Bart, Remco, Dominik, Marc, Peet, Anne, Roemer, Laurens, Jorik, Merel, Bhenaz, Remco, Janny, Alexander, and many others.
