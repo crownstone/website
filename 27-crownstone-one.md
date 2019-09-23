@@ -1,9 +1,10 @@
 ---
 layout: page
-title: New Hardware
-header: New Hardware
+title: New Hardware, the Crownstone built-in One
+header: New Hardware, the Crownstone built-in One
+description: The Crownstone built-in One is a smart switch, dimmer, and positioning system in one. The One contains improvements on the Zero with respect to form factor, switchcraft, antenna design, and dimming.
 group: Landing
-permalink: new-hardware/
+permalink: built-in-one/
 markdown: true
 ---
 

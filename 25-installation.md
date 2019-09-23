@@ -26,7 +26,7 @@ If at any point you are unsure of what to do, stop installation immediately and 
 3. Close the power socket and turn on the power at the fuse box.
 4. Open the app and hold your smartphone near the socket with your Crownstone. Follow the instructions in the app for adding a Crownstone!
 
-{% include snippets/image-with-caption url="/attachments/installation/nl/socket_wiring_diagram.png" description="Figure A: Power socket wiring diagram" %}
+{% include snippets/image-with-caption url="/attachments/installation/en/socket_wiring_diagram.png" description="Figure A: Power socket wiring diagram" %}
 
 There are some general tips here. Of course, play close attention to the labels on the Crownstone itself. Do not switch
 in and out. If by accident switched, the Crownstone might actually power up, but it will be impossible to switch anything.
@@ -49,9 +49,9 @@ information.
 with your newly installed Crownstone. Follow the instructions in the app for
 adding a Crownstone!
 
-{% include snippets/image-with-caption url="/attachments/installation/nl/ceiling_light_placement.png" description="Figure B: Placing of Crownstone at the ceiling light" %}
+{% include snippets/image-with-caption url="/attachments/installation/en/ceiling_light_placement.png" description="Figure B: Placing of Crownstone at the ceiling light" %}
 
-{% include snippets/image-with-caption url="/attachments/installation/nl/ceiling_light_wiring_diagram.png" description="Figure C: Ceiling light wiring diagram" %}
+{% include snippets/image-with-caption url="/attachments/installation/en/ceiling_light_wiring_diagram.png" description="Figure C: Ceiling light wiring diagram" %}
 
 # Switchcraft installation
 
@@ -76,7 +76,7 @@ on at the fuse box.
 by your new Switchcraft switch. You have to enable the use of Switchcraft for
 this Crownstone in its settings.
 
-{% include snippets/image-with-caption url="/attachments/installation/nl/switchcraft_wiring_diagram.png" description="Figure D: Switchcraft wiring diagram" %}
+{% include snippets/image-with-caption url="/attachments/installation/en/switchcraft_wiring_diagram.png" description="Figure D: Switchcraft wiring diagram" %}
 
 ## Dimming lights with Crownstone
 
