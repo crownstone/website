@@ -16,6 +16,8 @@ permalink: /
 
 {% include JB/setup %}
 
+{% include snippets/orange-top-bar url='https://excellentmagazine.nl/professionals/domotica/crownstone/' text='Bezoek ons in Ahoy (vraag ons om een ticket)!' urltext='Excellent Woonbeurs' %}
+
 {% include snippets/video-banner video='/clips/intro' placeholder='/attachments/crownstone_in_living_room.jpg' alt="Crownstone in a living room" %}
 
 {% include snippets/row-begin %}
