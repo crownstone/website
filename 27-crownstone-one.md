@@ -40,6 +40,13 @@ So, what is the difference?
 * a thermal fuse across both the IGBTs and the relay
 * an improved IGBT gate driver to be able to dim more powerful lights
 
+With this version we have simplified the packaging. Not something like two or three Crownstones, but letting our 
+customers decide how many they want. We sell them in a kit of 10 as well as individually.
+
+<div style="text-align: center">
+<h1><a class="button-link" href="https://shop.crownstone.rocks/products/extension-kit-1-unit-crownstone-built-in-one">Get the One!</a></h1>
+</div>
+
 # Switchcraft
 
 Switchcraft is how we call the combination of using an ordinary light switch with the Crownstone simultaneously. 
