@@ -33,11 +33,13 @@ And you'll definitely have to check the [scenarios]({{ BASE_PATH }}/scenarios)!
 
 {% include snippets/divider %}
 
+<!-- Accurate indoor positioning clip -->
+
 {% include snippets/row-begin no-container-begin="true" %}
 {% include snippets/column-begin colsize="6" %}
 
 <div class="embed-responsive embed-responsive-16by9">
-{% youtube ZtnYH53A4zE "Bluetooth Positioning" %}
+{% youtube ZtnYH53A4zE "Bluetooth Positioning" 560 420 nowrapper %}
 </div>
 
 {% include snippets/column-end %}
@@ -51,6 +53,8 @@ Bluetooth Low Energy positioning can be fairly accurate. It all depends on the n
 {% include snippets/row-end no-container-end="true" %}
 
 {% include snippets/divider %}
+
+<!-- Comparison -->
 
 {% include snippets/row-begin no-container-begin="true" %}
 {% include snippets/column-begin colsize="12" %}
@@ -114,6 +118,8 @@ Get a look and feel by playing around with the Crownstones models here!
 
 {% include snippets/divider %}
 
+<!-- Kickstarter movier-->
+
 {% include snippets/row-begin %}
 {% include snippets/column-begin colsize="6" %}
 
@@ -134,6 +140,8 @@ The Crownstone has been originally developed for a [Kickstarter](https://www.kic
 
 {% include snippets/divider %}
 
+<!-- Technical specs clip-->
+
 {% include snippets/row-begin %}
 {% include snippets/column-begin colsize="6" %}
 
@@ -153,6 +161,8 @@ For detailed specifications, see the [specification page](https://shop.crownston
 
 {% include snippets/divider %}
 
+<!-- Roadmap -->
+
 {% include snippets/row-begin %}
 {% include snippets/column-begin colsize="12" %}
 
@@ -163,7 +173,7 @@ The current Crownstone iOS and Android apps have the following functionality. Ev
 | Functionality                                     | State Soft&shy;ware                             | 
 | ---                                               | ---                                             |
 | Switch                                            | <i class="el el-check"></i>                     |
-| Instantaneous power consumption                   | <i class="el el-check"></i>                     |
+| Instantaneous power measurements                  | <i class="el el-check"></i>                     |
 | Reacting on close proximity (tap-to-toggle)       | <i class="el el-check"></i>                     |
 | Reacting on moderate proximity (presence)         | <i class="el el-check"></i>                     |
 | Reacting on room-level indoor positioning         | <i class="el el-check"></i>                     |
@@ -171,15 +181,16 @@ The current Crownstone iOS and Android apps have the following functionality. Ev
 | Send commands through the internet                | <i class="el el-check"></i>                     |
 | Visualize other users in the app                  | <i class="el el-check"></i>                     |
 | Scheduler                                         | <i class="el el-check"></i>                     |
-| Dimmer (LED)                                      | <i class="el el-check"></i>                     |
+| Dimmer (also LED)                                 | <i class="el el-check"></i>                     |
 | Send a nice message to someone on entering a room | <i class="el el-check"></i>                     |
+| Simultaneous use of ordinary light switch         | <i class="el el-check"></i>                     |
 | Wake-up light                                     | <i class="el el-check-empty"></i>               |
 | Power consumption history                         | <i class="el el-check-empty"></i>               |
-| Integration with Toon                             | <i class="el el-check"></i>               |
-| Integration with Alexa                            | <i class="el el-check"></i>               |
+| Integration with Toon                             | <i class="el el-check"></i>                     |
+| Integration with Alexa                            | <i class="el el-check"></i>                     |
+| Integration with Google Home                      | <i class="el el-check-empty"></i>               |
 | Integration with Homey                            | <i class="el el-check-empty"></i>               |
 | Device identification                             | <i class="el el-check-empty"></i>               |
-| Control by non-registered guest users             | <i class="el el-check-empty"></i>               |
 | Integration with thermostat radiator valves       | <i class="el el-check-empty"></i>               |
 | Multi-user setup (don't leave user in the dark)   | <i class="el el-check-empty"></i>               |
 

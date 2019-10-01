@@ -5,13 +5,16 @@ header: Pages
 description: "Een schakelaar, dimmer, vermogensmeter, en standby killer ineen."
 keywords: "schakelaar, slimme schakelaar, dimmer, vermogensmeter, standby killer, domotica"
 group: [navigation, navigation-consumer-footer]
-markdown: true
+#markdown: true
 background-image: banner-tech.jpg
 banner-caption: "Hoe werkt 't?"
 permalink: technology-consumer/
 lang: nl
 ---
 {% include JB/setup %}
+
+{% include snippets/row-begin %}
+{% include snippets/column-begin colsize="12" %}
 
 # Technologie
                 
@@ -27,7 +30,39 @@ Wat kan de Crownstone doen?
                 
 Bekijk ook andere [scenario's]({{ BASE_PATH }}/scenarios)!
 
-<hr class="featurette-divider">
+{% include snippets/column-end %}
+{% include snippets/row-end no-container-end="true" %}
+
+{% include snippets/divider %}
+
+<!-- Accurate indoor positioning clip -->
+
+{% include snippets/row-begin no-container-begin="true" %}
+{% include snippets/column-begin colsize="6" %}
+
+<div class="embed-responsive embed-responsive-16by9">
+{% youtube ZtnYH53A4zE "Bluetooth Positioning" 560 420 nowrapper %}
+</div>
+
+{% include snippets/column-end %}
+{% include snippets/column-begin colsize="6" %}
+
+# Positiebepaling binnenshuis
+
+Positioneren met Bluetooth Low Energy kan heel accuraat zijn. Het hangt allemaal af van het aantal Crownstones dat in
+gebruik is. In het videoclipje hier kan je zien hoe een smartphpone wordt bewogen over een miniatuur plattegrond. 
+Terwijl de telefoon beweegt van ruimte naar ruimte, zie je het plaatje van de desbetreffende persoon springen van 
+kamer naar kamer in de Crownstone app.
+
+{% include snippets/column-end %}
+{% include snippets/row-end no-container-end="true" %}
+
+{% include snippets/divider %}
+
+<!-- Vergelijking -->
+
+{% include snippets/row-begin no-container-begin="true" %}
+{% include snippets/column-begin colsize="12" %}
 
 # Vergelijking
 
@@ -50,6 +85,12 @@ Vergeleken met soortgelijke producten, heeft de Crownstone flink wat extra te bi
 
 De Crownstone is vaak al even goed geprijst als de concurrentie (zie [webwinkel](https://shop.crownstone.rocks?launch=nl&ref=vergelijking), € 44.99 per stuk) als er alleen gekeken wordt naar een enkele fuctie. Alleen al een dimmer kan duurder zijn dan een Crownstone kopen met toffe state-of-the-art technologie!
 
+{% include snippets/column-end %}
+{% include snippets/row-end %}
+
+{% include snippets/row-begin %}
+{% include snippets/column-begin colsize="12" %}
+
 # Speel met de producten!
 
 Krijg een beetje gevoel voor de Crownstones door in deze modellen met ze te interacteren.
@@ -66,43 +107,62 @@ Krijg een beetje gevoel voor de Crownstones door in deze modellen met ze te inte
   </p>
 </div>
 
-<hr class="featurette-divider" />
+{% include snippets/column-end %}
+{% include snippets/row-end %}
 
-<div class="row">
-  <div class="col-xs-12 col-sm-6 col-md-6">
-    <div class="embed-responsive embed-responsive-16by9">
-      <iframe class="embed-responsive-item" src="//player.vimeo.com/video/139371752"></iframe>
-    </div>
-  </div>
-  <div class="col-xs-12 col-sm-6 col-md-6">
-    <h1>Kickstarter</h1>
-    <p>
-    De Crownstone is oorspronkelijk ontwikkelt voor een 
-                    <a href="https://www.kickstarter.com/projects/dobots/crownstone/">Kickstarter</a> 
-                    project. 
-                   We waren in korte tijd bekend op veel Europese nieuwskanalen, hadden meer dan 70.000 euro aan pre-orders gerealiseerd, en in het geheel heeft het onze business de juiste eerste boost gegeven (bijvoorbeeld in de vorm van acceptatie in de Rockstart accelerator). Sommige van de Crownstone mogelijkheden kan je zien in dit Kickstarter promofilmpje.
-    </p>
-  </div>
+{% include snippets/divider %}
+
+<!-- Kickstarter movier-->
+
+{% include snippets/row-begin %}
+{% include snippets/column-begin colsize="6" %}
+
+<div class="embed-responsive embed-responsive-16by9">
+<iframe class="embed-responsive-item" src="//player.vimeo.com/video/139371752"></iframe>
 </div>
 
-<hr class="featurette-divider" />
+{% include snippets/column-end %}
 
-<div class="row">
-  <div class="col-xs-12 col-sm-6 col-md-6">
-    <h1>Specificaties</h1>
-    <p>
-    Voor gedetailleerde specificaties, zie de
-    <a href="https://shop.crownstone.rocks/pages/specifications">specificatie pagina</a>.
-    </p>
-  </div>
-  <div class="col-xs-12 col-sm-6 col-md-6">
-    <div class="embed-responsive embed-responsive-16by9">
-      <iframe class="embed-responsive-item" src="//player.vimeo.com/video/138335017"></iframe>
-    </div>
-  </div>
+{% include snippets/column-begin colsize="6" %}
+
+# Kickstarter
+    
+De Crownstone is oorspronkelijk ontwikkelt voor een [Kickstarter](https://www.kickstarter.com/projects/dobots/crownstone/)
+project. 
+We waren in korte tijd bekend op veel Europese nieuwskanalen, hadden meer dan 70.000 euro aan pre-orders gerealiseerd, 
+en in het geheel heeft het onze business de juiste eerste boost gegeven (bijvoorbeeld in de vorm van acceptatie in de 
+Rockstart accelerator). Sommige van de Crownstone mogelijkheden kan je zien in dit Kickstarter promofilmpje.
+
+{% include snippets/column-end %}
+{% include snippets/row-end %}
+
+{% include snippets/divider %}
+
+<!-- Technical specs clip-->
+
+{% include snippets/row-begin %}
+{% include snippets/column-begin colsize="6" %}
+
+# Specifications
+
+For detailed specifications, see the [specification page](https://shop.crownstone.rocks/pages/specifications).
+
+{% include snippets/column-end %}
+{% include snippets/column-begin colsize="6" %}
+
+<div class="embed-responsive embed-responsive-16by9">
+<iframe class="embed-responsive-item" src="//player.vimeo.com/video/138335017"></iframe>
 </div>
 
-<hr class="featurette-divider" />
+{% include snippets/column-end %}
+{% include snippets/row-end %}
+
+{% include snippets/divider %}
+
+<!-- Roadmap -->
+
+{% include snippets/row-begin %}
+{% include snippets/column-begin colsize="12" %}
 
 # Roadmap
 
@@ -111,7 +171,7 @@ De huidige Crownstone iPhone en Android apps hebben de volgende functies. Om de 
 | Functie                                           | Status Software                                  | 
 | ---                                               | ---                                              |
 | Schakelaar                                        | <i class="el el-check"></i>                      |
-| Instantaan energieverbruik                        | <i class="el el-check"></i>                      |
+| Instantaan energieverbruik meten                  | <i class="el el-check"></i>                      |
 | Reageren op heel dichtbij zijn (tap-to-toggle)    | <i class="el el-check"></i>                      |
 | Reageren op dichtbij zijn (presentie)             | <i class="el el-check"></i>                      |
 | Reageren op aanwezigheid per kamer                | <i class="el el-check"></i>                      |
@@ -121,17 +181,21 @@ De huidige Crownstone iPhone en Android apps hebben de volgende functies. Om de 
 | Tijdschakelaar                                    | <i class="el el-check"></i>                      |
 | Dimmer                                            | <i class="el el-check"></i>                      |
 | Aardig berichtje sturen bij binnenkomst kamer     | <i class="el el-check"></i>                      |
+| Tegelijkertijd gebruiken van wandschakelaars      | <i class="el el-check"></i>                      |
 | Alarmlicht                                        | <i class="el el-check-empty"></i>                |
 | Geschiedenis van energieverbruik                  | <i class="el el-check-empty"></i>                |
 | Integratie met Toon                               | <i class="el el-check"></i>                      |
 | Integratie met Alexa                              | <i class="el el-check"></i>                      |
+| Integratie met Google Home                        | <i class="el el-check-empty"></i>                |
 | Integratie met Homey                              | <i class="el el-check-empty"></i>                |
 | Apparaatherkenner                                 | <i class="el el-check-empty"></i>                |
-| Schakelen zonder registratieproces                | <i class="el el-check-empty"></i>                |
 | Integratie met BLE thermostaatknoppen             | <i class="el el-check-empty"></i>                |
 | Meerdere gebruikers (niemand in het donker)       | <i class="el el-check-empty"></i>                |
 
 Op onze roadmap staan nog veel meer taken die al zijn gepland, van het integreren met Alexa tot en met het configureren van scenes.
 We worden al geholpen door eenvoudigweg te stemmen [op trello](https://trello.com/b/6rUcIt62/crownstone-transparent-product-roadmap). Trouwens, een mooi voorbeeld van een ander bedrijf  dat firmware updates serieus neemt is Fujifilm. Kijk eens naar [deze lange lijst](https://petapixel.com/2017/03/22/fujifilm-x-t2x-pro2-firmware-update-bring-33-improvements/) van updates die zo significant zijn dat het lijkt alsof je als eigenaar een geheel nieuwe camera in bezit hebt! Wij zullen altijd nieuwe features onder de radar blijven ontwikkelen zodat jullie hopelijk hetzelfde gevoel zullen hebben!
+
+{% include snippets/column-end %}
+{% include snippets/row-end %}
 
 {% include snippets/bottom-margin %}

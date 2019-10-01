@@ -11,26 +11,37 @@ class YouTube < Liquid::Tag
 		end
 
 		array = markup.scan(/(?:"")|(?:"(.*[^\\])")|(\w+)/).flatten.compact
+		
 		@title = array[1]
-		# puts "Title is #{@title}"
+		@width = array[2]
+		@height = array[3]
+		@wrap = array[4]
 
 		if @title.nil? then
 			@title = ''
 		end
 
-		@width = array[2]
-		if $width.nil? then
+		if @width.nil? || @width.empty? then
 			@width = 560
 		end
 
-		@height = array[3]
-		if $height.nil? then
+		if @height.nil? || @height.empty? then
 			@height = 420
 		end
+		
+		if @wrap.nil? || @wrap.empty? then
+			@wrap = 'videowrapper'
+		end
+		
+		# Will only be reconsidered on restarting
+		#puts "Title is #{@title}"
+		#puts "Dimensions are #{@width} x #{@height}"
+		#puts "Wrapping div is #{@wrap}"
+		
 	end
 
 	def render(context)
-		"<div class=\"videowrapper\">
+		"<div class=\"#{@wrap}\">
 		<center>
 		<iframe frameborder=\"0\" width=\"#{@width}\" height=\"#{@height}\" allowfullscreen src=\"//www.youtube.com/embed/#{@id}?color=white&theme=light&title=#{@title}\"></iframe>
 		</center>
