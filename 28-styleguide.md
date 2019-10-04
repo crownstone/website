@@ -60,7 +60,7 @@ If you need a slide deck for a particular customer, feel free to contact us for 
 from the following slide deck for example. The deck itself is not just a template, but is about technology saving
 us time.
 
-* [Crownstone Presentation Template Parallelogram](https://docs.google.com/presentation/d/1BjfwzuntlcsiG7-GB5i-eyJhv-SXZjBtdQDlWPXmzJ0)
+* [Crownstone Presentation Template Parallelo](https://docs.google.com/presentation/d/1BjfwzuntlcsiG7-GB5i-eyJhv-SXZjBtdQDlWPXmzJ0)
 
 # Styleguide ZIP file
 
