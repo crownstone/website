@@ -1,0 +1,44 @@
+{% if page.title %}
+	{% assign social_title = page.title %}
+{% elsif post.title %}
+	{% assign social_title = post.title %}
+{% else %}
+	{% assign social_title = "Crownstone: Your Presence Makes a Difference" %}
+{% endif %}
+
+{% if page.description %}
+	{% assign social_description = page.description %}
+{% elsif post.description %}
+	{% assign social_description = post.description %}
+{% else %}
+	{% assign social_description = "Crownstones switch and dim devices and lamps based on your presence. Energy savings and home automation at once!" %}
+{% endif %}
+
+{% if page.social-image %}
+	{% capture social_image %}{{ site.production_url }}/{{ page.social-image}}{% endcapture %} 
+{% else %}
+	{% capture social_image %}{{ site.production_url }}/images/crownstone-logo.png{% endcapture %} 
+{% endif %}
+
+{% if include.channel == "opengraph" %}
+
+	<!-- Open graph social card -->
+	<meta property="og:type" content="website">
+	<meta property="og:title" content="{{ social_title }}">
+	<meta property="og:url" content="{{ site.production_url }}{{ page.url }}">
+	<meta property="og:image" content="{{ social_image }}">
+	<meta property="og:image:secure_url" content="{{ social_image }}">
+	<meta property="og:description" content="{{ social_description }}">
+	<meta property="og:site_name" content="Crownstone">
+
+{% elsif include.channel == "twitter" %}
+
+	<!-- Twitter social card -->
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:title" content="{{ social_title }}">
+	<meta name="twitter:description" content="{{ social_description }}">
+	<meta name="twitter:image" content="{{ social_image }}">
+	<meta name="twitter:image:width" content="240">
+	<meta name="twitter:image:height" content="240">
+
+{% endif %}

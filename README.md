@@ -67,6 +67,14 @@ To set for example maximum width to half the page and have it aligned to the rig
 
     ![Mould]({{ site.url }}/attachments/mould0.png "Mould for Crownstone"){: style="max-width: 50%"}{: .float-right}
 
+## Social cards
+
+A social card, either open graph or twitter can be set through adding the following to the Jekyll preamble.
+
+    social-image: /attachments/image.jpg
+
+You cannot use liquid tags like `{{ site.url }}` here.
+
 ### Equation
 
 A mathematical equation can be described with
@@ -93,6 +101,19 @@ To include this file add the following to the header:
 	  - syntax.css
 
 Other syntax options you can probably find in no time searching online or checking other posts.
+
+## Include snippets
+
+You can include snippets through the following syntax:
+
+    {% include snippets/social-card %}
+
+To add arguments:
+
+    {% include snippets/social-card channel="opengraph" %}
+    {% include snippets/social-card channel="twitter" %}
+
+Something like `page` is available in such a snippet.
 
 ## Admin
 
