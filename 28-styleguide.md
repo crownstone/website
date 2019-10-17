@@ -62,6 +62,13 @@ us time.
 
 * [Crownstone Presentation Template Parallelo](https://docs.google.com/presentation/d/1BjfwzuntlcsiG7-GB5i-eyJhv-SXZjBtdQDlWPXmzJ0)
 
+# Documents
+
+If you need a document, there is a template available. Rather than a template that has an ipsem lorum text, it describes
+our mission, vision, slogan, legacy, and core values.
+
+* [Crownstone Document Template](https://docs.google.com/document/d/1rhXi-uVL_nNeGsjVHyJq5ORIcF2m5P5FoUzEDoU1kcc)
+
 # Styleguide ZIP file
 
 The styleguide contains the following folders:
