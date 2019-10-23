@@ -253,7 +253,7 @@ intern-gallery:
     linkedin: "https://sg.linkedin.com/in/juan-pablo-forero-5a92b012a"
     report: 
       title: "Painting quadcopters (summership)"
-      movie: "https://www.youtube.com/edit?o=U&video_id=YxdeULxj-DM"
+      movie: "https://www.youtube.com/watch?v=0p4yckwPCtU"
 ---
 {% include JB/setup %}
 {% include snippets/row-begin %}
