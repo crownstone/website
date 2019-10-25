@@ -130,7 +130,7 @@
 <!-- markdown wrapper -->
 <div class="container">
 <div class="row">
-<div class="col-xs-12">
+<div class="col">
 <!-- markdown wrapper -->
 {% endif %}
 
@@ -140,7 +140,7 @@
 <!-- markdown wrapper -->
 </div><!-- container -->
 </div><!-- row -->
-</div><!-- col-xs-12 -->
+</div><!-- col -->
 <!-- markdown wrapper -->
 {% endif %}
 
@@ -306,6 +306,10 @@
    // load tawk chat window only on demand
    function load_tawk() {
       if (!tawk_loaded) {
+         
+         document.getElementById("tawk-no-tracking-large").style.display = "none";
+         document.getElementById("tawk-no-tracking-small").style.display = "none";
+
          var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
          (function(){
             var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
@@ -321,12 +325,13 @@
             var pageStatus = Tawk_API.getStatus();
 
             if (pageStatus === 'away') {
-               var s2 = document.getElementsById("short-message");
+               var s2 = document.getElementById("short-message");
                s2.value = "Not there! Email us please!";
             }
 
             Tawk_API.maximize();
          };         
+         
       }
    }
 </script>
@@ -338,13 +343,28 @@
 
 {% endif %}
 
-<div class="tawk-dummy">
-   <div id="tawkchat-minified-wrapper" class="white ltr-direction">
-      <div id="tawkchat-minified-container" class="theme-background-color" style="border-radius: 8px 8px 0px 0px;">
-         <div id="tawkchat-status-middle">
-            <div id="tawkchat-status-text-container" class="theme-text-color">
-               <div id="tawkchat-status-message">
-                  <span id="short-message" onclick="load_tawk();return false;">Chat with a human! :-) No bots!</span>
+<div class="d-none d-md-block">
+   <div class="tawk-dummy" id="tawk-no-tracking-large">
+      <div id="tawkchat-minified-wrapper" class="white ltr-direction">
+         <div id="tawkchat-minified-container" class="theme-background-color" style="border-radius: 8px 8px 0px 0px;">
+            <div id="tawkchat-status-middle">
+               <div id="tawkchat-status-text-container" class="theme-text-color">
+                  <div id="tawkchat-status-message">
+                     <span id="short-message" onclick="load_tawk();return false;">Chat with a human! :-) No bots!</span>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+</div>
+
+<div class="d-block d-md-none"> 
+   <div class="tawk-dummy-small bottom round" id="tawk-no-tracking-small">
+      <div id="tawkchat-minified-box" style="transform: scale(1); transform-origin: left bottom 0px;">
+         <div id="tawkchat-minified-wrapper">
+            <div id="tawkchat-status-text-container" class="theme-background-color theme-text-color" onclick="load_tawk(); return false;">
+               <div id="tawkchat-status-icon" class="online">
                </div>
             </div>
          </div>

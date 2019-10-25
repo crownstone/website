@@ -25,7 +25,7 @@ and subscribe at the bottom of this page if you want to stay on top!
 
 <div class="container">
 	<div class="row">
-		<div class="col-xs-12 col-sm-12 col-md-12">
+		<div class="col">
 		{% assign posts_collate = site.posts %}
 		{% include JB/posts_collate %}
 		</div>

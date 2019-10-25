@@ -30,7 +30,7 @@ De nieuwsbrief is eveneens in het Engels geschreven, sorry! :-)
 
 <div class="container">
 	<div class="row">
-		<div class="col-xs-12 col-sm-12 col-md-12">
+		<div class="col">
 		{% assign posts_collate = site.posts %}
 		{% include JB/posts_collate %}
 		</div>
