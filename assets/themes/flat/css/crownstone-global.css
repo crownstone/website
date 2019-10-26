@@ -1376,35 +1376,35 @@ p.thought:after {
 }
 
 .tawk-dummy {
-  outline: currentcolor none medium !important;
-  visibility: visible !important;
-  resize: none !important;
-  box-shadow: none !important;
-  overflow: visible !important;
-  background: transparent none repeat scroll 0% 0% !important;
-  opacity: 1 !important;
-  position: fixed !important;
-  border: 0px none !important;
-  padding: 0px !important;
-  transition-property: none !important;
-  z-index: 1000001 !important;
-  cursor: auto !important;
-  float: none !important;
-  height: 40px !important;
-  min-height: 40px !important;
-  max-height: 40px !important;
-  width: 320px !important;
-  min-width: 320px !important;
-  max-width: 320px !important;
-  border-radius: 0px !important;
-  transform: rotate(0deg) translateZ(0px) !important;
-  transform-origin: 0px center 0px !important;
-  margin: 0px !important;
-  top: auto !important;
-  bottom: 0px !important;
-  right: 10px !important;
-  left: auto !important;
-  display: block !important;
+  outline: currentcolor none medium;
+  visibility: visible;
+  resize: none;
+  box-shadow: none;
+  overflow: visible;
+  background: transparent none repeat scroll 0% 0%;
+  opacity: 1;
+  position: fixed;
+  border: 0px none;
+  padding: 0px;
+  transition-property: none;
+  z-index: 1000001;
+  cursor: auto;
+  float: none;
+  height: 40px;
+  min-height: 40px;
+  max-height: 40px;
+  width: 320px;
+  min-width: 320px;
+  max-width: 320px;
+  border-radius: 0px;
+  transform: rotate(0deg) translateZ(0px);
+  transform-origin: 0px center 0px;
+  margin: 0px;
+  top: auto;
+  bottom: 0px;
+  right: 10px;
+  left: auto;
+  display: block;
 }
 
 /*
@@ -1412,26 +1412,26 @@ p.thought:after {
  * inset: changed to fit circle
  */
 .tawk-dummy-small {
-  outline: currentcolor none medium !important;
-  visibility: visible !important;
-  resize: none !important;
-  box-shadow: none !important;
-  overflow: visible !important;
-  background: transparent none repeat scroll 0% 0% !important;
-  opacity: 1 !important;
-  inset: auto 30px 20px auto !important;
-  position: fixed !important;
-  border: 0px none !important;
-  padding: 0px !important;
-  margin: 0px !important;
-  transition-property: none !important;
-  transform: none !important;
-  z-index: 1000000 !important;
-  cursor: auto !important;
-  float: none !important;
-  border-radius: unset !important;
-  pointer-events: auto !important;
-  display: block !important;
+  outline: currentcolor none medium;
+  visibility: visible;
+  resize: none;
+  box-shadow: none;
+  overflow: visible;
+  background: transparent none repeat scroll 0% 0%;
+  opacity: 1;
+  inset: auto 30px 20px auto;
+  position: fixed;
+  border: 0px none;
+  padding: 0px;
+  margin: 0px;
+  transition-property: none;
+  transform: none;
+  z-index: 1000000;
+  cursor: auto;
+  float: none;
+  border-radius: unset;
+  pointer-events: auto;
+  display: block;
   /*
   height: 90px !important;
   width: 70px !important;
