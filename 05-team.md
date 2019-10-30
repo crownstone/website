@@ -131,7 +131,7 @@ core-team-gallery:
                 
 # Vision
                 
-In the future indoor positioning is going to bigger than outdoor positioning (GPS). Our homes and offices will never be smart if they do not know where we are! 
+In the future indoor positioning is going to be bigger than outdoor positioning (GPS). Our homes and offices will never be smart if they do not know where we are! 
 
 There will be a time that every power outlet and light socket will have a chip. A smart outlet brings comfort, safety, and energy savings. There are many, many more power outlets than smartphones in the world. That's the potential impact of a company like Crownstone! Billions of low-energy chips! Billions of energy savings each year!
 
