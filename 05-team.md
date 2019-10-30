@@ -17,6 +17,7 @@ graduates-gallery:
   - image: "victoriamavrikopoulou.png"
     name: "Victoria Mavrikopoulou"
     affiliation: "TU Delft"
+    linkedin: mavrikopoulouvictoria
     report:
       title: "In-network localization"
   - image: "odysseaskrystalakos.png"
