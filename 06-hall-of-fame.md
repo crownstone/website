@@ -196,6 +196,9 @@ graduate-gallery:
     affiliation: " Utrecht University"
     linkedin: "https://nl.linkedin.com/in/freek-van-polen-08960719"
 intern-gallery:
+  - image: "naveenchakravarthy.jpg"
+    name: "Naveen Chakravarthy"
+    affiliation: "Electrical Engineering, TU Delft"
   - image: "marcdegroot.jpg"
     name: "Marc de Groot"
     affiliation: "Human Technologies, Techniek College Rotterdam" 

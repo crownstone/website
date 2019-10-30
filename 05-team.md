@@ -19,17 +19,18 @@ graduates-gallery:
     affiliation: "TU Delft"
     report:
       title: "In-network localization"
+  - image: "odysseaskrystalakos.png"
+    name: "Odysseas Krystalakos"
+    affiliation: "Radboud University"
+    linkedin: odysseaskr
+    report:
+      title: "Device Fingerprint Representation and Classification"
 intern-gallery:
   - image: "elikruunenberg.jpg"
     name: "Eli Kruunenberg"
     affiliation: "Small Business and Retail Management, Hogeschool Utrecht"
     report:
       title: "Exploring new Crownstone business models"
-  - image: "naveenchakravarthy.jpg"
-    name: "Naveen Chakravarthy"
-    affiliation: "Electrical Engineering, TU Delft"
-    report:
-      title: "Implementing a reliable low-level bootloader upgrade process"
   - image: "aniketsamant.jpg"
     name: "Aniket Samant"
     affiliation: "Electrical Engineering, TU Delft"
