@@ -32,11 +32,6 @@ intern-gallery:
     affiliation: "Small Business and Retail Management, Hogeschool Utrecht"
     report:
       title: "Exploring new Crownstone business models"
-  - image: "aniketsamant.jpg"
-    name: "Aniket Samant"
-    affiliation: "Electrical Engineering, TU Delft"
-    report:
-      title: "Implementing flicker-free dimming through optimizing ADC functions"
   - image: "paulwondel.jpg"
     name: "Paul Wondel"
     affiliation: "Technische Informatica, Hogeschool Rotterdam (starting Sept.)"

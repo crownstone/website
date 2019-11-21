@@ -196,6 +196,11 @@ graduate-gallery:
     affiliation: " Utrecht University"
     linkedin: "https://nl.linkedin.com/in/freek-van-polen-08960719"
 intern-gallery:
+  - image: "aniketsamant.jpg"
+    name: "Aniket Samant"
+    affiliation: "Electrical Engineering, TU Delft"
+    report:
+      title: "Implementing flicker-free dimming through optimizing ADC functions"
   - image: "naveenchakravarthy.jpg"
     name: "Naveen Chakravarthy"
     affiliation: "Electrical Engineering, TU Delft"
