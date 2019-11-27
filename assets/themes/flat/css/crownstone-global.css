@@ -590,12 +590,19 @@ a.button-link:active {
 .forget-box {
   position: relative;
   overflow: hidden; 
+  text-align: center;
 }
 
 .forget-box .btn-default {
-  font: normal 18px/1 "oswaldbold", Helvetica, sans-serif;
-  color: #2398d6; 
+  color: white; 
   border-color: #ccc;
+  background-color: #ff8400;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 8px 10px;
+  margin: 0;
+  width: auto;
+  line-height: 1.42;
 }
 
 .forget-box .forget-button {

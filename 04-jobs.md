@@ -74,9 +74,15 @@ You're welcome! If you have an interesting story that is :-)
 {% include snippets/divider %}
 
 {% include snippets/row-begin %}
-{% include snippets/column-begin colsize=8 %}
+
+{% include snippets/column-begin %}
 
 # Graduation projects
+
+{% include snippets/column-end %}
+
+{% include snippets/column-begin colsize=8 %}
+
 
 Please, only apply if you live in the Netherlands and in the context of a graduation project. Proficient English is required, Dutch isn't.
 
@@ -95,14 +101,23 @@ And, no, we are not afraid to use Lego or Arduino if that helps us with prototyp
 {% include snippets/row-end %}
 
 {% include snippets/row-begin %}
+{% include snippets/column-begin colsize="12" %}
+
+Note that if a graduation position has been taken, this does not mean that all corresponding problems have been solved. These are multifaceted problems that require a lot of people to tackle. If something captures your interest, you should get in contact!
+
+{% include snippets/column-end %}
+{% include snippets/row-end %}
+
+
+{% include snippets/row-begin %}
 
 
 
 {% include snippets/internship-begin %}
 				
-## In-network (mesh) localization
+## In-network localization
 
-Crownstones can not only operate as iBeacons, but also as scanning devices that can localize anything that sends out BLE messages, such as wearables (Apple Watch, Fitbit, Jawbone, but also special watches carried by people with dementia). Localization of these devices is very challenging!
+Crownstones can not only operate as iBeacons, but also as scanning devices that can localize anything that sends out BLE messages, such as wearables (Apple Watch, Fitbit, Jawbone, but also special watches carried by people with dementia). 
 
 {% include snippets/internship-end urlpdf="https://docs.google.com/document/d/1As9rY5-jWdyDmgVhuye1kmyxPMGYe_1rT4Cdgg-p_J0/export?format=pdf" %}
 
@@ -120,12 +135,11 @@ Crownstones can monitor machines, tools, appliances. This allows them to recogni
 
 {% include snippets/internship-begin %}
 
-## Deep learning for Device Identification
+## Device Identification
 
 Crownstones can distinghuish devices based on a "footprint" of current and voltage levels over time. To do this properly advanced machine learning is required, hence deep learning!
 
-{% include snippets/internship-end urlpdf="https://docs.google.com/document/d/1_KFARtHk35xYPuTZ0ELSSYMtzJwtzKnauewwFsbddAk/export?format=pdf" %}
-
+{% include snippets/internship-end urlpdf="https://docs.google.com/document/d/1_KFARtHk35xYPuTZ0ELSSYMtzJwtzKnauewwFsbddAk/export?format=pdf" taken="true" %}
 
 
 {% include snippets/internship-begin %}
@@ -138,13 +152,44 @@ It is possible to infer from Bluetooth disturbances alone that there are people 
 
 {% include snippets/row-end %}
 
-
 {% include snippets/divider %}
 
 {% include snippets/row-begin %}
 {% include snippets/column-begin colsize="12" %}
 
-Note that if a graduation position has been taken, this does not mean that all corresponding problems have been solved. These are multifaceted problems that require a lot of people to tackle. If something captures your interest, you should get in contact!
+# Internships
+
+There are more internships available that are not necessarily tied to a graduation project. They range from a minimum of 3 months to 12 months.
+
+{% include snippets/column-end %}
+{% include snippets/row-end %}
+
+
+{% include snippets/row-begin %}
+
+{% include snippets/internship-begin %}
+
+## Low-level Dimming
+
+Sophisticated Analog-Digital conversion tasks to improve (1) leading edge, trailing edge dimming on Crownstones, (2) recognition of physical switch events (coined switchcraft), e.g. through curve fitting.
+
+{% include snippets/internship-end urlpdf="https://docs.google.com/document/d/1Av-BQYIAL3fkytEzVmFzdqQQGtkaU-OvLR6N-WH3xew/export?format=pdf" %}
+
+{% include snippets/internship-begin %}
+
+## Crownstone Communication
+
+Create a professional style guide for internal and external use building on buyer personas, consolidating the brand's value, core principles, and establishing the brand's voice.
+
+{% include snippets/internship-end urlpdf="https://docs.google.com/document/d/1hpCZT5TnMc_YiXm8tKQFESZaaMz45RolhnTCxwqq1oA/export?format=pdf" %}
+
+
+{% include snippets/row-end %}
+
+{% include snippets/divider %}
+
+{% include snippets/row-begin %}
+{% include snippets/column-begin colsize="12" %}
 
 ## Hall of fame
 
