@@ -168,7 +168,7 @@ For detailed specifications, see the [specification page](https://shop.crownston
 
 # Roadmap
 
-The current Crownstone iOS and Android apps have the following functionality. Every few weeks a new update is rolled out:
+The current Crownstone iOS and Android apps have the following functionality. Every couple of weeks a new update is rolled out:
 
 | Functionality                                     | State Soft&shy;ware                             | 
 | ---                                               | ---                                             |
@@ -194,8 +194,11 @@ The current Crownstone iOS and Android apps have the following functionality. Ev
 | Integration with thermostat radiator valves       | <i class="el el-check-empty"></i>               |
 | Multi-user setup (don't leave user in the dark)   | <i class="el el-check-empty"></i>               |
 
-On our roadmap you will find more tasks that are planned already, from integration with Alexa to configuration of preconfigured scenes. 
-You can vote for it [on trello](https://trello.com/b/6rUcIt62/crownstone-transparent-product-roadmap) if you'd like to. A nice example of another company that brings a lot of firmware updates is Fujifilm. Look at [this list](https://petapixel.com/2017/03/22/fujifilm-x-t2x-pro2-firmware-update-bring-33-improvements/) of impressive updates that are so significant that it feels like you own a completely new camera! We will always have a few features under the radar that hopefully will make you feel the same!
+Not only the Crownstone app will be updated. Also the firmware on the Crownstone themselves. 
+A nice example of another company that brings a lot of firmware updates is Fujifilm. 
+Look at [this list](https://petapixel.com/2017/03/22/fujifilm-x-t2x-pro2-firmware-update-bring-33-improvements/) of 
+impressive updates that are so significant that it feels like you own a completely new camera! 
+We will always have a few features under the radar that hopefully will make you feel the same!
 
 {% include snippets/column-end %}
 {% include snippets/row-end %}

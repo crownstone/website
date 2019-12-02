@@ -13,8 +13,6 @@ permalink: /
 
 {% include JB/setup %}
 
-{% include snippets/orange-top-bar text='Visit us at <a href="https://www.brightday.nl/smart-home/">Bright Day</a> and the <a href="https://excellentmagazine.nl/professionals/domotica/crownstone/">Excellent Woonbeurs</a> in November!' %}
-
 {% include snippets/video-banner video='/clips/intro' placeholder='/attachments/crownstone_in_living_room.jpg' alt="Crownstone in a living room" %}
 
 {% include snippets/row-begin %}

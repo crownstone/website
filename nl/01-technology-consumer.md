@@ -192,8 +192,10 @@ De huidige Crownstone iPhone en Android apps hebben de volgende functies. Om de 
 | Integratie met BLE thermostaatknoppen             | <i class="el el-check-empty"></i>                |
 | Meerdere gebruikers (niemand in het donker)       | <i class="el el-check-empty"></i>                |
 
-Op onze roadmap staan nog veel meer taken die al zijn gepland, van het integreren met Alexa tot en met het configureren van scenes.
-We worden al geholpen door eenvoudigweg te stemmen [op trello](https://trello.com/b/6rUcIt62/crownstone-transparent-product-roadmap). Trouwens, een mooi voorbeeld van een ander bedrijf  dat firmware updates serieus neemt is Fujifilm. Kijk eens naar [deze lange lijst](https://petapixel.com/2017/03/22/fujifilm-x-t2x-pro2-firmware-update-bring-33-improvements/) van updates die zo significant zijn dat het lijkt alsof je als eigenaar een geheel nieuwe camera in bezit hebt! Wij zullen altijd nieuwe features onder de radar blijven ontwikkelen zodat jullie hopelijk hetzelfde gevoel zullen hebben!
+De Crownstone app is niet het enige wat wordt geupdated. Ook de firmware op de Crownstones zelf. 
+Een mooi voorbeeld van een ander bedrijf  dat firmware updates serieus neemt is Fujifilm. 
+Kijk naar [deze lange lijst](https://petapixel.com/2017/03/22/fujifilm-x-t2x-pro2-firmware-update-bring-33-improvements/) van updates die zo significant zijn dat het lijkt alsof je als eigenaar een geheel nieuwe camera in bezit hebt! 
+Wij zullen altijd nieuwe features onder de radar blijven ontwikkelen zodat jullie hopelijk hetzelfde gevoel zullen hebben!
 
 {% include snippets/column-end %}
 {% include snippets/row-end %}
