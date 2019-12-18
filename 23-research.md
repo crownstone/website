@@ -125,6 +125,24 @@ A first implementation can be found in the thesis below:
 
 - Configuration of Ambient Environments by speech (Nanne Wielinga, 2018, [pdf](https://crownstone.rocks/attachments/thesis/nannewielinga.pdf))
 
+## Homomorphic encryption
+
+You are the boss of your own data. Crownstone wants to provide secure methods in which your data can be analysed in
+the cloud without running the risk that it is used for secondary purposes. This can be achieved by so-called
+[homomorphic encryption](https://en.wikipedia.org/wiki/Homomorphic_encryption). It is a form of encryption that allows
+computations on encrypted data without the need of decrypting it. How does it work? For example, Crownstone 
+communicates in encrypted form the power consumption of every device in a household to the cloud. The cloud has no
+way to decrypt this data. Thanks to this type of homomorphic encryption the cloud can aggregate the consumption by
+a sum operator that works on the encrypted data. This sum is also in encrypted form. The cloud does not know the result
+either! The encrypted result is returned to the user. The user can decrypt the result and voila!
+
+There is now third generation homomorphic encryption, but it is still very computationally expensive. To be really
+used in practice, a lot of theoretical advances have to be made. This technique has the potential to become more 
+important than end-to-end encryption and blockchain combined. There is a homomorphic encryption consortium with members
+like Intel, Microsoft, IBM, and members who completely focus on this technology, such as 
+[Duality Technologies](https://duality.cloud/products/), [Inpher](https://www.inpher.io/#home), and 
+[Ixup](https://ixup.com/).
+
 ## Other topics
 
 There are other topics that we have studied in the past. For example distributed control of fridges for demand response
