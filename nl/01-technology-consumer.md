@@ -24,10 +24,17 @@ Wat kan de Crownstone doen?
 
 * De Crownstone is een schakelaar, een dimmer, een vermogenssensor, en een standby-killer ineen. Alleen al de standby-killer functie bespaart een gemiddeld huishouden 10% op de elektriciteitsrekening. Al snel meer dan 60 euro per jaar.
 * De Crownstone maakt het mogelijk om een slim huis te hebben zonder dat je hoeft te priegelen op je telefoon. Apparaten en lichten kunnen automatisch worden aangezet als je een kamer binnenkomt door de smartphone in je zak of aan je oor te hebben. Het is op deze manier ultiem comfort!
-* De Crownstone is een slim kinderslot. Het is onmogelijk voor je kind om een gevaarlijk apparaat zoals een staafmixer, broodrooster of strijkijzer aan te zetten als je niet in de buurt bent.
-* De Crownstone is een wake-up of ga-naar-bed licht. Je gewone lichten kunnen nu dit soort functionaliteit vertonen zonder dat je dure apparaten hoeft te kopen.
+* Het kan LED lichten dimmen. Een traditionele dimmer kan vaak LED verlichting niet helemaal uitzetten.
+* Het kan gebruikt worden tegelijk met een lichtschakelaar (met [switchcraft](/installation).
+* Het is een tijdklok die de lokale tijd kent, bijv. om een poortlicht aan te zetten alleen dan wanneer het donker is.
+
+De Crownstones kunnen over de loop van de komende tijd ook steeds meer (met automatische updates):
+
+* De Crownstone wordt een slim kinderslot. Het is onmogelijk voor je kind om een gevaarlijk apparaat zoals een staafmixer, broodrooster of strijkijzer aan te zetten als je niet in de buurt bent.
+* De Crownstone als een wake-up of ga-naar-bed licht. Je gewone lichten kunnen nu dit soort functionaliteit vertonen zonder dat je dure apparaten hoeft te kopen.
 * De Crownstones kunnen het doen lijken dat je thuis bent terwijl je op vakantie bent. Dit voorkomt inbraken. De verlichting gaat netjes aan in de avond om inbrekers om de tuin te leiden.
-                
+
+Kijk onderaan deze pagina om te zien welke nieuwe functies recent zijn toegevoegd.
 Bekijk ook andere [scenario's]({{ BASE_PATH }}/scenarios)!
 
 {% include snippets/column-end %}

@@ -22,11 +22,18 @@ What can the Crownstones do for you at home?
                 
 * It's a switch, a dimmer, a power monitor, and a standby killer at once. Only getting rid of standby power consumption saves an average household 10% on the electricity bill. That's already 70 euros each year! 
 * It does not need you to fiddle around on a smartphone. You can switch on devices automatically by just entering the room with the smartphone in your pocket or at your ear! It's ultimate comfort!
-* It's a smart child-lock. It is impossible for your kid to switch on a dangerous device like a blender, a grill, or an iron, if you're not right there.
-* It's a wake-up light or a go-to-bed light. No need to buy fancy products for this. Your normal lights can wake you up in a friendly manner.
+* It can dim LED lights. A conventional dimmer can often not dim LED lights so they are completely off.
+* It can be used simultaneously with a light switch (using [switchcraft](https://crownstone.rocks/installation/)).
+* It is a scheduler that is aware of the local time zone, for example to set a porch light to be on when it's dark.
+
+Moreover, it the coming time, it can do more and more:
+
+* It can be a smart child-lock. It is impossible for your kid to switch on a dangerous device like a blender, a grill, or an iron, if you're not right there.
+* It can be a wake-up light or a go-to-bed light. No need to buy fancy products for this. Your normal lights can wake you up in a friendly manner.
 * It can be configured with a holiday setting to prevent burglary. The lighting will go on at the evening, as if you're at home. 
-                
-And you'll definitely have to check the [scenarios]({{ BASE_PATH }}/scenarios)!
+
+Scroll down to see if new functions became available recently.
+And you'll definitely have to check the [scenarios]({{ BASE_PATH }}/scenarios)! 
 
 {% include snippets/column-end %}
 {% include snippets/row-end no-container-end="true" %}
