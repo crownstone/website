@@ -34,22 +34,22 @@ intern-gallery:
       title: "Exploring new Crownstone business models"
   - image: "paulwondel.jpg"
     name: "Paul Wondel"
-    affiliation: "Technische Informatica, Hogeschool Rotterdam (starting Sept.)"
+    affiliation: "Technische Informatica, Hogeschool Rotterdam"
     report:
       title: "Make Crownstone Arduino compatible"
   - image: "meralynnmohabir.jpg"
     name: "Meralynn Mohabir"
-    affiliation: "Technische Informatica, Hogeschool Rotterdam (starting Sept.)"
+    affiliation: "Technische Informatica, Hogeschool Rotterdam"
     report:
       title: "Indoor Localization within the mesh network"
   - image: "ilhandelic.jpg"
     name: "Ilhan Delic"
-    affiliation: "Technische Informatica, Hogeschool Rotterdam (starting Sept.)"
+    affiliation: "Technische Informatica, Hogeschool Rotterdam"
     report:
       title: "Crownstone smart home hub"
   - image: "joybaris.jpg"
     name: "Joy Baris"
-    affiliation: "Human Technologies, Techniek College Rotterdam (starting Sept.)" 
+    affiliation: "Human Technologies, Techniek College Rotterdam" 
 advisors-gallery:
   - image: "hansabbink.jpg"
     name: "Hans Abbink"
