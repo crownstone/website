@@ -32,23 +32,27 @@ intern-gallery:
     affiliation: "Small Business and Retail Management, Hogeschool Utrecht"
     report:
       title: "Exploring new Crownstone business models"
-  - image: "paulwondel.jpg"
-    name: "Paul Wondel"
-    affiliation: "Technische Informatica, Hogeschool Rotterdam"
+  - image: "ricardosteijn.jpg"
+    name: "Ricardo Steijn"
+    affiliation: "Communicatie, Media en Informatietechnologie, Hogeschool Rotterdam"
+	linkedin: ricardo-steijn-38319b177
     report:
-      title: "Make Crownstone Arduino compatible"
-  - image: "meralynnmohabir.jpg"
-    name: "Meralynn Mohabir"
+      title: "Home Assistant (home-assistant.io)"
+  - image: "wickybhaggoe.jpg"
+    name: "Wicky Bhaggoe"
     affiliation: "Technische Informatica, Hogeschool Rotterdam"
+	linkedin: wicky-bhaggoe-28280b124/
     report:
-      title: "Indoor Localization within the mesh network"
-  - image: "ilhandelic.jpg"
-    name: "Ilhan Delic"
-    affiliation: "Technische Informatica, Hogeschool Rotterdam"
+      title: "Crownstone Hardware Tester"
+  - image: "oscardruiventak.jpg"
+    name: "Oscar Druiventak"
+    affiliation: "Communicatie, Media en Informatietechnologie, Hogeschool Rotterdam"
+	linkedin: oscar-druiventak-46b6babb
     report:
-      title: "Crownstone smart home hub"
-  - image: "joybaris.jpg"
-    name: "Joy Baris"
+      title: "Voice Assistant (Google Home)"
+  - image: "bjornpeperzak.jpg"
+    name: "Björn Peperzak"
+	linkedin: björn-peperzak-992129197/
     affiliation: "Human Technologies, Techniek College Rotterdam" 
 advisors-gallery:
   - image: "hansabbink.jpg"

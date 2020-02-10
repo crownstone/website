@@ -28,17 +28,27 @@ intern-gallery:
   - image: "elikruunenberg.jpg"
     name: "Eli Kruunenberg"
     affiliation: "Small Business and Retail Management, Hogeschool Utrecht"
-  - image: "paulwondel.jpg"
-    name: "Paul Wondel"
+  - image: "ricardosteijn.jpg"
+    name: "Ricardo Steijn"
+    affiliation: "Communicatie, Media en Informatietechnologie, Hogeschool Rotterdam"
+	linkedin: ricardo-steijn-38319b177
+    report:
+      title: "Home Assistant (home-assistant.io)"
+  - image: "wickybhaggoe.jpg"
+    name: "Wicky Bhaggoe"
     affiliation: "Technische Informatica, Hogeschool Rotterdam"
-  - image: "meralynnmohabir.jpg"
-    name: "Meralynn Mohabir"
-    affiliation: "Technische Informatica, Hogeschool Rotterdam"
-  - image: "ilhandelic.jpg"
-    name: "Ilhan Delic"
-    affiliation: "Technische Informatica, Hogeschool Rotterdam"
-  - image: "joybaris.jpg"
-    name: "Joy Baris"
+	linkedin: wicky-bhaggoe-28280b124/
+    report:
+      title: "Crownstone Hardware Tester"
+  - image: "oscardruiventak.jpg"
+    name: "Oscar Druiventak"
+    affiliation: "Communicatie, Media en Informatietechnologie, Hogeschool Rotterdam"
+	linkedin: oscar-druiventak-46b6babb
+    report:
+      title: "Voice Assistant (Google Home)"
+  - image: "bjornpeperzak.jpg"
+    name: "Björn Peperzak"
+	linkedin: björn-peperzak-992129197/
     affiliation: "Human Technologies, Techniek College Rotterdam" 
 advisors-gallery:
   - image: "hansabbink.jpg"
