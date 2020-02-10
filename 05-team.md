@@ -32,27 +32,27 @@ intern-gallery:
     affiliation: "Small Business and Retail Management, Hogeschool Utrecht"
     report:
       title: "Exploring new Crownstone business models"
-  - image: "ricardosteijn.jpg"
-    name: "Ricardo Steijn"
-    affiliation: "Communicatie, Media en Informatietechnologie, Hogeschool Rotterdam"
-	linkedin: ricardo-steijn-38319b177
-    report:
-      title: "Home Assistant (home-assistant.io)"
   - image: "wickybhaggoe.jpg"
     name: "Wicky Bhaggoe"
     affiliation: "Technische Informatica, Hogeschool Rotterdam"
-	linkedin: wicky-bhaggoe-28280b124/
+    linkedin: wicky-bhaggoe-28280b124
     report:
       title: "Crownstone Hardware Tester"
+  - image: "ricardosteijn.jpg"
+    name: "Ricardo Steijn"
+    affiliation: "Communicatie, Media en Informatietechnologie, Hogeschool Rotterdam"
+    linkedin: ricardo-steijn-38319b177
+    report:
+      title: "Home Assistant (home-assistant.io)"
   - image: "oscardruiventak.jpg"
     name: "Oscar Druiventak"
     affiliation: "Communicatie, Media en Informatietechnologie, Hogeschool Rotterdam"
-	linkedin: oscar-druiventak-46b6babb
+    linkedin: oscar-druiventak-46b6babb
     report:
       title: "Voice Assistant (Google Home)"
   - image: "bjornpeperzak.jpg"
     name: "Björn Peperzak"
-	linkedin: björn-peperzak-992129197/
+    linkedin: bj%C3%B6rn-peperzak-992129197
     affiliation: "Human Technologies, Techniek College Rotterdam" 
 advisors-gallery:
   - image: "hansabbink.jpg"
