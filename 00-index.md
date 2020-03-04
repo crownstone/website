@@ -13,6 +13,8 @@ permalink: /
 
 {% include JB/setup %}
 
+{% include snippets/orange-top-bar text='<a href="https://us10.campaign-archive.com/?u=d03baf337210e326a61dc14d5&id=f5a57226ad">Crownstone New Behaviour</a> (what is in the latest update)?' %}
+
 {% include snippets/video-banner video='/clips/intro' placeholder='/attachments/crownstone_in_living_room.jpg' alt="Crownstone in a living room" %}
 
 {% include snippets/row-begin %}
