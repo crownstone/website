@@ -16,7 +16,7 @@ permalink: /
 
 {% include JB/setup %}
 
-{% include snippets/orange-top-bar text='<a href="https://us10.campaign-archive.com/?u=d03baf337210e326a61dc14d5&id=f5a57226ad">Crownstone Nieuw Gedrag</a> (wat zit er in de laatste update)?' %}
+{% include snippets/orange-top-bar text='Vanwege de omstandigheden worden producten eenmaal per week verzonden.' %}
 
 {% include snippets/video-banner video='/clips/intro' placeholder='/attachments/crownstone_in_living_room.jpg' alt="Crownstone in a living room" %}
 
