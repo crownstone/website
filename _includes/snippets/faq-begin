@@ -1,8 +1,8 @@
 <div class="card">
-<div class="card-heading">
+<div class="card-header">
 <h4 class="card-title">
-<a data-toggle="collapse" data-parent="#accordion" href="#{{ include.ref }}">{{ include.question }}</a>
+<a data-toggle="collapse" href="#{{ include.ref }}">{{ include.question }}</a>
 </h4>
 </div>
-<div id="{{ include.ref }}" class="card-collapse collapse {{ include.dontcollapse }}">
+<div id="{{ include.ref }}" class="collapse {{ include.dontcollapse }}" data-parent="#faq-app">
 <div class="card-body" markdown="1">

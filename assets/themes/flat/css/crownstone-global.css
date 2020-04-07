@@ -189,6 +189,18 @@ div.bannerContainer {
   align-items: center;
 }
 
+.card {
+	margin-bottom: 1rem;
+}
+
+h4.card-title {
+	margin-bottom: 0px;
+}
+
+h4.card-title a {
+	color: #003e52;
+}
+
 /*
  * Shifts entire block to 50% and then shift back to center. This can be used to center an absolute element.
  * The absolute positioning is used to create two captions on top of each other, white-caption and colored-caption.

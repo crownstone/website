@@ -15,7 +15,7 @@ kramdown:
 
 # App Help
 
-The app itself is self-explanatory. However, if there are particular questions coming in we will use them to answer them on this page.
+The app should be pretty self-explanatory. However, if there are particular questions coming in we will use them to answer them on this page.
 
 {% include snippets/faq-group-begin %}
 
@@ -27,7 +27,11 @@ Apart from this list of questions, there is also a "Help" section in the app its
 
 {% include snippets/faq-begin ref="faqNewStone" question="How to add a Crownstone in the app?" %}
 
-Open the Crownstone app, just in the general overview. Now power on the Crownstone (plug it in). Keep the phone **really close** and this means **really** close. You will see a blue icon flashing. This is the Crownstone discovered by the phone. Click on it and read the instruction for setup. After this procedure you are the digital owner of the Crownstone and you can decide who is allowed to use it.
+Open the Crownstone app, in the general overview. Press on the button in right buttom (it has a plus sign on it). 
+Click on the phone on the Crownstone icon. It will ask you to select which Crownstone you have: a Crownstone Plug, a Crownstone Built-in One, or an older Crownstone Built-in Zero.  
+Now power on the Crownstone (plug it in). Keep the phone **really close** and this means **really** close to the Crownstone. 
+Click on "Next". The phone will be search for new Crownstones... This can take a while.
+After the Crownstone is found, you are the digital owner of the Crownstone and you can decide who is allowed to use it.
 
 {% include snippets/faq-end %}
 
