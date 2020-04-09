@@ -58,6 +58,10 @@ contact-team:
   name: Crownstone Team
   email: [ '.rocks', 'stone', 'crown', '@', 'am', 'te' ]
 
+legal-team: 
+  name: Crownstone Legal
+  email: [ '.rocks', 'stone', 'crown', '@', 'scribe', 'sub' ]
+
 # The production_url is only used when full-domain names are needed
 # such as sitemap.txt 
 # Most places will/should use BASE_PATH to make the urls
