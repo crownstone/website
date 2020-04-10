@@ -11,85 +11,78 @@ markdown: true
 
 # Crownstone app installatie
 
-To use and configure the Crownstone you need the [Crownstone app](https://crownstone.rocks/app/). 
-This smartphone app is available for iOS and Android.
-For iOS it is [available](https://apps.apple.com/us/app/crownstone/id1136616106) in the Apple App Store, and for 
-Android it can be [found](https://play.google.com/store/apps/details?id=rocks.crownstone.consumerapp) in the Google Play Store.
+Om de Crownstone te gebruiken en te configureren heb je de [Crownstone app](https://crownstone.rocks/app/) nodig.
+Deze smartphone app is geschikt voor iOS en Adroid.
+Voor iOS is het [beschikbaar](https://apps.apple.com/us/app/crownstone/id1136616106) in de Apple App Store, en voor
+Android can het worden [gevonden](https://play.google.com/store/apps/details?id=rocks.crownstone.consumerapp) in de Google Play Store.
 
-The app will guide you through the registration process and allows you to setup your Crownstones.
+De app zal je door het registratieproces heenleiden en maakt het mogelijk de Crownstones in te stellen.
 
-# Installation behind a power outlet
+# Installatie achter een stopcontact.
 
-If at any point you are unsure of what to do, stop installation immediately and contact an electrician!
+Als u niet zeker weet wat u moet doen, stop direct de installatie en neem contact op met een erkend elektricien.
 
-1. Before installing your built-in Crownstone, turn off the power at the fuse box. 
-2. Open up your power socket and connect the wires as shown in Figure A.
-3. Close the power socket and turn on the power at the fuse box.
-4. Open the app and hold your smartphone near the socket with your Crownstone. Follow the instructions in the app for adding a Crownstone!
+1. Zet de stroom uit in de meterkast voor het installeren van de inbouw Crownstones.
+2. Maak het stopcontact open en verbind de draden zoals getekend in onderstaand schakelschema in Figuur A.
+3. Maak het stopcontact weer dicht en zet de stroom weer aan in de meterkast.
+4. Open de app en plaats uw smartphone dicht bij het stopcontact met de Crownstone. Volg de instructies in de app voor het toevoegen van een nieuwe
+Crownstone. 
 
-{% include snippets/image-with-caption url="/attachments/installation/en/socket_wiring_diagram.png" description="Figure A: Power socket wiring diagram" %}
+{% include snippets/image-with-caption url="/attachments/installation/nl/socket_wiring_diagram.png" description="Figuur A: Inbouw Crownstone schakelschema. Pas op, de draadkleuren kunnen anders zijn." %}
 
-There are some general tips here. Of course, play close attention to the labels on the Crownstone itself. Do not switch
-in and out. If by accident switched, the Crownstone might actually power up, but it will be impossible to switch anything.
-Strip and bend the wires before you put the Crownstone in the utilty box. Prebending the wires means that there is less
-strain involved. Last, but not least. Make sure you know your wires. Do not expect the colors to be "correct". In
-history colors have changed multiple times. Even now colors are different depending on the country.
+Hier komen wat algemene tips. Natuurlijk, let goed op de poorten op de Crownstone zelf. Sluit de draden goed aan. 
+Wissel niet per ongeluk in en uit om. Als deze worden omgedraaid, kan het zo zijn dat de Crownstone wel opstart, maar
+dan is het niet mogelijk om iets te schakelen. Strip en buig de bedrading vooraf. Alleen daarna sluit je de Crownstone
+aan en stop je 'm in de inbouwdoos. Het voorbuigen van de draden verminderd ook de belasting op de poorten van de 
+Crownstone. Wees er ook zeker van dat de draden kloppen! Ga er niet vanuit dat de kleuren "correct" zijn. In de loop
+van de geschiedenis zijn draadkleuren meerdere keren veranderd en ze zijn nog steeds anders afhankelijk van het land.
 
-# Installation with a ceiling light
+# Installatie bij plafondverlichting
 
-If at any point you are unsure of what to do, stop installation immediately and contact an electrician!
+Als u niet zeker weet wat u moet doen, stop direct de installatie en neem contact op met een erkend elektricien.
 
-1. Before installing your built-in Crownstone, turn off the power at the fuse box. 
-2. The Crownstone is connected at the ceiling light (Figure B), not at the switch. Unmount your ceiling light and connect the 
-wires as shown in Figure C.
-3. The ceiling light is now finished, put it back and turn the power back on at
-the fuse box. If you want to use your existing wall switch together with a
-Crownstone, take a look at the Switchcraft installation (on the right) for more
-information.
-4. Open the Crownstone app and hold your smartphone near the ceiling light
-with your newly installed Crownstone. Follow the instructions in the app for
-adding a Crownstone!
+1. Zet de stroom uit in de meterkast voor het installeren van de inbouw Crownstones.
+2. De Crownstone wordt aangebracht bij de plafondlamp, niet bij de wandschakelaar (Figuur B). Verwijder de plafondverlichting en verbind de draden zoals
+getekend in onderstaand schakelschema (Figuur C).
+3. Indien het gewenst is om de bestaande schakelaar te gebruiken tegelijkertijd met de Crownstone, zie de Switchcraft installatie instructies hieronder. Na
+installatie van de Crownstone, plaats de plafondlamp terug en zet de stroom weer aan in de meterkast.
+4. Open de app en plaats uw smartphone dicht bij de lamp met de zojuist geïnstalleerde Crownstone. Volg de instructies in de app voor het toevoegen
+van een nieuwe Crownstone. 
 
-{% include snippets/image-with-caption url="/attachments/installation/en/ceiling_light_placement.png" description="Figure B: Placing of Crownstone at the ceiling light" %}
+{% include snippets/image-with-caption url="/attachments/installation/nl/ceiling_light_placement.png" description="Figuur B: De Crownstone wordt geplaatst in het plafond." %}
 
-{% include snippets/image-with-caption url="/attachments/installation/en/ceiling_light_wiring_diagram.png" description="Figure C: Ceiling light wiring diagram" %}
+{% include snippets/image-with-caption url="/attachments/installation/nl/ceiling_light_wiring_diagram.png" description="Figuur C: Inbouw Crownstone schakelschema. Pas op, de draadkleuren kunnen anders zijn. Aarde kan mogelijk afwezig zijn." %}
 
 # Switchcraft installation
 
-If at any point you are unsure of what to do, stop installation immediately and contact an electrician!
+Als u niet zeker weet wat u moet doen, stop direct de installatie en neem contact op met een erkend elektricien.
 
-Switchcraft is a modification to an existing wall switch to allow it to work
-together with a Crownstone. If your wall switch supports traditional multiway
-switching, you can use Switchcraft!
-These instructions assume you have installed your Crownstone as shown in
-"Installation with a ceiling light" on the left.
+Switchcraft is een aanpassing van een wandschakelaar zodat deze samen met
+een Crownstone kan worden gebruikt. Elke wandschakelaar die ingezet kan
+worden in een normale hotelschakeling kan worden gebruikt voor Switchcraft.
+Deze instructies veronderstellen dat de Crownstone al is geïnstalleerd volgens de
+"Installatie bij plafondverlichting" instructie hierboven.
 
+1. Zet de stroom uit in de meterkast voordat u de wandschakelaar gaat aanpassen. 
+2. Switchcraft werkt door middel van het aanbrengen van een extra draad tussen de twee uitgangen van de schakelaar (getoond in schakelschema (Figuur D) met [X]). Als de schakelaar wordt omgezet, wordt de stroom kort onderbroken. De Crownstone ziet dit als een schakelcommando. Maak de wandschakelaar open en verbind de draden zoals getekend in onderstaand schakelschema (Figuur D).
+3. Plaats de wandschakelaar terug en zet de stroom weer aan in de meterkast.
+4. Open de app en zoek de Crownstone die nu via Switchcraft kan worden bediend. Deze functie moet in de instellingen van een Crownstone worden aangezet voordat deze zal reageren.
 
-1. Before modifying your wall switches, turn off the power at the fuse box.
-2. Switchcraft works with an additional wire which acts as a bridge between the
-two outputs of the switch (Figure D, shown as [S]). When the switch tog-
-gles between the outputs, it will cause a very short interruption of the power.
-Cronwstone uses this as an input command.
-Open up your wall switch and connect the wires as shown in Figure D.
-3. Close your switch after adding the Switchcraft wire and turn the power back
-on at the fuse box.
-4. Open the app and navigate to the built-in Crownstone that will be switched
-by your new Switchcraft switch. You have to enable the use of Switchcraft for
-this Crownstone in its settings.
+{% include snippets/image-with-caption url="/attachments/installation/nl/switchcraft_wiring_diagram.png" description="Figuur D: Switchcraft schakelschema. Aanpassing van de bedrading aangegeven
+met [X]." %}
 
-{% include snippets/image-with-caption url="/attachments/installation/en/switchcraft_wiring_diagram.png" description="Figure D: Switchcraft wiring diagram" %}
+## Lichten dimmen met Crownstone
 
-## Dimming lights with Crownstone
+De Crownstone kan of hoge stromen schakelen of lichten dimmen. Om de
+dimmer functionaliteit te gebruiken moet je deze eerst aanzetten. Volg deze
+stappen:
 
-Your Crownstone can both switch high-current devices as well as dim lights. To
-use the dimming functionalty, follow these steps:
+* Controleer of de lampen dimbaar zijn.
+* Download de Crownstone app, registreer en voeg je Crownstone toe.
+* Zet dimmen aan in de instellingen van de Crownstone.
 
-* Make sure you have a light that is dimmable.
-* Download and setup the Crownstone app.
-* Enable the dimming feature of this Crownston in its settings.
+U kunt lichten dimmen tussen de 0 en 100 W met een enkele Crownstone.
 
-You can dim lights from 0 to 100 W with a single Crownstone.
+Meer informatie over dimcompatibiliteit kan worden gevonden op <https://crownstone.rocks/compatibility/dimming/>.
 
-More information can be found at <https://crownstone.rocks/compatibility/dimming/>.
-
-For further assistance with the use of the Crownstone app, you can visit <https://crownstone.rocks/app-help>.
+Voor overige vragen en hulp met betrekking op de app kunt u terecht op <https://crownstone.rocks/app-help>.
