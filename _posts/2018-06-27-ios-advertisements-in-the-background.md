@@ -64,10 +64,6 @@ Run the `lescan_crownstone` binary with a comma-separated list of UUIDs:
 
 Note that `LD_LIBRARY_PATH` only needs to be added when the linker cannot find the `libble++.so.5` library in the local path.
 
-# Mapping
-
-The exact mapping from UUIDs to the bit mask in the overflow area has been reverse engineered by Crownstone. If you are interested in this functionality, we can provide that under a suitable license.
-
 # Support / Disclaimer
 
 For all people who want to know more... Or have particular issues with their operating system. 
