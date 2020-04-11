@@ -28,6 +28,10 @@ Als u niet zeker weet wat u moet doen, stop direct de installatie en neem contac
 4. Open de app en plaats uw smartphone dicht bij het stopcontact met de Crownstone. Volg de instructies in de app voor het toevoegen van een nieuwe
 Crownstone. 
 
+Als bovenstaande iets te snel gaat, er is een heel gedetailleerde stap-voor-stap-handleiding met foto's 
+voor [enkele](/nl/installation/single-outlet)
+en [dubbele](/nl/installation/double-outlet) stopcontacten.
+
 {% include snippets/image-with-caption url="/attachments/installation/nl/socket_wiring_diagram.png" description="Figuur A: Inbouw Crownstone schakelschema. Pas op, de draadkleuren kunnen anders zijn." %}
 
 Hier komen wat algemene tips. Natuurlijk, let goed op de poorten op de Crownstone zelf. Sluit de draden goed aan. 
