@@ -175,29 +175,34 @@ For detailed specifications, see the [specification page](https://shop.crownston
 
 De huidige Crownstone iPhone en Android apps hebben de volgende functies. Om de zoveel weken is er een update met nieuwe functionaliteit:
 
-| Functie                                           | Status Software                                  | 
-| ---                                               | ---                                              |
-| Schakelaar                                        | <i class="el el-check"></i>                      |
-| Instantaan energieverbruik meten                  | <i class="el el-check"></i>                      |
-| Reageren op heel dichtbij zijn (tap-to-toggle)    | <i class="el el-check"></i>                      |
-| Reageren op dichtbij zijn (presentie)             | <i class="el el-check"></i>                      |
-| Reageren op aanwezigheid per kamer                | <i class="el el-check"></i>                      |
-| Door gebruiker gecontrolleerde data upload        | <i class="el el-check"></i>                      |
-| Verzenden van commando's vanaf het internet       | <i class="el el-check"></i>                      |
-| Visualiseren van andere gebruikers in de app      | <i class="el el-check"></i>                      |
-| Tijdschakelaar                                    | <i class="el el-check"></i>                      |
-| Dimmer                                            | <i class="el el-check"></i>                      |
-| Aardig berichtje sturen bij binnenkomst kamer     | <i class="el el-check"></i>                      |
-| Tegelijkertijd gebruiken van wandschakelaars      | <i class="el el-check"></i>                      |
-| Alarmlicht                                        | <i class="el el-check-empty"></i>                |
-| Geschiedenis van energieverbruik                  | <i class="el el-check-empty"></i>                |
-| Integratie met Toon                               | <i class="el el-check"></i>                      |
-| Integratie met Alexa                              | <i class="el el-check"></i>                      |
-| Integratie met Google Home                        | <i class="el el-check-empty"></i>                |
-| Integratie met Homey                              | <i class="el el-check-empty"></i>                |
-| Apparaatherkenner                                 | <i class="el el-check-empty"></i>                |
-| Integratie met BLE thermostaatknoppen             | <i class="el el-check-empty"></i>                |
-| Meerdere gebruikers (niemand in het donker)       | <i class="el el-check-empty"></i>                |
+| Functie                                                     | Status Software                                  |
+| ---                                                         | ---                                              |
+| Schakelaar                                                  | <i class="el el-check"></i>                      |
+| Instantaan energieverbruik meten                            | <i class="el el-check"></i>                      |
+| Reageren op heel dichtbij zijn (tap-to-toggle)              | <i class="el el-check"></i>                      |
+| Reageren op dichtbij zijn (presentie)                       | <i class="el el-check"></i>                      |
+| Reageren op aanwezigheid per kamer                          | <i class="el el-check"></i>                      |
+| Door gebruiker gecontrolleerde data upload                  | <i class="el el-check"></i>                      |
+| Verzenden van commando's vanaf het internet                 | <i class="el el-check"></i>                      |
+| Visualiseren van andere gebruikers in de app                | <i class="el el-check"></i>                      |
+| Tijdschakelaar                                              | <i class="el el-check"></i>                      |
+| Dimmer                                                      | <i class="el el-check"></i>                      |
+| Aardig berichtje sturen bij binnenkomst kamer               | <i class="el el-check"></i>                      |
+| Tegelijkertijd gebruiken van wandschakelaars (switchcraft)  | <i class="el el-check"></i>                      |
+| Alarmlicht                                                  | <i class="el el-check-empty"></i>                |
+| Geschiedenis van energieverbruik                            | <i class="el el-check-empty"></i>                |
+| Integratie met Toon                                         | <i class="el el-check"></i>                      |
+| Integratie met Alexa                                        | <i class="el el-check"></i>                      |
+| Integratie met Google Home                                  | <i class="el el-check-empty"></i>                |
+| Integratie met Homey                                        | <i class="el el-check-empty"></i>                |
+| Apparaatherkenner                                           | <i class="el el-check-empty"></i>                |
+| Integratie met BLE thermostaatknoppen                       | <i class="el el-check-empty"></i>                |
+| Meerdere gebruikers (niemand in het donker)                 | <i class="el el-check-empty"></i>                |
+| Persoonlijke gebruikersprofielen                            | <i class="el el-check-empty"></i>                |
+| Arduino programma's op de Crownstone                        | <i class="el el-check-empty"></i>                |
+| Hub (voor bijv. centraal opvang van energiemetingen)        | <i class="el el-check-empty"></i>                |
+| In-netwerk positionering (van heet Crownstone mesh)         | <i class="el el-check-empty"></i>                |
+| Positiebepaling van wearables                               | <i class="el el-check-empty"></i>                |
 
 De Crownstone app is niet het enige wat wordt geupdated. Ook de firmware op de Crownstones zelf. 
 Een mooi voorbeeld van een ander bedrijf  dat firmware updates serieus neemt is Fujifilm. 

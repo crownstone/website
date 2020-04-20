@@ -177,29 +177,34 @@ For detailed specifications, see the [specification page](https://shop.crownston
 
 The current Crownstone iOS and Android apps have the following functionality. Every couple of weeks a new update is rolled out:
 
-| Functionality                                     | State Soft&shy;ware                             | 
-| ---                                               | ---                                             |
-| Switch                                            | <i class="el el-check"></i>                     |
-| Instantaneous power measurements                  | <i class="el el-check"></i>                     |
-| Reacting on close proximity (tap-to-toggle)       | <i class="el el-check"></i>                     |
-| Reacting on moderate proximity (presence)         | <i class="el el-check"></i>                     |
-| Reacting on room-level indoor positioning         | <i class="el el-check"></i>                     |
-| User-controlled upload of data to the cloud       | <i class="el el-check"></i>                     |
-| Send commands through the internet                | <i class="el el-check"></i>                     |
-| Visualize other users in the app                  | <i class="el el-check"></i>                     |
-| Scheduler                                         | <i class="el el-check"></i>                     |
-| Dimmer (also LED)                                 | <i class="el el-check"></i>                     |
-| Send a nice message to someone on entering a room | <i class="el el-check"></i>                     |
-| Simultaneous use of ordinary light switch         | <i class="el el-check"></i>                     |
-| Wake-up light                                     | <i class="el el-check-empty"></i>               |
-| Power consumption history                         | <i class="el el-check-empty"></i>               |
-| Integration with Toon                             | <i class="el el-check"></i>                     |
-| Integration with Alexa                            | <i class="el el-check"></i>                     |
-| Integration with Google Home                      | <i class="el el-check-empty"></i>               |
-| Integration with Homey                            | <i class="el el-check-empty"></i>               |
-| Device identification                             | <i class="el el-check-empty"></i>               |
-| Integration with thermostat radiator valves       | <i class="el el-check-empty"></i>               |
-| Multi-user setup (don't leave user in the dark)   | <i class="el el-check-empty"></i>               |
+| Functionality                                           | State Soft&shy;ware                             | 
+| ---                                                     | ---                                             |
+| Switch                                                  | <i class="el el-check"></i>                     |
+| Instantaneous power measurements                        | <i class="el el-check"></i>                     |
+| Reacting on close proximity (tap-to-toggle)             | <i class="el el-check"></i>                     |
+| Reacting on moderate proximity (presence)               | <i class="el el-check"></i>                     |
+| Reacting on room-level indoor positioning               | <i class="el el-check"></i>                     |
+| User-controlled upload of data to the cloud             | <i class="el el-check"></i>                     |
+| Send commands through the internet                      | <i class="el el-check"></i>                     |
+| Visualize other users in the app                        | <i class="el el-check"></i>                     |
+| Scheduler                                               | <i class="el el-check"></i>                     |
+| Dimmer (also LED)                                       | <i class="el el-check"></i>                     |
+| Send a nice message to someone on entering a room       | <i class="el el-check"></i>                     |
+| Simultaneous use of ordinary light switch (swichcraft)  | <i class="el el-check"></i>                     |
+| Wake-up light                                           | <i class="el el-check-empty"></i>               |
+| Power consumption history                               | <i class="el el-check-empty"></i>               |
+| Integration with Toon                                   | <i class="el el-check"></i>                     |
+| Integration with Alexa                                  | <i class="el el-check"></i>                     |
+| Integration with Google Home                            | <i class="el el-check-empty"></i>               |
+| Integration with Homey                                  | <i class="el el-check-empty"></i>               |
+| Device identification                                   | <i class="el el-check-empty"></i>               |
+| Integration with thermostat radiator valves             | <i class="el el-check-empty"></i>               |
+| Multi-user setup (don't leave user in the dark)         | <i class="el el-check"></i>                     |
+| Personalized user profiles                              | <i class="el el-check-empty"></i>               |
+| Arduino Support on the Crownstone                       | <i class="el el-check-empty"></i>               |
+| Hub (for centralized collection of energy usage)        | <i class="el el-check-empty"></i>               |
+| In-network positioning (in the Crownstone mesh)         | <i class="el el-check-empty"></i>               |
+| Indoor positioning of wearables                         | <i class="el el-check-empty"></i>               |
 
 Not only the Crownstone app will be updated. Also the firmware on the Crownstone themselves. 
 A nice example of another company that brings a lot of firmware updates is Fujifilm. 

@@ -23,7 +23,7 @@ permalink: /
 
 # Automatically turn on the lights!
 
-Crownstones use the position of your smartphone or wearable through measuring Bluetooth Low Energy signals (see the [Technology page]({{ BASE_PATH }}/technology-consumer). Crownstones can immediately act upon your presence because they are integrated in a power outlet or power plug. It switches on the light when your in the living room automatically (after dark of course). Summarized, they can do anything a current smart plug does and more! 
+Crownstones use the position of your smartphone through measuring Bluetooth Low Energy signals (see the [Technology page]({{ BASE_PATH }}/technology-consumer). Crownstones can immediately act upon your presence because they are integrated in a power outlet or power plug. It switches on the light when your in the living room automatically (after dark of course). Summarized, they can do anything a current smart plug does and more!
 
 A Crownstone is a switch, a dimmer, a presence detector, and a power monitor, all in one. Moreover, it uses AI and is open-source. This means that its functionality improves over time and that its functions can be extended by many software developers.
 

@@ -31,8 +31,8 @@ Read more on this at the [VolkerWessels Use Case]({{ site.url }}/use-case/volker
 # Tracking of Wearables
 
 In formal care Crownstones can be used for positioning of elderly and sending an alarm to care professionals only
-when someone leaves a particular zone. The elderly can wear the Watchi which already has similar functionality 
-on the level of GPS outside of the care facilities. 
+when someone leaves a particular zone. The elderly can wear the Watchi which already has similar functionality
+on the level of GPS outside of the care facilities.
 
 Read more on this at the [Watchi Use Case]({{ site.url }}/use-case/watchi).
 
