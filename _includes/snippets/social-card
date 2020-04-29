@@ -31,6 +31,11 @@
 	<meta property="og:description" content="{{ social_description }}">
 	<meta property="og:site_name" content="Crownstone">
 
+	<!-- Open graph socal card for LinkedIn -->
+	<meta name="title" property="og:title" content="{{ social_title }}">
+	<meta name="image" property="og:image" content="{{ social_image }}">
+	<meta name="description" property="og:description" content="{{ social_description }}">
+
 {% elsif include.channel == "twitter" %}
 
 	<!-- Twitter social card -->
