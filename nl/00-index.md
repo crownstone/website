@@ -16,7 +16,7 @@ permalink: /
 
 {% include JB/setup %}
 
-{% include snippets/orange-top-bar text='Nieuw! Crownstone Smart Home <a href="https://subscribe.crownstone.rocks?msg=home">abonnementen</a>!' %}
+{% include snippets/orange-top-bar text='Vanwege de omstandigheden worden producten vanuit <a href="https://shop.crownstone.rocks?launch=nl">onze webwinkel</a> eenmaal per week verzonden.' %}
 
 {% include snippets/video-banner video='/clips/intro' placeholder='/attachments/crownstone_in_living_room.jpg' alt="Crownstone in a living room" %}
 

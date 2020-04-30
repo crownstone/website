@@ -27,11 +27,6 @@ graduates-gallery:
     report:
       title: "Device Fingerprint Representation and Classification"
 intern-gallery:
-  - image: "elikruunenberg.jpg"
-    name: "Eli Kruunenberg"
-    affiliation: "Small Business and Retail Management, Hogeschool Utrecht"
-    report:
-      title: "Exploring new Crownstone business models"
   - image: "wickybhaggoe.jpg"
     name: "Wicky Bhaggoe"
     affiliation: "Technische Informatica, Hogeschool Rotterdam"
@@ -124,6 +119,11 @@ core-team-gallery:
     github: "ArrowAcrobatics"
     report:
       title: "Arend has a masters in Mathematics. He'll make sure Crownstone is secure and our algorithms are top-notch."
+  - image: "arnohuisman.jpg"
+    name: "Arno Huisman"
+    affiliation: "Software developer"
+    report:
+      title: "Arno takes care of all your Android issues!"
 ---
 {% include JB/setup %}
 

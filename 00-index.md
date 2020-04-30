@@ -13,7 +13,7 @@ permalink: /
 
 {% include JB/setup %}
 
-{% include snippets/orange-top-bar text='New! Crownstone Smart Home <a href="https://subscribe.crownstone.rocks?msg=home">subscriptions</a>!' %}
+{% include snippets/orange-top-bar text='Due to circumstances, our <a href="https://shop.crownstone.rocks">shop</a> deliveries are sent out once a week.' %}
 
 {% include snippets/video-banner video='/clips/intro' placeholder='/attachments/crownstone_in_living_room.jpg' alt="Crownstone in a living room" %}
 

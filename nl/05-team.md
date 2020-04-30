@@ -25,9 +25,6 @@ graduates-gallery:
     report:
       title: "Device Fingerprint Representation and Classification"
 intern-gallery:
-  - image: "elikruunenberg.jpg"
-    name: "Eli Kruunenberg"
-    affiliation: "Small Business and Retail Management, Hogeschool Utrecht"
   - image: "wickybhaggoe.jpg"
     name: "Wicky Bhaggoe"
     affiliation: "Technische Informatica, Hogeschool Rotterdam"
@@ -120,6 +117,11 @@ core-team-gallery:
     github: "ArrowAcrobatics"
     report:
       title: "Arend heeft een master in wiskunde. Hij draagt zorg voor veilige en vooruitstrevende algoritmes!"
+  - image: "arnohuisman.jpg"
+    name: "Arno Huisman"
+    affiliation: "Software developer"
+    report:
+      title: "Arno takes care of all your Android issues!"
 ---
 {% include JB/setup %}
 

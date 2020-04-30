@@ -196,6 +196,11 @@ graduate-gallery:
     affiliation: " Utrecht University"
     linkedin: "freek-van-polen-08960719"
 intern-gallery:
+  - image: "elikruunenberg.jpg"
+    name: "Eli Kruunenberg"
+    affiliation: "Small Business and Retail Management, Hogeschool Utrecht"
+    report:
+      title: "Exploring new Crownstone business models"
   - image: "paulwondel.jpg"
     name: "Paul Wondel"
     affiliation: "Technische Informatica, Hogeschool Rotterdam"
