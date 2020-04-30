@@ -120,6 +120,7 @@ core-team-gallery:
   - image: "arnohuisman.jpg"
     name: "Arno Huisman"
     affiliation: "Software developer"
+    github: "Erno3000"
     report:
       title: "Arno takes care of all your Android issues!"
 ---
