@@ -165,10 +165,6 @@ It can be downloaded here: [presskit visuals (zip, 342 MB)](https://github.com/c
 * CES 2018, Consumer Electronics Show, Las Vegas, Jan. 8-12, 2018
 * Schneider Electric, Amsterdam, Nov. 30, 2017
 
-## Meetups
-
-At Crownstone we organize a [Smart Home & Bluetooth Hackerspace](https://www.meetup.com/Smart-Home-Bluetooth-Hackerspace/) meetup. The topic is slightly different each time, mostly concentrating on integrating other technology within the Crownstone positioning system.
-
 ## Investors
 
 * [Rockstart](https://www.rockstart.com/startups/crownstone/)
