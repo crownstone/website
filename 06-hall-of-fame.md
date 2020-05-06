@@ -238,7 +238,7 @@ intern-gallery:
   - image: "florijnvanzundert.png"
     name: "Florijn van Zundert"
     affiliation: "Human Technologies, Techniek College Rotterdam"
-  - image: "dimitrisxenakis"
+  - image: "dimitrisxenakis.jpg"
     name: "Dimitris Xenakis"
     affiliation: "Geomatics for the Built Environment, Delft University of Technology"
     report:
