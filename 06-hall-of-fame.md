@@ -116,7 +116,6 @@ graduate-gallery:
     report:
       title: "Innovating Independent Living: Business Models for Internet of Things..."
       url: "thesis/rashminarayanan.pdf"
-    affiliation: "TU Delft"
     affiliation: "Department of Technology, Strategy, and Entrepreneurship, TU Delft"
     linkedin: "rashminarayanank"
   - image: "roemervlasveld.png"
@@ -138,10 +137,10 @@ graduate-gallery:
     report:
       title: "Nonlinear System Identification and Control for Autonomous Robots"
       url: "thesis/laurensbliek.pdf"
-    articles: 
+    articles:
       - url: "https://arxiv.org/abs/1309.7959"
         ref: "0"
-      - url: "https://arxiv.org/abs/1308.6498" 
+      - url: "https://arxiv.org/abs/1308.6498"
         ref: "1"
     affiliation: "Delft Institute of Applied Mathematics, TU Delft"
     linkedin: "laurens-bliek-7a4b366a"
@@ -171,7 +170,7 @@ graduate-gallery:
     report:
       title: "Self-assembly of Modular Robots from Finite Number of Modules using Graph Grammars"
       url: "thesis/vijethrai.pdf"
-    articles: 
+    articles:
       - url: "https://ieeexplore.ieee.org/xpl/login.jsp?tp=&arnumber=6095038&url=http%3A%2F%2Fieeexplore.ieee.org%2Fxpls%2Fabs_all.jsp%3Farnumber%3D6095038"
         ref: "0"
     affiliation: "Cornell University"
@@ -218,7 +217,7 @@ intern-gallery:
       title: "Crownstone smart home hub"
   - image: "joybaris.jpg"
     name: "Joy Baris"
-    affiliation: "Human Technologies, Techniek College Rotterdam" 
+    affiliation: "Human Technologies, Techniek College Rotterdam"
   - image: "aniketsamant.jpg"
     name: "Aniket Samant"
     affiliation: "Electrical Engineering, TU Delft"
@@ -229,22 +228,28 @@ intern-gallery:
     affiliation: "Electrical Engineering, TU Delft"
   - image: "marcdegroot.jpg"
     name: "Marc de Groot"
-    affiliation: "Human Technologies, Techniek College Rotterdam" 
+    affiliation: "Human Technologies, Techniek College Rotterdam"
   - image: "alexanderderidder.jpg"
     name: "Alex de Ridder"
     affiliation: "Technische Informatica, Hogeschool Rotterdam"
   - image: "gijstamminga.jpg"
     name: "Gijs Tamminga"
-    affiliation: "Human Technologies, Techniek College Rotterdam" 
+    affiliation: "Human Technologies, Techniek College Rotterdam"
   - image: "florijnvanzundert.png"
-    name: "Florijn van Zundert" 
-    affiliation: "Human Technologies, Techniek College Rotterdam" 
+    name: "Florijn van Zundert"
+    affiliation: "Human Technologies, Techniek College Rotterdam"
+  - image: "dimitrisxenakis"
+    name: "Dimitris Xenakis"
+    affiliation: "Geomatics for the Built Environment, Delft University of Technology"
+    report:
+      title: "Translating BLE Received Signals across different Smartphones"
+      url: "internships/dimitrisxenakis.pdf"
   - image: "edwinaleksanian.png"
     name: "Edwin Aleksanian"
-    affiliation: "Human Technologies, Techniek College Rotterdam" 
+    affiliation: "Human Technologies, Techniek College Rotterdam"
   - image: "jeandreartsen.png"
-    name: "Jeandre Artsen" 
-    affiliation: "Human Technologies, Techniek College Rotterdam" 
+    name: "Jeandre Artsen"
+    affiliation: "Human Technologies, Techniek College Rotterdam"
   - image: "zjhounathanevans.png"
     name: "Zjhounathan Evans"
     affiliation: "Human Technologies, Techniek College Rotterdam"
@@ -282,7 +287,7 @@ intern-gallery:
   - image: "juanpablocortes.png"
     name: "Juan Pablo Cortés"
     linkedin: "juan-pablo-forero-5a92b012a"
-    report: 
+    report:
       title: "Painting quadcopters (summership)"
       movie: "https://www.youtube.com/watch?v=0p4yckwPCtU"
 ---
