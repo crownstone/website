@@ -93,7 +93,7 @@ received signal power. When two people are walking phase shifts change continuou
 In this article it states that the **fading** effects cannot be neglected, at least for moist ground when there's ample
 reflection.
 
-To understand the impact of people themselves, a study by another intern at Crownstone might be enlighting. We already
+To understand the impact of people themselves, a study by another intern at Crownstone might be enlightening. We already
 knew that there were many aspects that were influencing received signal strengths. Hence, we thought how to make use
 of that, rather than see it as an enemy. The question rose: If we carefully monitor signal strengths, can we derive information on walls,
 doors, or people? The latter we called **device-free localization**.
