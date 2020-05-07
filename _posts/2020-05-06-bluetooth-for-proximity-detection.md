@@ -145,7 +145,7 @@ There are many other technical and operational facets as well, as already descri
 For example: the ability of Bluetooth LE signals to travel through walls, through ceilings, through glass. Another example: the difficulty of taking
 3D into account. Imagine a flat with the upstairs neighbour only two or three meters away. Think of someone
 sitting on a balcony and someone walking by. There are also considerations with respect to the smartphones themselves
-from allowing processes to run Bluetooth in the background (one of our most popular [technical posts]({ site.url }/2018/06/27/ios-advertisements-in-the-background)).
+from allowing processes to run Bluetooth in the background (one of our most popular [technical posts]({{ site.url }}/2018/06/27/ios-advertisements-in-the-background)).
 The TraceTogether app for example asks iPhone users to run the app in the foreground and upside down.
 
 ![TraceTogether upside down]({{ site.url }}/attachments/blog/trace_together_upside_down.png)
@@ -163,9 +163,9 @@ technology helps in this crisis though. Let us all be creative and [find those w
 
 # References
 
-* Indoor Localization using BLE ([pdf]({ site.url }/attachments/internships/tomvandijk.pdf)) by T. van Dijk.
+* Indoor Localization using BLE ([pdf]({{ site.url }}/attachments/internships/tomvandijk.pdf)) by T. van Dijk.
 Faculty of Mechanical, Maritime and Materials Engineering (3mE)·Delft University of Technology.
-* Translating BLE Received Signals across different Smartphones ([pdf]({ site.url }/attachments/internships/dimitrisxenakis.pdf)) by D. Xenakis.
+* Translating BLE Received Signals across different Smartphones ([pdf]({{ site.url }}/attachments/internships/dimitrisxenakis.pdf)) by D. Xenakis.
 Geomatics for the Built Environment, Delft University of Technology.
 * Contact Tracing Coronavirus COVID-19 - Calibration Method and Proximity Accuracy 
 ([pdf](https://github.com/opentrace-community/opentrace-calibration/files/4499313/Coronavirus.COVID-19.-.Calibration.Method.and.Proximity.Accuracy.-.EN.pdf))
