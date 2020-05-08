@@ -221,7 +221,7 @@ Crownstone is oorspronkelijk ontwikkelt door Distributed Organisms B.V. (DoBots)
 [Almende Investments](http://almende-investments.com/)
 en de 
 [Rockstart accelerator](http://www.rockstart.com/blog/rockstart-introduces-participants-of-2016-smart-energy-accelerator/).
-Crownstone is opgericht in April 2016.
+Crownstone is opgericht op 20 Mei 2016.
 
 Crownstone's technologie is vrij nieuw. Om te weten te komen wat de mogelijkheden zijn, raden wij vooral aan om de website en de blog te bezoeken 
 om te weten te komen wat Crownstone mogelijk maakt voor zowel de consumenten als de zakelijke markt. 

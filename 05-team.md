@@ -218,7 +218,7 @@ Plan your return trip with [Rotterdam Central departure times](http://www.ns.nl/
                 
 # Background
 
-Crownstone has been originally developed by DoBots, has as seed investor [Almende Investments](http://almende-investments.com), is part of the [Rockstart accelerator](http://www.rockstart.com/blog/rockstart-introduces-participants-of-2016-smart-energy-accelerator), and launched as company in April 2016.
+Crownstone has been originally developed by DoBots, has as seed investor [Almende Investments](http://almende-investments.com), is part of the [Rockstart accelerator](http://www.rockstart.com/blog/rockstart-introduces-participants-of-2016-smart-energy-accelerator), and launched as company on the 20th of May 2016.
 
 We recommend that you scroll through the website and the blog to know what the role of our products can be in a business-to-business context. Indoor localisation has wide applicability apart from use at home, including (informal) care, flexible places at work, and preventive maintenance.
 
