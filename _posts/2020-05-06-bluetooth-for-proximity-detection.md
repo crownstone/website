@@ -5,7 +5,6 @@ description  : "Bluetooth LE for contact tracing is not a panacea. There are man
 tags         : [bluetooth, proximity detection, contact tracing, multi-channel, multi-channel attenuation, multi-channel fading, multiple phones]
 author       : annevanrossum
 picture      : attachments/blog/multiple_phones.png
-social_image : attachments/blog/multiple_phones.png
 excerpt      : "The use of Bluetooth LE for contact tracing is not a panacea. There are a lot of factors that influence the signal strength and with that the distance estimates. Those are factors like phone orientation, multi-path attenuation or fading, obstructions, and many more."
 ---
 {% include JB/setup %}
