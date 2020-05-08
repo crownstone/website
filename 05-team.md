@@ -130,12 +130,17 @@ core-team-gallery:
 
 {% include snippets/row-begin %}
 {% include snippets/column-begin colsize="12" %}
-                
-# Vision
-                
-In the future indoor positioning is going to be bigger than outdoor positioning (GPS). Our homes and offices will never be smart if they do not know where we are! 
 
-There will be a time that every power outlet and light socket will have a chip. A smart outlet brings comfort, safety, and energy savings. There are many, many more power outlets than smartphones in the world. That's the potential impact of a company like Crownstone! Billions of low-energy chips! Billions of energy savings each year!
+# Vision
+
+Crownstone: indoor positioning hardware for smart homes using artificial intelligence to automatically react to someone's presence.
+
+Our first bet is that in the future **indoor positioning** will be a larger market than outdoor positioning (GPS). Very straightforward, our homes and offices will **never be smart** if they do not **know where we are**!
+
+Our second bet is that every device will get a chip, in particular power outlets and lights. A smart outlet brings comfort, safety, and energy savings. There are many more power outlets than smartphones in the world. That's the potential impact of a company like Crownstone! Billions of human acts automated. Billions of energy savings each year!
+
+The core values of Crownstone are saving time, quality time, and transparency. We automate so people have more time. 
+We bring comfort and want people to enjoy their homes. We operate customer-centric and privacy-aware. Your data is yours.
 
 {% include snippets/column-end %}
 {% include snippets/column-begin %}
