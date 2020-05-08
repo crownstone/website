@@ -15,11 +15,11 @@
 {% endif %}
 
 {% if page.social-image %}
-	{% capture social_image %}{{ site.production_url }}/{{ page.social-image }}{% endcapture %} 
-{% else if post.picture %}
-	{% capture social_image %}{{ site.production_url }}/{{ post.picture }}{% endcapture %} 
+	{% capture social_image %}{{ site.production_url }}/{{ page.social-image }}{% endcapture %}
+{% elsif post.picture %}
+	{% capture social_image %}{{ site.production_url }}/{{ post.picture }}{% endcapture %}
 {% else %}
-	{% capture social_image %}{{ site.production_url }}/images/crownstone-social-card.jpg{% endcapture %} 
+	{% capture social_image %}{{ site.production_url }}/images/crownstone-social-card.jpg{% endcapture %}
 {% endif %}
 
 {% if include.channel == "opengraph" %}
