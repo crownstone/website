@@ -1,19 +1,28 @@
-{% for tongue in site.languages %}                                                                       
-<li class="nav-item"> 
-{% assign nav-url = page.url | prepend:site.baseurl | prepend:site.url %}                             
-{% if tongue != site.default_lang %}                                                                  
+{% for tongue in site.languages %}
+<li class="nav-item">
+{% assign nav-url = page.url | prepend:site.baseurl | prepend:site.url %}
+{% if tongue != site.default_lang %}
 {% assign nav-url = page.url | prepend:tongue | prepend:'/' | prepend:site.baseurl | prepend:site.url %}
-{% endif %}                                                                                           
+{% endif %}
 <!-- note the space before nav-url, without it polyglot will relativize it: https://github.com/untra/polyglot -->
 <a {% if tongue == site.active_lang %}style="font-weight: bold;"{% endif %} href=" {{ nav-url }}" class="nav-link">{{ tongue }}</a>
-</li>                                                                                                    
-{% endfor %}                                                                                             
+</li>
+{% endfor %}
 <li class="nav-item accent"><a href="https://shop.crownstone.rocks?launch={{ site.active_lang }}&ref=http://crownstone.rocks/{{ site.active_lang}}{{ page.url }}" class="nav-link">
-{% if site.active_lang == "nl" %}                                                                  
-Winkel                                                                                             
-{% else %}                                                                                         
-Shop                                                                                               
-{% endif %}                                                                                        
-<i class="el el-shopping-cart"></i>                                                                
-</a>                                                                                                  
-</li>          
+{% if site.active_lang == "nl" %}
+Winkel
+{% else %}
+Shop
+{% endif %}
+<i class="el el-shopping-cart"></i>
+</a>
+</li>
+<li class="nav-item accent"><a href="https://subscribe.crownstone.rocks/login?launch={{ site.active_lang }}&ref=http://crownstone.rocks/{{ site.active_lang}}{{ page.url }}" class="nav-link">
+{% if site.active_lang == "nl" %}
+Abonnement
+{% else %}
+Subscription
+{% endif %}
+<i class="el el-person"></i>
+</a>
+</li>

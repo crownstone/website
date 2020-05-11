@@ -6,14 +6,15 @@ twitter: true
 header: Home
 group: [navigation, navigation-consumer-footer]
 background-video: introBackground
-kramdown: 
+tags: [smart home, smart plug, switch, dimmer, power monitor, bluetooth, ble, bluetooth low energy, indoor positioning]
+kramdown:
   parse_block_html: true
 permalink: /
 ---
 
 {% include JB/setup %}
 
-{% include snippets/orange-top-bar text='Due to circumstances, our <a href="https://shop.crownstone.rocks">shop</a> deliveries are sent out once a week.' %}
+{% include snippets/orange-top-bar text='New: <a href="https://subscribe.crownstone.rocks?ref=crownstone.rocks&loc=banner">Subscriptions</a>! Our <a href="https://shop.crownstone.rocks">shop</a> deliveries are sent weekly.' %}
 
 {% include snippets/video-banner video='/clips/intro' placeholder='/attachments/crownstone_in_living_room.jpg' alt="Crownstone in a living room" %}
 

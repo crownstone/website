@@ -336,6 +336,12 @@ div.bannerContainer.xs { height:180px; }
   border-width: 0px;
 }
 
+@media (min-width: 1200px) {
+    .container{
+        max-width: 1200px;
+    }
+}
+
 .navbar-light .navbar-nav > .active > a {
   background-color: #003e52;
   color: white !important;

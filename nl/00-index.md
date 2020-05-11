@@ -16,7 +16,7 @@ permalink: /
 
 {% include JB/setup %}
 
-{% include snippets/orange-top-bar text='Vanwege de omstandigheden worden producten vanuit <a href="https://shop.crownstone.rocks?launch=nl">onze webwinkel</a> eenmaal per week verzonden.' %}
+{% include snippets/orange-top-bar text='Nieuw: <a href="https://subscribe.crownstone.rocks?ref=https://crownstone.rocks/nl&loc=banner">Abonnement</a>! Onze <a href="https://shop.crownstone.rocks">webshop</a> is open: verzendingen zijn wekelijks.' %}
 
 {% include snippets/video-banner video='/clips/intro' placeholder='/attachments/crownstone_in_living_room.jpg' alt="Crownstone in a living room" %}
 
