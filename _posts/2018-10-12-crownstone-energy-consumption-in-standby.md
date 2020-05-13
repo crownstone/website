@@ -1,6 +1,6 @@
 ---
 layout      : post
-title       : "Crownstone energy consumption in standby"
+title       : "Crownstone energy consumption in standby."
 description : "The Crownstones use very little energy themselves. This means they can really operate as standby killers"
 tags        : [energy consumption, standby killer]
 author      : annevanrossum

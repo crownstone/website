@@ -1,16 +1,16 @@
 ---
 layout      : post
-title       : "Privacy matters"
-description : "Privacy matters"
+title       : "Privacy matters."
+description : "Privacy matters. It is not guaranteed!"
 tags        : [privacy, privacy matters, heidegger, product lifetime]
-author      : annevanrossum 
+author      : annevanrossum
 picture     : attachments/blog/heidegger.jpg
 excerpt     : "When we enter a hotel room in a new country the small changes that normally get unnoticed suddenly get noticed. Dan Hill cites Timothy Morton: '*the light switch seems a little closer than normal, a little differently placed on the wall*'. Technology should be seamlessly integrated in our environment."
 ---
 {% include JB/setup %}
 
 # Power outages
-					
+
 When we enter a hotel room in a new country the small changes that normally get unnoticed suddenly get noticed.
 Dan Hill describes this in a [post](https://medium.com/a-chair-in-a-room/let-there-be-light-switches-4652485e6a7e)
 where he cites Timothy Morton: "*the light switch seems a little closer than normal, a little differently placed on the wall*".

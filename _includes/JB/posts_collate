@@ -66,15 +66,17 @@ Usage:
       <h2>{{this_year}}</h2>
       <h3>{{this_month}}</h3>
     {% endif %}
-  
+
+	<div class="post-title">
 	<p><a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a>
-	</p>
 	{% if post.excerpt %}
-	<p>{{ post.excerpt }}</p>
+	{{ post.excerpt }}
 	{% endif %}
 	{% if post.picture %}
 	  <img src="{{ site.url }}/{{ post.picture }}" alt="{{ post.title }}" width="100%">
 	{% endif %}
+	</p>
+	</div>
   
     {% if forloop.last %}
     {% else %}

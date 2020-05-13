@@ -1,14 +1,13 @@
 ---
 layout      : post
-title       : "Sneak Preview of New Behaviour"
-description : "Sneak Preview of New Behaviour"
+title       : "Sneak Preview of New Behaviour."
+description : "A sneak preview of the new Crownstone behaviour. It controls lights lightning fast!"
 tags        : []
 author      : 
 picture     : attachments/blog/excellent_beurs.png
 excerpt     : "Sneak preview of new behaviour. It can control a light very fast!"
 ---
 {% include JB/setup %}
-
 
 # Sneak Preview
 

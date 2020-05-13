@@ -1,7 +1,7 @@
 ---
 layout      : post
-title       : "Crownstone New Behaviour"
-description : "Crownstone New Behaviour"
+title       : "Crownstone New Behaviour."
+description : "Crownstone new behaviour abilities allows you to adjust to guests, babysitters and much more!"
 tags        : [crownstone, smart home, rules, behaviour, guests, babysitter, dim lights, twilight mode, abilities]
 author      : annevanrossum
 picture     : attachments/blog/app_behaviour.png

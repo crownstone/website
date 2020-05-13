@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "iOS advertisements in the background"
-description: "Reliable iOS advertisements in the background"
+title: "iOS advertisements in the background."
+description: "Reliable iOS advertisements in the background can be sent and received through reverse engineering the so-called overflow region. "
 tags: [ios, reverse engineering, background, advertisements, BLE]
 author: annevanrossum
 picture: attachments/ble-background-advertisements.png

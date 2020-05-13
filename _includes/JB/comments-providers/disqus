@@ -1,5 +1,12 @@
 <div id="disqus_thread">
-  <a href="#" onclick="disqus();return false;"><i class="el el-group"></i> Show Comments</a> 
+	<div class="disqus_block">
+		<p>
+			<a href="#" onclick="disqus();return false;"><i class="el el-group"></i> Show Comments</a>
+		</p>
+		<p>
+			(not shown automatically to support your privacy)
+		</p>
+	</div>
 </div>
 
 <script type="text/javascript">
@@ -17,6 +24,6 @@
 		 document.getElementsByTagName("body")[0])
 		.appendChild(e);
 	  }
-	} 
+	}
 </script>
 

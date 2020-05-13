@@ -34,43 +34,60 @@
 					{% include JB/categories_list %}
 				</ul>
 				{% endunless %}
+	
+			</div>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-12">
 
 				{% unless page.tags == empty %}
 				<div class="tag_box inline">
-					<i class="el el-tags"></i>
-
 					{% assign tags_list = page.tags %}
 					{% include JB/tags_list %}
 				</div>
 				{% endunless %}
+		</div>
+	</div>
+</div>
 
-				<div class="social-button-footer">
-					<p>
-					<a class="btn btn-social-icon btn-twitter" href="http://twitter.com/intent/tweet?url={{ site.production_url }}{{ page.url }}&text={{ page.title }}"><i class="el el-twitter"></i></a>
-					<a class="btn btn-social-icon btn-facebook" href="http://facebook.com/sharer.php?u={{ site.production_url }}{{ page.url }}"><i class="el el-facebook"></i></a>
-					<a class="btn btn-social-icon btn-googleplus" href="https://plus.google.com/share?url={{ site.production_url }}{{ page.url }}"><i class="el el-googleplus"></i></a>
-					<a class="btn btn-social-icon btn-linkedin" href="https://www.linkedin.com/shareArticle?mini=true&url={{ site.production_url }}{{ page.url }}"><i class="el el-linkedin"></i></a>
-					<a class="btn btn-social-icon btn-reddit" href="http://reddit.com/submit?url={{ site.production_url }}{{ page.url }}&title={{ page.title }}"><i class="el el-reddit"></i></a>
-					</p>
+<div class="container-fluid post-footer">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6">
+					<ul class="pagination">
+						{% if page.previous %}
+						<li class="page-item prev"><a class="page-link" href="{{ BASE_PATH }}{{ page.previous.url }}" title="{{ page.previous.title }}">&larr; Previous</a></li>
+						{% else %}
+						<li class="page-item prev disabled"><a class="page-link">&larr; Previous</a></li>
+						{% endif %}
+						<li class="page-item"><a class="page-link" href="{{ BASE_PATH }}{{ site.JB.archive_path }}">Archive</a></li>
+						{% if page.next %}
+						<li class="page-item next"><a class="page-link" href="{{ BASE_PATH }}{{ page.next.url }}" title="{{ page.next.title }}">Next &rarr;</a></li>
+						{% else %}
+						<li class="page-item next disabled"><a class="page-link">Next &rarr;</a>
+						{% endif %}
+					</ul>
+			</div>
+			<div class="col-md-6">
+
+					<div class="social-button-footer">
+						<p>
+						<a class="btn btn-social-icon btn-twitter" href="http://twitter.com/intent/tweet?url={{ site.production_url }}{{ page.url }}&text={{ page.title }}"><i class="el el-twitter"></i></a>
+						<a class="btn btn-social-icon btn-facebook" href="http://facebook.com/sharer.php?u={{ site.production_url }}{{ page.url }}"><i class="el el-facebook"></i></a>
+						<a class="btn btn-social-icon btn-googleplus" href="https://plus.google.com/share?url={{ site.production_url }}{{ page.url }}"><i class="el el-googleplus"></i></a>
+						<a class="btn btn-social-icon btn-linkedin" href="https://www.linkedin.com/shareArticle?mini=true&url={{ site.production_url }}{{ page.url }}"><i class="el el-linkedin"></i></a>
+						<a class="btn btn-social-icon btn-reddit" href="http://reddit.com/submit?url={{ site.production_url }}{{ page.url }}&title={{ page.title }}"><i class="el el-reddit"></i></a>
+						</p>
+					</div>
+
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-md-12">
+					{% include JB/comments %}
 				</div>
-
-				<ul class="pagination">
-					{% if page.previous %}
-					<li class="page-item prev"><a class="page-link" href="{{ BASE_PATH }}{{ page.previous.url }}" title="{{ page.previous.title }}">&larr; Previous</a></li>
-					{% else %}
-					<li class="page-item prev disabled"><a class="page-link">&larr; Previous</a></li>
-					{% endif %}
-					<li class="page-item"><a class="page-link" href="{{ BASE_PATH }}{{ site.JB.archive_path }}">Archive</a></li>
-					{% if page.next %}
-					<li class="page-item next"><a class="page-link" href="{{ BASE_PATH }}{{ page.next.url }}" title="{{ page.next.title }}">Next &rarr;</a></li>
-					{% else %}
-					<li class="page-item next disabled"><a class="page-link">Next &rarr;</a>
-					{% endif %}
-				</ul>
-
-				<hr>
-				
-				{% include JB/comments %}
 			</div>
 		</div>
 	</div>

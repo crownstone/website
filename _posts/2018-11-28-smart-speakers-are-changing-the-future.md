@@ -1,7 +1,7 @@
 ---
 layout      : post
-title       : "Smart Speakers are Changing the Future"
-description : "History on smart speakers and what is next for smart homes"
+title       : "Smart Speakers are Changing the Future."
+description : "History on smart speakers and what is next for smart homes."
 tags        : [echo, echo 4, amazon echo, subscription, smart speakers, smart home]
 picture     : attachments/blog/early_echo.jpg
 excerpt     : "The history from the Echo 4 to the Echo now and what this means for our homes getting smarter right now."

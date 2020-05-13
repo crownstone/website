@@ -374,12 +374,7 @@
 </script>
 <!--End of Tawk.to Script-->
 
-{% if site.inspectlet %}
-{% include snippets/inspectlet %}
-{% endif %} 
-
-{% endif %}
-
+<!-- Dummy block for lazy loading of Tawk.to script -->
 <div class="d-none d-sm-block">
    <div class="tawk-dummy" id="tawk-no-tracking-large">
       <div id="tawkchat-minified-wrapper" class="white ltr-direction">
@@ -408,6 +403,8 @@
       </div>
    </div>
 </div>
+
+{% endif %}
 
 </body>
 </html>
