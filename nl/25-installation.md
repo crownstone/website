@@ -87,6 +87,14 @@ Deze instructies veronderstellen dat de Crownstone al is geïnstalleerd volgens 
 {% include snippets/image-with-caption url="/attachments/installation/nl/switchcraft_wiring_diagram.png" description="Figuur D: Switchcraft schakelschema. Aanpassing van de bedrading aangegeven
 met [X]." %}
 
+In plaats van de bestaande schakelaar wijzigen, is het ook mogelijk om een "pulsschakelaar" te kopen of te
+gebruiken. Let er op dat dit een schakelaar is met een breek-contact (of verbreek-contact), dus **niet** een maak-contact.
+Als de knop niet wordt ingedrukt stroomt de electriciteit vrij door het circuit. Wanneer de knop is ingedrukt, stopt
+de stroom. De Crownstone kan deze interruptie detecteren en de toestand veranderen (schakelen tussen aan en uit).
+
+Het is mogelijk om heel veel van deze pulsschakelaars in serie te zetten voor dezelfde lichten. Dit biedt soms 
+voordelen ten opzichte van een traditionele hotelschakeling.
+
 ## Lichten dimmen met Crownstone
 
 De Crownstone kan of hoge stromen schakelen of lichten dimmen. Om de

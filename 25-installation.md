@@ -91,6 +91,10 @@ this Crownstone in its settings.
 
 {% include snippets/image-with-caption url="/attachments/installation/en/switchcraft_wiring_diagram.png" description="Figure D: Switchcraft wiring diagram" %}
 
+Rather than modifying your switch you can also buy a "normally closed" wall switch also called "a push to break" switch.
+When the button is not pressed the electricity can flow. When the button is pressed the electricity stops flowing. 
+The Crownstone can use this interruption to change its state (toggle between on and off). 
+
 ## Dimming lights with Crownstone
 
 Your Crownstone can both switch high-current devices as well as dim lights. To
