@@ -17,6 +17,19 @@ Android it can be [found](https://play.google.com/store/apps/details?id=rocks.cr
 
 The app will guide you through the registration process and allows you to setup your Crownstones.
 
+# Installation behind a dimmer
+
+Do not install the Crownstone between a physical dimmer and a light. This severes the power supply to the Crownstone 
+itself. It will dim the Crownstone rather than the light and should not be done.
+This is **not** supported and might severely reduce the lifetime of the product.
+
+Do not install the Crownstones between the electric grid and a physical dimmer. It will not be a pleasant user 
+experience.
+
+You can install the Crownstone at a light that is controlled by an ordinary light switch (see below). You can dim the
+light then via the Crownstone app or via third-party devices like the Amazon Alexa. Flipping the switch will toggle
+between "off" and the last "dimmed state".
+
 # Installation behind a power outlet
 
 If at any point you are unsure of what to do, stop installation immediately and contact an electrician!

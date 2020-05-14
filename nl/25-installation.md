@@ -18,6 +18,18 @@ Android can het worden [gevonden](https://play.google.com/store/apps/details?id=
 
 De app zal je door het registratieproces heenleiden en maakt het mogelijk de Crownstones in te stellen.
 
+# Installatie achter een dimmer
+
+Installeer de Crownstone **niet** tussen een fysieke dimmer en een lichtpunt. Dit stoort de voeding van de 
+Crownstone zelf. Het zal de Crownstone dimmen in plaats van he licht en dat is niet de bedoeling.
+Installatie met een dimmer wordt **niet** ondersteund en kan de levensduur van het product sterk verkorten.
+
+Installeer de Crownstones evenmin tussen het lichtnet en de fysieke dimmer. Het is geen fijne gebruikerservaring. 
+
+Je kan de Crownstones installeren bij een licht dat wordt aangestuurd vanuit een normale schakelaar (zie onderaan de
+pagina). Je kan het licht dan dimmen met de Crownstone app of met apparaten van derden zoals de Amazon Alexa. Het
+gebruik van de schakelaar wisselt dan tussen de stand "uit" en de laatste "dimstand".
+
 # Installatie achter een stopcontact.
 
 Als u niet zeker weet wat u moet doen, stop direct de installatie en neem contact op met een erkend elektricien.
