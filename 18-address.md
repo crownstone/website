@@ -13,21 +13,15 @@ permalink: address/
 
 The address of Crownstone head quarters:
 
-**Crownstone**
-<br>
-{{ site.company.street }}
-<br>
-{{ site.company.postal_code }}
-<br>
-KvK: {{ site.company.kvk }}
-<br>
-BTW/VAT: {{ site.company.vat }}
-<br>
-IBAN: {{ site.company.iban }}
-<br>
+**Crownstone**<br>
+{{ site.company.street }}<br>
+{{ site.company.postal_code }}<br>
+KvK: {{ site.company.kvk }}<br>
+BTW/VAT: {{ site.company.vat }}<br>
+IBAN: {{ site.company.iban }}<br>
 BIC/SWIFT: {{ site.company.bic }}
 
-Important. When sending parcels to our address make sure you use the complete street number: **{{ site.company.street_number }}**
+Important. When sending parcels to our address make sure you use the complete street number: **{{ site.company.street_number }}** (including unit number).
 
 # Financial Contact
 
