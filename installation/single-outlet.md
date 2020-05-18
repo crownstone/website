@@ -14,7 +14,7 @@ Algemene installatie instructies kunnen worden gevonden op de [Installatie pagin
 deze pagina neemt
 je stap voor stap aan de hand van foto's door het installatieproces van een Crownstone bij een enkel stopcontact. De
 bedrading wordt in het onderstaande voorbeeld aangebracht met extra lasklemmen. Voor een dubbel stopcontact volg de 
-handleiding specifiek voor [dubbele stopcontacten](/nl/installation-double-outlet).
+handleiding specifiek voor [dubbele stopcontacten](/nl/installation/double-outlet).
 
 ![Step 0](/images/installation/single/0.png)
 
