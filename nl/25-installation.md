@@ -18,6 +18,11 @@ Android can het worden [gevonden](https://play.google.com/store/apps/details?id=
 
 De app zal je door het registratieproces heenleiden en maakt het mogelijk de Crownstones in te stellen.
 
+Voor gedetailleerde foto's wat betreft de installatie achter stopcontacten, zie ook de instructies voor 
+[enkele stopcontacten](https://crownstone.rocks/nl/installation/single-outlet) en
+[dubbele stopcontacten](https://crownstone.rocks/nl/installation/double-outlet).
+
+
 # Installatie achter een dimmer
 
 Installeer de Crownstone **niet** tussen een fysieke dimmer en een lichtpunt. Dit stoort de voeding van de 

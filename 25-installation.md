@@ -17,6 +17,8 @@ Android it can be [found](https://play.google.com/store/apps/details?id=rocks.cr
 
 The app will guide you through the registration process and allows you to setup your Crownstones.
 
+For detailed pictures on the installation behind outlets also see the instructions for [single outlets](https://crownstone.rocks/nl/installation/single-outlet) as well as [double outlets](https://crownstone.rocks/nl/installation/double-outlet).
+
 # Installation behind a dimmer
 
 Do not install the Crownstone between a physical dimmer and a light. This severes the power supply to the Crownstone 
