@@ -1,4 +1,6 @@
 before_install:
+  - echo 'Run gem install bundler'
+  - gem install bundler
   - echo 'Run npm install'
   - npm install 
   - npm install -g webpack-cli webpack
