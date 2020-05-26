@@ -2,8 +2,8 @@
 layout: post
 title: "Lots of boxes arriving!"
 description: "The Crownstone products are delivered at the Crownstone headquarters."
-tags: [Crownstone, unpacking, delivery, electronics, sourcing]
-author: annevanrossum 
+tags: [crownstone, unpacking, delivery, electronics, sourcing]
+author: annevanrossum
 ---
 {% include JB/setup %}
 

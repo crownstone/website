@@ -3,8 +3,9 @@ author: annevanrossum
 layout: post
 title: "Linux and BLE"
 description: "Linux and Bluetooth Low-Energy (BLE)"
+author: annevanrossum
 category: 
-tags: [bluetooth smart, ble]
+tags: [bluetooth smart, bluetooth low energy]
 ---
 {% include JB/setup %}
 

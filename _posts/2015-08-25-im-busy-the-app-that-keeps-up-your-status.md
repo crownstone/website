@@ -2,7 +2,7 @@
 layout: post
 title: "I'm Busy: the app that keeps up your status"
 description: "I'm Busy: the app that automatically keeps up your status"
-tags: [BLE, iBeacon, xmpp]
+tags: [bluetooth low energy, ibeacon, xmpp]
 author: bartvanvliet
 ---
 {% include JB/setup %}

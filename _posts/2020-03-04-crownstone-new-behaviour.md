@@ -2,7 +2,7 @@
 layout      : post
 title       : "Crownstone New Behaviour."
 description : "Crownstone new behaviour abilities allows you to adjust to guests, babysitters and much more!"
-tags        : [crownstone, smart home, rules, behaviour, guests, babysitter, dim lights, twilight mode, abilities]
+tags        : [crownstone, smart home, rules, guests, babysitter, dimmer, twilight mode]
 author      : annevanrossum
 picture     : attachments/blog/app_behaviour.png
 excerpt     : "Crownstones behaviour become smarter overnight. Now your house can react even more flexible to your presence of the presence of people in your household. There is a twilight mode that allows you to automatically dim lights when it is night. There is also a new section with abilities that can you enable."

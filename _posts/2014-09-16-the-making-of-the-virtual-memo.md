@@ -3,7 +3,7 @@ layout: post
 title: "The making of the Virtual Memo"
 description: "How the Virtual Memo was made and what you can do with it"
 category: 
-tags: [BLE, iBeacon]
+tags: [bluetooth low energy, ibeacon]
 author: annevanrossum
 ---
 {% include JB/setup %}

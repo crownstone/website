@@ -3,7 +3,7 @@ layout: post
 title: "Smart Product for Weight Loss"
 description: "A smart product for weight loss through behavior change"
 author: annebekker
-tags: [BLE, behavior change, weight loss, habits, smartphone, master thesis]
+tags: [bluetooth low energy, behavior change, weight loss, habits, smartphone, master thesis]
 ---
 {% include JB/setup %}
 

@@ -2,7 +2,7 @@
 layout: post
 title: "The devilish dilemma of supporting Android and iOS with BLE"
 description: "Android and iOS both are able to address BLE products, but the implementation for smart home is not obvious at all."
-tags: [Bluetooth Low Energy, BLE, Android, iOS, home automation, Apple Homekit]
+tags: [bluetooth low energy, android, ios, home automation, apple homekit]
 author: annevanrossum
 ---
 {% include JB/setup %}

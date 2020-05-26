@@ -4,7 +4,7 @@ title: "Programming the nRF51822 with the ST-link"
 description: "The ST-Link is incorporated in cheap boards (STM32F boards) and can be used to program the nRF51822"
 category: 
 author: annevanrossum
-tags: [nrf51822, ble]
+tags: [nrf51822, bluetooth low energy]
 ---
 {% include JB/setup %}
 

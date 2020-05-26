@@ -3,7 +3,7 @@ layout: post
 title: "Attaching a MicroView to the Crownstone"
 description: "Monitoring power consumption and graphing stuff using a MicroView attached to a Crownstone."
 category: 
-tags: [BLE, IoT]
+tags: [bluetooth low energy, internet of things]
 author: bartvanvliet
 ---
 {% include JB/setup %}

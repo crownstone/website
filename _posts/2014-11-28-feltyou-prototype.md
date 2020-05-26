@@ -3,7 +3,7 @@ layout: post
 title: "FeltYou prototype"
 description: "The first prototype of the FeltYou"
 category: 
-tags: [BLE, IoT]
+tags: [bluetooth low energy, internet of things]
 author: bartvanvliet
 ---
 {% include JB/setup %}

@@ -2,7 +2,7 @@
 layout: post
 title: "iOS advertisements in the background."
 description: "Reliable iOS advertisements in the background can be sent and received through reverse engineering the so-called overflow region. "
-tags: [ios, reverse engineering, background, advertisements, BLE]
+tags: [ios, reverse engineering, background, advertisements, bluetooth low energy]
 author: annevanrossum
 picture: attachments/ble-background-advertisements.png
 excerpt: "Developers have a hard time to cope with iOS advertisements as soon as the app goes into the background mode. However, it is possible to scan for devices, it just requires more in-depth knowledge."

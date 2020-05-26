@@ -2,7 +2,7 @@
 layout: post
 title: "Crownstone. What is it? Students find out!"
 description: "Students from Hogeschool Rotterdam develop multiple applications for the Crownstone"
-tags: [crownstone, Hogeschool Rotterdam, students, ]
+tags: [crownstone, hogeschool rotterdam, students, applications]
 author: annevanrossum
 ---
 {% include JB/setup %}

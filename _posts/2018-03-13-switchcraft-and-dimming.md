@@ -2,7 +2,7 @@
 layout: post
 title: "Switchcraft and dimming!"
 description: "An intelligent way to switch digitally and physically at the same time."
-tags: [switchcraft, dimming]
+tags: [switchcraft, dimmer]
 author: annevanrossum
 picture: attachments/allow-dimming1.png
 excerpt: "We have been testing the dimming behavior extensively and are rolling this out as we speak. Yes, LED dimming as well!"

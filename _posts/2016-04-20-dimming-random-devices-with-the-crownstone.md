@@ -2,7 +2,7 @@
 layout: post
 title: "Dimming random devices with the Crownstone"
 description: "Dimming random devices with the Crownstone"
-tags: [Crownstone, PWM]
+tags: [crownstone, pwm, dimmer]
 author: bartvanvliet
 ---
 {% include JB/setup %}
