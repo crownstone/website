@@ -24,7 +24,7 @@ permalink: /
 
 # Automatically turn on the lights!
 
-Crownstones use the position of your smartphone through measuring Bluetooth Low Energy signals (see the [Technology page]({{ BASE_PATH }}/technology-consumer). Crownstones can immediately act upon your presence because they are integrated in a power outlet or power plug. It switches on the light when your in the living room automatically (after dark of course). Summarized, they can do anything a current smart plug does and more!
+Crownstones use the position of your smartphone through measuring Bluetooth Low Energy signals (see the [Technology page]({{ BASE_PATH }}/technology-consumer). Crownstones can immediately act upon your presence because they are integrated in a power outlet or power plug. It switches on the light when your in the living room automatically (after dark, of course). To summarize, they can do anything a current smart plug does and more!
 
 A Crownstone is a switch, a dimmer, a presence detector, and a power monitor, all in one. Moreover, it uses AI and is open-source. This means that its functionality improves over time and that its functions can be extended by many software developers.
 
@@ -40,9 +40,9 @@ A Crownstone is a switch, a dimmer, a presence detector, and a power monitor, al
 
 # Indoor positioning
 
-Crownstone's secret sauce is <b>indoor positioning</b>. The Crownstones know where you are if you carry a smart device with you. This can be a phone, a fitness wrist band, or a key tag. There is no need anymore to (1) get your phone, (2) unlock it, (3) open an app, (4) navigate to the right screen, and (5) click some button! Your smart home automatically reacts to you entering a room! 
-                
-It turns on the lights for you when you enter with your hands full of groceries and two little kids. It switches off energy-hungry devices automatically without you having to think of it! It turns of an electric device if you forget! It wakes you up by switching on the lights in the bedroom. It makes sure your little kid cannot use the microwave or drill if you're not there! Finally! Now, because your home knows where you are, it can become smart for the first time in history!
+Crownstone's secret sauce is <b>indoor positioning</b>. The Crownstones know where you are if you carry a smart device with you. This can be a phone, a fitness wrist band, or a key tag. There is no more need to (1) get your phone, (2) unlock it, (3) open an app, (4) navigate to the right screen, and (5) tap some button! Your smart home will automatically react to you entering a room!
+
+It turns on the lights for you when you enter with your hands full of groceries and two little kids. It switches off energy-hungry devices automatically without you having to think of it! It turns off an electric device if you forget! It wakes you up by switching on the lights in the bedroom. It makes sure your little kid cannot use the microwave or drill if you're not there! Finally! Now, because your home knows where you are, it can become smart for the first time in history!
 
 {% include snippets/column-end %}
 

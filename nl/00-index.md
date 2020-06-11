@@ -27,7 +27,7 @@ permalink: /
 # Automatisch de lichten aan!
                 
 Crownstones bepalen je lokatie binnenshuis door het gebruik van BLE 
-(zie de [technologie pagina]({{ BASE_PATH }}/technology-consumer).
+(zie de [technologie pagina]({{ BASE_PATH }}/technology-consumer)).
 Crownstones kunnen direct deze informatie gebruiken en dingen voor je doen omdat ze zijn geïntegreerd in een 
 verloopstekker of kroonsteentje dat op of achter een stopcontact kan worden geplaatst. Ze kunnen alles wat een moderne 
 slimme stekker kan doen, en nog veel meer! Een Crownstone is een schakelaar, dimmer, aanwezigheidssensor, 
