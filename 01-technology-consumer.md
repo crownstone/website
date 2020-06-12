@@ -154,7 +154,8 @@ The Crownstone has been originally developed for a [Kickstarter](https://www.kic
 
 # Specifications
 
-For detailed specifications, see the [specification page](https://shop.crownstone.rocks/pages/specifications).
+For detailed specifications, see the 
+[specification page]({{ site.url }}/specifications).
 
 {% include snippets/column-end %}
 {% include snippets/column-begin colsize="6" %}

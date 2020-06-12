@@ -150,9 +150,10 @@ Rockstart accelerator). Sommige van de Crownstone mogelijkheden kan je zien in d
 {% include snippets/row-begin %}
 {% include snippets/column-begin colsize="6" %}
 
-# Specifications
+# Specificaties
 
-For detailed specifications, see the [specification page](https://shop.crownstone.rocks/pages/specifications).
+Voor gedetailleerde specificaties, zie de
+[specificatie pagina]({{ site.url }}/specifications).
 
 {% include snippets/column-end %}
 {% include snippets/column-begin colsize="6" %}
