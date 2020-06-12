@@ -190,11 +190,12 @@ De huidige Crownstone iPhone en Android apps hebben de volgende functies. Om de 
 | Dimmer                                                      | <i class="el el-check"></i>                      |
 | Aardig berichtje sturen bij binnenkomst kamer               | <i class="el el-check"></i>                      |
 | Tegelijkertijd gebruiken van wandschakelaars (switchcraft)  | <i class="el el-check"></i>                      |
-| Alarmlicht                                                  | <i class="el el-check-empty"></i>                |
+| Lichtwekker                                                 | <i class="el el-check-empty"></i>                |
 | Geschiedenis van energieverbruik                            | <i class="el el-check-empty"></i>                |
 | Integratie met Toon                                         | <i class="el el-check"></i>                      |
 | Integratie met Alexa                                        | <i class="el el-check"></i>                      |
 | Integratie met Google Home                                  | <i class="el el-check-empty"></i>                |
+| Integratie met Home Assistant                               | <i class="el el-check-empty"></i>                |
 | Integratie met Homey                                        | <i class="el el-check-empty"></i>                |
 | Apparaatherkenner                                           | <i class="el el-check-empty"></i>                |
 | Integratie met BLE thermostaatknoppen                       | <i class="el el-check-empty"></i>                |
@@ -202,7 +203,7 @@ De huidige Crownstone iPhone en Android apps hebben de volgende functies. Om de 
 | Persoonlijke gebruikersprofielen                            | <i class="el el-check-empty"></i>                |
 | Arduino programma's op de Crownstone                        | <i class="el el-check-empty"></i>                |
 | Hub (voor bijv. centraal opvang van energiemetingen)        | <i class="el el-check-empty"></i>                |
-| In-netwerk positionering (van heet Crownstone mesh)         | <i class="el el-check-empty"></i>                |
+| In-netwerk positionering (in het Crownstone mesh)           | <i class="el el-check-empty"></i>                |
 | Positiebepaling van wearables                               | <i class="el el-check-empty"></i>                |
 
 De Crownstone app is niet het enige wat wordt geupdated. Ook de firmware op de Crownstones zelf. 

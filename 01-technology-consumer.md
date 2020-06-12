@@ -197,6 +197,7 @@ The current Crownstone iOS and Android apps have the following functionality. Ev
 | Integration with Toon                                   | <i class="el el-check"></i>                     |
 | Integration with Alexa                                  | <i class="el el-check"></i>                     |
 | Integration with Google Home                            | <i class="el el-check-empty"></i>               |
+| Integration with Home Assistant                         | <i class="el el-check-empty"></i>               |
 | Integration with Homey                                  | <i class="el el-check-empty"></i>               |
 | Device identification                                   | <i class="el el-check-empty"></i>               |
 | Integration with thermostat radiator valves             | <i class="el el-check-empty"></i>               |
