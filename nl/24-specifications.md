@@ -15,7 +15,7 @@ permalink: specifications/
 | ---                                           | ---                                                           |
 | Schakelen van apparaten                       | Tot volledige 16A (lichtnet)                                  |
 | Dimmen van lichten                            | LEDs op 110/240V of gloeilampen                               |
-| Meten                                         | Stroom en spanning, tot 2 kHz                                 |
+| Meten                                         | Stroom en spanning (5 kHz)                                    |
 | Overzicht                                     | Real-time energieverbruik                                     |
 | Tijdsklok                                     | Tijdsklok                                                     |
 | Radio                                         | Bluetooth Low Energy (BLE) 4.0 en hoger                       |

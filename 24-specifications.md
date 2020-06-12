@@ -14,7 +14,7 @@ permalink: specifications/
 | ---                                         | ---                                                           |
 | Switching Devices                           | Up to 16A (domestic use)                                      |
 | Dimming lights                              | LEDs (certain types) on 110V/240V or incandescent light bulbs |
-| Measuring                                   | Both current and voltage, up to a frequency of 2kHz           |
+| Measuring                                   | Current and voltage (5kHz)                                    |
 | Overview                                    | Energy usage (real-time for now)                              |
 | Timer function                              | Timer functionality                                           |
 | Communication                               | Bluetooth Low Energy (BLE) 4.0 and up                         |
