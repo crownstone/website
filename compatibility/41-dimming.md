@@ -10,7 +10,7 @@ permalink: compatibility/dimming/
 
 # Dimmer
 
-The Crownstone operates as a dimmer for a select set of lamps. The Crownstone (1) can only dim lamps, (2) can only dim lamps below a 100 Watt, and (3) can only dim individual lamps.
+Crownstones can operate as a dimmer for a large set of lamps. A Crownstone can dim a lamp up to 100 Watt and can only dim individual lamps.
 
 The type of lamps that can be dimmed:
 
