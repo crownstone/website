@@ -50,6 +50,7 @@ authors:
 
   peetvantooren:
     display_name: Peet van Tooren
+    image: images/team/peetvantooren.jpg
 
   annebekker:
     display_name: Anne Bekker
@@ -61,4 +62,8 @@ authors:
 
   merijnvantooren:
     display_name: Merijn van Tooren
+
+  teresavandam:
+    display_name: Teresa van Dam
+    image: images/team/teresavandam.jpg
 
