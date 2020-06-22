@@ -5,7 +5,7 @@ description : "The key ingredient for a truly smart home is automation. Without 
 tags        : [smart home, automation, truly smart, indoor positioning]
 author      : teresavandam
 picture     : attachments/blog/truly_smart_12.png
-excerpt     : "Text on main blog page"
+excerpt     : "For a truly smart home experience, home automation is needed. Home automation allows your home to do things for you automatically, based on your desires. So why do we need home automation and how is this possible?"
 ---
 {% include JB/setup %}
 
