@@ -51,6 +51,4 @@ Good, welcome to home automation! That is how scenarios can be created specially
 
 # Conclusion
 
-Home automation is the key for a truly smart home experience. There can be many products out there that claim to provide you with that experience. However, the real experience cannot be achieved without Crownstone’s secret ingredient: indoor positioning. We just saw how important it is to include the presence awareness when making a scenario for your smart home. Crownstone provides you with the ability to create a scenario with the four characteristics: preferences, time, place and presence. It doesn't matter if you are just starting to look for smart home solutions or if you already have some experience in the field. Crownstone will always help you with creating the scenarios you need to provide you with a
-
-
+Home automation is the key for a truly smart home experience. There can be many products out there that claim to provide you with that experience. However, the real experience cannot be achieved without Crownstone's secret ingredient: **indoor positioning**. We just saw how important it is to include the presence awareness when making a scenario for your smart home. Crownstone provides you with the ability to create a scenario with the four characteristics: preferences, time, place and presence. It doesn't matter if you are just starting to look for smart home solutions or if you already have some experience in the field. Crownstone will always help you with creating the scenarios you need to provide you with a truly smart home experience.
