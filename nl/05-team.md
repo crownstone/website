@@ -217,15 +217,13 @@ Plan ook je terugreis via [Rotterdam Centraal, actuele vertrektijden](http://www
                 
 # Geschiedenis
 
-Crownstone is oorspronkelijk ontwikkelt door Distributed Organisms B.V. (DoBots) en heeft achter zich als investeerder 
-[Almende Investments](http://almende-investments.com/)
-en de 
-[Rockstart accelerator](http://www.rockstart.com/blog/rockstart-introduces-participants-of-2016-smart-energy-accelerator/).
-Crownstone is opgericht op 20 Mei 2016.
+Het Crownstone product is oorspronkelijk ontwikkeld door Distributed Organisms B.V. (DoBots) en heeft achter zich als investeerder 
+[Almende Investments](http://almende-investments.com/). 
+Crownstone is opgericht op 20 Mei 2016 en heeft deelgenomen aan de prestigieuze [Rockstart accelerator](http://www.rockstart.com/blog/rockstart-introduces-participants-of-2016-smart-energy-accelerator/).
 
-Crownstone's technologie is vrij nieuw. Om te weten te komen wat de mogelijkheden zijn, raden wij vooral aan om de website en de blog te bezoeken 
-om te weten te komen wat Crownstone mogelijk maakt voor zowel de consumenten als de zakelijke markt. 
-Positiebepaling binnenshuis is namelijk niet gebonden tot de thuissituatie, maar brengt nieuwe mogelijkheden voor sectoren zoals de (informele) zorg, het nieuwe werken, en preventief onderhoud.
+Crownstone's technologie is vrij nieuw. Om te weten te komen wat de mogelijkheden zijn, raden wij vooral aan om de website en de blog te bezoeken.
+Onze expertise bestaat op het gebied van elektronica, firmware, maar ook zeker op het gebied van machine learning. 
+Positiebepaling binnenshuis brengt nieuwe mogelijkheden voor sectoren zoals de (informele) zorg, het nieuwe werken, en preventief onderhoud.
 
 Crownstone opereert in een zeer transparante wijze. Veel informatie over ons kan online worden gevonden, zoals de 
 [Kickstarter](https://www.kickstarter.com/projects/dobots/crownstone)
