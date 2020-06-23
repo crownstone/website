@@ -19,8 +19,8 @@ Android can het worden [gevonden](https://play.google.com/store/apps/details?id=
 De app zal je door het registratieproces heenleiden en maakt het mogelijk de Crownstones in te stellen.
 
 Voor gedetailleerde foto's wat betreft de installatie achter stopcontacten, zie ook de instructies voor 
-[enkele stopcontacten](https://crownstone.rocks/nl/installation/single-outlet) en
-[dubbele stopcontacten](https://crownstone.rocks/nl/installation/double-outlet).
+[enkele stopcontacten]({{ site.url }}/installation/single-outlet) en
+[dubbele stopcontacten]({{ site.url }}/installation/double-outlet).
 
 
 # Installatie achter een dimmer
@@ -46,8 +46,8 @@ Als u niet zeker weet wat u moet doen, stop direct de installatie en neem contac
 Crownstone. 
 
 Als bovenstaande iets te snel gaat, er is een heel gedetailleerde stap-voor-stap-handleiding met foto's 
-voor [enkele](/nl/installation/single-outlet)
-en [dubbele](/nl/installation/double-outlet) stopcontacten.
+voor [enkele]({{ site.url }}/installation/single-outlet)
+en [dubbele]({{ site.url }}/installation/double-outlet) stopcontacten.
 
 {% include snippets/image-with-caption url="/attachments/installation/nl/socket_wiring_diagram.png" description="Figuur A: Inbouw Crownstone schakelschema. Pas op, de draadkleuren kunnen anders zijn." %}
 
