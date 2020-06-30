@@ -6,6 +6,7 @@ description: "The different forms of indoor localization."
 keywords: "indoor localization, presence sensing, proximity, ranging, iBeacon"
 group: Landing
 markdown: true
+social-image: images/localization/trilateration.png
 permalink: indoor-localization/
 ---
 {% include JB/setup %}
@@ -17,6 +18,8 @@ There are many ways in which localization can be done and we would like to give 
 ## Proximity
 
 Most iBeacon solutions run software on a smartphone that detects if the user is in proximity of the beacon. There is no indoor localization involved.
+
+![Proximity]({{ site.url }}/images/localization/proximity.png)
 
 Advantages:
 
@@ -30,6 +33,8 @@ Disadvantages:
 ## Fingerprinting
 
 In the Crownstone at home setting, an AI (artificial intelligence) resides on your phone. Currently, this entity is not particularly intelligent, but it is meant to become smarter over time. One of the components of this AI is a so-called classifier. The AI initiates the user to walk around in a predefined (labeled) room. The AI collects Bluetooth Low Energy signal strengths (RSSI values). If a user covers the room while this is done the AI has collected a set of those RSSI values for a wide diversity of locations within the room. Each item in this set belongs to the same label "living room". The classifier has as task to pair a set of RSSI values with the proper room label.
+
+![Fingerprinting]({{ site.url }}/images/localization/fingerprinting.png)
 
 Advantages:
 
@@ -57,6 +62,8 @@ There are several ways to circumvent this:
 * Use the **four-color theorem**. Each beacon can be assigned a different region compared to its neighbours as long as their are four distinct regions. With twenty regions, this should be enough. However, this also requires little overlap between these regions and the beacons should transmit only weakly. This is a conflict, because after a region enter event it is still necessary to do some ranging (using the positions of multiple beacons) to improve the localization. If there are only a few beacons visible during ranging, the accuracy is dramatically reduced.
 * A **dynamic update** of the major/minor list. On the smartphone continuously adjust the 20 major/minor numbers to reflect the neighbours of a particular region the user is residing. Note, this does not adjust the beacons themselves (which would not work with multiple users). It only adjust the list-to-look for on the phone. This will work for most cases, except if a user can enter for example more than 20 different buildings. In that case additional information, for example Wifi or GPS is required to update the list.
 
+![Region monitoring]({{ site.url }}/images/localization/region_monitoring.png)
+
 Advantages:
 
 * Potentially less battery consumption than with fingerprinting.
@@ -73,6 +80,8 @@ Disadvantages:
 
 There is no reason to only rely on the capabilities of smartphones. It is possible to use active beacons that scan for BLE devices. Smart watches, fitness bands, etc. all emit BLE signals that can be picked up by active beacons. To perform proximity based solutions the data has to be communicated through some kind of mesh from the active beacons to a hub and to the internet. To perform indoor localization information from multiple active beacons has to be merged either in the network or on the internet. In-network tracking henceforth is nowadays most often only proximity based. 
 
+![In-network tracking]({{ site.url }}/images/localization/in_network.png)
+
 Advantages:
 
 * The user can wear a BLE wearable rather than a smartphone.
@@ -86,6 +95,8 @@ Disadvantages:
 ## Trilateration
 
 By creating a single map with the positions of all beacons on that map, it is possible to perform trilateration. This is often called triangulation, however trilateration uses the BLE received signal strengths, not angles (and Pythagoras).
+
+![Trilateration]({{ site.url }}/images/localization/trilateration.png)
 
 Advantages:
 
@@ -102,6 +113,8 @@ Disadvantages:
 ## Simultaneous localization and mapping
 
 Simultaneous localization and mapping is a technique from robotics in which - in this case - the map (locations of beacons) are automatically discovered by the smartphones localizing themselves. This is an incrementally improving method. First the locations of the beacons are wrong. However, by knowing things about the movement of smartphones (e.g. the smoothness of a trajectory), the system learns which beacons are close to each other and which are not.
+
+![SLAM]({{ site.url }}/images/localization/slam.png)
 
 Advantages:
 
