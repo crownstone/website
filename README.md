@@ -19,23 +19,50 @@ You can find this website at [https://crownstone.rocks](https://crownstone.rocks
 
 Jekyll uses `site.safe` to use `BASE_PATH`. Here we are only in production, but we do not want to set `safe: true` because that disables custom plugins. Hence in `_includes/JB/setup` we have removed the `site.safe` clause as indicated by ubershmekel at https://github.com/plusjade/jekyll-bootstrap/issues/84.
 
-## Users
+## Blog posts
 
 You can add a blog post by:
 
     rake post title="Your fancy title"
-    
+
 Now navigate to the file created for you and adjust it.
 
 In case you have never worked with a markdown syntax before. It is quite easy. This very file is written in it! The variant of markdown that is used is called kramdown. A very short overview:
 
-### Movie
+* links
+* movies
+* images
+* social cards
+* equations
+* code snippets
 
-A movie can be embedded by using 
+### Links
+
+An external link has the following syntax.
+
+    [Description](https://twitter.com/CrownstoneRocks)
+
+An internal link is preceded by `{{ site.url }}`.
+
+    [Description]({{ site.url }}/scenarios)
+
+A link to another blog post
+
+    [Description]({{ site.url }}{% link _posts/2020-06-22-automation-the-key-ingredient-for-a-truly-smart-home.md %})
+
+Given that `auto_ids: true` is set, within the same page can also be linked:
+
+    ## Some heading
+
+    See [above](#some-heading) for the into.
+
+### Movies
+
+A movie can be embedded by using:
 
     {% youtube YOUTUBE_ID %}
 
-### Image
+### Images
 
 An image can be embedded by placing it in the attachments folder and link it through 
 
@@ -56,7 +83,7 @@ Or, the short-hand:
     ![Mould]({{ site.url }}/attachments/mould0.png "Mould for Crownstone"){: .img-center}
 
 With maximum width set to the complete view port (100%):
-    
+
     ![Mould]({{ site.url }}/attachments/mould0.png "Mould for Crownstone"){: .limit-width}
 
 An example of a resized image: 
@@ -67,7 +94,7 @@ To set for example maximum width to half the page and have it aligned to the rig
 
     ![Mould]({{ site.url }}/attachments/mould0.png "Mould for Crownstone"){: style="max-width: 50%"}{: .float-right}
 
-## Social cards
+### Social cards
 
 A social card, either open graph or twitter can be set through adding the following to the Jekyll preamble.
 
@@ -75,7 +102,7 @@ A social card, either open graph or twitter can be set through adding the follow
 
 You cannot use liquid tags like `{{ site.url }}` here.
 
-### Equation
+### Equations
 
 A mathematical equation can be described with
 
@@ -102,20 +129,7 @@ To include this file add the following to the header:
 
 Other syntax options you can probably find in no time searching online or checking other posts.
 
-## Include snippets
-
-You can include snippets through the following syntax:
-
-    {% include snippets/social-card %}
-
-To add arguments:
-
-    {% include snippets/social-card channel="opengraph" %}
-    {% include snippets/social-card channel="twitter" %}
-
-Something like `page` is available in such a snippet.
-
-## Admin
+## Website configuration
 
 The site is run through Jekyll:
 
@@ -134,15 +148,15 @@ It might actually be the case that running it once without `-i` or `--interactiv
 You can then see the website served at:
 
     localhost:4000
-    
+
 There is Procfile that allows you to run it on Heroku:
 
     web: jekyll serve -P $PORT
-    
+
 You can install a theme through:
 
     rake theme:install git="https://github.com/jekyllbootstrap/theme-the-program.git"
-    
+
 And switch a theme through:
 
     rake theme:switch name="flat"
@@ -158,7 +172,7 @@ The information for the different plugins is stored in an `.env` file which is n
 
 Write here your own keys to get the analytics and use embedly (although the latter I found not so convenient in the end, requiring paid subscriptions already after showing a movie only several times).
 
-### Localization
+## Localization
 
 Added as plugin in Gemfile: [polyglot](https://github.com/untra/polyglot).
 
@@ -196,6 +210,19 @@ Note, that `_config.yml` and `_config-authors.yml` are not in the github reposit
 The defaults for a page or post can be found in `_includes/themes/flat/default.html`.
 
 The particular stylesheet in use for Crownstone can be found in `assets/themes/flat/css/crownstone-global.css`.
+
+### Snippets
+
+You can include snippets through the following syntax:
+
+    {% include snippets/social-card %}
+
+To add arguments:
+
+    {% include snippets/social-card channel="opengraph" %}
+    {% include snippets/social-card channel="twitter" %}
+
+Something like `page` is available in such a snippet.
 
 ## Copyrights
 
