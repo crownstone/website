@@ -13,12 +13,12 @@ markdown: true
 
 It might be hard to find how labels E, D, C, B, A, A+, A++ are actually calculated. Herefore we created a small tool using the documents available from the European Union; [regulation No 874/2012 in particular](https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32012R0874&from=EN). (Scroll down to get to the actual calculations.)
 
-The columns have the following quantities:
+The columns contain the following information, the first three of which are inputs:
 
 1. Stated power by the manufacturer.
 2. A correction factor (with LEDs this is normally equal to one, except if the driving circuitry is separate from the LED).
-3. The calculated corrected power.
-4. The luminosity of the light (Lumen).
+3. The luminosity of the light (in lumen).
+4. The calculated corrected power.
 5. The reference power through a calculation depending on luminosity.
 6. The Energy Efficiency Index (EEI).
 7. The label that corresponds to this energy efficiency index. For example A++ corresponds to an EEI smaller than 0.11 for non-directional lamps (our case).
