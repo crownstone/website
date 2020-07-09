@@ -7,7 +7,7 @@ relative_permalinks: false
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", "Gemfile","Gemfile.lock","Procfile","vendor",
   "build.sh", "run.sh", "deploy.sh", ".gitignore", "_site", ".jekyll-cache", ".sass-cache", "node_modules", ".git", "webpack-src"]
 
-highlighter: rouge
+ #highlighter: rouge
 
 languages: ["en", "nl"]
 default_lang: "en"
@@ -79,6 +79,8 @@ markdown : kramdown
 kramdown:
   auto_ids: true
   auto_id_prefix: 'header-'
+  input: GFM
+  syntax_highlighter: rouge
 
 plugins: 
 - 'jekyll-lunr-js-search'

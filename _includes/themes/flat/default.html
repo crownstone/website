@@ -50,10 +50,9 @@
 
     <!-- Bootstrap as framework -->
     <link href="{{ ASSET_PATH }}/resources/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
-    <link href="{{ ASSET_PATH }}/css/crownstone-global.css" rel="stylesheet"> 
-    
-    <link href="{{ ASSET_PATH }}/css/elusive-icons.min.css" rel="stylesheet"> 
+    <link href="{{ ASSET_PATH }}/css/crownstone-global.css" rel="stylesheet">
+    <link href="{{ ASSET_PATH }}/css/elusive-icons.min.css" rel="stylesheet">
+    <link href="{{ ASSET_PATH }}/css/syntax.css" rel="stylesheet">
 
     {% if page.custom_css %}
     {% for stylesheet in page.custom_css %}
@@ -260,7 +259,7 @@
                <p>{{ site.company.phone_international }} / {{ site.company.phone_local }}</p>
                <br/>
                <p>
-               This site uses external services. Cookies for the tawk.to chat box (<a href="https://www.tawk.to/privacy-policy/">privacy policy</a>) and the shopify webshop (<a href="https://www.shopify.com/legal/cookies">cookie policy</a>).
+			   This site uses external services. Cookies for the chat box (<a href="https://replain.cc/terms-and-policies">policies</a>) and the webshop (<a href="https://www.shopify.com/legal/cookies">cookie policy</a>).
                </p>
             </div>
         </div>
@@ -300,89 +299,21 @@
 <!-- Disable tawk on blog because preferred way of communication is disqus for blog posts. -->
 {% if page.layout != 'post' %}
 
-<!--Start of Tawk.to Script-->
-<script type="text/javascript">
-   var tawk_loaded = false;
+<script type='text/javascript' src="{{ ASSET_PATH }}/js/replain.js"></script>
 
-   // when loading on demand, people have to click twice, after loading the iframe, click automatically
-   var tawk_autoclick = true;
+<!--
+<script type='text/javascript' src="{{ ASSET_PATH }}/js/tawk.js"></script>
+-->
 
-   // load tawk chat window only on demand
-   function load_tawk() {
-      if (!tawk_loaded) {
-         
-         document.getElementById("tawk-no-tracking-large").style.display = "none";
-         document.getElementById("tawk-no-tracking-small").style.display = "none";
-
-         var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
-         (function(){
-            var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
-            s1.async=true;
-            s1.src='https://embed.tawk.to/565d82718c0c22d759259aee/default';
-            s1.charset='UTF-8';
-            s1.setAttribute('crossorigin','*');
-            s0.parentNode.insertBefore(s1,s0);
-            console.log("Embed tawk script");
-            if (tawk_autoclick == false) {
-               return;
-            }
-
-            setTimeout(
-               function() {
-                  var chat_widgets = document.querySelectorAll('[title="chat widget"]');
-                  var i;
-                  for (i = 0; i < chat_widgets.length; ++i) {
-                     var chat_frame = chat_widgets[i];
-                     console.log("widget", chat_frame);
-                     var box = chat_frame.contentDocument.getElementById("tawkchat-minified-box");
-                     if (box) {
-                        console.log("Touch minified box", box);
-                        var event = new Event('touchstart');
-                        box.dispatchEvent(event);
-                        event = new Event('touchend');
-                        box.dispatchEvent(event);
-                        return;
-                     }
-                     var wrapper = chat_frame.contentDocument.getElementById("tawkchat-minified-wrapper");
-                     if (wrapper) {
-                        console.log("Click minified wrapper", wrapper);
-                        wrapper.click();
-                        return;
-                     }
-                  }
-                  console.log("Done");
-               }, 1000);
-
-         })();
-
-         Tawk_API.onLoad = function(){
-            tawk_loaded = true;
-
-            console.log("Loaded tawk widget (only now)");
-            var pageStatus = Tawk_API.getStatus();
-
-            if (pageStatus === 'away') {
-               var s2 = document.getElementById("short-message");
-               s2.value = "Not there! Email us please!";
-            }
-
-            Tawk_API.maximize();
-         };         
-         
-      }
-   }
-</script>
-<!--End of Tawk.to Script-->
-
-<!-- Dummy block for lazy loading of Tawk.to script -->
+<!-- Dummy block for lazy loading of the chat script -->
 <div class="d-none d-sm-block">
-   <div class="tawk-dummy" id="tawk-no-tracking-large">
-      <div id="tawkchat-minified-wrapper" class="white ltr-direction">
-         <div id="tawkchat-minified-container" class="theme-background-color" style="border-radius: 8px 8px 0px 0px;">
-            <div id="tawkchat-status-middle">
-               <div id="tawkchat-status-text-container" class="theme-text-color">
-                  <div id="tawkchat-status-message">
-                     <span id="short-message" onclick="load_tawk();return false;">Chat with a human! :-) No bots!</span>
+   <div class="chat-widget-dummy" id="chat-widget-no-tracking-large">
+      <div id="chat-widget-minified-wrapper" class="white ltr-direction">
+         <div id="chat-widget-minified-container" class="theme-background-color" style="border-radius: 8px 8px 0px 0px;">
+            <div id="chat-widget-status-middle">
+               <div id="chat-widget-status-text-container" class="theme-text-color">
+                  <div id="chat-widget-status-message">
+                     <span id="short-message" onclick="load_replain();return false;">Chat with a human! :-) No bots!</span>
                   </div>
                </div>
             </div>
@@ -392,11 +323,11 @@
 </div>
 
 <div class="d-block d-sm-none"> 
-   <div class="tawk-dummy-small bottom round" id="tawk-no-tracking-small">
-      <div id="tawkchat-minified-box" style="transform: scale(1); transform-origin: left bottom 0px;">
-         <div id="tawkchat-minified-wrapper">
-            <div id="tawkchat-status-text-container" class="theme-background-color theme-text-color" onclick="load_tawk(); return false;">
-               <div id="tawkchat-status-icon" class="online">
+   <div class="chat-widget-dummy-small bottom round" id="chat-widget-no-tracking-small">
+      <div id="chat-widget-minified-box" style="transform: scale(1); transform-origin: left bottom 0px;">
+         <div id="chat-widget-minified-wrapper">
+            <div id="chat-widget-status-text-container" class="theme-background-color theme-text-color" onclick="load_replain(); return false;">
+               <div id="chat-widget-status-icon" class="online">
                </div>
             </div>
          </div>
