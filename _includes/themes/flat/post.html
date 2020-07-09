@@ -1,56 +1,58 @@
-<div class="container">
-	<div class="row post-full">
-		<div class="col-md-12">
-			
-			<div class="date d-none d-lg-block">
-				<strong class="date_month">{{ page.date | date: "%-b" }}</strong>
-				<strong class="date_day">{{ page.date | date: "%-d" }}</strong>
-				<strong class="date_year">{{ page.date | date: "%-Y" }}</strong>
-			</div>
-			{% assign author = site.authors[page.author] %}
-			{% if author %}
-			<div class="author-block">
-				{% if author.gravatar %}
-				<img src="https://secure.gravatar.com/avatar/{{ author.gravatar }}?s=40">
-				{% else %}
-					{% if author.image %}
-					<img src="{{ site.url }}/{{ author.image }}" width="40" height="40">
-					{% endif %}
-				{% endif %}
-				<span class="author">{{ author.display_name }}</span>
-			</div>
-			{% endif %}
-			<div class="post">
-				<div class="content">
-					{{ content }}
-				</div>
+<div class="container-fluid post-container">
+	<div class="container">
+		<div class="row post-full">
+			<div class="col-md-12">
 				
-				<div class="d-lg-none">
-					<div class="text-date">
-						<p>{{ page.date | date_to_long_string }}</p> 
-					</div>
+				<div class="date d-none d-lg-block">
+					<strong class="date_month">{{ page.date | date: "%-b" }}</strong>
+					<strong class="date_day">{{ page.date | date: "%-d" }}</strong>
+					<strong class="date_year">{{ page.date | date: "%-Y" }}</strong>
 				</div>
+				{% assign author = site.authors[page.author] %}
+				{% if author %}
+				<div class="author-block">
+					{% if author.gravatar %}
+					<img src="https://secure.gravatar.com/avatar/{{ author.gravatar }}?s=40">
+					{% else %}
+						{% if author.image %}
+						<img src="{{ site.url }}/{{ author.image }}" width="40" height="40">
+						{% endif %}
+					{% endif %}
+					<span class="author">{{ author.display_name }}</span>
+				</div>
+				{% endif %}
+				<div class="post">
+					<div class="content">
+						{{ content }}
+					</div>
+					
+					<div class="d-lg-none">
+						<div class="text-date">
+							<p>{{ page.date | date_to_long_string }}</p> 
+						</div>
+					</div>
 
-				{% unless page.categories == empty %}
-				<ul class="tag_box inline">
-					<li><i class="el el-folder-open"></i></li>
-					{% assign categories_list = page.categories %}
-					{% include JB/categories_list %}
-				</ul>
-				{% endunless %}
-	
+					{% unless page.categories == empty %}
+					<ul class="tag_box inline">
+						<li><i class="el el-folder-open"></i></li>
+						{% assign categories_list = page.categories %}
+						{% include JB/categories_list %}
+					</ul>
+					{% endunless %}
+		
+				</div>
 			</div>
 		</div>
-	</div>
-	<div class="row">
-		<div class="col-md-12">
+		<div class="row">
+			<div class="col-md-12">
 
-				{% unless page.tags == empty %}
-				<div class="tag_box inline">
-					{% assign tags_list = page.tags %}
-					{% include JB/tags_list %}
-				</div>
-				{% endunless %}
+					{% unless page.tags == empty %}
+					<div class="tag_box inline">
+						{% assign tags_list = page.tags %}
+						{% include JB/tags_list %}
+					</div>
+					{% endunless %}
+			</div>
 		</div>
 	</div>
 </div>

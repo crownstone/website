@@ -572,7 +572,6 @@ p.sitemap {
 .post-footer {
 	background: #003e52;
 	padding: 35px 0px 15px 0px;
-	margin-top: 2rem;
 }
 
 .post-footer a {
@@ -633,6 +632,29 @@ a.button-link:active {
 	border: solid 1px #003e52;
 }
 
+body .post-container {
+	background-color: #003e52;
+	color: #dddddd;
+}
+
+/* Justify doesn't look nice on small screens or very large screens */
+body .post-container p {
+/*	text-align: justify; */
+}
+
+body .post-container a {
+	color: white;
+	font-weight: bold;
+}
+
+body .post-container a:hover {
+	color: #ff8400;
+}
+
+body .post-container b, strong {
+	color: #ff8400;
+}
+
 /* Date as text on small devices */
 .text-date {
 	text-align: right;
@@ -642,7 +664,7 @@ a.button-link:active {
 /* Date unit at the left side of each blog post */
 
 .date {
-	background: transparent url("/assets/themes/flat/images/calendar_background.png") no-repeat;
+	background: transparent url("/assets/themes/flat/images/calendar_background_orange.png") no-repeat;
 	display: block;
 	width: 60px;
 	height: 60px;
@@ -660,7 +682,7 @@ a.button-link:active {
 	font-weight: bold;
 	margin-top: -8px;
 	text-align: center;
-	color: #ffffff;
+	color: white;
 }
 
 .date_day {
@@ -677,7 +699,7 @@ a.button-link:active {
 	font-size: 10px;
 	margin-top: -8px;
 	text-align: center;
-	color: #282828;
+	color: white;
 }
 
 /* Author at the right side of each blog post */
