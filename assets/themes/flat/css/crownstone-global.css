@@ -1570,7 +1570,7 @@ p.thought:after {
 
 /*
  * position: fixed rather than absolute
- * inset: changed to fit circle
+ * inset: changed to fit circle, inset does not exist on chrome
  */
 .chat-widget-dummy-small {
 	outline: currentcolor none medium;
@@ -1580,7 +1580,10 @@ p.thought:after {
 	overflow: visible;
 	background: transparent none repeat scroll 0% 0%;
 	opacity: 1;
-	inset: auto 30px 20px auto;
+	bottom: 20px !important;
+	right: 30px !important;
+	left: auto;
+	top: auto;
 	position: fixed;
 	border: 0px none;
 	padding: 0px;
@@ -1593,14 +1596,6 @@ p.thought:after {
 	border-radius: unset;
 	pointer-events: auto;
 	display: block;
-	/*
-	height: 90px !important;
-	width: 70px !important;
-	min-height: 90px !important;
-	min-width: 70px !important;
-	max-height: 90px !important;
-	max-width: 70px !important;
-	 */
 }
 
 #chat-widget-status-icon.online:before,
