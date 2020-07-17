@@ -21,36 +21,37 @@ function load_replain() {
 			var x=document.getElementsByTagName('script')[0];
 			x.parentNode.insertBefore(s,x);
 
-			/*
-			var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
-			s1.async=true;
-			s1.src='https://embed.replain.to/565d82718c0c22d759259aee/default';
-			s1.charset='UTF-8';
-			s1.setAttribute('crossorigin','*');
-			s0.parentNode.insertBefore(s1,s0);
-			*/
 			console.log("Embed replain script");
 			if (replain_autoclick == false) {
 				return;
 			}
 
-			setTimeout(
-				function() {
-					var div_containing_iframe = document.querySelectorAll('[title="Re:plain"]');
-					var i;
-					for (i = 0; i < div_containing_iframe.length; ++i) {
-						var chat_frame = div_containing_iframe[i];
-						console.log("Widget frame", chat_frame);
-						var widgets = chat_frame.contentDocument.querySelectorAll('[title="Chat with the operator"]');
-						if (widgets) {
-							console.log("Click widget 0", widgets);
+			function evokeChat() {
+				console.log("Evoke chat window");
+				var div_containing_iframe = document.querySelectorAll('[title="Re:plain"]');
+				var i;
+				for (i = 0; i < div_containing_iframe.length; ++i) {
+					var chat_frame = div_containing_iframe[i];
+					// console.log("Widget frame", chat_frame);
+					var widgets = chat_frame.contentDocument.querySelectorAll('[title="Chat with the operator"]');
+					if (widgets) {
+						console.log("Click widget 0");
+						if (widgets[0]) {
 							widgets[0].click();
-							break;
+							replain_loaded = true;
 						}
+						break;
 					}
+				}
+				if (replain_loaded) {
 					console.log("Done");
-					replain_loaded = true;
-				}, 1000);
+				} else {
+					console.log("Try again");
+					setTimeout(evokeChat, 1000);
+				}
+			}
+
+			setTimeout(evokeChat, 1000);
 
 		})('https://widget.replain.cc/dist/client.js');
 
