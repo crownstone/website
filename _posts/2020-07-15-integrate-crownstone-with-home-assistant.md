@@ -4,7 +4,7 @@ title       : "Integrate Crownstone with Home Assistant"
 description : "Crownstone brings the functionality of switch, dimming, and persence information using Crownstones to Home Assistant"
 tags        : [home assistant, integration]
 author      : ricardosteijn
-picture     : attachments/home_assistant/banner.jpg
+picture     : images/banners/banner-home-assistant.png
 excerpt     : "Home assistant is an open-source platform for smart homes. Crownstone is now integrated with Home Assistant so that
 presence information can be used to trigger all kind of smart home actions with other hardware integrated with Home Assistant."
 ---
@@ -74,6 +74,8 @@ Step 9. Select a card from the available options.
 Give your card a name, for example “Crownstones”.
 
 In the entities section, select the Crownstones you want to add to the overview. All Crownstones are represented as lights in Home Assistant. So if you have a Crownstone named “charger”, your Crownstone will be called “light.charger” and will have the following icon:
+
+![Home Assistant Outlet Icon]({{ site.url }}/attachments/home-assistant/HAoutleticon.png)
 
 See the image below for an example of how to represent your Crownstones in the Home Assistant overview!
 
