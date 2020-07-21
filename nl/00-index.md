@@ -16,7 +16,7 @@ permalink: /
 
 {% include JB/setup %}
 
-{% include snippets/orange-top-bar text='Nieuw: <a href="https://subscribe.crownstone.rocks?ref=https://crownstone.rocks/nl&loc=banner">Abonnement</a>! Onze <a href="https://shop.crownstone.rocks">webshop</a> is open: verzendingen zijn wekelijks.' %}
+{% include snippets/orange-top-bar text='Slechts € 15 per maand, het Crownstone <a href="https://subscribe.crownstone.rocks/welcome?dest=smartscenarios&ref=crownstone.rocks&loc=banner">abonnement</a>! Onze <a href="https://shop.crownstone.rocks">webshop</a> is open: verzendingen zijn wekelijks.' %}
 
 {% include snippets/video-banner video='/clips/intro' placeholder='/attachments/crownstone_in_living_room.jpg' alt="Crownstone in a living room" %}
 
