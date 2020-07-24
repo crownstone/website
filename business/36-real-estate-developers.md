@@ -64,7 +64,7 @@ on this website itself or on the blog. Some examples:
 
 * [Dimming](https://subscribe.crownstone.rocks/dimming)
 * [Home Assistant]({{ site.url }}/2020/07/15/integrate-crownstone-with-home-assistant)
-* [Typical scenarios](http://{{ site.url }}/2020/07/01/the-magic-of-crownstone-scenarios)
+* [Typical scenarios]({{ site.url }}/2020/07/01/the-magic-of-crownstone-scenarios)
 
 If there are particular integrations required for your users, we can make this happen at Crownstone!
 
