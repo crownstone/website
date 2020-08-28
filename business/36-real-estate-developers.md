@@ -26,23 +26,11 @@ There are quite a few reasons to incorporate smart homes strategically (from [th
 There are also other benefits that can be capitalized on. Using a 3D model, it is nice for your website visitors to play interactively with the lights as if they are already living there! This will definitely be shared through social media! 
 The very first moment that your customers will step into their homes, should have a wow effect! Yes, nice materials, a nice view, it is all important. However, nothing beats a home that actually welcomes you!
 
-In the following projects you will find Crownstones embedded.
+You can find Crownstones in real estate projects, such as "Smart Villas".
 
 ## Smart Villas
 
 ![Smart Villas]({{ site.url }}/images/projects/blauwdraad_smartvillas.jpg)
-
-## De Tulp
-
-![De Tulp]({{ site.url }}/images/projects/blauwdraad_detulp.jpg)
-
-## Flamingopoort
-
-![Flamingopoort]({{ site.url }}/images/projects/blauwdraad_flamingopoort.jpg)
-
-## Multiversum
-
-![Multiversum]({{ site.url }}/images/projects/blauwdraad_multiversum.jpg)
 
 # Installer
 
