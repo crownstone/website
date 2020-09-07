@@ -47,6 +47,13 @@ employee-gallery:
     title: "Junior researcher"
     linkedin: "behnaz-shirmohamadi-54075b39"
 graduate-gallery:
+  - image: "odysseaskrystalakos.png"
+    name: "Odysseas Krystalakos"
+    affiliation: "Radboud University"
+    linkedin: odysseaskr
+    report:
+      title: "Automatic Appliance Identification"
+      url: "thesis/odysseaskrystalakos.pdf"
   - image: "riccardobellana.jpg"
     name: "Riccardo Bellana"
     report:
@@ -195,6 +202,28 @@ graduate-gallery:
     affiliation: " Utrecht University"
     linkedin: "freek-van-polen-08960719"
 intern-gallery:
+  - image: "wickybhaggoe.jpg"
+    name: "Wicky Bhaggoe"
+    affiliation: "Technische Informatica, Hogeschool Rotterdam"
+    linkedin: wicky-bhaggoe-28280b124
+    report:
+      title: "Crownstone Hardware Tester"
+  - image: "ricardosteijn.jpg"
+    name: "Ricardo Steijn"
+    affiliation: "Communicatie, Media en Informatietechnologie, Hogeschool Rotterdam"
+    linkedin: ricardo-steijn-38319b177
+    report:
+      title: "Home Assistant (home-assistant.io)"
+  - image: "oscardruiventak.jpg"
+    name: "Oscar Druiventak"
+    affiliation: "Communicatie, Media en Informatietechnologie, Hogeschool Rotterdam"
+    linkedin: oscar-druiventak-46b6babb
+    report:
+      title: "Voice Assistant (Google Home)"
+  - image: "bjornpeperzak.jpg"
+    name: "Björn Peperzak"
+    linkedin: bj%C3%B6rn-peperzak-992129197
+    affiliation: "Human Technologies, Techniek College Rotterdam" 
   - image: "elikruunenberg.jpg"
     name: "Eli Kruunenberg"
     affiliation: "Small Business and Retail Management, Hogeschool Utrecht"
