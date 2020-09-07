@@ -112,7 +112,7 @@ core-team-gallery:
       title: "Arno takes care of all your Android issues!"
   - image: "elkesalzmann.jpg"
     name: "Elke Salzmann"
-    affiliation: "Elektricien
+    affiliation: "Elektricien"
     report:
       title: "Elke, voor een foutloze Crownstone installatie!"
 ---
