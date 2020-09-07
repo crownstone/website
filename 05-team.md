@@ -112,6 +112,11 @@ core-team-gallery:
     github: "Erno3000"
     report:
       title: "Arno takes care of all your Android issues!"
+  - image: "elkesalzmann.jpg"
+    name: "Elke Salzmann"
+    affiliation: "Electrician
+    report:
+      title: "Elke, for a flawless installation of Crownstones!"
 ---
 {% include JB/setup %}
 
