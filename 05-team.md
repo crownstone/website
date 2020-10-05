@@ -106,6 +106,11 @@ core-team-gallery:
     github: "ArrowAcrobatics"
     report:
       title: "Arend has a masters in Mathematics. He'll make sure Crownstone is secure and our algorithms are top-notch."
+  - image: "hughjones.jpg"
+    name: "Hugh Jones"
+    affiliation: "Sales representative"
+    report:
+      title: "Hugh will help you to understand what Crownstone can do for you"
   - image: "arnohuisman.jpg"
     name: "Arno Huisman"
     affiliation: "Software developer"
