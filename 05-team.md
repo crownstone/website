@@ -109,6 +109,7 @@ core-team-gallery:
   - image: "hughjones.jpg"
     name: "Hugh Jones"
     affiliation: "Sales Engineer"
+    linkedin: "hughboydjones"
     report:
       title: "Hugh will help you to understand what Crownstone can do for you"
   - image: "arnohuisman.jpg"
