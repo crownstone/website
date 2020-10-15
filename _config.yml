@@ -83,13 +83,15 @@ kramdown:
   syntax_highlighter: rouge
 
 plugins: 
-- 'jekyll-lunr-js-search'
 - 'jekyll-polyglot'
-- 'jekyll-babel'
 
 lunr_search:
   excludes: [rss.xml, atom.xml]
   min_length: 3
+
+lunr_settings:
+  collections:
+  - posts
 
 embedly :
   youtube :
@@ -164,26 +166,19 @@ JB :
       num_posts: 5
       width: 580
       colorscheme: light
-   
+
   # Settings for analytics helper
   # Set 'provider' to the analytics provider you want to use, you can use multiple in an array
   # Set 'provider' to false to turn analytics off globally.
-  #        
+  #
   analytics :
     provider : 
     - simpleanalytics
     - google 
     google : 
-        tracking_id : 'UA-17146802-16'
+      tracking_id : 'UA-17146802-16'
     simpleanalytics:
       site_id : 'crownstone.rocks'
-    getclicky :
-      site_id : 
-    mixpanel :
-        token : '_MIXPANEL_TOKEN_'
-    piwik :
-        baseURL : 'myserver.tld/piwik' # Piwik installation address (without protocol)
-        idsite : '1'                   # the id of the site on Piwik
 
   # Settings for sharing helper. 
   # Sharing is for things like tweet, plusone, like, reddit buttons etc.
@@ -192,7 +187,7 @@ JB :
   #
   sharing :
     provider : false
-    
+
   # Settings for all other include helpers can be defined by creating 
   # a hash with key named for the given helper. ex:
   #
@@ -205,37 +200,6 @@ JB :
   # where [HELPER] is the name of the helper you are overriding. 
 
 inspectlet: false
-
-responsive_image:
-  # [Required]
-  # Path to the image template.
-  template: _includes/responsive-image.html
-
-  # [Optional, Default: 85]
-  # Quality to use when resizing images.
-  default_quality: 90
-
-  # [Optional, Default: []]
-  # An array of resize configuration objects. Each object must contain at least
-  # a `width` value.
-  sizes:
-    - width: 320  # [Required] How wide the resized image will be.
-      quality: 80 # [Optional] Overrides default_quality for this size.
-    - width: 800
-    - width: 1400
-      quality: 90
-
-  # [Optional, Default: assets/resized/%{filename}-%{width}x%{height}.%{extension}]
-  # The template used when generating filenames for resized images.
-  #
-  # Parameters available are:
-  #   %{basename}    Basename of the file (assets/some-file.jpg => some-file.jpg)
-  #   %{filename}    Basename without the extension (assets/some-file.jpg => some-file)
-  #   %{extension}   Extension of the file (assets/some-file.jpg => jpg)
-  #   %{width}       Width of the resized image
-  #   %{height}      Height of the resized image
-  #
-  output_path_format: assets/resized/%{width}/%{basename}
 
 assets:
   dirname: assets
@@ -253,5 +217,4 @@ assets:
     - assets/themes/flat/fonts
 
   js_compressor:  uglifier
-  css_compressor: sass
 

@@ -5,15 +5,14 @@ skip_jquery: true
 header: Search on the Crownstone website
 description: Search the Crownstone website using keywords.
 permalink: search/
-group: navigation
+group: invisible
 # This does make use of Mustache templates which seems to be broken all the time by jekyll, raw doesn't help much.
 ---
 {% include JB/setup %}
 
 <div class="container">
         
-    <script src="/js/search.min.js" type="text/javascript" charset="utf-8"></script>
-
+    <script src="/js/search.js" type="text/javascript" charset="utf-8"></script>
 
     <article>
         <section class="gray mini-wrap">
