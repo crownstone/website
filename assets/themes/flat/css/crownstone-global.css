@@ -572,7 +572,6 @@ p.sitemap {
 .post-footer {
 	background: #003e52;
 	padding: 35px 0px 15px 0px;
-	margin-top: 2rem;
 }
 
 .post-footer a {
@@ -633,6 +632,29 @@ a.button-link:active {
 	border: solid 1px #003e52;
 }
 
+body .post-container {
+	background-color: #003e52;
+	color: #dddddd;
+}
+
+/* Justify doesn't look nice on small screens or very large screens */
+body .post-container p {
+/*	text-align: justify; */
+}
+
+body .post-container a {
+	color: white;
+	font-weight: bold;
+}
+
+body .post-container a:hover {
+	color: #ff8400;
+}
+
+body .post-container b, strong {
+	color: #ff8400;
+}
+
 /* Date as text on small devices */
 .text-date {
 	text-align: right;
@@ -642,7 +664,7 @@ a.button-link:active {
 /* Date unit at the left side of each blog post */
 
 .date {
-	background: transparent url("/assets/themes/flat/images/calendar_background.png") no-repeat;
+	background: transparent url("/assets/themes/flat/images/calendar_background_orange.png") no-repeat;
 	display: block;
 	width: 60px;
 	height: 60px;
@@ -660,7 +682,7 @@ a.button-link:active {
 	font-weight: bold;
 	margin-top: -8px;
 	text-align: center;
-	color: #ffffff;
+	color: white;
 }
 
 .date_day {
@@ -677,7 +699,7 @@ a.button-link:active {
 	font-size: 10px;
 	margin-top: -8px;
 	text-align: center;
-	color: #282828;
+	color: white;
 }
 
 /* Author at the right side of each blog post */
@@ -1514,7 +1536,7 @@ p.thought:after {
 	max-width: 100%;
 }
 
-.tawk-dummy {
+.chat-widget-dummy {
 	outline: currentcolor none medium;
 	visibility: visible;
 	resize: none;
@@ -1548,9 +1570,9 @@ p.thought:after {
 
 /*
  * position: fixed rather than absolute
- * inset: changed to fit circle
+ * inset: changed to fit circle, inset does not exist on chrome
  */
-.tawk-dummy-small {
+.chat-widget-dummy-small {
 	outline: currentcolor none medium;
 	visibility: visible;
 	resize: none;
@@ -1558,7 +1580,10 @@ p.thought:after {
 	overflow: visible;
 	background: transparent none repeat scroll 0% 0%;
 	opacity: 1;
-	inset: auto 30px 20px auto;
+	bottom: 20px !important;
+	right: 30px !important;
+	left: auto;
+	top: auto;
 	position: fixed;
 	border: 0px none;
 	padding: 0px;
@@ -1571,22 +1596,14 @@ p.thought:after {
 	border-radius: unset;
 	pointer-events: auto;
 	display: block;
-	/*
-	height: 90px !important;
-	width: 70px !important;
-	min-height: 90px !important;
-	min-width: 70px !important;
-	max-height: 90px !important;
-	max-width: 70px !important;
-	 */
 }
 
-#tawkchat-status-icon.online:before,
-#tawkchat-status-icon.away:before {
+#chat-widget-status-icon.online:before,
+#chat-widget-status-icon.away:before {
 	content:"?"
 }
 
-#tawkchat-minified-box {
+#chat-widget-minified-box {
 	border:0 none;
 	padding:0;
 	margin:0;
@@ -1598,7 +1615,7 @@ p.thought:after {
 	font-size:16px
 }
 
-.round #tawkchat-minified-wrapper {
+.round #chat-widget-minified-wrapper {
 	bottom:6px;
 	width:60px;
 	height:60px;
@@ -1606,7 +1623,7 @@ p.thought:after {
 	box-shadow:rgba(0,0,0,0.16) 0 2px 10px 0 !important
 }
 
-.round #tawkchat-status-text-container {
+.round #chat-widget-status-text-container {
 	padding:0;
 	position:absolute;
 	z-index:999998;
@@ -1616,14 +1633,14 @@ p.thought:after {
 	border:0 none
 }
 
-#tawkchat-minified-wrapper {
+#chat-widget-minified-wrapper {
 	z-index: 999997;
 	cursor: pointer;
 	height: 100%;
 	width: 100%;
 }
 
-#tawkchat-minified-container {
+#chat-widget-minified-container {
 	margin: 0;
 	border: 0 none;
 	padding: 0;
@@ -1639,7 +1656,7 @@ p.thought:after {
 	border-bottom: 0;
 }
 
-#tawkchat-status-middle {
+#chat-widget-status-middle {
 	border: 0 none;
 	margin: 0 auto;
 	font-size: 17px;
@@ -1659,12 +1676,12 @@ p.thought:after {
 	*margin-top: 10px;
 }
 
-#tawkchat-status-icon-container, #tawkchat-status-text-container {
+#chat-widget-status-icon-container, #chat-widget-status-text-container {
 	display: inline-block;
 	vertical-align: top;
 }
 
-#tawkchat-status-icon {
+#chat-widget-status-icon {
 	speak:none;
 	font-style:normal;
 	font-weight:bold;
@@ -1677,7 +1694,7 @@ p.thought:after {
 	font-size:32px;
 	text-align:center
 }
-#tawkchat-status-icon .text {
+#chat-widget-status-icon .text {
 	display:inline-block;
 	line-height:20px;
 	overflow:hidden;
@@ -1688,26 +1705,26 @@ p.thought:after {
 	word-wrap:break-word;
 	word-break:break-all
 }
-#tawkchat-status-icon:before {
+#chat-widget-status-icon:before {
 	font-weight:normal;
 	font-family:'tawk-widget'
 }
-.rectangle #tawkchat-status-icon:before {
+.rectangle #chat-widget-status-icon:before {
 	position:absolute
 }
-.rectangle #tawkchat-status-icon.offline:before {
+.rectangle #chat-widget-status-icon.offline:before {
 	top:11px
 }
-.rectangle #tawkchat-status-icon .text {
+.rectangle #chat-widget-status-icon .text {
 	padding-left:30px;
 	padding-top:0
 }
-.rectangle .rtl-direction #tawkchat-status-icon .text {
+.rectangle .rtl-direction #chat-widget-status-icon .text {
 	padding-left:inherit;
 	padding-right:30px
 }
 
-#tawkchat-status-message {
+#chat-widget-status-message {
 	border: 0 none;
 	margin: 0 26px 0 0;
 	padding: 0;

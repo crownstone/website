@@ -33,12 +33,15 @@ For questions regarding offers, quotes, invoices, and other financial informatio
 
 # General Contact
 
-{% assign email = ".rocks, stone, crown, @, am, te" | split: ", "  %}
+{% assign email = ".rocks, stone, crown, @, sk, a" | split: ", "  %}
 <div class="email"><i class='el el-envelope'></i> email: {% include snippets/email subject="General Inquiry" email=email %}</div>
 
 <i class='el el-phone'></i> 
 phone: 
-<a href="tel:{{ site.company.phone_international }}">{{ site.company.phone_international }}</a> / {{ site.company.phone_local }}
+<a href="tel:{{ site.company.phone_international }}">{{ site.company.phone_international }}</a> / {{ site.company.phone_local }}<br/>
+<i class='el el-phone'></i> 
+Whatsapp: 
+<a href="https://wa.me/0031103073955">chat</a>
 
 # Directions within the building
 

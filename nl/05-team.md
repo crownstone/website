@@ -18,35 +18,22 @@ graduates-gallery:
     affiliation: "TU Delft"
     report:
       title: "In-network localization"
-  - image: "odysseaskrystalakos.png"
-    name: "Odysseas Krystalakos"
-    affiliation: "Radboud University"
-    linkedin: odysseaskr
-    report:
-      title: "Device Fingerprint Representation and Classification"
 intern-gallery:
-  - image: "wickybhaggoe.jpg"
-    name: "Wicky Bhaggoe"
+  - image: "martjankoedam.jpg"
+    name: "Mart-Jan Koedam"
     affiliation: "Technische Informatica, Hogeschool Rotterdam"
-    linkedin: wicky-bhaggoe-28280b124
     report:
-      title: "Crownstone Hardware Tester"
-  - image: "ricardosteijn.jpg"
-    name: "Ricardo Steijn"
-    affiliation: "Communicatie, Media en Informatietechnologie, Hogeschool Rotterdam"
-    linkedin: ricardo-steijn-38319b177
+      title: "Crownstone with Homey"
+  - image: "joeyouwens.png"
+    name: "Joey Ouwens"
+    affiliation: "Informatica, Hogeschool Rotterdam"
     report:
-      title: "Home Assistant (home-assistant.io)"
-  - image: "oscardruiventak.jpg"
-    name: "Oscar Druiventak"
-    affiliation: "Communicatie, Media en Informatietechnologie, Hogeschool Rotterdam"
-    linkedin: oscar-druiventak-46b6babb
+      title: "Crownstone with Philips Hue"
+  - image: "kevinvanrijn.jpg"
+    name: "Kevin van Rijn"
+    affiliation: "Technische Informatica, Hogeschool Rotterdam"
     report:
-      title: "Voice Assistant (Google Home)"
-  - image: "bjornpeperzak.jpg"
-    name: "Björn Peperzak"
-    linkedin: bj%C3%B6rn-peperzak-992129197
-    affiliation: "Human Technologies, Techniek College Rotterdam" 
+      title: "Low Level Bluetooth Low-Energy Library"
 advisors-gallery:
   - image: "hansabbink.jpg"
     name: "Hans Abbink"
@@ -90,7 +77,7 @@ core-team-gallery:
       title: "Peet heeft voor veel internationale bedrijven (Siemens, Philips) gewerkt, vooral in de autoindustrie, voornamelijk op navigatiesoftware."
   - image: "bartvanvliet.jpg"
     name: "Bart van Vliet"
-    affiliation: "Software developer"
+    affiliation: "Software Developer"
     linkedin: "bart-van-vliet-4197b8103"
     twitter: "Bart_vanVliet"
     github: "vliedel"
@@ -98,7 +85,7 @@ core-team-gallery:
       title: "Bart heeft een master in werktuigbouwkunde en is niet bang voor de meest uitdagende embedded software problemen. Vraag hem alles over de nRF architectuur!"
   - image: "alexdemulder.jpg"
     name: "Alex de Mulder"
-    affiliation: "Designer & Software developer"
+    affiliation: "Designer & Software Developer"
     linkedin: "alex-de-mulder-443a1bb"
     vimeo: "alexdemulder"
     github: "AlexDM0"
@@ -106,23 +93,34 @@ core-team-gallery:
       title: "Alex heeft een master in natuurkunde en is een sterontwikkelaar. Zijn natuurkunde achtergrond fonkelt soms door in bijvoorbeeld de mooie visualisaties in onze app."
   - image: "teresavandam.jpg"
     name: "Teresa van Dam"
-    affiliation: "Business developer"
+    affiliation: "Business Developer"
     linkedin: "teresa-jacqueline-van-dam-a9386aa1"
     report:
       title: "Teresa heeft een master in data science. Ze zorgt ervoor dat onze product en diensten op de markt komen!"
   - image: "arenddejonge.png"
     name: "Arend de Jonge"
-    affiliation: "Algoritme ontwerper & Firmware developer"
+    affiliation: "Algoritme Ontwerper & Firmware Developer"
     linkedin: "arend-de-jonge-2b2512187"
     github: "ArrowAcrobatics"
     report:
       title: "Arend heeft een master in wiskunde. Hij draagt zorg voor veilige en vooruitstrevende algoritmes!"
+  - image: "hughjones.jpg"
+    name: "Hugh Jones"
+    affiliation: "Sales Engineer"
+    linkedin: "hughboydjones"
+    report:
+      title: "Hugh helpt je met Crownstone tech voor jouw business case"
   - image: "arnohuisman.jpg"
     name: "Arno Huisman"
-    affiliation: "Software developer"
+    affiliation: "Software Developer"
     github: "Erno3000"
     report:
       title: "Arno takes care of all your Android issues!"
+  - image: "elkesalzmann.jpg"
+    name: "Elke Salzmann"
+    affiliation: "Elektricien"
+    report:
+      title: "Elke, voor een foutloze Crownstone installatie!"
 ---
 {% include JB/setup %}
 

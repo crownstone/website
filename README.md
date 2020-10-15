@@ -8,12 +8,15 @@ You can find this website at [https://crownstone.rocks](https://crownstone.rocks
 
 ## Prerequisites
 
-    sudo apt-get install rake
-    sudo apt-get install rubyX.X.X-dev
-    sudo gem install jekyll
-    sudo gem install jekyll-assets
-    sudo gem install jekyll-lunr-js-search
+Install ruby, jekyll, and bundler. Subsequently run:
 
+```
+bundle config set --local path 'vendor/bundle'
+bundle install
+bundle exec jekyll serve
+```
+
+What this does is setting a local path as directory to store gems in. This reduces conflicts with a global installation. It then runs jekyll serve through bundle (so the right gems are used).
 
 ## Bug fixing
 
@@ -133,15 +136,15 @@ Other syntax options you can probably find in no time searching online or checki
 
 The site is run through Jekyll:
 
-    jekyll serve
+    bundle exec jekyll serve
 
 Or if you have an older jekyll installation
 
-    jekyll --server --auto
+    bundle exec jekyll --server --auto
 
 If you run an incremental version, you will run into polyglot errors regarding `out` not being defined on a `doc` yet:
 
-    jekyll serve -w -i
+    bundle exec jekyll serve -w -i
 
 It might actually be the case that running it once without `-i` or `--interactive` already repairs the build.
 

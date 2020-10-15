@@ -13,12 +13,9 @@ permalink: business/
 
 # Project Development
 
-In smart housing projects, Crownstones are integrated in:
+In smart housing projects, Crownstones are integrated in for example projects like:
 
 * [Smart Villas](https://www.smartvillas.nl/), with the [brochure](https://www.nieuwbouwinschrijving.nl/Assets/Brochures/brochure4203881.pdf)
-* [De Tulp](https://wonenindetulp.nl/)
-* [Multiversum](http://www.woneninhetmultiversum.nl/)
-* [Flamingopoort](https://flamingopoort.nl/)
 
 # Internet of Things
 

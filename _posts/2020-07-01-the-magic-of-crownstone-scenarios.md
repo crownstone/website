@@ -1,6 +1,6 @@
 ---
 layout      : post
-title       : "The magic of Crownstone scenarios"
+title       : "The magic of Crownstone scenarios."
 description : "Crownstone scenarios for example around sunset and how to configure those so that they are automated"
 tags        : [scenarios, smart home, automation]
 author      : teresavandam

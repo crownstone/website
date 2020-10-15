@@ -20,35 +20,22 @@ graduates-gallery:
     linkedin: mavrikopoulouvictoria
     report:
       title: "In-network localization"
-  - image: "odysseaskrystalakos.png"
-    name: "Odysseas Krystalakos"
-    affiliation: "Radboud University"
-    linkedin: odysseaskr
-    report:
-      title: "Device Fingerprint Representation and Classification"
 intern-gallery:
-  - image: "wickybhaggoe.jpg"
-    name: "Wicky Bhaggoe"
+  - image: "martjankoedam.jpg"
+    name: "Mart-Jan Koedam"
     affiliation: "Technische Informatica, Hogeschool Rotterdam"
-    linkedin: wicky-bhaggoe-28280b124
     report:
-      title: "Crownstone Hardware Tester"
-  - image: "ricardosteijn.jpg"
-    name: "Ricardo Steijn"
-    affiliation: "Communicatie, Media en Informatietechnologie, Hogeschool Rotterdam"
-    linkedin: ricardo-steijn-38319b177
+      title: "Crownstone with Homey"
+  - image: "joeyouwens.png"
+    name: "Joey Ouwens"
+    affiliation: "Informatica, Hogeschool Rotterdam"
     report:
-      title: "Home Assistant (home-assistant.io)"
-  - image: "oscardruiventak.jpg"
-    name: "Oscar Druiventak"
-    affiliation: "Communicatie, Media en Informatietechnologie, Hogeschool Rotterdam"
-    linkedin: oscar-druiventak-46b6babb
+      title: "Crownstone with Philips Hue"
+  - image: "kevinvanrijn.jpg"
+    name: "Kevin van Rijn"
+    affiliation: "Technische Informatica, Hogeschool Rotterdam"
     report:
-      title: "Voice Assistant (Google Home)"
-  - image: "bjornpeperzak.jpg"
-    name: "Björn Peperzak"
-    linkedin: bj%C3%B6rn-peperzak-992129197
-    affiliation: "Human Technologies, Techniek College Rotterdam" 
+      title: "Low-Level Bluetooth Low-Energy Library"
 advisors-gallery:
   - image: "hansabbink.jpg"
     name: "Hans Abbink"
@@ -92,7 +79,7 @@ core-team-gallery:
       title: "Peet worked for a lot of international companies (Siemens, Philips) in the car industry, mainly on navigation software."
   - image: "bartvanvliet.jpg"
     name: "Bart van Vliet"
-    affiliation: "Software developer"
+    affiliation: "Software Developer"
     linkedin: "bart-van-vliet-4197b8103"
     twitter: "Bart_vanVliet"
     github: "vliedel"
@@ -100,7 +87,7 @@ core-team-gallery:
       title: "Bart has a masters in Mechanical Engineering and does not shy away from the most in-depth embedded programming jobs. Ask him anything on the nRF architecture!"
   - image: "alexdemulder.jpg"
     name: "Alex de Mulder"
-    affiliation: "Designer & Software developer"
+    affiliation: "Designer & Software Developer"
     linkedin: "alex-de-mulder-443a1bb"
     vimeo: "alexdemulder"
     github: "AlexDM0"
@@ -108,7 +95,7 @@ core-team-gallery:
       title: "Alex has a masters in Applied Physics and is a stellar developer. At times his physics training shows, for example in the beautiful visualizations in our app."
   - image: "teresavandam.jpg"
     name: "Teresa van Dam"
-    affiliation: "Business developer"
+    affiliation: "Business Developer"
     linkedin: "teresa-jacqueline-van-dam-a9386aa1"
     report:
       title: "Teresa has a masters in Data Science and makes sure that our products and services are embraced by the market!"
@@ -119,12 +106,23 @@ core-team-gallery:
     github: "ArrowAcrobatics"
     report:
       title: "Arend has a masters in Mathematics. He'll make sure Crownstone is secure and our algorithms are top-notch."
+  - image: "hughjones.jpg"
+    name: "Hugh Jones"
+    affiliation: "Sales Engineer"
+    linkedin: "hughboydjones"
+    report:
+      title: "Hugh will help you to understand what Crownstone can do for you"
   - image: "arnohuisman.jpg"
     name: "Arno Huisman"
-    affiliation: "Software developer"
+    affiliation: "Software Developer"
     github: "Erno3000"
     report:
       title: "Arno takes care of all your Android issues!"
+  - image: "elkesalzmann.jpg"
+    name: "Elke Salzmann"
+    affiliation: "Electrician"
+    report:
+      title: "Elke, for a flawless installation of Crownstones!"
 ---
 {% include JB/setup %}
 

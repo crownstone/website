@@ -47,8 +47,7 @@ were still tuning the antenna together with the Van Mierlo engineers.
 
 ## Orientation
 
-We decided in the end to use a different antenna. Its details can be found in this 
-[document](http://www.proant.se/files/user/Documents/Datasheets%20and%20appnotes/Upload%202018-06-08/Application%20note%20-%20OnBoard%20SMD%202400%20MHz%20rev%203.2.pdf).
+We decided in the end to use a different antenna. The details of this ProAnt OnBoard SMD 2400 Antenna (PRO-OB-440) can be found in the [datasheet]({{ site.url }}/attachments/hardware/proant_onboard_smd_2400_datasheet.pdf) and [application note]({{ site.url }}/attachments/hardware/proant_onboard_smd_2400_application_note.pdf).
 
 <div markdown="1" style="display: block">
 ![Antenna design]({{ site.url }}/attachments/blog/antenna_design_new.png "Antenna design"){: .float-left width="42%" style="margin:4%"}
@@ -56,9 +55,9 @@ We decided in the end to use a different antenna. Its details can be found in th
 </div>
 
 You see how the orientation of the antenna has influence on the radiation pattern. This is very typical of antennas
-and they differ in how "spherical" the pattern is. One of the interns at Crownstone studied these effects in detail.
+and they differ in how "spherical" the pattern is. You see that it's even different for horizontal polarization (HP) versus vertical polarization (VP).  
 
-Here you see the antenna aspects of multiple phone models in an indirect manner, namely through the signal strength
+One of the interns at Crownstone studied these effects in detail. For example, here you see the antenna aspects of multiple phone models in an indirect manner, namely through the signal strength
 values with which the phones registers the strength of the incoming message.
 
 ![Multiple Phones]({{ site.url }}/attachments/blog/multiple_phones.png)

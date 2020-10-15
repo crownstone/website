@@ -14,7 +14,7 @@ permalink: /
 
 {% include JB/setup %}
 
-{% include snippets/orange-top-bar text='New: <a href="https://subscribe.crownstone.rocks?ref=crownstone.rocks&loc=banner">Subscriptions</a>! Our <a href="https://shop.crownstone.rocks">shop</a> deliveries are sent weekly.' %}
+{% include snippets/orange-top-bar text='New: <a href="https://subscribe.crownstone.rocks/welcome?dest=smartscenarios&ref=crownstone.rocks&loc=banner">Subscriptions</a>! Our <a href="https://shop.crownstone.rocks">shop</a> deliveries are sent weekly.' %}
 
 {% include snippets/video-banner video='/clips/intro' placeholder='/attachments/crownstone_in_living_room.jpg' alt="Crownstone in a living room" %}
 
