@@ -1,9 +1,9 @@
 before_install:
   - echo 'Run gem install bundler'
   - gem install bundler
-  - echo 'Run npm install'
-  - npm install 
-  - npm install -g webpack-cli webpack
+  - echo 'No need to run npm install or install webpack-cli'
+  - echo 'Set bundle deployment flag'
+  - bundle config set deployment 'true'
 
 deploy:
   provider: pages
@@ -14,6 +14,6 @@ deploy:
     branch: master
 
 notifications:
-  email: 
+  email:
     on_success: never
     on_failure: always
