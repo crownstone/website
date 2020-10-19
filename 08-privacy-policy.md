@@ -21,7 +21,7 @@ See also our [Terms of Service](/terms-of-service) and our [Ethical Policy](/eth
 When you browse our store, we also automatically receive your computer’s internet protocol (IP) address in order to provide us with information that helps us learn about your browser and operating system.
 Email marketing (if applicable): With your permission, we may send you emails about our store, new products and other updates.
 
-**App**. The Crownstones you have bought have a companion Crownstone app. This app can create a smart home experience using *indoor positioning*. That is, you can walk into a room and automatically the lights go on. To be able to do this technically, we need the location permissions in the Crownstone app enabled. The app collects location data to enable indoor positioning, even when the app also when the app is in the background. 
+**App**. The Crownstones you have bought have a companion Crownstone app. This app can create a smart home experience using *indoor positioning*. That is, you can walk into a room and automatically the lights go on. To be able to do this technically, we need the location permissions in the Crownstone app enabled. The app collects location data to enable indoor positioning, even when the app is in the background.
 
 The location data is used to provide you with your smart home functionality. The location data can be shared to other household members depending on your own permission settings. The location data is not used for ads.
 
