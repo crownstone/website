@@ -1,0 +1,87 @@
+{% assign ci-image-customers = '/images/chilling_living_room.jpg' %}
+{% assign ci-image-subscribers = '/images/dad_and_son.jpg' %}
+{% assign ci-image-realestate = '/images/rotterdam_real_state.jpg' %}
+{% assign ci-image-oem = '/images/oem.jpg' %}
+
+<div class="container-fluid blue-bg">
+    <div class="row justify-content-center segments-padding">
+        <div class="col-1"> </div>
+        <div class="col-md-10">
+            <div class="row justify-content-center mb-3">
+                <div class="col-md-5 segments-intra-padding">
+                    <div class="row align-items-end secondary-banner" style="background-image: url({{ ci-image-customers }})">
+                        <div class="row transparent-bg-segments">
+                            <div class="col-xs-8">
+                                <p class="title-segments">
+                                    {{ include.customers-slogan }}
+                                </p>
+                                <p class="description-segments">
+                                    {{ include.customers-title }}
+                                </p>
+                            </div>
+                            <div class="col-xs-1 text-center">
+                                <i class="el el-arrow-right" style="color: white"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-5 segments-intra-padding">
+                    <div class="row align-items-end secondary-banner" style="background-image: url({{ ci-image-subscribers }})">
+                        <div class="row transparent-bg-segments">
+                            <div class="col-xs-8">
+                                <p class="title-segments">
+                                    {{ include.subscribers-slogan }}
+                                </p>
+                                <p class="description-segments">
+                                    {{ include.subscribers-title }}
+                                </p>
+                            </div>
+                            <div class="col-xs-1 text-center">
+                                <i class="el el-arrow-right" style="color: white"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="w-100"></div>
+
+                <div class="col-md-5 segments-intra-padding">
+                    <div class="row align-items-end secondary-banner" style="background-image: url({{ ci-image-realestate }})">
+                        <div class="row transparent-bg-segments">
+                            <div class="col-xs-8">
+                                <p class="title-segments">
+                                    {{ include.realestate-slogan }}
+                                </p>
+                                <p class="description-segments">
+                                    {{ include.realestate-title }}
+                                </p>
+                            </div>
+                            <div class="col-xs-1 text-center">
+                                <i class="el el-arrow-right" style="color: white"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-5 segments-intra-padding">
+                    <div class="row align-items-end secondary-banner" style="background-image: url({{ ci-image-oem }})">
+                        <div class="row transparent-bg-segments">
+                            <div class="col-xs-8">
+                                <p class="title-segments">
+                                    {{ include.oem-slogan }}
+                                </p>
+                                <p class="description-segments">
+                                    {{ include.oem-title }}
+                                </p>
+                            </div>
+                            <div class="col-xs-1 text-center">
+                                <i class="el el-arrow-right" style="color: white"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="col-1"> </div>
+    </div>
+</div>

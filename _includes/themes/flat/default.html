@@ -155,7 +155,9 @@
             <div class="col-sm-10">
                 <div class="row">
                     <div class="col-sm-4 text-center">
-                        <h3>Consumers</h3>
+                        <p style="text-align: center; font-family: Lato, sans-serif; font-size: 1rem; font-style: italic; font-weight: bold; color: white; width: 100%; padding: 1.2rem 0; margin: 0;">
+                            CUSTOMER
+                        </p>
                         <div style="display:inline-block;">
                             <ul class="list-unstyled">
                                 {% strip %}
@@ -168,7 +170,9 @@
                     </div>
 
                     <div class="col-sm-4 text-center">
-                        <h3>Business</h3>
+                        <p style="text-align: center; font-family: Lato, sans-serif; font-size: 1rem; font-style: italic; font-weight: bold; color: white; width: 100%; padding: 1.2rem 0; margin: 0;">
+                            B2B
+                        </p>
                         <div style="display:inline-block;">
                             <ul class="list-unstyled">
                                 {% strip %}
@@ -178,7 +182,9 @@
                                 {% endstrip %}
                             </ul>
                         </div>
-                        <h3>News</h3>
+                        <p style="text-align: center; font-family: Lato, sans-serif; font-size: 1rem; font-style: italic; font-weight: bold; color: white; width: 100%; padding: 1.2rem 0; margin: 0;">
+                            NEWS
+                        </p>
                         <div style="display:inline-block;">
                             <ul class="list-unstyled">
                                 {% strip %}
@@ -191,60 +197,55 @@
                     </div>
 
                     <div class="col-sm-4 text-center">
-                        <h3>Order</h3>
-                        <div style="display:inline-block;">
-                            <ul class="list-unstyled text-left">
-                               <li>
-                                  <a class="footer" href="https://shop.crownstone.rocks?launch={{ site.active_lang }}&ref=http://crownstone.rocks/{{ site.active_lang}}{{ page.url }}">
-                                     <i class="el el-shopping-cart footer"></i>
-                                     {% if site.active_lang == "nl" %}
-                                     Webwinkel
-                                     {% else %}
-                                     Webshop
-                                     {% endif %}
-                                  </a>
-                               </li>
+                        <p style="text-align: center; font-family: Lato, sans-serif; font-size: 1rem; font-style: italic; font-weight: bold; color: white; width: 100%; padding: 1.2rem 0; margin: 0;">
+                            ORDER
+                        </p>
+                        <div style="display:inline-block;" >
+                            <ul class="list-unstyled" style="text-align: left">
+                                <a href="https://shop.crownstone.rocks?launch={{ site.active_lang }}&ref=http://crownstone.rocks/{{ site.active_lang}}{{ page.url }}" class="footer-text-element" style="text-align: left !important; align-self: center; font-family: Lato, sans-serif; font-size: 0.9rem; font-style: italic; padding: 0; color:#dddddd !important; text-decoration: none">
+                                    <i class="el el-shopping-cart mr-2"></i>
+                                    {% if site.active_lang == "nl" %}
+                                    Webwinkel
+                                    {% else %}
+                                    Webshop
+                                    {% endif %}
+                                </a>
+                            </ul>
+
+                            <ul class="list-unstyled" style="text-align: left">
+                                <a href="https://subscribe.crownstone.rocks?launch={{ site.active_lang }}&ref=http://crownstone.rocks/{{ site.active_lang}}{{ page.url }}" class="footer-text-element" style="text-align: left !important; align-self: center; font-family: Lato, sans-serif; font-size: 0.9rem; font-style: italic; padding: 0; color:#dddddd !important; text-decoration: none">
+                                    <i class="el el-person mr-2"></i>
+                                    {% if site.active_lang == "nl" %}
+                                    Abonnement
+                                    {% else %}
+                                    Subscription
+                                    {% endif %}
+                                </a>
                             </ul>
                         </div>
-                        <h3>Contact</h3>
+
+                        <p style="text-align: center; font-family: Lato, sans-serif; font-size: 1rem; font-style: italic; font-weight: bold; color: white; width: 100%; padding: 1.2rem 0; margin: 0;">
+                            CONTACT
+                        </p>
                         <div style="display:inline-block;">
-                            <ul class="list-unstyled text-left">
+                            <ul class="list-unstyled" style="text-align: left">
                                 <li>
-                                    <script type="text/javascript">/*<![CDATA[*/var a=new Array("{{ site.contact-team.email[0] }}", "{{ site.contact-team.email[1] }}", "{{ site.contact-team.email[2] }}", "{{ site.contact-team.email[3] }}", "{{ site.contact-team.email[4] }}", "{{ site.contact-team.email[5] }}");document.write("<a href='mailto:");for(i=a.length-1;i>=0;i--){document.write(a[i])}document.write("?subject=Get in contact' class='footer'><i class='el el-envelope footer'></i>Email us!</a>");/*]]>*/</script>
+                                    <script type="text/javascript">/*<![CDATA[*/var a=new Array("{{ site.contact-team.email[0] }}", "{{ site.contact-team.email[1] }}", "{{ site.contact-team.email[2] }}", "{{ site.contact-team.email[3] }}", "{{ site.contact-team.email[4] }}", "{{ site.contact-team.email[5] }}");document.write("<a href='mailto:");for(i=a.length-1;i>=0;i--){document.write(a[i])}document.write("?subject=Get in contact' class='footer-text-element' style=\"text-align: center !important; align-self: center; font-family: Lato, sans-serif; font-size: 0.9rem; font-style: italic; padding: 0; color:#dddddd !important; text-decoration: none\"><i class='el el-envelope footer'></i>Email us!</a>");/*]]>*/</script>
                                     <noscript><i class="el el-envelope footer"></i>Email team@...</noscript>
                                 </li>
                                 <li>
-                                    <a href="https://wa.me/0031103073955" target="_blank" class="footer">
+                                    <a href="https://wa.me/0031103073955" target="_blank" class="footer-text-element" style="text-align: center !important; align-self: center; font-family: Lato, sans-serif; font-size: 0.9rem; font-style: italic; padding: 0; color:#dddddd !important; text-decoration: none">
                                         <i class="el el-phone footer"></i>Whatsapp
                                     </a>
                                 </li>
+
                                 <li>
-                                    <a href="https://www.facebook.com/crownstones/" target="_blank" class="footer">
-                                        <i class="el el-facebook footer"></i>Facebook
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="https://twitter.com/CrownstoneRocks" target="_blank" class="footer">
-                                        <i class="el el-twitter footer"></i>Twitter
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="https://www.youtube.com/channel/UCru1PX6P1JyhsI-OEMXnBdg" target="_blank" class="footer">
-                                        <i class="el el-youtube footer"></i>Youtube
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="https://www.linkedin.com/company/crownstone" target="_blank" class="footer">
-                                        <i class="el el-linkedin footer"></i>Linkedin
-                                    </a>
-                                </li>
-                                <li>
-                                   <a href="{{ site.url }}/privacy-policy" class="footer">
+                                    <a href="{{ site.url }}/privacy-policy" class="footer-text-element" style="text-align: center !important; align-self: center; font-family: Lato, sans-serif; font-size: 0.9rem; font-style: italic; padding: 0; color:#dddddd !important; text-decoration: none">
                                         <i class="el el-ok footer"></i>Privacy
                                     </a>
                                 </li>
                                 <li>
-                                   <a href="{{ site.url }}/presskit" class="footer">
+                                    <a href="{{ site.url }}/presskit" class="footer-text-element" style="text-align: center !important; align-self: center; font-family: Lato, sans-serif; font-size: 0.9rem; font-style: italic; padding: 0; color:#dddddd !important; text-decoration: none">
                                         <i class="el el-idea footer"></i>Press
                                     </a>
                                 </li>
@@ -256,14 +257,37 @@
             <div class="col-sm-1"></div>
         </div>
         <br/>
+
+        <!--   SOCIAL MEDIA     -->
+        <div class="row footer-container" style="justify-content: space-around; padding: 3rem;">
+            <div class="col-md-6">
+                <div class="row align-items-center">
+                    <div class="col social-media-icons-container">
+                        <a href="https://www.facebook.com/crownstones/" target="_blank" class="footer-social-media-icons" style="text-align: center; color: lightgray; font-size: 2rem; margin: 0; padding: 0;"><i class="el el-facebook"></i></a>
+                    </div>
+
+                    <div class="col social-media-icons-container">
+                        <a href="https://twitter.com/CrownstoneRocks" target="_blank" class="footer-social-media-icons" style="text-align: center; color: lightgray; font-size: 2rem; margin: 0; padding: 0;"><i class="el el-twitter"></i></a>
+                    </div>
+
+                    <div class="col social-media-icons-container">
+                        <a href="https://www.youtube.com/channel/UCru1PX6P1JyhsI-OEMXnBdg" target="_blank" class="footer-social-media-icons" style="text-align: center; color: lightgray; font-size: 2rem; margin: 0; padding: 0;"><i class="el el-youtube"></i></a>
+                    </div>
+
+                    <div class="col social-media-icons-container">
+                        <a href="https://www.linkedin.com/company/crownstone" target="_blank" class="footer-social-media-icons"><i class="el el-linkedin" style="text-align: center; color: lightgray; font-size: 2rem; margin: 0; padding: 0;"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
         <div class="row">
             <div class="col-sm-12 text-center colofon">
-               <div class="accent">Crownstone</div>
-               <p>{{ site.company.street }}</p>
-               <p>{{ site.company.postal_code }}</p>
-               <p>{{ site.company.phone_international }} / {{ site.company.phone_local }}</p>
+               <div class="accent" style="margin: 0;">Crownstone</div>
+               <p style="margin: 0;">{{ site.company.street }}</p>
+               <p style="margin: 0;">{{ site.company.postal_code }}</p>
+               <p style="margin: 0;">{{ site.company.phone_international }} / {{ site.company.phone_local }}</p>
                <br/>
-               <p>
+               <p style="margin: 0;">
 			   This site uses external services. Cookies for the chat box (<a href="https://replain.cc/terms-and-policies">policies</a>) and the webshop (<a href="https://www.shopify.com/legal/cookies">cookie policy</a>).
                </p>
             </div>
