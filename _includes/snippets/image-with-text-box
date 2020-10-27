@@ -1,0 +1,26 @@
+{% assign ci-image = include.img-bg %}
+
+<div class="row align-items-center m-0 p-0" style="position: relative">
+    <div class="container-bg-white" style="background-image: url({{ ci-image }})"> </div>
+    {% if include.left-alignment %}
+    <div class="text-container-bg-white">
+        <div class="col bg-white-container">
+            <h2 class="container-title-left"> {{ include.title }} </h2>
+            <p class="description-paragraph-bg-left">
+                {{ include.description }}
+            </p>
+        </div>
+        <div class="col-8"> </div>
+    </div>
+    {% else %}
+    <div class="text-container-bg-white flex-row-reverse">
+            <div class="col bg-white-container">
+                <h2 class="container-title-right"> {{ include.title }} </h2>
+                <p class="description-paragraph-bg-right">
+                    {{ include.description }}
+                </p>
+            </div>
+            <div class="col-8"> </div>
+        </div>
+    {% endif %}
+</div>

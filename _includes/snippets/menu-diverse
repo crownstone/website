@@ -1,3 +1,23 @@
+<li class="nav-item accent">
+	<a href="https://shop.crownstone.rocks?launch={{ site.active_lang }}&ref=http://crownstone.rocks/{{ site.active_lang}}{{ page.url }}" class="nav-link right-menu">
+		<i class="el el-shopping-cart"></i>
+		{% if site.active_lang == "nl" %}
+		Winkel
+		{% else %}
+		Shop
+		{% endif %}
+	</a>
+</li>
+<li class="nav-item accent">
+	<a href="https://subscribe.crownstone.rocks/welcome?dest=smarthome&launch={{ site.active_lang }}&ref=http://crownstone.rocks/{{ site.active_lang}}{{ page.url }}" class="nav-link right-menu">
+		<i class="el el-user"></i>
+		{% if site.active_lang == "nl" %}
+		Inloggen
+		{% else %}
+		Login
+		{% endif %}
+	</a>
+</li>
 {% for tongue in site.languages %}
 <li class="nav-item">
 	{% assign nav-url = page.url | prepend:site.baseurl | prepend:site.url %}
@@ -5,26 +25,6 @@
 	{% assign nav-url = page.url | prepend:tongue | prepend:'/' | prepend:site.baseurl | prepend:site.url %}
 	{% endif %}
 	<!-- note the space before nav-url, without it polyglot will relativize it: https://github.com/untra/polyglot -->
-	<a {% if tongue == site.active_lang %}style="font-weight: bold;"{% endif %} href=" {{ nav-url }}" class="nav-link">{{ tongue }}</a>
+	<a {% if tongue == site.active_lang %}style="font-weight: bold;"{% endif %} href=" {{ nav-url }}" class="nav-link lang-menu">{{ tongue }}</a>
 </li>
 {% endfor %}
-<li class="nav-item accent">
-	<a href="https://shop.crownstone.rocks?launch={{ site.active_lang }}&ref=http://crownstone.rocks/{{ site.active_lang}}{{ page.url }}" class="nav-link">
-		{% if site.active_lang == "nl" %}
-		Winkel
-		{% else %}
-		Shop
-		{% endif %}
-		<i class="el el-shopping-cart"></i>
-	</a>
-</li>
-<li class="nav-item accent">
-	<a href="https://subscribe.crownstone.rocks/welcome?dest=smarthome&launch={{ site.active_lang }}&ref=http://crownstone.rocks/{{ site.active_lang}}{{ page.url }}" class="nav-link">
-		{% if site.active_lang == "nl" %}
-		Abonnement
-		{% else %}
-		Subscription
-		{% endif %}
-		<i class="el el-person"></i>
-	</a>
-</li>
