@@ -7,20 +7,9 @@
         <div class="col bg-white-container">
             <h2 class="container-title-left"> {{ include.title }} </h2>
             <p class="description-paragraph-bg-left">
-                {{ include.description }}
-            </p>
-        </div>
-        <div class="col-8"> </div>
-    </div>
     {% else %}
     <div class="text-container-bg-white flex-row-reverse">
-            <div class="col bg-white-container">
-                <h2 class="container-title-right"> {{ include.title }} </h2>
-                <p class="description-paragraph-bg-right">
-                    {{ include.description }}
-                </p>
-            </div>
-            <div class="col-8"> </div>
-        </div>
+        <div class="col bg-white-container">
+            <h2 class="container-title-right"> {{ include.title }} </h2>
+            <p class="description-paragraph-bg-right">
     {% endif %}
-</div>

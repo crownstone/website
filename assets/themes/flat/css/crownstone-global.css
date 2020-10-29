@@ -163,7 +163,7 @@ div.bannerContainer {
 	background-size: cover;
 	padding:0;
 	overflow:hidden;
-	margin-bottom:30px;
+	margin-bottom:10px;
 	width: 100%;
 	height: 80vw;
 	max-height: 97vh;
@@ -294,7 +294,7 @@ div.container-bg-white{
 		width:              100%;
 		background:         rgba(0, 62, 82, 0.6);
 		margin:             0;
-		padding:            0.8rem 1.5rem !important;
+		padding:            0.2rem 1.2rem !important;
 		align-items:        center;
 		justify-content:    space-between;
 	}
@@ -343,14 +343,25 @@ div.container-bg-white{
 		margin: 0;
 	}
 
-	p.title-segments{
+	a.title-segments{
 		text-align: left;
 		font-family: Lato, sans-serif;
 		font-style: italic;
 		font-size: 1rem !important;
-		color: white;
+		color: white !important;
 		padding: 0;
 		margin: 0;
+	}
+
+	a.title-segments:hover{
+		text-align: left;
+		font-family: Lato, sans-serif;
+		font-style: italic;
+		font-size: 1rem !important;
+		color: white !important;
+		padding: 0;
+		margin: 0;
+		text-decoration: underline;
 	}
 }
 
@@ -443,21 +454,32 @@ p.description-cs-features{
 }
 
 div.segments-padding{
-	padding: 0 0.8rem;
+	padding: 2rem 0.8rem;
 }
 
 div.segments-intra-padding{
 	padding: 1.2rem 1.2rem 0;
 }
 
-p.title-segments{
+a.title-segments{
 	text-align: left;
 	font-family: Lato, sans-serif;
 	font-style: italic;
 	font-size: 0.85rem;
-	color: white;
+	color: white !important;
 	padding: 0;
 	margin: 0;
+}
+
+a.title-segments:hover{
+	text-align: left;
+	font-family: Lato, sans-serif;
+	font-style: italic;
+	font-size: 0.85rem;
+	color: white !important;
+	padding: 0;
+	margin: 0;
+	text-decoration: underline;
 }
 
 p.description-segments{
@@ -468,7 +490,7 @@ p.description-segments{
 	font-weight: bold;
 	color: #ff8400;
 	padding: 0;
-	margin: 0.1rem 0.5rem;
+	margin: 0 0.5rem;
 }
 
 div.secondary-banner{
@@ -605,17 +627,19 @@ div.bannerContainer.xs h1 {
 
 
 div.bannerContainer.xl { 
-	height:1050px; 
+	height:1050px;
+	width: 100%;
+	background-position: left center;
 }
 div.bannerContainer.lg { 
-	height:750px; 
-	border-bottom-width: 11px;
-	border-bottom-color: #ff8400;
+	height:750px;
+	width: 100%;
+	background-position: left center;
 }
-div.bannerContainer.mdlg { height:550px; }
-div.bannerContainer.md { height:450px; }
-div.bannerContainer.sm { height:350px; }
-div.bannerContainer.xs { height:180px; }
+div.bannerContainer.mdlg { height:550px; width: 100%; background-position: left center;}
+div.bannerContainer.md { height:450px; width: 100%; background-position: left center;}
+div.bannerContainer.sm { height:350px; width: 100%; background-position: left center;}
+div.bannerContainer.xs { height:180px; width: 100%; background-position: left center;}
 
 .container-bottom-margin {
 	margin-bottom: 45px;

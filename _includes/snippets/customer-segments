@@ -3,6 +3,11 @@
 {% assign ci-image-realestate = '/images/rotterdam_real_state.jpg' %}
 {% assign ci-image-oem = '/images/oem.jpg' %}
 
+{% assign ci-link-customers = '/technology-consumer/' %}
+{% assign ci-link-subscribers = 'https://subscribe.crownstone.rocks/welcome?dest=smartscenarios&ref=crownstone.rocks&loc=subscribers' %}
+{% assign ci-link-realestate = '/business/residential-real-estate/' %}
+{% assign ci-link-oem = '/business/product-development/' %}
+
 <div class="container-fluid blue-bg">
     <div class="row justify-content-center segments-padding">
         <div class="col-1"> </div>
@@ -12,15 +17,17 @@
                     <div class="row align-items-end secondary-banner" style="background-image: url({{ ci-image-customers }})">
                         <div class="row transparent-bg-segments">
                             <div class="col-xs-8">
-                                <p class="title-segments">
+                                <a class="title-segments" href= "{{ ci-link-customers }}" style="text-align: left; font-family: Lato, sans-serif; font-style: italic; font-size: 0.9rem !important; color: white !important; padding: 0; margin: 0;">
                                     {{ include.customers-slogan }}
-                                </p>
+                                </a>
                                 <p class="description-segments">
                                     {{ include.customers-title }}
                                 </p>
                             </div>
                             <div class="col-xs-1 text-center">
-                                <i class="el el-arrow-right" style="color: white"></i>
+                                <a href= "{{ ci-link-customers }}" style="text-decoration: none">
+                                    <i class="el el-arrow-right" style="color: white"></i>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -29,15 +36,17 @@
                     <div class="row align-items-end secondary-banner" style="background-image: url({{ ci-image-subscribers }})">
                         <div class="row transparent-bg-segments">
                             <div class="col-xs-8">
-                                <p class="title-segments">
+                                <a class="title-segments" href="{{ ci-link-subscribers }}" style="text-align: left; font-family: Lato, sans-serif; font-style: italic; font-size: 0.9rem !important; color: white !important; padding: 0; margin: 0;">
                                     {{ include.subscribers-slogan }}
-                                </p>
+                                </a>
                                 <p class="description-segments">
                                     {{ include.subscribers-title }}
                                 </p>
                             </div>
                             <div class="col-xs-1 text-center">
-                                <i class="el el-arrow-right" style="color: white"></i>
+                                <a href= "{{ ci-link-subscribers }}" style="text-decoration: none">
+                                    <i class="el el-arrow-right" style="color: white"></i>
+                                 </a>
                             </div>
                         </div>
                     </div>
@@ -49,15 +58,17 @@
                     <div class="row align-items-end secondary-banner" style="background-image: url({{ ci-image-realestate }})">
                         <div class="row transparent-bg-segments">
                             <div class="col-xs-8">
-                                <p class="title-segments">
+                                <a class="title-segments" href="{{ ci-link-realestate }}" style="text-align: left; font-family: Lato, sans-serif; font-style: italic; font-size: 0.9rem !important; color: white !important; padding: 0; margin: 0;">
                                     {{ include.realestate-slogan }}
-                                </p>
+                                </a>
                                 <p class="description-segments">
                                     {{ include.realestate-title }}
                                 </p>
                             </div>
                             <div class="col-xs-1 text-center">
-                                <i class="el el-arrow-right" style="color: white"></i>
+                                <a href= "{{ ci-link-realestate }}" style="text-decoration: none">
+                                    <i class="el el-arrow-right" style="color: white"></i>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -66,15 +77,17 @@
                     <div class="row align-items-end secondary-banner" style="background-image: url({{ ci-image-oem }})">
                         <div class="row transparent-bg-segments">
                             <div class="col-xs-8">
-                                <p class="title-segments">
+                                <a class="title-segments" href="{{ ci-link-oem }}" style="text-align: left; font-family: Lato, sans-serif; font-style: italic; font-size: 0.9rem !important; color: white !important; padding: 0; margin: 0;">
                                     {{ include.oem-slogan }}
-                                </p>
+                                </a>
                                 <p class="description-segments">
                                     {{ include.oem-title }}
                                 </p>
                             </div>
                             <div class="col-xs-1 text-center">
-                                <i class="el el-arrow-right" style="color: white"></i>
+                                <a href= "{{ ci-link-oem }}" style="text-decoration: none">
+                                    <i class="el el-arrow-right" style="color: white"></i>
+                                </a>
                             </div>
                         </div>
                     </div>
