@@ -128,9 +128,5 @@ A Crownstone is like a miniaturized smartphone. There are many apps and function
 
 {% include snippets/full-width-container-end %}
 
-{% include snippets/customer-segments 
-customers-slogan='Create your own smart home'            customers-title='Consumers'
-subscribers-slogan='Check out our smart subscription'    subscribers-title='Subscribers'
-realestate-slogan='Start selling smart homes'            realestate-title='Real estate developers'
-oem-slogan='Discover collaboration possibilities'        oem-title='OEM'
-%}
+{% include snippets/customer-segments %}
+
