@@ -1,97 +1,49 @@
-{% assign ci-image-customers = '/images/chilling_living_room.jpg' %}
-{% assign ci-image-subscribers = '/images/dad_and_son.jpg' %}
-{% assign ci-image-realestate = '/images/rotterdam_real_state.jpg' %}
-{% assign ci-image-oem = '/images/oem.jpg' %}
-
-{% assign ci-link-customers = '/technology-consumer/' %}
-{% assign ci-link-subscribers = 'https://subscribe.crownstone.rocks/welcome?dest=smartscenarios&ref=crownstone.rocks&loc=subscribers' %}
-{% assign ci-link-realestate = '/business/residential-real-estate/' %}
-{% assign ci-link-oem = '/business/product-development/' %}
+{% if include.id %}
+  {% assign segments = page.[include.id] %}
+{% else %}
+  {% assign segments = page.segments %}
+{% endif %}
 
 <div class="container-fluid blue-bg">
     <div class="row justify-content-center segments-padding">
         <div class="col-1"> </div>
         <div class="col-md-10">
             <div class="row justify-content-center mb-3">
+
+                {% for segment in segments %}
+
                 <div class="col-md-5 segments-intra-padding">
-                    <div class="row align-items-end secondary-banner" style="background-image: url({{ ci-image-customers }})">
+                    <div class="row align-items-end secondary-banner" style="background-image: url({{ segment.image }})">
                         <div class="row transparent-bg-segments">
                             <div class="col-xs-8">
-                                <a class="title-segments" href= "{{ ci-link-customers }}" style="text-align: left; font-family: Lato, sans-serif; font-style: italic; font-size: 0.9rem !important; color: white !important; padding: 0; margin: 0;">
-                                    {{ include.customers-slogan }}
+                                <a class="title-segments" href= "{{ segment.link }}" style="text-align: left; font-family: Lato, sans-serif; font-style: italic; font-size: 0.9rem !important; color: white !important; padding: 0; margin: 0;">
+                                    {{ segment.slogan }}
                                 </a>
                                 <p class="description-segments">
-                                    {{ include.customers-title }}
+                                    {{ segment.title }}
                                 </p>
                             </div>
                             <div class="col-xs-1 text-center">
-                                <a href= "{{ ci-link-customers }}" style="text-decoration: none">
+                                <a href= "{{ segment.link }}" style="text-decoration: none">
                                     <i class="el el-arrow-right" style="color: white"></i>
                                 </a>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-5 segments-intra-padding">
-                    <div class="row align-items-end secondary-banner" style="background-image: url({{ ci-image-subscribers }})">
-                        <div class="row transparent-bg-segments">
-                            <div class="col-xs-8">
-                                <a class="title-segments" href="{{ ci-link-subscribers }}" style="text-align: left; font-family: Lato, sans-serif; font-style: italic; font-size: 0.9rem !important; color: white !important; padding: 0; margin: 0;">
-                                    {{ include.subscribers-slogan }}
-                                </a>
-                                <p class="description-segments">
-                                    {{ include.subscribers-title }}
-                                </p>
-                            </div>
-                            <div class="col-xs-1 text-center">
-                                <a href= "{{ ci-link-subscribers }}" style="text-decoration: none">
-                                    <i class="el el-arrow-right" style="color: white"></i>
-                                 </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+
+                {% endfor %}
+
+                {% assign cntr = cntr | plus: 1 %}
+
+                {% assign two_items = cntr | modulo: 2 %}
+
+                {% if two_items == 0 %}
 
                 <div class="w-100"></div>
 
-                <div class="col-md-5 segments-intra-padding">
-                    <div class="row align-items-end secondary-banner" style="background-image: url({{ ci-image-realestate }})">
-                        <div class="row transparent-bg-segments">
-                            <div class="col-xs-8">
-                                <a class="title-segments" href="{{ ci-link-realestate }}" style="text-align: left; font-family: Lato, sans-serif; font-style: italic; font-size: 0.9rem !important; color: white !important; padding: 0; margin: 0;">
-                                    {{ include.realestate-slogan }}
-                                </a>
-                                <p class="description-segments">
-                                    {{ include.realestate-title }}
-                                </p>
-                            </div>
-                            <div class="col-xs-1 text-center">
-                                <a href= "{{ ci-link-realestate }}" style="text-decoration: none">
-                                    <i class="el el-arrow-right" style="color: white"></i>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-5 segments-intra-padding">
-                    <div class="row align-items-end secondary-banner" style="background-image: url({{ ci-image-oem }})">
-                        <div class="row transparent-bg-segments">
-                            <div class="col-xs-8">
-                                <a class="title-segments" href="{{ ci-link-oem }}" style="text-align: left; font-family: Lato, sans-serif; font-style: italic; font-size: 0.9rem !important; color: white !important; padding: 0; margin: 0;">
-                                    {{ include.oem-slogan }}
-                                </a>
-                                <p class="description-segments">
-                                    {{ include.oem-title }}
-                                </p>
-                            </div>
-                            <div class="col-xs-1 text-center">
-                                <a href= "{{ ci-link-oem }}" style="text-decoration: none">
-                                    <i class="el el-arrow-right" style="color: white"></i>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                {% endif %}
+
             </div>
 
         </div>

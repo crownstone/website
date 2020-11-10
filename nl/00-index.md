@@ -12,6 +12,42 @@ lang: nl
 kramdown: 
   parse_block_html: true
 permalink: /
+features:
+  - image: /images/switch_gradient2.png
+    title: Schakelaar
+    description: Schakel je apparaten en verlichting
+  - image: /images/twilight_gradient2.png
+    title: Twilight
+    description: Dim je lichten 's nachts automatisch
+  - image: /images/wallswitch_gradient2.png
+    title: Switchcraft
+    description: De wandschakelaar blijft werken
+  - image: /images/dim_gradient2.png
+    title: Dimmer
+    description: Dim ook LED lampen
+  - image: /images/position_gradient2.png
+    title: Positiebepaling
+    description: Lampen en apparaten reageren op iemand's aanwezigheid
+  - image: /images/monitor_gradient2.png
+    title: Energieverbruik
+    description: Bekijk energieverbruik real-time per apparaat
+segments:
+  - title: Consumenten
+    slogan: Maak je eigen huis slim!
+    image: /images/chilling_living_room.jpg
+    link: /technology-consumer/
+  - title: Abonnees
+    slogan: Een goedkope oplossing inclusief installatie
+    image: /images/dad_and_son.jpg
+    link: https://subscribe.crownstone.rocks/welcome?dest=smartscenarios&ref=crownstone.rocks&loc=subscribers
+  - title: Vastgoedontwikkelaars
+    slogan: Verkoop slimmere gebouwen
+    image: /images/rotterdam_real_state.jpg
+    link: /business/residential-real-estate/
+  - title: OEM
+    slogan: Profiteer van de samenwerking met Crownstone
+    image: /images/oem.jpg
+    link: /business/product-development/
 ---
 
 {% include JB/setup %}
@@ -22,7 +58,7 @@ permalink: /
 
 {% include snippets/slogan-begin %}
 
-Your presence makes a difference
+Jouw aanwezigheid maakt het verschil
 
 {% include snippets/slogan-end %}
 
@@ -30,7 +66,7 @@ Your presence makes a difference
 
 {% include snippets/centered-text-home-begin %}
 
-Coming home after a long day of work, opening your door and letting your house react to <span class="important-blue"> you </span> by turning on the lights and setting up a cozy atmosphere according to your wishes… Yes, this is possible with <span class="important-blue"> Crownstone! </span>
+Jouw huis zet de lichten automatisch op de sterkte die **jij** graag wil zien. Je komt nooit meer thuis in een donker huis. Maak elk stopcontact en elke plafondlamp slim met het toevoegen van een klein bouwblokje, de **Crownstone**!
 
 {% include snippets/centered-text-home-end %}
 
@@ -38,15 +74,17 @@ Coming home after a long day of work, opening your door and letting your house r
 
 {% include snippets/full-width-container-end %}
 
-{% include snippets/container-image-relative-begin img-bg='/images/coming_home.jpg' left-alignment='true' title='Welcome Home!' %}
+{% include snippets/container-image-relative-begin img-bg='/images/coming_home.jpg' left-alignment='true' %}
 
-Crownstones automatically turn on your lights when you come home and it is dark outside! No more days of walking in the dark with your hands full.
+## Welkom Thuis!
+
+Crownstone maakt het mogelijk dat je huis op jouw reageert. Lampen, plafondventilatoren en elektrische verwarming kan reageren op jouw aanwezigheid via jouw smartphone en dan automatisch reageren! 
 
 {% include snippets/container-image-relative-end %}
 
 {% include snippets/slogan-begin blue-bg='true' %}
 
-Enjoy your smart lights
+Maak elk licht slim
 
 {% include snippets/slogan-end %}
 
@@ -54,7 +92,7 @@ Enjoy your smart lights
 
 {% include snippets/centered-text-home-begin blue-bg='true' %}
 
-Controlling your lights from an app is a thing of the past. From now on, your lights will react automatically not only when you arrive or leave home, but also when you go from one room to another. Don't worry, you can still use your wall switch!
+Crownstone modules (kroonsteentjes) kunnen worden geplaatst achter stopcontacten en **plafondlampen**! Het past achter allerlei soort lichten en de lichtschakelaar blijft ook nog eens werken dankzij onze switchcraft technologie! De Crownstone modules gebruiken de aanwezigheid van je telefoon om te bepalen of je in de ruimte bent. Dit is hoe het je lichten daadwerkelijk slim maakt!
 
 {% include snippets/centered-text-home-end %}
 
@@ -62,15 +100,17 @@ Controlling your lights from an app is a thing of the past. From now on, your li
 
 {% include snippets/full-width-container-end %}
 
-{% include snippets/container-image-relative-begin img-bg='/images/reading_couch.jpg' title='Lights ready for the sunset'%}
+{% include snippets/container-image-relative-begin img-bg='/images/reading_couch.jpg' %}
 
-Forget about interrupting the reading of your favorite book to turn on the lights when it's getting dark. Crownstone will do it for you. Aren't you in the room? No worries, your lights won't turn on.
+## Zonsondergang
+
+Crownstone doet de lichten aan in de woonkamer wanneer het donker wordt. Het doet dat alleen als je ook daadwerkelijk **in de woonkamer** bent.
 
 {% include snippets/container-image-relative-end %}
 
 {% include snippets/slogan-begin %}
 
-Crownstones are truly smart
+Een Crownstone draait apps!
 
 {% include snippets/slogan-end %}
 
@@ -78,7 +118,7 @@ Crownstones are truly smart
 
 {% include snippets/centered-text-home-begin %}
 
-While other smart dimmers offer you limited functions, Crownstone offers you the whole package. It can be used not only to dim your lights, but also to turn-off specific devices when you are not home, such as the TV, home appliances, etc.
+Een Crownstone is een soort van miniatuur smartphone. Er zijn verschillende apps en functies aanwezig en elke maand komen er nieuwe bij! Van een "twilight modus" tot energie inzicht, er is elke keer weer iets nieuws te ontdekken!
 
 {% include snippets/centered-text-home-end %}
 
@@ -86,20 +126,8 @@ While other smart dimmers offer you limited functions, Crownstone offers you the
 
 {% include snippets/full-width-container-begin %}
 
-{% include snippets/cs_features 
-switch-title='Switch'                        switch-description='Turn your lights and devices on/off'
-twilight-title='Twilight'                    twilight-description='Automatically dim your lights at night'
-wallswitch-title='Switches stay working'     wallswitch-description='Smart lights and smart wall switches'
-dimmer-title= 'Dimmer'                       dimmer-description='Dim your (LED) lights'
-presence-title='Presence detector'           presence-description='Lights and devices react to your presence'
-monitoring-title='Energy monitor'            monitoring-description='View your real time energy consumption per device'
-%}
+{% include snippets/cs_features %}
 
 {% include snippets/full-width-container-end %}
 
-{% include snippets/customer-segments 
-customers-slogan='Create your own smart home'            customers-title='Consumers'
-subscribers-slogan='Check out our smart subscription'    subscribers-title='Subscribers'
-realestate-slogan='Start selling smart homes'            realestate-title='Real estate developers'
-oem-slogan='Discover collaboration possibilities'        oem-title='OEM'
-%}
+{% include snippets/customer-segments %}
