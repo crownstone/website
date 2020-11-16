@@ -81,8 +81,9 @@ kramdown:
   auto_id_prefix: 'header-'
   input: GFM
   syntax_highlighter: rouge
+  hard_wrap: false
 
-plugins: 
+plugins:
 - 'jekyll-polyglot'
 
 lunr_search:

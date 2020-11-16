@@ -6,7 +6,7 @@ header: Business
 description: "Crownstone for real estate developers makes any of your residential property smart. Home automation makes your property more valuable, sells faster, and seamlessly fits with sustainable goals."
 group: [navigation-business-footer]
 markdown: true
-permalink: business/residential-real-estate
+permalink: business/residential-real-estate/
 ---
 {% include JB/setup %}
 

@@ -126,7 +126,7 @@ core-team-gallery:
 
 {% include snippets/row-begin %}
 {% include snippets/column-begin colsize="12" %}
-                
+
 # Visie
 
 In de toekomst verwachten wij dat positiebepaling binnenshuis groter gaat zijn dan positiebepaling buitenshuis (GPS). 

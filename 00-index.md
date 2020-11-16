@@ -10,6 +10,42 @@ tags: [smart home, smart plug, switch, dimmer, power monitor, bluetooth, ble, bl
 kramdown:
   parse_block_html: true
 permalink: /
+features:
+  - image: /images/switch_gradient2.png
+    title: Switch
+    description: Turn your lights and devices on or off
+  - image: /images/twilight_gradient2.png
+    title: Twilight
+    description: Automatically dim your lights at night
+  - image: /images/wallswitch_gradient2.png
+    title: Switchcraft
+    description: Switches keep working
+  - image: /images/dim_gradient2.png
+    title: Dimmer
+    description: Dim LED lights as well
+  - image: /images/position_gradient2.png
+    title: Indoor positioning
+    description: Lights and devices react to your presence
+  - image: /images/monitor_gradient2.png
+    title: Energy monitor
+    description: View your energy consumption per device in real time
+segments:
+  - title: Consumers
+    slogan: Create your own smart home
+    image: /images/chilling_living_room.jpg
+    link: /technology-consumer/
+  - title: Subscribers
+    slogan: Check out our subscription
+    image: /images/dad_and_son.jpg
+    link: https://subscribe.crownstone.rocks/welcome?dest=smartscenarios&ref=crownstone.rocks&loc=subscribers
+  - title: Real estate developers
+    slogan: Start selling smarter homes
+    image: /images/rotterdam_real_state.jpg
+    link: /business/residential-real-estate/
+  - title: OEM
+    slogan: Profit from collaboration with Crownstone
+    image: /images/oem.jpg
+    link: /business/product-development/
 ---
 
 {% include JB/setup %}
@@ -28,7 +64,7 @@ Your presence makes a difference
 
 {% include snippets/centered-text-home-begin %}
 
-Coming home after a long day of work, opening your door and letting your house react to <span class="important-blue"> you </span> by turning on the lights and setting up a cozy atmosphere according to your wishes… Yes, this is possible with <span class="important-blue"> Crownstone! </span>
+Your home sets your lights automatically at **your** desired level, so you never come back to a dark home.  Make any socket and any ceiling light smart by adding a small building block, a **Crownstone**!
 
 {% include snippets/centered-text-home-end %}
 
@@ -36,15 +72,17 @@ Coming home after a long day of work, opening your door and letting your house r
 
 {% include snippets/full-width-container-end %}
 
-{% include snippets/container-image-relative-begin img-bg='/images/coming_home.jpg' left-alignment='true' title='Welcome Home!' %}
+{% include snippets/container-image-relative-begin img-bg='/images/coming_home.jpg' left-alignment='true' %}
 
-Crownstones automatically turn on your lights when you come home and it is dark outside! No more days of walking in the dark with your hands full.
+## Welcome Home!
+
+Crownstone lets your home react to you. Lamps, ceiling fans, and space heaters can detect your presence through your smartphone and turn on automatically!
 
 {% include snippets/container-image-relative-end %}
 
 {% include snippets/slogan-begin blue-bg='true' %}
 
-Enjoy your smart lights
+Make any light smart
 
 {% include snippets/slogan-end %}
 
@@ -52,7 +90,7 @@ Enjoy your smart lights
 
 {% include snippets/centered-text-home-begin blue-bg='true' %}
 
-Controlling your lights from an app is a thing of the past. From now on, your lights will react automatically not only when you arrive or leave home, but also when you go from one room to another. Don't worry, you can still use your wall switch!
+Crownstone modules can be placed behind outlets and **ceiling lights**! Not only can the light be of any shape or form, the light switch will still work with our switchraft! The Crownstone modules use the presence of your smartphone to figure out whether you're in the room. That's how it makes your lights truly smart!
 
 {% include snippets/centered-text-home-end %}
 
@@ -60,15 +98,17 @@ Controlling your lights from an app is a thing of the past. From now on, your li
 
 {% include snippets/full-width-container-end %}
 
-{% include snippets/container-image-relative-begin img-bg='/images/reading_couch.jpg' title='Lights ready for the sunset'%}
+{% include snippets/container-image-relative-begin img-bg='/images/reading_couch.jpg' %}
 
-Forget about interrupting the reading of your favorite book to turn on the lights when it's getting dark. Crownstone will do it for you. Aren't you in the room? No worries, your lights won't turn on.
+## Sunset
+
+Crownstone turns on the light in the living room when it is getting dark. It only does this when you are actually **there**! 
 
 {% include snippets/container-image-relative-end %}
 
 {% include snippets/slogan-begin %}
 
-Crownstones are truly smart
+A Crownstone runs apps!
 
 {% include snippets/slogan-end %}
 
@@ -76,7 +116,7 @@ Crownstones are truly smart
 
 {% include snippets/centered-text-home-begin %}
 
-While other smart dimmers offer you limited functions, Crownstone offers you the whole package. It can be used not only to dim your lights, but also to turn-off specific devices when you are not home, such as the TV, home appliances, etc.
+A Crownstone is like a miniaturized smartphone. There are many apps and functions on it and new ones every month! From a twilight mode to energy monitoring, there is something new to discover every time!
 
 {% include snippets/centered-text-home-end %}
 
@@ -84,20 +124,9 @@ While other smart dimmers offer you limited functions, Crownstone offers you the
 
 {% include snippets/full-width-container-begin %}
 
-{% include snippets/cs_features 
-switch-title='Switch'                        switch-description='Turn your lights and devices on/off'
-twilight-title='Twilight'                    twilight-description='Automatically dim your lights at night'
-wallswitch-title='Switches stay working'     wallswitch-description='Smart lights and smart wall switches'
-dimmer-title= 'Dimmer'                       dimmer-description='Dim your (LED) lights'
-presence-title='Presence detector'           presence-description='Lights and devices react to your presence'
-monitoring-title='Energy monitor'            monitoring-description='View your real time energy consumption per device'
-%}
+{% include snippets/cs_features %}
 
 {% include snippets/full-width-container-end %}
 
-{% include snippets/customer-segments 
-customers-slogan='Create your own smart home'            customers-title='Consumers'
-subscribers-slogan='Check out our smart subscription'    subscribers-title='Subscribers'
-realestate-slogan='Start selling smart homes'            realestate-title='Real estate developers'
-oem-slogan='Discover collaboration possibilities'        oem-title='OEM'
-%}
+{% include snippets/customer-segments %}
+
