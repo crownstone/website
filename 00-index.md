@@ -33,7 +33,7 @@ segments:
   - title: Consumers
     slogan: Create your own smart home
     image: /images/chilling_living_room.jpg
-    link: /technology-consumer/
+    link: /product/
   - title: Subscribers
     slogan: Check out our subscription
     image: /images/dad_and_son.jpg
@@ -94,7 +94,7 @@ Crownstone modules can be placed behind outlets and **ceiling lights**! Not only
 
 {% include snippets/centered-text-home-end %}
 
-{% include snippets/centered-image-home img='/images/built-ins.png' img-alt='built-ins'%}
+{% include snippets/centered-image-home img='/images/built-ins.png' img-alt='built-ins' class='built-in-img' %}
 
 {% include snippets/full-width-container-end %}
 

@@ -1,0 +1,2 @@
+<div class="row justify-content-center m-0 extra-padding {{include.reverse-row}}">
+    <div class="col-md-5 justify-content-center description-paragraph-title" markdown="1">

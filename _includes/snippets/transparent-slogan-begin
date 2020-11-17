@@ -1,9 +1,9 @@
 {% if include.blue-bg %}
-<div class="container-fluid blue-bg">
+<div class="container-fluid transparent-bg p-0">
     <div class="row justify-content-center m-0">
         <h1 class="slogan-blue-bg">
 {% else %}
-<div class="container-fluid transparent-bg">
-    <div class="row justify-content-center m-0 transparent-bg">
+<div class="container-fluid transparent-bg p-0">
+    <div class="row justify-content-center m-0">
         <h1 class="slogan">
 {% endif %}

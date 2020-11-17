@@ -1,17 +1,13 @@
 {% assign ci-image = include.img %}
 
-<div class="row justify-content-center">
+<div class="row justify-content-center m-0 p-0">
 {% if include.long-img %}
-    <div class="col-3"> </div>
-    <div class="col-md-6 p-2">
+    <div class="col-md-6 p-4">
         <img src="{{ ci-image }}" alt="{{include.img-alt}}">
     </div>
-    <div class="col-3"> </div>
 {% else %}
-    <div class="col-4"> </div>
-    <div class="col-sm-4 d-flex align-items-center built-in-img">
-        <img src="{{ ci-image }}" alt="{{include.img-alt}}" class='built-in-img'>
+    <div class="col-sm-4 d-flex align-items-center {{include.class}}">
+        <img src="{{ ci-image }}" alt="{{include.img-alt}}" class="{{ include.class}}">
     </div>
-    <div class="col-4"> </div>
 {% endif %}
 </div>

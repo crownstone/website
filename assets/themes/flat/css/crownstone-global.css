@@ -44,7 +44,7 @@
 
 body, body p, li, th, td, .rte-font {
 	font-family: 'LatoLight';
-	font-size: 20px;
+	font-size: 1.3rem;
 	line-height: 35px;
 }
 
@@ -192,6 +192,27 @@ div.bannerContainer {
 	width: 100%;
 }
 
+div.description-paragraph-title{
+	text-align: center;
+	font-family: Lato, sans-serif;
+	font-size: 1.4rem;
+	font-style: italic;
+	color: #003e52;
+	width: 100%;
+	padding: 1rem;
+}
+
+div.transparent-bg{
+	background-color: transparent;
+}
+
+div.secondary-banner{
+	background-size:        cover;
+	background-position:    center;
+	height:                 45vh;
+	max-height:             300px;
+}
+
 .underline-slogan{
 	width: 20%;
 	color: white;
@@ -204,21 +225,23 @@ div.bannerContainer {
 p.description-paragraph{
 	text-align: center;
 	font-family: Lato, sans-serif;
-	font-size: 1.1rem;
+	font-size: 1.3rem;
 	font-style: italic;
 	color: #003e52;
 	width: 100%;
-	margin: 2rem 0 3rem;
+	margin: 2rem 0;
+	padding: 1rem;
 }
 
 p.description-paragraph-blue-bg{
 	text-align: center;
 	font-family: Lato, sans-serif;
-	font-size: 1.1rem;
+	font-size: 1.3rem;
 	font-style: italic;
 	color: white;
 	width: 100%;
-	margin: 2rem 0 3rem;
+	margin: 2rem 0;
+	padding: 1rem;
 }
 
 span.important-blue{
@@ -241,6 +264,26 @@ div.container-bg-white{
 	background-position:    center;
 }
 
+div.extra-padding{
+	padding: 1rem;
+}
+
+a.link-text-gray{
+	font-family: Lato, sans-serif;
+	font-style: italic;
+	font-size: 1.2rem;
+	color: gray;
+	margin: 0 1rem;
+}
+
+a.link-text-gray:hover{
+	font-family: Lato, sans-serif;
+	font-style: italic;
+	font-size: 1.2rem;
+	color: #ff8400 !important;
+	margin: 0 1rem;
+	text-decoration: none;
+}
 
 @media (min-width: 976px){
 	div.text-container-bg-white{
@@ -253,6 +296,42 @@ div.container-bg-white{
 	div.bg-white-container{
 		background-color: rgba(255, 255, 255, 0.9);
 		padding: 2rem;
+	}
+
+	p.description-paragraph{
+		text-align: center;
+		font-family: Lato, sans-serif;
+		font-size: 1.3rem;
+		font-style: italic;
+		color: #003e52;
+		width: 100%;
+		margin: 2rem 0 3rem;
+		padding: 1rem;
+	}
+
+	p.description-paragraph-blue-bg{
+		text-align: center;
+		font-family: Lato, sans-serif;
+		font-size: 1.3rem;
+		font-style: italic;
+		color: white;
+		width: 100%;
+		margin: 2rem 0 3rem;
+		padding: 1rem;
+	}
+
+	div.description-paragraph-title{
+		text-align: center;
+		font-family: Lato, sans-serif;
+		font-size: 1.4rem;
+		font-style: italic;
+		color: #003e52;
+		width: 100%;
+		padding: 2rem;
+	}
+
+	div.extra-padding{
+		padding: 5rem;
 	}
 
 	img.built-in-img{
@@ -303,7 +382,7 @@ div.container-bg-white{
 		text-align: left !important;
 		font-family: Lato, sans-serif;
 		font-style: italic;
-		font-size: 1.1rem;
+		font-size: 1.4rem;
 		color: #003e52;
 		width: 100%;
 		padding: 1rem 0 0;
@@ -314,7 +393,7 @@ div.container-bg-white{
 		text-align: right !important;
 		font-family: Lato, sans-serif;
 		font-style: italic;
-		font-size: 1.1rem;
+		font-size: 1.4rem;
 		color: #003e52;
 		width: 100%;
 		padding: 1rem 0 0;
@@ -380,7 +459,7 @@ p.description-paragraph-bg-left{
 	text-align: center;
 	font-family: Lato, sans-serif;
 	font-style: italic;
-	font-size: 1.1rem;
+	font-size: 1.4rem;
 	color: #003e52;
 	width: 100%;
 	padding: 1rem 0 0;
@@ -391,7 +470,7 @@ p.description-paragraph-bg-right{
 	text-align: center;
 	font-family: Lato, sans-serif;
 	font-style: italic;
-	font-size: 1.1rem;
+	font-size: 1.4rem;
 	color: #003e52;
 	width: 100%;
 	padding: 1rem 0 0;
@@ -411,6 +490,8 @@ h2.container-title-right{
 
 div.blue-bg{
 	background-color: #003e52;
+	padding: 0 !important;
+	margin: 0 !important;
 }
 
 div.built-in-img{
@@ -513,6 +594,27 @@ div.gray-bg{
 	background-color: #f6f6f6;
 }
 
+a.btn_std{
+	background-color: #ff8400;
+	color: white;
+	padding: 0.75rem;
+}
+
+a.btn_std:hover{
+	background-color: #003e52 !important;
+	color: white;
+	padding: 0.75rem;
+	text-decoration: none;
+}
+
+span.text-btn{
+	color: white;
+}
+
+span.text-btn:hover{
+	color: white;
+	text-decoration: none;
+}
 
 p.newsletter-text{
 	text-align: center;
@@ -545,12 +647,21 @@ div.bannerContainer {
 	align-items: center;
 }
 
+div.backgroundText{
+	width: 100%;
+	height: 100%;
+	background-position: bottom left;
+	background-size: cover;
+	background-repeat: no-repeat;
+	z-index: 1000;
+}
+
 .card {
 	margin-bottom: 1rem;
 }
 
 h4.card-title {
-	margin-bottom: 0px;
+	margin-bottom: 0;
 }
 
 h4.card-title a {
@@ -573,7 +684,7 @@ div.bannerContainer .banner-caption {
 	position: absolute;
 	top: 50%;
 	left: 50%;*/
-padding: 0em 2em;
+padding: 0 2em;
 z-index: 0;
 font-family: Lato;
 font-weight: 1000;

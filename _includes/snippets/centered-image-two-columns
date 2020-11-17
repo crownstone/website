@@ -1,0 +1,12 @@
+{% assign ci-image1 = include.img1 %}
+{% assign ci-image2 = include.img2 %}
+
+<div class="row justify-content-center m-0" style="padding: 2rem 0 3rem">
+    <div class="col-md-2">
+        <img src="{{ci-image1}}" alt="{{include.img1-alt}}"/>
+    </div>
+    <div class="col-1"> </div>
+    <div class="col-md-2">
+        <img src="{{ci-image2}}" alt="{{include.img2-alt}}"/>
+    </div>
+</div>

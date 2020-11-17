@@ -1,7 +1,7 @@
-<div class="row justify-content-center">
-<div class="col-xl-6">
-{% if include.blue-bg %}
-<p class="description-paragraph-blue-bg" markdown="1" >
-{% else %}
-<p class="description-paragraph" markdown="1" >
-{% endif %}
+<div class="row justify-content-center m-0">
+    <div class="col-xl-6">
+        {% if include.blue-bg %}
+        <p class="description-paragraph-blue-bg" markdown="1" >
+        {% else %}
+        <p class="description-paragraph" markdown="1" >
+        {% endif %}
