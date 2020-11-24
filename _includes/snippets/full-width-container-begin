@@ -1,5 +1,5 @@
 {% if include.blue-bg %}
-<div class="container-fluid blue-bg">
+<div class="container-fluid blue-bg p-0">
 {% else %}
-<div class="container-fluid">
+<div class="container-fluid p-0">
 {% endif %}

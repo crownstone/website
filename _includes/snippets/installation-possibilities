@@ -1,0 +1,30 @@
+{% if include.id %}
+  {% assign installations = page.[include.id] %}
+{% else %}
+  {% assign installations = page.installations %}
+{% endif %}
+
+<div class="row justify-content-center m-0">
+
+    {% for installation in installations %}
+
+    <div class="col-md-4">
+        <div class="row align-items-end secondary-banner" style="background-image: url({{ installation.image }})">
+            <div class="row transparent-bg-segments">
+                <div class="col-xs-8">
+                    <a class="title-segments" href= "{{ installation.link }}" style="text-align: left; font-family: Lato, sans-serif; font-style: italic; font-size: 0.9rem !important; color: white !important; padding: 0; margin: 0;">
+                        {{ installation.title }}
+                    </a>
+                </div>
+                <div class="col-xs-1 text-center">
+                    <a href= "{{ installation.link }}" style="text-decoration: none">
+                        <i class="el el-arrow-right" style="color: white"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    {% endfor %}
+
+</div>

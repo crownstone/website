@@ -9,7 +9,7 @@
 	</a>
 </li>
 <li class="nav-item accent">
-	<a href="https://subscribe.crownstone.rocks/welcome?dest=smarthome&launch={{ site.active_lang }}&ref=http://crownstone.rocks/{{ site.active_lang}}{{ page.url }}" class="nav-link right-menu">
+	<a href="https://subscribe.crownstone.rocks/?launch={{ site.active_lang }}&ref=http://crownstone.rocks/{{ site.active_lang}}{{ page.url }}" class="nav-link right-menu">
 		<i class="el el-user"></i>
 		{% if site.active_lang == "nl" %}
 		Inloggen

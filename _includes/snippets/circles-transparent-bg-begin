@@ -1,0 +1,4 @@
+{% assign ci-image = include.img %}
+{% assign ci-bg-position = include.bg-position %}
+
+<div class="backgroundText" style="background-image: url({{ci-image}}); background-position:{{ci-bg-position}}">

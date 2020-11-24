@@ -1,0 +1,14 @@
+{% assign ci-image = include.img %}
+
+{% if include.btn %}
+<a href="{{include.link}}" target="_blank" class="btn_std" style='background-color: #ff8400; color: white; padding: 0.75rem;'>
+    <span class="text-btn"> {{include.text-btn}} </span>
+</a>
+{% endif %}
+
+</div>
+
+<div class="col-md-3 p-2">
+    <img src="{{ ci-image }}" alt="{{include.img-alt}}"/>
+</div>
+</div>
