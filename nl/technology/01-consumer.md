@@ -4,11 +4,10 @@ title: Tech
 header: Pages
 description: "Een schakelaar, dimmer, vermogensmeter, en standby killer ineen."
 keywords: "schakelaar, slimme schakelaar, dimmer, vermogensmeter, standby killer, domotica"
-group: [navigation, navigation-consumer-footer]
 #markdown: true
 background-image: banner-tech.jpg
 banner-caption: "Hoe werkt 't?"
-permalink: technology-consumer/
+permalink: technology/consumer/
 lang: nl
 ---
 {% include JB/setup %}

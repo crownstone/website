@@ -4,10 +4,9 @@ title: Tech
 header: Pages
 description: "It is a switch, a dimmer, a power monitor, and a standby killer at once."
 keywords: "switch, smart switch, dimmer, power monitor, standby killer, energy savings, home automation"
-group: [navigation, navigation-consumer-footer]
 background-image: banner-tech.jpg
 banner-caption: "Technology"
-permalink: technology-consumer/
+permalink: technology/consumer/
 ---
 {% include JB/setup %}
 
