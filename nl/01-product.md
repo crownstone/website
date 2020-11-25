@@ -5,23 +5,24 @@ header: Pages
 description: "It is a switch, a dimmer, a power monitor, and a standby killer at once."
 keywords: "switch, smart switch, dimmer, power monitor, standby killer, energy savings, home automation"
 group: [navigation, navigation-consumer-footer]
+lang: nl
 permalink: product/
 installations:
-  - title: Information for installers
+  - title: Informatie voor installeurs
     image: /images/installers.jpg
     link: /installation/
-  - title: Discover our smart subscription
+  - title: Ontdek ons smart home abonnement
     image: /images/installation.jpg
     link: https://subscribe.crownstone.rocks/welcome?dest=smartscenarios&ref=http://crownstone.rocks/product/
-  - title: Check the installation manuals
+  - title: Installatiehandleiding
     image: /images/self_installation.jpg
     link: /installation/
 specs:
   - icon: el-cog
-    title: Technology
+    title: Technologie
     link: /technology/consumer/
   - icon: el-idea
-    title: Scenarios
+    title: Scenario's
     link: /scenarios/
 ---
 
@@ -35,7 +36,7 @@ specs:
 
 ## Crownstone Hardware
 
-Crownstone modules detect your **presence** through your **smartphone** to figure out in which room you are. This way your smart home **reacts** to you!
+Crownstone modules herkennen dat je **aanwezig** bent via je **smartphone**. Zo zien ze in welke kamer je bent. Op deze manier kan je huis automatisch op jou reageren volgens jouw voorkeuren!
 
 {% include snippets/centered-two-columns-end img='/images/built_in-laying.png' img-alt='built-in' %}
 
@@ -45,7 +46,7 @@ Crownstone modules detect your **presence** through your **smartphone** to figur
 
 {% include snippets/slogan-begin %}
 
-Make any light smart
+Maak elke lamp slim
 
 {% include snippets/slogan-end %}
 
@@ -53,8 +54,8 @@ Make any light smart
 
 {% include snippets/centered-text-home-begin %}
 
-Crownstone modules can make **any light** react to your presence!
-Standing lamps, ceiling lights. The shape, size, or form does not matter!
+Crownstone modules kunnen **elke** lamp laten reageren op jouw aanwezigheid. 
+Staande lampen, plafondlampen; vorm of grootte maakt niet uit!
 
 {% include snippets/centered-text-home-end %}
 
@@ -65,9 +66,9 @@ Standing lamps, ceiling lights. The shape, size, or form does not matter!
 
 {% include snippets/container-image-relative-begin img-bg='/images/wall_switch.jpg' bg-position='center left' %}
 
-## Keep your wall switch!
+## Je wandschakelaar blijft werken!
 
-A Crownstone can be placed at the **ceiling light**. Your wall switch will still work! This can be done by a small adaptation at the switch, called **switchcraft**. Finally, you can have smart lights that can be controlled by a normal switch!
+Een Crownstone kan worden geplaatst bij een **plafondlamp**. De wandschakelaar blijft gewoon werken! Dit kan door een hele kleine aanpassing bij de schakelaar, **switchcraft** genoemd. Eindelijk heb je slimme lampen die tegelijkertijd met de schakelaar kunnen worden bediend!
 
 {% include snippets/container-image-relative-end %}
 
@@ -77,13 +78,13 @@ A Crownstone can be placed at the **ceiling light**. Your wall switch will still
 
 {% include snippets/transparent-slogan-begin blue-bg='true' %}
 
-Monitor the energy usage per device
+Bekijk het energieverbruik per apparaat
 
 {% include snippets/transparent-slogan-end %}
 
 {% include snippets/centered-text-home-begin blue-bg='true' %}
 
-You can see **real-time energy** usage in the Crownstone app. It is possible to inspect the usage **per device!**
+Je kan energieverbruik in de Crownstone app direct inzien. Het is mogelijk om het verbruik **per apparaat** te bekijken!
 
 {% include snippets/centered-text-home-end %}
 
@@ -96,15 +97,15 @@ You can see **real-time energy** usage in the Crownstone app. It is possible to 
 
 {% include snippets/container-image-relative-begin img-bg='/images/bathroom.jpg' %}
 
-## Dim your lights at night
+## Dim 's nachts je lampen
 
-Crownstones can **dim** your lights when they are turned on after **sunset.** This is called **twilight** behaviour. Yes, this works again with your conventional light switch.
+Crownstones kunnen je lampen **dimmen** na zonsondergang (als je dat instelt). Dit wordt **twilight** gedrag genoemd. Opnieuw werkt dit weer met je gewone wandschakelaar!
 
 {% include snippets/container-image-relative-end %}
 
 {% include snippets/slogan-begin %}
 
-Crownstone reacts to your voice
+Crownstones reageren op je stem
 
 {% include snippets/slogan-end %}
 
@@ -112,7 +113,7 @@ Crownstone reacts to your voice
 
 {% include snippets/centered-text-home-begin %}
 
-You can simply ask **Alexa** or **Google** to turn on the lights for you.
+Vraag aan **Alexa** of **Google** om de lampen voor je aan te doen.
 
 {% include snippets/centered-text-home-end %}
 
@@ -123,18 +124,18 @@ You can simply ask **Alexa** or **Google** to turn on the lights for you.
 
 {% include snippets/container-image-relative-begin img-bg='/images/standby_killer.jpg' left-alignment='true' bg-position='center right' %}
 
-## Crownstone is also a stand-by killer
+## Crownstone is een stand-by killer
 
-Placing a Crownstone behind a **set-top box**\* can save you on average €30 a year on your electricity bill.&nbsp;
+Je kan al snel €30 per jaar besparen als je een Crownstone achter je **mediabox**\* zet.
 
-###### *check the power consumption of other devices in this **calculator.**
+###### *kijk naar het energieverbruik van andere apparaten in onze **rekentool.**
 
 {% include snippets/container-image-relative-end %}
 
 
 {% include snippets/slogan-begin %}
 
-Installation made easy
+Installatie
 
 {% include snippets/slogan-end %}
 
@@ -142,7 +143,7 @@ Installation made easy
 
 {% include snippets/centered-text-home-begin %}
 
-The **installation** of Crownstones can be done in three different ways. It can be done by an **installer**. It can be done by Crownstone, part of our smart home **subscription**. It can be done by **yourself** (DIY).
+De installatie van Crownstone kan op drie manieren worden gedaan. Het kan worden gedaan door een professionele **installateur**. Het kan worden gedaan door Crownstone zelf en is onderdeel van ons **abonnement**. En het kan door **jouzelf** (DIY) gedaan worden.
 
 {% include snippets/centered-text-home-end %}
 
@@ -157,15 +158,15 @@ The **installation** of Crownstones can be done in three different ways. It can 
 
 {% include snippets/transparent-slogan-begin %}
 
-Discover more!
+Ontdek meer!
 
 {% include snippets/transparent-slogan-end %}
 
 {% include snippets/centered-two-columns-begin reverse-row='flex-row-reverse' %}
 
-Get our latest version of the Crownstone, the Crownstone built-in One! Make any power outlet or any light a bit smarter!
+Onze laatste versie van de Crownstone, de Crownstone built-in One, kan je ook direct bij ons kopen. Maak ook jouw huis weer ietsje slimmer door er eentje te zetten achter een stopcontact of plafondlamp.
 
-{% include snippets/centered-two-columns-end img='/images/3-built-ins.png' img-alt='built-ins' btn='true' link='https://shop.crownstone.rocks/products/built-in-crownstone?launch=en&ref=http://crownstone.rocks/product/' text-btn='Get the One!' %}
+{% include snippets/centered-two-columns-end img='/images/3-built-ins.png' img-alt='built-ins' btn='true' link='https://shop.crownstone.rocks/products/built-in-crownstone?launch=en&ref=http://crownstone.rocks/product/' text-btn='De One voor jou!' %}
 
 {% include snippets/specs %}
 
