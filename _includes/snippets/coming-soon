@@ -1,0 +1,25 @@
+{% if include.id %}
+  {% assign coming-soon = page.[include.id] %}
+{% else %}
+  {% assign coming-soon = page.coming-soon %}
+{% endif %}
+
+<div class="row justify-content-center m-0">
+
+    {% for item in coming-soon %}
+
+    <div class="col-md-4 pl-5 pr-5 pb-5">
+        <div class="row align-items-end secondary-banner" style="background-image: url({{ item.image }})">
+            <div class="row transparent-bg-segments">
+                <div class="col-xs-12">
+                    <p class="title-segments" style="text-align: left; font-family: Lato, sans-serif; font-style: italic; font-size: 0.9rem !important; color: white !important; padding: 0; margin: 0;">
+                        {{ item.title }}
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    {% endfor %}
+
+</div>

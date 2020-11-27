@@ -3,112 +3,114 @@ layout: page
 title: Scenarios
 header: Pages
 description: "Scenarios that bring comfort or save energy!"
-group: [navigation, navigation-footer]
+group: [navigation, navigation-consumer-footer]
 permalink: scenarios/
 children-disable: [crownstone, autopilot]
-background-image: banner-reading.jpg
-banner-caption: "Scenarios"
+background-image-home: banner-scenarios.jpg
+coming-soon:
+    - title: Wake up light
+      image: /images/wakeup.jpg
+    - title: Energy usage overview
+      image: /images/energy_usage.jpg
 ---
+
 {% include JB/setup %}
 
-{% include snippets/row-begin %}
-{% include snippets/column-begin colsize="12" %}
+{% include snippets/home-banner %}
 
-# Everyday use of the Crownstone
+{% include snippets/slogan-begin %}
 
-Small daily tasks can sometimes create a lot of hassle. Crownstone enables you to run things more smoothly.
-Use one on a lamp as a wake-up light to start your day, or as a night-light that subtly goes off when you go to bed.
-And no more wondering if you turned off your curling iron or toaster: now you have the peace of
-mind to know there are no devices left turned on or on stand-by if you're not at home.
+Let Crownstone help you everyday 
 
-{% include snippets/column-end %}
-{% include snippets/row-end %}
+{% include snippets/slogan-end %}
 
-{% include snippets/divider %}
+{% include snippets/full-width-container-begin %}
 
-{% include snippets/row-begin %}
-{% include snippets/column-image-begin image="/images/scenarios/scenario-iron.jpg" align="right" %}
+{% include snippets/centered-text-home-begin %}
 
-# Safe at home!
+Small daily tasks can sometimes create a lot of hassle. Crownstone enables you to run things more **smoothly**. Here are some useful **ideas** and tips on how to use Crownstones not only with your **lights** but also with your **devices**!
 
-We all want our home to be a safe place, especially if we have kids.
-Crownstone can function as a child-lock. 
-Though we love to always keep an eye on our kids, it's not always possible, they are so curious!
-Crownstone can turn off devices that can be dangerous for kids when you are not there.
-When you leave the room it can be set to turn of a particular outlet. The iron, curling iron, toaster, electric kettle, 
-will be turned off as well.
-In this way, Crownstone can make sure that such appliances only work when you are in the room.
+{% include snippets/centered-text-home-end %}
 
-{% include snippets/column-image-end %}
-{% include snippets/row-end %}
+{% include snippets/centered-image-home long-img='true' img='/images/devices.png' img-alt='devices'%}
 
-{% include snippets/row-begin %}
-{% include snippets/column-begin colsize="12" %}
+{% include snippets/full-width-container-end %}
 
-Slightly different is the following setting. Only allow a dangerous device to be turned on when
-you are in the room. It will not automatically turn off when you leave. Now you can control that devices are always
-turned on while you are present. After that, you don't have it accidentally turned off while leaving the kitchen for
-a while.
+{% include snippets/container-image-relative-begin img-bg='/images/sunset.jpg' bg-position='top center' %}
 
-{% include snippets/column-end %}
-{% include snippets/row-end %}
+## Sunset
 
-{% include snippets/divider %}
+With Crownstones your **scenes** can be based on your **presence**! Use a sunset scene  to turn on the lights when someone is present in a room and it is getting dark.   
 
-{% include snippets/row-begin %}
-{% include snippets/column-image-begin image="/images/phoneCouple.jpg" align="left" %}
+{% include snippets/container-image-relative-end %}
 
-# Saving energy 
-                    
-With Crownstone you can get insight in your energy usage, by allowing you to monitor your power consumption
-through your mobile device. Crownstone is also able to identify appliances based on their energy consumption. It recognizes your TV, your fridge, etc.
-so it knows which appliances can or can't be turned off.
-This means it can automatically turn off devices that don't need to be on stand-by, saving you energy and money.
+{% include snippets/slogan-begin blue-bg='true' %}
 
-{% include snippets/column-image-end image="/images/phoneCouple.jpg" align="left" %}
-{% include snippets/row-end %}
+Safety is  always first!
 
-{% include snippets/divider %}
-       
-{% include snippets/row-begin %}
-{% include snippets/column-image-begin image="/images/iot.jpg" align="right" %}
+{% include snippets/slogan-end %}
 
-# Smart home
-                    
-In this day and age, almost everyone owns a smartphone, a tablet and/or a laptop.
-A lot of the devices we use on a day-to-day basis are equipped with Wi-Fi and Bluetooth.
-By allowing these devices to communicate and work together, we can use this connection to support us in our daily lives.
- Crownstone aims to simplify and enhance your life by using IoT to smarten up your home.
+{% include snippets/full-width-container-begin blue-bg='true'%}
 
-{% include snippets/column-image-end image="/images/iot.jpg" align="right" %}
-{% include snippets/row-end %}
+{% include snippets/centered-text-home-begin blue-bg='true' %}
 
-{% include snippets/divider %}
+The **presence-aware** functionality of the Crownstones can make your home a little safer by turning off specific plugs when you are not around. For example, a particular **outlet** in which the iron is plugged can just be **turned off** when no adults are present.
 
-{% include snippets/row-begin %}
-{% include snippets/column-image-begin image="/images/oldLady.jpg" align="left" %}
+{% include snippets/centered-text-home-end %}
 
-# Smart care
-                    
-Even though your grandparents may not carry their smartphones around with them, Crownstones measure
-power usage of all the devices they are connected to. By comparing the power usage patterns with those it has
-learned are normal, you can be alerted when a major divergence from the normal usage is detected.
+{% include snippets/centered-image-home img='/images/danger.png' img-alt='danger' %}
 
-{% include snippets/column-image-end image="/images/oldLady.jpg" align="left" %}
-{% include snippets/row-end %}
+{% include snippets/full-width-container-end %}
 
-{% include snippets/divider %}
-       
-{% include snippets/row-begin %}
-{% include snippets/column-image-begin image="/images/comfort.jpg" align="right" %}
+{% include snippets/container-image-relative-begin img-bg='/images/nighttime.jpg' left-alignment='true' %}
 
-# Comfort
-                    
-Wouldn't it be nice if you don't have to worry about leaving something on when you leave the house, or setting the mood the way you want it with a quick touch on your phone?
-Crownstone empowers you to make your home reflect your mood, turn any light into a soothing sunrise in the morning and save energy while doing so!
-                    
-{% include snippets/column-image-end image="/images/comfort.jpg" align="right" %}
-{% include snippets/row-end %}
+## Nighttime bathroom
 
-{% include snippets/bottom-margin %}
+With the **switchcraft** and **twilight** behaviour your **wall switch** will be able to **dim** your lights while it is dark outside. 
 
+{% include snippets/container-image-relative-end %}
+
+{% include snippets/slogan-begin %}
+
+Christmas time!
+
+{% include snippets/slogan-end %}
+
+{% include snippets/full-width-container-begin %}
+
+{% include snippets/centered-text-home-begin %}
+
+Use the **presence-aware** feature of the Crownstone to turn on your christmas tree when you are in that room. You can also set up a **smart timer** to automatically turn on your decorative lights after sunset. 
+
+{% include snippets/centered-text-home-end %}
+
+{% include snippets/centered-image-home long-img='true' img='/images/christmas.png' img-alt='christmas' %}
+
+{% include snippets/full-width-container-end %}
+
+{% include snippets/container-image-relative-begin img-bg='/images/kids_tv.jpg' bg-position='top center' %}
+
+## Smarter TV
+
+With Crownstone you can also set a **smart timer** for your TV, which can be useful to trigger a time to **go to bed**. TV is **switched off** at nine o’clock during week days. Time to go to bed kids!
+
+{% include snippets/container-image-relative-end %}
+
+
+{% include snippets/slogan-begin %}
+
+Coming soon!
+
+{% include snippets/slogan-end %}
+
+{% include snippets/full-width-container-begin %}
+
+{% include snippets/centered-text-home-begin %}
+
+We're constantly adding more functions to the Crownstones so they become **smarter** over time! These are the upcoming features:  **wake up light** for a smooth sunrise in the morning, and **energy usage overview** off all your devices which will be possible together with the hub.
+
+{% include snippets/centered-text-home-end %}
+
+{% include snippets/full-width-container-end %}
+
+{% include snippets/coming-soon %}

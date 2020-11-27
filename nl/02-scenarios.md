@@ -2,116 +2,114 @@
 layout: page
 title: Scenario's
 header: Pages
-group: [navigation, navigation-footer]
+group: [navigation, navigation-consumer-footer]
 lang: nl
 permalink: scenarios/
 children-disable: [crownstone, autopilot]
-background-image: banner-reading.jpg
-banner-caption: "Wat doet 't?"
+background-image-home: banner-scenarios.jpg
+coming-soon:
+    - title: Wake up light
+      image: /images/wakeup.jpg
+    - title: Energy usage overview
+      image: /images/energy_usage.jpg
 ---
 {% include JB/setup %}
 
-{% include snippets/row-begin %}
-{% include snippets/column-begin colsize="12" %}
+{% include snippets/home-banner %}
 
-# Alledaags gebruik 
-                    
-Kleine dagelijkse bezigheden kunnen soms vrij ergerlijk zijn. De Crownstones maken het leven weer een stukje makkelijker.
-Gebruik Crownstones achter de lichten in de slaapkamer om lekker wakker te worden of achter de lichten in de woonkamer om op tijd naar bed te gaan zodra ze gaan dimmen.
-Je hoeft je ook geen zorgen meer te maken over het feit of je het strijkijzer of het broodrooster toch wel hebt uitgezet. 
-Crownstones geven je gemoedsrust wanneer je het huis uitgaat of op vakantie gaat.
+{% include snippets/slogan-begin %}
 
-{% include snippets/column-end %}
-{% include snippets/row-end %}
+Let Crownstone help you everyday 
 
-{% include snippets/divider %}
+{% include snippets/slogan-end %}
 
-{% include snippets/row-begin %}
-{% include snippets/column-image-begin image="/images/scenarios/scenario-iron.jpg" align="right" %}
+{% include snippets/full-width-container-begin %}
 
-# Veilig thuis
-                    
-We maken allemaal graag ons huis veilig, helemaal als we kinderen hebben.
-Crownstones maken het mogelijk het huis nog veiliger te maken door als slim kinderslot te functioneren.
-Kinderen zijn nieuwsgierig en ook al zouden we dat graag willen, we kunnen ze niet heel de tijd in de gaten houden.
-Als je kinderen in de keuken zijn terwijl je de was aan het doen bent, hoef je je geen zorgen meer te maken over of ze niet misschien aan een gevaarlijk keukenapparaat zitten. 
-Crownstones kunnen er zorg voor dragen dat dit soort apparatuur alleen door jou kan worden aangezet. 
-Als je niet aanwezig bent kan de waterkoker niet worden aangezet. Loop je weg, dan kan je ervoor kiezen dat de waterkoker aan blijft staan of dat deze ook automatisch uit gaat.
+{% include snippets/centered-text-home-begin %}
 
-{% include snippets/column-image-end %}
-{% include snippets/row-end %}
+Small daily tasks can sometimes create a lot of hassle. Crownstone enables you to run things more **smoothly**. Here are some useful **ideas** and tips on how to use Crownstones not only with your **lights** but also with your **devices**!
 
-{% include snippets/row-begin %}
-{% include snippets/column-begin colsize="12" %}
+{% include snippets/centered-text-home-end %}
 
-Slightly different is the following setting. Only allow a dangerous device to be turned on when
-you are in the room. It will not automatically turn off when you leave. Now you can control that devices are always
-turned on while you are present. After that, you don't have it accidentally turned off while leaving the kitchen for
-a while.
+{% include snippets/centered-image-home long-img='true' img='/images/devices.png' img-alt='devices'%}
 
-{% include snippets/column-end %}
-{% include snippets/row-end %}
+{% include snippets/full-width-container-end %}
 
-{% include snippets/divider %}
+{% include snippets/container-image-relative-begin img-bg='/images/sunset.jpg' bg-position='top center' %}
 
-{% include snippets/row-begin %}
-{% include snippets/column-image-begin image="/images/phoneCouple.jpg" align="left" %}
+## Sunset
 
-# Energiebesparing
-                    
-Met de Crownstones kan je inzicht krijgen in je energieverbruik. In de app kan je zien wat je energieverbruik is. 
-Crownstones kunnen ook herkennen welk apparaat in de Crownstone is gestoken door te kijken naar het energieverbruik over de dag. Het herkent de televisie, de koelkast, etc. dus het weet welk apparaat kan worden uitgeschakeld als je het huis verlaat.
-De Crownstones verschaffen dus niet alleen maar inzicht, maar kunnen apparaten ook uitzetten! Dat bespaart energie en geld!
-                    
-{% include snippets/column-image-end %}
-{% include snippets/row-end %}
+With Crownstones your **scenes** can be based on your **presence**! Use a sunset scene  to turn on the lights when someone is present in a room and it is getting dark.   
 
-{% include snippets/divider %}
-       
-{% include snippets/row-begin %}
-{% include snippets/column-image-begin image="/images/iot.jpg" align="right" %}
+{% include snippets/container-image-relative-end %}
 
-# Smart home
+{% include snippets/slogan-begin blue-bg='true' %}
 
-Haast iedereen heeft nu wel een smartphpone, tablet of laptop. 
-Veel van deze apparaten gebruiken we dagelijks en hoe beter ze met elkaar overweg kunnen hoe gemakkelijker het is.
-De Crownstones zijn een zogenaamd IoT (Internet of Things) apparaatjes. 
-Dit betekent dat je leven makkelijker kan worden gemaakt door allerlei apps op de telefoon.
-Software ontwikkelaars kunnen Crownstone apps maken die handig zijn voor hele specifieke doeleinden.
-Voor de een kan dit zijn dat de lichten in de hal even aan- en uitgaan om aan te geven dat het gaat regenen en de paraplu niet moet worden vergeten.
-Voor de ander gaat het om een seintje krijgen als de wasmachine klaar is.
-Voor de derde gaat het om een seintje krijgen als de kinderen uit school zijn gekomen.
+Safety is  always first!
 
-{% include snippets/column-image-end image="/images/iot.jpg" align="right" %}
-{% include snippets/row-end %}
+{% include snippets/slogan-end %}
 
-{% include snippets/divider %}
+{% include snippets/full-width-container-begin blue-bg='true'%}
 
-{% include snippets/row-begin %}
-{% include snippets/column-image-begin image="/images/oldLady.jpg" align="left" %}
+{% include snippets/centered-text-home-begin blue-bg='true' %}
 
-# Slimme zorg
-                    
-Ook al is het zo dat een oudere geen smartphone bij zich draagt, dan kunnen Crownstones alsnog helpen bij het herkennen van ongewone situaties.
-Door Crownstones achter alle apparaten te zetten die dagelijks worden gebruikt, het koffieapparaat, de lichten, de radio, wordt het ineens
-eenvoudig om te herkennen als er iets raars aan de hand is. De Crownstone kan bijvoorbeeld goed achter een toiletlamp worden geplaatst. Wanneer het
-toiletlicht niet uitgaat, is het tijd voor een seintje!
+The **presence-aware** functionality of the Crownstones can make your home a little safer by turning off specific plugs when you are not around. For example, a particular **outlet** in which the iron is plugged can just be **turned off** when no adults are present.
 
-{% include snippets/column-image-end image="/images/oldLady.jpg" align="left" %}
-{% include snippets/row-end %}
+{% include snippets/centered-text-home-end %}
 
-{% include snippets/divider %}
-       
-{% include snippets/row-begin %}
-{% include snippets/column-image-begin image="/images/comfort.jpg" align="right" %}
+{% include snippets/centered-image-home img='/images/danger.png' img-alt='danger' %}
 
-# Comfort
-                    
-Zou het niet mooi zijn als we niet hoeven na te denken over of we bepaalde apparatuur aan hebben laten staan, of als onze lampen aangaan afhankelijk van onze stemming. 
-Crownstones maken het mogelijk om een huis te hebben dat beantwoord aan je gemoedstoestand of je in een goede stemming brengt. Stel je lichten in als een mooie zonsopgang!
-                    
-{% include snippets/column-image-end image="/images/comfort.jpg" align="right" %}
-{% include snippets/row-end %}
+{% include snippets/full-width-container-end %}
 
-{% include snippets/bottom-margin %}
+{% include snippets/container-image-relative-begin img-bg='/images/nighttime.jpg' left-alignment='true' %}
 
+## Nighttime bathroom
+
+With the **switchcraft** and **twilight** behaviour your **wall switch** will be able to **dim** your lights while it is dark outside. 
+
+{% include snippets/container-image-relative-end %}
+
+{% include snippets/slogan-begin %}
+
+Christmas time!
+
+{% include snippets/slogan-end %}
+
+{% include snippets/full-width-container-begin %}
+
+{% include snippets/centered-text-home-begin %}
+
+Use the **presence-aware** feature of the Crownstone to turn on your christmas tree when you are in that room. You can also set up a **smart timer** to automatically turn on your decorative lights after sunset. 
+
+{% include snippets/centered-text-home-end %}
+
+{% include snippets/centered-image-home long-img='true' img='/images/christmas.png' img-alt='christmas' %}
+
+{% include snippets/full-width-container-end %}
+
+{% include snippets/container-image-relative-begin img-bg='/images/kids_tv.jpg' bg-position='top center' %}
+
+## Smarter TV
+
+With Crownstone you can also set a **smart timer** for your TV, which can be useful to trigger a time to **go to bed**. TV is **switched off** at nine o’clock during week days. Time to go to bed kids!
+
+{% include snippets/container-image-relative-end %}
+
+
+{% include snippets/slogan-begin %}
+
+Coming soon!
+
+{% include snippets/slogan-end %}
+
+{% include snippets/full-width-container-begin %}
+
+{% include snippets/centered-text-home-begin %}
+
+We're constantly adding more functions to the Crownstones so they become **smarter** over time! These are the upcoming features:  **wake up light** for a smooth sunrise in the morning, and **energy usage overview** off all your devices which will be possible together with the hub.
+
+{% include snippets/centered-text-home-end %}
+
+{% include snippets/full-width-container-end %}
+
+{% include snippets/coming-soon %}

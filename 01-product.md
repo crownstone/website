@@ -127,7 +127,7 @@ You can simply ask **Alexa** or **Google** to turn on the lights for you.
 
 Placing a Crownstone behind a **set-top box**\* can save you on average €30 a year on your electricity bill.&nbsp;
 
-###### *check the power consumption of other devices in this **calculator.**
+###### *check the power consumption of other devices in this **[calculator](https://subscribe.crownstone.rocks/calculator)**.
 
 {% include snippets/container-image-relative-end %}
 
