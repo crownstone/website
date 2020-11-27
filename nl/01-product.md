@@ -128,7 +128,7 @@ Vraag aan **Alexa** of **Google** om de lampen voor je aan te doen.
 
 Je kan al snel €30 per jaar besparen als je een Crownstone achter je **mediabox**\* zet.
 
-###### *kijk naar het energieverbruik van andere apparaten in onze **rekentool.**
+###### *kijk naar het energieverbruik van andere apparaten in onze **[rekentool](https://subscribe.crownstone.rocks/calculator)**.
 
 {% include snippets/container-image-relative-end %}
 
