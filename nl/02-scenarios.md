@@ -19,7 +19,7 @@ coming-soon:
 
 {% include snippets/slogan-begin %}
 
-Let Crownstone help you everyday 
+Crownstone bespaart je tijd!
 
 {% include snippets/slogan-end %}
 
@@ -27,7 +27,7 @@ Let Crownstone help you everyday
 
 {% include snippets/centered-text-home-begin %}
 
-Small daily tasks can sometimes create a lot of hassle. Crownstone enables you to run things more **smoothly**. Here are some useful **ideas** and tips on how to use Crownstones not only with your **lights** but also with your **devices**!
+Wij willen graag dat we jou tijd besparen in plaats van jou tijd kosten. Hier zie je een aantal ideeën over het "handsfree" gebruiken van lichten en apparaten!
 
 {% include snippets/centered-text-home-end %}
 
@@ -37,15 +37,15 @@ Small daily tasks can sometimes create a lot of hassle. Crownstone enables you t
 
 {% include snippets/container-image-relative-begin img-bg='/images/sunset.jpg' bg-position='top center' %}
 
-## Sunset
+## Zonsondergang
 
-With Crownstones your **scenes** can be based on your **presence**! Use a sunset scene  to turn on the lights when someone is present in a room and it is getting dark.   
+De zonsondergang scene zet de lichten aan wanneer het donker wordt. Natuurlijk wordt dat alleen gedaan als je ook daadwerkelijk in de kamer bent!
 
 {% include snippets/container-image-relative-end %}
 
 {% include snippets/slogan-begin blue-bg='true' %}
 
-Safety is  always first!
+Veiligheid voor alles!
 
 {% include snippets/slogan-end %}
 
@@ -53,7 +53,7 @@ Safety is  always first!
 
 {% include snippets/centered-text-home-begin blue-bg='true' %}
 
-The **presence-aware** functionality of the Crownstones can make your home a little safer by turning off specific plugs when you are not around. For example, a particular **outlet** in which the iron is plugged can just be **turned off** when no adults are present.
+Zet stopcontacten uit als **jij**, als volwassene, niet in de buurt bent. Natuurlijk vergeet je niet een strijkijzer uit te zetten, maar weten dat de hele strijkbout niet gebruikt kan worden is goed voor je gemoedsrust!
 
 {% include snippets/centered-text-home-end %}
 
@@ -63,15 +63,15 @@ The **presence-aware** functionality of the Crownstones can make your home a lit
 
 {% include snippets/container-image-relative-begin img-bg='/images/nighttime.jpg' left-alignment='true' %}
 
-## Nighttime bathroom
+## Nachtverlichting
 
-With the **switchcraft** and **twilight** behaviour your **wall switch** will be able to **dim** your lights while it is dark outside. 
+Je gewone **wandschakelaar** kan de lichten in de nacht **dimmen**. Dit is een leuke combinatie van onze "switchcraft" functionaliteit met de "twilight" modus.
 
 {% include snippets/container-image-relative-end %}
 
 {% include snippets/slogan-begin %}
 
-Christmas time!
+Kerst!
 
 {% include snippets/slogan-end %}
 
@@ -79,7 +79,7 @@ Christmas time!
 
 {% include snippets/centered-text-home-begin %}
 
-Use the **presence-aware** feature of the Crownstone to turn on your christmas tree when you are in that room. You can also set up a **smart timer** to automatically turn on your decorative lights after sunset. 
+Zet je kerstboomverlichting aan als je in de woonkamer bent. Je kan het ook zo instellen dat de verlichting automatisch aan gaat zodra het donker wordt met de slimme **tijdsklok**.
 
 {% include snippets/centered-text-home-end %}
 
@@ -89,16 +89,15 @@ Use the **presence-aware** feature of the Crownstone to turn on your christmas t
 
 {% include snippets/container-image-relative-begin img-bg='/images/kids_tv.jpg' bg-position='top center' %}
 
-## Smarter TV
+## Naar bed!
 
-With Crownstone you can also set a **smart timer** for your TV, which can be useful to trigger a time to **go to bed**. TV is **switched off** at nine o’clock during week days. Time to go to bed kids!
+Zet de televisie uit na het favoriete programma van je kids. Eigenlijk best handig als "trigger". Wij zetten voor onszelf de lampen nu ook uit om 12 uur 's nachts. Tijd om naar bed te gaan!
 
 {% include snippets/container-image-relative-end %}
 
-
 {% include snippets/slogan-begin %}
 
-Coming soon!
+Binnenkort
 
 {% include snippets/slogan-end %}
 
@@ -106,7 +105,7 @@ Coming soon!
 
 {% include snippets/centered-text-home-begin %}
 
-We're constantly adding more functions to the Crownstones so they become **smarter** over time! These are the upcoming features:  **wake up light** for a smooth sunrise in the morning, and **energy usage overview** off all your devices which will be possible together with the hub.
+Elke paar maanden komen er nieuwe functies beschikbaar op de Crownstones. Ze worden vanzelf slimmer over de tijd! Binnenkort komt er bijvoorbeeld een **wekker** functie bij. Crownstone als een "wake-up light". Hiermee kunnen normale plafondlampen de zonsopgang simuleren!
 
 {% include snippets/centered-text-home-end %}
 

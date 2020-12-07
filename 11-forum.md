@@ -12,10 +12,10 @@ permalink: forum/
 
 # Forum
 
-We are using Slack. You are welcome at <http://crownstone.slack.com>!
+We have been using Slack before, but found **Discord** to be a more pleasant experience. You are welcome at our new server, called Crownstone Community which you find through this [invite link](https://discord.gg/TPYfMvV7bD).
 
-## Sign-up
+The server is more a chat server than a forum actually. However, it has benefits on top of a forum. One of them is that it is easy to also have a quick videocall if you run into trouble as a user or as a developer.
 
-You can sign up via [this link](https://join.slack.com/t/crownstone/shared_invite/enQtODQwMjM4MjY2NDY0LWU3ODI0Mzc0ZmI1OGMyZGQ2YWJiY2UwYzRmMmFkOTE4NjI5NzIzNjcyZGMyMWUwYmM1ZjBhNjVjMWUyODNlN2Y).
+Welcome!
 
 {% include snippets/bottom-margin %}

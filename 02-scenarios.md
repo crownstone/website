@@ -20,7 +20,7 @@ coming-soon:
 
 {% include snippets/slogan-begin %}
 
-Let Crownstone help you everyday 
+Crownstone saves you time
 
 {% include snippets/slogan-end %}
 
@@ -28,7 +28,7 @@ Let Crownstone help you everyday
 
 {% include snippets/centered-text-home-begin %}
 
-Small daily tasks can sometimes create a lot of hassle. Crownstone enables you to run things more **smoothly**. Here are some useful **ideas** and tips on how to use Crownstones not only with your **lights** but also with your **devices**!
+We like you to **save** time rather than **spend** time on your smart home! Here are some ideas and tips for the "handsfree" use of your lights and devices!
 
 {% include snippets/centered-text-home-end %}
 
@@ -40,13 +40,13 @@ Small daily tasks can sometimes create a lot of hassle. Crownstone enables you t
 
 ## Sunset
 
-With Crownstones your **scenes** can be based on your **presence**! Use a sunset scene  to turn on the lights when someone is present in a room and it is getting dark.   
+The sunset scene turns on the lights for you when it is getting dark. Of course it does only turn on the lights based on your **presence**!
 
 {% include snippets/container-image-relative-end %}
 
 {% include snippets/slogan-begin blue-bg='true' %}
 
-Safety is  always first!
+Safety first!
 
 {% include snippets/slogan-end %}
 
@@ -54,7 +54,7 @@ Safety is  always first!
 
 {% include snippets/centered-text-home-begin blue-bg='true' %}
 
-The **presence-aware** functionality of the Crownstones can make your home a little safer by turning off specific plugs when you are not around. For example, a particular **outlet** in which the iron is plugged can just be **turned off** when no adults are present.
+Turn off outlets when **you**, the adult, are not around! Sure, you won't forget to turn off your iron, but knowing that no one can play with it in a dangerous manner means peace of mind!
 
 {% include snippets/centered-text-home-end %}
 
@@ -66,7 +66,7 @@ The **presence-aware** functionality of the Crownstones can make your home a lit
 
 ## Nighttime bathroom
 
-With the **switchcraft** and **twilight** behaviour your **wall switch** will be able to **dim** your lights while it is dark outside. 
+Your **wall switch** will **dim** the lights in the night. This is a nice combination of our switchcraft functionality with so-called twilight behaviour.
 
 {% include snippets/container-image-relative-end %}
 
@@ -80,7 +80,7 @@ Christmas time!
 
 {% include snippets/centered-text-home-begin %}
 
-Use the **presence-aware** feature of the Crownstone to turn on your christmas tree when you are in that room. You can also set up a **smart timer** to automatically turn on your decorative lights after sunset. 
+Turn on your Christmas tree lights when you are in the living room! You can set a smart **timer** to automatically turn it on after sunset as well.
 
 {% include snippets/centered-text-home-end %}
 
@@ -90,12 +90,11 @@ Use the **presence-aware** feature of the Crownstone to turn on your christmas t
 
 {% include snippets/container-image-relative-begin img-bg='/images/kids_tv.jpg' bg-position='top center' %}
 
-## Smarter TV
+## Bedtime!
 
-With Crownstone you can also set a **smart timer** for your TV, which can be useful to trigger a time to **go to bed**. TV is **switched off** at nine o’clock during week days. Time to go to bed kids!
+Trigger a **go to bed** time for your kids by switching the television off after their favorite program. Secretly, we use this for ourselves as well... Ceiling lights turn off at twelve o'clock; time to go to bed!
 
 {% include snippets/container-image-relative-end %}
-
 
 {% include snippets/slogan-begin %}
 
@@ -107,7 +106,7 @@ Coming soon!
 
 {% include snippets/centered-text-home-begin %}
 
-We're constantly adding more functions to the Crownstones so they become **smarter** over time! These are the upcoming features:  **wake up light** for a smooth sunrise in the morning, and **energy usage overview** off all your devices which will be possible together with the hub.
+We're constantly adding more functions to the Crownstones so they become **smarter** over time! Coming soon: the Crownstone as a **wake up light**. Use your normal ceiling light to simulate the sunrise in the morning!
 
 {% include snippets/centered-text-home-end %}
 
