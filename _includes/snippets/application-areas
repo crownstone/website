@@ -1,0 +1,45 @@
+{% if include.id %}
+  {% assign areas = page.[include.id] %}
+{% else %}
+  {% assign areas = page.areas %}
+{% endif %}
+
+
+<div class="container-fluid">
+    <div class="row justify-content-center segments-padding m-0">
+        <div class="col-md-10">
+            <div class="row justify-content-center mb-3">
+
+                {% for area in areas %}
+
+                <div class="col-md-5 p-4">
+                    <div class="row align-items-end secondary-banner" style="background-image: url({{ area.image }})">
+                        <div class="row transparent-bg-segments">
+                            <div class="col-xs-8">
+                                <p class="title-segments" style="text-align: left; font-family: Lato, sans-serif; font-style: italic; font-size: 0.9rem !important; color: white !important; padding: 0; margin: 0;">
+                                    {{ area.title }}
+                                </p>
+                                <p class="description-segments">
+                                    {{ area.description }}
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                {% endfor %}
+
+                {% assign cntr = cntr | plus: 1 %}
+
+                {% assign two_items = cntr | modulo: 2 %}
+
+                {% if two_items == 0 %}
+
+                <div class="w-100"></div>
+
+                {% endif %}
+
+            </div>
+        </div>
+    </div>
+</div>

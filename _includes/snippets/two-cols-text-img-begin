@@ -1,0 +1,7 @@
+{% if include.text-right %}
+<div class="row justify-content-center align-items-center m-0 intra-padding flex-row-reverse">
+  <div class="col-md-5 intra-padding" markdown="1" style='text-align: right' id='description-small'>
+{% else %}
+<div class="row justify-content-center align-items-center m-0 intra-padding">
+  <div class="col-md-5 intra-padding" markdown="1" style='text-align: left' id='description-small'>
+{% endif %}

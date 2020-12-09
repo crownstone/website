@@ -202,6 +202,14 @@ div.description-paragraph-title{
 	padding: 1rem;
 }
 
+#description-small{
+	font-size: 1rem !important;
+}
+
+h5{
+	font-weight: 600 !important;
+}
+
 div.transparent-bg{
 	background-color: transparent;
 }
@@ -372,6 +380,11 @@ a.link-text-gray:hover{
 	div.segments-intra-padding{
 		padding: 1.3rem 1.3rem 0;
 	}
+
+	div.intra-padding{
+		padding: 1.5rem !important;
+	}
+
 
 	div.transparent-bg-segments{
 		width:              100%;
@@ -554,6 +567,10 @@ div.segments-padding{
 
 div.segments-intra-padding{
 	padding: 1.2rem 1.2rem 0;
+}
+
+div.intra-padding{
+	padding: 1rem;
 }
 
 a.title-segments{

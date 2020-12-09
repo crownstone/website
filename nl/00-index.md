@@ -96,7 +96,7 @@ Crownstone modules (kroonsteentjes) kunnen worden geplaatst achter stopcontacten
 
 {% include snippets/centered-text-home-end %}
 
-{% include snippets/centered-image-home img='/images/built-ins.png' img-alt='built-ins'%}
+{% include snippets/centered-image-home img='/images/built-ins.png' img-alt='built-ins' class='built-in-img' %}
 
 {% include snippets/full-width-container-end %}
 
