@@ -8,7 +8,7 @@ kramdown:
   parse_block_html: true
 background-image: banner-product-plug.jpg
 banner-caption: "Come join us!"
-group: [navigation, navigation-consumer-footer]
+group: [navigation-consumer-footer]
 permalink: jobs/
 ---
 {% include JB/setup %}

@@ -6,7 +6,7 @@ description: "Banen en afstudeerstages rondom artificial intelligence, smart hom
 keywords: "baan, afstudeerstage, afstuderen, stage, machine learning, kunstmatige intelligentie, artificial intelligence, internet of things, domotica, smart homes, afstudeeronderzoek, stagiair, master, afstudeeropdracht, bedrijf"
 kramdown: 
   parse_block_html: true
-group: [navigation, navigation-consumer-footer]
+group: [navigation-consumer-footer]
 lang: nl
 permalink: jobs/
 background-image: banner-product-plug.jpg

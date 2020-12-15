@@ -1,0 +1,19 @@
+<div class="container-fluid" style="background-image: url({{BASE_URL}}/images/contact-bg-real-estate.jpg)">
+    <div class="row justify-content-center m-0 p-5">
+        <div class="col-md-7">
+            <div class="row justify-content-center">
+                <p class="newsletter-text">
+                    Join the real estate developers who are making the move to more efficient, safer, and smarter homes, while also earning more revenue in less me. Crownstone is here to help you with incorporating smart home technology to your projects!
+                </p>
+            </div>
+            <div class="row justify-content-center">
+                <div class="newsletter bottom">
+                    <div class="wrapper">
+                        <script type="text/javascript">/*<![CDATA[*/var a=new Array("{{ site.contact-team.email[0] }}", "{{ site.contact-team.email[1] }}", "{{ site.contact-team.email[2] }}", "{{ site.contact-team.email[3] }}", "{{ site.contact-team.email[4] }}", "{{ site.contact-team.email[5] }}");document.write("<a href='mailto:");for(i=a.length-1;i>=0;i--){document.write(a[i])}document.write("?subject=Contact: Real estate development' class='btn newsletter__submit' style=\"text-align: center !important; align-self: center; font-family: Lato, sans-serif; font-size: 1rem; padding: 10px; color: white !important; border-color: #ccc; background-color: #ff8400; text-decoration: none\">CONTACT US</a>");/*]]>*/</script>
+                        <noscript>CONTACT US</noscript>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
