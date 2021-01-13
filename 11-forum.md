@@ -4,7 +4,6 @@ title: Forum
 header: Forum
 description: "Community forum to discuss smart homes, indoor localization, and Crownstones in particular."
 keywords: "forum, community, smart homes, indoor localization, Crownstone, Guidestone"
-group: [navigation-consumer-footer]
 markdown: true
 permalink: forum/
 ---

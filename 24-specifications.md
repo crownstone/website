@@ -39,6 +39,6 @@ permalink: specifications/
 | Variant: built-in                           | <https://shop.crownstone.rocks/products/built-in-crownstone>  |
 
 This is just a list on the very basic functionality. Take a look at the 
-[technology page]( {{ site.url }}/technology-consumer) 
+[technology page]( {{ site.url }}/technology/consumer) 
 for other features that we are working on.
 

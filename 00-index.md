@@ -45,7 +45,7 @@ segments:
   - title: OEM
     slogan: Profit from collaboration with Crownstone
     image: /images/oem.jpg
-    link: /business/product-development/
+    link: /business/oem/
 ---
 
 {% include JB/setup %}

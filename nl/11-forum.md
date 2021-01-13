@@ -2,7 +2,6 @@
 layout: page
 title: Forum
 header: Forum
-group: [navigation-consumer-footer]
 markdown: true
 lang: nl
 permalink: forum/

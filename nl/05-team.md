@@ -9,7 +9,7 @@ kramdown:
   parse_block_html: true
 banner-caption: "Ons clubje!"
 background-image: banner-team.jpg
-group: [navigation, navigation-consumer-footer]
+group: [navigation-consumer-footer]
 permalink: team/
 gallery_img_size: "200px"
 graduates-gallery:

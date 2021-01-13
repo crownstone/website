@@ -191,6 +191,18 @@ div.bannerContainer {
 	width: 100%;
 }
 
+.centered-text-large{
+	text-align: center;
+	font-family: Lato, sans-serif;
+	font-size: 1.4rem;
+	font-weight: 400;
+	font-style: italic;
+	color: #003e52;
+	margin: 3rem 1rem 3.5rem;
+	width: 100%;
+	text-decoration: none;
+}
+
 div.description-paragraph-title{
 	text-align: center;
 	font-family: Lato, sans-serif;
@@ -258,7 +270,7 @@ span.important-blue{
 }
 
 div.bg-white-container{
-	background-color: rgba(255, 255, 255, 0.6);
+	background-color: rgba(255, 255, 255, 0.9);
 	padding: 1rem;
 }
 
@@ -388,6 +400,15 @@ a.link-text-gray:hover{
 	div.transparent-bg-segments{
 		width:              100%;
 		background:         rgba(0, 62, 82, 0.6);
+		margin:             0;
+		padding:            0.2rem 1.2rem !important;
+		align-items:        center;
+		justify-content:    space-between;
+	}
+
+	div.transparent-bg-segments-orange{
+		width:              100%;
+		background:         rgba(255, 132, 0, 0.75);
 		margin:             0;
 		padding:            0.2rem 1.2rem !important;
 		align-items:        center;
@@ -624,6 +645,15 @@ div.secondary-banner{
 div.transparent-bg-segments{
 	width:              100%;
 	background:         rgba(0, 62, 82, 0.6);
+	margin:             0;
+	padding:            0.5rem;
+	align-items:        center;
+	justify-content:    space-between;
+}
+
+div.transparent-bg-segments-orange{
+	width:              100%;
+	background:         rgba(255, 132, 0, 0.75);
 	margin:             0;
 	padding:            0.5rem;
 	align-items:        center;
