@@ -1,0 +1,28 @@
+{% assign pages_list = site.pages | sort:"name" %}
+{% assign group = 'navigation-about-us-submenu' %}
+
+
+<li class="nav-item dropdown">
+    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        {% if site.active_lang == "nl" %}
+        Over ons
+        {% else %}
+        About us
+        {% endif %}
+    </a>
+    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink" style="z-index: 1001; padding: 0;">
+    {% for node in pages_list %}
+     {% if node.title != null %}
+      {% if group == null or node.group contains group %}
+       {% if page.url == node.url %}
+          <a class="dropdown-item active" href="{{ BASE_PATH }}{{node.url}}" style="border-bottom: 2px solid #ff8400; background-color: transparent; color: #ff8400">{{node.title}}</a>
+          {% else %}
+          <a class="dropdown-item inactive {{node.markup}}" href="{{ BASE_PATH }}{{node.url}}" style="background-color: transparent;">{{node.title}}</a>
+          {% endif %}
+      {% endif %}
+     {% endif %}
+    {% endfor %}
+    </div>
+</li>
+{% assign pages_list = nil %}
+{% assign group = nil %}
