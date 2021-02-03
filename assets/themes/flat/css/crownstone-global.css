@@ -217,6 +217,11 @@ div.description-paragraph-title{
 	font-size: 1rem !important;
 }
 
+#description-small-blue-bg{
+	font-size: 1rem !important;
+	color: white;
+}
+
 h5{
 	font-weight: 600 !important;
 }
@@ -873,6 +878,7 @@ div.bannerContainer.xs { height:180px; width: 100%; background-position: left ce
 .navbar .navbar-light {
 	margin-bottom: 0;
 	border-width: 0px;
+	border-bottom: 2px solid white;
 }
 
 @media (min-width: 1200px) {
@@ -901,6 +907,7 @@ div.bannerContainer.xs { height:180px; width: 100%; background-position: left ce
 	font-weight: 500;
 	color: #003e52;
 	padding: 18px 20px 17px!important;
+	border-bottom: 2px solid white;
 }
 
 .navbar-nav .right-menu{
@@ -908,11 +915,13 @@ div.bannerContainer.xs { height:180px; width: 100%; background-position: left ce
 	font-weight: 500;
 	color: #ff8400;
 	padding: 18px 20px 17px!important;
+	border-bottom: 2px solid white;
 }
 
 .navbar-nav .lang-menu{
 	padding: 18px 5px 17px !important;
 	display: block;
+	border-bottom: 2px solid white;
 }
 
 .pull-center {
