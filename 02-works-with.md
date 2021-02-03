@@ -96,6 +96,57 @@ You can use your Apple Watch to **control** your Crownstones. You can switch or 
 {% include snippets/container-image-relative-end %}
 
 
+
+{% include snippets/slogan-begin %}
+
+Integration with Google Home
+
+{% include snippets/slogan-end %}
+
+
+{% include snippets/full-width-container-begin%}
+
+{% include snippets/two-cols-centered-text-img-begin text-right='true' %}
+
+The integration with Google Home enables you to control your Crownstones with your **voice**. Useful when you want your Crownstones to do something different from their current **behaviour.**
+ 
+{% include snippets/two-cols-centered-text-img-end img='/images/hey-google.png' img-alt='hey-google' %}
+
+{% include snippets/full-width-container-end %}
+
+
+{% include snippets/full-width-container-begin%}
+
+{% include snippets/two-cols-centered-text-img-begin %}
+
+##### If you are in the mood to read a book... 
+
+<p>&nbsp;</p>
+
+"Hey Google, turn reading lamp on!"
+ 
+{% include snippets/two-cols-centered-text-img-end img='/images/google-integration-1.jpg' img-alt='ga-1' %}
+
+{% include snippets/full-width-container-end %}
+
+
+{% include snippets/full-width-container-begin%}
+
+{% include snippets/two-cols-centered-text-img-begin text-right='true' %}
+
+##### You can include your Crownstones into your Google **routines**
+
+<p>&nbsp;</p>
+
+"Ok Google, Movie Time!"
+ 
+{% include snippets/two-cols-centered-text-img-end img='/images/google-integration-2.jpg' img-alt='ga-2' %}
+
+{% include snippets/full-width-container-end %}
+
+{% include snippets/centered-text-large text='Learn more about the integration with Google Home' link='/works-with' %}
+
+
 {% include snippets/slogan-begin %}
 
 Coming soon!
@@ -104,6 +155,6 @@ Coming soon!
 
 {% include snippets/margin %}
 
-{% include snippets/coming-soon orange-bg='true' %}
+{% include snippets/coming-soon orange-bg='true' %} 
 
 {% include snippets/margin %}
