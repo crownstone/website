@@ -910,6 +910,37 @@ div.bannerContainer.xs { height:180px; width: 100%; background-position: left ce
 	border-bottom: 2px solid white;
 }
 
+.dropdown-menu.show{
+	z-index: 1001;
+}
+
+div.dropdown-menu{
+	padding: 0;
+}
+
+a.dropdown-item{
+	border-bottom: 2px solid white;
+	background-color: transparent;
+}
+
+a.dropdown-item.active{
+	border-bottom: 2px solid #ff8400;
+	color: #ff8400 !important;
+	background-color: transparent;
+}
+
+a.dropdown-item:hover{
+	border-bottom: 2px solid #003e52;
+	color: #003e52 !important;
+	background-color: transparent;
+}
+
+a.dropdown-item:focus{
+	border-bottom: 2px solid #003e52;
+	color: #003e52 !important;
+	background-color: transparent;
+}
+
 .navbar-nav .right-menu{
 	font-size: 1rem;
 	font-weight: 500;

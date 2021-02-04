@@ -1,5 +1,5 @@
 <li class="nav-item accent">
-	<a href="https://shop.crownstone.rocks?launch={{ site.active_lang }}&ref=http://crownstone.rocks/{{ site.active_lang}}{{ page.url }}" class="nav-link right-menu">
+	<a href="https://shop.crownstone.rocks?launch={{ site.active_lang }}&ref=http://crownstone.rocks/{{ site.active_lang}}{{ page.url }}" class="nav-link right-menu" style="border-bottom: 2px solid white">
 		<i class="el el-shopping-cart"></i>
 		{% if site.active_lang == "nl" %}
 		Winkel
@@ -9,7 +9,7 @@
 	</a>
 </li>
 <li class="nav-item accent">
-	<a href="https://subscribe.crownstone.rocks/?launch={{ site.active_lang }}&ref=http://crownstone.rocks/{{ site.active_lang}}{{ page.url }}" class="nav-link right-menu">
+	<a href="https://subscribe.crownstone.rocks/?launch={{ site.active_lang }}&ref=http://crownstone.rocks/{{ site.active_lang}}{{ page.url }}" class="nav-link right-menu" style="border-bottom: 2px solid white">
 		<i class="el el-user"></i>
 		{% if site.active_lang == "nl" %}
 		Inloggen
@@ -25,6 +25,6 @@
 	{% assign nav-url = page.url | prepend:tongue | prepend:'/' | prepend:site.baseurl | prepend:site.url %}
 	{% endif %}
 	<!-- note the space before nav-url, without it polyglot will relativize it: https://github.com/untra/polyglot -->
-	<a {% if tongue == site.active_lang %}style="font-weight: bold;"{% endif %} href=" {{ nav-url }}" class="nav-link lang-menu">{{ tongue }}</a>
+	<a {% if tongue == site.active_lang %}style="font-weight: bold;"{% endif %} href=" {{ nav-url }}" class="nav-link lang-menu" style="border-bottom: 2px solid white">{{ tongue }}</a>
 </li>
 {% endfor %}

@@ -6,7 +6,7 @@ description: "Banen en afstudeerstages rondom artificial intelligence, smart hom
 keywords: "baan, afstudeerstage, afstuderen, stage, machine learning, kunstmatige intelligentie, artificial intelligence, internet of things, domotica, smart homes, afstudeeronderzoek, stagiair, master, afstudeeropdracht, bedrijf"
 kramdown: 
   parse_block_html: true
-group: [navigation-consumer-footer]
+group: [navigation-about-us-submenu, navigation-consumer-footer]
 lang: nl
 permalink: jobs/
 background-image: banner-product-plug.jpg
@@ -43,7 +43,7 @@ Jij wilt een belangrijke rol vervullen in een innovatief bedrijf! Je houdt er va
 
 ## Email 
 
-{% include snippets/email subject="Sollicitatie Crownstone" to="ons" prefix="Email" postfix="als we je interesse hebben gewekt!" %}
+{% include snippets/email subject="Sollicitatie Crownstone" to=" ons " prefix="Email" postfix="als we je interesse hebben gewekt!" %}
 		
 {% include snippets/column-end %}
 {% include snippets/column-begin %}
@@ -66,7 +66,7 @@ Wat betreft de onderwerpen waar onze huidige masterstudenten op dit moment mee b
 
 Je bent uiteraard welkom als je een interessant verhaal hebt. :-) 
 
-{% include snippets/email subject="Open sollicitatie Crownstone" to="ons" prefix="Email" postfix="je CV en begeleidende motivatie" %}
+{% include snippets/email subject="Open sollicitatie Crownstone" to=" ons " prefix="Email" postfix="je CV en begeleidende motivatie" %}
 
 {% include snippets/column-end %}
 {% include snippets/row-end %}
@@ -154,10 +154,9 @@ Neem een kijkje in onze [hall of fame]({{ site.url }}/hall-of-fame) om een idee 
 
 Voorbeelden van bedrijven waar onze afstudeerders zijn terechtgekomen zijn technologiebedrijven zoals ASML, Facebook, Samsung en Amadeus, consultantiebedrijven zoals ORTEC, ARUP en startups in kunstmatige intelligentie zoals Signal Ocean, Sense en stealthy startups die je niet eens zal zien op hun LinkedIn pagina. 
 
-{% include snippets/email subject="Afstuderen Crownstone" to="ons" prefix="Neem met" postfix="contact op om je mogelijkheden te onderzoeken!" %}
+{% include snippets/email subject="Afstuderen Crownstone" to=" ons " prefix="Neem met" postfix="contact op om je mogelijkheden te onderzoeken!" %}
 
 {% include snippets/column-end %}
 {% include snippets/row-end %}
 
 {% include snippets/bottom-margin %}
-

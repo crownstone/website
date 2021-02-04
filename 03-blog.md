@@ -3,7 +3,7 @@ layout: page
 title : Blog
 header : Blog
 description: "Blog written by the Crownstone team"
-group: [navigation-consumer-footer]
+group: [navigation-about-us-submenu, navigation-consumer-footer]
 permalink: blog/
 background-image: banner-blog.jpg
 banner-caption: "Daytime stories"
