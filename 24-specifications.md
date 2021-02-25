@@ -73,5 +73,6 @@ examples:
 | Location-based messages                     | Send a message just when someone enters a room                |
 | Multiple users                              | Only turn off the lights when everyone leaves a room          |
 | Firmware updates (new stuff!)               | Through the Crownstone app (approx. every 2-3 months)         |
+| Very large mesh                             | Support for 255 devices in the Bluetooth Mesh                 |
 
 Examples of features that are currently worked on are the indoor positioning of **wearables**, the ability to run your own Arduino code on the Crownstones, and all kinds of integrations.
