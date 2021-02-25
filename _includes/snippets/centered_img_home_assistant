@@ -1,0 +1,21 @@
+{% assign ci-image = include.img %}
+
+<div class="row justify-content-center m-0 p-0">
+    <div class="col-md-10 pb-5 pl-3 pr-3">
+        <img src="{{ ci-image }}" alt="{{include.img-alt}}" style="width:100%;cursor:pointer" onclick="onClick(this)">
+    </div>
+</div>
+
+<div id="{{include.zoom-modal}}" class="w3-modal" style='padding-top: 10% !important' onclick="this.style.display='none'">
+  <span class="w3-button w3-hover-red w3-xlarge w3-display-topright">&times;</span>
+  <div class="w3-modal-content w3-animate-zoom">
+    <img id="{{include.img-alt}}" style="transform: scale(1.5);">
+  </div>
+</div>
+
+<script>
+function onClick(element) {
+  document.getElementById("{{include.img-alt}}").src = element.src;
+  document.getElementById("{{include.zoom-modal}}").style.display = "block";
+}
+</script>

@@ -691,6 +691,11 @@ span.text-btn:hover{
 	text-decoration: none;
 }
 
+
+.zoom-img:hover > img {
+	transform: scale(1.5);
+}
+
 p.newsletter-text{
 	text-align: center;
 	font-family: Lato, sans-serif;
