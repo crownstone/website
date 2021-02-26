@@ -23,8 +23,7 @@ If at any point you are unsure of what to do, stop installation immediately and 
 Switchcraft is an easy adaptation of existing **wall switches**, allowing them to work together with
 Crownstones. If your wall switch supports traditional **multiway** switching (see diagram below), you can use Switchcraft. 
 
-{% include snippets/centered-image-large img='/images/installation/switchcraft/multiway.png' img-alt='multiway' long-img='true' %}
-
+![Multiway switch]({{ site.url }}/images/installation/switchcraft/multiway.png "Multiway switch" ){: .img-center}{: style="max-width: 60vw"}
 
 {% include snippets/row-begin %}
 {% include snippets/column-begin colsize="12" %}
@@ -34,8 +33,7 @@ Crownstones. If your wall switch supports traditional **multiway** switching (se
 {% include snippets/column-end %}
 {% include snippets/row-end %}
 
-{% include snippets/centered-image-large img='/images/installation/switchcraft/fuse_box.png' img-alt='fuse_box' long-img='true' %}
-
+![Fuse box]({{ site.url }}/images/installation/switchcraft/fuse_box.png "Fuse box" ){: .img-center}{: style="max-width: 60vw"}
 
 {% include snippets/row-begin %}
 {% include snippets/column-begin colsize="12" %}
@@ -46,8 +44,7 @@ Open up your wall switch and connect the wires as shown in diagram (2). If you h
 {% include snippets/column-end %}
 {% include snippets/row-end %}
 
-{% include snippets/centered-image-large img='/images/installation/switchcraft/diagrams.png' img-alt='diagrams' long-img='true' %}
-
+![Diagrams]({{ site.url }}/images/installation/switchcraft/diagrams.png "Switchcraft diagrams" ){: .img-center}{: style="max-width: 60vw"}
 
 {% include snippets/row-begin %}
 {% include snippets/column-begin colsize="12" %}
@@ -57,8 +54,7 @@ Open up your wall switch and connect the wires as shown in diagram (2). If you h
 {% include snippets/column-end %}
 {% include snippets/row-end %}
 
-{% include snippets/centered-image-large img='/images/installation/switchcraft/wall_switch.jpg' img-alt='wall_switch' long-img='true' %}
-
+![Wall switch]({{ site.url }}/images/installation/switchcraft/wall_switch.jpg "Wall switch" ){: .img-center}{: style="max-width: 60vw"}
 
 {% include snippets/row-begin %}
 {% include snippets/column-begin colsize="12" %}
@@ -68,4 +64,4 @@ Open up your wall switch and connect the wires as shown in diagram (2). If you h
 {% include snippets/column-end %}
 {% include snippets/row-end %}
 
-{% include snippets/centered-image-large img='/images/installation/switchcraft/app.png' img-alt='app' %}
+![Crownstone app]({{ site.url }}/images/installation/switchcraft/app.png "Crownstone app" ){: .img-center}{: style="max-width: 60vw"}

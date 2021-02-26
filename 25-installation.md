@@ -7,16 +7,16 @@ background-image-home: banner-installation.jpg
 installations:
   - slogan: Installation behind single socket
     image: /images/installation/single/8.png
-    link: /installation/single-outlet/
+    link: /installation/single-outlet
   - slogan: Installation behind double socket
     image: /images/installation/double/7.png
-    link: /installation/double-outlet/
+    link: /installation/double-outlet
   - slogan: Installation behind ceiling lights
     image: /images/installation_ceiling-lamp.jpg
-    link: /installation/ceiling-light/
+    link: /installation/ceiling-light
   - slogan: Switchcraft installation
     image: /images/switchcraft.png
-    link: /installation/switchcraft/
+    link: /installation/switchcraft
 steps:
   - title: STEP 1
     description: Make sure you have a light that is 
