@@ -22,8 +22,7 @@ If at any point you are unsure of what to do, stop installation immediately and 
 {% include snippets/column-end %}
 {% include snippets/row-end %}
 
-{% include snippets/centered-image-large img='/images/installation/ceiling/cs_inside_lamp.png' img-alt='cs_inside_lamp' %}
-
+![cs_inside_lamp_zoom]({{ site.url }}/images/installation/ceiling/cs_inside_lamp_zoom.png "Zoom in of Crownstone inside ceiling lamp"){: .img-center}{: style="max-width: 30vw"}
 
 {% include snippets/row-begin %}
 {% include snippets/column-begin colsize="12" %}
@@ -33,8 +32,7 @@ If at any point you are unsure of what to do, stop installation immediately and 
 {% include snippets/column-end %}
 {% include snippets/row-end %}
 
-{% include snippets/centered-image-large img='/images/installation/ceiling/fuse_box.png' img-alt='fuse_box' long-img='true' %}
-
+![fuse_box]({{ site.url }}/images/installation/ceiling/fuse_box.png "Fuse box" ){: .img-center}{: style="max-width: 70vw"}
 
 {% include snippets/row-begin %}
 {% include snippets/column-begin colsize="12" %}
@@ -44,8 +42,7 @@ If at any point you are unsure of what to do, stop installation immediately and 
 {% include snippets/column-end %}
 {% include snippets/row-end %}
 
-{% include snippets/centered-image-large img='/images/installation/ceiling/ceiling-schema.png' img-alt='schematic' long-img='true' %}
-
+![ceiling_schema]({{ site.url }}/images/installation/ceiling/ceiling-schema.png "Wires Schema" ){: .img-center}{: style="max-width: 70vw"}
 
 {% include snippets/row-begin %}
 {% include snippets/column-begin colsize="12" %}
@@ -55,8 +52,7 @@ If at any point you are unsure of what to do, stop installation immediately and 
 {% include snippets/column-end %}
 {% include snippets/row-end %}
 
-{% include snippets/centered-image-large img='/images/installation/ceiling/ceiling-overview.png' img-alt='overview' long-img='true' %}
-
+![ceiling_overview]({{ site.url }}/images/installation/ceiling/ceiling-overview.png "Wires Overview" ){: .img-center}{: style="max-width: 70vw"}
 
 {% include snippets/row-begin %}
 {% include snippets/column-begin colsize="12" %}
@@ -67,8 +63,7 @@ Your ceiling light is now finished, put it back up and turn the power back on at
 {% include snippets/column-end %}
 {% include snippets/row-end %}
 
-{% include snippets/centered-image-large img='/images/installation/ceiling/cs_inside_lamp_zoom.png' img-alt='inside_lamp_zoom' %}
-
+![cs_inside_lamp]({{ site.url }}/images/installation/ceiling/cs_inside_lamp.png "Crownstone inside lamp" ){: .img-center}{: style="max-width: 70vw"}
 
 {% include snippets/row-begin %}
 {% include snippets/column-begin colsize="12" %}
@@ -79,16 +74,4 @@ Hold your smartphone near the ceiling light with your Crownstone while your new 
 {% include snippets/column-end %}
 {% include snippets/row-end %}
 
-{% include snippets/centered-image-large img='/images/installation/ceiling/app_ceiling.png' img-alt='app_ceiling' long-img='true' %}
-
-
-{% include snippets/row-begin %}
-{% include snippets/column-begin colsize="12" %}
-
-In case the built-in Crownstone does not fit behind the ceiling light, it can be placed next to it just as shown in the picture below. 
-It is not ideal, but it is possible.
-
-{% include snippets/column-end %}
-{% include snippets/row-end %}
-
-{% include snippets/centered-image-large img='/images/installation/ceiling/cs_outside_lamp.jpg' img-alt='cs_outside_lamp' %}
+![app_ceiling]({{ site.url }}/images/installation/ceiling/app_ceiling.png "Crownstone app" ){: .img-center}{: style="max-width: 70vw"}

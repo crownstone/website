@@ -7,16 +7,16 @@ background-image-home: banner-installation.jpg
 installations:
   - slogan: Installation behind single socket
     image: /images/installation/single/8.png
-    link: /installation/single-outlet/
+    link: /installation/single-outlet
   - slogan: Installation behind double socket
     image: /images/installation/double/7.png
-    link: /installation/double-outlet/
+    link: /installation/double-outlet
   - slogan: Installation behind ceiling lights
     image: /images/installation_ceiling-lamp.jpg
-    link: /installation/ceiling-light/
+    link: /installation/ceiling-light
   - slogan: Switchcraft installation
     image: /images/switchcraft.png
-    link: /installation/switchcraft/
+    link: /installation/switchcraft
 steps:
   - title: STEP 1
     description: Make sure you have a light that is 
@@ -75,7 +75,7 @@ It's time to install your Crownstones!
 
 {% include snippets/two-cols-centered-text-img-blue-bg-begin%}
 
-Crownstones can be placed behind single or double **power ou   tlets** as well as behind your **ceiling lights**. For detailed installation instructions, check the links below. 
+Crownstones can be placed behind single or double **power outlets** as well as behind your **ceiling lights**. For detailed installation instructions, check the links below. 
  
 {% include snippets/two-cols-centered-text-img-blue-bg-end img='/images/install_cs.png' img-alt='install_crownstone'%}
 
