@@ -129,3 +129,7 @@ Clicking on the user field will show all the users who are in your sphere. Click
 In the service data section you'll need to provide the entity ID and device name of your Google cast device. You can find those in Entities and Devices in the Configuration tab. Lastly, you need to provide an URI to the Spotify playlist, which can be found in Spotify by going to the playlist options -> Share -> Copy Spotify URI. Optionally you can provide “random_song” to turn on shuffle.
 
 {% include snippets/centered_img_home_assistant img='/attachments/home-assistant/HA_automation_4.png' img-alt='Home Assistant automation_4' zoom-modal='modal-automation_4' %}
+
+## More information 
+
+You can go to this [page]({{ site.url }}/integrations/home-assistant-faq/) to check some of the most frequent questions among Home Assistant users when setting up the integration with Crownstone.

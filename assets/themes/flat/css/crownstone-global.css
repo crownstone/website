@@ -820,17 +820,17 @@ div.bannerContainer.xs h1 {
 div.bannerContainer.xl { 
 	height:1050px;
 	width: 100%;
-	background-position: left center;
+	background-position: center;
 }
 div.bannerContainer.lg { 
 	height:750px;
 	width: 100%;
-	background-position: left center;
+	background-position: center;
 }
-div.bannerContainer.mdlg { height:550px; width: 100%; background-position: left center;}
-div.bannerContainer.md { height:450px; width: 100%; background-position: left center;}
-div.bannerContainer.sm { height:350px; width: 100%; background-position: left center;}
-div.bannerContainer.xs { height:180px; width: 100%; background-position: left center;}
+div.bannerContainer.mdlg { height:550px; width: 100%; background-position: center;}
+div.bannerContainer.md { height:450px; width: 100%; background-position: center;}
+div.bannerContainer.sm { height:350px; width: 100%; background-position: center;}
+div.bannerContainer.xs { height:180px; width: 100%; background-position: center;}
 
 .container-bottom-margin {
 	margin-bottom: 45px;
