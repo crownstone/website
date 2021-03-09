@@ -9,12 +9,12 @@ skip-newsletter: true
 permalink: business/residential-real-estate/
 background-image-home: banner-real-estate.jpg
 installations:
-  - slogan: Information for installers 
+  - slogan: Information for installers
     image: /images/external_installer.jpg
-    link: /nl/installation/
-  - slogan: Installation via Crownstone 
+    link: /installation/
+  - slogan: Installation via Crownstone
     image: /images/cs_installer.jpg
-    link: /nl/installation/
+    link: /installation/
 ---
 
 {% include JB/setup %}

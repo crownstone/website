@@ -12,7 +12,7 @@ installations:
     link: /installation/
   - title: Discover our smart subscription
     image: /images/installation.jpg
-    link: https://subscribe.crownstone.rocks/welcome?dest=smartscenarios&ref=http://crownstone.rocks/product/
+    link: /campaigns/cs-subscription/
   - title: Check the installation manuals
     image: /images/self_installation.jpg
     link: /installation/
