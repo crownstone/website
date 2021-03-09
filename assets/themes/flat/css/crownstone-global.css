@@ -1209,7 +1209,7 @@ p.sitemap {
 }
 
 .tag:hover {
-	background-color: #003e52;
+	background-color: #1f1f1f;
 }
 
 .tag a:hover {
@@ -1217,7 +1217,7 @@ p.sitemap {
 }
 
 .tag:hover:before {
-	background-color: #003e52;
+	background-color: #1f1f1f;
 }
 
 .tag_box {
@@ -1893,7 +1893,12 @@ table {
 	margin: 30px auto;
 	text-align: left;
 	width: 100%;
-}	
+}
+
+.post-container table {
+	background: white;
+	color: #003e52;
+}
 
 /* Header cell */
 th {
@@ -1902,7 +1907,7 @@ th {
 	font-weight: bold;
 	padding: 10px 15px;
 	position: relative;
-	text-shadow: 0 1px 0 #000;	
+	text-shadow: 0 1px 0 #000;
 }
 
 th:after {
@@ -1924,6 +1929,11 @@ th:first-child {
 th:last-child {
 }
 
+.post-container th {
+	background: #ff8400;
+	color: white;
+}
+
 td {
 	border-right: 1px solid #fff;
 	border-top: 1px solid #fff;
@@ -1934,11 +1944,11 @@ td {
 
 td:first-child {
 	box-shadow: inset 1px 0 0 #fff;
-}	
+}
 
 td:last-child {
 	box-shadow: inset -1px 0 0 #fff;
-}	
+}
 
 tr:nth-child(odd) td {
 	background: #f1f1f1;

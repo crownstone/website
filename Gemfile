@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem "nokogiri", ">= 1.10.4"
+gem "nokogiri", ">= 1.11"
 
 gem 'jekyll', '>= 4.1.1'
 gem 'RedCloth'
