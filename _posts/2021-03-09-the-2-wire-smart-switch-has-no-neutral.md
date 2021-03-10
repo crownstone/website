@@ -42,7 +42,7 @@ A third solution is so-called energy-harvesting. An energy-harvesting switch (ch
 
 The solution in the Crownstone modules is quite different. The Crownstone measures the input voltage on a high frequency (around 5 kHz). For a single sine wave - in Europe at 50 Hz - this results in a lot of samples, around a 100. We use this information to recognize temporary dips in the power supply. This, we can use to our advantage to recognize dips caused by a light switch! The Crownstone is mounted at the ceiling light. That is also often the most convenient location (with respect to space). We configure the light switch as a **pulse switch**, in particular a break switch.
 
-![Switchcraft wiring diagram]({{ site.url }}/attachments/switchcraft_wiring_diagram.png)
+![Switchcraft wiring diagram]({{ site.url }}/attachments/installation/en/switchcraft_wiring_diagram.png)
 
 The pulse (the temporary disconnect) travels to the Crownstone and can be recognized as such. This allows the Crownstone to switch state. This has quite a few advantages:
 
