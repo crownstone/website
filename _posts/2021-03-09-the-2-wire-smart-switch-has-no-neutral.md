@@ -59,4 +59,6 @@ There are always downsides imaginable. However, with careful considerations ther
 
 ## Conclusion
 
+![Switch with kid]({{ site.url }}/attachments/blog/switch-and-kid.png)
+
 It is important to be able to use the physical light switch and be able to use digital commands at the same time. There are only a few ways to do this and each have their own disadvantages. Crownstone uses a new method that has many benefits compared to the existing methods. It works with a two-wire setup so it can be used to retrofit buildings. It works with LEDs, even if they use almost no power to light up. We think it's a neat function and we hope lot's of people will benefit from physical and digital switching alike!
