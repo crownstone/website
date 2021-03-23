@@ -2,7 +2,7 @@
 layout           : page
 title            : "Integrate Crownstone with Home Assistant"
 header           : "Integrate Crownstone with Home Assistant"
-description      : "Crownstone brings the functionality of switch, dimming, and persence information using Crownstones to Home Assistant"
+description      : "Crownstone brings the functionality of switch, dimming, and presence information using Crownstones to Home Assistant"
 markdown         : true
 background-image : banner-home-assistant.jpg
 permalink        : integrations/home-assistant/

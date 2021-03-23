@@ -12,7 +12,7 @@
                 {% for segment in segments %}
 
                 <div class="col-md-5 segments-intra-padding">
-                    <div class="row align-items-end secondary-banner" style="background-image: url({{ segment.image }})">
+                    <div class="row align-items-end secondary-banner" onclick="location.href='{{ segment.link }}'" style="background-image: url({{ segment.image }}); cursor: pointer">
                         <div class="row transparent-bg-segments">
                             <div class="col-xs-8">
                                 <a class="title-segments" href= "{{ segment.link }}" style="text-align: left; font-family: Lato, sans-serif; font-style: italic; font-size: 0.9rem !important; color: white !important; padding: 0; margin: 0;">

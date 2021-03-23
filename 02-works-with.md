@@ -9,8 +9,10 @@ background-image-home: banner-works-with.jpg
 coming-soon:
     - title: Integration with Philips Hue 
       image: /images/hue.jpg
+      link: /will-be-up-soon/
     - title: Integration with Homey
       image: /images/homey.jpg
+      link: /will-be-up-soon/
 ---
 
 
@@ -144,7 +146,7 @@ The integration with Google Home enables you to control your Crownstones with yo
 
 {% include snippets/full-width-container-end %}
 
-{% include snippets/centered-text-large text='Learn more about the integration with Google Home' link='/works-with' %}
+{% include snippets/centered-text-large text='Learn more about the integration with Google Home' link='/integrations/google-home/' %}
 
 
 {% include snippets/slogan-begin %}

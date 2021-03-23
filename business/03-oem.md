@@ -10,15 +10,19 @@ areas:
   - image: /images/position.jpg
     title: Indoor positioning
     description: Location applications
+    link: /will-be-up-soon/
   - image: /images/assets.jpg
     title: Asset tracking
     description: Location applications
+    link: /will-be-up-soon/
   - image: /images/e-monitoring.jpg
     title: Energy monitoring
     description: Power applications
+    link: /will-be-up-soon/
   - image: /images/anomaly.jpg
     title: Anomaly detection
     description: Power applications
+    link: /will-be-up-soon/
 ---
 
 {% include JB/setup %}

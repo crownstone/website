@@ -10,8 +10,10 @@ background-image-home: banner-scenarios.jpg
 coming-soon:
     - title: Wake up light
       image: /images/wakeup.jpg
+      link: /will-be-up-soon/
     - title: Energy usage overview
       image: /images/energy_usage.jpg
+      link: /will-be-up-soon/
 ---
 
 {% include JB/setup %}

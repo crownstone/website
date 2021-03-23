@@ -14,7 +14,7 @@ installations:
     link: /installation/
   - slogan: Installation via Crownstone
     image: /images/cs_installer.jpg
-    link: /installation/
+    link: /will-be-up-soon/
 ---
 
 {% include JB/setup %}

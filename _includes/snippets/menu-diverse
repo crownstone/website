@@ -1,22 +1,29 @@
-<li class="nav-item accent">
-	<a href="https://shop.crownstone.rocks?launch={{ site.active_lang }}&ref=http://crownstone.rocks/{{ site.active_lang}}{{ page.url }}" class="nav-link right-menu" style="border-bottom: 2px solid white">
-		<i class="el el-shopping-cart"></i>
-		{% if site.active_lang == "nl" %}
-		Winkel
-		{% else %}
-		Shop
-		{% endif %}
-	</a>
-</li>
-<li class="nav-item accent">
-	<a href="https://subscribe.crownstone.rocks/?launch={{ site.active_lang }}&ref=http://crownstone.rocks/{{ site.active_lang}}{{ page.url }}" class="nav-link right-menu" style="border-bottom: 2px solid white">
-		<i class="el el-user"></i>
-		{% if site.active_lang == "nl" %}
-		Inloggen
-		{% else %}
-		Login
-		{% endif %}
-	</a>
+<li class="nav-item dropdown">
+    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        {% if site.active_lang == "nl" %}
+        Waar te koop
+        {% else %}
+        Where to buy
+        {% endif %}
+    </a>
+    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink" style="z-index: 1001; padding: 0;">
+    <a class="dropdown-item {{node.markup}}" href="https://shop.crownstone.rocks?launch={{ site.active_lang }}&ref=http://crownstone.rocks/{{ site.active_lang}}{{ page.url }}" style="background-color: transparent; color: #ff8400">
+        <i class="el el-shopping-cart" style="margin-right: 0.2rem"></i>
+        {% if site.active_lang == "nl" %}
+        Winkel
+        {% else %}
+        Shop
+        {% endif %}
+    </a>
+    <a class="dropdown-item inactive {{node.markup}}" href="https://subscribe.crownstone.rocks/welcome?ref=http://crownstone.rocks/{{ site.active_lang}}{{ page.url }}" style="background-color: transparent; color: #ff8400">
+            <i class="el el-user" style="margin-right: 0.2rem"></i>
+            {% if site.active_lang == "nl" %}
+            Abonnement
+            {% else %}
+            Subscription
+            {% endif %}
+        </a>
+    </div>
 </li>
 {% for tongue in site.languages %}
 <li class="nav-item">

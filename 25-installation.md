@@ -88,7 +88,7 @@ Installation options
 
 {% include snippets/slogan-end %}
 
-{% include snippets/installation_options %}
+{% include snippets/installation-page-options %}
 
 
 {% include snippets/container-image-relative-begin img-bg='/images/dimmed_lamp.jpg' bg-position='bottom left' top-alignment='true'%}

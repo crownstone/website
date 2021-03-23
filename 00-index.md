@@ -30,22 +30,22 @@ features:
     title: Energy monitor
     description: View your energy consumption per device in real time
 segments:
-  - title: Consumers
-    slogan: Create your own smart home
-    image: /images/chilling_living_room.jpg
-    link: /product/
-  - title: Subscribers
-    slogan: Check out our subscription
-    image: /images/dad_and_son.jpg
-    link: https://subscribe.crownstone.rocks/welcome?dest=smartscenarios&ref=crownstone.rocks&loc=subscribers
-  - title: Real estate developers
-    slogan: Start selling smarter homes
-    image: /images/rotterdam_real_state.jpg
-    link: /business/residential-real-estate/
-  - title: OEM
-    slogan: Profit from collaboration with Crownstone
-    image: /images/oem.jpg
-    link: /business/oem/
+  - title: "Consumers"
+    slogan: "Create your own smart home"
+    image: "/images/chilling_living_room.jpg"
+    link: "/product/"
+  - title: "Subscribers"
+    slogan: "Check out our subscription"
+    image: "/images/dad_and_son.jpg"
+    link: "/campaigns/cs-subscription/"
+  - title: "Real estate developers"
+    slogan: "Start selling smarter homes"
+    image: "/images/rotterdam_real_state.jpg"
+    link: "/business/residential-real-estate/"
+  - title: "OEM"
+    slogan: "Profit from collaboration with Crownstone"
+    image: "/images/oem.jpg"
+    link: "/business/oem/"
 ---
 
 {% include JB/setup %}
@@ -129,4 +129,3 @@ A Crownstone is like a miniaturized smartphone. There are many apps and function
 {% include snippets/full-width-container-end %}
 
 {% include snippets/customer-segments %}
-
