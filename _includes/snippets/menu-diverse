@@ -1,9 +1,9 @@
 <li class="nav-item dropdown">
     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
         {% if site.active_lang == "nl" %}
-        Waar te koop
+        Prijzen
         {% else %}
-        Where to buy
+        Prices
         {% endif %}
     </a>
     <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink" style="z-index: 1001; padding: 0;">
