@@ -169,11 +169,58 @@ There are more internships available that are not necessarily tied to a graduati
 
 {% include snippets/internship-begin %}
 
-## Low-level Dimming
+## Power Monitoring
 
-Sophisticated Analog-Digital conversion tasks to improve (1) leading edge, trailing edge dimming on Crownstones, (2) recognition of physical switch events (coined switchcraft), e.g. through curve fitting.
+A nice assignment for a student electrical engineering at HBO level or beyond. Knowledge of Altium is required.
+You will learn to (1) design a simple board to read out smart meter data and to (2) design a complex board to
+measure power inductively.
 
-{% include snippets/internship-end urlpdf="https://docs.google.com/document/d/1Av-BQYIAL3fkytEzVmFzdqQQGtkaU-OvLR6N-WH3xew/export?format=pdf" %}
+{% include snippets/internship-end urlpdf="https://docs.google.com/document/d/1mBpddjCNsu16h54GJ0SducPJ_eBEnQ-jRb8agE6R8DM/export?format=pdf" %}
+
+{% include snippets/internship-begin %}
+
+## KNX
+
+If you have done the [minor domotica](https://domotica.nl/2019/03/22/minor-domotica-hogeschool-utrecht/) at Utrecht, this is a perfect assignment for you. You will apply your knowledge about KNX to make a connection with the Crownstone
+system. This would allow any KNX installation to make use of our indoor localization functions!
+
+{% include snippets/internship-end urlpdf="https://docs.google.com/document/d/125ehPizznziib5y5g_qy1pnDHlELFvXeDPBlIlzRrj0/export?format=pdf" %}
+
+{% include snippets/internship-begin %}
+
+## Microapp store
+
+One of the new upcoming features of Crownstone is that they can run pieces of code written using the Arduino
+environment. We call these microapps. People should be able to use micoapps from others. For this we need a complex
+frontend and backend. Perfect if you want to become a true typescript expert!
+
+{% include snippets/internship-end urlpdf="https://docs.google.com/document/d/1OJ8LOJtUe1WAHl2SsoJWk_ybcw1aJCa76u8io5mPYM4/export?format=pdf" %}
+
+{% include snippets/internship-begin %}
+
+## Node-RED
+
+Crownstone is integrated with Google Home, Alexa, and Home Assistant. Node-RED is a home automation
+platform that is used a lot internationally. The preferred way to incorporate it is by providing an MQTT interface
+and integrate with that.
+
+{% include snippets/internship-end urlpdf="https://docs.google.com/document/d/1e5NKftzUI22oxefR_hGX-asgg1HBY7flgQ-r8PJvFmQ/export?format=pdf" %}
+
+{% include snippets/row-end %}
+
+{% include snippets/divider %}
+
+{% include snippets/row-begin %}
+
+{% include snippets/internship-begin %}
+
+## SmartThings
+
+The SmartThings hub by Samsung is a home automation hub that is sold as much as the Homey in the Netherlands. You will
+be integrating with this hub using the Crownstone cloud services. Bluetooth is not enabled on the hub, but who knows,
+maybe you will be able to convince engineers at Samsung to enable it as well!
+
+{% include snippets/internship-end urlpdf="https://docs.google.com/document/d/188fesEiinP1ajd0u3HSicjcMm99xGSvFLFhDWCBabvw/export?format=pdf" %}
 
 {% include snippets/internship-begin %}
 
@@ -182,7 +229,6 @@ Sophisticated Analog-Digital conversion tasks to improve (1) leading edge, trail
 Create a professional style guide for internal and external use building on buyer personas, consolidating the brand's value, core principles, and establishing the brand's voice.
 
 {% include snippets/internship-end urlpdf="https://docs.google.com/document/d/1hpCZT5TnMc_YiXm8tKQFESZaaMz45RolhnTCxwqq1oA/export?format=pdf" %}
-
 
 {% include snippets/row-end %}
 
