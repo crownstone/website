@@ -1,9 +1,11 @@
 ---
 layout: page
-title: Home
+title: Welcome
 hide_title: true
 twitter: true
 header: Home
+description: "Crownstones use your presence to turn on devices as well as dim the lights."
+keywords: "switch, smart switch, dimmer, energy meter, smart meter, smart home, save energy, Homey, Philips Hue, Google Home"
 group: [navigation, navigation-consumer-footer]
 background-image-home: banner-home-page.jpg
 tags: [smart home, smart plug, switch, dimmer, power monitor, bluetooth, ble, bluetooth low energy, indoor positioning]
@@ -43,7 +45,7 @@ segments:
     image: "/images/rotterdam_real_state.jpg"
     link: "/business/residential-real-estate/"
   - title: "OEM"
-    slogan: "Profit from collaboration with Crownstone"
+    slogan: "Start collaborating with us"
     image: "/images/oem.jpg"
     link: "/business/oem/"
 ---

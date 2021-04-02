@@ -1,8 +1,8 @@
 ---
 layout: page
 title: Installatie
-header: Installatie
-group: Landing
+header: Pages
+group: [navigation-smart-home-submenu, navigation-consumer-footer]
 permalink: installation/
 lang: nl
 markdown: true

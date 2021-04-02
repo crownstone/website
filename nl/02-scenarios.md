@@ -2,7 +2,7 @@
 layout: page
 title: Scenario's
 header: Pages
-group: [navigation, navigation-consumer-footer]
+group: [navigation-smart-home-submenu, navigation-consumer-footer]
 lang: nl
 permalink: scenarios/
 children-disable: [crownstone, autopilot]
@@ -10,8 +10,10 @@ background-image-home: banner-scenarios.jpg
 coming-soon:
     - title: Wake up light
       image: /images/wakeup.jpg
+      link: /will-be-up-soon/
     - title: Energy usage overview
       image: /images/energy_usage.jpg
+      link: /will-be-up-soon/
 ---
 {% include JB/setup %}
 

@@ -4,7 +4,7 @@ title: Product
 header: Pages
 description: "It is a switch, a dimmer, a power monitor, and a standby killer at once."
 keywords: "switch, smart switch, dimmer, power monitor, standby killer, energy savings, home automation"
-group: [navigation, navigation-consumer-footer]
+group: [navigation-smart-home-submenu, navigation-consumer-footer]
 lang: nl
 permalink: product/
 installations:

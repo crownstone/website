@@ -2,15 +2,17 @@
 layout: page
 title: Werkt met
 header: Pages
-group: [navigation, navigation-consumer-footer]
+group: [navigation-smart-home-submenu, navigation-consumer-footer]
 lang: nl
 permalink: works-with/
 background-image-home: banner-works-with.jpg
 coming-soon:
     - title: Integration with Philips Hue 
       image: /images/hue.jpg
+      link: /will-be-up-soon/
     - title: Integration with Homey
       image: /images/homey.jpg
+      link: /will-be-up-soon/
 ---
 
 

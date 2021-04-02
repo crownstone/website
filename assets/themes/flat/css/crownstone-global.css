@@ -397,6 +397,7 @@ a.link-text-gray:hover{
 		background-position:    center;
 		height:                 45vh;
 		max-height:             380px;
+		max-width:              700px;
 	}
 
 	div.segments-padding{
@@ -665,13 +666,6 @@ p.description-segments{
 	color: #ff8400;
 	padding: 0;
 	margin: 0 0.5rem;
-}
-
-div.secondary-banner{
-	background-size:        cover;
-	background-position:    center;
-	height:                 45vh;
-	max-height:             300px;
 }
 
 div.transparent-bg-segments{
