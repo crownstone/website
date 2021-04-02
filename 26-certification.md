@@ -54,7 +54,7 @@ The registered details for FCC can be found under FCC ID `2ASJQC` and in particu
 
 # Manual / Installation Instructions
 
-The manual and installation instructions can be obtained [as pdf](attachments/installation/installation_instructions.pdf).
+The manual and installation instructions can be obtained [as pdf](/attachments/installation/installation_instructions.pdf).
 
 # Contact
 
