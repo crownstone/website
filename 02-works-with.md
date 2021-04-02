@@ -3,7 +3,7 @@ layout: page
 title: Works with
 header: Pages
 description: "Integrations supported by Crownstone"
-group: [navigation, navigation-consumer-footer]
+group: [navigation-smart-home-submenu, navigation-consumer-footer]
 permalink: works-with/
 background-image-home: banner-works-with.jpg
 coming-soon:

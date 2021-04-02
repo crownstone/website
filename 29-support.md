@@ -1,8 +1,9 @@
 ---
 layout: page
-title: Help
+title: Support
 header: Pages
-permalink: help-faq/
+group: [navigation-support]
+permalink: support/
 background-image-home: banner-faq.jpg
 topics:
   - title: Crownstone app

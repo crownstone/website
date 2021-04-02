@@ -3,6 +3,7 @@ layout: page
 title: Installation
 header: Pages
 permalink: installation/
+group: [navigation-smart-home-submenu, navigation-consumer-footer]
 background-image-home: banner-installation.jpg
 installations:
   - slogan: Installation behind single socket

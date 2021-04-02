@@ -94,7 +94,7 @@ Analog electronics
 
 ###### Our products integrate a power supply, LED dimmer, bistable relay, current and voltage measurement, and a series of protection measures in a **very small** form factor. We can do the same for you. If you need a power supply, or a low-energy solution, we can pack a lot in a very small package.
  
-{% include snippets/two-cols-text-img-end img='/images/electronics.jpg' img-alt='electronics' %}
+{% include snippets/two-cols-text-img-end img='/images/pcb.jpg' img-alt='pcb' %}
 
 {% include snippets/full-width-container-end %}
 

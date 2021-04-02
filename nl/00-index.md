@@ -45,7 +45,7 @@ segments:
     image: /images/rotterdam_real_state.jpg
     link: /business/residential-real-estate/
   - title: OEM
-    slogan: Profiteer van de samenwerking met Crownstone
+    slogan: Samenwerk met Crownstone
     image: /images/oem.jpg
     link: /business/product-development/
 ---
