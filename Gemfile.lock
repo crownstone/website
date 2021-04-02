@@ -85,13 +85,13 @@ PLATFORMS
 DEPENDENCIES
   RedCloth
   domainatrix
-  jekyll (>= 4.1.1)
+  jekyll
   jekyll-polyglot
   json
   kramdown
-  nokogiri (>= 1.11)
+  nokogiri
   rake
-  rouge (>= 3.2)
+  rouge
   uglifier
 
 BUNDLED WITH
