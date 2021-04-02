@@ -27,6 +27,7 @@ permalink: specifications/
 | Network                                     | Bluetooth Mesh connects Crownstone-to-Crownstone              |
 | Chipset                                     | Nordic nRF52832, 64 kB RAM, 512 kB FLASH                      |
 | Beacon function                             | iBeacon                                                       |
+| Energy consumption of device itself         | 250 mW                                                        |
 | Soft-fuse function                          | Limit extreme currents or switch off with unexpected behavior |
 | Temperature function                        | Switch off with extreme temperatures                          |
 | Dimensions                                  | 51x46x13mm (LxWxH), 40 gram                                   |
