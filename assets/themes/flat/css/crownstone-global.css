@@ -1235,6 +1235,10 @@ p.sitemap {
 	background-color: #1f1f1f;
 }
 
+a.tag {
+	color: white !important;
+}
+
 .tag a:hover {
 	color: white;
 }
