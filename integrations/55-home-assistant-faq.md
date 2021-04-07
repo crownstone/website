@@ -20,7 +20,7 @@ The steps to set up the integration of Crownstone with Home assistant are descri
 {% include snippets/faq-begin ref="faqHAInternetConnection" question="Does Crownstone require an internet connection in the daily operation?" dontcollapse="in" %}
 
 When Crownstones are switched from a smartphone there is an immediate Bluetooth connection towards the Crownstone. If the given Crownstone cannot be reached directly from the smartphone, intermediate Crownstones can communicate the commands over a Bluetooth mesh. 
-If your smartphone is not present at home, there will be no connection towards the Crownstone. Unless you have a hub, or if someone else from your sphere is at home.
+If your smartphone is not present at home, there will be no connection towards the Crownstone. Unless you have a hub, or if someone else from your sphere is at home. To be able to control Crownstones locally, there is a Crownstone USB [dongle](https://shop.crownstone.rocks/products/crownstone-usb-dongle).
 
 {% include snippets/faq-end %}
 
