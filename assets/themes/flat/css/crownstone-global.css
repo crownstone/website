@@ -90,6 +90,27 @@ h3, h4, h5, h6, .h3, .h4, .h5, .h6 {
 	font-weight: bold;
 }
 
+.container-bg-white a {
+	color: #ff8400;
+}
+
+.container-bg-white a:hover {
+	color: #003e52;
+}
+
+.container-bg-white strong {
+	color: #003e52;
+}
+
+.container a {
+	color: #ff8400;
+}
+
+.container a:hover {
+	color: #003e52;
+}
+
+
 a:hover {
 	color: #ff8400;
 }
@@ -541,8 +562,9 @@ h2.container-title-right{
 	margin: 0;
 }
 
-div.blue-bg{
+div.blue-bg {
 	background-color: #003e52;
+	color: white;
 	padding: 0 !important;
 	margin: 0 !important;
 }
@@ -1213,6 +1235,10 @@ p.sitemap {
 	background-color: #1f1f1f;
 }
 
+a.tag {
+	color: white !important;
+}
+
 .tag a:hover {
 	color: white;
 }
@@ -1299,16 +1325,17 @@ body .post-container p {
 }
 
 body .post-container a {
-	color: white;
+	color: #ff8400;
 	font-weight: bold;
 }
 
 body .post-container a:hover {
-	color: #ff8400;
+	color: white;
+	/*color: #ff8400;*/
 }
 
 body .post-container b, strong {
-	color: #ff8400;
+/*	color: #ff8400;*/
 }
 
 /* Date as text on small devices */
@@ -1881,11 +1908,11 @@ background-color: yellow;
  */
 
 strong {
-	font-weight: bold; 
+	font-weight: bold;
 }
 
 em {
-	font-style: italic; 
+	font-style: italic;
 }
 
 table {

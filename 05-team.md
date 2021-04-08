@@ -163,11 +163,11 @@ Apart from work, if you're into martial arts, drop Bart a message. Peet likes ev
 
 {% include snippets/row-begin %}
 {% include snippets/column-begin %}
-                
+
 # Where are we?
-                    
+
 Right in the center of Rotterdam!
-                
+
 __Crownstone__
 <br>
 {{ site.company.street }}
@@ -191,7 +191,7 @@ phone:
 
 {% include snippets/column-end %}
 {% include snippets/column-begin %}
-                
+
 # How to get there?
 
 Crownstone is housed in the beautiful Groothandelsgebouw at Rotterdam Central Station (<a href="http://ghg.nl/en/contact/">parking for and direction by car</a>). We recommend to come by public transport, it's at the station!
@@ -213,7 +213,7 @@ Plan your return trip with [Rotterdam Central departure times](http://www.ns.nl/
 
 {% include snippets/row-begin %}
 {% include snippets/column-begin colsize="12" %}
-                
+
 # Background
 
 Crownstone has been originally developed by DoBots, has as seed investor [Almende Investments](http://almende-investments.com), is part of the [Rockstart accelerator](http://www.rockstart.com/blog/rockstart-introduces-participants-of-2016-smart-energy-accelerator), and launched as company on the 20th of May 2016.
