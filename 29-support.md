@@ -11,7 +11,7 @@ topics:
     image: /images/faq-icons/cs_app.png
     image-alt: Crownstone app
   - title: Crownstone modules
-    link: /crownstone-modules-help/
+    link: /crownstone-modules-faq/
     image: /images/faq-icons/cs_built-in.png
     image-alt: Crownstone modules
   - title: Indoor localization
@@ -23,11 +23,11 @@ topics:
     image: /images/faq-icons/ha.png
     image-alt: Home Assistant
   - title: Google Assistant
-    link: /will-be-up-soon/
+    link: /integrations/google-home-faq/
     image: /images/faq-icons/google.png
     image-alt: Google Assistant
   - title: Amazon Alexa
-    link: /will-be-up-soon/
+    link: /integrations/alexa-faq/
     image: /images/faq-icons/alexa.png
     image-alt: Amazon Alexa
   - title: Philips Hue

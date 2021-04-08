@@ -1,9 +1,9 @@
 ---
 layout: page
-title: App Help
-header: Crownstone Modules
+title: Crownstone modules help
+header: Crownstone modules help
 group: Landing
-permalink: crownstone-modules-help/
+permalink: crownstone-modules-faq/
 background-image: banner-cs-modules-help.jpg
 kramdown: 
   parse_block_html: true
@@ -40,10 +40,7 @@ You should not have thicker wires such as 6mm^2 (because these are meant for 32-
 ![Crownstone installation manual behind a light switch]({{ site.url }}/attachments/installing-crownstone-light.png){: style="width:100%"}
 
 Note that the [wire coloring](https://en.wikipedia.org/wiki/Electrical_wiring) is different in each country. 
-More importantly, in your home the colors might be actually incorrect! Never rely on the colors!
-
-It is always recommended to switch the **live** line. The Crownstone switches between 1 and 4. The connectors 2 and 3 are shorted internally. 
-The numbering is as follows: (1) Live to load (to the light), (2) Neutral to load, (3) Neutral from source (from the wall/grid), and (4) Live/phase from source. 
+More importantly, in your home the colors might be actually incorrect! Never rely on the colors! It is always recommended to switch the **live** line.
 
 {% include snippets/faq-end %}
 
