@@ -179,14 +179,25 @@ div.bannerVideoContainer {
 }
 
 div.bannerContainer {
+	 position:relative;
+	 background-position: center;
+	 background-size: cover;
+	 padding:0;
+	 overflow:hidden;
+	 width: 100%;
+	 height: 80vw;
+	 max-height: 97vh;
+	 min-height: 250px;
+ }
+
+div.sloganPresence {
 	position:relative;
-	background-position: center;
+	background-position: left center;
 	background-size: cover;
 	padding:0;
 	overflow:hidden;
 	width: 100%;
-	height: 80vw;
-	max-height: 97vh;
+	height: 33vw;
 	min-height: 250px;
 }
 
@@ -609,6 +620,28 @@ p.description-cs-features{
 	margin: 0;
 }
 
+
+p.title-cs-features-new{
+	text-align: right;
+	font-family: Lato, sans-serif;
+	font-weight: bold;
+	font-size: 1.3rem;
+	color: #003e52;
+	width: 100%;
+	padding: 1rem 0;
+	margin: 0;
+}
+
+p.description-cs-features-new{
+	text-align: right;
+	font-family: Lato, sans-serif;
+	font-size: 1.1rem;
+	color: #003e52;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+}
+
 div.segments-padding{
 	padding: 2rem 0.8rem;
 }
@@ -754,6 +787,15 @@ div.backgroundText{
 	width: 100%;
 	height: 100%;
 	background-position: bottom left;
+	background-size: cover;
+	background-repeat: no-repeat;
+	z-index: 1000;
+}
+
+div.backgroundTextCenter{
+	width: 100%;
+	height: 100%;
+	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
 	z-index: 1000;

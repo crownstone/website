@@ -64,7 +64,7 @@ Localization cannot be used in combination with Alexa at this time.
 
 
 
-{% include snippets/faq-begin ref="faqGAlexaLocalization" question="How do I turn on just the lights?" %}
+{% include snippets/faq-begin ref="faqGAlexaOnlyLights" question="How do I turn on just the lights?" %}
 
 The Alexa app allows you to define which Crownstones are lights. See this [page](https://www.amazon.com/gp/help/customer/display.html?nodeId=GWWP73LAN988JVAF) for more information. 
 Once that’s set up, you can place those Crownstones in the **same room** as the Alexa within the Alexa app. If you tell Alexa *“turn on the lights”* it will turn them on for you.
@@ -82,14 +82,15 @@ Once that’s set up, you can place those Crownstones in the **same room** as th
 {% include snippets/column-end %}
 {% include snippets/row-end %}
 
+{% include snippets/bottom-margin %}
+
 <script>
 window.onload = function() {
     var hash = window.location.hash; 
-    if(hash != "") {
-        var id = hash.substr(1); 
-        document.getElementById(id).classList.add("in");
+    if(hash !== " ") {
+        var id = hash.substr(1);
+        document.getElementById(id).classList.add("show");
+        document.getElementById(id).scrollIntoView();
     }
 };
 </script>
-
-{% include snippets/bottom-margin %}

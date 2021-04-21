@@ -1,0 +1,45 @@
+{% if include.id %}
+  {% assign support-options = page.[include.id] %}
+{% else %}
+  {% assign support-options = page.support-options %}
+{% endif %}
+
+<div class="row justify-content-center m-0">
+
+    {% for item in support-options %}
+
+    <div class="col-md-4 pl-5 pr-5 pb-5">
+        <div class="row align-items-end secondary-banner" onclick="location.href='{{ item.link }}'" style="background-image: url({{ item.image }}); cursor: pointer">
+            {% if include.orange-bg %}
+            <div class="row transparent-bg-segments-orange" style='background: rgba(255, 132, 0, 0.75);' >
+                <div class="col-xs-9">
+                    <a class="title-segments" href= "{{ item.link }}" style="text-align: left; font-family: Lato, sans-serif; font-style: italic; font-size: 0.9rem !important; color: white !important; padding: 0; margin: 0;">
+                        {{ item.title }}
+                    </a>
+                </div>
+                <div class="col-xs-1 text-center">
+                   <a href= "{{ item.link }}" style="text-decoration: none">
+                        <i class="el el-arrow-right" style="color: white"></i>
+                   </a>
+                </div>
+            </div>
+            {% else %}
+            <div class="row transparent-bg-segments">
+                <div class="col-xs-9">
+                    <a class="title-segments" href= "{{ item.link }}" style="text-align: left; font-family: Lato, sans-serif; font-style: italic; font-size: 0.9rem !important; color: white !important; padding: 0; margin: 0;">
+                        {{ item.title }}
+                    </a>
+                </div>
+                 <div class="col-xs-1 text-center">
+                    <a href= "{{ item.link }}" style="text-decoration: none">
+                        <i class="el el-arrow-right" style="color: white"></i>
+                    </a>
+                 </div>
+            </div>
+            {% endif %}
+        </div>
+    </div>
+
+    {% endfor %}
+
+</div>

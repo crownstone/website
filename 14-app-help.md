@@ -21,7 +21,7 @@ The Crownstone app should be pretty self-explanatory. However, you can always ta
 {% include snippets/faq-group-begin %}
 
 
-{% include snippets/faq-begin ref="faqHelp" question="Is there a help section in the app?" dontcollapse="in" %}
+{% include snippets/faq-begin ref="faqHelp" question="Is there a help section in the app?" %}
 
 Yes, you can find it in the *Settings* menu under Troubleshooting.
 
@@ -63,7 +63,7 @@ A very logical sphere is your home. Another logical sphere is your office. Howev
 
 
 
-{% include snippets/faq-begin ref="faqShow" question="What to do when a Crownstone does not show up?" %}
+{% include snippets/faq-begin ref="faqShow" question="What to do when a Crownstone does not show up?"%}
 
 Make sure that the Crownstone is **powered** and that your smartphone is really **close** to it. If the Crownstone still does not show up, you might want to try a **factory reset** procedure. This procedure will clear all the data on the Crownstone. The state of the Crownstone will be subsequently as if it was just obtained from the store. The process of a factory reset is described in the question below.
 
@@ -184,9 +184,10 @@ It is important not to place the Crownstones too far from each other. They have 
 <script>
 window.onload = function() {
     var hash = window.location.hash; 
-    if(hash != "") {
-        var id = hash.substr(1); 
-        document.getElementById(id).classList.add("in");
+    if(hash !== " ") {
+        var id = hash.substr(1);
+        document.getElementById(id).classList.add("show");
+        document.getElementById(id).scrollIntoView();
     }
 };
 </script>
