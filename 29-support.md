@@ -15,7 +15,7 @@ topics:
     image: /images/faq-icons/cs_built-in.png
     image-alt: Crownstone modules
   - title: Indoor localization
-    link: /will-be-up-soon/
+    link: /indoor-localization-faq/
     image: /images/faq-icons/indoor_localization.png
     image-alt: Indoor localization
   - title: Home Assistant
@@ -35,7 +35,7 @@ topics:
     image: /images/faq-icons/hue.png
     image-alt: Philips Hue
   - title: General information
-    link: /will-be-up-soon/
+    link: /general-info-faq/
     image: /images/faq-icons/general.png
     image-alt: General information
 ---

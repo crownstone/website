@@ -93,14 +93,17 @@ Yes, it is possible. As long as the Crownstones are included into a room in the 
 {% include snippets/column-end %}
 {% include snippets/row-end %}
 
+
+{% include snippets/bottom-margin %}
+
+
 <script>
 window.onload = function() {
     var hash = window.location.hash; 
-    if(hash != "") {
-        var id = hash.substr(1); 
-        document.getElementById(id).classList.add("in");
+    if(hash !== " ") {
+        var id = hash.substr(1);
+        document.getElementById(id).classList.add("show");
+        document.getElementById(id).scrollIntoView();
     }
 };
 </script>
-
-{% include snippets/bottom-margin %}

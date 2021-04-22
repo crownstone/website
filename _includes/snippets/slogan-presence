@@ -1,0 +1,5 @@
+<div class="sloganPresence xl d-none d-xl-flex {{ page.slogan-banner }}" style="background-image: url({{BASE_URL}}/images/{{page.slogan-banner}})"> </div>
+<div class="sloganPresence lg d-none d-lg-flex d-xl-none {{ page.slogan-banner }}" style="background-image: url({{BASE_URL}}/images/{{page.slogan-banner}})"> </div>
+<div class="sloganPresence md d-none d-md-flex d-lg-none {{ page.slogan-banner }}" style="background-image: url({{BASE_URL}}/images/{{page.slogan-banner}})"> </div>
+<div class="sloganPresence sm d-none d-sm-flex d-md-none {{ page.slogan-banner }}" style="background-image: url({{BASE_URL}}/images/{{page.slogan-banner}})"> </div>
+<div class="sloganPresence xs d-flex d-sm-none {{ page.slogan-banner }}" style="background-image: url({{BASE_URL}}/images/{{page.slogan-banner}})"> </div>

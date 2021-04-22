@@ -17,7 +17,7 @@ The steps to set up the integration of Crownstone with Home assistant are descri
 {% include snippets/faq-group-begin %}
 
 
-{% include snippets/faq-begin ref="faqHAInternetConnection" question="Does Crownstone require an internet connection in the daily operation?" dontcollapse="in" %}
+{% include snippets/faq-begin ref="faqHAInternetConnection" question="Does Crownstone require an internet connection in the daily operation?" %}
 
 When Crownstones are switched from a smartphone there is an immediate Bluetooth connection towards the Crownstone. If the given Crownstone cannot be reached directly from the smartphone, intermediate Crownstones can communicate the commands over a Bluetooth mesh. 
 If your smartphone is not present at home, there will be no connection towards the Crownstone. Unless you have a hub, or if someone else from your sphere is at home. To be able to control Crownstones locally, there is a Crownstone USB [dongle](https://shop.crownstone.rocks/products/crownstone-usb-dongle).
@@ -25,7 +25,7 @@ If your smartphone is not present at home, there will be no connection towards t
 {% include snippets/faq-end %}
 
 
-{% include snippets/faq-begin ref="faqHAInternetConnectionGeneral" question="Does Crownstone require an internet connection at all?" dontcollapse="in" %}
+{% include snippets/faq-begin ref="faqHAInternetConnectionGeneral" question="Does Crownstone require an internet connection at all?" %}
 
 Yes, for now at setup we require an internet connection to store your account data online as well as the keys you will need to invite other users. This means that if you lose your smartphone you will still be able to get access to your home. 
 The cloud also contains information about rooms, the stones themselves, and rules on the stones. This means that if you invite other people, they don't have to configure anything themselves.
@@ -33,7 +33,7 @@ The cloud also contains information about rooms, the stones themselves, and rule
 {% include snippets/faq-end %}
 
 
-{% include snippets/faq-begin ref="faqHAInfoInternet" question="Is there information sent to the internet?" dontcollapse="in" %}
+{% include snippets/faq-begin ref="faqHAInfoInternet" question="Is there information sent to the internet?" %}
 
 By default Crownstone puts as little information online as possible. For example, there is no information on energy use online. However, there are several types of information in the cloud.
 
@@ -46,7 +46,7 @@ Likewise, by default the state of a switch (and with that the state of the light
 {% include snippets/faq-end %}
 
 
-{% include snippets/faq-begin ref="faqHAHub" question="If I have a Home Assistant hub, how can it react to someone's presence?" dontcollapse="in" %}
+{% include snippets/faq-begin ref="faqHAHub" question="If I have a Home Assistant hub, how can it react to someone's presence?" %}
 
 How you can set up rules is described in this [page]({{ site.url }}/integrations/home-assistant/). For example, starting a Spotify list when someone enters the living room. To be able to control Crownstones locally, there is a Crownstone [dongle](https://shop.crownstone.rocks/products/crownstone-usb-dongle).
 
@@ -70,4 +70,17 @@ With the dongle you can do the above, plus you can:
 {% include snippets/faq-group-end %}
 
 
+**Note:** Click on the questions to expand (and click again to collapse) the answers.
+
 You can also visit this [page](https://github.com/crownstone/crownstone-home-assistant) for more technical information.
+
+<script>
+window.onload = function() {
+    var hash = window.location.hash; 
+    if(hash !== " ") {
+        var id = hash.substr(1);
+        document.getElementById(id).classList.add("show");
+        document.getElementById(id).scrollIntoView();
+    }
+};
+</script>
