@@ -13,29 +13,29 @@ kramdown:
   parse_block_html: true
 permalink: /
 features:
-  - image: /images/switch_gradient2.png
+  - image: /images/new-icons/switch.svg
     title: Schakelaar
     description: Schakel je apparaten en verlichting
-  - image: /images/twilight_gradient2.png
+  - image: /images/new-icons/twilight.svg
     title: Twilight
     description: Dim je lichten 's nachts automatisch
-  - image: /images/wallswitch_gradient2.png
+  - image: /images/new-icons/switchcraft.svg
     title: Switchcraft
     description: De wandschakelaar blijft werken
-  - image: /images/dim_gradient2.png
+  - image: /images/new-icons/dimming.svg
     title: Dimmer
     description: Dim ook LED lampen
-  - image: /images/position_gradient2.png
+  - image: /images/new-icons/positioning.svg
     title: Positiebepaling
     description: Lampen en apparaten reageren op iemand's aanwezigheid
-  - image: /images/monitor_gradient2.png
+  - image: /images/new-icons/energy.svg
     title: Energieverbruik
     description: Bekijk energieverbruik real-time per apparaat
 segments:
   - title: Consumenten
     slogan: Maak je eigen huis slim!
     image: /images/chilling_living_room.jpg
-    link: /technology-consumer/
+    link: /nl/product
   - title: Abonnees
     slogan: Een goedkope oplossing inclusief installatie
     image: /images/dad_and_son.jpg
@@ -47,7 +47,7 @@ segments:
   - title: OEM
     slogan: Samenwerk met Crownstone
     image: /images/oem.jpg
-    link: /business/product-development/
+    link: /business/oem/
 ---
 
 {% include JB/setup %}

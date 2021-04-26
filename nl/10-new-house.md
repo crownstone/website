@@ -11,31 +11,31 @@ kramdown:
   parse_block_html: true
 skip-newsletter: true
 features-list:
-  - image: /images/new-icons/switch.png
+  - image: /images/new-icons/switch.svg
     alt-img: Switch
     title: Schakelaar
     description: Schakel je apparaten en verlichting via de app of op gezette tijden.
-  - image: /images/new-icons/dimming.png
+  - image: /images/new-icons/dimming.svg
     alt-img: Dimmer
     title: Dimmer
     description: Zet je (led)verlichting op een gewenste dimstand.
     link: /campaigns/dimmer/
     text-link: Ontdek meer over de dimfunctie
-  - image: /images/new-icons/energy.png
+  - image: /images/new-icons/energy.svg
     alt-img: Energy
     title: Energieverbruik
     description: Bekijk per apparaat het energieverbruik in real-time.
-  - image: /images/new-icons/positioning.png
+  - image: /images/new-icons/positioning.svg
     alt-img: Positioning
     title: Positiebepaling
     description: Lampen en app kunnen automatisch reageren op iemands aanwezigheid in een kamer.
     link: /indoor-localization-faq/
     text-link: Lees meer over positiebepaling
-  - image: /images/new-icons/twilight.png
+  - image: /images/new-icons/twilight.svg
     alt-img: Twilight
     title: Twilight
     description: Dim automatisch de lichten wanneer het donker wordt buiten. Dit werkt zelfs met je gewone lichtschakelaar.
-  - image: /images/new-icons/switchcraft.png
+  - image: /images/new-icons/switchcraft.svg
     alt-img: Switchcraft
     title: Switchcraft
     description: Je bestaande lichtschakelaars blijven gewoon werken!

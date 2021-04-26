@@ -4,7 +4,11 @@
 
 <li class="nav-item dropdown">
     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-        Business
+        {% if site.active_lang == "nl" %}
+        Zakelijk
+        {% else %}
+         Business
+        {% endif %}
     </a>
     <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink" style="z-index: 1001; padding: 0;">
     {% for node in pages_list %}
