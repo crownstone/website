@@ -1,17 +1,17 @@
-    </div>
+</div>
 
-    <div class="row justify-content-start" style="margin: 0 !important">
-        <div class="col-10" style="padding: 0" >
-            <a href= "{{ include.link }}" style="text-align: left; font-family: Lato, sans-serif; font-style: normal !important; font-size: 1rem !important; color: #ff8400 !important; padding: 0; margin: 0.5 0;">
-                {{ include.call-to-action }}
-            </a>
-        </div>
-        <div class="col-2" style="padding: 0">
-            <div class="row justify-content-center" style="margin: 0 !important">
-                <a href= "{{ include.link }}">
-                   <i class="el el-arrow-right" style="color: #ff8400"></i>
-                </a>
-            </div>
-        </div>
-    </div>
- </div>
+<div class="row justify-content-start" style="margin: 0 !important">
+<div class="col-10" style="padding: 0" >
+<a href= "{{ include.link }}" style="text-align: left; font-family: Lato, sans-serif; font-style: normal !important; font-size: 1rem !important; color: #ff8400 !important; padding: 0; margin: 0.5 0;">
+{{ include.call-to-action }}
+</a>
+</div>
+<div class="col-2" style="padding: 0">
+<div class="row justify-content-center" style="margin: 0 !important">
+<a href= "{{ include.link }}">
+<i class="el el-arrow-right" style="color: #ff8400"></i>
+</a>
+</div>
+</div>
+</div>
+</div>
