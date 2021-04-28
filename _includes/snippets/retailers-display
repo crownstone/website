@@ -1,0 +1,33 @@
+{% if include.id %}
+  {% assign topics = page.[include.id] %}
+{% else %}
+  {% assign retailers = page.retailers %}
+{% endif %}
+
+<div class="container-fluid">
+    <div class="row justify-content-center segments-padding m-0">
+        <div class="col-md-10">
+            <div class="row justify-content-center mb-3">
+
+                {% for retailer in retailers %}
+
+                <div class="col-md-3 faq-topics" onclick="location.href='{{ retailer.link }}'" style="cursor: pointer">
+                    <img src="{{ retailer.image }}" alt="{{ retailer.image-alt }}" width="100%">
+                </div>
+
+                {% assign cntr = cntr | plus: 1 %}
+
+                {% assign three_items = cntr | modulo: 3 %}
+
+                {% if three_items == 0 %}
+
+                <div class="w-100"></div>
+
+                {% endif %}
+
+                {% endfor %}
+
+            </div>
+        </div>
+    </div>
+</div>

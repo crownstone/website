@@ -424,6 +424,8 @@ a.link-text-gray:hover{
 
 	div.feature-icon-container{
 		padding:      1.5rem !important;
+		align-items:  center;
+		justify-content: center;
 	}
 
 	div.segments-intra-padding{
@@ -595,6 +597,8 @@ div.features-container{
 div.feature-icon-container{
 	padding:      0.2rem;
 	margin:       0;
+	align-items:  center;
+	justify-content: center;
 }
 
 p.title-cs-features{

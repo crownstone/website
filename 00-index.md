@@ -13,22 +13,22 @@ kramdown:
   parse_block_html: true
 permalink: /
 features:
-  - image: /images/switch_gradient2.png
+  - image: /images/new-icons/switch.svg
     title: Switch
     description: Turn your lights and devices on or off
-  - image: /images/twilight_gradient2.png
+  - image: /images/new-icons/twilight.svg
     title: Twilight
     description: Automatically dim your lights at night
-  - image: /images/wallswitch_gradient2.png
+  - image: /images/new-icons/switchcraft.svg
     title: Switchcraft
     description: Switches keep working
-  - image: /images/dim_gradient2.png
+  - image: /images/new-icons/dimming.svg
     title: Dimmer
     description: Dim LED lights as well
-  - image: /images/position_gradient2.png
+  - image: /images/new-icons/positioning.svg
     title: Indoor positioning
     description: Lights and devices react to your presence
-  - image: /images/monitor_gradient2.png
+  - image: /images/new-icons/energy.svg
     title: Energy monitor
     description: View your energy consumption per device in real time
 segments:
