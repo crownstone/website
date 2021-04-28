@@ -6,6 +6,13 @@ description: "Hall of fame with former colleagues, graduation students, and inte
 group:
 permalink: hall-of-fame/
 employee-gallery:
+  - image: "hughjones.jpg"
+    name: "Hugh Jones"
+    title: "Sales Engineer"
+    linkedin: "hughboydjones"
+  - image: "arnohuisman.jpg"
+    name: "Arno Huisman"
+    title: "Software Developer"
   - image: "marevandenputte.jpg"
     name: "Mare van den Putte"
     title: "Community Manager"

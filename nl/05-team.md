@@ -104,18 +104,6 @@ core-team-gallery:
     github: "ArrowAcrobatics"
     report:
       title: "Arend heeft een master in wiskunde. Hij draagt zorg voor veilige en vooruitstrevende algoritmes!"
-  - image: "hughjones.jpg"
-    name: "Hugh Jones"
-    affiliation: "Sales Engineer"
-    linkedin: "hughboydjones"
-    report:
-      title: "Hugh helpt je met Crownstone tech voor jouw business case"
-  - image: "arnohuisman.jpg"
-    name: "Arno Huisman"
-    affiliation: "Software Developer"
-    github: "Erno3000"
-    report:
-      title: "Arno takes care of all your Android issues!"
   - image: "elkesalzmann.jpg"
     name: "Elke Salzmann"
     affiliation: "Elektricien"
