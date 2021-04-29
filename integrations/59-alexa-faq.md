@@ -5,6 +5,7 @@ header: Alexa Help
 group: Landing
 permalink: integrations/alexa-faq/
 background-image: banner-alexa-faq.jpg
+banner-caption: Alexa integration
 kramdown: 
   parse_block_html: true
 ---

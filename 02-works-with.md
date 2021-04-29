@@ -5,7 +5,8 @@ header: Pages
 description: "Integrations supported by Crownstone"
 group: [navigation-smart-home-submenu, navigation-consumer-footer]
 permalink: works-with/
-background-image-home: banner-works-with.jpg
+background-image: banner-works-with.jpg
+banner-caption: Connect your home
 coming-soon:
     - title: Integration with Philips Hue 
       image: /images/hue.jpg
@@ -17,8 +18,6 @@ coming-soon:
 
 
 {% include JB/setup %}
-
-{% include snippets/img-banner %}
 
 {% include snippets/slogan-begin %}
 Crownstone also reacts to your voice

@@ -15,16 +15,6 @@
                     <img src="{{ retailer.image }}" alt="{{ retailer.image-alt }}" width="100%">
                 </div>
 
-                {% assign cntr = cntr | plus: 1 %}
-
-                {% assign three_items = cntr | modulo: 3 %}
-
-                {% if three_items == 0 %}
-
-                <div class="w-100"></div>
-
-                {% endif %}
-
                 {% endfor %}
 
             </div>

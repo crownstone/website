@@ -2,9 +2,10 @@
 layout           : page
 title            : "Questions from Home Assistant users"
 header           : "Questions from Home Assistant users"
-description      : "Crownstone brings the functionality of switch, dimming, and persence information using Crownstones to Home Assistant"
+description      : "Crownstone brings the functionality of switch, dimming, and presence information using Crownstones to Home Assistant"
 markdown         : true
 background-image : banner-ha-faq.jpg
+banner-caption   : Home assistant integration
 permalink        : integrations/home-assistant-faq/
 ---
 

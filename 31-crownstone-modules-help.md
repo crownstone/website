@@ -5,6 +5,7 @@ header: Crownstone modules help
 group: Landing
 permalink: crownstone-modules-faq/
 background-image: banner-modules-faq.jpg
+banner-caption: Crownstone modules
 kramdown: 
   parse_block_html: true
 ---

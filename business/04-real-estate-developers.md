@@ -7,7 +7,8 @@ description: "Crownstone for real estate developers makes any of your residentia
 group: [navigation-business-submenu, navigation-business-footer]
 skip-newsletter: true
 permalink: business/residential-real-estate/
-background-image-home: banner-real-estate.jpg
+background-image: banner-real-estate.jpg
+banner-caption: Real Estate
 installations:
   - slogan: Information for installers
     image: /images/external_installer.jpg
@@ -18,8 +19,6 @@ installations:
 ---
 
 {% include JB/setup %}
-
-{% include snippets/home-banner %}
 
 
 {% include snippets/full-width-container-begin %}

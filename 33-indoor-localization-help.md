@@ -4,6 +4,7 @@ title: Indoor localization help
 header: Indoor localization help
 permalink: indoor-localization-faq/
 background-image: banner-position-faq.jpg
+banner-caption: Indoor localization
 kramdown: 
   parse_block_html: true
 ---

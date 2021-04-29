@@ -4,6 +4,7 @@ title: Where to buy
 header: Where to buy
 permalink: where-to-buy/
 background-image: banner-where-to-buy.jpg
+banner-caption: Where to buy?
 group: [navigation-support, navigation-consumer-footer]
 kramdown:
   parse_block_html: true

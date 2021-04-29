@@ -4,7 +4,8 @@ title: Installation
 header: Pages
 permalink: installation/
 group: [navigation-smart-home-submenu, navigation-consumer-footer]
-background-image-home: banner-installation.jpg
+background-image: banner-installation.jpg
+banner-caption: Installation
 installations:
   - slogan: Installation behind single socket
     image: /images/installation/single/8.png
@@ -37,8 +38,6 @@ steps:
 ---
 
 {% include JB/setup %}
-
-{% include snippets/home-banner %}
 
 {% include snippets/slogan-begin %}
 

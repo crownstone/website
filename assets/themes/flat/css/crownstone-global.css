@@ -833,12 +833,13 @@ div.bannerContainer .banner-caption {
 	position: absolute;
 	top: 50%;
 	left: 50%;*/
-padding: 0 2em;
-z-index: 0;
-font-family: Lato;
-font-weight: 1000;
-text-transform: uppercase;
-transform: skew(-20deg);
+	padding: 0 2em;
+	z-index: 0;
+	font-family: Lato;
+	font-weight: 1000;
+	text-transform: uppercase;
+	transform: skew(-16deg);
+	text-align: center;
 /*  transform: translate(-50%, -50%) skew(-20deg);*/
 }
 
@@ -846,13 +847,15 @@ transform: skew(-20deg);
  * The white caption introduces the "screen" blend-mode.
  */
 div.bannerContainer .white-caption {
-	background-color: white;
-	color: #003e52;
+	color: white;
+	text-shadow: 2px 2px 10px black;
+	letter-spacing: 0.5rem;
+	line-height: normal;
 }
 
 /*
  * The white caption uses the "difference" blend-mode. In this way it is possible to have a different background
- * color then white for the text in the banner. Note that the background-color is inverted. Due to the screen
+ * color than white for the text in the banner. Note that the background-color is inverted. Due to the screen
  * mix-blend-mode everything that is black becomes white and vice versa. The text-shadow rgba(0,0,0,1) similarly
  * becomes white.
  *
@@ -866,23 +869,28 @@ div.bannerContainer .colored-caption {
 }
 
 div.bannerContainer.xl h1 {
-	font-size: 6em;
+	font-size: 5em;
+	line-height: 1em;
 }
 
 div.bannerContainer.lg h1 {
-	font-size: 4.5em;
+	font-size: 3.5em;
+	line-height: 1em;
 }
 
 div.bannerContainer.md h1 {
-	font-size: 3em;
+	font-size: 2.5em;
+	line-height: 1em;
 }
 
 div.bannerContainer.sm h1 {
 	font-size: 1.7em;
+	line-height: 1em;
 }
 
 div.bannerContainer.xs h1 {
 	font-size: 1em;
+	line-height: 1em;
 }
 
 
@@ -891,15 +899,36 @@ div.bannerContainer.xl {
 	width: 100%;
 	background-position: center;
 }
+
 div.bannerContainer.lg { 
 	height:750px;
 	width: 100%;
 	background-position: center;
 }
-div.bannerContainer.mdlg { height:550px; width: 100%; background-position: center;}
-div.bannerContainer.md { height:450px; width: 100%; background-position: center;}
-div.bannerContainer.sm { height:350px; width: 100%; background-position: center;}
-div.bannerContainer.xs { height:180px; width: 100%; background-position: center;}
+
+div.bannerContainer.mdlg {
+	height:550px;
+	width: 100%;
+	background-position: center;
+}
+
+div.bannerContainer.md {
+	height:450px;
+	width: 100%;
+	background-position: center;
+}
+
+div.bannerContainer.sm {
+	height:350px;
+	width: 100%;
+	background-position: center;
+}
+
+div.bannerContainer.xs {
+	height:180px;
+	width: 100%;
+	background-position: center;
+}
 
 .container-bottom-margin {
 	margin-bottom: 45px;
