@@ -2,257 +2,131 @@
 layout: page
 title: Jobs
 header: Pages
-description: "Jobs and internships in internet of things, home automation, smart homes"
-keywords: "job, internship, graduation project, machine learning, artificial intelligence, internet of things, home automation, smart homes"
+description: "Jobs in internet of things, home automation, smart homes"
+keywords: "job, machine learning, artificial intelligence, internet of things, home automation, smart homes"
 kramdown: 
   parse_block_html: true
 background-image: banner-product-plug.jpg
-banner-caption: "Come join us!"
+banner-caption: "Join our team!"
 group: [navigation-about-us-submenu, navigation-consumer-footer]
+skip-newsletter: true
 permalink: jobs/
+custom-linkedin-card: true
+linkedin-social_title: "Vacancies at Crownstone"
+linkedin-social_image: "banners/banner-product-plug.jpg"
+linkedin-social_description: "Come join our team as Electrical Engineer!"
+linkedin-position_to_share: "electrical-engineer" 
 ---
 {% include JB/setup %}
 
-{% include snippets/row-begin %}
-{% include snippets/column-begin %}
 
-# Full-time positions
+{% include snippets/slogan-begin %}
 
-We have several positions available! We're a no-nonsense team (no long story about how great we are) and you'll feel home within a few days! Just check for example the internship descriptions to get a feeling for how challenging and rewarding working at Crownstone can be! Even more so for a full-time employee!
-		
-## Sales
+Come join us!
 
-Your role will be to convince large market players (energy, insurance, utility, and telecom companies) to provide cool services and products to their customers. Cool services based on the new tech developed at Crownstone, such as indoor localization, appliance recognition, etc. In our company you will have a lot of autonomy, from identifying low-hanging fruit, tailoring the market proposition, to control over marketing material. You'll work daily with Anne to make all this a success story!
+{% include snippets/slogan-end %}
 
-## Electrical engineer
-			
-Apart from the products we have developed we have multiple products in the pipeline that extend the smart home or leverage our expertise in Bluetooth products or allow us to improve our indoor localization and device monitoring offerings. We work together with a lot of Dutch and international companies for productizing and mass production. Expertise in this respect will definitely be a plus! In our roadmap are products such as a 3-phase switch of the Crownstone and an IoT version (4G LTE/NB-IoT) apart from third-party products that neatlessly fit our roadmap.
-			
-## Software developer
-			
-We have many interesting opportunities for ambitious developers. It's not just coding a front-end! 
-Crownstone is foremost searching for a developer who is experienced in embedded development. You can find more at a [dedicated page to our software challenges]({{ site.url }}/challenges/software).
-			
-## Finance
-			
-You want to play a significant role in an innovative company! You like to establish the strategy for internationalization, don't mind enrolling in promising subsidy programs, and are excited about thinking about funding and mutual beneficial collaboration with venture capitalists and international companies... In that case, drop us a note!
 
-## Email 
+{% include snippets/full-width-container-begin%}
 
-{% include snippets/email subject="Website application" to="us" prefix="Email " postfix=" if you are interested!" %}
+{% include snippets/two-cols-text-img-begin%}
 
-{% include snippets/column-end %}
-{% include snippets/column-begin %}
-	
-# Jobs
-			
-Crownstone is always looking for talented people with expertise in embedded programming, artificial intelligence, machine learning, or statistical physics.
-If you send us a motivation letter with links to past projects on github, or have done Kaggle competitions, this is a big plus!
-We have just one requirement:
+We have several **positions available!** We’re a no-nonsense team (no long story about how great we are) and you’ll feel home within a few days! 
+Check our full-time positions and get to know how **challenging** and **rewarding** working at Crownstone can be!
 
-* A **European** work permit (non-EU is a [bureaucratic nightmare and noncompetitive](https://expatlaw.nl/dutch-highly-skilled-migrant)).
-			
-# Interns
-			
-For an internship we have the following requirements:
-			
-* It must be a graduation (**master thesis**) project.
-* You're studying at a **European** educational institute (non-EU is not an option).
-* Final project plan will be written **by you** and approved by your professor(s).
+{% include snippets/two-cols-text-img-end img='/images/network.jpg' img-alt='network' %}
 
-For the topics our current master students are working on, see the [team]({{ site.url }}/team) page.
+{% include snippets/full-width-container-end %}
 
-# Open applications
-			
-You're welcome! If you have an interesting story that is :-) 
 
-{% include snippets/email subject="Open application" to="us" prefix="Please email " postfix=" your motivation." %}
+{% include snippets/slogan-begin %}
 
-{% include snippets/column-end %}
-{% include snippets/row-end %}
+Full-time positions
 
-{% include snippets/divider %}
+{% include snippets/slogan-end %}
 
-{% include snippets/row-begin %}
 
-{% include snippets/column-begin %}
+{% include snippets/full-width-container-begin %}
 
-# Graduation projects
+{% include snippets/centered-text-home-begin %}
 
-{% include snippets/column-end %}
+Crownstone is always looking for talented people with expertise in embedded programming, AI or machine learning. If you send us a motivation letter with links to past projects on GitHub, or have done Kaggle competitions, this is a big plus! We have just one requirement: a European work permit (non-EU is a [bureaucratic nightmare and noncompetitive](https://expatlaw.nl/dutch-highly-skilled-migrant)).
+{% include snippets/centered-text-home-end %}
 
-{% include snippets/column-begin colsize=8 %}
+{% include snippets/full-width-container-end %}
 
 
-Please, only apply if you live in the Netherlands and in the context of a graduation project. Proficient English is required, Dutch isn't.
+{% include snippets/vacancy-container-begin %}
 
-If you graduate at our place you will learn a lot about machine learning and working for a startup on artificial intelligence techniques does wonders for your resume.
+{% include snippets/job-vacancy-begin img="/images/electrical-engineer.jpg" img-alt="electrical-engineer" title="Electrical Engineer" %}
 
-And, no, we are not afraid to use Lego or Arduino if that helps us with prototyping! :-)
-		
-{% include snippets/column-end %}
+In this role you will help us developing products that extend the smart home, leverage our expertise in Bluetooth products or allow us to improve our indoor localization and device monitoring offerings. 
+Some of these products are a 3-phase switch of the Crownstone and an IoT version (4G LTE/NB-IoT) apart from third-party products that neatlessly fit our roadmap. 
+We work together with Dutch and international companies for productizing and mass production. Expertise in this respect will definitely be a plus!
 
-{% include snippets/column-begin colsize=4 %}
-			
-<img class="img-thumbnail usecase" src="{{ BASE_PATH }}/images/intern.jpg" />
+{% include snippets/job-vacancy-end pdf-link="https://docs.google.com/document/d/1SDGnky5K-vh6HJxvwxZdWUtqjike5dLL5hagrOmH1Ls/export?format=pdf" job-id="electrical-engineer"%}
 
 
-{% include snippets/column-end %}
-{% include snippets/row-end %}
+{% include snippets/job-vacancy-begin img="/images/sales-engineer.jpg" img-alt="sales-engineer" title="Sales Engineer" %}
 
-{% include snippets/row-begin %}
-{% include snippets/column-begin colsize="12" %}
+Your role will be to convince large market players (energy, insurance, utility, and telecom companies) to provide cool services and products to their customers. 
+Cool services based on the new tech developed at Crownstone, such as indoor localization, appliance recognition, etc. 
+In our company you will have a lot of autonomy, from identifying low-hanging fruit, tailoring the market proposition, to control over marketing material. 
+You’ll work daily with Anne to make all this a success story!
 
-Note that if a graduation position has been taken, this does not mean that all corresponding problems have been solved. These are multifaceted problems that require a lot of people to tackle. If something captures your interest, you should get in contact!
+{% include snippets/job-vacancy-end pdf-link="https://docs.google.com/document/d/1SDGnky5K-vh6HJxvwxZdWUtqjike5dLL5hagrOmH1Ls/export?format=pdf" job-id="sales-engineer"%}
 
-{% include snippets/column-end %}
-{% include snippets/row-end %}
 
+{% include snippets/vacancy-container-end %}
 
-{% include snippets/row-begin %}
 
 
+{% include snippets/vacancy-container-begin %}
 
-{% include snippets/internship-begin %}
-				
-## In-network localization
+{% include snippets/job-vacancy-begin img="/images/software-engineer.jpg" img-alt="software-engineer" title="Embedded Software Engineer" %}
 
-Crownstones can not only operate as iBeacons, but also as scanning devices that can localize anything that sends out BLE messages, such as wearables (Apple Watch, Fitbit, Jawbone, but also special watches carried by people with dementia). 
+If you like embedded programming, this is the perfect challenge! Do you also like to work on algorithms? Even better! 
+Do literature research, create a simulator, prototype your algorithm in Python, test your theories and finally implement your features in the Crownstone firmware! 
+There are many challenges like improved indoor localization, in network localization, device classification, mesh traffic optimization etc. Our firmware is written in C++ and is open-source. 
 
-{% include snippets/internship-end urlpdf="https://docs.google.com/document/d/1As9rY5-jWdyDmgVhuye1kmyxPMGYe_1rT4Cdgg-p_J0/export?format=pdf" %}
+{% include snippets/job-vacancy-end pdf-link="https://docs.google.com/document/d/1SDGnky5K-vh6HJxvwxZdWUtqjike5dLL5hagrOmH1Ls/export?format=pdf" job-id="software-engineer"%}
 
 
+{% include snippets/job-vacancy-begin img="/images/finance.jpg" img-alt="finance" title="Finance" %}
 
-{% include snippets/internship-begin %}
+You want to play a significant role in an innovative company! This is the perfect position for you if you would like to establish the strategy for internationalization. 
+In addition, you don’t mind enrolling in promising subsidy programs, and you are excited about thinking about funding and mutual beneficial collaboration with venture capitalists and international companies… 
+In that case, drop us a note!
 
-## Deep learning for Machines
+{% include snippets/job-vacancy-end pdf-link="https://docs.google.com/document/d/1SDGnky5K-vh6HJxvwxZdWUtqjike5dLL5hagrOmH1Ls/export?format=pdf" job-id="finance"%}
 
-Crownstones can monitor machines, tools, appliances. This allows them to recognize usage patterns. To do this properly advanced machine learning is required, hence deep learning!
 
-{% include snippets/internship-end urlpdf="https://docs.google.com/document/d/1Hx9MgrsoVnLQxju43YvXe0w8ADPw_iBMtMdZqjW3dIw/export?format=pdf" %}
+{% include snippets/vacancy-container-end %}
 
 
+{% include snippets/centered-text-large text='Take a closer look to our software challenges' link='/challenges/software/' %}
 
-{% include snippets/internship-begin %}
 
-## Device Identification
+{% include snippets/slogan-begin blue-bg='true' %}
 
-Crownstones can distinghuish devices based on a "footprint" of current and voltage levels over time. To do this properly advanced machine learning is required, hence deep learning!
+Open applications
 
-{% include snippets/internship-end urlpdf="https://docs.google.com/document/d/1_KFARtHk35xYPuTZ0ELSSYMtzJwtzKnauewwFsbddAk/export?format=pdf" taken="true" %}
+{% include snippets/slogan-end %}
 
 
-{% include snippets/internship-begin %}
+{% include snippets/full-width-container-begin%}
 
-## Passive Presence Detection
-			
-It is possible to infer from Bluetooth disturbances alone that there are people around, magic! If you want to learn a lot about state-of-the-art signal processing, this is your internship!
+{% include snippets/two-cols-text-img-blue-bg-begin text-right="true" %}
 
-{% include snippets/internship-end urlpdf="https://docs.google.com/document/d/1ueT68ln1fLUbdVk4uW5Ohai09G7xjJr3o504Dlv_J2U/export?format=pdf" %}
+If there are currently no job openings that match your interest, you can send an open application. We're always open to hear interesting stories!
 
-{% include snippets/row-end %}
+{% include snippets/two-cols-text-img-blue-bg-end img='/images/open-application.jpg' img-alt='open-application' %}
 
-{% include snippets/divider %}
+{% include snippets/full-width-container-end %}
 
-{% include snippets/row-begin %}
-{% include snippets/column-begin colsize="12" %}
 
-# Internships
+{% include snippets/full-width-container-begin %}
 
-There are more internships available that are not necessarily tied to a graduation project. They range from a minimum of 3 months to 12 months.
+{% include snippets/social-media-buttons  linkedin='true' twitter='true' facebook='true' job-id="electrical-engineer" %}
 
-{% include snippets/column-end %}
-{% include snippets/row-end %}
-
-
-{% include snippets/row-begin %}
-
-{% include snippets/internship-begin %}
-
-## Power Monitoring
-
-A nice assignment for a student electrical engineering at HBO level or beyond. Knowledge of Altium is required.
-You will learn to (1) design a simple board to read out smart meter data and to (2) design a complex board to
-measure power inductively.
-
-{% include snippets/internship-end urlpdf="https://docs.google.com/document/d/1mBpddjCNsu16h54GJ0SducPJ_eBEnQ-jRb8agE6R8DM/export?format=pdf" %}
-
-{% include snippets/internship-begin %}
-
-## KNX
-
-If you have done the [minor domotica](https://domotica.nl/2019/03/22/minor-domotica-hogeschool-utrecht/) at Utrecht, this is a perfect assignment for you. You will apply your knowledge about KNX to make a connection with the Crownstone
-system. This would allow any KNX installation to make use of our indoor localization functions!
-
-{% include snippets/internship-end urlpdf="https://docs.google.com/document/d/125ehPizznziib5y5g_qy1pnDHlELFvXeDPBlIlzRrj0/export?format=pdf" %}
-
-{% include snippets/internship-begin %}
-
-## Microapp store
-
-One of the new upcoming features of Crownstone is that they can run pieces of code written using the Arduino
-environment. We call these microapps. People should be able to use micoapps from others. For this we need a complex
-frontend and backend. Perfect if you want to become a true typescript expert!
-
-{% include snippets/internship-end urlpdf="https://docs.google.com/document/d/1OJ8LOJtUe1WAHl2SsoJWk_ybcw1aJCa76u8io5mPYM4/export?format=pdf" %}
-
-{% include snippets/internship-begin %}
-
-## Node-RED
-
-Crownstone is integrated with Google Home, Alexa, and Home Assistant. Node-RED is a home automation
-platform that is used a lot internationally. The preferred way to incorporate it is by providing an MQTT interface
-and integrate with that.
-
-{% include snippets/internship-end urlpdf="https://docs.google.com/document/d/1e5NKftzUI22oxefR_hGX-asgg1HBY7flgQ-r8PJvFmQ/export?format=pdf" %}
-
-{% include snippets/row-end %}
-
-{% include snippets/divider %}
-
-{% include snippets/row-begin %}
-
-{% include snippets/internship-begin %}
-
-## SmartThings
-
-The SmartThings hub by Samsung is a home automation hub that is sold as much as the Homey in the Netherlands. You will
-be integrating with this hub using the Crownstone cloud services. Bluetooth is not enabled on the hub, but who knows,
-maybe you will be able to convince engineers at Samsung to enable it as well!
-
-{% include snippets/internship-end urlpdf="https://docs.google.com/document/d/188fesEiinP1ajd0u3HSicjcMm99xGSvFLFhDWCBabvw/export?format=pdf" %}
-
-{% include snippets/internship-begin %}
-
-## Crownstone Communication
-
-Create a professional style guide for internal and external use building on buyer personas, consolidating the brand's value, core principles, and establishing the brand's voice.
-
-{% include snippets/internship-end urlpdf="https://docs.google.com/document/d/1hpCZT5TnMc_YiXm8tKQFESZaaMz45RolhnTCxwqq1oA/export?format=pdf" %}
-
-{% include snippets/row-end %}
-
-{% include snippets/divider %}
-
-{% include snippets/row-begin %}
-{% include snippets/column-begin colsize="12" %}
-
-## Hall of fame
-
-We had many master students graduating over the years. We had the pleasure to always work with people who have ambition and who proved that by their high grades! Anne will help you further if you are not certain if something fits or you require more information.
-Look at our [hall of fame]({{ site.url }}/hall-of-fame) to get an idea about the projects of our **former graduates**!
-
-Companies which captured the interest of our graduates are tech companies like ASML, Facebook, Amadeus, consultancy clubs like ORTEC, ARUP, to startups in AI, from Signal Ocean, Sense Observation Systems, to stealthy ones you won't see on any LinkedIn page.
-
-{% include snippets/column-end %}
-{% include snippets/row-end %}
-
-{% include snippets/row-begin %}
-{% include snippets/column-begin colsize="12" %}
-
-{% include snippets/email subject="Internship Crownstone" to="our team" prefix="Get in contact with " postfix=" to explore the possibilities." %}
-
-{% include snippets/column-end %}
-{% include snippets/row-end %}
-
-{% include snippets/bottom-margin %}
+{% include snippets/full-width-container-end %}

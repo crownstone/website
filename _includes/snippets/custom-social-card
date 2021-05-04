@@ -22,25 +22,19 @@
 	{% capture social_image %}{{ site.production_url }}/images/crownstone-social-card.jpg{% endcapture %}
 {% endif %}
 
-{% if include.channel == "opengraph" %}
+{% if page.custom-linkedin-card %}
 
-	<!-- Open graph social card -->
-	<meta property="og:type" content="website">
-	<meta property="og:title" content="{{ social_title }}">
-	<meta property="og:url" content="{{ site.production_url }}{{ page.url }}">
-	<meta property="og:image" content="{{ social_image }}">
-	<meta property="og:image:secure_url" content="{{ social_image }}">
-	<meta property="og:description" content="{{ social_description }}">
-	<meta property="og:site_name" content="Crownstone">
+	<!-- Linkedin social card -->
+	<meta property='og:title' content="{{ page.linkedin-social_title }}">
+	<meta property='og:image' content="{{ site.production_url }}/images/{{ page.linkedin-social_image}}">
+	<meta property='og:description' content="{{ page.linkedin-social_description }}">
+	<meta property='og:url' content="{{site.url}}/jobs#{{ page.linkedin-position_to_share }}">
 
-{% elsif include.channel == "twitter" %}
+{% else %}
 
-	<!-- Twitter social card -->
-	<meta name="twitter:card" content="summary">
-	<meta name="twitter:title" content="{{ social_title }}">
-	<meta name="twitter:description" content="{{ social_description }}">
-	<meta name="twitter:image" content="{{ social_image }}">
-	<meta name="twitter:image:width" content="240">
-	<meta name="twitter:image:height" content="240">
+    <!-- Open graph social card for LinkedIn -->
+    <meta name="title" property="og:title" content="{{ social_title }}">
+    <meta name="image" property="og:image" content="{{ social_image }}">
+    <meta name="description" property="og:description" content="{{ social_description }}">
 
 {% endif %}

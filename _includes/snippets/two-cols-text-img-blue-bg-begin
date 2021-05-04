@@ -1,0 +1,7 @@
+{% if include.text-right %}
+<div class="row justify-content-center align-items-center m-0 flex-row-reverse blue-bg" style="padding: 2rem !important">
+  <div class="col-md-5 intra-padding" markdown="1" style='text-align: right; color: white;' id='description-small-blue-bg'>
+{% else %}
+<div class="row justify-content-center align-items-center m-0 blue-bg" style="padding: 2rem !important">
+  <div class="col-md-5 intra-padding" markdown="1" style='text-align: left; color: white;' id='description-small-blue-bg'>
+{% endif %}

@@ -1,0 +1,217 @@
+---
+layout: page
+title: Internships
+header: Pages
+description: "Internships in internet of things, home automation, smart homes"
+keywords: "internship, graduation project, machine learning, artificial intelligence, internet of things, home automation, smart homes"
+kramdown: 
+  parse_block_html: true
+background-image: banner-product-plug.jpg
+banner-caption: "Come join us!"
+group: [navigation-about-us-submenu, navigation-consumer-footer]
+permalink: internships/
+---
+{% include JB/setup %}
+
+{% include snippets/row-begin %}
+{% include snippets/column-begin %}
+
+# Interns
+			
+For an internship we have the following requirements:
+			
+* It must be a graduation (**master thesis**) project.
+* You're studying at a **European** educational institute (non-EU is not an option).
+* Final project plan will be written **by you** and approved by your professor(s).
+
+For the topics our current master students are working on, see the [team]({{ site.url }}/team) page.
+
+
+{% include snippets/column-end %}
+{% include snippets/row-end %}
+
+{% include snippets/divider %}
+
+{% include snippets/row-begin %}
+
+{% include snippets/column-begin %}
+
+# Graduation projects
+
+{% include snippets/column-end %}
+
+{% include snippets/column-begin colsize=8 %}
+
+
+Please, only apply if you live in the Netherlands and in the context of a graduation project. Proficient English is required, Dutch isn't.
+
+If you graduate at our place you will learn a lot about machine learning and working for a startup on artificial intelligence techniques does wonders for your resume.
+
+And, no, we are not afraid to use Lego or Arduino if that helps us with prototyping! :-)
+		
+{% include snippets/column-end %}
+
+{% include snippets/column-begin colsize=4 %}
+			
+<img class="img-thumbnail usecase" src="{{ BASE_PATH }}/images/intern.jpg" />
+
+
+{% include snippets/column-end %}
+{% include snippets/row-end %}
+
+{% include snippets/row-begin %}
+{% include snippets/column-begin colsize="12" %}
+
+Note that if a graduation position has been taken, this does not mean that all corresponding problems have been solved. These are multifaceted problems that require a lot of people to tackle. If something captures your interest, you should get in contact!
+
+{% include snippets/column-end %}
+{% include snippets/row-end %}
+
+
+{% include snippets/row-begin %}
+
+
+
+{% include snippets/internship-begin %}
+				
+## In-network localization
+
+Crownstones can not only operate as iBeacons, but also as scanning devices that can localize anything that sends out BLE messages, such as wearables (Apple Watch, Fitbit, Jawbone, but also special watches carried by people with dementia). 
+
+{% include snippets/internship-end urlpdf="https://docs.google.com/document/d/1As9rY5-jWdyDmgVhuye1kmyxPMGYe_1rT4Cdgg-p_J0/export?format=pdf" %}
+
+
+
+{% include snippets/internship-begin %}
+
+## Deep learning for Machines
+
+Crownstones can monitor machines, tools, appliances. This allows them to recognize usage patterns. To do this properly advanced machine learning is required, hence deep learning!
+
+{% include snippets/internship-end urlpdf="https://docs.google.com/document/d/1Hx9MgrsoVnLQxju43YvXe0w8ADPw_iBMtMdZqjW3dIw/export?format=pdf" %}
+
+
+
+{% include snippets/internship-begin %}
+
+## Device Identification
+
+Crownstones can distinghuish devices based on a "footprint" of current and voltage levels over time. To do this properly advanced machine learning is required, hence deep learning!
+
+{% include snippets/internship-end urlpdf="https://docs.google.com/document/d/1_KFARtHk35xYPuTZ0ELSSYMtzJwtzKnauewwFsbddAk/export?format=pdf" taken="true" %}
+
+
+{% include snippets/internship-begin %}
+
+## Passive Presence Detection
+			
+It is possible to infer from Bluetooth disturbances alone that there are people around, magic! If you want to learn a lot about state-of-the-art signal processing, this is your internship!
+
+{% include snippets/internship-end urlpdf="https://docs.google.com/document/d/1ueT68ln1fLUbdVk4uW5Ohai09G7xjJr3o504Dlv_J2U/export?format=pdf" %}
+
+{% include snippets/row-end %}
+
+{% include snippets/divider %}
+
+{% include snippets/row-begin %}
+{% include snippets/column-begin colsize="12" %}
+
+# Internships
+
+There are more internships available that are not necessarily tied to a graduation project. They range from a minimum of 3 months to 12 months.
+
+{% include snippets/column-end %}
+{% include snippets/row-end %}
+
+
+{% include snippets/row-begin %}
+
+{% include snippets/internship-begin %}
+
+## Power Monitoring
+
+A nice assignment for a student electrical engineering at HBO level or beyond. Knowledge of Altium is required.
+You will learn to (1) design a simple board to read out smart meter data and to (2) design a complex board to
+measure power inductively.
+
+{% include snippets/internship-end urlpdf="https://docs.google.com/document/d/1mBpddjCNsu16h54GJ0SducPJ_eBEnQ-jRb8agE6R8DM/export?format=pdf" %}
+
+{% include snippets/internship-begin %}
+
+## KNX
+
+If you have done the [minor domotica](https://domotica.nl/2019/03/22/minor-domotica-hogeschool-utrecht/) at Utrecht, this is a perfect assignment for you. You will apply your knowledge about KNX to make a connection with the Crownstone
+system. This would allow any KNX installation to make use of our indoor localization functions!
+
+{% include snippets/internship-end urlpdf="https://docs.google.com/document/d/125ehPizznziib5y5g_qy1pnDHlELFvXeDPBlIlzRrj0/export?format=pdf" %}
+
+{% include snippets/internship-begin %}
+
+## Microapp store
+
+One of the new upcoming features of Crownstone is that they can run pieces of code written using the Arduino
+environment. We call these microapps. People should be able to use micoapps from others. For this we need a complex
+frontend and backend. Perfect if you want to become a true typescript expert!
+
+{% include snippets/internship-end urlpdf="https://docs.google.com/document/d/1OJ8LOJtUe1WAHl2SsoJWk_ybcw1aJCa76u8io5mPYM4/export?format=pdf" %}
+
+{% include snippets/internship-begin %}
+
+## Node-RED
+
+Crownstone is integrated with Google Home, Alexa, and Home Assistant. Node-RED is a home automation
+platform that is used a lot internationally. The preferred way to incorporate it is by providing an MQTT interface
+and integrate with that.
+
+{% include snippets/internship-end urlpdf="https://docs.google.com/document/d/1e5NKftzUI22oxefR_hGX-asgg1HBY7flgQ-r8PJvFmQ/export?format=pdf" %}
+
+{% include snippets/row-end %}
+
+{% include snippets/divider %}
+
+{% include snippets/row-begin %}
+
+{% include snippets/internship-begin %}
+
+## SmartThings
+
+The SmartThings hub by Samsung is a home automation hub that is sold as much as the Homey in the Netherlands. You will
+be integrating with this hub using the Crownstone cloud services. Bluetooth is not enabled on the hub, but who knows,
+maybe you will be able to convince engineers at Samsung to enable it as well!
+
+{% include snippets/internship-end urlpdf="https://docs.google.com/document/d/188fesEiinP1ajd0u3HSicjcMm99xGSvFLFhDWCBabvw/export?format=pdf" %}
+
+{% include snippets/internship-begin %}
+
+## Crownstone Communication
+
+Create a professional style guide for internal and external use building on buyer personas, consolidating the brand's value, core principles, and establishing the brand's voice.
+
+{% include snippets/internship-end urlpdf="https://docs.google.com/document/d/1hpCZT5TnMc_YiXm8tKQFESZaaMz45RolhnTCxwqq1oA/export?format=pdf" %}
+
+{% include snippets/row-end %}
+
+{% include snippets/divider %}
+
+{% include snippets/row-begin %}
+{% include snippets/column-begin colsize="12" %}
+
+## Hall of fame
+
+We had many master students graduating over the years. We had the pleasure to always work with people who have ambition and who proved that by their high grades! Anne will help you further if you are not certain if something fits or you require more information.
+Look at our [hall of fame]({{ site.url }}/hall-of-fame) to get an idea about the projects of our **former graduates**!
+
+Companies which captured the interest of our graduates are tech companies like ASML, Facebook, Amadeus, consultancy clubs like ORTEC, ARUP, to startups in AI, from Signal Ocean, Sense Observation Systems, to stealthy ones you won't see on any LinkedIn page.
+
+{% include snippets/column-end %}
+{% include snippets/row-end %}
+
+{% include snippets/row-begin %}
+{% include snippets/column-begin colsize="12" %}
+
+{% include snippets/email subject="Internship Crownstone" to="our team" prefix="Get in contact with " postfix=" to explore the possibilities." %}
+
+{% include snippets/column-end %}
+{% include snippets/row-end %}
+
+{% include snippets/bottom-margin %}
