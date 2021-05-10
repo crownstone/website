@@ -42,6 +42,10 @@
  * to absolute sizes.
  */
 
+html {
+	scroll-behavior: smooth;
+}
+
 body, body p, li, th, td, .rte-font {
 	font-family: 'LatoLight';
 	font-size: 1.3rem;
@@ -667,7 +671,7 @@ a.title-segments{
 	text-align: left;
 	font-family: Lato, sans-serif;
 	font-style: italic;
-	font-size: 0.85rem;
+	font-size: 1rem;
 	color: white !important;
 	padding: 0;
 	margin: 0;
@@ -677,7 +681,7 @@ a.title-segments:hover{
 	text-align: left;
 	font-family: Lato, sans-serif;
 	font-style: italic;
-	font-size: 0.85rem;
+	font-size: 1rem;
 	color: white !important;
 	padding: 0;
 	margin: 0;
@@ -688,7 +692,7 @@ p.title-segments{
 	text-align: left;
 	font-family: Lato, sans-serif;
 	font-style: italic;
-	font-size: 0.85rem;
+	font-size: 1rem;
 	color: white !important;
 	padding: 0;
 	margin: 0;
@@ -698,7 +702,7 @@ p.description-segments{
 	text-align: left;
 	font-family: Lato, sans-serif;
 	font-style: italic;
-	font-size: 0.7rem;
+	font-size: 0.9rem;
 	font-weight: bold;
 	color: #ff8400;
 	padding: 0;

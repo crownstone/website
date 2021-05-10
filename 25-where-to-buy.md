@@ -17,7 +17,7 @@ where-to-buy:
     link: /campaigns/cs-subscription/
   - title: Find your favourite store
     image: /images/store-option.jpg
-    link: /where-to-buy/
+    link: /where-to-buy#cs-retailers
   - title: In your new home
     image: /images/real-estate.jpg
     link: /nieuw-huis
@@ -112,4 +112,3 @@ You can find the Crownstones products in the following webshops
 
 
 {% include snippets/retailers-display %}
-

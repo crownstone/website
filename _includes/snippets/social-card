@@ -22,18 +22,7 @@
 	{% capture social_image %}{{ site.production_url }}/images/crownstone-social-card.jpg{% endcapture %}
 {% endif %}
 
-{% if include.channel == "opengraph" %}
-
-	<!-- Open graph social card -->
-	<meta property="og:type" content="website">
-	<meta property="og:title" content="{{ social_title }}">
-	<meta property="og:url" content="{{ site.production_url }}{{ page.url }}">
-	<meta property="og:image" content="{{ social_image }}">
-	<meta property="og:image:secure_url" content="{{ social_image }}">
-	<meta property="og:description" content="{{ social_description }}">
-	<meta property="og:site_name" content="Crownstone">
-
-{% elsif include.channel == "twitter" %}
+{% if include.channel == "twitter" %}
 
 	<!-- Twitter social card -->
 	<meta name="twitter:card" content="summary">

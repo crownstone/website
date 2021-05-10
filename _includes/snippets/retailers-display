@@ -4,7 +4,7 @@
   {% assign retailers = page.retailers %}
 {% endif %}
 
-<div class="container-fluid">
+<div class="container-fluid" id="cs-retailers">
     <div class="row justify-content-center segments-padding m-0">
         <div class="col-md-10">
             <div class="row justify-content-center mb-3">

@@ -11,11 +11,11 @@ banner-caption: "Join our team!"
 group: [navigation-about-us-submenu, navigation-consumer-footer]
 skip-newsletter: true
 permalink: jobs/
-custom-linkedin-card: true
-linkedin-social_title: "Vacancies at Crownstone"
-linkedin-social_image: "banners/banner-product-plug.jpg"
-linkedin-social_description: "Come join our team as Electrical Engineer!"
-linkedin-position_to_share: "electrical-engineer" 
+custom-card: true
+social_title: "Vacancies at Crownstone"
+social_image: "banners/banner-product-plug.jpg"
+social_description: "Are you ready for a challenge? Come join our team as Electrical Engineer! We are looking forward to welcome you in our team!"
+position_to_share: "electrical-engineer" 
 ---
 {% include JB/setup %}
 
