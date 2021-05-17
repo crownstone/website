@@ -6,7 +6,7 @@ description: "Crownstone and investors"
 keywords: "crownstone, investors"
 kramdown:
   parse_block_html: true
-group: [navigation-about-us-submenu, navigation-consumer-footer]
+group: [navigation-about-us-submenu, navigation-about-us-footer]
 permalink: investors/
 ---
 {% include JB/setup %}
