@@ -8,7 +8,7 @@ kramdown:
   parse_block_html: true
 background-image: banner-product-plug.jpg
 banner-caption: "Join our team!"
-group: [navigation-about-us-submenu, navigation-consumer-footer]
+group: [navigation-about-us-submenu, navigation-about-us-footer]
 skip-newsletter: true
 permalink: jobs/
 custom-card: true
@@ -51,6 +51,7 @@ Full-time positions
 {% include snippets/centered-text-home-begin %}
 
 Crownstone is always looking for talented people with expertise in embedded programming, AI or machine learning. If you send us a motivation letter with links to past projects on GitHub, or have done Kaggle competitions, this is a big plus! We have just one requirement: a European work permit (non-EU is a [bureaucratic nightmare and noncompetitive](https://expatlaw.nl/dutch-highly-skilled-migrant)).
+
 {% include snippets/centered-text-home-end %}
 
 {% include snippets/full-width-container-end %}
@@ -120,13 +121,13 @@ Open applications
 
 If there are currently no job openings that match your interest, you can send an open application. We're always open to hear interesting stories!
 
-{% include snippets/two-cols-text-img-blue-bg-end img='/images/open-application.jpg' img-alt='open-application' %}
+{% include snippets/two-cols-text-img-blue-bg-end img='/images/open-application.jpg' img-alt='open-application' btn='true' btn-text='Send motivation' %}
 
 {% include snippets/full-width-container-end %}
 
 
 {% include snippets/full-width-container-begin %}
 
-{% include snippets/social-media-buttons  linkedin='true' twitter='true' facebook='true' job-id="electrical-engineer" %}
+{% include snippets/social-media-buttons  linkedin='true' twitter='true' facebook='true' page-name='jobs' job-id="electrical-engineer" %}
 
 {% include snippets/full-width-container-end %}

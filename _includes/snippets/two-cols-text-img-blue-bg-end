@@ -1,12 +1,26 @@
 {% assign ci-img = include.img %}
 
 <div class="row justify-content-end intra-padding">
+
+{% if include.btn %}
 <div class="newsletter bottom">
 <div class="wrapper">
-<script type="text/javascript">/*<![CDATA[*/var a=new Array("{{ site.contact-team.email[0] }}", "{{ site.contact-team.email[1] }}", "{{ site.contact-team.email[2] }}", "{{ site.contact-team.email[3] }}", "{{ site.contact-team.email[4] }}", "{{ site.contact-team.email[5] }}");document.write("<a href='mailto:");for(i=a.length-1;i>=0;i--){document.write(a[i])}document.write("?subject=Open application' class='btn' style=\"text-align: center !important; align-self: flex-end; border-radius: 0.25rem; padding: .375rem 1.25rem; font-family: Lato, sans-serif; font-size: 1rem; letter-spacing: 1px; color: white !important; background-color: #ff8400; box-shadow: 3px 3px 4px rgb(0 0 0 / 16%); text-decoration: none\">Send Motivation</a>");/*]]>*/</script>
-<noscript>Send Motivation</noscript>
+<script type="text/javascript">/*<![CDATA[*/var a=new Array("{{ site.contact-team.email[0] }}", "{{ site.contact-team.email[1] }}", "{{ site.contact-team.email[2] }}", "{{ site.contact-team.email[3] }}", "{{ site.contact-team.email[4] }}", "{{ site.contact-team.email[5] }}");document.write("<a href='mailto:");for(i=a.length-1;i>=0;i--){document.write(a[i])}document.write("?subject=Open application' class='btn' style=\"text-align: center !important; align-self: flex-end; border-radius: 0.25rem; padding: .375rem 1.25rem; font-family: Lato, sans-serif; font-size: 1rem; letter-spacing: 1px; color: white !important; background-color: #ff8400; box-shadow: 3px 3px 4px rgb(0 0 0 / 16%); text-decoration: none\">{{ include.btn-text }}</a>");/*]]>*/</script>
+<noscript>{{ include.btn-text }}</noscript>
 </div>
 </div>
+{% endif %}
+
+{% if include.link %}
+<div class="newsletter bottom">
+<div class="wrapper">
+<a href= "{{ include.url }}" class='btn' style="text-align: center !important; align-self: flex-end; border-radius: 0.25rem; padding: .375rem 1.25rem; font-family: Lato, sans-serif; font-size: 1rem; letter-spacing: 1px; color: white !important; background-color: #ff8400; box-shadow: 3px 3px 4px rgb(0 0 0 / 16%); text-decoration: none;">
+{{ include.link-text }}
+</a>
+</div>
+</div>
+{% endif %}
+
 </div>
 </div>
 <div class="col-md-5 intra-padding align-items-center">

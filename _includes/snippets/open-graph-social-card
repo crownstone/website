@@ -28,7 +28,7 @@
 
     <meta property="og:type" content="website">
     <meta property='og:title' content="{{ page.social_title }}">
-    <meta property='og:url' content="{{site.url}}/jobs#{{ page.position_to_share }}">
+    <meta property='og:url' content="{{ site.url }}/jobs#{{ page.position_to_share }}">
     <meta property='og:image' content="{{ site.production_url }}/images/{{ page.social_image}}">
     <meta property='og:image:secure_url' content="{{ site.production_url }}/images/{{ page.social_image}}">
     <meta property='og:description' content="{{ page.social_description }}">
