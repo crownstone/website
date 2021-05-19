@@ -150,7 +150,7 @@ The presskit contains the following folders:
 * Products: pictures of Crownstone plugs, builtin Crownstones, Guidestones, and PCBs.
 * Renders: exploded views and renderings in living room setting.
 
-It can be downloaded here: [presskit visuals (zip, 342 MB)](https://github.com/crownstone/website/releases/download/v.0.0.1-alpha/presskit.zip).
+It can be downloaded here: [presskit visuals (zip, 109 MB)]({{ site.url }}/attachments/presskit/presskit.zip).
 
 ## Events, fairs, talks
 
