@@ -79,13 +79,19 @@ To improve the quality of the training, it is recommended that you grab your pho
 
 {% include snippets/bottom-margin %}
 
+
 <script>
 window.onload = function() {
     var hash = window.location.hash; 
     if(hash !== " ") {
         var id = hash.substr(1);
-        document.getElementById(id).classList.add("show");
+        document.getElementById(id.concat('+')).classList.add("show");
         document.getElementById(id).scrollIntoView();
     }
 };
+
+function updateHash(new_hash){
+    var hash = "#" + new_hash.slice(0, -1);
+    window.history.pushState("", "", hash);
+}
 </script>

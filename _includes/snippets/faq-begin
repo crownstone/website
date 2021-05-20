@@ -1,8 +1,10 @@
 <div class="card">
-<div class="card-header">
+<div class="card-header" id="{{ include.ref }}">
 <h4 class="card-title">
-<a data-toggle="collapse" href="#{{ include.ref }}">{{ include.question }}</a>
+<a class="collapsed" id="{{ include.ref }}_" role="button" href="#{{ include.ref }}" onclick="updateHash(this.id)" data-toggle="collapse" data-target="#{{ include.ref }}+" aria-expanded="false" aria-controls="{{ include.ref }}+">
+{{ include.question }}
+</a>
 </h4>
 </div>
-<div id="{{ include.ref }}" class="collapse {{ include.dontcollapse }}" data-parent="#faq-app">
+<div id="{{ include.ref }}+" class="collapse" aria-labelledby="{{ include.ref }}" data-parent="#faq-app">
 <div class="card-body" markdown="1">
