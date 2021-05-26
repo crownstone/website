@@ -18,6 +18,8 @@
 	{% capture social_image %}{{ site.production_url }}/{{ page.social-image }}{% endcapture %}
 {% elsif page.picture %}
 	{% capture social_image %}{{ site.production_url }}/{{ page.picture }}{% endcapture %}
+{% elsif page.background-image %}
+	{% capture social_image %}{{ site.production_url }}/{{ page.background-image }}{% endcapture %}
 {% else %}
 	{% capture social_image %}{{ site.production_url }}/images/crownstone-social-card.jpg{% endcapture %}
 {% endif %}
