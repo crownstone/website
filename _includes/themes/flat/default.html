@@ -248,23 +248,13 @@
                         </p>
                         <div style="display:inline-block;">
                             <ul class="list-unstyled" style="text-align: left">
+<!--                                <li>-->
+<!--                                    <script type="text/javascript">/*<![CDATA[*/var a=new Array("{{ site.contact-team.email[0] }}", "{{ site.contact-team.email[1] }}", "{{ site.contact-team.email[2] }}", "{{ site.contact-team.email[3] }}", "{{ site.contact-team.email[4] }}", "{{ site.contact-team.email[5] }}");document.write("<a href='mailto:");for(i=a.length-1;i>=0;i&#45;&#45;){document.write(a[i])}document.write("?subject=Get in contact' class='footer-text-element' style=\"text-align: center !important; align-self: center; font-family: Lato, sans-serif; font-size: 0.9rem; font-style: italic; padding: 0; color:#dddddd !important; text-decoration: none\"><i class='el el-envelope footer'></i>Email us!</a>");/*]]>*/</script>-->
+<!--                                    <noscript><i class="el el-envelope footer"></i>Email team@...</noscript>-->
+<!--                                </li>-->
                                 <li>
-                                    <script type="text/javascript">/*<![CDATA[*/var a=new Array("{{ site.contact-team.email[0] }}", "{{ site.contact-team.email[1] }}", "{{ site.contact-team.email[2] }}", "{{ site.contact-team.email[3] }}", "{{ site.contact-team.email[4] }}", "{{ site.contact-team.email[5] }}");document.write("<a href='mailto:");for(i=a.length-1;i>=0;i--){document.write(a[i])}document.write("?subject=Get in contact' class='footer-text-element' style=\"text-align: center !important; align-self: center; font-family: Lato, sans-serif; font-size: 0.9rem; font-style: italic; padding: 0; color:#dddddd !important; text-decoration: none\"><i class='el el-envelope footer'></i>Email us!</a>");/*]]>*/</script>
-                                    <noscript><i class="el el-envelope footer"></i>Email team@...</noscript>
-                                </li>
-                                <li>
-                                    <a href="https://api.whatsapp.com/send?phone=0031103073955" target="_blank" class="footer-text-element web-only" style="text-align: center !important; align-self: center; font-family: Lato, sans-serif; font-size: 0.9rem; font-style: italic; padding: 0; color:#dddddd !important; text-decoration: none">
-                                        <i class="el el-phone footer"></i>Whatsapp
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="https://api.whatsapp.com/send?phone=+31103073955" target="_blank" class="footer-text-element phone-only" style="text-align: center !important; align-self: center; font-family: Lato, sans-serif; font-size: 0.9rem; font-style: italic; padding: 0; color:#dddddd !important; text-decoration: none">
-                                        <i class="el el-phone footer"></i>Whatsapp
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="{{ site.url }}/forum" class="footer-text-element" style="text-align: center !important; align-self: center; font-family: Lato, sans-serif; font-size: 0.9rem; font-style: italic; padding: 0; color:#dddddd !important; text-decoration: none">
-                                        <i class="el el-group footer"></i>Forum
+                                    <a href="{{ site.url }}/contact" class="footer-text-element" style="text-align: center !important; align-self: center; font-family: Lato, sans-serif; font-size: 0.9rem; font-style: italic; padding: 0; color:#dddddd !important; text-decoration: none">
+                                        <i class="el el-group footer"></i>Contact us
                                     </a>
                                 </li>
 
@@ -300,6 +290,10 @@
                     </div>
 
                     <div class="col social-media-icons-container">
+                        <a href="https://discord.gg/zPhesU2CZv" target="_blank" class="footer-social-media-icons" style="text-align: center; color: lightgray; font-size: 2rem; margin: 0; padding: 0;"> <img src="/images/contact/discord-gray.svg" alt="discord-icon" style="min-width: 50px; width: 50%"> </a>
+                    </div>
+
+                    <div class="col social-media-icons-container">
                         <a href="https://www.youtube.com/channel/UCru1PX6P1JyhsI-OEMXnBdg" target="_blank" class="footer-social-media-icons" style="text-align: center; color: lightgray; font-size: 2rem; margin: 0; padding: 0;"><i class="el el-youtube"></i></a>
                     </div>
 
@@ -317,7 +311,7 @@
                <p style="margin: 0;">{{ site.company.phone_international }} / {{ site.company.phone_local }}</p>
                <br/>
                <p style="margin: 0;">
-                  This site uses external services. Cookies for the chat box (<a href="https://replain.cc/terms-and-policies">policies</a>) and the webshop (<a href="https://www.shopify.com/legal/cookies">cookie policy</a>).
+                  This site uses external services. Cookies for the webshop (<a href="https://www.shopify.com/legal/cookies">cookie policy</a>).
                </p>
             </div>
         </div>
@@ -353,47 +347,6 @@
 <![endif]-->
                     
 {% endstrip %}
-
-<!-- Disable tawk on blog because preferred way of communication is disqus for blog posts. -->
-{% if page.layout != 'post' %}
-
-<script type='text/javascript' src="{{ ASSET_PATH }}/js/replain.js"></script>
-
-<!--
-<script type='text/javascript' src="{{ ASSET_PATH }}/js/tawk.js"></script>
--->
-
-<!-- Dummy block for lazy loading of the chat script -->
-<div class="d-none d-sm-block">
-   <div class="chat-widget-dummy" id="chat-widget-no-tracking-large">
-      <div id="chat-widget-minified-wrapper" class="white ltr-direction">
-         <div id="chat-widget-minified-container" class="theme-background-color" style="border-radius: 8px 8px 0px 0px;">
-            <div id="chat-widget-status-middle">
-               <div id="chat-widget-status-text-container" class="theme-text-color">
-                  <div id="chat-widget-status-message">
-                     <span id="short-message" onclick="load_replain();return false;">Chat with a human! :-) No bots!</span>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </div>
-   </div>
-</div>
-
-<div class="d-block d-sm-none"> 
-   <div class="chat-widget-dummy-small bottom round" id="chat-widget-no-tracking-small">
-      <div id="chat-widget-minified-box" style="transform: scale(1); transform-origin: left bottom 0px;">
-         <div id="chat-widget-minified-wrapper">
-            <div id="chat-widget-status-text-container" class="theme-background-color theme-text-color" onclick="load_replain(); return false;">
-               <div id="chat-widget-status-icon" class="online">
-               </div>
-            </div>
-         </div>
-      </div>
-   </div>
-</div>
-
-{% endif %}
 
 </body>
 </html>

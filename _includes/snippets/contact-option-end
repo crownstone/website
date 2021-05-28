@@ -1,0 +1,57 @@
+{% assign email = include.email %}
+
+</div>
+
+{% if include.email %}
+<div class="col text-truncate" style="margin: 0 !important; white-space: normal; text-align: center; font-family: Lato, sans-serif; font-style: normal !important; font-size: 1.1rem !important; color: #003e52 !important; padding: 1rem 1.5rem !important; width: 100%" >
+<script type="text/javascript">
+	/*<![CDATA[*/
+	var a=new Array("{{ email[0] }}", "{{ email[1] }}", "{{ email[2] }}", "{{ email[3] }}", "{{ email[4] }}", "{{ email[5] }}");
+	document.write("<span>");
+	for(i=a.length-1;i>=0;i--){
+		document.write(a[i])
+	}
+	document.write("</span> <br>");
+	/*]]>*/
+</script>
+
+<script type="text/javascript">
+	/*<![CDATA[*/
+    var a=new Array("{{ email[0] }}", "{{ email[1] }}", "{{ email[2] }}", "{{ email[3] }}", "{{ email[4] }}", "{{ email[5] }}");
+    document.write("<a href='mailto:");
+    for(i=a.length-1;i>=0;i--) {
+        document.write(a[i])
+    }
+    document.write("?subject={{ include.subject}}'>");
+    document.write("<i class='el el-envelope'></i></a>");
+    /*]]>*/
+</script>
+{% endif %}
+
+{% if include.tel %}
+<div class="row justify-content-center text-truncate" style="margin: 0 !important; white-space: normal; text-align: center; font-family: Lato, sans-serif; font-style: normal !important; font-size: 1.1rem !important; color: #003e52 !important; padding: 1rem 1.5rem !important; width: 100%" >
+
+<a href="tel:{{ site.company.phone_international }}"> +31103073955 </a> /{{ site.company.phone_local }}
+{% endif %}
+
+{% if include.wa %}
+<div class="col text-truncate" style="margin: 0 !important; white-space: normal; text-align: center; font-family: Lato, sans-serif; font-style: normal !important; font-size: 1.1rem !important; color: #003e52 !important; padding: 1rem 1.5rem !important; width: 100%" >
+
++31103073955 <br>
+
+<div class="row justify-content-center" style="margin: 0 !important; text-align: center; font-family: Lato, sans-serif; font-style: normal !important; font-size: 1.1rem !important; color: #003e52 !important; padding: 0 !important; width: 100%" >
+<a href="https://api.whatsapp.com/send?phone=0031103073955" target="_blank" class="web-only"> <i class="el el-phone" style="margin-right: 10px; padding-top: 5px;"></i> </a>
+<a href="https://api.whatsapp.com/send?phone=+31103073955" target="_blank" class="phone-only"> <i class="el el-phone" style="margin-right: 10px; padding-top: 5px;"></i> </a>
+</div>
+{% endif %}
+
+{% if include.link %}
+<div class="row justify-content-center text-truncate" style="margin: 0 !important; white-space: normal; text-align: center; font-family: Lato, sans-serif; font-style: normal !important; font-size: 1.1rem !important; color: #003e52 !important; padding: 1rem 1.5rem !important; width: 100%" >
+
+<a href="https://discord.gg/zPhesU2CZv" target="_blank"> Crownstone Community </a>
+{% endif %}
+
+
+</div>
+
+</div>

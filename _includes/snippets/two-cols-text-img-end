@@ -1,7 +1,11 @@
 {% assign ci-img = include.img %}
 
 </div>
+{% if include.xl-img %}
+<div class="col-md-7 intra-padding align-items-center">
+{% else %}
 <div class="col-md-5 intra-padding align-items-center">
+{% endif %}
 <img src="{{ci-img}}" alt="{{include.img-alt}}"/>
 </div>
 </div>
