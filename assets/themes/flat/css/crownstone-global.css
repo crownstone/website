@@ -348,6 +348,11 @@ a.link-text-gray:hover{
 	text-decoration: none;
 }
 
+.no-link-style:hover{
+	color: #ff8400 !important;
+	text-decoration: none !important;
+}
+
 @media (min-width: 976px){
 	div.text-container-bg-white{
 		display:                flex;
@@ -1013,7 +1018,7 @@ div.bannerContainer.xs {
 	font-weight: 500;
 	color: #003e52;
 	padding: 18px 20px 17px!important;
-	border-bottom: 2px solid white;
+	border-bottom: 2px solid #f8f8f8;
 }
 
 .dropdown-menu.show{
@@ -1139,6 +1144,10 @@ div.blueblock {
 div.footer {
 	background-color: #003e52;
 	color:white;  
+}
+
+a.link-footer:hover{
+	color: #ff8400 !important;
 }
 
 div.fullWidthImage {

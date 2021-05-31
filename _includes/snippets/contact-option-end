@@ -22,16 +22,20 @@
     for(i=a.length-1;i>=0;i--) {
         document.write(a[i])
     }
-    document.write("?subject={{ include.subject}}'>");
-    document.write("<i class='el el-envelope'></i></a>");
+    document.write("?subject={{ include.subject}}' class='no-link-style'>");
+    document.write("<i class='el el-envelope no-link-style'></i></a>");
     /*]]>*/
 </script>
 {% endif %}
 
 {% if include.tel %}
-<div class="row justify-content-center text-truncate" style="margin: 0 !important; white-space: normal; text-align: center; font-family: Lato, sans-serif; font-style: normal !important; font-size: 1.1rem !important; color: #003e52 !important; padding: 1rem 1.5rem !important; width: 100%" >
+<div class="col text-truncate" style="margin: 0 !important; white-space: normal; text-align: center; font-family: Lato, sans-serif; font-style: normal !important; font-size: 1.1rem !important; color: #003e52 !important; padding: 1rem 1.5rem !important; width: 100%" >
 
-<a href="tel:{{ site.company.phone_international }}"> +31103073955 </a> /{{ site.company.phone_local }}
+{{ site.company.phone_local }} <br>
+
+<div class="row justify-content-center" style="margin: 0 !important; text-align: center; font-family: Lato, sans-serif; font-style: normal !important; font-size: 1.1rem !important; color: #003e52 !important; padding: 0 !important; width: 100%" >
+<a href="tel:{{ site.company.phone_international }}" class='no-link-style'> <i class="el el-phone no-link-style" style="margin-right: 10px; padding-top: 5px;"></i> </a>
+</div>
 {% endif %}
 
 {% if include.wa %}
@@ -40,15 +44,18 @@
 +31103073955 <br>
 
 <div class="row justify-content-center" style="margin: 0 !important; text-align: center; font-family: Lato, sans-serif; font-style: normal !important; font-size: 1.1rem !important; color: #003e52 !important; padding: 0 !important; width: 100%" >
-<a href="https://api.whatsapp.com/send?phone=0031103073955" target="_blank" class="web-only"> <i class="el el-phone" style="margin-right: 10px; padding-top: 5px;"></i> </a>
-<a href="https://api.whatsapp.com/send?phone=+31103073955" target="_blank" class="phone-only"> <i class="el el-phone" style="margin-right: 10px; padding-top: 5px;"></i> </a>
+<a href="https://api.whatsapp.com/send?phone=0031103073955" target="_blank" class="web-only no-link-style"> <img src="/images/contact/wa-icon.svg" alt="wa-icon" style='min-width: 40px; max-width: 50px'> </a>
+<a href="https://api.whatsapp.com/send?phone=+31103073955" target="_blank" class="phone-only no-link-style"> <img src="/images/contact/wa-icon.svg" alt="wa-icon" style='min-width: 40px; max-width: 50px'> </a>
 </div>
 {% endif %}
 
 {% if include.link %}
-<div class="row justify-content-center text-truncate" style="margin: 0 !important; white-space: normal; text-align: center; font-family: Lato, sans-serif; font-style: normal !important; font-size: 1.1rem !important; color: #003e52 !important; padding: 1rem 1.5rem !important; width: 100%" >
+<div class="col text-truncate" style="margin: 0 !important; white-space: normal; text-align: center; font-family: Lato, sans-serif; font-style: normal !important; font-size: 1.1rem !important; color: #003e52 !important; padding: 1rem 1.5rem !important; width: 100%" >
+Crownstone Community <br>
 
-<a href="https://discord.gg/zPhesU2CZv" target="_blank"> Crownstone Community </a>
+<div class="row justify-content-center" style="margin: 0 !important; text-align: center; font-family: Lato, sans-serif; font-style: normal !important; font-size: 1.1rem !important; color: #003e52 !important; padding: 0 !important; width: 100%" >
+<a href="https://discord.gg/zPhesU2CZv" target="_blank"> <img src="/images/contact/discord-icon.svg" alt="discord-icon" style='min-width: 40px; max-width: 40px'> </a>
+</div>
 {% endif %}
 
 

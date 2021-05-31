@@ -7,9 +7,10 @@
     <div class="row justify-content-center m-0" style="background-color: transparent;">
     {% endif %}
     {% for spec in specs %}
-        <div class="col-lg-2" style="margin: 1rem 0 !important" >
+        <div class="col-lg-2" onclick="location.href='{{ spec.link }}'" style="margin: 1rem 0 !important; cursor: pointer;" >
             <div class="row align-items-center justify-content-center">
-                <i class="el {{ spec.icon }}" style="font-size: 2.5rem; color: lightgray;"></i> <a href="{{ spec.link }}" class="link-text-gray" style="color: gray; margin: 0 1rem; font-size: 1rem;"> {{ spec.title }} </a> <i class="el el-arrow-right" style="color: lightgray"></i>
+                <i class="el {{ spec.icon }}" style="font-size: 2.5rem; color: lightgray;"></i>
+                <a href="{{ spec.link }}" class="link-text-gray" style="color: gray; margin: 0 1rem; font-size: 1rem;"> {{ spec.title }} </a> <i class="el el-arrow-right" style="color: lightgray"></i>
             </div>
         </div>
     {% endfor %}
