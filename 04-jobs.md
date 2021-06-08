@@ -65,7 +65,7 @@ In this role you will help us developing products that extend the smart home, le
 Some of these products are a 3-phase switch of the Crownstone and an IoT version (4G LTE/NB-IoT) apart from third-party products that neatlessly fit our roadmap. 
 We work together with Dutch and international companies for productizing and mass production. Expertise in this respect will definitely be a plus!
 
-{% include snippets/job-vacancy-end pdf-link="https://docs.google.com/document/d/1SDGnky5K-vh6HJxvwxZdWUtqjike5dLL5hagrOmH1Ls/export?format=pdf" job-id="electrical-engineer"%}
+{% include snippets/job-vacancy-end job-id="electrical-engineer"%}
 
 
 {% include snippets/job-vacancy-begin img="/images/sales-engineer.jpg" img-alt="sales-engineer" title="Sales Engineer" %}
@@ -75,7 +75,7 @@ Cool services based on the new tech developed at Crownstone, such as indoor loca
 In our company you will have a lot of autonomy, from identifying low-hanging fruit, tailoring the market proposition, to control over marketing material. 
 You’ll work daily with Anne to make all this a success story!
 
-{% include snippets/job-vacancy-end pdf-link="https://docs.google.com/document/d/1SDGnky5K-vh6HJxvwxZdWUtqjike5dLL5hagrOmH1Ls/export?format=pdf" job-id="sales-engineer"%}
+{% include snippets/job-vacancy-end job-id="sales-engineer"%}
 
 
 {% include snippets/vacancy-container-end %}
@@ -90,7 +90,7 @@ If you like embedded programming, this is the perfect challenge! Do you also lik
 Do literature research, create a simulator, prototype your algorithm in Python, test your theories and finally implement your features in the Crownstone firmware! 
 There are many challenges like improved indoor localization, in network localization, device classification, mesh traffic optimization etc. Our firmware is written in C++ and is open-source. 
 
-{% include snippets/job-vacancy-end pdf-link="https://docs.google.com/document/d/1SDGnky5K-vh6HJxvwxZdWUtqjike5dLL5hagrOmH1Ls/export?format=pdf" job-id="software-engineer"%}
+{% include snippets/job-vacancy-end job-id="software-engineer"%}
 
 
 {% include snippets/job-vacancy-begin img="/images/finance.jpg" img-alt="finance" title="Finance" %}
@@ -99,7 +99,7 @@ You want to play a significant role in an innovative company! This is the perfec
 In addition, you don’t mind enrolling in promising subsidy programs, and you are excited about thinking about funding and mutual beneficial collaboration with venture capitalists and international companies… 
 In that case, drop us a note!
 
-{% include snippets/job-vacancy-end pdf-link="https://docs.google.com/document/d/1SDGnky5K-vh6HJxvwxZdWUtqjike5dLL5hagrOmH1Ls/export?format=pdf" job-id="finance"%}
+{% include snippets/job-vacancy-end job-id="finance"%}
 
 
 {% include snippets/vacancy-container-end %}
