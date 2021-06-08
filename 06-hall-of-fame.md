@@ -209,6 +209,24 @@ graduate-gallery:
     affiliation: " Utrecht University"
     linkedin: "freek-van-polen-08960719"
 intern-gallery:
+  - image: "martjankoedam.jpg"
+    name: "Martjan Koedam"
+    affiliation: "Technische Informatica, Hogeschool Rotterdam"
+    linkedin: martjankoedam
+    report:
+      title: "Homey"
+  - image: "joeyouwens.png"
+    name: "Joey Ouwens"
+    affiliation: "Informatica, Hogeschool Rotterdam"
+    linkedin: joey-ouwens-9110956b
+    report:
+      title: "Philips hue"
+  - image: "kevinvanrijn.jpg"
+    name: "Kevin van Rijn"
+    affiliation: 
+    linkedin: kevin-van-rijn-90a847111
+    report:
+      title: "Crownstone Hardware Tester"
   - image: "wickybhaggoe.jpg"
     name: "Wicky Bhaggoe"
     affiliation: "Technische Informatica, Hogeschool Rotterdam"

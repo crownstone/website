@@ -24,7 +24,7 @@ Are you ready for an exciting internship?
 
 {% include snippets/full-width-container-begin%}
 
-{% include snippets/two-cols-text-img-begin%}
+{% include snippets/two-cols-text-img-begin text-right="true"%}
 
 Then check out our available **internships** and **graduation projects**! We’re a no-nonsense team (no long story about how great we are) and you’ll put your **knowledge** into practice at the same time that you **enjoy learning**!
 
@@ -105,7 +105,7 @@ If a graduation position has been taken, this does not mean that all problems ha
 
 {% include snippets/full-width-container-begin%}
 
-{% include snippets/two-cols-text-img-blue-bg-begin text-right="true" %}
+{% include snippets/two-cols-text-img-blue-bg-begin %}
 
 ### Requirements
 
@@ -167,7 +167,7 @@ A new upcoming feature of Crownstone is that they can run code written using the
 
 Crownstone is integrated with Google Home, Alexa, and Home Assistant. Node-RED is a home automation platform that is used a lot internationally. The preferred way to incorporate it is by providing an MQTT interface and integrate with that.
 
-{% include snippets/internship-project-end pdf-link="https://docs.google.com/document/d/1e5NKftzUI22oxefR_hGX-asgg1HBY7flgQ-r8PJvFmQ/export?format=pdf" %}
+{% include snippets/internship-project-end pdf-link="https://docs.google.com/document/d/1e5NKftzUI22oxefR_hGX-asgg1HBY7flgQ-r8PJvFmQ/export?format=pdf" taken="true"%}
 
 
 {% include snippets/internship-project-begin img="/images/internships/smart-things.svg" img-alt="smart-things" title="SmartThings" %}

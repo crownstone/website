@@ -1,5 +1,6 @@
 </div>
 
+{% if include.pdf-link %}
 <div class="row justify-content-start" style="margin: 0 !important; padding: 0 1.5rem !important;">
 <div class="col-1">
 <div class="row justify-content-center align-items-center" style="margin: 0 !important">
@@ -15,7 +16,7 @@ Check the position details
 </div>
 </div>
 </div>
-
+{% endif %}
 
 
 <div class="row justify-content-start" style="margin: 0 !important; padding: 0 1.5rem !important;">
