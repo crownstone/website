@@ -214,19 +214,19 @@ intern-gallery:
     affiliation: "Technische Informatica, Hogeschool Rotterdam"
     linkedin: martjankoedam
     report:
-      title: "Homey"
+      title: "Crownstone with Homey"
   - image: "joeyouwens.png"
     name: "Joey Ouwens"
     affiliation: "Informatica, Hogeschool Rotterdam"
     linkedin: joey-ouwens-9110956b
     report:
-      title: "Philips hue"
+      title: "Crownstone with Philips Hue"
   - image: "kevinvanrijn.jpg"
     name: "Kevin van Rijn"
-    affiliation: 
+    affiliation: "Technische Informatica, Hogeschool Rotterdam"
     linkedin: kevin-van-rijn-90a847111
     report:
-      title: "Crownstone Hardware Tester"
+      title: "Low-Level Bluetooth Low-Energy Library"
   - image: "wickybhaggoe.jpg"
     name: "Wicky Bhaggoe"
     affiliation: "Technische Informatica, Hogeschool Rotterdam"

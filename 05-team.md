@@ -7,8 +7,9 @@ keywords: "team, follow us, facebook, twitter, contact, personal, Crownstone"
 kramdown: 
   parse_block_html: true
 background-image: banner-team.jpg
-banner-caption: "Meet us!"
+banner-caption: "Our team!"
 group: [navigation-about-us-submenu, navigation-about-us-footer]
+skip-newsletter: true
 permalink: team/
 custom_css:
   - https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css
@@ -21,21 +22,11 @@ graduates-gallery:
     report:
       title: "In-network localization"
 intern-gallery:
-  - image: "martjankoedam.jpg"
-    name: "Mart-Jan Koedam"
-    affiliation: "Technische Informatica, Hogeschool Rotterdam"
+  - image: "joybaris.jpg"
+    name: "Joy Baris"
+    affiliation: "Human Technologies, Techniek College Rotterdam"
     report:
-      title: "Crownstone with Homey"
-  - image: "joeyouwens.png"
-    name: "Joey Ouwens"
-    affiliation: "Informatica, Hogeschool Rotterdam"
-    report:
-      title: "Crownstone with Philips Hue"
-  - image: "kevinvanrijn.jpg"
-    name: "Kevin van Rijn"
-    affiliation: "Technische Informatica, Hogeschool Rotterdam"
-    report:
-      title: "Low-Level Bluetooth Low-Energy Library"
+      title: "User experience"
 advisors-gallery:
   - image: "hansabbink.jpg"
     name: "Hans Abbink"
@@ -43,21 +34,45 @@ advisors-gallery:
     linkedin: "hansabbink"
     twitter: "hans_abbink"
     website: "almende-investments.com/"
+    report:
+      title: "Hans Abbink is a successful entrepreneur and investor in the Rotterdam region under the investment company "
+      link-text: "Almende Investments."
+      link: "almende-investments.com/"
   - image: "antonmontagne.jpg"
     name: "Anton Montagne"
     affiliation: "Structured Electronic Designer"
     website: "analog-electronics.eu"
+    report:
+      title: "Anton Montagne teaches at the Technical University Delft and wrote the book on "
+      link-text: "electronic design."
+      link: "www.analog-electronics.eu/Structured-Electronic-Design/structured-electronic-design.html"
   - image: "alexanderweisz.jpg"
     name: "Alexander Weisz"
     affiliation: "Business Consultant"
     linked: "alexanderjweisz"
     twitter: "alexander_we"
     website: "alexanderweisz.nl"
+    report:
+      title: "Alexander Weisz is an expert in management and business development for starting companies such as Finch Buildings and "
+      link-text: "Quantoz."
+      link: "quantoz.com"
   - image: "berendolderikkert.jpg"
     name: "Berend Olde Rikkert"
     affiliation: "Partnership Director"
     linkedin: "berend-olde-rikkert-5904421"
     twitter: "berendor"
+    report:
+      title: "Berend Olde Rikkert has ample experience in the energy sector as vice president Energy and Utilities at Capgemini as well as at the successful company"
+      link-text: "Quby."
+      link: "www.quby.com"
+  - image: "janpeterlarsen.png"
+    name: "Jan Peter Larsen"
+    affiliation: "CEO Almende Investments"
+    linkedin: "janpeterlarsen"
+    report:
+      title: "Jan Peter knows how to run a business. Crownstone benefits from his ample experience as managing director of Sense Labs and "
+      link-text: "NiceDay."
+      link: "nicedaynederland.nl"
 core-team-gallery:
   - image: "annevanrossum.jpg"
     name: "Anne van Rossum"
@@ -97,6 +112,8 @@ core-team-gallery:
     name: "Teresa van Dam"
     affiliation: "Business Developer"
     linkedin: "teresa-jacqueline-van-dam-a9386aa1"
+    twitter: "TereYaqui"
+    github: "tere92"
     report:
       title: "Teresa has a masters in Data Science and makes sure that our products and services are embraced by the market!"
   - image: "arenddejonge.png"
@@ -114,190 +131,236 @@ core-team-gallery:
 ---
 {% include JB/setup %}
 
-{% include snippets/row-begin %}
-{% include snippets/column-begin colsize="12" %}
 
-# Vision
+{% include snippets/slogan-begin %}
 
-Crownstone: indoor positioning hardware for smart homes using artificial intelligence to automatically react to someone's presence.
+Our Vision
 
-Our first bet is that in the future **indoor positioning** will be a larger market than outdoor positioning (GPS). Very straightforward, our homes and offices will **never be smart** if they do not **know where we are**!
+{% include snippets/slogan-end %}
 
-Our second bet is that every device will get a chip, in particular power outlets and lights. A smart outlet brings comfort, safety, and energy savings. There are many more power outlets than smartphones in the world. That's the potential impact of a company like Crownstone! Billions of human acts automated. Billions of energy savings each year!
 
-The core values of Crownstone are saving time, quality time, and transparency. We automate so people have more time. 
-We bring comfort and want people to enjoy their homes. We operate customer-centric and privacy-aware. Your data is yours.
+{% include snippets/full-width-container-begin %}
 
-{% include snippets/column-end %}
-{% include snippets/column-begin %}
+{% include snippets/centered-text-home-begin %}
 
-# Who are we?
+Crownstone as **indoor positioning** hardware for smart buildings that uses artificial intelligence to automatically react to someone’s **presence**.
 
-The best way to show who we are is with a little video!
-                    
-You can follow us as a team on [Facebook](https://www.facebook.com/crownstones) and [Twitter](https://twitter.com/CrownstoneRocks). You can follow individual team members on Twitter as well, like [Hans](https://twitter.com/hans_abbink), who loves enterpreneurship, [Peet](https://twitter.com/pmavantooren), who supports many crowdfunding projects, or [Anne](https://twitter.com/annevanrossum), who can't stop talking about robots and artificial intelligence.
-                    
-Apart from work, if you're into martial arts, drop Bart a message. Peet likes everything that involves audio and Alex is into 3D animations.
+{% include snippets/centered-text-home-end %}
 
-{% include snippets/column-end %}
-{% include snippets/column-begin %}
+{% include snippets/full-width-container-end %}
 
-{% vimeo 139370746 "Team introduction" 1024 840 %}
 
-{% include snippets/column-end %}
-{% include snippets/row-end %}
 
-{% include snippets/divider %}
+{% include snippets/full-width-container-begin%}
 
-{% include snippets/row-begin %}
-{% include snippets/column-begin %}
+{% include snippets/two-cols-text-img-begin %}
 
-# Where are we?
+##### In the future indoor positioning will be a larger market than outdoor positioning (GPS)
 
-Right in the center of Rotterdam!
+<p>&nbsp;</p>
 
-__Crownstone__
-<br>
-{{ site.company.street }}
-<br>
-{{ site.company.postal_code }}
-<br>
-KvK: {{ site.company.kvk }}
-<br>
-BTW/VAT: {{ site.company.vat }}
+Very straightforward, our homes and offices will never be smart if they do not know where we are!
  
-## Contact
+{% include snippets/two-cols-text-img-end img='/images/bet1.jpg' img-alt='bet1' %}
 
-{% assign email = ".rocks, stone, crown, @, am, te" | split: ", "  %}
-<div class="email"><i class='el el-envelope'></i> email: {% include snippets/email subject="Crownstone Contact" email=email %}</div>
+{% include snippets/full-width-container-end %}
 
-<p>
-<i class='el el-phone'></i> 
-phone: 
-<a href="tel:{{ site.company.phone_international }}">{{ site.company.phone_international }}</a> / {{ site.company.phone_local }}
-</p>
 
-{% include snippets/column-end %}
-{% include snippets/column-begin %}
 
-# How to get there?
+{% include snippets/full-width-container-begin%}
 
-Crownstone is housed in the beautiful Groothandelsgebouw at Rotterdam Central Station (<a href="http://ghg.nl/en/contact/">parking for and direction by car</a>). We recommend to come by public transport, it's at the station!
+{% include snippets/two-cols-text-img-begin text-right='true'%}
 
-<!-- 9292 widget v2 -->
-<div class="widget">
-<center>
-<a href='//9292.nl/en?to=rotterdam%2Fstationsplein-45' data-9292='widget' data-9292-text='Crownstone' data-9292-ref='rotterdam/stationsplein-45' data-9292-width='290' data-9292-height='550' data-9292-api-key='de198d3c876f29d3ca91379d27873b7d741a86dcf61dcdca60920e38dc45ffee' data-9292-widget-key='3bbbf433cf353c1fca32bb2a9327c8497556f7b27ae6d388ef9e02f195d17667' data-targetblank="on">Plan my journey</a>
-<script src='//9292.nl/static/js/widget.js'></script>
-</center>
-</div>
+##### Every device will get a chip, in particular power outlets and lights
 
-Plan your return trip with [Rotterdam Central departure times](http://www.ns.nl/actuele-vertrektijden/avt?station=RTD). Count at least two minutes walking through the Groothandelsgebouw.
+<p>&nbsp;</p>
 
-{% include snippets/column-end %}
-{% include snippets/row-end %}
+A smart outlet brings comfort, safety, and energy savings. There are many more power outlets than smartphones in the world. 
+That’s the potential impact of a company like Crownstone! Billions of human acts automated. Billions of energy savings each year!
+ 
+{% include snippets/two-cols-text-img-end img='/images/bet2.jpg' img-alt='bet2' %}
 
-{% include snippets/divider %}
+{% include snippets/full-width-container-end %}
+
+
+
+{% include snippets/slogan-begin %}
+
+Our core values
+
+{% include snippets/slogan-end %}
+
+
+{% include snippets/full-width-container-begin%}
+
+{% include snippets/two-cols-centered-text-img-begin text-right='true' %}
+
+### Saving time
+
+<p>&nbsp;</p>
+
+Crownstones automate so people have **more time**.
+ 
+{% include snippets/two-cols-centered-text-img-end img='/images/save_time.svg' img-alt='save_time' %}
+
+{% include snippets/full-width-container-end %}
+
+
+
+{% include snippets/full-width-container-begin%}
+
+{% include snippets/two-cols-centered-text-img-begin %}
+
+### Quality time
+
+<p>&nbsp;</p>
+
+Crownstone bring **comfort** and we want people to enjoy their homes.
+ 
+{% include snippets/two-cols-centered-text-img-end img='/images/quality_time.svg' img-alt='quality_time' %}
+
+{% include snippets/full-width-container-end %}
+
+
+
+{% include snippets/full-width-container-begin%}
+
+{% include snippets/two-cols-centered-text-img-begin text-right='true' %}
+
+### Transparency
+
+<p>&nbsp;</p>
+
+We operate customer-centric and privacy-aware. Your **data is yours**.
+ 
+{% include snippets/two-cols-centered-text-img-end img='/images/transparency.svg' img-alt='transparency' %}
+
+{% include snippets/full-width-container-end %}
+
+
+
+{% include snippets/slogan-begin %}
+
+Our background
+
+{% include snippets/slogan-end %}
+
+
+{% include snippets/full-width-container-begin%}
+
+{% include snippets/two-cols-text-img-begin%}
+
+Crownstone has been originally developed by DoBots, has as seed investor [Almende Investments](http://almende-investments.com), 
+is part of the [Rockstart accelerator](http://www.rockstart.com/blog/rockstart-introduces-participants-of-2016-smart-energy-accelerator), 
+and launched as company on the 20th of May 2016.
+
+{% include snippets/two-cols-text-img-end img='/images/origins.png' img-alt='origins' %}
+
+{% include snippets/full-width-container-end %}
+
 
 {% include snippets/row-begin %}
 {% include snippets/column-begin colsize="12" %}
 
-# Background
-
-Crownstone has been originally developed by DoBots, has as seed investor [Almende Investments](http://almende-investments.com), is part of the [Rockstart accelerator](http://www.rockstart.com/blog/rockstart-introduces-participants-of-2016-smart-energy-accelerator), and launched as company on the 20th of May 2016.
-
-We recommend that you scroll through the website and the blog to know what the role of our products can be in a business-to-business context. Indoor localisation has wide applicability apart from use at home, including (informal) care, flexible places at work, and preventive maintenance.
-
-We have a very transparent manner of operation. You can find a lot of information about us online, such as the [Kickstarter](https://www.kickstarter.com/projects/dobots/crownstone)
+We have a very transparent manner of operation. A lot of information about us can be found online, such as the [Kickstarter](https://www.kickstarter.com/projects/dobots/crownstone) 
 where we raised over 70.000 euros for the Crownstones, our [blog]({{ BASE_PATH }}/blog), where we give you a lot of insight into our projects, and our [github repositories](https://github.com/crownstone).
 
-Find pictures and logos on the [press kit]({{ BASE_PATH }}/presskit) page.
-
 {% include snippets/column-end %}
 {% include snippets/row-end %}
 
-{% include snippets/divider %}
 
-{% include snippets/row-begin %}
-{% include snippets/column-begin colsize="12" %}
 
-# Core Team
+{% include snippets/slogan-begin %}
 
-The Crownstone team is extremely well versed in a wide variety of skills. We have all been to
-Dutch or international universities and like challenges above anything else!
+Core Team
 
-It is easy to contact each of us individually. Just use our first name and <abbr title="for example: joe@crownstone.rocks">attach @crownstone.rocks</abbr> at the end.
+{% include snippets/slogan-end %}   
 
-{% include snippets/column-end %}
-{% include snippets/row-end no-container-end=true %}
+
+{% include snippets/full-width-container-begin %}
+
+{% include snippets/centered-text-home-begin %}
+
+The Crownstone team is extremely well versed in a wide variety of **skills**. We all have been to Dutch or international universities and like **challenges** above anything else!
+
+To contact any of us individually, use our **first name** and <abbr title="for example: joe@crownstone.rocks">attach @crownstone.rocks</abbr> at the end.
+
+{% include snippets/centered-text-home-end %}
+
+{% include snippets/full-width-container-end %}
+
 
 {% include snippets/subgallery id="core-team-gallery" %}
 
-{% include snippets/container-end %}
 
-{% include snippets/divider %}
 
-{% include snippets/row-begin %}
+{% include snippets/slogan-begin %}
 
-{% include snippets/column-begin colsize="12" %}
+Crownstone Advisors and Experts
 
-# Crownstone Advisors and Experts
+{% include snippets/slogan-end %}   
 
-At Crownstone we have multiple advisors and experts who help us bring Crownstone to the market. Hans Abbink is a successful entrepreneur and investor in the Rotterdam region under the investment company [Almende Investments](http://almende-investments.com). 
-Anton Montagne wrote the book on [electronic design](https://www.analog-electronics.eu/Structured-Electronic-Design/structured-electronic-design.html) and teaches at the Technical University Delft.
-Alexander Weisz is an expert in management and business development for starting companies such as [Finch Buildings](http://www.finchbuildings.com/en/) and [Quantoz](https://quantoz.com). Berend Olde Rikkert has ample experience in the energy sector, for example at the successful [Quby](https://www.quby.com) company, known from the Eneco Toon and as vice president Energy and Utilities at Capgemini.
 
-{% include snippets/column-end %}
-{% include snippets/row-end no-container-end=true %}
+{% include snippets/full-width-container-begin %}
+
+{% include snippets/centered-text-home-begin %}
+
+At Crownstone we have multiple advisors and experts who help us bring Crownstone to the market.
+
+{% include snippets/centered-text-home-end %}
+
+{% include snippets/full-width-container-end %}
+
 
 {% include snippets/subgallery id="advisors-gallery" %}
 
-{% include snippets/container-end %}
 
-{% include snippets/divider %}
 
-{% include snippets/row-begin %}
-{% include snippets/column-begin colsize="12" %}
+{% include snippets/slogan-begin %}
 
-# Our Current Master Students
-                    
-Feel free to contact our master students to get some additional insight into Crownstone. Use their first name and <abbr title="for example: joe@crownstone.rocks">attach @crownstone.rocks</abbr> at the end.
+Interns
 
-{% include snippets/column-end %}
-{% include snippets/row-end no-container-end=true %}
+{% include snippets/slogan-end %}
 
-{% include snippets/subgallery id="graduates-gallery" %}
 
-{% include snippets/container-end %}
+{% include snippets/full-width-container-begin %}
 
-{% include snippets/divider %}
-
-{% include snippets/row-begin %}
-{% include snippets/column-begin colsize="12" %}
-
-# Interns
+{% include snippets/centered-text-home-begin %}
 
 Our most recent interns, who perform a wide range of tasks. They help people with advice on Crownstones, test all kind of smartphone variants, organize hackathons, building a booth for trade fairs, desoldering and soldering electronic components, product assembly, and much more.
 
-{% include snippets/column-end %}
-{% include snippets/row-end no-container-end=true %}
+{% include snippets/centered-text-home-end %}
+
+{% include snippets/full-width-container-end %}
+
 
 {% include snippets/subgallery id="intern-gallery" %}
 
-{% include snippets/container-end %}
 
-{% include snippets/divider %}
+{% include snippets/margin %}
 
-{% include snippets/row-begin %}
-{% include snippets/column-begin colsize="12" %}
 
-# Hall of Fame
 
-For a nice overview of past employees and interns, who have worked on robotics and wireless sensor networks at Crownstone, our sister company [DoBots](https://dobots.nl), or our mother company [Almende](http://almende.com), (scientific research), take a look at [our hall of fame]({{ BASE_PATH }}/hall-of-fame).
+{% include snippets/slogan-begin blue-bg='true' %}
 
-Really, go there! :-) There is lot of interesting research and perhaps software you can use yourself!
+Hall of fame
 
-{% include snippets/column-end %}
-{% include snippets/row-end %}
+{% include snippets/slogan-end %}
 
-{% include snippets/bottom-margin %}
+
+{% include snippets/full-width-container-begin%}
+
+{% include snippets/two-cols-text-img-blue-bg-begin text-right="true" %}
+
+For a nice overview of past employees and interns, who have worked at Crownstone, at our sister company [DoBots](https://dobots.nl), or at our mother company [Almende](http://almende.com), take a look at our hall of fame.
+
+{% include snippets/two-cols-text-img-blue-bg-end img='/images/hall_of_fame.jpg' img-alt='hall-of-fame' link='true' url='/hall-of-fame' link-text='Explore' %}
+
+{% include snippets/full-width-container-end %}
+
+
+{% include snippets/full-width-container-begin %}
+
+{% include snippets/social-media-buttons  linkedin='true' twitter='true' facebook='true' page-name='team' %}
+
+{% include snippets/full-width-container-end %}

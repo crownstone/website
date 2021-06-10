@@ -4,7 +4,7 @@
   {% assign gallery = page.gallery %}
 {% endif %}
 
-<div class="row subgallery">
+<div class="row justify-content-center m-0 subgallery">
 
   {% assign cntr = 0 %}
 
@@ -20,9 +20,9 @@
 
   {% else %}
 
-  <div class="col-md-3 col-sm-6 col-xs-12">
+  <div class="col-xs-10 col-sm-5 col-md-4 col-lg-3 forget-box">
     <div class="center text-center">
-      <p><img class="img-responsive img-thumbnail rounded-circle" src="{{ BASE_PATH}}/images/team/{{ person.image }}" width="{{ img_size }}" height="{{ img_size }}" alt="{{ person.name }}"></p>
+      <p><img class="img-responsive img-thumbnail rounded-circle" style="margin: 0.2rem" src="{{ BASE_PATH}}/images/team/{{ person.image }}" width="{{ img_size }}" height="{{ img_size }}" alt="{{ person.name }}"></p>
 	  <h5>{{ person.name }}</h5>
 	  <h5><small class="designation muted"> {{ person.title}}{{ person.affiliation}}</small></h5>
 	  {% if person.linkedin %}
@@ -49,13 +49,15 @@
 		  <a href="{{ person.report.award }}"><i class="el el-idea"></i></a>
 	  {% endif %}
 	  {{ person.report.title }} {% if person.report.url %}(<a href="{{ BASE_PATH }}/attachments/{{ person.report.url }}">pdf</a>){% endif %} {% if person.report.movie %}(<a href="{{ person.report.movie }}">movie</a>){% endif %}
+	  {% if person.report.link %}<a href="http://{{person.report.link}}">{{ person.report.link-text }}</a>{% endif %}
+
 	  {% if person.articles %}
-	    (papers
-		{% for article in person.articles %}
-		<a href="{{article.url}}">{{article.ref}}</a>
-		{% endfor %}
-		)
-	  {% endif %}
+      (papers
+      {% for article in person.articles %}
+      <a href="{{article.url}}">{{article.ref}}</a>
+      {% endfor %}
+       )
+      {% endif %}
 	  </p>
 	  {% endif %}
     </div>	
