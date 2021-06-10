@@ -14,7 +14,7 @@ style="text-align: center !important; align-self: center; padding: .375rem 1.25r
 {% if include.twitter %}
 <div class="col-md-3 align-items-center">
 <div class="row justify-content-center">
-<a class="btn" href="https://twitter.com/intent/tweet?text=Vacancies%20at%20Crownstone&url={{ site.url }}/{{ include.page-name }}#{{ include.job-id }}"
+<a class="btn" href="https://twitter.com/intent/tweet?url={{ site.url }}/{{ include.page-name }}#{{ include.job-id }}"
 style="text-align: center !important; align-self: center; padding: .375rem 1.25rem; margin: 1rem 0; font-family: Lato, sans-serif; font-size: 1rem; letter-spacing: 1px; color: white !important; background-color: #1da1f2; box-shadow: 3px 3px 4px rgb(0 0 0 / 16%); text-decoration: none">
 <i class="el el-twitter" style="margin-right: 10px"></i> Tweet
 </a>
