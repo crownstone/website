@@ -61,8 +61,8 @@ Crownstone is always looking for talented people with expertise in embedded prog
 
 {% include snippets/job-vacancy-begin img="/images/electrical-engineer.jpg" img-alt="electrical-engineer" title="Electrical Engineer" %}
 
-In this role you will help us developing products that extend the smart home, leverage our expertise in Bluetooth products or allow us to improve our indoor localization and device monitoring offerings. 
-Some of these products are a 3-phase switch of the Crownstone and an IoT version (4G LTE/NB-IoT) apart from third-party products that neatlessly fit our roadmap. 
+In this role you will help us developing products that extend the smart home, leverage our expertise in Bluetooth products or allow us to improve our indoor localization and device monitoring offerings.
+Some of these products are a 3-phase switch of the Crownstone and an IoT version (4G LTE/NB-IoT) apart from third-party products that seamlessly fit our roadmap.
 We work together with Dutch and international companies for productizing and mass production. Expertise in this respect will definitely be a plus!
 
 {% include snippets/job-vacancy-end job-id="electrical-engineer"%}

@@ -29,7 +29,7 @@ Crownstone saves you time
 
 {% include snippets/centered-text-home-begin %}
 
-We like you to **save** time rather than **spend** time on your smart home! Here are some ideas and tips for the "handsfree" use of your lights and devices!
+We like you to **save** time rather than **spend** time on your smart home! Here are some ideas and tips for the "hands-free" use of your lights and devices!
 
 {% include snippets/centered-text-home-end %}
 

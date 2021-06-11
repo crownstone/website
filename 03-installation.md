@@ -114,7 +114,7 @@ Crownstones can be installed at a light controlled by an ordinary light **switch
 
 {% include snippets/centered-text-home-end %}
 
-{% include snippets/centered-image-home img='/images/desklamp.png' img-alt='desklamp'%}
+{% include snippets/centered-image-home img='/images/desklamp.png' img-alt='desk lamp'%}
 
 {% include snippets/full-width-container-end %}
 
