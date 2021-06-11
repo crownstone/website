@@ -8,7 +8,14 @@ You can find this website at [https://crownstone.rocks](https://crownstone.rocks
 
 ## Prerequisites
 
-Install ruby, jekyll, and bundler. Subsequently run:
+Install ruby, jekyll, and bundler. 
+
+```
+sudo apt install ruby-full
+gem install jekyll bundler
+```
+
+Subsequently run:
 
 ```
 bundle config set --local path 'vendor/bundle'
