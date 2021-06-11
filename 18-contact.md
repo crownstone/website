@@ -61,7 +61,7 @@ Interested in our technology? Then talk with us, we're all ears!
 
 {% include snippets/contact-option-begin img="/images/contact/wa.svg" img-alt="wa-icon" title="Send a Whatsapp" %}
 
-If you prefer to chat with us, send us a message on WhatsApp
+If you prefer to chat with us, send us a message on Whatsapp.
 
 {% include snippets/contact-option-end wa="true" %}
 
