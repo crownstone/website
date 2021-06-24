@@ -50,6 +50,7 @@ body, body p, li, th, td, .rte-font {
 	font-family: 'LatoLight';
 	font-size: 1.3rem;
 	line-height: 35px;
+	color: inherit !important;
 }
 
 body small a {
@@ -250,11 +251,12 @@ div.description-paragraph-title{
 
 #description-small{
 	font-size: 1rem !important;
+	color: #003e52 !important;
 }
 
 #description-small-blue-bg{
 	font-size: 1rem !important;
-	color: white;
+	color: white !important;
 }
 
 h5{
@@ -286,7 +288,7 @@ p.description-paragraph{
 	font-family: Lato, sans-serif;
 	font-size: 1.3rem;
 	font-style: italic;
-	color: #003e52;
+	color: #003e52 !important;
 	width: 100%;
 	margin: 2rem 0;
 	padding: 1rem;
@@ -297,7 +299,7 @@ p.description-paragraph-blue-bg{
 	font-family: Lato, sans-serif;
 	font-size: 1.3rem;
 	font-style: italic;
-	color: white;
+	color: white !important;
 	width: 100%;
 	margin: 2rem 0;
 	padding: 1rem;
@@ -312,6 +314,7 @@ span.important-blue{
 div.bg-white-container{
 	background-color: rgba(255, 255, 255, 0.9);
 	padding: 1rem;
+	color: #003e52 !important;
 }
 
 div.right-alignment{
@@ -615,7 +618,7 @@ p.title-cs-features{
 	font-style: italic;
 	font-weight: bold;
 	font-size: 1.1rem;
-	color: #003e52;
+	color: #003e52 !important;
 	width: 100%;
 	padding: 1rem 0;
 	margin: 0;
@@ -626,7 +629,7 @@ p.description-cs-features{
 	font-family: Lato, sans-serif;
 	font-style: italic;
 	font-size: 0.9rem;
-	color: #003e52;
+	color: #003e52 !important;
 	width: 100%;
 	padding: 0;
 	margin: 0;
@@ -708,7 +711,7 @@ p.description-segments{
 	font-style: italic;
 	font-size: 0.9rem;
 	font-weight: bold;
-	color: #ff8400;
+	color: #ff8400 !important;
 	padding: 0;
 	margin: 0 0.5rem;
 }
@@ -769,7 +772,7 @@ p.newsletter-text{
 	font-family: Lato, sans-serif;
 	font-size: 1.1rem;
 	font-style: italic;
-	color: #003e52;
+	color: #003e52 !important;
 	width: 100%;
 	margin: 2rem 0 1.5rem;
 }
@@ -1423,12 +1426,13 @@ a.button-link:active {
 
 body .post-container {
 	background-color: #003e52;
-	color: #dddddd;
+	color: #dddddd !important;
 }
 
 /* Justify doesn't look nice on small screens or very large screens */
 body .post-container p {
 /*	text-align: justify; */
+	color: #dddddd !important;
 }
 
 body .post-container a {

@@ -59,7 +59,7 @@ The integration of Crownstone with Home Assistant enables you to personalize you
 
 {% include snippets/two-cols-centered-text-img-begin %}
 
-##### You can create triggers for multiple users.
+#### **You can create triggers for multiple users.**
 
 <p>&nbsp;</p>
 
@@ -74,7 +74,7 @@ The integration of Crownstone with Home Assistant enables you to personalize you
 
 {% include snippets/two-cols-centered-text-img-begin text-right='true' %}
 
-##### You can create triggers for a specific user.
+#### **You can create triggers for a specific user.**
 
 <p>&nbsp;</p>
 
@@ -120,7 +120,7 @@ The integration with Google Home enables you to control your Crownstones with yo
 
 {% include snippets/two-cols-centered-text-img-begin %}
 
-##### If you are in the mood to read a book... 
+#### **If you are in the mood to read a book...**
 
 <p>&nbsp;</p>
 
@@ -135,7 +135,7 @@ The integration with Google Home enables you to control your Crownstones with yo
 
 {% include snippets/two-cols-centered-text-img-begin text-right='true' %}
 
-##### You can include your Crownstones into your Google **routines**
+#### **You can include your Crownstones into your Google routines**
 
 <p>&nbsp;</p>
 
