@@ -113,7 +113,7 @@ If a graduation position has been taken, this does not mean that all problems ha
 - Final project plan will be written by **you** and approved by your professor(s).
 - In case of a graduation project, it must be your **master thesis.** 
 
-{% include snippets/two-cols-text-img-blue-bg-end img='/images/intern.jpg' img-alt='intern'%}
+{% include snippets/two-cols-text-img-blue-bg-end img='/images/intern.webp' img-alt='intern'%}
 
 {% include snippets/full-width-container-end %}
 

@@ -90,7 +90,7 @@ Onderstaande opdrachten zijn in het Engels geformuleerd.
 
 {% include snippets/column-begin colsize=4 %}
 			
-<img class="img-thumbnail usecase" src="{{ BASE_PATH }}/images/intern.jpg" />
+<img class="img-thumbnail usecase" src="{{ BASE_PATH }}/images/intern.webp" />
 
 
 {% include snippets/column-end %}
