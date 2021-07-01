@@ -2,10 +2,11 @@
 layout: page
 title: Werkt met
 header: Pages
+description: "Door Crownstone ondersteunde Integraties"
 group: [navigation-smart-home-submenu, navigation-consumer-footer]
 lang: nl
 permalink: works-with/
-background-image-home: banner-works-with.jpg
+background-image: banner-works-with.jpg
 banner-caption: Verbindt je huis
 coming-soon:
     - title: Integratie met Philips Hue 
@@ -18,8 +19,6 @@ coming-soon:
 
 
 {% include JB/setup %}
-
-{% include snippets/img-banner %}
 
 {% include snippets/slogan-begin %}
 Crownstone reageert op jou stem
