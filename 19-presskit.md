@@ -130,7 +130,6 @@ There are the usual considerations, just a few:
 For an example of a brochure that is created using the above styleguide see:
 
 * [Crownstone Brochure Smart Home]({{ site.url }}/attachments/brochures/Crownstone_Brochure_SmartHome.pdf)
-* [Crownstone Brochure Green Home]({{ site.url }}/attachments/brochures/Crownstone_Brochure_GreenHome.pdf)
 
 ## Presentations
 
@@ -140,9 +139,9 @@ If you need a slide deck for a particular customer, feel free to contact us for 
 * [Crownstone Summary]({{ site.url }}/attachments/presskit/Crownstone Summary.pdf)
 * [Crownstone Product Deck voor Consumenten (Dutch)]({{ site.url }}/attachments/presskit/Crownstone Product Deck - Consumenten.pdf)
 
-## Presskit ZIP file
+## Press kit
 
-The presskit contains the following folders:
+The press kit contains the following folders:
 
 * Diagrams: grayscale installation sketches.
 * Icons: for dimming, switching, positioning, etc.
@@ -150,7 +149,17 @@ The presskit contains the following folders:
 * Products: pictures of Crownstone plugs, builtin Crownstones, Guidestones, and PCBs.
 * Renders: exploded views and renderings in living room setting.
 
-It can be downloaded here: [presskit visuals (zip, 109 MB)]({{ site.url }}/attachments/presskit/presskit.zip).
+The press kit can be downloaded here: [presskit visuals (zip, 38 MB)]({{ site.url }}/attachments/presskit/presskit.zip).
+
+## Webshop kit
+
+The webshop kit contains the following folders:
+
+* Production certification.
+* Delivery and warranty conditions.
+* Product pictures.
+
+The webshop kit can be downloaded here: [webshop kit]({{ site.url }}/attachments/webshops/crownstone.zip).
 
 ## Events, fairs, talks
 
