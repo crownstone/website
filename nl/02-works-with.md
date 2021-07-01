@@ -6,11 +6,12 @@ group: [navigation-smart-home-submenu, navigation-consumer-footer]
 lang: nl
 permalink: works-with/
 background-image-home: banner-works-with.jpg
+banner-caption: Verbindt je huis
 coming-soon:
-    - title: Integration with Philips Hue 
+    - title: Integratie met Philips Hue 
       image: /images/hue.jpg
       link: /will-be-up-soon/
-    - title: Integration with Homey
+    - title: Integratie met Homey
       image: /images/homey.jpg
       link: /will-be-up-soon/
 ---
@@ -21,13 +22,13 @@ coming-soon:
 {% include snippets/img-banner %}
 
 {% include snippets/slogan-begin %}
-Crownstone also reacts to your voice
+Crownstone reageert op jou stem
 {% include snippets/slogan-end %}
 
 {% include snippets/full-width-container-begin %}
 
 {% include snippets/centered-text-home-begin %}
-When not carrying your smartphone with you, you can simply ask **Google** or **Alexa** to turn on the lights for you.
+Als je je smartphone even niet bij de hand hebt, vraag je gewoon aan **Google** of **Alexa** om het licht aan te zetten.
 {% include snippets/centered-text-home-end %}
 
 {% include snippets/full-width-container-end %}
@@ -35,12 +36,12 @@ When not carrying your smartphone with you, you can simply ask **Google** or **A
 {% include snippets/centered-image-two-columns img1='/images/google.jpg' img1-alt='google' img2='/images/alexa.png' img2-alt='alexa'%}
 
 {% include snippets/container-image-relative-with-subimg-begin img-bg='/images/ha-integration.jpg' bg-position='center' img-sub='/images/ha-logo.png' img-sub-alt='ha-logo' %}
-Crownstone integration with **Home Assistant** allows you to trigger a certain action when a specific user enters or leaves a room!
+Crownstone's integratie met **Home Assistant** kan acties uitvoeren als een (specifieke) gebruiker een kamer binnenkomt of verlaat!
 {% include snippets/container-image-relative-with-subimg-end %}
 
 {% include snippets/slogan-begin %}
 
-Integration with Home Assistant
+Integratie met Home Assistant
 
 {% include snippets/slogan-end %}
 
@@ -48,8 +49,7 @@ Integration with Home Assistant
 {% include snippets/full-width-container-begin%}
 
 {% include snippets/two-cols-centered-text-img-begin text-right='true' %}
-
-The integration of Crownstone with Home Assistant enables you to personalize your home automation **routines** even more! Thanks to Home Assistant you can create triggers based on **personalized indoor positioning** events. 
+De integratie van Crownstone met Home Assistant maakt het mogelijk je home automation **routines** nóg verder te personaliseren! Dankzij Home Assistant kan je triggers creëren op basis van **gepersonaliseerde positionering binnenshuis**.
  
 {% include snippets/two-cols-centered-text-img-end img='/images/ha-logo-large.png' img-alt='ha-logo' %}
 
@@ -60,11 +60,11 @@ The integration of Crownstone with Home Assistant enables you to personalize you
 
 {% include snippets/two-cols-centered-text-img-begin %}
 
-##### You can create triggers for multiple users.
+#### **Je kan triggers instellen voor verschillende gebruikers.**
 
 <p>&nbsp;</p>
 
-"If **mom** and **dad** leave the kitchen, then turn off the stove, the oven and the kettle."
+"Als **mam** en **pap** de keuken verlaten, zet dan het fornuis, de oven en de waterkoker uit."
  
 {% include snippets/two-cols-centered-text-img-end img='/images/kitchen-kid.jpg' img-alt='cooking' %}
 
@@ -75,37 +75,83 @@ The integration of Crownstone with Home Assistant enables you to personalize you
 
 {% include snippets/two-cols-centered-text-img-begin text-right='true' %}
 
-##### You can create triggers for a specific user.
+#### **Je kan triggers instellen voor een specifieke gebruiker.**
 
 <p>&nbsp;</p>
 
-"If **Richard** enters the living room, then turn on the music."
+"Als **Richard** de woonkamer binnenkomt, zet dan de muziek aan."
  
 {% include snippets/two-cols-centered-text-img-end img='/images/entering-room.jpg' img-alt='entering-room' %}
 
 {% include snippets/full-width-container-end %}
 
 
-{% include snippets/centered-text-large text='Learn more about the integration with Home assistant' link='/integrations/home-assistant/' %}
+{% include snippets/centered-text-large text='Leer meer over de integratie met Home assistant' link='/integrations/home-assistant/' %}
 
 
 {% include snippets/container-image-relative-begin img-bg='/images/apple-watch.jpg' left-alignment='true'%}
 
-## Works with Apple Watch!
+## Apple Watch werkt ook!
 
-You can use your Apple Watch to **control** your Crownstones. You can switch or dim your lights from your gadget.
+Je kan je Apple Watch gebruiken om je Crownstones te **besturen**. Je kan ze schakelen of dimmen vanaf je gadget.
+
 
 {% include snippets/container-image-relative-end %}
 
 
+
 {% include snippets/slogan-begin %}
 
-Coming soon!
+Integratie met Google Home
 
 {% include snippets/slogan-end %}
 
-{% include snippets/margin %}
+{% include snippets/full-width-container-begin%}
 
-{% include snippets/coming-soon orange-bg='true' %}
+{% include snippets/two-cols-centered-text-img-begin text-right='true' %}
 
-{% include snippets/margin %}
+Door de integratie met Google Home kan je met **stem commando's** je Crownstones aansturen. Handig als je het **gedrag** dat je hebt ingesteld tijdelijk wil aanpassen.
+ 
+{% include snippets/two-cols-centered-text-img-end img='/images/hey-google.png' img-alt='hey-google' %}
+
+{% include snippets/full-width-container-end %}
+
+
+{% include snippets/full-width-container-begin%}
+
+{% include snippets/two-cols-centered-text-img-begin %}
+
+#### **Als je zin hebt in een goed boek...**
+
+<p>&nbsp;</p>
+
+"Hey Google, zet de leeslamp aan!"
+ 
+{% include snippets/two-cols-centered-text-img-end img='/images/google-integration-1.jpg' img-alt='ga-1' %}
+
+{% include snippets/full-width-container-end %}
+
+
+{% include snippets/full-width-container-begin%}
+
+{% include snippets/two-cols-centered-text-img-begin text-right='true' %}
+
+#### **Je kan je Crownstones gebruiken in je Google routines**
+
+<p>&nbsp;</p>
+
+"Ok Google, Movie Time!"
+ 
+{% include snippets/two-cols-centered-text-img-end img='/images/google-integration-2.jpg' img-alt='ga-2' %}
+
+{% include snippets/full-width-container-end %}
+
+{% include snippets/centered-text-large text='Leer meer over de integratie met Google Home' link='/integrations/google-home/' %}
+
+
+{% include snippets/slogan-begin %}
+
+Binnenkort!
+
+{% include snippets/slogan-end %}
+
