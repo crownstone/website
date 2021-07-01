@@ -7,9 +7,9 @@ group: [navigation-smart-home-submenu, navigation-consumer-footer]
 lang: nl
 permalink: works-with/
 background-image: banner-works-with.jpg
-banner-caption: Verbindt je huis
+banner-caption: Werkt met...
 coming-soon:
-    - title: Integratie met Philips Hue 
+    - title: Integratie met Philips Hue
       image: /images/hue.jpg
       link: /will-be-up-soon/
     - title: Integratie met Homey
@@ -21,7 +21,7 @@ coming-soon:
 {% include JB/setup %}
 
 {% include snippets/slogan-begin %}
-Crownstone reageert op jou stem
+Crownstone reageert op jouw stem
 {% include snippets/slogan-end %}
 
 {% include snippets/full-width-container-begin %}
@@ -48,7 +48,7 @@ Integratie met Home Assistant
 {% include snippets/full-width-container-begin%}
 
 {% include snippets/two-cols-centered-text-img-begin text-right='true' %}
-De integratie van Crownstone met Home Assistant maakt het mogelijk je home automation **routines** nóg verder te personaliseren! Dankzij Home Assistant kan je triggers creëren op basis van **gepersonaliseerde positionering binnenshuis**.
+De integratie van Crownstone met Home Assistant maakt het mogelijk om jouw slimme huis nóg verder te personaliseren! Dankzij Home Assistant kan je triggers aanmaken op basis van **gepersonaliseerde positiebepaling binnenshuis**.
  
 {% include snippets/two-cols-centered-text-img-end img='/images/ha-logo-large.png' img-alt='ha-logo' %}
 
@@ -64,7 +64,7 @@ De integratie van Crownstone met Home Assistant maakt het mogelijk je home autom
 <p>&nbsp;</p>
 
 "Als **mam** en **pap** de keuken verlaten, zet dan het fornuis, de oven en de waterkoker uit."
- 
+
 {% include snippets/two-cols-centered-text-img-end img='/images/kitchen-kid.jpg' img-alt='cooking' %}
 
 {% include snippets/full-width-container-end %}
@@ -92,7 +92,7 @@ De integratie van Crownstone met Home Assistant maakt het mogelijk je home autom
 
 ## Apple Watch werkt ook!
 
-Je kan je Apple Watch gebruiken om je Crownstones te **besturen**. Je kan ze schakelen of dimmen vanaf je gadget.
+Je kan je Apple Watch gebruiken om je Crownstones te **bedienen**. Je kan ze schakelen of dimmen vanaf het horloge.
 
 
 {% include snippets/container-image-relative-end %}
@@ -109,12 +109,11 @@ Integratie met Google Home
 
 {% include snippets/two-cols-centered-text-img-begin text-right='true' %}
 
-Door de integratie met Google Home kan je met **stem commando's** je Crownstones aansturen. Handig als je het **gedrag** dat je hebt ingesteld tijdelijk wil aanpassen.
- 
+Door de integratie met Google Home kan je met **stem commando's** Crownstones bedienen. Handig als je het **gedrag** dat je hebt ingesteld tijdelijk wilt aanpassen.
+
 {% include snippets/two-cols-centered-text-img-end img='/images/hey-google.png' img-alt='hey-google' %}
 
 {% include snippets/full-width-container-end %}
-
 
 {% include snippets/full-width-container-begin%}
 
@@ -135,18 +134,17 @@ Door de integratie met Google Home kan je met **stem commando's** je Crownstones
 
 {% include snippets/two-cols-centered-text-img-begin text-right='true' %}
 
-#### **Je kan je Crownstones gebruiken in je Google routines**
+#### **Je kan Crownstones gebruiken in Google routines**
 
 <p>&nbsp;</p>
 
 "Ok Google, Movie Time!"
- 
+
 {% include snippets/two-cols-centered-text-img-end img='/images/google-integration-2.jpg' img-alt='ga-2' %}
 
 {% include snippets/full-width-container-end %}
 
 {% include snippets/centered-text-large text='Leer meer over de integratie met Google Home' link='/integrations/google-home/' %}
-
 
 {% include snippets/slogan-begin %}
 
@@ -157,4 +155,3 @@ Binnenkort!
 {% include snippets/coming-soon orange-bg='true' %}
 
 {% include snippets/margin %}
-
