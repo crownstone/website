@@ -154,3 +154,7 @@ Binnenkort!
 
 {% include snippets/slogan-end %}
 
+{% include snippets/coming-soon orange-bg='true' %}
+
+{% include snippets/margin %}
+
