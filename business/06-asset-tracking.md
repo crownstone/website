@@ -33,7 +33,7 @@ benefits-ble:
     description: "Bluetooth offers high accuracy compared to GPS. Allowing to track assets indoors."
   - img: /images/asset-tracking/ble-tags.svg
     img-alt: ble tags
-    description: "BLE tags can be of special shapes. For example: buttons, tiles, cards, etc."
+    description: "BLE tags can have many shapes: buttons, tiles, cards, etc."
 areas:
   - title: Health care
     image: /images/asset-tracking/health.jpg
@@ -96,18 +96,16 @@ Our technology
 
 <p>&nbsp;</p>
 
-The bandwidth of Bluetooth mesh is limited, so we recommend to:
+The signal strengths with which the assets are observed are communicated over Bluetooth mesh.
 
-- Use no more than 32 Crownstones per hub
-- Use a limited number of assets to be tracked in a particular physical area.
+- We support up to 32 Crownstones per hub.
+- We support up to 256 assets across all our hubs.
 
-If the bandwidth is not sufficient, you can always contact us to check how to improve on it.
+This all depends also on update frequency and latency. Please, contact us with the specific requirements for your application.
 
 {% include snippets/two-cols-text-img-blue-bg-end img='/images/asset-tracking/technology.jpg' img-alt='technology'%}
 
 {% include snippets/full-width-container-end %}
-
-
 
 {% include snippets/slogan-begin %}
 
@@ -127,25 +125,22 @@ Bluetooth Low Energy tags are attached to **high value assets**. For example: wh
 
 {% include snippets/how-it-works-begin img="/images/asset-tracking/built-ins.png" img-alt="Crownstones" title="Crownstones" %}
 
-**Preconfigured** Crownstones with security keys and a **filter** that indicates what has to be tracked are distributed in a particular physical area to mark locations.
+Crownstones are configured with mesh **security keys** and a **filter** which defines which assets have to be tracked.
 
 {% include snippets/how-it-works-end %}
-
 
 {% include snippets/how-it-works-begin img="/images/asset-tracking/hub.png" img-alt="Crownstone hub" title="A Gateway" %}
 
-A **configured hub** obtains the encrypted data from the Crownstones. A configured **upstream** on the hub that defines where the data is to be sent.
+A hub is configured to obtain the encrypted the data from the Crownstones and to send this data **upstream** to the cloud.
 
 {% include snippets/how-it-works-end %}
-
 
 {% include snippets/how-works-container-end %}
 
 
-
 {% include snippets/slogan-begin %}
 
-Why to use BLE for asset tracking?
+Why Bluetooth LE for asset tracking?
 
 {% include snippets/slogan-end %}
 
@@ -174,8 +169,8 @@ Support
 
 {% include snippets/centered-text-home-begin %}
 
-We deliver additional support such as **configuration** within your backend or providing a **custom uplink** towards your backend on a case by case basis. 
-We can also define a service level agreement for your application which defines monitoring services for our hardware or our services, include updates of the Crownstone hub software, etc. 
+We can deliver additional support such as **configuration** within your backend or by providing a **custom uplink** towards your backend on a case by case basis.
+We can also provide you with a service level agreement for your application which defines monitoring services for our hardware or our services, include updates of the Crownstone hub software, or implements other application demands.
 
 {% include snippets/centered-text-home-end %}
 
