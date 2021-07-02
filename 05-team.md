@@ -28,6 +28,15 @@ intern-gallery:
     report:
       title: "User experience"
 advisors-gallery:
+  - image: "janpeterlarsen.png"
+    name: "Jan Peter Larsen"
+    affiliation: "CEO Almende Investments"
+    linkedin: "janpeterlarsen"
+    website: "almende-investments.com/"
+    report:
+      title: "Jan Peter knows how to run a business. Crownstone benefits from his ample experience as managing director of Sense Labs and NiceDay"
+      link-text: "Almende Investments."
+      link: "almende-investments.com/"
   - image: "hansabbink.jpg"
     name: "Hans Abbink"
     affiliation: "Founder Almende Investments"
@@ -65,14 +74,6 @@ advisors-gallery:
       title: "Berend Olde Rikkert has ample experience in the energy sector as vice president Energy and Utilities at Capgemini as well as at the successful company"
       link-text: "Quby."
       link: "www.quby.com"
-  - image: "janpeterlarsen.png"
-    name: "Jan Peter Larsen"
-    affiliation: "CEO Almende Investments"
-    linkedin: "janpeterlarsen"
-    report:
-      title: "Jan Peter knows how to run a business. Crownstone benefits from his ample experience as managing director of Sense Labs and "
-      link-text: "NiceDay."
-      link: "nicedaynederland.nl"
 core-team-gallery:
   - image: "annevanrossum.jpg"
     name: "Anne van Rossum"
@@ -143,28 +144,25 @@ Our Vision
 
 {% include snippets/centered-text-home-begin %}
 
-Crownstone as **indoor positioning** hardware for smart buildings that uses artificial intelligence to automatically react to someone’s **presence**.
+Crownstone designs and manufacturers **indoor positioning** hardware for smart buildings. It uses artificial intelligence to automatically react to someone’s **presence**.
 
 {% include snippets/centered-text-home-end %}
 
 {% include snippets/full-width-container-end %}
 
-
-
 {% include snippets/full-width-container-begin%}
 
 {% include snippets/two-cols-text-img-begin %}
 
-##### In the future indoor positioning will be a larger market than outdoor positioning (GPS)
+##### In the future the market of indoor positioning will be larger than that of outdoor positioning (GPS)
 
 <p>&nbsp;</p>
 
-Very straightforward, our homes and offices will never be smart if they do not know where we are!
- 
+Our homes and offices will never be smart if they do not know where we are!
+
 {% include snippets/two-cols-text-img-end img='/images/bet1.jpg' img-alt='bet1' %}
 
 {% include snippets/full-width-container-end %}
-
 
 
 {% include snippets/full-width-container-begin%}
@@ -175,9 +173,9 @@ Very straightforward, our homes and offices will never be smart if they do not k
 
 <p>&nbsp;</p>
 
-A smart outlet brings comfort, safety, and energy savings. There are many more power outlets than smartphones in the world. 
-That’s the potential impact of a company like Crownstone! Billions of human acts automated. Billions of energy savings each year!
- 
+There are many more power outlets than smartphones in the world.
+A smart home company which solves the smart outlet puzzle will provide billions of chips per year, will automate billions of human acts per year, and will save billions in energy costs per year.
+
 {% include snippets/two-cols-text-img-end img='/images/bet2.jpg' img-alt='bet2' %}
 
 {% include snippets/full-width-container-end %}
@@ -199,13 +197,11 @@ Our core values
 
 <p>&nbsp;</p>
 
-Crownstones automate so people have **more time**.
- 
+Crownstone automates, so people have **more time**.
+
 {% include snippets/two-cols-centered-text-img-end img='/images/save_time.svg' img-alt='save_time' %}
 
 {% include snippets/full-width-container-end %}
-
-
 
 {% include snippets/full-width-container-begin%}
 
@@ -215,12 +211,11 @@ Crownstones automate so people have **more time**.
 
 <p>&nbsp;</p>
 
-Crownstone bring **comfort** and we want people to enjoy their homes.
- 
+Crownstone brings **comfort**, so people have an enjoyable time.
+
 {% include snippets/two-cols-centered-text-img-end img='/images/quality_time.svg' img-alt='quality_time' %}
 
 {% include snippets/full-width-container-end %}
-
 
 
 {% include snippets/full-width-container-begin%}
@@ -231,8 +226,8 @@ Crownstone bring **comfort** and we want people to enjoy their homes.
 
 <p>&nbsp;</p>
 
-We operate customer-centric and privacy-aware. Your **data is yours**.
- 
+Crownstone is **privacy**-focused, so people's data remains people's data.
+
 {% include snippets/two-cols-centered-text-img-end img='/images/transparency.svg' img-alt='transparency' %}
 
 {% include snippets/full-width-container-end %}
@@ -274,7 +269,7 @@ where we raised over 70.000 euros for the Crownstones, our [blog]({{ BASE_PATH }
 
 Core Team
 
-{% include snippets/slogan-end %}   
+{% include snippets/slogan-end %}
 
 
 {% include snippets/full-width-container-begin %}
