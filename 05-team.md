@@ -34,7 +34,7 @@ advisors-gallery:
     linkedin: "janpeterlarsen"
     website: "almende-investments.com/"
     report:
-      title: "Jan Peter knows how to run a business. Crownstone benefits from his ample experience as managing director of Sense Labs and NiceDay"
+      title: "Jan Peter knows how to run a business. Crownstone benefits from his ample experience as managing director of Sense Labs, NiceDay, and "
       link-text: "Almende Investments."
       link: "almende-investments.com/"
   - image: "hansabbink.jpg"
@@ -58,7 +58,7 @@ advisors-gallery:
   - image: "alexanderweisz.jpg"
     name: "Alexander Weisz"
     affiliation: "Business Consultant"
-    linked: "alexanderjweisz"
+    linkedin: "alexanderjweisz"
     twitter: "alexander_we"
     website: "alexanderweisz.nl"
     report:
