@@ -11,8 +11,8 @@ coming-soon:
     - title: Integration with Philips Hue 
       image: /images/hue.jpg
       link: /will-be-up-soon/
-    - title: Integration with Homey
-      image: /images/homey.jpg
+    - title: Integration with Node-RED
+      image: /images/node-red.jpg
       link: /will-be-up-soon/
 ---
 
@@ -146,6 +146,61 @@ The integration with Google Home enables you to control your Crownstones with yo
 {% include snippets/full-width-container-end %}
 
 {% include snippets/centered-text-large text='Learn more about the integration with Google Home' link='/integrations/google-home/' %}
+
+
+
+{% include snippets/container-image-relative-with-subimg-begin img-bg='/images/homey_scene.jpg' bg-position='center' img-sub='/images/homey-logo.png' img-sub-alt='homey-logo' %}
+Crownstone talks with **Homey**. This will allow you to make other devices react to your presence.
+{% include snippets/container-image-relative-with-subimg-end %}
+
+
+{% include snippets/slogan-begin %}
+
+Crownstone app for Homey
+
+{% include snippets/slogan-end %}
+
+
+{% include snippets/full-width-container-begin%}
+
+{% include snippets/two-cols-centered-text-img-begin text-right='true' %}
+
+Now in your **Homey flows** you can have not only Crownstones reacting to your **presence**, but also other devices coupled to your Homey. For example, philips hue lights, tado thermostat, etc.
+ 
+{% include snippets/two-cols-centered-text-img-end img='/images/homey-talks-with.png' img-alt='talks-with-homey' %}
+
+{% include snippets/full-width-container-end %}
+
+
+{% include snippets/full-width-container-begin%}
+
+{% include snippets/two-cols-centered-text-img-begin %}
+
+#### **Activate a scene with your presence...**
+
+<p>&nbsp;</p>
+
+When someone enters the living room and it is dark outside, activate the philips hue sunset scene!
+ 
+{% include snippets/two-cols-centered-text-img-end img='/images/homey-scenario-1.jpg' img-alt='homey-scenario-1' %}
+
+{% include snippets/full-width-container-end %}
+
+
+{% include snippets/full-width-container-begin%}
+
+{% include snippets/two-cols-centered-text-img-begin text-right='true'%}
+
+#### **Let your fan automatically turn on if...**
+
+<p>&nbsp;</p>
+
+You enter a room and the temperature is above a predefined threshold
+ 
+{% include snippets/two-cols-centered-text-img-end img='/images/homey-scenario-2.jpg' img-alt='homey-scenario-2' %}
+
+{% include snippets/full-width-container-end %}
+
 
 
 {% include snippets/slogan-begin %}
