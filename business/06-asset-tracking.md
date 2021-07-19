@@ -107,6 +107,8 @@ This all depends also on update frequency and latency. Please, contact us with t
 
 {% include snippets/full-width-container-end %}
 
+
+
 {% include snippets/slogan-begin %}
 
 How it works

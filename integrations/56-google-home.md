@@ -70,4 +70,4 @@ Below we show an example of a simple Google routine where a Crownstone device is
 
 ## More information 
 
-You can go to this [page]({{ site.url }}/will-be-up-soon/) to check some of the most frequent questions related to the Crownstone integration with Google Home.
+You can go to this [page]({{ site.url }}/integrations/google-home-faq/) to check some of the most frequent questions related to the Crownstone integration with Google Home.
