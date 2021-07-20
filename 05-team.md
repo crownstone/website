@@ -133,14 +133,16 @@ core-team-gallery:
 {% include JB/setup %}
 
 
-{% include snippets/slogan-begin %}
+{% include snippets/full-width-container-begin %}
+
+{% include snippets/circles-transparent-bg-begin img='/images/circles_1.png' bg-position='center' %}
+
+{% include snippets/transparent-slogan-begin %}
 
 Our Vision
 
-{% include snippets/slogan-end %}
+{% include snippets/transparent-slogan-end %}
 
-
-{% include snippets/full-width-container-begin %}
 
 {% include snippets/centered-text-home-begin %}
 
@@ -148,7 +150,12 @@ Crownstone designs and manufacturers **indoor positioning** hardware for smart b
 
 {% include snippets/centered-text-home-end %}
 
+
+{% include snippets/circles-transparent-bg-end %}
+
 {% include snippets/full-width-container-end %}
+
+
 
 {% include snippets/full-width-container-begin%}
 
@@ -234,16 +241,18 @@ Crownstone is **privacy**-focused, so people's data remains people's data.
 
 
 
-{% include snippets/slogan-begin %}
+{% include snippets/full-width-container-begin blue-bg='true' %}
+
+{% include snippets/circles-transparent-bg-begin img='/images/circles_1.png' bg-position='center' %}
+
+{% include snippets/transparent-slogan-begin blue-bg='true' %}
 
 Our background
 
-{% include snippets/slogan-end %}
+{% include snippets/transparent-slogan-end %}
 
 
-{% include snippets/full-width-container-begin%}
-
-{% include snippets/two-cols-text-img-begin%}
+{% include snippets/two-cols-text-img-begin  blue-bg='true'%}
 
 Crownstone has been originally developed by DoBots, has as seed investor [Almende Investments](http://almende-investments.com), 
 is part of the [Rockstart accelerator](http://www.rockstart.com/blog/rockstart-introduces-participants-of-2016-smart-energy-accelerator), 
@@ -251,17 +260,23 @@ and launched as company on the 20th of May 2016.
 
 {% include snippets/two-cols-text-img-end img='/images/origins.png' img-alt='origins' %}
 
-{% include snippets/full-width-container-end %}
-
 
 {% include snippets/row-begin %}
-{% include snippets/column-begin colsize="12" %}
+{% include snippets/column-begin colsize="12" blue-bg='true' %}
 
 We have a very transparent manner of operation. A lot of information about us can be found online, such as the [Kickstarter](https://www.kickstarter.com/projects/dobots/crownstone) 
 where we raised over 70.000 euros for the Crownstones, our [blog]({{ BASE_PATH }}/blog), where we give you a lot of insight into our projects, and our [github repositories](https://github.com/crownstone).
 
 {% include snippets/column-end %}
 {% include snippets/row-end %}
+
+
+{% include snippets/margin %}
+
+
+{% include snippets/circles-transparent-bg-end %}
+
+{% include snippets/full-width-container-end %}
 
 
 

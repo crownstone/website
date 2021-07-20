@@ -1,5 +1,9 @@
 {% if include.colsize %}
-<div class="col-xs-12 col-sm-12 col-md-{{include.colsize}}" markdown="1">
+    {% if include.blue-bg %}
+    <div class="col-xs-12 col-sm-12 col-md-{{include.colsize}}" markdown="1" style='color: white'>
+    {% else %}
+    <div class="col-xs-12 col-sm-12 col-md-{{include.colsize}}" markdown="1">
+    {% endif %}
 {% else %}
 <div class="col-xs-12 col-sm-12 col-md-6" markdown="1">
 {% endif %}
