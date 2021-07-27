@@ -146,7 +146,7 @@ Our Vision
 
 {% include snippets/centered-text-home-begin %}
 
-Crownstone designs and manufacturers **indoor positioning** hardware for smart buildings. It uses artificial intelligence to automatically react to someone’s **presence**.
+Crownstone designs and manufactures **indoor positioning** hardware for truly smart buildings.
 
 {% include snippets/centered-text-home-end %}
 

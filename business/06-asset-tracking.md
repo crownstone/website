@@ -116,6 +116,9 @@ How it works
 {% include snippets/slogan-end %}
 
 
+{% include snippets/margin %}
+
+
 {% include snippets/how-works-container-begin %}
 
 {% include snippets/how-it-works-begin img="/images/asset-tracking/ble-tag.png" img-alt="bluetooth tag" title="Bluetooth tags" %}
@@ -172,7 +175,7 @@ Support
 {% include snippets/centered-text-home-begin %}
 
 We can deliver additional support such as **configuration** within your backend or by providing a **custom uplink** towards your backend on a case by case basis.
-We can also provide you with a service level agreement for your application which defines monitoring services for our hardware or our services, include updates of the Crownstone hub software, or implements other application demands.
+We can also provide you with a service level agreement for your application which defines monitoring services for our hardware or our services, include updates of the Crownstone hub software, or implement other application demands.
 
 {% include snippets/centered-text-home-end %}
 
