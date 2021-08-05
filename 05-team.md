@@ -144,7 +144,7 @@ Our Vision
 {% include snippets/transparent-slogan-end %}
 
 
-{% include snippets/centered-text-home-begin %}
+{% include snippets/centered-text-home-begin background='light'%}
 
 Crownstone designs and manufactures **indoor positioning** hardware for truly smart buildings.
 
@@ -174,7 +174,7 @@ Our homes and offices will never be smart if they do not know where we are!
 
 {% include snippets/full-width-container-begin%}
 
-{% include snippets/two-cols-text-img-begin text-right='true'%}
+{% include snippets/two-cols-text-img-begin text-alignment='right'%}
 
 ##### Every device will get a chip, in particular power outlets and lights
 
@@ -198,7 +198,7 @@ Our core values
 
 {% include snippets/full-width-container-begin%}
 
-{% include snippets/two-cols-centered-text-img-begin text-right='true' %}
+{% include snippets/two-cols-centered-text-img-begin text-alignment='right' %}
 
 ### Saving time
 
@@ -227,7 +227,7 @@ Crownstone brings **comfort**, so people have an enjoyable time.
 
 {% include snippets/full-width-container-begin%}
 
-{% include snippets/two-cols-centered-text-img-begin text-right='true' %}
+{% include snippets/two-cols-centered-text-img-begin text-alignment='right' %}
 
 ### Transparency
 
@@ -241,18 +241,18 @@ Crownstone is **privacy**-focused, so people's data remains people's data.
 
 
 
-{% include snippets/full-width-container-begin blue-bg='true' %}
+{% include snippets/full-width-container-begin %}
 
-{% include snippets/circles-transparent-bg-begin img='/images/circles_1.png' bg-position='center' %}
+{% include snippets/circles-transparent-bg-begin img='/images/circles_2.png' bg-position='center' %}
 
-{% include snippets/transparent-slogan-begin blue-bg='true' %}
+{% include snippets/transparent-slogan-begin %}
 
 Our background
 
 {% include snippets/transparent-slogan-end %}
 
 
-{% include snippets/two-cols-text-img-begin  blue-bg='true'%}
+{% include snippets/two-cols-text-img-begin %}
 
 Crownstone has been originally developed by DoBots, has as seed investor [Almende Investments](http://almende-investments.com), 
 is part of the [Rockstart accelerator](http://www.rockstart.com/blog/rockstart-introduces-participants-of-2016-smart-energy-accelerator), 
@@ -262,7 +262,7 @@ and launched as company on the 20th of May 2016.
 
 
 {% include snippets/row-begin %}
-{% include snippets/column-begin colsize="12" blue-bg='true' %}
+{% include snippets/column-begin colsize="12" %}
 
 We have a very transparent manner of operation. A lot of information about us can be found online, such as the [Kickstarter](https://www.kickstarter.com/projects/dobots/crownstone) 
 where we raised over 70.000 euros for the Crownstones, our [blog]({{ BASE_PATH }}/blog), where we give you a lot of insight into our projects, and our [github repositories](https://github.com/crownstone).
@@ -289,7 +289,7 @@ Core Team
 
 {% include snippets/full-width-container-begin %}
 
-{% include snippets/centered-text-home-begin %}
+{% include snippets/centered-text-home-begin background='light'%}
 
 The Crownstone team is extremely well versed in a wide variety of **skills**. We all have been to Dutch or international universities and like **challenges** above anything else!
 
@@ -313,7 +313,7 @@ Crownstone Advisors and Experts
 
 {% include snippets/full-width-container-begin %}
 
-{% include snippets/centered-text-home-begin %}
+{% include snippets/centered-text-home-begin background='light'%}
 
 At Crownstone we have multiple advisors and experts who help us bring Crownstone to the market.
 
@@ -335,7 +335,7 @@ Interns
 
 {% include snippets/full-width-container-begin %}
 
-{% include snippets/centered-text-home-begin %}
+{% include snippets/centered-text-home-begin background='light'%}
 
 Our most recent interns, who perform a wide range of tasks. They help people with advice on Crownstones, test all kind of smartphone variants, organize hackathons, building a booth for trade fairs, desoldering and soldering electronic components, product assembly, and much more.
 
@@ -351,7 +351,7 @@ Our most recent interns, who perform a wide range of tasks. They help people wit
 
 
 
-{% include snippets/slogan-begin blue-bg='true' %}
+{% include snippets/slogan-begin background='blue' %}
 
 Hall of fame
 
@@ -360,7 +360,7 @@ Hall of fame
 
 {% include snippets/full-width-container-begin%}
 
-{% include snippets/two-cols-text-img-blue-bg-begin text-right="true" %}
+{% include snippets/two-cols-text-img-blue-bg-begin text-alignment="right" %}
 
 For a nice overview of past employees and interns, who have worked at Crownstone, at our sister company [DoBots](https://dobots.nl), or at our mother company [Almende](http://almende.com), take a look at our hall of fame.
 

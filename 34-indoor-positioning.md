@@ -28,7 +28,7 @@ What is indoor positioning?
 
 {% include snippets/full-width-container-begin %}
 
-{% include snippets/centered-text-home-begin %}
+{% include snippets/centered-text-home-begin background='light'%}
 
 It's the ability of the Crownstones to know **where** you are if you carry a smart device with you. 
 Crownstones use the position of this smart device through measuring **Bluetooth Low Energy signals**. 
@@ -36,7 +36,7 @@ This makes it possible for the Crownstones to react upon your **presence and pro
 
 {% include snippets/centered-text-home-end %}
 
-{% include snippets/centered-image-home img='/images/indoor-positioning/map.jpg' img-alt='map'%}
+{% include snippets/centered-image-home img-size='small' img='/images/indoor-positioning/map.jpg' img-alt='map'%}
 
 {% include snippets/full-width-container-end %}
 
@@ -45,7 +45,7 @@ This makes it possible for the Crownstones to react upon your **presence and pro
 
 
 
-{% include snippets/slogan-begin blue-bg='true' %}
+{% include snippets/slogan-begin background='blue' %}
 
 Requirements for indoor positioning
 
@@ -80,7 +80,7 @@ The basics
 
 {% include snippets/full-width-container-begin%}
 
-{% include snippets/two-cols-centered-text-img-begin text-right='true' %}
+{% include snippets/two-cols-centered-text-img-begin text-alignment='right' %}
 
 ### Broadcasting distance
 
@@ -110,7 +110,7 @@ Try to have most places covered by around 4 Crownstones. Most often 2 Crownstone
 
 {% include snippets/full-width-container-begin%}
 
-{% include snippets/two-cols-centered-text-img-begin text-right='true' %}
+{% include snippets/two-cols-centered-text-img-begin text-alignment='right' %}
 
 ### Fingerprints
 
@@ -179,7 +179,7 @@ Turning off outlets when an **adult is not around** gives peace of mind! Special
 
 
 
-{% include snippets/slogan-begin blue-bg='true' %}
+{% include snippets/slogan-begin background='blue' %}
 
 How accurate is it?
 

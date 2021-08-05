@@ -27,7 +27,7 @@ areas:
 
 {% include JB/setup %}
 
-{% include snippets/container-image-relative-begin row-align-items='start !important' img-bg='/images/banner-oem.jpg' bg-position='center left' left-alignment='true'%}
+{% include snippets/container-image-relative-begin img-bg='/images/banner-oem.jpg' bg-position='center left' horizontal-alignment='left'%}
 
 **Crownstone** has ample experience in: 
 * Wireless connectivity (bluetooth)
@@ -65,7 +65,7 @@ Embedded development
 
 {% include snippets/full-width-container-begin%}
 
-{% include snippets/two-cols-text-img-begin text-right='true' %}
+{% include snippets/two-cols-text-img-begin text-alignment='right' %}
 
 ##### Crownstone has a team of firmware experts that can help you out if your problems are truly tough!
 
@@ -107,7 +107,7 @@ Application areas
 
 {% include snippets/full-width-container-begin %}
 
-{% include snippets/centered-text-home-begin %}
+{% include snippets/centered-text-home-begin background='light'%}
 
 Work with Crownstone will **speed up your R&D** tremendously if it also fits application areas we already cover.
 

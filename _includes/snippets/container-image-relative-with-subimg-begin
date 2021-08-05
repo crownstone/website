@@ -3,20 +3,16 @@
 
 <div class="row align-items-end m-0 p-0" style="position: relative">
 <div class="container-bg-white" style="background-image: url({{ ci-image1 }}); background-position:{{include.bg-position}}"> </div>
-{% if include.left-alignment %}
+
+{% if include.horizontal-alignment and include.horizontal-alignment == "left" %}
 <div class="text-container-bg-white">
-<div class="col bg-white-container" markdown="1" style='text-align: center'>
-<div class="row justify-content-center m-1 p-0">
-<div class="col-md-3">
-  <img src="{{ci-image2}}" alt="{{include.img-sub-alt}}"/>
-</div>
-</div>
 {% else %}
 <div class="text-container-bg-white flex-row-reverse">
+{% endif %}
+
 <div class="col bg-white-container" markdown="1" style='text-align: center'>
 <div class="row justify-content-center m-1 p-0">
 <div class="col-md-3">
   <img src="{{ci-image2}}" alt="{{include.img-sub-alt}}"/>
 </div>
 </div>
-{% endif %}

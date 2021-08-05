@@ -53,7 +53,7 @@ Why to do energy monitoring?
 
 {% include snippets/full-width-container-begin%}
 
-{% include snippets/two-cols-centered-text-img-begin text-right='true' %}
+{% include snippets/two-cols-centered-text-img-begin text-alignment='right' %}
 
 ### Maximize energy savings
 
@@ -83,7 +83,7 @@ As of January 2018, energy monitoring is mandatory for many companies under the 
 
 {% include snippets/full-width-container-begin%}
 
-{% include snippets/two-cols-centered-text-img-begin text-right='true' %}
+{% include snippets/two-cols-centered-text-img-begin text-alignment='right' %}
 
 ### Make informed energy management decisions
 
@@ -116,7 +116,7 @@ As of July 2019, companies and institutions with an energy consumption above a c
 
 
 
-{% include snippets/slogan-begin blue-bg='true' %}
+{% include snippets/slogan-begin background='blue' %}
 
 Our technology
 
@@ -197,7 +197,7 @@ Support
 {% include snippets/slogan-end %}
 
 
-{% include snippets/centered-text-home-begin %}
+{% include snippets/centered-text-home-begin background='light'%}
 
 We can deliver additional support such as **configuration** within your backend or by providing a **custom uplink** towards your backend on a case by case basis.
 We can also provide you with a service level agreement for your application which defines monitoring services for our hardware or our services, include updates of the Crownstone hub software, or implement other application demands.
@@ -205,7 +205,7 @@ We can also provide you with a service level agreement for your application whic
 {% include snippets/centered-text-home-end %}
 
 
-{% include snippets/contact-container-begin small="true" %}
+{% include snippets/contact-container-begin size="small" %}
 
 {% include snippets/contact-option-begin img="/images/contact/email.svg" img-alt="email-icon" title="Send us an email" %}
 

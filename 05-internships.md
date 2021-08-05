@@ -24,7 +24,7 @@ Are you ready for an exciting internship?
 
 {% include snippets/full-width-container-begin%}
 
-{% include snippets/two-cols-text-img-begin text-right="true"%}
+{% include snippets/two-cols-text-img-begin text-alignment='right'%}
 
 Then check out our available **internships** and **graduation projects**! We’re a no-nonsense team (no long story about how great we are) and you’ll put your **knowledge** into practice at the same time that you **enjoy learning**!
 
@@ -42,7 +42,7 @@ Graduation projects
 
 {% include snippets/full-width-container-begin %}
 
-{% include snippets/centered-text-home-begin %}
+{% include snippets/centered-text-home-begin background='light'%}
 
 We have several graduation projects available. If you graduate at our place you will learn a lot about machine learning and working for a startup on artificial intelligence techniques does wonders for your resume. Please, only apply if you live in the **Netherlands** and in the context of a **graduation project**. Proficient English is required, Dutch isn’t.
 
@@ -91,7 +91,7 @@ It is possible to infer from Bluetooth disturbances alone that there are people 
 
 {% include snippets/full-width-container-begin %}
 
-{% include snippets/centered-text-home-begin %}
+{% include snippets/centered-text-home-begin background='light'%}
 
 If a graduation position has been taken, this does not mean that all problems have been solved. These are **multifaceted problems** that require a lot of people to tackle. If something captures your interest, let us know!
 
@@ -128,7 +128,7 @@ Internships
 
 {% include snippets/full-width-container-begin %}
 
-{% include snippets/centered-text-home-begin %}
+{% include snippets/centered-text-home-begin background='light'%}
 
 The internships below are not necessarily tied to a graduation project. They range from a minimum of 3 months to 12 months. If one of them catch your attention, don't hesitate to get in contact with us!
 
@@ -190,7 +190,7 @@ Create a professional style guide for internal and external use building on buye
 {% include snippets/margin %}
 
 
-{% include snippets/slogan-begin blue-bg='true' %}
+{% include snippets/slogan-begin background='blue' %}
 
 Hall of fame
 
@@ -199,7 +199,7 @@ Hall of fame
 
 {% include snippets/full-width-container-begin%}
 
-{% include snippets/two-cols-text-img-blue-bg-begin text-right="true" %}
+{% include snippets/two-cols-text-img-blue-bg-begin text-alignment="right" %}
 
 We had the pleasure to always work with people who have ambition and who proved that by their high grades!
 Explore our hall of fame to get an idea about the projects of our former graduates!

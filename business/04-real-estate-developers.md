@@ -25,13 +25,13 @@ installations:
 
 {% include snippets/circles-transparent-bg-begin img='/images/circles_2.png' bg-position='center' %}
 
-{% include snippets/transparent-slogan-begin %}
+{% include snippets/slogan-begin %}
 
 Crownstone makes residential real estate a lot smarter!
 
-{% include snippets/transparent-slogan-end %}
+{% include snippets/slogan-end %}
 
-{% include snippets/centered-text-home-begin %}
+{% include snippets/centered-text-home-begin background='light'%}
 
 Smart home technology has a great impact on the **real estate** industry not only because it upgrades the comfort and security of a property, but also because it makes a property more sustainable. Real estate developers start to add **home automation** products to their list of standard offerings across projects. With Crownstone, you can also be one of them!
 
@@ -51,7 +51,7 @@ Benefits of home automation
 
 {% include snippets/full-width-container-begin%}
 
-{% include snippets/two-cols-centered-text-img-begin text-right='true' %}
+{% include snippets/two-cols-centered-text-img-begin text-alignment='right' %}
 
 ### Home automation attracts valuable buyers
 
@@ -81,7 +81,7 @@ According to the National Association of Realtors, the price of a property can b
 
 {% include snippets/full-width-container-begin%}
 
-{% include snippets/two-cols-centered-text-img-begin text-right='true' %}
+{% include snippets/two-cols-centered-text-img-begin text-alignment='right' %}
 
 ### Home automation sells faster
 
@@ -117,13 +117,13 @@ Crownstone in real estate projects
 
 {% include snippets/full-width-container-begin %}
 
-{% include snippets/centered-text-home-begin %}
+{% include snippets/centered-text-home-begin background='light'%}
 
 You can find Crownstones in real estate projects such as “Smart Villas”
 
 {% include snippets/centered-text-home-end %}
 
-{% include snippets/centered-image-home long-img='true' img='/images/projects/blauwdraad_smartvillas.jpg' img-alt='smart-villas'%}
+{% include snippets/centered-image-home img-size='large' img='/images/projects/blauwdraad_smartvillas.jpg' img-alt='smart-villas'%}
 
 {% include snippets/full-width-container-end %}
 
@@ -136,7 +136,7 @@ Why buyers want to have a smart home?
 
 {% include snippets/full-width-container-begin%}
 
-{% include snippets/two-cols-centered-text-img-begin text-right='true' %}
+{% include snippets/two-cols-centered-text-img-begin text-alignment='right' %}
 
 ### The next generation of homeowners is coming
 
@@ -166,7 +166,7 @@ Smart home technology helps homeowners be more energy efficient by turning on de
 
 {% include snippets/full-width-container-begin%}
 
-{% include snippets/two-cols-centered-text-img-begin text-right='true'%}
+{% include snippets/two-cols-centered-text-img-begin text-alignment='right'%}
 
 ### Smart technology is the new norm for convenience
 
@@ -188,7 +188,7 @@ Installation
 
 {% include snippets/full-width-container-begin %}
 
-{% include snippets/centered-text-home-begin %}
+{% include snippets/centered-text-home-begin background='light'%}
 
 Installation of the Crownstones can be easily done by an installer. You can also use the installation service from Crownstone.
 

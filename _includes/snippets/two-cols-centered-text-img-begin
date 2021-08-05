@@ -1,7 +1,6 @@
-{% if include.text-right %}
+{% if include.text-alignment and include.text-alignment == 'right' %}
 <div class="row justify-content-center align-items-center m-0 intra-padding flex-row-reverse" style='{{ include.extra-style }}'>
-  <div class="col-md-5 intra-padding" markdown="1" style='text-align: center' id='description-small'>
 {% else %}
-<div class="row justify-content-center align-items-center m-0 intra-padding" style= '{{ include.extra-style }}'>
-  <div class="col-md-5 intra-padding" markdown="1" style='text-align: center' id='description-small'>
+<div class="row justify-content-center align-items-center m-0 intra-padding" style='{{ include.extra-style }}'>
 {% endif %}
+<div class="col-md-5 intra-padding description-small" markdown="1" style='text-align: center; color: #003e52;'>

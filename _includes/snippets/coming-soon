@@ -10,8 +10,8 @@
 
     <div class="col-md-4 pl-5 pr-5 pb-5">
         <div class="row align-items-end secondary-banner" onclick="location.href='{{ item.link }}'" style="background-image: url({{ item.image }}); cursor: pointer">
-            {% if include.orange-bg %}
-            <div class="row transparent-bg-segments-orange" style='background: rgba(255, 132, 0, 0.75);' >
+            {% if include.background %}
+            <div class="row transparent-bg-segments {{include.background}}-bg-transparent" >
                 <div class="col-xs-12">
                     <a class="title-segments" href= "{{ item.link }}" style="text-align: left; font-family: Lato, sans-serif; font-style: italic; font-size: 0.9rem !important; color: white !important; padding: 0; margin: 0;">
                         {{ item.title }}
@@ -19,7 +19,7 @@
                 </div>
             </div>
             {% else %}
-            <div class="row transparent-bg-segments">
+            <div class="row transparent-bg-segments blue-bg-transparent">
                 <div class="col-xs-12">
                     <a class="title-segments" href= "{{ item.link }}" style="text-align: left; font-family: Lato, sans-serif; font-style: italic; font-size: 0.9rem !important; color: white !important; padding: 0; margin: 0;">
                         {{ item.title }}

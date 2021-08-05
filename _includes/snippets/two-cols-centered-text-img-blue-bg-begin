@@ -1,7 +1,6 @@
-{% if include.text-right %}
+{% if include.text-alignment and include.text-alignment == 'right' %}
 <div class="row justify-content-center align-items-center m-0 intra-padding flex-row-reverse blue-bg" style='padding: 3rem 0 !important'>
-<div class="col-md-5 intra-padding" markdown="1" style='text-align: center; color: white' id='description-small-blue-bg'>
 {% else %}
 <div class="row justify-content-center align-items-center m-0 intra-padding blue-bg" style='padding: 3rem 0 !important'>
-<div class="col-md-5 intra-padding" markdown="1" style='text-align: center; color: white' id='description-small-blue-bg'>
 {% endif %}
+<div class="col-md-5 intra-padding description-small white-text" markdown="1" style='text-align: center; color: white !important'>

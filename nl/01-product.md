@@ -52,14 +52,14 @@ Maak elke lamp slim
 
 {% include snippets/full-width-container-begin %}
 
-{% include snippets/centered-text-home-begin %}
+{% include snippets/centered-text-home-begin background='light'%}
 
 Crownstone modules kunnen **elke** lamp laten reageren op jouw aanwezigheid. 
 Staande lampen, plafondlampen; vorm of grootte maakt niet uit!
 
 {% include snippets/centered-text-home-end %}
 
-{% include snippets/centered-image-home long-img='true' img='/images/lamps_diverse.png' img-alt='lamps'%}
+{% include snippets/centered-image-home img-size='large' img='/images/lamps_diverse.png' img-alt='lamps'%}
 
 {% include snippets/full-width-container-end %}
 
@@ -72,23 +72,23 @@ Een Crownstone kan worden geplaatst bij een **plafondlamp**. De wandschakelaar b
 
 {% include snippets/container-image-relative-end %}
 
-{% include snippets/full-width-container-begin blue-bg='true' %}
+{% include snippets/full-width-container-begin background='blue' %}
 
 {% include snippets/circles-transparent-bg-begin img='/images/circles_2.png' bg-position='center' %}
 
-{% include snippets/transparent-slogan-begin blue-bg='true' %}
+{% include snippets/transparent-slogan-begin color-text='white' %}
 
 Bekijk het energieverbruik per apparaat
 
 {% include snippets/transparent-slogan-end %}
 
-{% include snippets/centered-text-home-begin blue-bg='true' %}
+{% include snippets/centered-text-home-begin background='dark' %}
 
 Je kan energieverbruik in de Crownstone app direct inzien. Het is mogelijk om het verbruik **per apparaat** te bekijken!
 
 {% include snippets/centered-text-home-end %}
 
-{% include snippets/centered-image-home img='/images/gif_energy_monitoring2.gif' img-alt='energy-monitoring'%}
+{% include snippets/centered-image-home img-size='small' img='/images/gif_energy_monitoring2.gif' img-alt='energy-monitoring'%}
 
 {% include snippets/circles-transparent-bg-end %}
 
@@ -111,7 +111,7 @@ Crownstones reageren op je stem
 
 {% include snippets/full-width-container-begin %}
 
-{% include snippets/centered-text-home-begin %}
+{% include snippets/centered-text-home-begin background='light'%}
 
 Vraag aan **Alexa** of **Google** om de lampen voor je aan te doen.
 
@@ -122,7 +122,7 @@ Vraag aan **Alexa** of **Google** om de lampen voor je aan te doen.
 {% include snippets/centered-image-two-columns img1='/images/google.jpg' img1-alt='google' img2='/images/alexa.png' img2-alt='alexa'%}
 
 
-{% include snippets/container-image-relative-begin img-bg='/images/standby_killer.jpg' left-alignment='true' bg-position='center right' %}
+{% include snippets/container-image-relative-begin img-bg='/images/standby_killer.jpg' horizontal-alignment='left' bg-position='center right' %}
 
 ## Crownstone is een stand-by killer
 
@@ -141,7 +141,7 @@ Installatie
 
 {% include snippets/full-width-container-begin %}
 
-{% include snippets/centered-text-home-begin %}
+{% include snippets/centered-text-home-begin background='light'%}
 
 De installatie van Crownstone kan op drie manieren worden gedaan. Het kan worden gedaan door een professionele **installateur**. Het kan worden gedaan door Crownstone zelf en is onderdeel van ons **abonnement**. En het kan door **jouzelf** (DIY) gedaan worden.
 

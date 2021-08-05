@@ -80,7 +80,7 @@ Benefits of asset tracking
 
 
 
-{% include snippets/slogan-begin blue-bg='true' %}
+{% include snippets/slogan-begin background='blue' %}
 
 Our technology
 
@@ -172,7 +172,7 @@ Support
 {% include snippets/slogan-end %}
 
 
-{% include snippets/centered-text-home-begin %}
+{% include snippets/centered-text-home-begin background='light'%}
 
 We can deliver additional support such as **configuration** within your backend or by providing a **custom uplink** towards your backend on a case by case basis.
 We can also provide you with a service level agreement for your application which defines monitoring services for our hardware or our services, include updates of the Crownstone hub software, or implement other application demands.
@@ -180,7 +180,7 @@ We can also provide you with a service level agreement for your application whic
 {% include snippets/centered-text-home-end %}
 
 
-{% include snippets/contact-container-begin small="true" %}
+{% include snippets/contact-container-begin size="small" %}
 
 {% include snippets/contact-option-begin img="/images/contact/email.svg" img-alt="email-icon" title="Send us an email" %}
 

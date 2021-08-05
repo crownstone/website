@@ -26,7 +26,7 @@ Crownstone reageert op jouw stem
 
 {% include snippets/full-width-container-begin %}
 
-{% include snippets/centered-text-home-begin %}
+{% include snippets/centered-text-home-begin background='light'%}
 Als je je smartphone even niet bij de hand hebt, vraag je gewoon aan **Google** of **Alexa** om het licht aan te zetten.
 {% include snippets/centered-text-home-end %}
 
@@ -47,7 +47,7 @@ Integratie met Home Assistant
 
 {% include snippets/full-width-container-begin%}
 
-{% include snippets/two-cols-centered-text-img-begin text-right='true' %}
+{% include snippets/two-cols-centered-text-img-begin text-alignment='right' %}
 De integratie van Crownstone met Home Assistant maakt het mogelijk om jouw slimme huis nóg verder te personaliseren! Dankzij Home Assistant kan je triggers aanmaken op basis van **gepersonaliseerde positiebepaling binnenshuis**.
  
 {% include snippets/two-cols-centered-text-img-end img='/images/ha-logo-large.png' img-alt='ha-logo' %}
@@ -72,7 +72,7 @@ De integratie van Crownstone met Home Assistant maakt het mogelijk om jouw slimm
 
 {% include snippets/full-width-container-begin%}
 
-{% include snippets/two-cols-centered-text-img-begin text-right='true' %}
+{% include snippets/two-cols-centered-text-img-begin text-alignment='right' %}
 
 #### **Je kan triggers instellen voor een specifieke gebruiker.**
 
@@ -88,7 +88,7 @@ De integratie van Crownstone met Home Assistant maakt het mogelijk om jouw slimm
 {% include snippets/centered-text-large text='Leer meer over de integratie met Home assistant' link='/integrations/home-assistant/' %}
 
 
-{% include snippets/container-image-relative-begin img-bg='/images/apple-watch.jpg' left-alignment='true'%}
+{% include snippets/container-image-relative-begin img-bg='/images/apple-watch.jpg' horizontal-alignment='left'%}
 
 ## Apple Watch werkt ook!
 
@@ -107,7 +107,7 @@ Integratie met Google Home
 
 {% include snippets/full-width-container-begin%}
 
-{% include snippets/two-cols-centered-text-img-begin text-right='true' %}
+{% include snippets/two-cols-centered-text-img-begin text-alignment='right' %}
 
 Door de integratie met Google Home kan je met **stem commando's** Crownstones bedienen. Handig als je het **gedrag** dat je hebt ingesteld tijdelijk wilt aanpassen.
 
@@ -132,7 +132,7 @@ Door de integratie met Google Home kan je met **stem commando's** Crownstones be
 
 {% include snippets/full-width-container-begin%}
 
-{% include snippets/two-cols-centered-text-img-begin text-right='true' %}
+{% include snippets/two-cols-centered-text-img-begin text-alignment='right' %}
 
 #### **Je kan Crownstones gebruiken in Google routines**
 
@@ -152,6 +152,6 @@ Binnenkort!
 
 {% include snippets/slogan-end %}
 
-{% include snippets/coming-soon orange-bg='true' %}
+{% include snippets/coming-soon background='orange'%}
 
 {% include snippets/margin %}

@@ -64,17 +64,17 @@ Your presence makes a difference
 
 {% include snippets/full-width-container-begin %}
 
-{% include snippets/centered-text-home-begin %}
+{% include snippets/centered-text-home-begin background='light'%}
 
 Your home sets your lights automatically at **your** desired level, so you never come back to a dark home.  Make any socket and any ceiling light smart by adding a small building block, a **Crownstone**!
 
 {% include snippets/centered-text-home-end %}
 
-{% include snippets/centered-image-home long-img='true' img='/images/builtin-sketch.png' img-alt='builtin-sketch'%}
+{% include snippets/centered-image-home img-size='large' img='/images/builtin-sketch.png' img-alt='builtin-sketch'%}
 
 {% include snippets/full-width-container-end %}
 
-{% include snippets/container-image-relative-begin img-bg='/images/coming_home.jpg' left-alignment='true' %}
+{% include snippets/container-image-relative-begin img-bg='/images/coming_home.jpg' horizontal-alignment='left' %}
 
 ## Welcome Home!
 
@@ -82,21 +82,21 @@ Crownstone lets your home react to you. Lamps, ceiling fans, and space heaters c
 
 {% include snippets/container-image-relative-end %}
 
-{% include snippets/slogan-begin blue-bg='true' %}
+{% include snippets/slogan-begin background='blue' %}
 
 Make any light smart
 
 {% include snippets/slogan-end %}
 
-{% include snippets/full-width-container-begin blue-bg='true'%}
+{% include snippets/full-width-container-begin background='blue'%}
 
-{% include snippets/centered-text-home-begin blue-bg='true' %}
+{% include snippets/centered-text-home-begin background='dark' %}
 
 Crownstone modules can be placed behind outlets and **ceiling lights**! Not only can the light be of any shape or form, the light switch will still work with our switchcraft! The Crownstone modules use the presence of your smartphone to figure out whether you're in the room. That's how it makes your lights truly smart!
 
 {% include snippets/centered-text-home-end %}
 
-{% include snippets/centered-image-home img='/images/built-ins.png' img-alt='built-ins' class='built-in-img' %}
+{% include snippets/centered-image-home img-size='small' img='/images/built-ins.png' img-alt='built-ins' class='built-in-img' %}
 
 {% include snippets/full-width-container-end %}
 
@@ -116,9 +116,9 @@ A Crownstone runs apps!
 
 {% include snippets/full-width-container-begin %}
 
-{% include snippets/centered-text-home-begin %}
+{% include snippets/centered-text-home-begin background='light' %}
 
-A Crownstone is like a miniaturized smartphone. There are many apps and functions on it and new ones every month! From a twilight mode to energy monitoring, there is something new to discover every time!
+###### A Crownstone is like a miniaturized smartphone. There are many apps and functions on it and new ones every month! From a twilight mode to energy monitoring, there is something new to discover every time!
 
 {% include snippets/centered-text-home-end %}
 

@@ -45,7 +45,7 @@ How to get Crownstones?
 
 {% include snippets/full-width-container-begin %}
 
-{% include snippets/centered-text-home-begin %}
+{% include snippets/centered-text-home-begin background='light'%}
 
 You can get Crownstones in **four** different ways. You can buy them directly in the **Crownstone webshop**. 
 You can also find them through other online **stores**.
@@ -67,7 +67,7 @@ To buy or to subscribe, what to do?
 {% include snippets/slogan-end %}
 
 
-{% include snippets/centered-text-home-begin %}
+{% include snippets/centered-text-home-begin background='light'%}
 
 When to buy Crownstones and when to go for a subscription?
 To make that decision we recommend you to consider the following
@@ -104,7 +104,7 @@ Find Crownstone in your favourite store
 
 {% include snippets/slogan-end %}
 
-{% include snippets/centered-text-home-begin %}
+{% include snippets/centered-text-home-begin background='light'%}
 
 You can find the Crownstones products in the following webshops
 

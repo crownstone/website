@@ -45,7 +45,7 @@ Waar kan ik Crownstones krijgen?
 
 {% include snippets/full-width-container-begin %}
 
-{% include snippets/centered-text-home-begin %}
+{% include snippets/centered-text-home-begin background='light'%}
 
 Crownstones zijn beschikbaar op **vier** manieren. Je kan ze kopen in onze **Crownstone webshop**. 
 Je kan ze ook kopen in andere online **webshops** waar je veel winkelt.
@@ -65,7 +65,7 @@ Kopen of abonnement?
 {% include snippets/slogan-end %}
 
 
-{% include snippets/centered-text-home-begin %}
+{% include snippets/centered-text-home-begin background='light'%}
 
 Is het handiger op Crownstones te kopen of om een abonnement te doen? Om dit goed te kunnen besluiten, zetten we hier
 de voor- en nadelen op een rijtje.
@@ -98,7 +98,7 @@ Crownstone in aangesloten webwinkels
 
 {% include snippets/slogan-end %}
 
-{% include snippets/centered-text-home-begin %}
+{% include snippets/centered-text-home-begin background='light'%}
 
 Je kan de Crownstone producten vinden in de volgende webshops
 
