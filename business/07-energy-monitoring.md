@@ -126,7 +126,7 @@ Our technology
 
 {% include snippets/full-width-container-begin%}
 
-{% include snippets/two-cols-text-img-blue-bg-begin %}
+{% include snippets/two-cols-text-img-begin background="blue"%}
 
 ### Crownstone offers a solution for energy monitoring
 
@@ -137,7 +137,7 @@ The energy data broadcasted towards the hub contains **samples per minute**.
 - The hub can function as a **bridge** towards the servers of our business partners. In that case there's no need to hit our API's
 - The software on the hub can be **updated remotely** to keep it secure and improvements can be committed (e.g. in bandwidth or accuracy).
 
-{% include snippets/two-cols-text-img-blue-bg-end img='/images/energy-monitoring/graph_watts.gif' img-alt='graph power monitoring'%}
+{% include snippets/two-cols-text-img-end background="blue" img='/images/energy-monitoring/graph_watts.gif' img-alt='graph power monitoring'%}
 
 {% include snippets/full-width-container-end %}
 

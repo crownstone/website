@@ -80,13 +80,13 @@ Een Crownstone is een module die achter een stopcontact of plafondlamp is geplaa
 
 {% include snippets/full-width-container-begin background='blue' %}
 
-{% include snippets/circles-transparent-bg-begin img='/images/circles_2.png' bg-position='center' %}
+{% include snippets/circles-bg-begin img='/images/circles_2.png' bg-position='center' %}
 
-{% include snippets/transparent-slogan-begin color-text='white' %}
+{% include snippets/slogan-begin color-text='white' %}
 
 De Crownstone app
 
-{% include snippets/transparent-slogan-end %}
+{% include snippets/slogan-end %}
 
 {% include snippets/centered-text-home-begin background='dark'%}
 
@@ -98,7 +98,7 @@ Op deze [pagina]({{ site.url }}/nl/app) vind je meer informatie over onze app.
 
 {% include snippets/centered-image-home img-size='small' img='/images/cs_app.png' img-alt='cs_app'%}
 
-{% include snippets/circles-transparent-bg-end %}
+{% include snippets/circles-bg-end %}
 
 {% include snippets/full-width-container-end %}
 

@@ -90,7 +90,7 @@ Our technology
 
 {% include snippets/full-width-container-begin%}
 
-{% include snippets/two-cols-text-img-blue-bg-begin %}
+{% include snippets/two-cols-text-img-begin background="blue"%}
 
 ### Crownstone offers a solution for indoor asset tracking
 
@@ -103,7 +103,7 @@ The signal strengths with which the assets are observed are communicated over Bl
 
 This all depends also on update frequency and latency. Please, contact us with the specific requirements for your application.
 
-{% include snippets/two-cols-text-img-blue-bg-end img='/images/asset-tracking/technology.jpg' img-alt='technology'%}
+{% include snippets/two-cols-text-img-end background="blue" img='/images/asset-tracking/technology.jpg' img-alt='technology'%}
 
 {% include snippets/full-width-container-end %}
 

@@ -29,7 +29,7 @@ specs:
 
 {% include snippets/full-width-container-begin %}
 
-{% include snippets/circles-transparent-bg-begin img='/images/circles_2.png' bg-position='center' %}
+{% include snippets/circles-bg-begin img='/images/circles_2.png' bg-position='center' %}
 
 {% include snippets/centered-two-columns-begin %}
 
@@ -39,7 +39,7 @@ Crownstone modules detect your **presence** through your **smartphone** to figur
 
 {% include snippets/centered-two-columns-end img='/images/built_in-laying.png' img-alt='built-in' %}
 
-{% include snippets/circles-transparent-bg-end %}
+{% include snippets/circles-bg-end %}
 
 {% include snippets/full-width-container-end %}
 
@@ -73,13 +73,13 @@ A Crownstone can be placed at the **ceiling light**. Your wall switch will still
 
 {% include snippets/full-width-container-begin background='blue' %}
 
-{% include snippets/circles-transparent-bg-begin img='/images/circles_2.png' bg-position='center' %}
+{% include snippets/circles-bg-begin img='/images/circles_2.png' bg-position='center' %}
 
-{% include snippets/transparent-slogan-begin color-text='white' %}
+{% include snippets/slogan-begin color-text='white' %}
 
 Monitor the energy usage per device
 
-{% include snippets/transparent-slogan-end %}
+{% include snippets/slogan-end %}
 
 {% include snippets/centered-text-home-begin background='dark' %}
 
@@ -89,7 +89,7 @@ You can see **real-time energy** usage in the Crownstone app. It is possible to 
 
 {% include snippets/centered-image-home img-size='small' img='/images/gif_energy_monitoring2.gif' img-alt='energy-monitoring'%}
 
-{% include snippets/circles-transparent-bg-end %}
+{% include snippets/circles-bg-end %}
 
 {% include snippets/full-width-container-end %}
 
@@ -153,13 +153,13 @@ The **installation** of Crownstones can be done in three different ways. It can 
 
 {% include snippets/full-width-container-begin %}
 
-{% include snippets/circles-transparent-bg-begin img='/images/circles_1.png' bg-position='center' %}
+{% include snippets/circles-bg-begin img='/images/circles_1.png' bg-position='center' %}
 
-{% include snippets/transparent-slogan-begin %}
+{% include snippets/slogan-begin %}
 
 Discover more!
 
-{% include snippets/transparent-slogan-end %}
+{% include snippets/slogan-end %}
 
 {% include snippets/centered-two-columns-begin reverse-row='flex-row-reverse' %}
 
@@ -169,6 +169,6 @@ Get our latest version of the Crownstone, the Crownstone built-in One! Make any 
 
 {% include snippets/specs %}
 
-{% include snippets/circles-transparent-bg-end %}
+{% include snippets/circles-bg-end %}
 
 {% include snippets/full-width-container-end %}

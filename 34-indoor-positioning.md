@@ -55,7 +55,7 @@ Requirements for indoor positioning
 
 {% include snippets/full-width-container-begin%}
 
-{% include snippets/two-cols-text-img-blue-bg-begin %}
+{% include snippets/two-cols-text-img-begin background="blue"%}
 
 ### To enable indoor positioning in your Crownstones the following is required:
 
@@ -65,7 +65,7 @@ Requirements for indoor positioning
 - To **train** the Crownstones by walking a few rounds in a specific room.
 - To have **bluetooth enabled** in your smartphone.
 
-{% include snippets/two-cols-text-img-blue-bg-end img='/images/indoor-positioning/layout.jpg' img-alt='layout'%}
+{% include snippets/two-cols-text-img-end background="blue" img='/images/indoor-positioning/layout.jpg' img-alt='layout'%}
 
 {% include snippets/full-width-container-end %}
 
@@ -189,7 +189,7 @@ How accurate is it?
 
 {% include snippets/full-width-container-begin%}
 
-{% include snippets/two-cols-text-img-blue-bg-begin %}
+{% include snippets/two-cols-text-img-begin background="blue"%}
 
 ### The accuracy depends on several factors, such as:
 
@@ -202,7 +202,7 @@ How accurate is it?
 
 To know more details about each of these factors, we recommend you read this [blog post]({{ site.url }}/2020/08/07/how-would-my-home-react-to-me).
 
-{% include snippets/two-cols-text-img-blue-bg-end img='/images/indoor-positioning/accuracy.jpg' img-alt='accuracy'%}
+{% include snippets/two-cols-text-img-end background="blue" img='/images/indoor-positioning/accuracy.jpg' img-alt='accuracy'%}
 
 {% include snippets/full-width-container-end %}
 

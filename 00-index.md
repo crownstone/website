@@ -118,7 +118,7 @@ A Crownstone runs apps!
 
 {% include snippets/centered-text-home-begin background='light' %}
 
-###### A Crownstone is like a miniaturized smartphone. There are many apps and functions on it and new ones every month! From a twilight mode to energy monitoring, there is something new to discover every time!
+A Crownstone is like a miniaturized smartphone. There are many apps and functions on it and new ones every month! From a twilight mode to energy monitoring, there is something new to discover every time!
 
 {% include snippets/centered-text-home-end %}
 

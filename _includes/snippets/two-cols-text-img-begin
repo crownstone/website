@@ -1,15 +1,17 @@
 {% if include.text-alignment and include.text-alignment == 'right' %}
-<div class="row justify-content-center align-items-center m-0 intra-padding flex-row-reverse">
     {% if include.background and include.background == 'blue' %}
-    <div class="col-md-5 intra-padding description-small white-text" markdown="1" style='text-align: right; color: white !important;'>
+    <div class="row justify-content-center align-items-center m-0 intra-padding flex-row-reverse blue-bg" style="padding: 2rem !important">
+        <div class="col-md-5 intra-padding description-small white-text" markdown="1" style='text-align: right; color: white !important;'>
     {% else %}
-    <div class="col-md-5 intra-padding description-small blue-text" markdown="1" style='text-align: right; color: #003e52 !important;'>
+    <div class="row justify-content-center align-items-center m-0 intra-padding flex-row-reverse" style="padding: 2rem !important">
+        <div class="col-md-5 intra-padding description-small blue-text" markdown="1" style='text-align: right; color: #003e52 !important;'>
     {% endif %}
 {% else %}
-<div class="row justify-content-center align-items-center m-0 intra-padding">
     {% if include.background and include.background == 'blue' %}
-    <div class="col-md-5 intra-padding description-small white text" markdown="1" style='text-align: left; color: white !important;'>
+    <div class="row justify-content-center align-items-center m-0 intra-padding blue-bg" style="padding: 2rem !important">
+        <div class="col-md-5 intra-padding description-small white text" markdown="1" style='text-align: left; color: white !important;'>
     {% else %}
-    <div class="col-md-5 intra-padding description-small blue-text" markdown="1" style='text-align: left; color: #003e52 !important;'>
+    <div class="row justify-content-center align-items-center m-0 intra-padding" style="padding: 2rem !important">
+        <div class="col-md-5 intra-padding description-small blue-text" markdown="1" style='text-align: left; color: #003e52 !important;'>
     {% endif %}
 {% endif %}

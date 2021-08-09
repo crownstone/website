@@ -1,7 +1,0 @@
-{% assign ci-img = include.img %}
-
-</div>
-<div class="col-md-4 intra-padding align-items-center blue-bg">
-<img src="{{ci-img}}" alt="{{include.img-alt}}"/>
-</div>
-</div>

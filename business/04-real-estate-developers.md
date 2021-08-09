@@ -23,7 +23,7 @@ installations:
 
 {% include snippets/full-width-container-begin %}
 
-{% include snippets/circles-transparent-bg-begin img='/images/circles_2.png' bg-position='center' %}
+{% include snippets/circles-bg-begin img='/images/circles_2.png' bg-position='center' %}
 
 {% include snippets/slogan-begin %}
 
@@ -37,7 +37,7 @@ Smart home technology has a great impact on the **real estate** industry not onl
 
 {% include snippets/centered-text-home-end %}
 
-{% include snippets/circles-transparent-bg-end %}
+{% include snippets/circles-bg-end %}
 
 {% include snippets/full-width-container-end %}
 

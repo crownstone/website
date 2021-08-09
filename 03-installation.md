@@ -73,11 +73,11 @@ It's time to install your Crownstones!
 
 {% include snippets/full-width-container-begin background='blue'%}
 
-{% include snippets/two-cols-centered-text-img-blue-bg-begin%}
+{% include snippets/two-cols-centered-text-img-begin background='blue' extra-style='padding: 3rem 0 !important' %}
 
 Crownstones can be placed behind single or double **power outlets** as well as behind your **ceiling lights**. For detailed installation instructions, check the links below. 
  
-{% include snippets/two-cols-centered-text-img-blue-bg-end img='/images/install_cs.png' img-alt='install_crownstone'%}
+{% include snippets/two-cols-centered-text-img-end background='blue' img='/images/install_cs.png' img-alt='install_crownstone'%}
 
 {% include snippets/full-width-container-end %}
 
@@ -125,7 +125,7 @@ Enable dimming in three steps!
 
 {% include snippets/slogan-end %}
 
-{% include snippets/steps_dimming %}
+{% include snippets/steps-dimming %}
 
 
 {% include snippets/slogan-begin %}

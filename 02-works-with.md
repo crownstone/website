@@ -21,17 +21,17 @@ coming-soon:
 
 
 {% include snippets/full-width-container-begin %}
-{% include snippets/circles-transparent-bg-begin img='/images/circles_1.png' bg-position='center' %}
+{% include snippets/circles-bg-begin img='/images/circles_1.png' bg-position='center' %}
 
-{% include snippets/transparent-slogan-begin %}
+{% include snippets/slogan-begin %}
 Learn how our integrations can help you! 
-{% include snippets/transparent-slogan-end %}
+{% include snippets/slogan-end %}
 
 {% include snippets/margin %}
 {% include snippets/centered-image-home img-size='large' img='/images/logos-integrations.jpg' img-alt='logos of integrations'%}
 {% include snippets/margin %}
 
-{% include snippets/circles-transparent-bg-end %}
+{% include snippets/circles-bg-end %}
 {% include snippets/full-width-container-end %}
 
 

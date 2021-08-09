@@ -117,11 +117,11 @@ Open applications
 
 {% include snippets/full-width-container-begin%}
 
-{% include snippets/two-cols-text-img-blue-bg-begin text-alignment="right" %}
+{% include snippets/two-cols-text-img-begin text-alignment="right" background="blue" %}
 
 If there are currently no job openings that match your interest, you can send an open application. We're always open to hear interesting stories!
 
-{% include snippets/two-cols-text-img-blue-bg-end img='/images/open-application.jpg' img-alt='open-application' btn='true' btn-text='Send motivation' %}
+{% include snippets/two-cols-text-img-end background="blue" img='/images/open-application.jpg' img-alt='open-application' btn='true' btn-text='Send motivation' %}
 
 {% include snippets/full-width-container-end %}
 

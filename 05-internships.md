@@ -105,7 +105,7 @@ If a graduation position has been taken, this does not mean that all problems ha
 
 {% include snippets/full-width-container-begin%}
 
-{% include snippets/two-cols-text-img-blue-bg-begin %}
+{% include snippets/two-cols-text-img-begin background="blue"%}
 
 ### Requirements
 
@@ -113,7 +113,7 @@ If a graduation position has been taken, this does not mean that all problems ha
 - Final project plan will be written by **you** and approved by your professor(s).
 - In case of a graduation project, it must be your **master thesis.** 
 
-{% include snippets/two-cols-text-img-blue-bg-end img='/images/intern.webp' img-alt='intern'%}
+{% include snippets/two-cols-text-img-end background="blue" img='/images/intern.webp' img-alt='intern'%}
 
 {% include snippets/full-width-container-end %}
 
@@ -190,6 +190,40 @@ Create a professional style guide for internal and external use building on buye
 {% include snippets/margin %}
 
 
+
+{% include snippets/slogan-begin %}
+
+Vocational internship
+
+{% include snippets/slogan-end %}
+
+
+{% include snippets/full-width-container-begin %}
+
+{% include snippets/centered-text-home-begin background='light'%}
+
+Crownstone is a recognized training company. This means that it is possible to do an internship at MBO level. You will learn a lot about how an innovative company like Crownstone operates. For us it is important that you learn skills.
+
+{% include snippets/centered-text-home-end %}
+
+{% include snippets/full-width-container-end %}
+
+
+{% include snippets/full-width-container-begin%}
+
+{% include snippets/two-cols-text-img-begin %}
+
+You can do some research into ease of use or do some work as a **test engineer**. Our internships at MBO level always involve **accurate soldering**.
+You can learn to perform patches with SMD components and to work electrostatically carefully. Many Human Technology students from the **Techniek College Rotterdam** have completed their internship with us.
+
+{% include snippets/two-cols-text-img-end  btn-alignment='left' img='/images/soldering.jpg' img-alt='soldering-internship' btn='true' btn-text='Send CV and motivation letter' %}
+
+{% include snippets/full-width-container-end %}
+
+
+{% include snippets/margin %}
+
+
 {% include snippets/slogan-begin background='blue' %}
 
 Hall of fame
@@ -199,14 +233,14 @@ Hall of fame
 
 {% include snippets/full-width-container-begin%}
 
-{% include snippets/two-cols-text-img-blue-bg-begin text-alignment="right" %}
+{% include snippets/two-cols-text-img-begin background="blue" text-alignment="right" %}
 
 We had the pleasure to always work with people who have ambition and who proved that by their high grades!
 Explore our hall of fame to get an idea about the projects of our former graduates!
 
-{% include snippets/two-cols-text-img-blue-bg-end img='/images/internships/fame.jpg' img-alt='hall-of-fame' link='true' url='/hall-of-fame' link-text='Explore' %}
+{% include snippets/two-cols-text-img-end background="blue" img='/images/internships/fame.jpg' img-alt='hall-of-fame' link='true' url='/hall-of-fame' link-text='Explore' %}
 
-{% include snippets/full-width-container-end %}
+{% include snippets/full-width-container-end  %}
 
 
 {% include snippets/full-width-container-begin %}

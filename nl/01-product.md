@@ -30,7 +30,7 @@ specs:
 
 {% include snippets/full-width-container-begin %}
 
-{% include snippets/circles-transparent-bg-begin img='/images/circles_2.png' bg-position='center' %}
+{% include snippets/circles-bg-begin img='/images/circles_2.png' bg-position='center' %}
 
 {% include snippets/centered-two-columns-begin %}
 
@@ -40,7 +40,7 @@ Crownstone modules herkennen dat je **aanwezig** bent via je **smartphone**. Zo 
 
 {% include snippets/centered-two-columns-end img='/images/built_in-laying.png' img-alt='built-in' %}
 
-{% include snippets/circles-transparent-bg-end %}
+{% include snippets/circles-bg-end %}
 
 {% include snippets/full-width-container-end %}
 
@@ -74,13 +74,13 @@ Een Crownstone kan worden geplaatst bij een **plafondlamp**. De wandschakelaar b
 
 {% include snippets/full-width-container-begin background='blue' %}
 
-{% include snippets/circles-transparent-bg-begin img='/images/circles_2.png' bg-position='center' %}
+{% include snippets/circles-bg-begin img='/images/circles_2.png' bg-position='center' %}
 
-{% include snippets/transparent-slogan-begin color-text='white' %}
+{% include snippets/slogan-begin color-text='white' %}
 
 Bekijk het energieverbruik per apparaat
 
-{% include snippets/transparent-slogan-end %}
+{% include snippets/slogan-end %}
 
 {% include snippets/centered-text-home-begin background='dark' %}
 
@@ -90,7 +90,7 @@ Je kan energieverbruik in de Crownstone app direct inzien. Het is mogelijk om he
 
 {% include snippets/centered-image-home img-size='small' img='/images/gif_energy_monitoring2.gif' img-alt='energy-monitoring'%}
 
-{% include snippets/circles-transparent-bg-end %}
+{% include snippets/circles-bg-end %}
 
 {% include snippets/full-width-container-end %}
 
@@ -154,13 +154,13 @@ De installatie van Crownstone kan op drie manieren worden gedaan. Het kan worden
 
 {% include snippets/full-width-container-begin %}
 
-{% include snippets/circles-transparent-bg-begin img='/images/circles_1.png' bg-position='center' %}
+{% include snippets/circles-bg-begin img='/images/circles_1.png' bg-position='center' %}
 
-{% include snippets/transparent-slogan-begin %}
+{% include snippets/slogan-begin %}
 
 Ontdek meer!
 
-{% include snippets/transparent-slogan-end %}
+{% include snippets/slogan-end %}
 
 {% include snippets/centered-two-columns-begin reverse-row='flex-row-reverse' %}
 
@@ -170,6 +170,6 @@ Onze laatste versie van de Crownstone, de Crownstone built-in One, kan je ook di
 
 {% include snippets/specs %}
 
-{% include snippets/circles-transparent-bg-end %}
+{% include snippets/circles-bg-end %}
 
 {% include snippets/full-width-container-end %}

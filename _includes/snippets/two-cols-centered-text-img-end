@@ -1,7 +1,13 @@
 {% assign ci-img = include.img %}
 
 </div>
+
+{% if include.background and include.background == 'blue' %}
+<div class="col-md-4 intra-padding align-items-center blue-bg">
+{% else %}
 <div class="col-md-4 intra-padding align-items-center">
+{% endif %}
+
 <img src="{{ci-img}}" alt="{{include.img-alt}}"/>
 </div>
 </div>
