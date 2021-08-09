@@ -211,20 +211,16 @@ div.sloganPresence {
 	font-size: 1.8rem;
 	font-weight: 400;
 	font-style: italic;
-	color: #003e52;
 	margin: 2rem 2rem 0.8rem;
 	width: 100%;
 }
 
-.slogan-blue-bg{
-	text-align: center;
-	font-family: Lato, sans-serif;
-	font-size: 1.8rem;
-	font-weight: 400;
-	font-style: italic;
-	color: white;
-	margin: 2rem 2rem 0.8rem;
-	width: 100%;
+.blue-text{
+	color: #003e52 !important;
+}
+
+.white-text{
+	color: white !important;
 }
 
 .centered-text-large{
@@ -249,14 +245,8 @@ div.description-paragraph-title{
 	padding: 1rem;
 }
 
-#description-small{
+.description-small{
 	font-size: 1rem !important;
-	color: #003e52 !important;
-}
-
-#description-small-blue-bg{
-	font-size: 1rem !important;
-	color: white !important;
 }
 
 h5{
@@ -288,21 +278,17 @@ p.description-paragraph{
 	font-family: Lato, sans-serif;
 	font-size: 1.3rem;
 	font-style: italic;
-	color: #003e52 !important;
 	width: 100%;
 	margin: 2rem 0;
 	padding: 1rem;
 }
 
-p.description-paragraph-blue-bg{
-	text-align: center;
-	font-family: Lato, sans-serif;
-	font-size: 1.3rem;
-	font-style: italic;
+p,blue-text{
+	color: #003e52 !important;
+}
+
+p.white-text{
 	color: white !important;
-	width: 100%;
-	margin: 2rem 0;
-	padding: 1rem;
 }
 
 span.important-blue{
@@ -374,21 +360,17 @@ a.link-text-gray:hover{
 		font-family: Lato, sans-serif;
 		font-size: 1.3rem;
 		font-style: italic;
-		color: #003e52;
 		width: 100%;
 		margin: 2rem 0 3rem;
 		padding: 1rem;
 	}
 
-	p.description-paragraph-blue-bg{
-		text-align: center;
-		font-family: Lato, sans-serif;
-		font-size: 1.3rem;
-		font-style: italic;
-		color: white;
-		width: 100%;
-		margin: 2rem 0 3rem;
-		padding: 1rem;
+	p,blue-text{
+		color: #003e52 !important;
+	}
+
+	p.white-text{
+		color: white !important;
 	}
 
 	div.description-paragraph-title{
@@ -450,20 +432,22 @@ a.link-text-gray:hover{
 
 	div.transparent-bg-segments{
 		width:              100%;
-		background:         rgba(0, 62, 82, 0.6);
 		margin:             0;
 		padding:            0.2rem 1.2rem !important;
 		align-items:        center;
 		justify-content:    space-between;
 	}
 
-	div.transparent-bg-segments-orange{
-		width:              100%;
+	div.blue-bg-transparent{
+		background:         rgba(0, 62, 82, 0.6);
+	}
+
+	div.orange-bg-transparent{
 		background:         rgba(255, 132, 0, 0.75);
-		margin:             0;
-		padding:            0.2rem 1.2rem !important;
-		align-items:        center;
-		justify-content:    space-between;
+	}
+
+	div.gray-bg{
+		background-color: 	#f6f6f6;
 	}
 
 	p.description-paragraph-bg-left{
@@ -589,8 +573,6 @@ h2.container-title-right{
 div.blue-bg {
 	background-color: #003e52;
 	color: white;
-	padding: 0 !important;
-	margin: 0 !important;
 }
 
 div.built-in-img{
@@ -718,23 +700,19 @@ p.description-segments{
 
 div.transparent-bg-segments{
 	width:              100%;
+	margin:             0;
+	padding:            0.5rem;
+	align-items:        center;
+	justify-content:    space-between;
+}
+
+div.blue-bg-transparent{
 	background:         rgba(0, 62, 82, 0.6);
-	margin:             0;
-	padding:            0.5rem;
-	align-items:        center;
-	justify-content:    space-between;
 }
 
-div.transparent-bg-segments-orange{
-	width:              100%;
+div.orange-bg-transparent{
 	background:         rgba(255, 132, 0, 0.75);
-	margin:             0;
-	padding:            0.5rem;
-	align-items:        center;
-	justify-content:    space-between;
 }
-
-
 
 div.gray-bg{
 	background-color: #f6f6f6;

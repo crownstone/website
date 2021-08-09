@@ -27,13 +27,13 @@ Crownstone bespaart je tijd!
 
 {% include snippets/full-width-container-begin %}
 
-{% include snippets/centered-text-home-begin %}
+{% include snippets/centered-text-home-begin background='light'%}
 
 Wij willen graag dat we jou tijd besparen in plaats van jou tijd kosten. Hier zie je een aantal ideeën over het "handsfree" gebruiken van lichten en apparaten!
 
 {% include snippets/centered-text-home-end %}
 
-{% include snippets/centered-image-home long-img='true' img='/images/devices.png' img-alt='devices'%}
+{% include snippets/centered-image-home img-size='large' img='/images/devices.png' img-alt='devices'%}
 
 {% include snippets/full-width-container-end %}
 
@@ -45,25 +45,25 @@ De zonsondergang scene zet de lichten aan wanneer het donker wordt. Natuurlijk w
 
 {% include snippets/container-image-relative-end %}
 
-{% include snippets/slogan-begin blue-bg='true' %}
+{% include snippets/slogan-begin background='blue' %}
 
 Veiligheid voor alles!
 
 {% include snippets/slogan-end %}
 
-{% include snippets/full-width-container-begin blue-bg='true'%}
+{% include snippets/full-width-container-begin background='blue'%}
 
-{% include snippets/centered-text-home-begin blue-bg='true' %}
+{% include snippets/centered-text-home-begin background='dark' %}
 
 Zet stopcontacten uit als **jij**, als volwassene, niet in de buurt bent. Natuurlijk vergeet je niet een strijkijzer uit te zetten, maar weten dat de hele strijkbout niet gebruikt kan worden is goed voor je gemoedsrust!
 
 {% include snippets/centered-text-home-end %}
 
-{% include snippets/centered-image-home img='/images/danger.png' img-alt='danger' %}
+{% include snippets/centered-image-home img-size='small' img='/images/danger.png' img-alt='danger' %}
 
 {% include snippets/full-width-container-end %}
 
-{% include snippets/container-image-relative-begin img-bg='/images/nighttime.jpg' left-alignment='true' %}
+{% include snippets/container-image-relative-begin img-bg='/images/nighttime.jpg' horizontal-alignment='left' %}
 
 ## Nachtverlichting
 
@@ -79,13 +79,13 @@ Kerst!
 
 {% include snippets/full-width-container-begin %}
 
-{% include snippets/centered-text-home-begin %}
+{% include snippets/centered-text-home-begin background='light'%}
 
 Zet je kerstboomverlichting aan als je in de woonkamer bent. Je kan het ook zo instellen dat de verlichting automatisch aan gaat zodra het donker wordt met de slimme **tijdsklok**.
 
 {% include snippets/centered-text-home-end %}
 
-{% include snippets/centered-image-home long-img='true' img='/images/christmas.png' img-alt='christmas' %}
+{% include snippets/centered-image-home img-size='large' img='/images/christmas.png' img-alt='christmas' %}
 
 {% include snippets/full-width-container-end %}
 
@@ -105,7 +105,7 @@ Binnenkort
 
 {% include snippets/full-width-container-begin %}
 
-{% include snippets/centered-text-home-begin %}
+{% include snippets/centered-text-home-begin background='light'%}
 
 Elke paar maanden komen er nieuwe functies beschikbaar op de Crownstones. Ze worden vanzelf slimmer over de tijd! Binnenkort komt er bijvoorbeeld een **wekker** functie bij. Crownstone als een "wake-up light". Hiermee kunnen normale plafondlampen de zonsopgang simuleren!
 

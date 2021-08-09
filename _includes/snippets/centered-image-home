@@ -1,11 +1,25 @@
 {% assign ci-image = include.img %}
 
 <div class="row justify-content-center m-0 p-0">
-{% if include.long-img %}
-    <div class="col-md-6 p-4">
-        <img src="{{ ci-image }}" alt="{{include.img-alt}}">
+{% if include.img-size and include.img-size == "x-large" %}
+    <div class="col-md-7 d-flex align-items-center p-3 pb-5">
+        <img src="{{ ci-image }}" alt="{{include.img-alt}}" class="{{ include.class}}">
     </div>
-{% else %}
+{% endif %}
+
+{% if include.img-size and include.img-size == "large" %}
+    <div class="col-md-6 d-flex align-items-center p-4">
+        <img src="{{ ci-image }}" alt="{{include.img-alt}}" class="{{ include.class}}">
+    </div>
+{% endif %}
+
+{% if include.img-size and include.img-size == "medium" %}
+    <div class="col-md-4 d-flex align-items-center p-3 pb-5">
+        <img src="{{ ci-image }}" alt="{{include.img-alt}}" class="{{ include.class}}">
+    </div>
+{% endif %}
+
+{% if include.img-size and include.img-size == "small" %}
     <div class="col-sm-4 d-flex align-items-center {{include.class}}">
         <img src="{{ ci-image }}" alt="{{include.img-alt}}" class="{{ include.class}}">
     </div>

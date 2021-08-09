@@ -31,7 +31,7 @@ Get in touch
 
 {% include snippets/full-width-container-begin %}
 
-{% include snippets/centered-text-home-begin %}
+{% include snippets/centered-text-home-begin background='light'%}
 
 Want to get in touch? We'd love to hear from you. Here's how you can reach us...
 
@@ -94,7 +94,7 @@ Where to find us?
 
 {% include snippets/full-width-container-begin%}
 
-{% include snippets/two-cols-text-img-begin text-right="true" %}
+{% include snippets/two-cols-text-img-begin text-alignment='right' %}
 
 The address of our head quarters:
 

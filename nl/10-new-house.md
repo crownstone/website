@@ -53,7 +53,7 @@ support-options:
 {% include snippets/new-house-banner %}
 
 
-{% include snippets/centered-text-home-begin %}
+{% include snippets/centered-text-home-begin background='light'%}
 
 **Gefeliciteerd!** Er zijn Crownstones in je huis geïnstalleerd. We leggen kort uit wat je nu kan doen!
 
@@ -78,17 +78,17 @@ Een Crownstone is een module die achter een stopcontact of plafondlamp is geplaa
 
 
 
-{% include snippets/full-width-container-begin blue-bg='true' %}
+{% include snippets/full-width-container-begin background='blue' %}
 
-{% include snippets/circles-transparent-bg-begin img='/images/circles_2.png' bg-position='center' %}
+{% include snippets/circles-bg-begin img='/images/circles_2.png' bg-position='center' %}
 
-{% include snippets/transparent-slogan-begin blue-bg='true' %}
+{% include snippets/slogan-begin color-text='white' %}
 
 De Crownstone app
 
-{% include snippets/transparent-slogan-end %}
+{% include snippets/slogan-end %}
 
-{% include snippets/centered-text-home-begin blue-bg='true' %}
+{% include snippets/centered-text-home-begin background='dark'%}
 
 In de Crownstone app kan alles worden ingesteld, zoals gedragsregels, tijdschakelaars en scenes.
 Download de iOS app van de Apple [App Store](https://apps.apple.com/us/app/crownstone/id1136616106) of de Android app van de Google [Play Store](https://play.google.com/store/apps/details?id=rocks.crownstone.consumerapp). 
@@ -96,9 +96,9 @@ Op deze [pagina]({{ site.url }}/nl/app) vind je meer informatie over onze app.
 
 {% include snippets/centered-text-home-end %}
 
-{% include snippets/centered-image-home img='/images/cs_app.png' img-alt='cs_app'%}
+{% include snippets/centered-image-home img-size='small' img='/images/cs_app.png' img-alt='cs_app'%}
 
-{% include snippets/circles-transparent-bg-end %}
+{% include snippets/circles-bg-end %}
 
 {% include snippets/full-width-container-end %}
 
@@ -131,7 +131,7 @@ Meer weten?
 
 
 
-{% include snippets/centered-text-home-begin %}
+{% include snippets/centered-text-home-begin background='light'%}
 
 Voor inspiratie om je Crownstones te configureren, kijk op onze **Scenario's** pagina. 
 Voor veelgestelde vragen kan je terecht op onze **Support** pagina.

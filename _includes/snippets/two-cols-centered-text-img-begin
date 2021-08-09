@@ -1,7 +1,19 @@
-{% if include.text-right %}
-<div class="row justify-content-center align-items-center m-0 intra-padding flex-row-reverse" style='{{ include.extra-style }}'>
-  <div class="col-md-5 intra-padding" markdown="1" style='text-align: center' id='description-small'>
+{% if include.text-alignment and include.text-alignment == 'right' %}
+    {% if include.background and include.background == 'blue' %}
+    <div class="row justify-content-center align-items-center m-0 intra-padding flex-row-reverse blue-bg" style='{{ include.extra-style }}'>
+    {% else %}
+    <div class="row justify-content-center align-items-center m-0 intra-padding flex-row-reverse" style='{{ include.extra-style }}'>
+    {% endif %}
 {% else %}
-<div class="row justify-content-center align-items-center m-0 intra-padding" style= '{{ include.extra-style }}'>
-  <div class="col-md-5 intra-padding" markdown="1" style='text-align: center' id='description-small'>
+    {% if include.background and include.background == 'blue' %}
+    <div class="row justify-content-center align-items-center m-0 intra-padding blue-bg" style='{{ include.extra-style }}'>
+    {% else %}
+    <div class="row justify-content-center align-items-center m-0 intra-padding" style='{{ include.extra-style }}'>
+    {% endif %}
+{% endif %}
+
+{% if include.background and include.background == 'blue' %}
+<div class="col-md-5 intra-padding description-small white-text" markdown="1" style='text-align: center; color: white !important;'>
+{% else %}
+<div class="col-md-5 intra-padding description-small blue-text" markdown="1" style='text-align: center; color: #003e52 !important;'>
 {% endif %}

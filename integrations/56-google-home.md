@@ -26,7 +26,7 @@ This guide assumes that you have already created a *Home* profile in the Google 
 
 ### Adding the Crownstone integration in Google home
 
-1. Go to your Google Home app on press on the **plus** button located at the top left corner.  
+1. Go to your Google Home app and press on the **plus** button located at the top left corner.  
 2. Select **Set up device** under the *Add to home* section.
 3. Press on **Works with Google**.
 4. In the search menu type *Crownstone* and select this option.

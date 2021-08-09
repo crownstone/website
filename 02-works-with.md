@@ -19,13 +19,29 @@ coming-soon:
 
 {% include JB/setup %}
 
+
+{% include snippets/full-width-container-begin %}
+{% include snippets/circles-bg-begin img='/images/circles_1.png' bg-position='center' %}
+
+{% include snippets/slogan-begin %}
+Learn how our integrations can help you! 
+{% include snippets/slogan-end %}
+
+{% include snippets/margin %}
+{% include snippets/centered-image-home img-size='large' img='/images/logos-integrations.jpg' img-alt='logos of integrations'%}
+{% include snippets/margin %}
+
+{% include snippets/circles-bg-end %}
+{% include snippets/full-width-container-end %}
+
+
 {% include snippets/slogan-begin %}
 Crownstone also reacts to your voice
 {% include snippets/slogan-end %}
 
 {% include snippets/full-width-container-begin %}
 
-{% include snippets/centered-text-home-begin %}
+{% include snippets/centered-text-home-begin background='light'%}
 When not carrying your smartphone with you, you can simply ask **Google** or **Alexa** to turn on the lights for you.
 {% include snippets/centered-text-home-end %}
 
@@ -46,7 +62,7 @@ Integration with Home Assistant
 
 {% include snippets/full-width-container-begin%}
 
-{% include snippets/two-cols-centered-text-img-begin text-right='true' %}
+{% include snippets/two-cols-centered-text-img-begin text-alignment='right' %}
 
 The integration of Crownstone with Home Assistant enables you to personalize your home automation **routines** even more! Thanks to Home Assistant you can create triggers based on **personalized indoor positioning** events. 
  
@@ -72,7 +88,7 @@ The integration of Crownstone with Home Assistant enables you to personalize you
 
 {% include snippets/full-width-container-begin%}
 
-{% include snippets/two-cols-centered-text-img-begin text-right='true' %}
+{% include snippets/two-cols-centered-text-img-begin text-alignment='right' %}
 
 #### **You can create triggers for a specific user.**
 
@@ -88,7 +104,7 @@ The integration of Crownstone with Home Assistant enables you to personalize you
 {% include snippets/centered-text-large text='Learn more about the integration with Home assistant' link='/integrations/home-assistant/' %}
 
 
-{% include snippets/container-image-relative-begin img-bg='/images/apple-watch.jpg' left-alignment='true'%}
+{% include snippets/container-image-relative-begin img-bg='/images/apple-watch.jpg' horizontal-alignment='left'%}
 
 ## Works with Apple Watch!
 
@@ -107,7 +123,7 @@ Integration with Google Home
 
 {% include snippets/full-width-container-begin%}
 
-{% include snippets/two-cols-centered-text-img-begin text-right='true' %}
+{% include snippets/two-cols-centered-text-img-begin text-alignment='right' %}
 
 The integration with Google Home enables you to control your Crownstones with your **voice**. Useful when you want your Crownstones to do something different from their current **behaviour.**
  
@@ -133,7 +149,7 @@ The integration with Google Home enables you to control your Crownstones with yo
 
 {% include snippets/full-width-container-begin%}
 
-{% include snippets/two-cols-centered-text-img-begin text-right='true' %}
+{% include snippets/two-cols-centered-text-img-begin text-alignment='right' %}
 
 #### **You can include your Crownstones into your Google routines**
 
@@ -163,7 +179,7 @@ Crownstone app for Homey
 
 {% include snippets/full-width-container-begin%}
 
-{% include snippets/two-cols-centered-text-img-begin text-right='true' %}
+{% include snippets/two-cols-centered-text-img-begin text-alignment='right' %}
 
 Now in your **Homey flows** you can have not only Crownstones reacting to your **presence**, but also other devices coupled to your Homey. For example, philips hue lights, tado thermostat, etc.
  
@@ -189,7 +205,7 @@ When someone enters the living room and it is dark outside, activate the philips
 
 {% include snippets/full-width-container-begin%}
 
-{% include snippets/two-cols-centered-text-img-begin text-right='true'%}
+{% include snippets/two-cols-centered-text-img-begin text-alignment='right'%}
 
 #### **Let your fan automatically turn on if...**
 
@@ -211,6 +227,6 @@ Coming soon!
 
 {% include snippets/margin %}
 
-{% include snippets/coming-soon orange-bg='true' %} 
+{% include snippets/coming-soon background='orange' %} 
 
 {% include snippets/margin %}

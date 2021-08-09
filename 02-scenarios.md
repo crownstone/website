@@ -27,13 +27,13 @@ Crownstone saves you time
 
 {% include snippets/full-width-container-begin %}
 
-{% include snippets/centered-text-home-begin %}
+{% include snippets/centered-text-home-begin background='light'%}
 
 We like you to **save** time rather than **spend** time on your smart home! Here are some ideas and tips for the "hands-free" use of your lights and devices!
 
 {% include snippets/centered-text-home-end %}
 
-{% include snippets/centered-image-home long-img='true' img='/images/devices.png' img-alt='devices'%}
+{% include snippets/centered-image-home img-size='large' img='/images/devices.png' img-alt='devices'%}
 
 {% include snippets/full-width-container-end %}
 
@@ -45,25 +45,25 @@ The sunset scene turns on the lights for you when it is getting dark. Of course 
 
 {% include snippets/container-image-relative-end %}
 
-{% include snippets/slogan-begin blue-bg='true' %}
+{% include snippets/slogan-begin background='blue' %}
 
 Safety first!
 
 {% include snippets/slogan-end %}
 
-{% include snippets/full-width-container-begin blue-bg='true'%}
+{% include snippets/full-width-container-begin background='blue'%}
 
-{% include snippets/centered-text-home-begin blue-bg='true' %}
+{% include snippets/centered-text-home-begin background='dark' %}
 
 Turn off outlets when **you**, the adult, are not around! Sure, you won't forget to turn off your iron, but knowing that no one can play with it in a dangerous manner means peace of mind!
 
 {% include snippets/centered-text-home-end %}
 
-{% include snippets/centered-image-home img='/images/danger.png' img-alt='danger' %}
+{% include snippets/centered-image-home img-size='small' img='/images/danger.png' img-alt='danger' %}
 
 {% include snippets/full-width-container-end %}
 
-{% include snippets/container-image-relative-begin img-bg='/images/nighttime.jpg' left-alignment='true' %}
+{% include snippets/container-image-relative-begin img-bg='/images/nighttime.jpg' horizontal-alignment='left' %}
 
 ## Nighttime bathroom
 
@@ -79,13 +79,13 @@ Christmas time!
 
 {% include snippets/full-width-container-begin %}
 
-{% include snippets/centered-text-home-begin %}
+{% include snippets/centered-text-home-begin background='light'%}
 
 Turn on your Christmas tree lights when you are in the living room! You can set a smart **timer** to automatically turn it on after sunset as well.
 
 {% include snippets/centered-text-home-end %}
 
-{% include snippets/centered-image-home long-img='true' img='/images/christmas.png' img-alt='christmas' %}
+{% include snippets/centered-image-home img-size='large' img='/images/christmas.png' img-alt='christmas' %}
 
 {% include snippets/full-width-container-end %}
 
@@ -105,7 +105,7 @@ Coming soon!
 
 {% include snippets/full-width-container-begin %}
 
-{% include snippets/centered-text-home-begin %}
+{% include snippets/centered-text-home-begin background='light'%}
 
 We're constantly adding more functions to the Crownstones so they become **smarter** over time! Coming soon: the Crownstone as a **wake up light**. Use your normal ceiling light to simulate the sunrise in the morning!
 

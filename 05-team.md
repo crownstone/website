@@ -135,6 +135,7 @@ core-team-gallery:
 
 {% include snippets/slogan-begin %}
 
+<<<<<<< HEAD
 Our Vision
 
 {% include snippets/slogan-end %}
@@ -266,6 +267,8 @@ where we raised over 70.000 euros for the Crownstones, our [blog]({{ BASE_PATH }
 
 {% include snippets/slogan-begin %}
 
+=======
+>>>>>>> 21be9ef455aca54a8ae8171dfd7cf3e206238eaa
 Core Team
 
 {% include snippets/slogan-end %}
@@ -273,7 +276,7 @@ Core Team
 
 {% include snippets/full-width-container-begin %}
 
-{% include snippets/centered-text-home-begin %}
+{% include snippets/centered-text-home-begin background='light'%}
 
 The Crownstone team is extremely well versed in a wide variety of **skills**. We all have been to Dutch or international universities and like **challenges** above anything else!
 
@@ -297,7 +300,7 @@ Crownstone Advisors and Experts
 
 {% include snippets/full-width-container-begin %}
 
-{% include snippets/centered-text-home-begin %}
+{% include snippets/centered-text-home-begin background='light'%}
 
 At Crownstone we have multiple advisors and experts who help us bring Crownstone to the market.
 
@@ -319,7 +322,7 @@ Interns
 
 {% include snippets/full-width-container-begin %}
 
-{% include snippets/centered-text-home-begin %}
+{% include snippets/centered-text-home-begin background='light'%}
 
 Our most recent interns, who perform a wide range of tasks. They help people with advice on Crownstones, test all kind of smartphone variants, organize hackathons, building a booth for trade fairs, desoldering and soldering electronic components, product assembly, and much more.
 
@@ -335,7 +338,7 @@ Our most recent interns, who perform a wide range of tasks. They help people wit
 
 
 
-{% include snippets/slogan-begin blue-bg='true' %}
+{% include snippets/slogan-begin background='blue' %}
 
 Hall of fame
 
@@ -344,11 +347,11 @@ Hall of fame
 
 {% include snippets/full-width-container-begin%}
 
-{% include snippets/two-cols-text-img-blue-bg-begin text-right="true" %}
+{% include snippets/two-cols-text-img-begin background="blue" text-alignment="right" %}
 
 For a nice overview of past employees and interns, who have worked at Crownstone, at our sister company [DoBots](https://dobots.nl), or at our mother company [Almende](http://almende.com), take a look at our hall of fame.
 
-{% include snippets/two-cols-text-img-blue-bg-end img='/images/hall_of_fame.jpg' img-alt='hall-of-fame' link='true' url='/hall-of-fame' link-text='Explore' %}
+{% include snippets/two-cols-text-img-end background="blue" img='/images/hall_of_fame.jpg' img-alt='hall-of-fame' link='true' url='/hall-of-fame' link-text='Explore' %}
 
 {% include snippets/full-width-container-end %}
 

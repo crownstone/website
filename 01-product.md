@@ -29,7 +29,7 @@ specs:
 
 {% include snippets/full-width-container-begin %}
 
-{% include snippets/circles-transparent-bg-begin img='/images/circles_2.png' bg-position='center' %}
+{% include snippets/circles-bg-begin img='/images/circles_2.png' bg-position='center' %}
 
 {% include snippets/centered-two-columns-begin %}
 
@@ -39,7 +39,7 @@ Crownstone modules detect your **presence** through your **smartphone** to figur
 
 {% include snippets/centered-two-columns-end img='/images/built_in-laying.png' img-alt='built-in' %}
 
-{% include snippets/circles-transparent-bg-end %}
+{% include snippets/circles-bg-end %}
 
 {% include snippets/full-width-container-end %}
 
@@ -51,14 +51,14 @@ Make any light smart
 
 {% include snippets/full-width-container-begin %}
 
-{% include snippets/centered-text-home-begin %}
+{% include snippets/centered-text-home-begin background='light'%}
 
 Crownstone modules can make **any light** react to your presence!
 Standing lamps, ceiling lights. The shape, size, or form does not matter!
 
 {% include snippets/centered-text-home-end %}
 
-{% include snippets/centered-image-home long-img='true' img='/images/lamps_diverse.png' img-alt='lamps'%}
+{% include snippets/centered-image-home img-size='large' img='/images/lamps_diverse.png' img-alt='lamps'%}
 
 {% include snippets/full-width-container-end %}
 
@@ -71,25 +71,25 @@ A Crownstone can be placed at the **ceiling light**. Your wall switch will still
 
 {% include snippets/container-image-relative-end %}
 
-{% include snippets/full-width-container-begin blue-bg='true' %}
+{% include snippets/full-width-container-begin background='blue' %}
 
-{% include snippets/circles-transparent-bg-begin img='/images/circles_2.png' bg-position='center' %}
+{% include snippets/circles-bg-begin img='/images/circles_2.png' bg-position='center' %}
 
-{% include snippets/transparent-slogan-begin blue-bg='true' %}
+{% include snippets/slogan-begin color-text='white' %}
 
 Monitor the energy usage per device
 
-{% include snippets/transparent-slogan-end %}
+{% include snippets/slogan-end %}
 
-{% include snippets/centered-text-home-begin blue-bg='true' %}
+{% include snippets/centered-text-home-begin background='dark' %}
 
 You can see **real-time energy** usage in the Crownstone app. It is possible to inspect the usage **per device!**
 
 {% include snippets/centered-text-home-end %}
 
-{% include snippets/centered-image-home img='/images/gif_energy_monitoring2.gif' img-alt='energy-monitoring'%}
+{% include snippets/centered-image-home img-size='small' img='/images/gif_energy_monitoring2.gif' img-alt='energy-monitoring'%}
 
-{% include snippets/circles-transparent-bg-end %}
+{% include snippets/circles-bg-end %}
 
 {% include snippets/full-width-container-end %}
 
@@ -110,7 +110,7 @@ Crownstone reacts to your voice
 
 {% include snippets/full-width-container-begin %}
 
-{% include snippets/centered-text-home-begin %}
+{% include snippets/centered-text-home-begin background='light'%}
 
 You can simply ask **Alexa** or **Google** to turn on the lights for you.
 
@@ -121,7 +121,7 @@ You can simply ask **Alexa** or **Google** to turn on the lights for you.
 {% include snippets/centered-image-two-columns img1='/images/google.jpg' img1-alt='google' img2='/images/alexa.png' img2-alt='alexa'%}
 
 
-{% include snippets/container-image-relative-begin img-bg='/images/standby_killer.jpg' left-alignment='true' bg-position='center right' %}
+{% include snippets/container-image-relative-begin img-bg='/images/standby_killer.jpg' horizontal-alignment='left' bg-position='center right' %}
 
 ## Crownstone is also a stand-by killer
 
@@ -140,7 +140,7 @@ Installation made easy
 
 {% include snippets/full-width-container-begin %}
 
-{% include snippets/centered-text-home-begin %}
+{% include snippets/centered-text-home-begin background='light'%}
 
 The **installation** of Crownstones can be done in three different ways. It can be done by an **installer**. It can be done by Crownstone, part of our smart home **subscription**. It can be done by **yourself** (DIY).
 
@@ -153,13 +153,13 @@ The **installation** of Crownstones can be done in three different ways. It can 
 
 {% include snippets/full-width-container-begin %}
 
-{% include snippets/circles-transparent-bg-begin img='/images/circles_1.png' bg-position='center' %}
+{% include snippets/circles-bg-begin img='/images/circles_1.png' bg-position='center' %}
 
-{% include snippets/transparent-slogan-begin %}
+{% include snippets/slogan-begin %}
 
 Discover more!
 
-{% include snippets/transparent-slogan-end %}
+{% include snippets/slogan-end %}
 
 {% include snippets/centered-two-columns-begin reverse-row='flex-row-reverse' %}
 
@@ -169,6 +169,6 @@ Get our latest version of the Crownstone, the Crownstone built-in One! Make any 
 
 {% include snippets/specs %}
 
-{% include snippets/circles-transparent-bg-end %}
+{% include snippets/circles-bg-end %}
 
 {% include snippets/full-width-container-end %}

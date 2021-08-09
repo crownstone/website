@@ -64,17 +64,17 @@ Jouw aanwezigheid maakt het verschil
 
 {% include snippets/full-width-container-begin %}
 
-{% include snippets/centered-text-home-begin %}
+{% include snippets/centered-text-home-begin background='light'%}
 
 Jouw huis zet de lichten automatisch op de sterkte die **jij** graag wil zien. Je komt nooit meer thuis in een donker huis. Maak elk stopcontact en elke plafondlamp slim met het toevoegen van een klein bouwblokje, de **Crownstone**!
 
 {% include snippets/centered-text-home-end %}
 
-{% include snippets/centered-image-home long-img='true' img='/images/builtin-sketch.png' img-alt='builtin-sketch'%}
+{% include snippets/centered-image-home img-size='large' img='/images/builtin-sketch.png' img-alt='builtin-sketch'%}
 
 {% include snippets/full-width-container-end %}
 
-{% include snippets/container-image-relative-begin img-bg='/images/coming_home.jpg' left-alignment='true' %}
+{% include snippets/container-image-relative-begin img-bg='/images/coming_home.jpg' horizontal-alignment='left' %}
 
 ## Welkom Thuis!
 
@@ -82,21 +82,21 @@ Crownstone maakt het mogelijk dat je huis op jouw reageert. Lampen, plafondventi
 
 {% include snippets/container-image-relative-end %}
 
-{% include snippets/slogan-begin blue-bg='true' %}
+{% include snippets/slogan-begin background='blue' %}
 
 Maak elk licht slim
 
 {% include snippets/slogan-end %}
 
-{% include snippets/full-width-container-begin blue-bg='true'%}
+{% include snippets/full-width-container-begin background='blue'%}
 
-{% include snippets/centered-text-home-begin blue-bg='true' %}
+{% include snippets/centered-text-home-begin background='dark' %}
 
 Crownstone modules (kroonsteentjes) kunnen worden geplaatst achter stopcontacten en **plafondlampen**! Het past achter allerlei soort lichten en de lichtschakelaar blijft ook nog eens werken dankzij onze switchcraft technologie! De Crownstone modules gebruiken de aanwezigheid van je telefoon om te bepalen of je in de ruimte bent. Dit is hoe het je lichten daadwerkelijk slim maakt!
 
 {% include snippets/centered-text-home-end %}
 
-{% include snippets/centered-image-home img='/images/built-ins.png' img-alt='built-ins' class='built-in-img' %}
+{% include snippets/centered-image-home img-size='small' img='/images/built-ins.png' img-alt='built-ins' class='built-in-img' %}
 
 {% include snippets/full-width-container-end %}
 
@@ -116,7 +116,7 @@ Een Crownstone draait apps!
 
 {% include snippets/full-width-container-begin %}
 
-{% include snippets/centered-text-home-begin %}
+{% include snippets/centered-text-home-begin background='light'%}
 
 Een Crownstone is een soort van miniatuur smartphone. Er zijn verschillende apps en functies aanwezig en elke maand komen er nieuwe bij! Van een "twilight modus" tot energie inzicht, er is elke keer weer iets nieuws te ontdekken!
 

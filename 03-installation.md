@@ -47,7 +47,7 @@ Install the Crownstone app
 
 {% include snippets/full-width-container-begin %}
 
-{% include snippets/centered-text-home-begin %}
+{% include snippets/centered-text-home-begin background='light'%}
 
 To use and configure your Crownstones you need the Crownstone app, which is available for
 **[iOS](https://apps.apple.com/us/app/crownstone/id1136616106)** and 
@@ -56,7 +56,7 @@ The app will guide you through the process to register and to setup your Crownst
 
 {% include snippets/centered-text-home-end %}
 
-{% include snippets/centered-image-home img='/images/phone_app.png' img-alt='phone_app'%}
+{% include snippets/centered-image-home img-size='small' img='/images/phone_app.png' img-alt='phone_app'%}
 
 {% include snippets/full-width-container-end %}
 
@@ -64,20 +64,20 @@ The app will guide you through the process to register and to setup your Crownst
 {% include snippets/centered-text-large text='Learn more about the Crownstone app' link='/app' %}
 
 
-{% include snippets/slogan-begin blue-bg='true' %}
+{% include snippets/slogan-begin background='blue' %}
 
 It's time to install your Crownstones!
 
 {% include snippets/slogan-end %}
 
 
-{% include snippets/full-width-container-begin blue-bg='true'%}
+{% include snippets/full-width-container-begin background='blue'%}
 
-{% include snippets/two-cols-centered-text-img-blue-bg-begin%}
+{% include snippets/two-cols-centered-text-img-begin background='blue' extra-style='padding: 3rem 0 !important' %}
 
 Crownstones can be placed behind single or double **power outlets** as well as behind your **ceiling lights**. For detailed installation instructions, check the links below. 
  
-{% include snippets/two-cols-centered-text-img-blue-bg-end img='/images/install_cs.png' img-alt='install_crownstone'%}
+{% include snippets/two-cols-centered-text-img-end background='blue' img='/images/install_cs.png' img-alt='install_crownstone'%}
 
 {% include snippets/full-width-container-end %}
 
@@ -91,7 +91,7 @@ Installation options
 {% include snippets/installation-page-options %}
 
 
-{% include snippets/container-image-relative-begin img-bg='/images/dimmed_lamp.jpg' bg-position='bottom left' top-alignment='true'%}
+{% include snippets/container-image-relative-begin img-bg='/images/dimmed_lamp.jpg' bg-position='bottom left' vertical-alignment='top'%}
 
 ## Dimming lights with Crownstone
 
@@ -108,24 +108,24 @@ Crownstones behind lamps with a switch
 
 {% include snippets/full-width-container-begin %}
 
-{% include snippets/centered-text-home-begin %}
+{% include snippets/centered-text-home-begin background='light'%}
 
 Crownstones can be installed at a light controlled by an ordinary light **switch**. The light can be dimmed directly with the app or via a voice command. Flipping the switch will toggle between **“off”** and the last **“dimmed state”.**
 
 {% include snippets/centered-text-home-end %}
 
-{% include snippets/centered-image-home img='/images/desklamp.png' img-alt='desk lamp'%}
+{% include snippets/centered-image-home img-size='small' img='/images/desklamp.png' img-alt='desk lamp'%}
 
 {% include snippets/full-width-container-end %}
 
 
-{% include snippets/slogan-begin blue-bg='true' %}
+{% include snippets/slogan-begin background='blue' %}
 
 Enable dimming in three steps!
 
 {% include snippets/slogan-end %}
 
-{% include snippets/steps_dimming %}
+{% include snippets/steps-dimming %}
 
 
 {% include snippets/slogan-begin %}
@@ -136,7 +136,7 @@ Using Crownstone behind a dimmer
 
 {% include snippets/full-width-container-begin%}
 
-{% include snippets/two-cols-centered-text-img-begin text-right='true' extra-style='padding: 3.5rem 0 !important' %}
+{% include snippets/two-cols-centered-text-img-begin text-alignment='right' extra-style='padding: 3.5rem 0 !important' %}
 
 Do not install the Crownstone between a **physical dimmer** and a light. It will dim the Crownstone rather than the light. This is **not supported** and might severely reduce the lifetime of the product.
  

@@ -11,7 +11,7 @@ permalink: investors/
 ---
 {% include JB/setup %}
 
-{% include snippets/full-width-container-begin blue-bg='true' %}
+{% include snippets/full-width-container-begin background='blue' %}
 
 {% include snippets/row-begin %}
 {% include snippets/column-begin colsize="12" %}

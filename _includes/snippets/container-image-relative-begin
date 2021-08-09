@@ -1,14 +1,18 @@
 {% assign ci-image = include.img-bg %}
 
-{% if include.top-alignment %}
+{% if include.vertical-alignment and  include.vertical-alignment == "top" %}
 <div class="row align-items-start m-0 p-0" style="position: relative">
 {% else %}
 <div class="row align-items-end m-0 p-0" style="position: relative">
 {% endif %}
 
+{% if include.bg-position %}
 <div class="container-bg-white" style="background-image: url({{ ci-image }}); background-position:{{include.bg-position}}"> </div>
+{% else %}
+<div class="container-bg-white" style="background-image: url({{ ci-image }})"> </div>
+{% endif %}
 
-{% if include.left-alignment %}
+{% if include.horizontal-alignment and include.horizontal-alignment == "left" %}
 <div class="text-container-bg-white">
 <div class="col bg-white-container" markdown="1">
 {% else %}

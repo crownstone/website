@@ -13,7 +13,7 @@
 
                 <div class="col-md-5 segments-intra-padding">
                     <div class="row align-items-end secondary-banner" onclick="location.href='{{ installation.link }}'" style="background-image: url({{ installation.image }}); cursor: pointer">
-                        <div class="row transparent-bg-segments">
+                        <div class="row transparent-bg-segments blue-bg-transparent">
                             <div class="col-xs-8">
                                 <a class="title-segments" href= "{{ installation.link }}" style="text-align: left; font-family: Lato, sans-serif; font-style: italic; font-size: 0.9rem !important; color: white !important; padding: 0; margin: 0;">
                                     {{ installation.slogan }}
