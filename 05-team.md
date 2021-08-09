@@ -4,7 +4,7 @@ title: Team
 header: Pages
 description: "Follow us an Facebook, Twitter, or contact us individually!"
 keywords: "team, follow us, facebook, twitter, contact, personal, Crownstone"
-kramdown: 
+kramdown:
   parse_block_html: true
 background-image: banner-team.jpg
 banner-caption: "Our team!"
@@ -26,7 +26,7 @@ intern-gallery:
     name: "Joy Baris"
     affiliation: "Human Technologies, Techniek College Rotterdam"
     report:
-      title: "User experience"
+      title: "Research the user experience of the ease of Crownstone installation and Crownstone app use"
 advisors-gallery:
   - image: "janpeterlarsen.png"
     name: "Jan Peter Larsen"
@@ -84,7 +84,7 @@ core-team-gallery:
     github: "mrquincle"
     website: "annevanrossum.com"
     report:
-      title: "Anne studied electrical engineering and cognitive psychology. At Almende and DoBots he coordinated and did research on autonomous robots. Every Thursday is math day!"
+      title: "Anne studied Mathematics, Electrical Engineering, and Cognitive Psychology. At Almende and DoBots he coordinated and did research on autonomous robots."
   - image: "peetvantooren.jpg"
     name: "Peet van Tooren"
     affiliation: "CTO"
@@ -135,140 +135,6 @@ core-team-gallery:
 
 {% include snippets/slogan-begin %}
 
-<<<<<<< HEAD
-Our Vision
-
-{% include snippets/slogan-end %}
-
-{% include snippets/full-width-container-begin %}
-
-{% include snippets/centered-text-home-begin %}
-
-Crownstone designs and manufactures **indoor positioning** hardware for truly smart buildings.
-
-{% include snippets/centered-text-home-end %}
-
-{% include snippets/full-width-container-end %}
-
-{% include snippets/full-width-container-begin%}
-
-{% include snippets/two-cols-text-img-begin %}
-
-##### In the future the market of indoor positioning will be larger than that of outdoor positioning (GPS)
-
-<p>&nbsp;</p>
-
-Our homes and offices will never be smart if they do not know where we are!
-
-{% include snippets/two-cols-text-img-end img='/images/bet1.jpg' img-alt='bet1' %}
-
-{% include snippets/full-width-container-end %}
-
-
-{% include snippets/full-width-container-begin%}
-
-{% include snippets/two-cols-text-img-begin text-right='true'%}
-
-##### Every device will get a chip, in particular power outlets and lights
-
-<p>&nbsp;</p>
-
-There are many more power outlets than smartphones in the world.
-A smart home company which solves the smart outlet puzzle will provide billions of chips per year, will automate billions of human acts per year, and will save billions in energy costs per year.
-
-{% include snippets/two-cols-text-img-end img='/images/bet2.jpg' img-alt='bet2' %}
-
-{% include snippets/full-width-container-end %}
-
-
-
-{% include snippets/slogan-begin %}
-
-Our core values
-
-{% include snippets/slogan-end %}
-
-
-{% include snippets/full-width-container-begin%}
-
-{% include snippets/two-cols-centered-text-img-begin text-right='true' %}
-
-### Saving time
-
-<p>&nbsp;</p>
-
-Crownstone automates, so people have **more time**.
-
-{% include snippets/two-cols-centered-text-img-end img='/images/save_time.svg' img-alt='save_time' %}
-
-{% include snippets/full-width-container-end %}
-
-{% include snippets/full-width-container-begin%}
-
-{% include snippets/two-cols-centered-text-img-begin %}
-
-### Quality time
-
-<p>&nbsp;</p>
-
-Crownstone brings **comfort**, so people have an enjoyable time.
-
-{% include snippets/two-cols-centered-text-img-end img='/images/quality_time.svg' img-alt='quality_time' %}
-
-{% include snippets/full-width-container-end %}
-
-
-{% include snippets/full-width-container-begin%}
-
-{% include snippets/two-cols-centered-text-img-begin text-right='true' %}
-
-### Transparency
-
-<p>&nbsp;</p>
-
-Crownstone is **privacy**-focused, so people's data remains people's data.
-
-{% include snippets/two-cols-centered-text-img-end img='/images/transparency.svg' img-alt='transparency' %}
-
-{% include snippets/full-width-container-end %}
-
-
-
-{% include snippets/slogan-begin %}
-
-Our background
-
-{% include snippets/slogan-end %}
-
-
-{% include snippets/full-width-container-begin%}
-
-{% include snippets/two-cols-text-img-begin%}
-
-Crownstone has been originally developed by DoBots, has as seed investor [Almende Investments](http://almende-investments.com), 
-is part of the [Rockstart accelerator](http://www.rockstart.com/blog/rockstart-introduces-participants-of-2016-smart-energy-accelerator), 
-and launched as company on the 20th of May 2016.
-
-{% include snippets/two-cols-text-img-end img='/images/origins.png' img-alt='origins' %}
-
-{% include snippets/full-width-container-end %}
-
-
-{% include snippets/row-begin %}
-{% include snippets/column-begin colsize="12" %}
-
-We have a very transparent manner of operation. A lot of information about us can be found online, such as the [Kickstarter](https://www.kickstarter.com/projects/dobots/crownstone) 
-where we raised over 70.000 euros for the Crownstones, our [blog]({{ BASE_PATH }}/blog), where we give you a lot of insight into our projects, and our [github repositories](https://github.com/crownstone).
-
-{% include snippets/column-end %}
-{% include snippets/row-end %}
-
-
-
-{% include snippets/slogan-begin %}
-
-=======
->>>>>>> 21be9ef455aca54a8ae8171dfd7cf3e206238eaa
 Core Team
 
 {% include snippets/slogan-end %}
@@ -295,7 +161,7 @@ To contact any of us individually, use our **first name** and <abbr title="for e
 
 Crownstone Advisors and Experts
 
-{% include snippets/slogan-end %}   
+{% include snippets/slogan-end %}
 
 
 {% include snippets/full-width-container-begin %}
