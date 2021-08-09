@@ -71,4 +71,4 @@ With this flow you can make your fan automatically turning on when someone enter
    
 ## More information 
 
-You can go to this [page]({{ site.url }}/will-be-up-soon/) to check some of the most frequent questions related to the Crownstone app for Homey.
+You can go to this [page]({{ site.url }}/integrations/homey-faq/) to check some of the most frequent questions related to the Crownstone app for Homey.

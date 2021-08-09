@@ -33,3 +33,38 @@
 <!-- end background-image -->
 {% endif %}
 
+
+{% if page.large-background-image %}
+<!-- background-image-large -->
+<div class="bannerContainerLarge xl d-none d-xl-flex {{ large-background-image }}" style="background-image: url({{BASE_URL}}/images/banners/{{page.large-background-image}})">
+   {% if.page.banner-caption %}
+   <div class="banner-caption white-caption">
+   <h1>{{page.banner-caption}}</h1>
+   </div>
+   {% endif %}
+</div>
+<div class="bannerContainerLarge lg d-none d-lg-flex d-xl-none {{ large-background-image }}" style="background-image: url({{BASE_URL}}/images/banners/{{page.large-background-image}})">
+   {% if.page.banner-caption %}
+   <div class="banner-caption white-caption">
+   <h1>{{page.banner-caption}}</h1>
+   </div>
+   {% endif %}
+</div>
+<div class="bannerContainerLarge md d-none d-md-flex d-lg-none {{ page.large-background-image }}" style="background-image: url({{BASE_URL}}/images/banners/{{page.large-background-image}})">
+   {% if.page.banner-caption %}
+   <div class="banner-caption white-caption">
+   <h1>{{page.banner-caption}}</h1>
+   </div>
+   {% endif %}
+</div>
+<div class="bannerContainerLarge sm d-none d-sm-flex d-md-none {{ page.large-background-image }}" style="background-image: url({{BASE_URL}}/images/banners/{{page.large-background-image}})">
+   {% if.page.banner-caption %}
+   <div class="banner-caption white-caption">
+   <h1>{{page.banner-caption}}</h1>
+   </div>
+   {% endif %}
+</div>
+<div class="bannerContainerLarge xs d-flex d-sm-none {{ page.large-background-image }}" style="background-image: url({{BASE_URL}}/images/banners/{{page.large-background-image}})">
+</div>
+<!-- end background-image-large -->
+{% endif %}

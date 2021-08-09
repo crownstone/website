@@ -218,6 +218,9 @@ You enter a room and the temperature is above a predefined threshold
 {% include snippets/full-width-container-end %}
 
 
+{% include snippets/centered-text-large text='Learn more about the Crownstone app for Homey' link='/integrations/homey/' %}
+
+
 
 {% include snippets/slogan-begin %}
 

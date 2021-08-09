@@ -31,6 +31,10 @@ topics:
     link: /integrations/alexa-faq/
     image: /images/faq-icons/alexa.png
     image-alt: Amazon Alexa
+  - title: Homey
+    link: /integrations/homey-faq/
+    image: /images/faq-icons/homey.png
+    image-alt: Homey logo
   - title: Philips Hue
     link: /will-be-up-soon/
     image: /images/faq-icons/hue.png

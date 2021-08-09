@@ -105,6 +105,18 @@ In that case, drop us a note!
 {% include snippets/vacancy-container-end %}
 
 
+{% include snippets/vacancy-container-begin %}
+
+{% include snippets/job-vacancy-begin img="/images/oem-developer.jpg" img-alt="oem-business-developer" title="OEM Business developer" %}
+
+If you are a strategic thinker, a self-motivated and energetic individual, and want to create new revenue streams from OEM accounts in strategic markets, then this is the perfect challenge! 
+Working at Crownstone as a business developer means having the opportunity to create strong relationships with big companies around the globe. You'll explore the market, identify and connect with new OEM customers, manage the contact from the first steps and close the deal, and finally maintain a good relationship with them.
+
+{% include snippets/job-vacancy-end job-id="oem-business-developer"%}
+
+{% include snippets/vacancy-container-end %}
+
+
 {% include snippets/centered-text-large text='Take a closer look to our software challenges' link='/challenges/software/' %}
 
 
