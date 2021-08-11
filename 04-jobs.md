@@ -68,18 +68,14 @@ We work together with Dutch and international companies for productizing and mas
 {% include snippets/job-vacancy-end job-id="electrical-engineer"%}
 
 
-{% include snippets/job-vacancy-begin img="/images/sales-engineer.jpg" img-alt="sales-engineer" title="Sales Engineer" %}
+{% include snippets/job-vacancy-begin img="/images/oem-developer.jpg" img-alt="oem-business-developer" title="OEM Business developer" %}
 
-Your role will be to convince large market players (energy, insurance, utility, and telecom companies) to provide cool services and products to their customers. 
-Cool services based on the new tech developed at Crownstone, such as indoor localization, appliance recognition, etc. 
-In our company you will have a lot of autonomy, from identifying low-hanging fruit, tailoring the market proposition, to control over marketing material. 
-You’ll work daily with Anne to make all this a success story!
+If you are a strategic thinker, a self-motivated and energetic individual, and want to create new revenue streams from OEM accounts in strategic markets, then this is the perfect challenge! 
+Working at Crownstone as a business developer means having the opportunity to create strong relationships with big companies around the globe. You'll explore the market, identify and connect with new OEM customers, manage the contact from the first steps and close the deal, and finally maintain a good relationship with them.
 
-{% include snippets/job-vacancy-end job-id="sales-engineer"%}
-
+{% include snippets/job-vacancy-end job-id="oem-business-developer"%}
 
 {% include snippets/vacancy-container-end %}
-
 
 
 {% include snippets/vacancy-container-begin %}
@@ -93,6 +89,19 @@ There are many challenges like improved indoor localization, in network localiza
 {% include snippets/job-vacancy-end job-id="software-engineer"%}
 
 
+{% include snippets/job-vacancy-begin img="/images/asset-tracking-developer.jpg" img-alt="asset tracking business developer" title="Asset Tracking Business developer" %}
+
+If you subscribe to our vision that the field of indoor positioning is likely going to be larger than that of outdoor positioning, this role might be a perfect fit for you. 
+You are a self-motivated person who likes to explore the myriad ways in which our technology for pinpointing the position of Bluetooth devices indoors can be leveraged to do asset tracking. 
+Working at Crownstone as a business developer means having the opportunity to create strong relationships with big companies around the globe. You’ll explore the market, identify and connect with partners, manage the contact from the first steps and close the deal, and finally maintain a good relationship with them.
+
+{% include snippets/job-vacancy-end job-id="asset-tracking-business-developer"%}
+
+{% include snippets/vacancy-container-end %}
+
+
+{% include snippets/vacancy-container-begin %}
+
 {% include snippets/job-vacancy-begin img="/images/finance.jpg" img-alt="finance" title="Finance" %}
 
 You want to play a significant role in an innovative company! This is the perfect position for you if you would like to establish the strategy for internationalization. 
@@ -100,19 +109,6 @@ In addition, you don’t mind enrolling in promising subsidy programs, and you a
 In that case, drop us a note!
 
 {% include snippets/job-vacancy-end job-id="finance"%}
-
-
-{% include snippets/vacancy-container-end %}
-
-
-{% include snippets/vacancy-container-begin %}
-
-{% include snippets/job-vacancy-begin img="/images/oem-developer.jpg" img-alt="oem-business-developer" title="OEM Business developer" %}
-
-If you are a strategic thinker, a self-motivated and energetic individual, and want to create new revenue streams from OEM accounts in strategic markets, then this is the perfect challenge! 
-Working at Crownstone as a business developer means having the opportunity to create strong relationships with big companies around the globe. You'll explore the market, identify and connect with new OEM customers, manage the contact from the first steps and close the deal, and finally maintain a good relationship with them.
-
-{% include snippets/job-vacancy-end job-id="oem-business-developer"%}
 
 {% include snippets/vacancy-container-end %}
 
