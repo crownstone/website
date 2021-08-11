@@ -64,7 +64,7 @@ To make use of the indoor positioning feature of Crownstone with Homey, you can 
 {% include snippets/faq-begin ref="faqHomeyWallSwitch" question="Can I use a Crownstone simultaneously with a physical wall switch?" %}
 
 Yes, it is possible. That is what we call Switchcraft. It is an easy adaptation of existing wall switches, allowing them to work together with Crownstones.
-For more information on this topic, visit the [switchcraft](https://crownstone.rocks/installation/switchcraft) installation page.
+For more information on this topic, visit the [switchcraft]({{ site.url }}/installation/switchcraft) installation page.
 
 {% include snippets/faq-end %}
 
