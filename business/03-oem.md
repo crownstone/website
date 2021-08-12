@@ -46,7 +46,7 @@ Wireless connectivity
 
 {% include snippets/two-cols-text-img-begin%}
 
-##### Come to Crownstone with a non-connected device and we will make it connected! 
+##### **Come to Crownstone with a non-connected device and we will make it connected!** 
 
 <p>&nbsp;</p>  
 
@@ -67,7 +67,7 @@ Embedded development
 
 {% include snippets/two-cols-text-img-begin text-alignment='right' %}
 
-##### Crownstone has a team of firmware experts that can help you out if your problems are truly tough!
+##### **Crownstone has a team of firmware experts that can help you out if your problems are truly tough!**
 
 <p>&nbsp;</p>
 
@@ -88,7 +88,7 @@ Analog electronics
 
 {% include snippets/two-cols-text-img-begin %}
 
-##### Crownstone has developed its own products with extreme miniaturization.
+##### **Crownstone has developed its own products with extreme miniaturization.**
 
 <p>&nbsp;</p>  
 

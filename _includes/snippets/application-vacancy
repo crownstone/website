@@ -9,7 +9,7 @@
             <div class="row justify-content-center">
                 <div class="newsletter bottom">
                     <div class="wrapper">
-                        <script type="text/javascript">/*<![CDATA[*/var a=new Array("{{ site.contact-team.email[0] }}", "{{ site.contact-team.email[1] }}", "{{ site.contact-team.email[2] }}", "{{ site.contact-team.email[3] }}", "{{ site.contact-team.email[4] }}", "{{ site.contact-team.email[5] }}");document.write("<a href='mailto:");for(i=a.length-1;i>=0;i--){document.write(a[i])}document.write("?subject=Job application: Business developer' class='btn newsletter__submit' style=\"text-align: center !important; align-self: center; font-family: Lato, sans-serif; font-size: 1rem; padding: 10px; color: white !important; border-color: #ccc; background-color: #ff8400; text-decoration: none\">Apply now!</a>");/*]]>*/</script>
+                        <script type="text/javascript">/*<![CDATA[*/var a=new Array("{{ site.contact-job.email[0] }}", "{{ site.contact-job.email[1] }}", "{{ site.contact-job.email[2] }}", "{{ site.contact-job.email[3] }}", "{{ site.contact-job.email[4] }}", "{{ site.contact-job.email[5] }}");document.write("<a href='mailto:");for(i=a.length-1;i>=0;i--){document.write(a[i])}document.write("?subject=Job application: Business developer' class='btn newsletter__submit' style=\"text-align: center !important; align-self: center; font-family: Lato, sans-serif; font-size: 1rem; padding: 10px; color: white !important; border-color: #ccc; background-color: #ff8400; text-decoration: none\">Apply now!</a>");/*]]>*/</script>
                         <noscript>Apply now!</noscript>
                     </div>
                 </div>
