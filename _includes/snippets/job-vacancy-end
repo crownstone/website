@@ -46,7 +46,7 @@ Share this position with a friend
 
 <div class="col-10" style="padding: 0 0 0 1rem !important" >
 <div class="row justify-content-start align-items-end" style="margin: 0 0 1.5rem 0 !important">
-<script type="text/javascript">/*<![CDATA[*/var a=new Array("{{ site.contact-team.email[0] }}", "{{ site.contact-team.email[1] }}", "{{ site.contact-team.email[2] }}", "{{ site.contact-team.email[3] }}", "{{ site.contact-team.email[4] }}", "{{ site.contact-team.email[5] }}");document.write("<a href='mailto:");for(i=a.length-1;i>=0;i--){document.write(a[i])}document.write("?subject=Job application' style=\"text-align: left; font-family: Lato, sans-serif; font-style: normal !important; font-size: 1rem !important; color: #003e52 !important; padding: 0;\">Apply now!</a>");/*]]>*/</script>
+<script type="text/javascript">/*<![CDATA[*/var a=new Array("{{ site.contact-job.email[0] }}", "{{ site.contact-job.email[1] }}", "{{ site.contact-job.email[2] }}", "{{ site.contact-job.email[3] }}", "{{ site.contact-job.email[4] }}", "{{ site.contact-job.email[5] }}");document.write("<a href='mailto:");for(i=a.length-1;i>=0;i--){document.write(a[i])}document.write("?subject=Job application' style=\"text-align: left; font-family: Lato, sans-serif; font-style: normal !important; font-size: 1rem !important; color: #003e52 !important; padding: 0;\">Apply now!</a>");/*]]>*/</script>
 <noscript>Apply now!</noscript>
 </div>
 </div>

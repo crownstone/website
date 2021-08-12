@@ -50,7 +50,7 @@ Full-time positions
 
 {% include snippets/centered-text-home-begin background='light'%}
 
-Crownstone is always looking for talented people with expertise in embedded programming, AI or machine learning. If you send us a motivation letter with links to past projects on GitHub, or have done Kaggle competitions, this is a big plus! We have just one requirement: a European work permit (non-EU is a [bureaucratic nightmare and noncompetitive](https://expatlaw.nl/dutch-highly-skilled-migrant)).
+Crownstone is always looking for talented people with expertise in embedded programming, AI or machine learning. If you send us a motivation letter with links to past projects on GitHub, or have done Kaggle competitions, this is a big plus! We have just one requirement: a European work permit.
 
 {% include snippets/centered-text-home-end %}
 
@@ -129,7 +129,7 @@ Open applications
 
 If there are currently no job openings that match your interest, you can send an open application. We're always open to hear interesting stories!
 
-{% include snippets/two-cols-text-img-end background="blue" img='/images/open-application.jpg' img-alt='open-application' btn='true' btn-text='Send motivation' %}
+{% include snippets/two-cols-text-img-end background="blue" img='/images/open-application.jpg' img-alt='open-application' btn='true' btn-text='Send motivation' btn-contact='job' %}
 
 {% include snippets/full-width-container-end %}
 
