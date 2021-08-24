@@ -48,7 +48,7 @@ html {
 
 body, body p, li, th, td, .rte-font {
 	font-family: 'LatoLight';
-	font-size: 1.3rem;
+	font-size: 1.25rem;
 	line-height: 35px;
 	color: inherit !important;
 }
@@ -70,6 +70,10 @@ h1, h2, h3, .h1, .h2, .h3 {
 
 h3, h4, h5, h6, .h3, .h4, .h5, .h6 {
 	font-family: 'LatoLight';
+}
+
+h5{
+	font-size: 1.4rem;
 }
 
 .call-to-action  {

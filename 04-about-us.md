@@ -39,9 +39,9 @@ Crownstone designs and manufactures **indoor positioning** hardware for truly sm
 
 {% include snippets/full-width-container-begin%}
 
-{% include snippets/two-cols-text-img-begin %}
+{% include snippets/two-cols-text-img-begin background='blue'%}
 
-##### In the future the market of indoor positioning will be larger than that of outdoor positioning (GPS)
+##### **In the future the market of indoor positioning will be larger than that of outdoor positioning (GPS)**
 
 <p>&nbsp;</p>
 
@@ -54,9 +54,9 @@ Our homes and offices will never be smart if they do not know where we are!
 
 {% include snippets/full-width-container-begin%}
 
-{% include snippets/two-cols-text-img-begin text-alignment='right'%}
+{% include snippets/two-cols-text-img-begin text-alignment='right' background='blue'%}
 
-##### Every device will get a chip, in particular power outlets and lights
+##### **Every device will get a chip, in particular power outlets and lights**
 
 <p>&nbsp;</p>
 
