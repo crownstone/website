@@ -13,7 +13,7 @@
 {% endif %}
 
 {% if include.background and include.background == 'blue' %}
-<div class="col-md-5 intra-padding description-small white-text" markdown="1" style='text-align: center; color: white !important;'>
+<div class="col-md-5 intra-padding description-small white-text" markdown="1" style='text-align: center;'>
 {% else %}
-<div class="col-md-5 intra-padding description-small blue-text" markdown="1" style='text-align: center; color: #003e52 !important;'>
+<div class="col-md-5 intra-padding description-small blue-text" markdown="1" style='text-align: center;'>
 {% endif %}

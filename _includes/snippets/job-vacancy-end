@@ -19,6 +19,25 @@ Check the position details
 {% endif %}
 
 
+{% if include.page-link %}
+<div class="row justify-content-start" style="margin: 0 !important; padding: 0 1.5rem !important;">
+<div class="col-1">
+<div class="row justify-content-center align-items-center" style="margin: 0 !important">
+<img src="/images/doc-icon.svg" alt="doc-icon" style='width: 100%; min-width: 30px'>
+</div>
+</div>
+
+<div class="col-10" style="padding: 0 0 0 1rem !important" >
+<div class="row justify-content-start align-items-end" style="margin: 0 !important">
+<a href= "{{ include.page-link }}" style="text-align: left; font-family: Lato, sans-serif; font-style: normal !important; font-size: 1rem !important; color: #003e52 !important; padding: 0;">
+Check the position details
+</a>
+</div>
+</div>
+</div>
+{% endif %}
+
+
 <div class="row justify-content-start" style="margin: 0 !important; padding: 0 1.5rem !important;">
 <div class="col-1">
 <div class="row justify-content-center align-items-center" style="margin: 0 !important">

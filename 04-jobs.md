@@ -73,7 +73,7 @@ We work together with Dutch and international companies for productizing and mas
 If you are a strategic thinker, a self-motivated and energetic individual, and want to create new revenue streams from OEM accounts in strategic markets, then this is the perfect challenge! 
 Working at Crownstone as a business developer means having the opportunity to create strong relationships with big companies around the globe. You'll explore the market, identify and connect with new OEM customers, manage the contact from the first steps and close the deal, and finally maintain a good relationship with them.
 
-{% include snippets/job-vacancy-end job-id="oem-business-developer"%}
+{% include snippets/job-vacancy-end job-id="oem-business-developer" page-link="/vacancies/oem-business-developer/" %}
 
 {% include snippets/vacancy-container-end %}
 
@@ -95,7 +95,7 @@ If you subscribe to our vision that the field of indoor positioning is likely go
 You are a self-motivated person who likes to explore the myriad ways in which our technology for pinpointing the position of Bluetooth devices indoors can be leveraged to do asset tracking. 
 Working at Crownstone as a business developer means having the opportunity to create strong relationships with big companies around the globe. You’ll explore the market, identify and connect with partners, manage the contact from the first steps and close the deal, and finally maintain a good relationship with them.
 
-{% include snippets/job-vacancy-end job-id="asset-tracking-business-developer"%}
+{% include snippets/job-vacancy-end job-id="asset-tracking-business-developer" page-link="/vacancies/asset-tracking-business-developer/"%}
 
 {% include snippets/vacancy-container-end %}
 
