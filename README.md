@@ -25,6 +25,16 @@ bundle exec jekyll serve
 
 What this does is setting a local path as directory to store gems in. This reduces conflicts with a global installation. It then runs jekyll serve through bundle (so the right gems are used).
 
+## Update
+
+If you want to update, e.g. regarding fixes for security vulnerabilities, run:
+
+```
+bundle update
+```
+
+Note that this is a static website.
+
 ## Bug fixing
 
 Jekyll uses `site.safe` to use `BASE_PATH`. Here we are only in production, but we do not want to set `safe: true` because that disables custom plugins. Hence in `_includes/JB/setup` we have removed the `site.safe` clause as indicated by ubershmekel at https://github.com/plusjade/jekyll-bootstrap/issues/84.
