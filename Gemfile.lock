@@ -1,3 +1,12 @@
+GIT
+  remote: https://github.com/mrquincle/jekyll-lunr-js-search.git
+  revision: ec98af7d3b7b805453c53ad687280277ac7194ff
+  specs:
+    jekyll-lunr-js-search (3.3.0)
+      execjs (~> 2.7)
+      json (~> 2.0)
+      nokogiri (~> 1.7)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -12,10 +21,8 @@ GEM
       eventmachine (>= 0.12.9)
       http_parser.rb (~> 0.6.0)
     eventmachine (1.2.7)
-    eventmachine (1.2.7-x64-mingw32)
     execjs (2.8.1)
     ffi (1.15.3)
-    ffi (1.15.3-x64-mingw32)
     forwardable-extended (2.6.0)
     http_parser.rb (0.6.0)
     i18n (1.8.10)
@@ -51,11 +58,7 @@ GEM
       rb-fsevent (~> 0.10, >= 0.10.3)
       rb-inotify (~> 0.9, >= 0.9.10)
     mercenary (0.4.0)
-    mini_portile2 (2.6.1)
-    nokogiri (1.12.3)
-      mini_portile2 (~> 2.6.1)
-      racc (~> 1.4)
-    nokogiri (1.12.3-x64-mingw32)
+    nokogiri (1.12.3-x86_64-linux)
       racc (~> 1.4)
     pathutil (0.16.2)
       forwardable-extended (~> 2.6)
@@ -70,8 +73,6 @@ GEM
     safe_yaml (1.0.5)
     sassc (2.4.0)
       ffi (~> 1.9)
-    sassc (2.4.0-x64-mingw32)
-      ffi (~> 1.9)
     terminal-table (2.0.0)
       unicode-display_width (~> 1.1, >= 1.1.1)
     uglifier (4.2.0)
@@ -79,13 +80,13 @@ GEM
     unicode-display_width (1.7.0)
 
 PLATFORMS
-  ruby
-  x64-mingw32
+  x86_64-linux
 
 DEPENDENCIES
   RedCloth
   domainatrix
   jekyll
+  jekyll-lunr-js-search!
   jekyll-polyglot
   json
   kramdown
