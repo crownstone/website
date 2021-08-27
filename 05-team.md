@@ -22,11 +22,31 @@ graduates-gallery:
     report:
       title: "In-network localization"
 intern-gallery:
-  - image: "joybaris.jpg"
-    name: "Joy Baris"
-    affiliation: "Human Technologies, Techniek College Rotterdam"
+  - image: "danielvanderdrift.jpg"
+    name: "Daniel van der Drift"
+    affiliation: "Technische Informatica, Hogeschool Rotterdam"
     report:
-      title: "Research the user experience of the ease of Crownstone installation and Crownstone app use"
+      title: "Node-RED integration"
+  - image: "jaapsontrop.jpg"
+    name: "Jaap Sontrop"
+    affiliation: "Engineering and Applied Science, Hogeschool Rotterdam"
+    report:
+      title: "Smart switch and dimmer"
+  - image: "merijnplagge.jpg"
+    name: "Merijn Plagge"
+    affiliation: "Technische Informatica, Hogeschool Rotterdam"
+    report:
+      title: "Microapps"
+  - image: "Jordy van Maenen.jpg"
+    name: "Jordy van Maenen"
+    affiliation: "Engineering and Applied Science, Hogeschool Rotterdam"
+    report:
+      title: "Power monitoring"
+  - image: "marvinhazebroek.jpg"
+    name: "Marvin Hazebroek"
+    affiliation: "Technische Informatica, Hogeschool Rotterdam"
+    report:
+      title: "SmartThings integration"
 advisors-gallery:
   - image: "janpeterlarsen.png"
     name: "Jan Peter Larsen"
