@@ -37,7 +37,7 @@ intern-gallery:
     affiliation: "Technische Informatica, Hogeschool Rotterdam"
     report:
       title: "Microapps"
-  - image: "Jordy van Maenen.jpg"
+  - image: "jordyvanmaenen.jpg"
     name: "Jordy van Maenen"
     affiliation: "Engineering and Applied Science, Hogeschool Rotterdam"
     report:
