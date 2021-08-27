@@ -1,8 +1,9 @@
 GIT
   remote: https://github.com/mrquincle/jekyll-lunr-js-search.git
-  revision: ec98af7d3b7b805453c53ad687280277ac7194ff
+  revision: 3fa12c09b4a2df23f7c9d2dcf2ae81a945f122fe
+  branch: master
   specs:
-    jekyll-lunr-js-search (3.3.0)
+    jekyll-lunr-js-search (3.3.1)
       execjs (~> 2.7)
       json (~> 2.0)
       nokogiri (~> 1.7)

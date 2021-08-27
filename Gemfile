@@ -10,7 +10,7 @@ gem 'domainatrix'
 
 group :jekyll_plugins do
 gem 'jekyll-polyglot'
-gem 'jekyll-lunr-js-search', :git => "https://github.com/mrquincle/jekyll-lunr-js-search.git"
+gem 'jekyll-lunr-js-search', :git => 'https://github.com/mrquincle/jekyll-lunr-js-search.git', :branch => 'master'
 end
 
 gem 'uglifier'
