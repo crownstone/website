@@ -2,14 +2,22 @@
     <div class="row justify-content-center">
         <div class="col-xl-6">
             <p class="newsletter-text">
+                {% if site.active_lang == "en" %}
                 Be the first to hear about Crownstone's newest features!
+                {% else %}
+                Hoor als eerste over de nieuwste functies van Crownstone! (Nieuwsbrief is in het Engels)
+                {% endif %}
             </p>
             <div class="newsletter bottom">
             	<div class="wrapper">
             		<form action="//rocks.us10.list-manage.com/subscribe/post?u=d03baf337210e326a61dc14d5&id=a23d3e9ded" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" target="_blank">
             			<label for="Email" class="newsletter__label hidden-label">Sign up to our mailing list</label>
             			<div class="input-group">
-            				<input type="email" value="" placeholder="New things to learn and read!" name="EMAIL" id="Email" class="input-group-field newsletter__input" autocorrect="off" autocapitalize="off">
+            			    {% if site.active_lang == "en" %}
+                            <input type="email" value="" placeholder="New things to learn and read!" name="EMAIL" id="Email" class="input-group-field newsletter__input" autocorrect="off" autocapitalize="off">
+                            {% else %}
+                            <input type="email" value="" placeholder="Nieuwe dingen om te leren en te lezen!" name="EMAIL" id="Email" class="input-group-field newsletter__input" autocorrect="off" autocapitalize="off">
+                            {% endif %}
             				<span class="input-group-btn">
             					<button type="submit" class="btn newsletter__submit" name="subscribe" id="Subscribe">
             					<span class="newsletter__submit-text--large">I like!</span>
