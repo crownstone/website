@@ -72,25 +72,25 @@ de voor- en nadelen op een rijtje.
 
 {% include snippets/centered-text-home-end %}
 
-{% include snippets/where-to-buy-container-begin %}
+{% include snippets/global-container-begin %}
 
-{% include snippets/buy-or-subscribe-begin title='Koop Crownstones als...' img='/images/shopping-kart.svg' img-alt='shopping kart'%}
+{% include snippets/two-centered-columns-begin title='Koop Crownstones als...' img='/images/shopping-kart.svg' img-alt='shopping kart'%}
 
 - Je met maar een paar Crownstones wil beginnen (let op, positiebepaling werkt pas vanaf vier stuks).
 - Je het prima vindt om zelf de installatie te doen.
 - Je al wat ervaring hebt met smart home technologie.
 
-{% include snippets/buy-or-subscribe-end link="https://shop.crownstone.rocks/?ref=where-to-buy&id=kart/" call-to-action="Inderdaad, ik koop ze graag!" %}
+{% include snippets/two-centered-columns-end link="https://shop.crownstone.rocks/?ref=where-to-buy&id=kart/" call-to-action="Inderdaad, ik koop ze graag!" %}
 
-{% include snippets/buy-or-subscribe-begin  title='Get a subscription when…' img='/images/calender.svg' img-alt='calender'%}
+{% include snippets/two-centered-columns-begin  title='Get a subscription when…' img='/images/calender.svg' img-alt='calender'%}
 
 - Je graag de complete ervaring wil hebben van een slim huis (10 Crownstones of meer).
 - Je niet bezig wilt zijn met installatie.
 - Je later denkt te kunnen profiteren van onze vriendenkorting (breng iemand aan en krijg korting).
 
-{% include snippets/buy-or-subscribe-end  link="/campaigns/cs-subscription/" call-to-action="Ik wil graag een abonnement!" %}
+{% include snippets/two-centered-columns-end  link="/campaigns/cs-subscription/" call-to-action="Ik wil graag een abonnement!" %}
 
-{% include snippets/where-to-buy-container-end %}
+{% include snippets/global-container-end %}
 
 {% include snippets/slogan-begin %}
 

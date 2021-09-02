@@ -52,7 +52,7 @@ We have several graduation projects available. If you graduate at our place you 
 
 
 
-{% include snippets/internship-container-begin %}
+{% include snippets/global-container-begin %}
 
 
 
@@ -85,7 +85,7 @@ It is possible to infer from Bluetooth disturbances alone that there are people 
 
 
 
-{% include snippets/internship-container-end %}
+{% include snippets/global-container-end %}
 
 
 
@@ -138,7 +138,7 @@ The internships below are not necessarily tied to a graduation project. They ran
 
 
 
-{% include snippets/internship-container-begin %}
+{% include snippets/global-container-begin %}
 
 
 
@@ -184,7 +184,7 @@ Create a professional style guide for internal and external use building on buye
 {% include snippets/internship-project-end pdf-link="https://docs.google.com/document/d/1hpCZT5TnMc_YiXm8tKQFESZaaMz45RolhnTCxwqq1oA/export?format=pdf" %}
 
 
-{% include snippets/internship-container-end %}
+{% include snippets/global-container-end %}
 
 
 {% include snippets/margin %}

@@ -28,6 +28,9 @@ retailers:
   - image: /images/home2link.jpg
     image-alt: home2link logo
     link: "https://www.home2link.nl/brands/crownstone/"
+  - image: /images/slimmedingen.png
+    image-alt: slimme dingen logo
+    link: "https://www.slimmedingen.nl/brands/crownstone/"
   - image: /images/retailers.svg
     image-alt: retailers
     link: /will-be-up-soon
@@ -75,28 +78,28 @@ To make that decision we recommend you to consider the following
 {% include snippets/centered-text-home-end %}
 
 
-{% include snippets/where-to-buy-container-begin %}
+{% include snippets/global-container-begin %}
 
-{% include snippets/buy-or-subscribe-begin  title='Buy the product when...' img='/images/shopping-kart.svg' img-alt='shopping kart'%}
+{% include snippets/two-centered-columns-begin  title='Buy the product when...' img='/images/shopping-kart.svg' img-alt='shopping kart'%}
 
 - You want to start the experience with a few Crownstone units 
 - You don't mind to take care of the installation 
 - You have already some experience with smart home technology
 
-{% include snippets/buy-or-subscribe-end  link="https://shop.crownstone.rocks/?ref=where-to-buy&id=kart/" call-to-action="Let's get some Crownstones!" %}
+{% include snippets/two-centered-columns-end  link="https://shop.crownstone.rocks/?ref=where-to-buy&id=kart/" call-to-action="Let's get some Crownstones!" %}
 
 
 
-{% include snippets/buy-or-subscribe-begin  title='Get a subscription when...' img='/images/calender.svg' img-alt='calender'%}
+{% include snippets/two-centered-columns-begin  title='Get a subscription when...' img='/images/calender.svg' img-alt='calender'%}
 
 - You want the full experience with multiple Crownstones
 - You don't want to worry about the installation
 - You would like to benefit from our referral discounts
 
-{% include snippets/buy-or-subscribe-end  link="/campaigns/cs-subscription/" call-to-action="Let's get a subscription!" %}
+{% include snippets/two-centered-columns-end  link="/campaigns/cs-subscription/" call-to-action="Let's get a subscription!" %}
 
 
-{% include snippets/where-to-buy-container-end %}
+{% include snippets/global-container-end %}
 
 {% include snippets/slogan-begin %}
 

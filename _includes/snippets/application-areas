@@ -4,42 +4,60 @@
   {% assign areas = page.areas %}
 {% endif %}
 
-
 <div class="container-fluid">
-    <div class="row justify-content-center segments-padding m-0">
-        <div class="col-md-10">
-            <div class="row justify-content-center mb-3">
+<div class="row justify-content-center segments-padding m-0">
 
-                {% for area in areas %}
+{% if include.distribution and include.distribution == 'quadrant' %}
+<div class="col-md-10">
+<div class="row justify-content-center mb-3">
+{% endif %}
 
-                <div class="col-md-5 p-4">
-                    <div class="row align-items-end secondary-banner" onclick="location.href='{{ area.link }}'" style="background-image: url({{ area.image }}); cursor: pointer">
-                        <div class="row transparent-bg-segments blue-bg-transparent">
-                            <div class="col-xs-8">
-                                <a class="title-segments" href= "{{ area.link }}" style="text-align: left; font-family: Lato, sans-serif; font-style: italic; font-size: 0.9rem !important; color: white !important; padding: 0; margin: 0;">
-                                    {{ area.title }}
-                                </a>
-                                <p class="description-segments">
-                                    {{ area.description }}
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+{% for area in areas %}
 
-                {% endfor %}
+{% if include.distribution and include.distribution == 'quadrant' %}
+<div class="col-md-5 p-4">
+<div class="row align-items-end secondary-banner" onclick="location.href='{{ area.link }}'" style="background-image: url({{ area.image }}); cursor: pointer">
+<div class="row transparent-bg-segments blue-bg-transparent">
+<div class="col-xs-8">
+<a class="title-segments" href= "{{ area.link }}" style="text-align: left; font-family: Lato, sans-serif; font-style: italic; font-size: 0.9rem !important; color: white !important; padding: 0; margin: 0;">
+{{ area.title }}
+</a>
+{% if area.description %}
+<p class="description-segments">
+{{ area.description }}
+</p>
+{% endif %}
+</div>
+</div>
+</div>
+</div>
+{% else %}
 
-                {% assign cntr = cntr | plus: 1 %}
+<div class="col-md-3 segments-intra-padding">
+<div class="row align-items-end secondary-banner" style="background-image: url({{ area.image }})">
+<div class="row transparent-bg-segments blue-bg-transparent">
+<div class="col-xs-8">
+<p class="title-segments" style="text-align: left; font-family: Lato, sans-serif; font-style: italic; font-size: 0.9rem !important; color: white !important; padding: 0; margin: 0;">
+{{ area.title }}
+</p>
+</div>
+</div>
+</div>
+</div>
 
-                {% assign two_items = cntr | modulo: 2 %}
+{% endif %}
+{% endfor %}
 
-                {% if two_items == 0 %}
+{% assign cntr = cntr | plus: 1 %}
+{% assign two_items = cntr | modulo: 2 %}
+{% if two_items == 0 %}
+<div class="w-100"></div>
+{% endif %}
 
-                <div class="w-100"></div>
+{% if include.distribution and include.distribution == 'quadrant' %}
+</div>
+</div>
+{% endif %}
 
-                {% endif %}
-
-            </div>
-        </div>
-    </div>
+</div>
 </div>

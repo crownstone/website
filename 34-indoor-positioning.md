@@ -149,7 +149,7 @@ Scenarios
 {% include snippets/margin %}
 
 
-{% include snippets/scenarios-container-begin %}
+{% include snippets/global-container-begin %}
 
 
 {% include snippets/scenario-begin img="/images/indoor-positioning/scenario-1.jpg" img-alt="scenario 1" title="You sit on the couch and it is getting dark" %}
@@ -172,7 +172,7 @@ Turning off outlets when an **adult is not around** gives peace of mind! Special
 
 {% include snippets/scenario-end %}
 
-{% include snippets/scenarios-container-end %}
+{% include snippets/global-container-end %}
 
 
 {% include snippets/margin %}

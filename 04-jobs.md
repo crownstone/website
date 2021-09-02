@@ -57,7 +57,7 @@ Crownstone is always looking for talented people with expertise in embedded prog
 {% include snippets/full-width-container-end %}
 
 
-{% include snippets/vacancy-container-begin %}
+{% include snippets/global-container-begin %}
 
 {% include snippets/job-vacancy-begin img="/images/electrical-engineer.jpg" img-alt="electrical-engineer" title="Electrical Engineer" %}
 
@@ -75,10 +75,10 @@ Working at Crownstone as a business developer means having the opportunity to cr
 
 {% include snippets/job-vacancy-end job-id="oem-business-developer" page-link="/vacancies/oem-business-developer/" %}
 
-{% include snippets/vacancy-container-end %}
+{% include snippets/global-container-end %}
 
 
-{% include snippets/vacancy-container-begin %}
+{% include snippets/global-container-begin %}
 
 {% include snippets/job-vacancy-begin img="/images/software-engineer.jpg" img-alt="software-engineer" title="Embedded Software Engineer" %}
 
@@ -97,10 +97,10 @@ Working at Crownstone as a business developer means having the opportunity to cr
 
 {% include snippets/job-vacancy-end job-id="asset-tracking-business-developer" page-link="/vacancies/asset-tracking-business-developer/"%}
 
-{% include snippets/vacancy-container-end %}
+{% include snippets/global-container-end %}
 
 
-{% include snippets/vacancy-container-begin %}
+{% include snippets/global-container-begin %}
 
 {% include snippets/job-vacancy-begin img="/images/finance.jpg" img-alt="finance" title="Finance" %}
 
@@ -110,7 +110,7 @@ In that case, drop us a note!
 
 {% include snippets/job-vacancy-end job-id="finance"%}
 
-{% include snippets/vacancy-container-end %}
+{% include snippets/global-container-end %}
 
 
 {% include snippets/centered-text-large text='Take a closer look to our software challenges' link='/challenges/software/' %}

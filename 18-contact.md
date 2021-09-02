@@ -41,7 +41,7 @@ Want to get in touch? We'd love to hear from you. Here's how you can reach us...
 
 
 
-{% include snippets/contact-container-begin %}
+{% include snippets/global-container-begin %}
 
 
 {% include snippets/contact-option-begin img="/images/contact/email.svg" img-alt="email-icon" title="Send us an email" %}
@@ -81,7 +81,7 @@ For questions regarding offers, quotes, invoices, etc. you can send an email to
 {% include snippets/contact-option-end email=email subject="Financial Inquiry"%}
 
 
-{% include snippets/contact-container-end %}
+{% include snippets/global-container-end %}
 
 
 

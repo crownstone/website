@@ -27,13 +27,13 @@ benefits:
 benefits-ble:
   - img: /images/asset-tracking/bluetooth.svg
     img-alt: bluetooth icon
-    description: "Tags are very power-efficient. They are also low-priced and can be waterproof."
+    title: "Tags are very power-efficient. They are also low-priced and can be waterproof."
   - img: /images/asset-tracking/buildings.svg
     img-alt: buildings
-    description: "Bluetooth offers high accuracy compared to GPS. Allowing to track assets indoors."
+    title: "Bluetooth offers high accuracy compared to GPS. Allowing to track assets indoors."
   - img: /images/asset-tracking/ble-tags.svg
     img-alt: ble tags
-    description: "BLE tags can have many shapes: buttons, tiles, cards, etc."
+    title: "BLE tags can have many shapes: buttons, tiles, cards, etc."
 areas:
   - title: Health care
     image: /images/asset-tracking/health.jpg
@@ -76,7 +76,7 @@ Benefits of asset tracking
 {% include snippets/slogan-end %}
 
 
-{% include snippets/benefits-asset-tracking %}
+{% include snippets/benefits-list %}
 
 
 
@@ -119,7 +119,7 @@ How it works
 {% include snippets/margin %}
 
 
-{% include snippets/how-works-container-begin %}
+{% include snippets/global-container-begin %}
 
 {% include snippets/how-it-works-begin img="/images/asset-tracking/ble-tag.png" img-alt="bluetooth tag" title="Bluetooth tags" %}
 
@@ -140,7 +140,7 @@ A hub is configured to obtain the encrypted the data from the Crownstones and to
 
 {% include snippets/how-it-works-end %}
 
-{% include snippets/how-works-container-end %}
+{% include snippets/global-container-end %}
 
 
 {% include snippets/slogan-begin %}
@@ -150,7 +150,7 @@ Why Bluetooth LE for asset tracking?
 {% include snippets/slogan-end %}
 
 
-{% include snippets/benefits-ble %}
+{% include snippets/benefits-list id='benefits-ble' %}
 
 
 
@@ -161,7 +161,7 @@ Application areas
 {% include snippets/slogan-end %}
 
 
-{% include snippets/areas-asset-tracking %}
+{% include snippets/application-areas %}
 
 
 
@@ -180,7 +180,7 @@ We can also provide you with a service level agreement for your application whic
 {% include snippets/centered-text-home-end %}
 
 
-{% include snippets/contact-container-begin size="small" %}
+{% include snippets/global-container-begin size="small" %}
 
 {% include snippets/contact-option-begin img="/images/contact/email.svg" img-alt="email-icon" title="Send us an email" %}
 
@@ -196,4 +196,4 @@ Interested in our technology? Then talk with us, we're all ears!
 
 {% include snippets/contact-option-end tel="true" %}
 
-{% include snippets/contact-container-end %}
+{% include snippets/global-container-end %}

@@ -153,7 +153,7 @@ How it works
 {% include snippets/margin %}
 
 
-{% include snippets/how-works-container-begin %}
+{% include snippets/global-container-begin %}
 
 {% include snippets/how-it-works-begin img="/images/energy-monitoring/device.png" img-alt="device" title="Devices to monitor" %}
 
@@ -175,7 +175,7 @@ A **configured hub** can send the data directly to the servers of our business p
 
 {% include snippets/how-it-works-end %}
 
-{% include snippets/how-works-container-end %}
+{% include snippets/global-container-end %}
 
 
 
@@ -186,7 +186,7 @@ Application areas
 {% include snippets/slogan-end %}
 
 
-{% include snippets/areas-asset-tracking %}
+{% include snippets/application-areas %}
 
 
 
@@ -205,7 +205,7 @@ We can also provide you with a service level agreement for your application whic
 {% include snippets/centered-text-home-end %}
 
 
-{% include snippets/contact-container-begin size="small" %}
+{% include snippets/global-container-begin size="small" %}
 
 {% include snippets/contact-option-begin img="/images/contact/email.svg" img-alt="email-icon" title="Send us an email" %}
 
@@ -221,4 +221,4 @@ Interested in our technology? Then talk with us, we're all ears!
 
 {% include snippets/contact-option-end tel="true" %}
 
-{% include snippets/contact-container-end %}
+{% include snippets/global-container-end %}

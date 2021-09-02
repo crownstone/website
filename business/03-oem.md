@@ -115,7 +115,7 @@ Work with Crownstone will **speed up your R&D** tremendously if it also fits app
 
 {% include snippets/full-width-container-end %}
 
-{% include snippets/application-areas %}
+{% include snippets/application-areas distribution='quadrant' %}
 
 
 
