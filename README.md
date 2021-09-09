@@ -244,6 +244,26 @@ To add arguments:
 
 Something like `page` is available in such a snippet.
 
+## Build problems
+
+Let's single out compilation of native extensions because that's most likely to give issues.
+
+### Native extensions
+
+The RedCloth code needs Ruby to compile its extension natively. For this you will need to be able to compile with gcc and make. You can test `make` on the command line.
+
+```
+sudo apt install gcc make build-essential
+sudo apt install ruby-dev
+```
+
+If this is not sufficient, run `make` in the directory that's visible in your error messages. You will probably find out that the compiler has become more strict. For example, what might have been a warning in the past is now an error. You can pass build information like this:
+
+```
+bundle config --local build.RedCloth --with-cflags=-w
+```
+
+
 ## Copyrights
 
 The license for the Jekyll part is MIT. The license for Bootstrap as well. The copryights of Bootstrap belong to Twitter.
