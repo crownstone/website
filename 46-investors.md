@@ -6,79 +6,248 @@ description: "Crownstone and investors"
 keywords: "crownstone, investors"
 kramdown:
   parse_block_html: true
+background-image: banner-investors.jpg
+banner-caption: "Investors"
 group: [navigation-about-us-submenu, navigation-about-us-footer]
 permalink: investors/
 ---
 {% include JB/setup %}
 
-{% include snippets/full-width-container-begin background='blue' %}
+{% include snippets/full-width-container-begin %}
 
-{% include snippets/row-begin %}
-{% include snippets/column-begin colsize="12" %}
+{% include snippets/circles-bg-begin img='/images/circles_1.png' bg-position='center' %}
 
-# Vision
+{% include snippets/slogan-begin %}
 
-Crownstone: indoor positioning hardware for smart homes using artificial intelligence to automatically react to someone's presence.
+Our Vision
 
-## First bet
+{% include snippets/slogan-end %}
 
-Our first bet is that in the future **indoor positioning** will be a larger market than outdoor positioning (GPS). Very straightforward, our homes and offices will **never be smart** if they do not **know where we are**!
 
-## Second bet
+{% include snippets/centered-text-home-begin background='light'%}
 
-Our second bet is that every device will get a chip, in particular power outlets and lights. A smart outlet brings comfort, safety, and energy savings. There are many **more power outlets than smartphones** in the world. That's the potential impact of a company like this! Billions of chips. Billions of human acts automated. Billions of energy savings each year!
+Crownstone designs and manufactures **indoor positioning** hardware for truly smart buildings.
 
-{% include snippets/column-end %}
-{% include snippets/row-end %}
+{% include snippets/centered-text-home-end %}
+
+
+{% include snippets/circles-bg-end %}
 
 {% include snippets/full-width-container-end %}
+
+
+
+{% include snippets/full-width-container-begin%}
+
+{% include snippets/two-cols-text-img-begin background='blue'%}
+
+##### **In the future the market of indoor positioning will be larger than that of outdoor positioning (GPS)**
+
+<p>&nbsp;</p>
+
+Our homes and offices will never be smart if they do not know where we are!
+
+{% include snippets/two-cols-text-img-end img='/images/investors/bet1.jpg' img-alt='bet1' %}
+
+{% include snippets/full-width-container-end %}
+
+
+{% include snippets/full-width-container-begin%}
+
+{% include snippets/two-cols-text-img-begin text-alignment='right' background='blue'%}
+
+##### **Every device will get a chip, in particular power outlets and lights**
+
+<p>&nbsp;</p>
+
+There are many more power outlets than smartphones in the world.
+A smart home company which solves the smart outlet puzzle will provide billions of chips per year, will automate billions of human acts per year, and will save billions in energy costs per year.
+
+{% include snippets/two-cols-text-img-end img='/images/investors/bet2.jpg' img-alt='bet2' %}
+
+{% include snippets/full-width-container-end %}
+
+
+
+{% include snippets/full-width-container-begin %}
+
+{% include snippets/circles-bg-begin img='/images/circles_2.png' bg-position='center' %}
+
+{% include snippets/slogan-begin %}
+
+Current Investors
+
+{% include snippets/slogan-end %}
+
+
+{% include snippets/two-cols-text-img-begin %}
+
+Crownstone has as seed investor [Almende Investments](http://almende-investments.com), 
+did partake in the [Rockstart accelerator](http://www.rockstart.com/blog/rockstart-introduces-participants-of-2016-smart-energy-accelerator), 
+and launched as company on the 20th of May 2016.
+
+{% include snippets/two-cols-text-img-end img='/images/investors/investors.png' img-alt='investors' %}
+
+{% include snippets/circles-bg-end %}
+
+{% include snippets/full-width-container-end %}
+
+
+{% include snippets/slogan-begin %}
+
+Our background
+
+{% include snippets/slogan-end %}
+
+
+{% include snippets/full-width-container-begin %}
+
+{% include snippets/centered-text-home-begin background='light'%}
+
+There are some important insights that guided our decision making. We want to share a few of them with you.
+
+{% include snippets/centered-text-home-end %}
+
+{% include snippets/full-width-container-end %}
+
+
+{% include snippets/full-width-container-begin%}
+
+{% include snippets/two-cols-text-img-begin background='blue'%}
+
+##### Why **now**?
+
+<p>&nbsp;</p>
+
+Smart homes need a smart hub. Nowadays voice assistants (Alexa, Google Home, etc.) are conquering the market. These are the gateway devices to the market.
+**Smart outlets**, plugs, and lights are the most popular categories bought as **follow-up** products.
+
+{% include snippets/two-cols-text-img-end img='/images/investors/why-now.jpg' img-alt='why now' %}
+
+{% include snippets/full-width-container-end %}
+
+
+{% include snippets/full-width-container-begin%}
+
+{% include snippets/two-cols-text-img-begin text-alignment='right' background='blue'%}
+
+##### Why **Bluetooth**?
+
+<p>&nbsp;</p>
+
+Typical smart home networks (ZigBee, ZWave) form networks. but Bluetooth could not. Nowadays, there is Bluetooth Mesh which takes away this important limitation.
+There are billions of Bluetooth devices, hence the costs of Bluetooth chips scales better. In addition, when choosing Bluetooth this means the ability to do **indoor positioning** of Bluetooth smartphones, wearables, and tags.
+
+{% include snippets/two-cols-text-img-end img='/images/investors/why-ble.jpg' img-alt='why bluetooth' %}
+
+{% include snippets/full-width-container-end %}
+
+
+{% include snippets/full-width-container-begin%}
+
+{% include snippets/two-cols-text-img-begin background='blue'%}
+
+##### Why **not** WiFi or GPS?
+
+<p>&nbsp;</p>
+
+There is no widely available low-energy variant of WiFi. It would be bad with respect to power consumption and WiFi interference.  Bluetooth Low Energy scales easily to hundreds of devices.
+GPS does not work indoors.
+
+{% include snippets/two-cols-text-img-end img='/images/investors/wifi-gps.jpg' img-alt='wifi and gps' %}
+
+{% include snippets/full-width-container-end %}
+
+
+
+{% include snippets/slogan-begin %}
+
+Factors in our favor
+
+{% include snippets/slogan-end %}
+
+
+{% include snippets/full-width-container-begin%}
+
+{% include snippets/two-cols-centered-text-img-begin text-alignment='right' %}
+
+### There is more political pressure to become **sustainable**
+
+<p>&nbsp;</p>
+
+The Crownstone products can immediately contribute to insight in **energy use** and contribute to **energy savings**.
+ 
+{% include snippets/two-cols-centered-text-img-end img='/images/investors/sustainable.png' img-alt='sustainable' %}
+
+{% include snippets/full-width-container-end %}
+
+
+{% include snippets/full-width-container-begin%}
+
+{% include snippets/two-cols-centered-text-img-begin %}
+
+### There is an ongoing **electrification** process
+
+<p>&nbsp;</p>
+
+After communication and lights, we are starting the electrification process of heating, cooling, and mobility. The Crownstone **data** will become more and more widely applicable.
+ 
+{% include snippets/two-cols-centered-text-img-end img='/images/investors/electricity.png' img-alt='electricity' %}
+
+{% include snippets/full-width-container-end %}
+
+
+{% include snippets/full-width-container-begin%}
+
+{% include snippets/two-cols-centered-text-img-begin text-alignment='right' %}
+
+### Bluetooth and **proximity technology** are brought to the foreground.
+
+<p> </p>
+
+Regarding **indoor positioning** there is a shift from explaining what this can do to active requests from partners who already know that they want this type of solution.
+ 
+{% include snippets/two-cols-centered-text-img-end img='/images/investors/proximity.png' img-alt='proximity' %}
+
+{% include snippets/full-width-container-end %}
+
+
+
+{% include snippets/margin %}
+
+
+
 {% include snippets/full-width-container-begin %}
 
 {% include snippets/row-begin %}
 {% include snippets/column-begin colsize="12" %}
 
-# Current Investors
-
-Crownstone has as seed investor [Almende Investments](http://almende-investments.com), did partake in the [Rockstart accelerator](http://www.rockstart.com/blog/rockstart-introduces-participants-of-2016-smart-energy-accelerator), and launched as company on the 20th of May 2016.
-
-{% include snippets/column-end %}
-{% include snippets/row-end %}
-
-{% include snippets/full-width-container-end %}
-
-{% include snippets/full-width-container-begin %}
-
-{% include snippets/row-begin %}
-{% include snippets/column-begin colsize="12" %}
-
-# Background
-
-There are a few important insights that guided our decision making. A few of them can be shared with you here:
-
-* **Why now?** Smart homes need a smart hub. Nowadays voice assistants, Alexa, Google Home, Apple HomePod, are conquering the market. These are the gateway devices to the market. Smart outlets, plugs, and lights are the most popular categories bought as follow-up products.
-* **Why Bluetooth?** Typical smart home networks (ZigBee, ZWave) form networks. Bluetooth could not. Nowadays, there is Bluetooth Mesh which takes away this important limitation. There are billions of Bluetooth devices, hence the costs of Bluetooth chips scales better. Also, very important, when choosing Bluetooth this means the ability to do indoor positioning of Bluetooth smartphones, wearables, and tags.
-* **Why not WiFi?** There is no widely available low-energy variant of WiFi. It would be bad with respect to power consumption and WiFi interference. Bluetooth Low Energy scales easily to hundreds of devices.
-* **Why not just GPS?** Due to windows, walls, etc. GPS does not work indoors.
-
-In general there are three important factors that will work in our favor:
-
-1. There is more and more political pressure to become **sustainable**. The Crownstone products can immediately contribute to insight in energy use and contribute to energy savings.
-2. There is an ongoing **electrification** process. After communication and lights, we are starting the electrification process of heating, cooling, and mobility. The Crownstone data will become more and more widely applicable.
-3. There current epidemic has brought Bluetooth and **proximity technology** to the foreground. Regarding indoor positioning there is a shift from explaining what this can do to active requests from partners who already know that they want this type of solution.
-
-There are competitors in this market, but indoor localization is a unique angle. The truly big companies, Google, Amazon, Apple, will spend their resources on their hubs, not on the peripheral devices. There are too many of those and it would diversify their hardware portfolio too much. They will build ecosystems rather than compete and will invest in select top brands. We are building such a brand.
+There are competitors in this market, but indoor localization is a **unique angle**. The big companies, Google, Amazon, Apple, will invest on their hubs, but not on the peripheral devices. 
+There are too many of those and it would diversify their hardware portfolio too much. They will build ecosystems rather than compete and will invest in selected **top brands**. We are building such a brand.
 
 {% include snippets/column-end %}
 {% include snippets/row-end %}
 
 {% include snippets/full-width-container-end %}
 
+
+{% include snippets/margin %}
+
+
+{% include snippets/slogan-begin %}
+
+Contact
+
+{% include snippets/slogan-end %}
+
+
+{% include snippets/margin %}
+
+
 {% include snippets/full-width-container-begin %}
 
 {% include snippets/row-begin %}
 {% include snippets/column-begin colsize="12" %}
-
-# Contact
 
 For more information on insight in our choices with respect to technology, sales, marketing, and execution, feel free to contact the CEO, Anne van Rossum.
 
