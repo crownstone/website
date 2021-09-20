@@ -20,7 +20,11 @@
                             {% endif %}
             				<span class="input-group-btn">
             					<button type="submit" class="btn newsletter__submit" name="subscribe" id="Subscribe">
+            					{% if site.active_lang == "en" %}
             					<span class="newsletter__submit-text--large">I like!</span>
+            					{% else %}
+            					<span class="newsletter__submit-text--large">Ik doe mee!</span>
+            					{% endif %}
             					<span class="newsletter__submit-text--small">→</span>
             					</button>
             				</span>
