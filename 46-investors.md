@@ -119,8 +119,7 @@ There are some important insights that guided our decision making. We want to sh
 
 <p>&nbsp;</p>
 
-Smart homes need a smart hub. Nowadays voice assistants (Alexa, Google Home, etc.) are conquering the market. These are the gateway devices to the market.
-**Smart outlets**, plugs, and lights are the most popular categories bought as **follow-up** products.
+Smart homes need a smart hub. Nowadays voice assistants (Alexa, Google Home, etc.) are conquering the market. These can be seen as "gateway devices" into the smart home market. The most popular **follow-up** products are smart lights, and smart **plugs**, and smart **outlets**!
 
 {% include snippets/two-cols-text-img-end img='/images/investors/why-now.jpg' img-alt='why now' %}
 
@@ -135,8 +134,8 @@ Smart homes need a smart hub. Nowadays voice assistants (Alexa, Google Home, etc
 
 <p>&nbsp;</p>
 
-Typical smart home networks (ZigBee, ZWave) form networks. but Bluetooth could not. Nowadays, there is Bluetooth Mesh which takes away this important limitation.
-There are billions of Bluetooth devices, hence the costs of Bluetooth chips scales better. In addition, when choosing Bluetooth this means the ability to do **indoor positioning** of Bluetooth smartphones, wearables, and tags.
+Convential wireless protocols (ZigBee, ZWave) did fit the smart home application because they formed a network. Bluetooth did not. However, nowadays, **Bluetooth Mesh** lifts this severe limitation.
+With Bluetooth there are suddenly billions of Bluetooth devices that can be connected. Costs of Bluetooth chips is much lower. In addition, when choosing Bluetooth this means the ability to do **indoor positioning** of Bluetooth smartphones, wearables, and tags.
 
 {% include snippets/two-cols-text-img-end img='/images/investors/why-ble.jpg' img-alt='why bluetooth' %}
 
@@ -147,12 +146,11 @@ There are billions of Bluetooth devices, hence the costs of Bluetooth chips scal
 
 {% include snippets/two-cols-text-img-begin background='blue'%}
 
-##### Why **not** WiFi or GPS?
+##### Why **not** WiFi?
 
 <p>&nbsp;</p>
 
-There is no widely available low-energy variant of WiFi. It would be bad with respect to power consumption and WiFi interference.  Bluetooth Low Energy scales easily to hundreds of devices.
-GPS does not work indoors.
+There is no widely available low-energy variant of WiFi. Normal WiFi uses too much power and causes WiFi interference. In contrast, Bluetooth Low Energy can easily support hundreds of smart devices without such disadvantages.
 
 {% include snippets/two-cols-text-img-end img='/images/investors/wifi-gps.jpg' img-alt='wifi and gps' %}
 
