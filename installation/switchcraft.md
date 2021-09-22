@@ -4,7 +4,7 @@ title: Switchcraft Installation
 header: Switchcraft Installation
 group: installation
 permalink: installation/switchcraft
-background-image-home: banner-switchcraft.jpg
+background-image-home: banner-switchcraft
 ---
 {% include JB/setup %}
 

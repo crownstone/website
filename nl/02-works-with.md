@@ -6,7 +6,7 @@ description: "Door Crownstone ondersteunde Integraties"
 group: [navigation-smart-home-submenu, navigation-consumer-footer]
 lang: nl
 permalink: works-with/
-background-image: banner-works-with.jpg
+background-image: banner-works-with
 banner-caption: Werkt met...
 coming-soon:
     - title: Integratie met Philips Hue

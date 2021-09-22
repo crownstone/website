@@ -5,7 +5,7 @@ header: Business
 description: "De soorten van data die eventueel door middel van Crownstones kan worden verzameld."
 group: [navigation-business-footer]
 markdown: true
-background-image: banner-theft.jpg
+background-image: banner-theft
 permalink: business/data/
 lang: nl
 ---

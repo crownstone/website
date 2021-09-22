@@ -6,7 +6,7 @@ description: "Work at Crownstone as OEM business developer"
 keywords: "job, vacancy, business, developer, OEM, technology, german, dutch"
 kramdown: 
   parse_block_html: true
-large-background-image: banner-oem-developer.jpg
+large-background-image: banner-oem-developer
 banner-caption: "Join our team!"
 slogan-banner: vacancies/slogan.jpg
 skip-newsletter: true

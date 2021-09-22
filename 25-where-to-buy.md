@@ -3,7 +3,7 @@ layout: page
 title: Where to buy
 header: Where to buy
 permalink: where-to-buy/
-background-image: banner-where-to-buy.jpg
+background-image: banner-where-to-buy
 banner-caption: Where to buy?
 group: [navigation-support]
 kramdown:

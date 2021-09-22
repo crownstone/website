@@ -4,7 +4,7 @@ title: Contact
 header: Contact
 group: Landing
 markdown: true
-background-image: banner-address.jpg
+background-image: banner-address
 banner-caption: Contact us!
 skip-newsletter: true
 permalink: contact/

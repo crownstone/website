@@ -4,7 +4,7 @@ title: Google Home Help
 header: Google Home Help
 group: Landing
 permalink: integrations/google-home-faq/
-background-image: banner-faq-google.jpg
+background-image: banner-faq-google
 banner-caption: Google home integration
 kramdown: 
   parse_block_html: true

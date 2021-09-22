@@ -6,7 +6,7 @@ description: "Crownstones for energy monitoring"
 group: [navigation-business-submenu]
 skip-newsletter: true
 permalink: business/energy-monitoring
-background-image: banner-energy-monitoring.jpg
+background-image: banner-energy-monitoring
 banner-caption: Energy Monitoring
 areas:
   - title: Health care

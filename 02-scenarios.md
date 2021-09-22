@@ -6,7 +6,7 @@ description: "Scenarios that bring comfort or save energy!"
 group: [navigation-smart-home-submenu, navigation-consumer-footer]
 permalink: scenarios/
 children-disable: [crownstone, autopilot]
-background-image: banner-scenarios.jpg
+background-image: banner-scenarios
 banner-caption: Scenarios
 coming-soon:
     - title: Wake up light

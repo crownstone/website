@@ -3,7 +3,7 @@ layout: page
 title: Indoor localization help
 header: Indoor localization help
 permalink: indoor-localization-faq/
-background-image: banner-position-faq.jpg
+background-image: banner-position-faq
 banner-caption: Indoor localization
 kramdown: 
   parse_block_html: true

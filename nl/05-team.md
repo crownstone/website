@@ -8,7 +8,7 @@ lang: nl
 kramdown: 
   parse_block_html: true
 banner-caption: "Ons clubje!"
-background-image: banner-team.jpg
+background-image: banner-team
 group: [navigation-about-us-submenu, navigation-consumer-footer]
 permalink: team/
 gallery_img_size: "200px"

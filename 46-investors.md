@@ -6,7 +6,7 @@ description: "Crownstone and investors"
 keywords: "crownstone, investors"
 kramdown:
   parse_block_html: true
-background-image: banner-investors.jpg
+background-image: banner-investors
 banner-caption: "Investors"
 group: [navigation-about-us-submenu, navigation-about-us-footer]
 permalink: investors/
@@ -41,7 +41,7 @@ Crownstone designs and manufactures **indoor positioning** hardware for truly sm
 
 {% include snippets/two-cols-text-img-begin background='blue'%}
 
-##### **In the future the market of indoor positioning will be larger than that of outdoor positioning (GPS)**
+##### In the future the market of indoor positioning will be larger than that of outdoor positioning (GPS)
 
 <p>&nbsp;</p>
 
@@ -56,7 +56,7 @@ Our homes and offices will never be smart if they do not know where we are!
 
 {% include snippets/two-cols-text-img-begin text-alignment='right' background='blue'%}
 
-##### **Every device will get a chip, in particular power outlets and lights**
+##### Every device will get a chip, in particular power outlets and lights
 
 <p>&nbsp;</p>
 
@@ -152,7 +152,7 @@ With Bluetooth there are suddenly billions of Bluetooth devices that can be conn
 
 There is no widely available low-energy variant of WiFi. Normal WiFi uses too much power and causes WiFi interference. In contrast, Bluetooth Low Energy can easily support hundreds of smart devices without such disadvantages.
 
-{% include snippets/two-cols-text-img-end img='/images/investors/wifi-gps.jpg' img-alt='wifi and gps' %}
+{% include snippets/two-cols-text-img-end img='/images/investors/wifi.jpg' img-alt='wifi' %}
 
 {% include snippets/full-width-container-end %}
 
@@ -218,7 +218,7 @@ Regarding **indoor positioning** there is a shift from explaining what this can 
 {% include snippets/full-width-container-begin %}
 
 {% include snippets/row-begin %}
-{% include snippets/column-begin colsize="12" %}
+{% include snippets/column-begin colsize="12" color-text="#003e52"%}
 
 There are competitors in this market, but indoor localization is a **unique angle**. The big companies, Google, Amazon, Apple, will invest on their hubs, but not on the peripheral devices. 
 There are too many of those and it would diversify their hardware portfolio too much. They will build ecosystems rather than compete and will invest in selected **top brands**. We are building such a brand.
@@ -245,7 +245,7 @@ Contact
 {% include snippets/full-width-container-begin %}
 
 {% include snippets/row-begin %}
-{% include snippets/column-begin colsize="12" %}
+{% include snippets/column-begin colsize="12" color-text="#003e52"%}
 
 For more information on insight in our choices with respect to technology, sales, marketing, and execution, feel free to contact the CEO, Anne van Rossum.
 

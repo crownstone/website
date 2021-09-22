@@ -6,7 +6,7 @@ description: "App om Crownstones aan te sturen en uit te lezen."
 keywords: "app, smartphone app, android, ios, iphone, Crownstone"
 group: Landing
 markdown: true
-background-image: banner-app.jpg
+background-image: banner-app
 lang: nl
 permalink: app/
 ---

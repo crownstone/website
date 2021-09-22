@@ -6,7 +6,7 @@ description: "Bluetooth LE for asset tracking"
 group: [navigation-business-submenu]
 skip-newsletter: true
 permalink: business/asset-tracking
-background-image: banner-asset-tracking.jpg
+background-image: banner-asset-tracking
 banner-caption: Asset Tracking
 benefits:
   - title: Reduce employee searching time 

@@ -4,7 +4,7 @@ title: App Help
 header: Crownstone App
 group: Landing
 permalink: app-help/
-background-image: banner-app-help-eng.jpg
+background-image: banner-app-help-eng
 banner-caption: Crownstone app
 kramdown: 
   parse_block_html: true

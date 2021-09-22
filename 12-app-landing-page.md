@@ -6,7 +6,8 @@ description: "App to control and read out Crownstones."
 keywords: "app, smartphone app, android, iOS, iPhone, Crownstone"
 group: Landing
 markdown: true
-background-image: banner-app.jpg
+background-image: banner-app
+banner-caption: "Crownstone App"
 permalink: app/
 ---
 {% include JB/setup %}

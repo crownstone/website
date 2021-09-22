@@ -6,7 +6,7 @@ description: "Follow us an Facebook, Twitter, or contact us individually!"
 keywords: "team, follow us, facebook, twitter, contact, personal, Crownstone"
 kramdown:
   parse_block_html: true
-background-image: banner-team.jpg
+background-image: banner-team
 banner-caption: "Our team!"
 group: [navigation-about-us-submenu, navigation-about-us-footer]
 skip-newsletter: true

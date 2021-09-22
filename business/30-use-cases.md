@@ -6,7 +6,7 @@ header: Business
 description: "Business Use Cases"
 group: [navigation-business-footer]
 markdown: true
-background-image: banner-office.jpg
+background-image: banner-office
 permalink: business/
 ---
 {% include JB/setup %}

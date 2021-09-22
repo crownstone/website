@@ -6,7 +6,7 @@ description: "Jobs in internet of things, home automation, smart homes"
 keywords: "job, machine learning, artificial intelligence, internet of things, home automation, smart homes"
 kramdown: 
   parse_block_html: true
-background-image: banner-product-plug.jpg
+background-image: banner-product-plug
 banner-caption: "Join our team!"
 group: [navigation-about-us-submenu, navigation-about-us-footer]
 skip-newsletter: true

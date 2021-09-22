@@ -5,7 +5,6 @@ header: Pages
 description: "Crownstone installers and shops"
 keywords: "crownstone, installers"
 markdown: true
-no-background-image: banner-crownstone-tech.jpg
 permalink: map/
 ---
 {% include JB/setup %}

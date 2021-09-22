@@ -6,7 +6,7 @@ description: "Internships in internet of things, home automation, smart homes"
 keywords: "internship, graduation project, machine learning, artificial intelligence, internet of things, home automation, smart homes"
 kramdown: 
   parse_block_html: true
-background-image: banner-internships.jpg
+background-image: banner-internships
 banner-caption: "Internships"
 group: [navigation-about-us-submenu, navigation-about-us-footer]
 skip-newsletter: true

@@ -4,7 +4,7 @@ title: VolkerWessels
 header: VolkerWessels
 description: "Crownstone Use Case at VolkerWessels"
 markdown: true
-background-image: banner-office.jpg
+background-image: banner-office
 permalink: use-case/volkerwessels/
 ---
 {% include JB/setup %}

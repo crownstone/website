@@ -7,7 +7,7 @@ keywords: "software developer, challenges, job, application, software developmen
 kramdown: 
   parse_block_html: true
 markdown: true
-background-image: banner-software-jobs.jpg
+background-image: banner-team
 permalink: challenges/software/
 ---
 {% include JB/setup %}

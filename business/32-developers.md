@@ -6,7 +6,7 @@ description: "Developers and APIs"
 group: [navigation-business-footer]
 markdown: true
 permalink: business/developers/
-background-image: banner-developers1.jpg
+background-image: banner-developers1
 ---
 {% include JB/setup %}
 

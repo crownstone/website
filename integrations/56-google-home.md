@@ -4,7 +4,7 @@ title            : "Integrate Crownstone with Google Home"
 header           : "Integrate Crownstone with Google Home"
 description      : "Crownstone brings the functionality of switch, dimming, and presence information using Crownstones to Home Assistant"
 markdown         : true
-background-image : banner-cs-google.jpg
+background-image : banner-cs-google
 permalink        : integrations/google-home/
 ---
 
