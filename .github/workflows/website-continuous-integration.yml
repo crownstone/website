@@ -1,0 +1,29 @@
+# Continuous integration of jekyll site
+name: Build website
+
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+
+jobs:
+  Build-website:
+
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Set up Ruby
+      uses: ruby/setup-ruby@v1
+      with:
+        ruby-version: '2.7'
+        bundler-cache: true # run 'bundle install' and caches installed gems automatically
+    - name: Install jekyll
+      run: gem install jekyll
+    - name: Build website
+      run: |
+        JEKYLL_ENV=production bundle exec jekyll build
+    - name: Push to gh-pages branch
+      run: |
+        echo "Stub for now"
+
