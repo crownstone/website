@@ -1,0 +1,1745 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    
+
+    <meta name="description" content="Inertia, a European project establishing an energy balance management system.">
+
+    
+
+    
+
+    <meta name="keywords" content=", smart home, smart homes, domotica, smart plug, home automation, power plug, gadgets, apple, open-source, raspberry pi, smart outlet, smart switch, arduino, alexa, amazon echo, nest, toon, philips hue, homewizard, fibaro, klik-aan-klik-uit, energy savings, comfort">
+    
+    <meta name="author" content="Crownstone B.V.">
+    <link rel="icon" type="image/x-icon" href="https://crownstone.rocks/images/favicon.ico?">
+    <link rel="apple-touch-icon" href="https://crownstone.rocks/images/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="https://crownstone.rocks/images/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="https://crownstone.rocks/images/apple-touch-icon-114x114.png">
+
+    <meta name="theme-color" content="#ff8400">
+    <meta name="msapplication-navbutton-color" content="#ff8400">
+    <meta name="apple-mobile-web-app-status-bar-style" content="#ff8400">
+
+    <meta http-equiv="Content-Language" content="en">
+<link rel="alternate" hreflang="en" href="https://crownstone.rocks/2016/01/28/inertia-energy-balance-management-system"/>
+<link rel="alternate" hreflang="nl" href="https://crownstone.rocks/nl/2016/01/28/inertia-energy-balance-management-system"/>
+
+
+    <meta name="google-site-verification" content="qsSndPwnJ3H5zpj9z6ZvY-r4WnvSpMBe5QchxVbIWvw" />
+
+    
+    <title>Crownstone | Inertia energy balance management system</title>
+	<!-- Twitter social card -->
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:title" content="Inertia energy balance management system">
+	<meta name="twitter:description" content="Inertia, a European project establishing an energy balance management system.">
+	<meta name="twitter:image" content="https://crownstone.rocks/images/crownstone-social-card.jpg">
+	<meta name="twitter:image:width" content="240">
+	<meta name="twitter:image:height" content="240">
+    <!-- Open graph social card -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Inertia energy balance management system">
+    <meta property="og:url" content="https://crownstone.rocks/2016/01/28/inertia-energy-balance-management-system">
+    <meta property="og:image" content="https://crownstone.rocks/images/crownstone-social-card.jpg">
+    <meta property="og:image:secure_url" content="https://crownstone.rocks/images/crownstone-social-card.jpg">
+    <meta property="og:description" content="Inertia, a European project establishing an energy balance management system.">
+    <meta property="og:site_name" content="Crownstone">
+    <!-- Bootstrap as framework -->
+    <link href="/assets/themes/flat/resources/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/assets/themes/flat/css/crownstone-global.css" rel="stylesheet">
+    <link href="/assets/themes/flat/css/elusive-icons.min.css" rel="stylesheet">
+    <link href="/assets/themes/flat/css/syntax.css" rel="stylesheet">
+    <!-- 
+    <link href="/assets/themes/flat/css/elusive-webfont.css" rel="stylesheet"> 
+    -->
+    <!--[if lt IE 9]>
+        <script src="/assets/themes/flat/resources/respond/Respond.min.js"></script>
+    <![endif]-->
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <!--[if gt IE 9]>
+    <link href="./bootstrap/css/ie10-viewport-bug-workaround.css" rel="stylesheet"> 
+    <![endif]-->
+    <link href="/atom.xml" type="application/atom+xml" rel="alternate" title="Sitewide ATOM Feed">
+    <link href="/rss.xml" type="application/rss+xml" rel="alternate" title="Sitewide RSS Feed">
+    
+
+    
+    
+    
+</head>
+
+<body>
+
+   <nav class="navbar navbar-light navbar-expand-lg">
+      <div class="container navContainer">
+         <img class="navbar-brand topLogo xs img-responsive" src="/images/apple-touch-icon-114x114.png" alt="">
+         <div class="crownstoneText d-block d-lg-none">Crownstone</div>
+
+         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarContents" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+         </button>
+
+         <div class="collapse navbar-collapse" id="navbarContents">
+            <ul class="navbar-nav">
+                                                                                                             
+				<li class="nav-item inactive "><a href="/" class="nav-link">Welcome</a></li>
+                       
+
+               
+
+
+
+<li class="nav-item dropdown">
+    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        Smart Home
+    </a>
+    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink" style="z-index: 1001; padding: 0;">
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+       
+          <a class="dropdown-item inactive " href="/product/" style="background-color: transparent;">Product</a>
+          
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+       
+          <a class="dropdown-item inactive " href="/scenarios/" style="background-color: transparent;">Scenarios</a>
+          
+      
+     
+    
+     
+      
+       
+          <a class="dropdown-item inactive " href="/works-with/" style="background-color: transparent;">Works with</a>
+          
+      
+     
+    
+     
+      
+     
+    
+     
+      
+       
+          <a class="dropdown-item inactive " href="/installation/" style="background-color: transparent;">Installation</a>
+          
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+    
+     
+      
+     
+    
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+    </div>
+</li>
+
+
+               
+
+
+
+<li class="nav-item dropdown">
+    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        
+         Business
+        
+    </a>
+    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink" style="z-index: 1001; padding: 0;">
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+       
+          <a class="dropdown-item inactive " href="/business/oem/" style="background-color: transparent;">OEM</a>
+          
+      
+     
+    
+     
+      
+     
+    
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+       
+          <a class="dropdown-item inactive " href="/business/residential-real-estate/" style="background-color: transparent;">Real Estate</a>
+          
+      
+     
+    
+     
+    
+     
+      
+       
+          <a class="dropdown-item inactive " href="/business/indoor-positioning" style="background-color: transparent;">Indoor Positioning</a>
+          
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+       
+          <a class="dropdown-item inactive " href="/business/asset-tracking" style="background-color: transparent;">Asset Tracking</a>
+          
+      
+     
+    
+     
+      
+     
+    
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+       
+          <a class="dropdown-item inactive " href="/business/energy-monitoring" style="background-color: transparent;">Energy Monitoring</a>
+          
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+    
+     
+      
+     
+    
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+    </div>
+</li>
+
+
+               
+
+
+
+<li class="nav-item dropdown">
+    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        
+        About us
+        
+    </a>
+    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink" style="z-index: 1001; padding: 0;">
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+       
+          <a class="dropdown-item inactive " href="/about-us/" style="background-color: transparent;">Crownstone</a>
+          
+      
+     
+    
+     
+    
+     
+      
+       
+          <a class="dropdown-item inactive " href="/jobs/" style="background-color: transparent;">Jobs</a>
+          
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+    
+     
+      
+     
+    
+     
+      
+       
+          <a class="dropdown-item inactive " href="/internships/" style="background-color: transparent;">Internships</a>
+          
+      
+     
+    
+     
+      
+       
+          <a class="dropdown-item inactive " href="/team/" style="background-color: transparent;">Team</a>
+          
+      
+     
+    
+     
+      
+     
+    
+     
+      
+       
+          <a class="dropdown-item inactive " href="/blog/" style="background-color: transparent;">Blog</a>
+          
+      
+     
+    
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+    
+     
+      
+     
+    
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+       
+          <a class="dropdown-item inactive " href="/investors/" style="background-color: transparent;">Investors</a>
+          
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+    </div>
+</li>
+
+
+               
+				<li class="nav-item inactive "><a href="/where-to-buy/" class="nav-link">Where to buy</a></li>
+				<li class="nav-item inactive "><a href="/support/" class="nav-link">Support</a></li>
+
+            </ul>
+
+            <ul class="navbar-nav mr-right">
+               
+<li class="nav-item">
+	
+	
+	<!-- note the space before nav-url, without it polyglot will relativize it: https://github.com/untra/polyglot -->
+	<a style="font-weight: bold;" href=" https://crownstone.rocks/2016/01/28/inertia-energy-balance-management-system" class="nav-link lang-menu" style="border-bottom: 2px solid white">en</a>
+</li>
+
+<li class="nav-item">
+	
+	
+	<!-- note the space before nav-url, without it polyglot will relativize it: https://github.com/untra/polyglot -->
+	<a  href=" https://crownstone.rocks/nl/2016/01/28/inertia-energy-balance-management-system" class="nav-link lang-menu" style="border-bottom: 2px solid white">nl</a>
+</li>
+
+               
+          	<li class="nav-item"><a href="/search/" class="nav-link active"><i class="el el-search"></i></a></li>
+
+            </ul>
+         </div>
+      </div>
+   </nav>
+
+
+
+
+
+
+
+
+
+
+<div class="container-fluid post-container">
+	<div class="container">
+		<div class="row post-full">
+			<div class="col-md-12">
+				
+				<div class="date d-none d-lg-block">
+					<strong class="date_month">Jan</strong>
+					<strong class="date_day">28</strong>
+					<strong class="date_year">2016</strong>
+				</div>
+				
+				
+				<div class="post">
+					<div class="content">
+						
+<h1 id="header-load-balancing-on-the-grid">Load-balancing on the grid</h1>
+
+<p><a href="http://www.inertia-project.eu/inertia/">Inertia</a> is an FP7 project that aims at expressing local energy use/production elasticity in a negotiation system that utilizes the published “flexibility” (=elasticity) to produce a balanced load to the energy production counterpart. The focus of the project is tertiary buildings, but the system is just as useful for any built environment and facilitates the changeover to more local production of electricity by home-owners and facilities alike.</p>
+
+<p>Flexibility can be aggregated from the level of a controlled light upto a complete set of buildings, and is expressed in four main categories to guard against too much privacy loss. The categories are:</p>
+
+<ul>
+  <li>HVAC (thermal and air comfort),</li>
+  <li>lighting,</li>
+  <li>RES (=Renewable Energy Resources) and</li>
+  <li>other.</li>
+</ul>
+
+<p>The last category includes coffee machines, dish washers, etc. to make sure it all adds up.</p>
+
+<p>By providing a short horizon forecast on individual LCH level and a combined forecast of upto 12 hours for an MV-point the energy provider is assured a much more accurate figure upon which to base his production and or buying decisions. The MV-point aggregated level in the system is called the aggregator control hub and is the control system that coordinates an entire set of LCH’s that for the full load of an MV-point (Medium Voltage). In general an MV-point is between 0.5 and 2 MW.</p>
+
+<p><img src="https://crownstone.rocks/attachments/inertia1.png" alt="Switch loads" title="Switch loads to create a steady aggregated loads" /></p>
+
+<p>The experiments we have done have shown that the ability to switch loads in ms allows for a very steady aggregated load (see fig 1), The LCH’s can be instructed to use their control limits in such a way that they fulfill as much as possible their own predicted energy load. It is important to understand that load differs from energy consumption, as consumption is calculated over larger periods, which would still allow for large variations in load. These variations however are very detsabilizing for smaller subgrids with large contributions from locally generated energy such as PV and wind. The very fast reaction times of below 10ms and the tiered availability of flexibility both inside the LCH and between these LCH’s as facilitated by the ACH, are able to counteract the natural fluctuations that come with the use of PV and wind.</p>
+
+<p><img src="https://crownstone.rocks/attachments/inertia2.png" alt="Under noise" title="Heavy noise from random user events" /></p>
+
+<p>To illustrate the effectivity we have created the possibility to introduce random user events up to a scale that is normally impossible for humans to realize. (see fig 2).</p>
+
+<p>The aggregated flexibility of the well behaved LCH’s is easily enough to compensate (fig 3)</p>
+
+<p><img src="https://crownstone.rocks/attachments/inertia3.png" alt="Aggregated flexibility" title="Aggregated flexibility" /></p>
+
+<p>We are more than happy to elaborate on the principles on your request 8-) and apologies for the rapid introduction of a lot of jargon…</p>
+
+<p>Oh yeah: The links on the page allow for accessing the APIs of the different LCH’s at a bus. A bus is identical to a single MV-point. As you can see I have used different buses to illustrate the behaviour.
+All of the LCH’s in all buses are at the bottom of the page.</p>
+
+
+					</div>
+					
+					<div class="d-lg-none">
+						<div class="text-date">
+							<p>28 January 2016</p> 
+						</div>
+					</div>
+
+					
+		
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-12">
+
+					
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="container-fluid post-footer">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6">
+					<ul class="pagination">
+						
+						<li class="page-item prev"><a class="page-link" href="/2015/09/04/recognize-that-fridge" title="Recognize that fridge!">&larr; Previous</a></li>
+						
+						<li class="page-item"><a class="page-link" href="/blog">Archive</a></li>
+						
+						<li class="page-item next"><a class="page-link" href="/2016/04/20/dimming-random-devices-with-the-crownstone" title="Dimming random devices with the Crownstone">Next &rarr;</a></li>
+						
+					</ul>
+			</div>
+			<div class="col-md-6">
+
+					<div class="social-button-footer">
+						<p>
+						<a class="btn btn-social-icon btn-twitter" href="http://twitter.com/intent/tweet?url=https://crownstone.rocks/2016/01/28/inertia-energy-balance-management-system&text=Inertia energy balance management system"><i class="el el-twitter"></i></a>
+						<a class="btn btn-social-icon btn-facebook" href="http://facebook.com/sharer.php?u=https://crownstone.rocks/2016/01/28/inertia-energy-balance-management-system"><i class="el el-facebook"></i></a>
+						<a class="btn btn-social-icon btn-googleplus" href="https://plus.google.com/share?url=https://crownstone.rocks/2016/01/28/inertia-energy-balance-management-system"><i class="el el-googleplus"></i></a>
+						<a class="btn btn-social-icon btn-linkedin" href="https://www.linkedin.com/shareArticle?mini=true&url=https://crownstone.rocks/2016/01/28/inertia-energy-balance-management-system"><i class="el el-linkedin"></i></a>
+						<a class="btn btn-social-icon btn-reddit" href="http://reddit.com/submit?url=https://crownstone.rocks/2016/01/28/inertia-energy-balance-management-system&title=Inertia energy balance management system"><i class="el el-reddit"></i></a>
+						<a class="btn btn-social-icon btn-hackernews" href="https://news.ycombinator.com/submitlink?u=https://crownstone.rocks/2016/01/28/inertia-energy-balance-management-system&t=Inertia energy balance management system"><strong>Y</strong></a>
+						</p>
+					</div>
+
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-md-12">
+					
+
+
+  <div id="disqus_thread">
+	<div class="disqus_block">
+		<p>
+			<a href="#" onclick="disqus();return false;"><i class="el el-group"></i> Show Comments</a>
+		</p>
+		<p>
+			(not shown automatically to support your privacy)
+		</p>
+	</div>
+</div>
+
+<script type="text/javascript">
+	var disqus_shortname = 'crownstone'; 
+	var disqus_loaded = false;
+	// load disqus comments only on demand
+	function disqus() {
+
+	  if (!disqus_loaded)  {
+		var e = document.createElement("script");
+		e.type = "text/javascript";
+		e.async = true;
+		e.src = "//" + disqus_shortname + ".disqus.com/embed.js";
+		(document.getElementsByTagName("head")[0] ||
+		 document.getElementsByTagName("body")[0])
+		.appendChild(e);
+	  }
+	}
+</script>
+
+
+
+
+
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+
+
+
+<div class="container-fluid gray-bg">
+    <div class="row justify-content-center">
+        <div class="col-xl-6">
+            <p class="newsletter-text">
+                
+                Be the first to hear about Crownstone's newest features!
+                
+            </p>
+            <div class="newsletter bottom">
+            	<div class="wrapper">
+            		<form action="//rocks.us10.list-manage.com/subscribe/post?u=d03baf337210e326a61dc14d5&id=a23d3e9ded" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" target="_blank">
+            			<label for="Email" class="newsletter__label hidden-label">Sign up to our mailing list</label>
+            			<div class="input-group">
+            			    
+                            <input type="email" value="" placeholder="New things to learn and read!" name="EMAIL" id="Email" class="input-group-field newsletter__input" autocorrect="off" autocapitalize="off">
+                            
+            				<span class="input-group-btn">
+            					<button type="submit" class="btn newsletter__submit" name="subscribe" id="Subscribe">
+            					
+            					<span class="newsletter__submit-text--large">I like!</span>
+            					
+            					<span class="newsletter__submit-text--small">→</span>
+            					</button>
+            				</span>
+            			</div>
+            		</form>
+            	</div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="footer">
+    <br />
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-1"></div>
+            <div class="col-sm-10">
+                <div class="row">
+                    <div class="col-sm-4 text-center">
+                        <p style="text-align: center; font-family: Lato, sans-serif; font-size: 1rem; font-style: italic; font-weight: bold; color: white; width: 100%; padding: 1.2rem 0; margin: 0;">
+                            CUSTOMER
+                        </p>
+                        <div style="display:inline-block;">
+                            <ul class="list-unstyled">
+                                
+      	    <li><a href="/" class='footer-text-element' style="text-align: center !important; align-self: center; font-family: Lato, sans-serif; font-size: 0.9rem; font-style: italic; padding: 0; color:#dddddd !important; text-decoration: none">Welcome</a></li>
+      	    <li><a href="/product/" class='footer-text-element' style="text-align: center !important; align-self: center; font-family: Lato, sans-serif; font-size: 0.9rem; font-style: italic; padding: 0; color:#dddddd !important; text-decoration: none">Product</a></li>
+      	    <li><a href="/scenarios/" class='footer-text-element' style="text-align: center !important; align-self: center; font-family: Lato, sans-serif; font-size: 0.9rem; font-style: italic; padding: 0; color:#dddddd !important; text-decoration: none">Scenarios</a></li>
+      	    <li><a href="/works-with/" class='footer-text-element' style="text-align: center !important; align-self: center; font-family: Lato, sans-serif; font-size: 0.9rem; font-style: italic; padding: 0; color:#dddddd !important; text-decoration: none">Works with</a></li>
+      	    <li><a href="/installation/" class='footer-text-element' style="text-align: center !important; align-self: center; font-family: Lato, sans-serif; font-size: 0.9rem; font-style: italic; padding: 0; color:#dddddd !important; text-decoration: none">Installation</a></li>
+                                
+                            </ul>
+                        </div>
+
+                        <p style="text-align: center; font-family: Lato, sans-serif; font-size: 1rem; font-style: italic; font-weight: bold; color: white; width: 100%; padding: 1.2rem 0; margin: 0;">
+                            ABOUT US
+                        </p>
+                        <div style="display:inline-block;">
+                            <ul class="list-unstyled">
+                                
+      	    <li><a href="/about-us/" class='footer-text-element' style="text-align: center !important; align-self: center; font-family: Lato, sans-serif; font-size: 0.9rem; font-style: italic; padding: 0; color:#dddddd !important; text-decoration: none">Crownstone</a></li>
+      	    <li><a href="/jobs/" class='footer-text-element' style="text-align: center !important; align-self: center; font-family: Lato, sans-serif; font-size: 0.9rem; font-style: italic; padding: 0; color:#dddddd !important; text-decoration: none">Jobs</a></li>
+      	    <li><a href="/internships/" class='footer-text-element' style="text-align: center !important; align-self: center; font-family: Lato, sans-serif; font-size: 0.9rem; font-style: italic; padding: 0; color:#dddddd !important; text-decoration: none">Internships</a></li>
+      	    <li><a href="/team/" class='footer-text-element' style="text-align: center !important; align-self: center; font-family: Lato, sans-serif; font-size: 0.9rem; font-style: italic; padding: 0; color:#dddddd !important; text-decoration: none">Team</a></li>
+      	    <li><a href="/investors/" class='footer-text-element' style="text-align: center !important; align-self: center; font-family: Lato, sans-serif; font-size: 0.9rem; font-style: italic; padding: 0; color:#dddddd !important; text-decoration: none">Investors</a></li>
+                                
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-4 text-center">
+                        <p style="text-align: center; font-family: Lato, sans-serif; font-size: 1rem; font-style: italic; font-weight: bold; color: white; width: 100%; padding: 1.2rem 0; margin: 0;">
+                            B2B
+                        </p>
+                        <div style="display:inline-block;">
+                            <ul class="list-unstyled">
+                                
+      	    <li><a href="/business/oem/" class='footer-text-element' style="text-align: center !important; align-self: center; font-family: Lato, sans-serif; font-size: 0.9rem; font-style: italic; padding: 0; color:#dddddd !important; text-decoration: none">OEM</a></li>
+      	    <li><a href="/business/residential-real-estate/" class='footer-text-element' style="text-align: center !important; align-self: center; font-family: Lato, sans-serif; font-size: 0.9rem; font-style: italic; padding: 0; color:#dddddd !important; text-decoration: none">Real Estate Developers</a></li>
+      	    <li><a href="/business/" class='footer-text-element' style="text-align: center !important; align-self: center; font-family: Lato, sans-serif; font-size: 0.9rem; font-style: italic; padding: 0; color:#dddddd !important; text-decoration: none">Use Cases</a></li>
+      	    <li><a href="/business/developers/" class='footer-text-element' style="text-align: center !important; align-self: center; font-family: Lato, sans-serif; font-size: 0.9rem; font-style: italic; padding: 0; color:#dddddd !important; text-decoration: none">Developers</a></li>
+      	    <li><a href="/business/data/" class='footer-text-element' style="text-align: center !important; align-self: center; font-family: Lato, sans-serif; font-size: 0.9rem; font-style: italic; padding: 0; color:#dddddd !important; text-decoration: none">Internet of Things</a></li>
+      	    <li><a href="/infrastructure/" class='footer-text-element' style="text-align: center !important; align-self: center; font-family: Lato, sans-serif; font-size: 0.9rem; font-style: italic; padding: 0; color:#dddddd !important; text-decoration: none">Infrastructure</a></li>
+                                
+                            </ul>
+                        </div>
+                        <p style="text-align: center; font-family: Lato, sans-serif; font-size: 1rem; font-style: italic; font-weight: bold; color: white; width: 100%; padding: 1.2rem 0; margin: 0;">
+                            NEWS
+                        </p>
+                        <div style="display:inline-block;">
+                            <ul class="list-unstyled">
+                                
+      	    <li><a href="/email-updates/" class='footer-text-element' style="text-align: center !important; align-self: center; font-family: Lato, sans-serif; font-size: 0.9rem; font-style: italic; padding: 0; color:#dddddd !important; text-decoration: none">Fun Newsletter!</a></li>
+                                
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-4 text-center">
+                        <p style="text-align: center; font-family: Lato, sans-serif; font-size: 1rem; font-style: italic; font-weight: bold; color: white; width: 100%; padding: 1.2rem 0; margin: 0;">
+                            ORDER
+                        </p>
+                        <div style="display:inline-block;" >
+                            <ul class="list-unstyled" style="text-align: left; margin-bottom:0 !important;">
+                                <a href="https://shop.crownstone.rocks?launch=en&ref=http://crownstone.rocks/en/2016/01/28/inertia-energy-balance-management-system" class="footer-text-element" style="text-align: left !important; align-self: center; font-family: Lato, sans-serif; font-size: 0.9rem; font-style: italic; padding: 0; color:#dddddd !important; text-decoration: none">
+                                    <i class="el el-shopping-cart mr-2"></i>
+                                    
+                                    Webshop
+                                    
+                                </a>
+                            </ul>
+
+                            <ul class="list-unstyled" style="text-align: left">
+                                <a href="https://subscribe.crownstone.rocks/welcome?launch=en&ref=http://crownstone.rocks/en/2016/01/28/inertia-energy-balance-management-system&loc=footer" class="footer-text-element" style="text-align: left !important; align-self: center; font-family: Lato, sans-serif; font-size: 0.9rem; font-style: italic; padding: 0; color:#dddddd !important; text-decoration: none">
+                                    <i class="el el-person mr-2"></i>
+                                    
+                                    Subscription
+                                    
+                                </a>
+                            </ul>
+                        </div>
+
+                        <p style="text-align: center; font-family: Lato, sans-serif; font-size: 1rem; font-style: italic; font-weight: bold; color: white; width: 100%; padding: 1.2rem 0; margin: 0;">
+                            CONTACT
+                        </p>
+                        <div style="display:inline-block;">
+                            <ul class="list-unstyled" style="text-align: left">
+<!--                                <li>-->
+<!--                                    <script type="text/javascript">/*<![CDATA[*/var a=new Array(".rocks", "stone", "crown", "@", "sk", "a");document.write("<a href='mailto:");for(i=a.length-1;i>=0;i&#45;&#45;){document.write(a[i])}document.write("?subject=Get in contact' class='footer-text-element' style=\"text-align: center !important; align-self: center; font-family: Lato, sans-serif; font-size: 0.9rem; font-style: italic; padding: 0; color:#dddddd !important; text-decoration: none\"><i class='el el-envelope footer'></i>Email us!</a>");/*]]>*/</script>-->
+<!--                                    <noscript><i class="el el-envelope footer"></i>Email team@...</noscript>-->
+<!--                                </li>-->
+                                <li>
+                                    <a href="https://crownstone.rocks/contact" class="footer-text-element" style="text-align: center !important; align-self: center; font-family: Lato, sans-serif; font-size: 0.9rem; font-style: italic; padding: 0; color:#dddddd !important; text-decoration: none">
+                                        <i class="el el-group footer"></i>Contact us
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="https://crownstone.rocks/privacy-policy" class="footer-text-element" style="text-align: center !important; align-self: center; font-family: Lato, sans-serif; font-size: 0.9rem; font-style: italic; padding: 0; color:#dddddd !important; text-decoration: none">
+                                        <i class="el el-ok footer"></i>Privacy
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://crownstone.rocks/presskit" class="footer-text-element" style="text-align: center !important; align-self: center; font-family: Lato, sans-serif; font-size: 0.9rem; font-style: italic; padding: 0; color:#dddddd !important; text-decoration: none">
+                                        <i class="el el-idea footer"></i>Press
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-1"></div>
+        </div>
+        <br/>
+
+        <!--   SOCIAL MEDIA     -->
+        <div class="row footer-container" style="justify-content: space-around; padding: 3rem;">
+            <div class="col-md-6">
+                <div class="row align-items-center">
+                    <div class="col social-media-icons-container">
+                        <a href="https://www.facebook.com/crownstones/" target="_blank" class="footer-social-media-icons" style="text-align: center; color: lightgray; font-size: 2rem; margin: 0; padding: 0;"><i class="el el-facebook"></i></a>
+                    </div>
+
+                    <div class="col social-media-icons-container">
+                        <a href="https://twitter.com/CrownstoneRocks" target="_blank" class="footer-social-media-icons" style="text-align: center; color: lightgray; font-size: 2rem; margin: 0; padding: 0;"><i class="el el-twitter"></i></a>
+                    </div>
+
+                    <div class="col social-media-icons-container">
+                        <a href="https://discord.gg/zPhesU2CZv" target="_blank" class="footer-social-media-icons" style="text-align: center; color: lightgray; font-size: 2rem; margin: 0; padding: 0;"> <img src="/images/contact/discord-gray.svg" alt="discord-icon" style="min-width: 50px; width: 50%"> </a>
+                    </div>
+
+                    <div class="col social-media-icons-container">
+                        <a href="https://www.youtube.com/channel/UCru1PX6P1JyhsI-OEMXnBdg" target="_blank" class="footer-social-media-icons" style="text-align: center; color: lightgray; font-size: 2rem; margin: 0; padding: 0;"><i class="el el-youtube"></i></a>
+                    </div>
+
+                    <div class="col social-media-icons-container">
+                        <a href="https://www.linkedin.com/company/crownstone" target="_blank" class="footer-social-media-icons"><i class="el el-linkedin" style="text-align: center; color: lightgray; font-size: 2rem; margin: 0; padding: 0;"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12 text-center colofon">
+               <div class="accent" style="margin: 0;">Crownstone</div>
+               <p style="margin: 0;">Stationsplein 45 d1.118</p>
+               <p style="margin: 0;">3013 AK Rotterdam, The Netherlands</p>
+               <p style="margin: 0;">0031103073955 / 010-3073955</p>
+               <br/>
+               <p style="margin: 0;">
+                  This site uses external services. Cookies for the webshop (<a href="https://www.shopify.com/legal/cookies" class="link-footer">cookie policy</a>).
+               </p>
+            </div>
+        </div>
+    </div>
+    <br />
+</div>
+
+
+<script async defer src="https://cdn.simpleanalytics.io/hello.js"></script>
+<noscript><img src="https://api.simpleanalytics.io/hello.gif" alt=""></noscript>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-17146802-16', 'auto');
+  ga('set', 'allowAdFeatures', false);
+  ga('send', 'pageview');
+</script>
+
+
+
+<!-- in debug mode, Google Chrome complains about .map files, do not worry -->                    
+<script type="text/javascript" src="/assets/themes/flat/resources/jquery/jquery-3.3.1.min.js"></script>
+<script type="text/javascript" src="/assets/themes/flat/resources/bootstrap/js/bootstrap.min.js"></script>
+<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+<!--[if gt IE 9]>
+<script type="text/javascript" src="/assets/themes/flat/resources/bootstrap/js/ie10-viewport-bug-workaround.js"></script>
+<![endif]-->
+
+
+</body>
+</html>
+

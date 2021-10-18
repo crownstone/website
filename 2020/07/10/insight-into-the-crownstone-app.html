@@ -1,0 +1,1760 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    
+
+    <meta name="description" content="The Crownstone app is designed to give you a warm welcome to home automation. It is a very intuitive app that guides you along the whole journey and gives you a lot of flexibility to create the scenarios you need to automate your home.">
+
+    
+
+    
+
+    <meta name="keywords" content="smart home, automation, smart home app, smart home, smart homes, domotica, smart plug, home automation, power plug, gadgets, apple, open-source, raspberry pi, smart outlet, smart switch, arduino, alexa, amazon echo, nest, toon, philips hue, homewizard, fibaro, klik-aan-klik-uit, energy savings, comfort">
+    
+    <meta name="author" content="Crownstone B.V.">
+    <link rel="icon" type="image/x-icon" href="https://crownstone.rocks/images/favicon.ico?">
+    <link rel="apple-touch-icon" href="https://crownstone.rocks/images/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="https://crownstone.rocks/images/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="https://crownstone.rocks/images/apple-touch-icon-114x114.png">
+
+    <meta name="theme-color" content="#ff8400">
+    <meta name="msapplication-navbutton-color" content="#ff8400">
+    <meta name="apple-mobile-web-app-status-bar-style" content="#ff8400">
+
+    <meta http-equiv="Content-Language" content="en">
+<link rel="alternate" hreflang="en" href="https://crownstone.rocks/2020/07/10/insight-into-the-crownstone-app"/>
+<link rel="alternate" hreflang="nl" href="https://crownstone.rocks/nl/2020/07/10/insight-into-the-crownstone-app"/>
+
+
+    <meta name="google-site-verification" content="qsSndPwnJ3H5zpj9z6ZvY-r4WnvSpMBe5QchxVbIWvw" />
+
+    
+    <title>Crownstone | Insight into the Crownstone App.</title>
+	<!-- Twitter social card -->
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:title" content="Insight into the Crownstone App.">
+	<meta name="twitter:description" content="The Crownstone app is designed to give you a warm welcome to home automation. It is a very intuitive app that guides you along the whole journey and gives you a lot of flexibility to create the scenarios you need to automate your home.">
+	<meta name="twitter:image" content="https://crownstone.rocks/attachments/blog/crownstone_app2.jpg">
+	<meta name="twitter:image:width" content="240">
+	<meta name="twitter:image:height" content="240">
+    <!-- Open graph social card -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Insight into the Crownstone App.">
+    <meta property="og:url" content="https://crownstone.rocks/2020/07/10/insight-into-the-crownstone-app">
+    <meta property="og:image" content="https://crownstone.rocks/attachments/blog/crownstone_app2.jpg">
+    <meta property="og:image:secure_url" content="https://crownstone.rocks/attachments/blog/crownstone_app2.jpg">
+    <meta property="og:description" content="The Crownstone app is designed to give you a warm welcome to home automation. It is a very intuitive app that guides you along the whole journey and gives you a lot of flexibility to create the scenarios you need to automate your home.">
+    <meta property="og:site_name" content="Crownstone">
+    <!-- Bootstrap as framework -->
+    <link href="/assets/themes/flat/resources/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/assets/themes/flat/css/crownstone-global.css" rel="stylesheet">
+    <link href="/assets/themes/flat/css/elusive-icons.min.css" rel="stylesheet">
+    <link href="/assets/themes/flat/css/syntax.css" rel="stylesheet">
+    <!-- 
+    <link href="/assets/themes/flat/css/elusive-webfont.css" rel="stylesheet"> 
+    -->
+    <!--[if lt IE 9]>
+        <script src="/assets/themes/flat/resources/respond/Respond.min.js"></script>
+    <![endif]-->
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <!--[if gt IE 9]>
+    <link href="./bootstrap/css/ie10-viewport-bug-workaround.css" rel="stylesheet"> 
+    <![endif]-->
+    <link href="/atom.xml" type="application/atom+xml" rel="alternate" title="Sitewide ATOM Feed">
+    <link href="/rss.xml" type="application/rss+xml" rel="alternate" title="Sitewide RSS Feed">
+    
+
+    
+    
+    
+</head>
+
+<body>
+
+   <nav class="navbar navbar-light navbar-expand-lg">
+      <div class="container navContainer">
+         <img class="navbar-brand topLogo xs img-responsive" src="/images/apple-touch-icon-114x114.png" alt="">
+         <div class="crownstoneText d-block d-lg-none">Crownstone</div>
+
+         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarContents" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+         </button>
+
+         <div class="collapse navbar-collapse" id="navbarContents">
+            <ul class="navbar-nav">
+                                                                                                             
+				<li class="nav-item inactive "><a href="/" class="nav-link">Welcome</a></li>
+                       
+
+               
+
+
+
+<li class="nav-item dropdown">
+    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        Smart Home
+    </a>
+    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink" style="z-index: 1001; padding: 0;">
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+       
+          <a class="dropdown-item inactive " href="/product/" style="background-color: transparent;">Product</a>
+          
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+       
+          <a class="dropdown-item inactive " href="/scenarios/" style="background-color: transparent;">Scenarios</a>
+          
+      
+     
+    
+     
+      
+       
+          <a class="dropdown-item inactive " href="/works-with/" style="background-color: transparent;">Works with</a>
+          
+      
+     
+    
+     
+      
+     
+    
+     
+      
+       
+          <a class="dropdown-item inactive " href="/installation/" style="background-color: transparent;">Installation</a>
+          
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+    
+     
+      
+     
+    
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+    </div>
+</li>
+
+
+               
+
+
+
+<li class="nav-item dropdown">
+    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        
+         Business
+        
+    </a>
+    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink" style="z-index: 1001; padding: 0;">
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+       
+          <a class="dropdown-item inactive " href="/business/oem/" style="background-color: transparent;">OEM</a>
+          
+      
+     
+    
+     
+      
+     
+    
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+       
+          <a class="dropdown-item inactive " href="/business/residential-real-estate/" style="background-color: transparent;">Real Estate</a>
+          
+      
+     
+    
+     
+    
+     
+      
+       
+          <a class="dropdown-item inactive " href="/business/indoor-positioning" style="background-color: transparent;">Indoor Positioning</a>
+          
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+       
+          <a class="dropdown-item inactive " href="/business/asset-tracking" style="background-color: transparent;">Asset Tracking</a>
+          
+      
+     
+    
+     
+      
+     
+    
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+       
+          <a class="dropdown-item inactive " href="/business/energy-monitoring" style="background-color: transparent;">Energy Monitoring</a>
+          
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+    
+     
+      
+     
+    
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+    </div>
+</li>
+
+
+               
+
+
+
+<li class="nav-item dropdown">
+    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        
+        About us
+        
+    </a>
+    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink" style="z-index: 1001; padding: 0;">
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+       
+          <a class="dropdown-item inactive " href="/about-us/" style="background-color: transparent;">Crownstone</a>
+          
+      
+     
+    
+     
+    
+     
+      
+       
+          <a class="dropdown-item inactive " href="/jobs/" style="background-color: transparent;">Jobs</a>
+          
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+    
+     
+      
+     
+    
+     
+      
+       
+          <a class="dropdown-item inactive " href="/internships/" style="background-color: transparent;">Internships</a>
+          
+      
+     
+    
+     
+      
+       
+          <a class="dropdown-item inactive " href="/team/" style="background-color: transparent;">Team</a>
+          
+      
+     
+    
+     
+      
+     
+    
+     
+      
+       
+          <a class="dropdown-item inactive " href="/blog/" style="background-color: transparent;">Blog</a>
+          
+      
+     
+    
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+    
+     
+      
+     
+    
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+       
+          <a class="dropdown-item inactive " href="/investors/" style="background-color: transparent;">Investors</a>
+          
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+    </div>
+</li>
+
+
+               
+				<li class="nav-item inactive "><a href="/where-to-buy/" class="nav-link">Where to buy</a></li>
+				<li class="nav-item inactive "><a href="/support/" class="nav-link">Support</a></li>
+
+            </ul>
+
+            <ul class="navbar-nav mr-right">
+               
+<li class="nav-item">
+	
+	
+	<!-- note the space before nav-url, without it polyglot will relativize it: https://github.com/untra/polyglot -->
+	<a style="font-weight: bold;" href=" https://crownstone.rocks/2020/07/10/insight-into-the-crownstone-app" class="nav-link lang-menu" style="border-bottom: 2px solid white">en</a>
+</li>
+
+<li class="nav-item">
+	
+	
+	<!-- note the space before nav-url, without it polyglot will relativize it: https://github.com/untra/polyglot -->
+	<a  href=" https://crownstone.rocks/nl/2020/07/10/insight-into-the-crownstone-app" class="nav-link lang-menu" style="border-bottom: 2px solid white">nl</a>
+</li>
+
+               
+          	<li class="nav-item"><a href="/search/" class="nav-link active"><i class="el el-search"></i></a></li>
+
+            </ul>
+         </div>
+      </div>
+   </nav>
+
+
+
+
+
+
+
+
+
+
+<div class="container-fluid post-container">
+	<div class="container">
+		<div class="row post-full">
+			<div class="col-md-12">
+				
+				<div class="date d-none d-lg-block">
+					<strong class="date_month">Jul</strong>
+					<strong class="date_day">10</strong>
+					<strong class="date_year">2020</strong>
+				</div>
+				
+				
+				<div class="post">
+					<div class="content">
+						
+<h1 id="header-insight-into-the-crownstone-app">Insight into the Crownstone app</h1>
+
+<p>In our <a href="https://crownstone.rocks/2020/07/01/the-magic-of-crownstone-scenarios">previous post</a> we started using the Crownstone app by creating scenarios for our home, so it can automatically do things for us based on our wishes. We introduced the concept of <strong>“sphere”</strong> used in the Crownstone app. This sphere can be for example our house, in which we can group our Crownstones in rooms such as the living room, the bathroom, the bedroom, etc. We also mentioned that after <strong>training</strong> our crownstones, they will be able to recognize when we enter or leave a room. Awesome, isn’t it? When creating our first two scenarios to automate our home, we used the Crownstone app and experienced how simple and straightforward this process can be. Now, we will provide some basics of the Crowstone app and compare it with other smart home apps, so we can let you know why we are proud of our app. Here we go!</p>
+
+<p><img src="https://crownstone.rocks/attachments/blog/crownstone_app2.jpg" alt="Crownstone app" /></p>
+
+<h1 id="header-the-basics">The basics</h1>
+
+<p><img src="https://crownstone.rocks/attachments/blog/crownstone_app1.jpg" alt="Crownstone app" class="float-right" style="max-width: 250px" /></p>
+
+<p>First of all, the Crownstone app is designed to give you a warm welcome to home automation. We wanted it to be a very intuitive app that guides you along the journey and gives you lots of <strong>flexibility</strong> to create the scenarios to automate your home. It lets you add as many rooms to your sphere as you want, add Crowntones to your rooms, add behaviours to every Crownstone, invite more people to your sphere, create scenes (setting multiple Crownstones into a specific behaviour with a single tap), check the real time power usage of each Crownstone, add behaviour to your wall switches, etc. The app  is meant to help you to set up your Crownstones in a very easy way while giving you plenty of room to <strong>personalize</strong> the behaviour of every Crownstone in your home. We know each of us have different needs and preferences, and that’s why our app’s logic tries to cover different possibilities and considers various situations. In this sense, Crownstone app provides you not only with three types of behaviours (i.e. presence aware, smart timer and twilight mode), but also with additional features such as: energy monitoring, scenes, etc. so you can have a good start to automate your home.</p>
+
+<p>We want our users to create <strong>scenarios</strong> and let their home react to them instead of using their smartphone like a remote control for their lights of devices. We believe that a truly smart home has the ability not only to save <strong>energy</strong>, but also to save user’s valuable <strong>time</strong>. We prefer our users to be relaxing on the couch with a nice cup of coffee, rather than clicking everywhere on the app to turn the lights on/off. Of course, there might be situations where we need to grab our phone and change the brightness of a lamp, because it is darker than normal. Or maybe we are enjoying a special dinner and we want to create a romantic atmosphere, dimming the lights down low  and turning on some colorful LED  lights. We’ve got your back! The Crownstone app will let you make any change you want in a very easy and fast way.
+<img src="https://crownstone.rocks/attachments/blog/crownstone_app3.jpg" alt="Crownstone app" /></p>
+
+<h1 id="header-what-do-we-do-better">What do we do better?</h1>
+
+<p>When buying a new dimmer, a smart light, a motion sensor, etc. it is always important to check how well the <strong>app</strong> that comes together with that hardware works. Maybe the smart lights you want to buy have nice colors and look very fancy or maybe the dimmer that you want to buy has a very tempting discount of 60%. However, the magic stops when the app that comes with those lights or that dimmer does not let you login, keeps closing itself, logs you out every time, does not save the schedules or behaviours that you previously set up, etc. At Crownstone we know that all those inconveniences are far from providing a good user experience. That’s why we work on improving our app and looking for new ways to solve the problems that may arise.</p>
+
+<p>Let’s take a look at the <a href="https://play.google.com/store/apps/details?id=com.dlink.mydlinkmyhome&amp;hl=en_US">mydlink Home app</a>. Most of the problems in this app are related to reliability. For example, the app crashes and the user is logged out accidentally. These inconveniences are problematic because the very goal of the smart home experience is to make the life of the user easier. Worse, if the login mechanism contains bug, you might not be able to login at all. In such a case you can’t control your smart plug(s). You might call this “bricking” even though there’s nothing wrong with the software on the devices themselves. So, how does Crownstone deal with these problems? The Crownstone app avoids logging out the user every time by storing the credentials (email and the hash of the password) in a safe place. They can be used for logging in automatically in case a user’s token expires. Of course a user can still log out whenever they wish to do so with a simple log-out button. Regarding an app crashing: we all know that there is a small chance that this happens. At Crownstone we monitor app crashes and our developers are actively engaged in email conversations with users/reporters whenever a user lets us know.</p>
+
+<p>Now, let’s consider the <a href="https://apps.apple.com/us/app/eaton-halo-home/id1313470202">EATON Halo Home app</a>. There are two main problems  with this app: it deletes the behaviors and/or schedules that the user has previously made, and the time between the trigger event and the response from the smart device is quite large. These problems can be related to each other. Why? If an app uses the cloud, then every request the user makes (entering or leaving a room, toggling a button directly in the app, etc.) needs to perform a “roundtrip” through the internet. If an app uses a hub, the hub has to be available on the local network. In both cases, it takes longer for the device to respond. It is slower to respond to an enter or exit “event”. It is also slower to respond to a user toggling a button in the smartphone app. Crownstones broadcast directly to smartphones. Smartphones also broadcast directly to Crownstones. This means response times are very short. Moreover, Crownstone does not rely on communication for its automation. In our case, the behavior is stored directly on the Crownstones themselves. Even if a Crownstone finds itself in complete isolation it will know what to do because it remembered it for you!</p>
+
+<p><img src="https://crownstone.rocks/attachments/blog/crownstone_app4.jpg" alt="Crownstone app" /></p>
+
+<h1 id="header-conclusion">Conclusion</h1>
+
+<p>At Crownstone we understand that there is no perfect hardware or software. However, there is always room for improvement. Our Crownstones and our app are made around the core idea: <strong>indoor positioning</strong> is the key enabler for true home automation. Subsequently, automation gives our users comfort, safety, and saves our users time, energy, and money. 
+It can be difficult to compare among several products. Key take-away is that for buying something for your smart home you should not only consider the physical product, the <strong>hardware</strong>, itself. It is just as important to look at the app behind that product, the <strong>software</strong>. If you buy fancy smart lights but the app does not work as it is supposed to do, then you won’t benefit from the smartness of those lights. If you buy a smart plug, but, for instance, the app deletes the schedules that you configured or crashes every time, you just bought an annoying product, or worse, a fancy paperweight. At Crownstone our focus is on software just as much as on the hardware. We are dedicated to improve the functionality and performance of our Crownstones devices and our Crownstone app every day. We believe that the overall experience we provide to our customers is what will make you really happy.</p>
+
+					</div>
+					
+					<div class="d-lg-none">
+						<div class="text-date">
+							<p>10 July 2020</p> 
+						</div>
+					</div>
+
+					
+		
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-12">
+
+					
+					<div class="tag_box inline">
+						
+						
+
+
+	
+		
+			<a class="tag" href="/tags.html#smart home">smart home</a>
+		
+			<a class="tag" href="/tags.html#automation">automation</a>
+		
+			<a class="tag" href="/tags.html#smart home app">smart home app</a>
+		
+	
+
+
+
+
+					</div>
+					
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="container-fluid post-footer">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6">
+					<ul class="pagination">
+						
+						<li class="page-item prev"><a class="page-link" href="/2020/07/01/the-magic-of-crownstone-scenarios" title="The magic of Crownstone scenarios.">&larr; Previous</a></li>
+						
+						<li class="page-item"><a class="page-link" href="/blog">Archive</a></li>
+						
+						<li class="page-item next"><a class="page-link" href="/2020/07/15/integrate-crownstone-with-home-assistant" title="Integrate Crownstone with Home Assistant">Next &rarr;</a></li>
+						
+					</ul>
+			</div>
+			<div class="col-md-6">
+
+					<div class="social-button-footer">
+						<p>
+						<a class="btn btn-social-icon btn-twitter" href="http://twitter.com/intent/tweet?url=https://crownstone.rocks/2020/07/10/insight-into-the-crownstone-app&text=Insight into the Crownstone App."><i class="el el-twitter"></i></a>
+						<a class="btn btn-social-icon btn-facebook" href="http://facebook.com/sharer.php?u=https://crownstone.rocks/2020/07/10/insight-into-the-crownstone-app"><i class="el el-facebook"></i></a>
+						<a class="btn btn-social-icon btn-googleplus" href="https://plus.google.com/share?url=https://crownstone.rocks/2020/07/10/insight-into-the-crownstone-app"><i class="el el-googleplus"></i></a>
+						<a class="btn btn-social-icon btn-linkedin" href="https://www.linkedin.com/shareArticle?mini=true&url=https://crownstone.rocks/2020/07/10/insight-into-the-crownstone-app"><i class="el el-linkedin"></i></a>
+						<a class="btn btn-social-icon btn-reddit" href="http://reddit.com/submit?url=https://crownstone.rocks/2020/07/10/insight-into-the-crownstone-app&title=Insight into the Crownstone App."><i class="el el-reddit"></i></a>
+						<a class="btn btn-social-icon btn-hackernews" href="https://news.ycombinator.com/submitlink?u=https://crownstone.rocks/2020/07/10/insight-into-the-crownstone-app&t=Insight into the Crownstone App."><strong>Y</strong></a>
+						</p>
+					</div>
+
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-md-12">
+					
+
+
+  <div id="disqus_thread">
+	<div class="disqus_block">
+		<p>
+			<a href="#" onclick="disqus();return false;"><i class="el el-group"></i> Show Comments</a>
+		</p>
+		<p>
+			(not shown automatically to support your privacy)
+		</p>
+	</div>
+</div>
+
+<script type="text/javascript">
+	var disqus_shortname = 'crownstone'; 
+	var disqus_loaded = false;
+	// load disqus comments only on demand
+	function disqus() {
+
+	  if (!disqus_loaded)  {
+		var e = document.createElement("script");
+		e.type = "text/javascript";
+		e.async = true;
+		e.src = "//" + disqus_shortname + ".disqus.com/embed.js";
+		(document.getElementsByTagName("head")[0] ||
+		 document.getElementsByTagName("body")[0])
+		.appendChild(e);
+	  }
+	}
+</script>
+
+
+
+
+
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+
+
+
+<div class="container-fluid gray-bg">
+    <div class="row justify-content-center">
+        <div class="col-xl-6">
+            <p class="newsletter-text">
+                
+                Be the first to hear about Crownstone's newest features!
+                
+            </p>
+            <div class="newsletter bottom">
+            	<div class="wrapper">
+            		<form action="//rocks.us10.list-manage.com/subscribe/post?u=d03baf337210e326a61dc14d5&id=a23d3e9ded" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" target="_blank">
+            			<label for="Email" class="newsletter__label hidden-label">Sign up to our mailing list</label>
+            			<div class="input-group">
+            			    
+                            <input type="email" value="" placeholder="New things to learn and read!" name="EMAIL" id="Email" class="input-group-field newsletter__input" autocorrect="off" autocapitalize="off">
+                            
+            				<span class="input-group-btn">
+            					<button type="submit" class="btn newsletter__submit" name="subscribe" id="Subscribe">
+            					
+            					<span class="newsletter__submit-text--large">I like!</span>
+            					
+            					<span class="newsletter__submit-text--small">→</span>
+            					</button>
+            				</span>
+            			</div>
+            		</form>
+            	</div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="footer">
+    <br />
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-1"></div>
+            <div class="col-sm-10">
+                <div class="row">
+                    <div class="col-sm-4 text-center">
+                        <p style="text-align: center; font-family: Lato, sans-serif; font-size: 1rem; font-style: italic; font-weight: bold; color: white; width: 100%; padding: 1.2rem 0; margin: 0;">
+                            CUSTOMER
+                        </p>
+                        <div style="display:inline-block;">
+                            <ul class="list-unstyled">
+                                
+      	    <li><a href="/" class='footer-text-element' style="text-align: center !important; align-self: center; font-family: Lato, sans-serif; font-size: 0.9rem; font-style: italic; padding: 0; color:#dddddd !important; text-decoration: none">Welcome</a></li>
+      	    <li><a href="/product/" class='footer-text-element' style="text-align: center !important; align-self: center; font-family: Lato, sans-serif; font-size: 0.9rem; font-style: italic; padding: 0; color:#dddddd !important; text-decoration: none">Product</a></li>
+      	    <li><a href="/scenarios/" class='footer-text-element' style="text-align: center !important; align-self: center; font-family: Lato, sans-serif; font-size: 0.9rem; font-style: italic; padding: 0; color:#dddddd !important; text-decoration: none">Scenarios</a></li>
+      	    <li><a href="/works-with/" class='footer-text-element' style="text-align: center !important; align-self: center; font-family: Lato, sans-serif; font-size: 0.9rem; font-style: italic; padding: 0; color:#dddddd !important; text-decoration: none">Works with</a></li>
+      	    <li><a href="/installation/" class='footer-text-element' style="text-align: center !important; align-self: center; font-family: Lato, sans-serif; font-size: 0.9rem; font-style: italic; padding: 0; color:#dddddd !important; text-decoration: none">Installation</a></li>
+                                
+                            </ul>
+                        </div>
+
+                        <p style="text-align: center; font-family: Lato, sans-serif; font-size: 1rem; font-style: italic; font-weight: bold; color: white; width: 100%; padding: 1.2rem 0; margin: 0;">
+                            ABOUT US
+                        </p>
+                        <div style="display:inline-block;">
+                            <ul class="list-unstyled">
+                                
+      	    <li><a href="/about-us/" class='footer-text-element' style="text-align: center !important; align-self: center; font-family: Lato, sans-serif; font-size: 0.9rem; font-style: italic; padding: 0; color:#dddddd !important; text-decoration: none">Crownstone</a></li>
+      	    <li><a href="/jobs/" class='footer-text-element' style="text-align: center !important; align-self: center; font-family: Lato, sans-serif; font-size: 0.9rem; font-style: italic; padding: 0; color:#dddddd !important; text-decoration: none">Jobs</a></li>
+      	    <li><a href="/internships/" class='footer-text-element' style="text-align: center !important; align-self: center; font-family: Lato, sans-serif; font-size: 0.9rem; font-style: italic; padding: 0; color:#dddddd !important; text-decoration: none">Internships</a></li>
+      	    <li><a href="/team/" class='footer-text-element' style="text-align: center !important; align-self: center; font-family: Lato, sans-serif; font-size: 0.9rem; font-style: italic; padding: 0; color:#dddddd !important; text-decoration: none">Team</a></li>
+      	    <li><a href="/investors/" class='footer-text-element' style="text-align: center !important; align-self: center; font-family: Lato, sans-serif; font-size: 0.9rem; font-style: italic; padding: 0; color:#dddddd !important; text-decoration: none">Investors</a></li>
+                                
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-4 text-center">
+                        <p style="text-align: center; font-family: Lato, sans-serif; font-size: 1rem; font-style: italic; font-weight: bold; color: white; width: 100%; padding: 1.2rem 0; margin: 0;">
+                            B2B
+                        </p>
+                        <div style="display:inline-block;">
+                            <ul class="list-unstyled">
+                                
+      	    <li><a href="/business/oem/" class='footer-text-element' style="text-align: center !important; align-self: center; font-family: Lato, sans-serif; font-size: 0.9rem; font-style: italic; padding: 0; color:#dddddd !important; text-decoration: none">OEM</a></li>
+      	    <li><a href="/business/residential-real-estate/" class='footer-text-element' style="text-align: center !important; align-self: center; font-family: Lato, sans-serif; font-size: 0.9rem; font-style: italic; padding: 0; color:#dddddd !important; text-decoration: none">Real Estate Developers</a></li>
+      	    <li><a href="/business/" class='footer-text-element' style="text-align: center !important; align-self: center; font-family: Lato, sans-serif; font-size: 0.9rem; font-style: italic; padding: 0; color:#dddddd !important; text-decoration: none">Use Cases</a></li>
+      	    <li><a href="/business/developers/" class='footer-text-element' style="text-align: center !important; align-self: center; font-family: Lato, sans-serif; font-size: 0.9rem; font-style: italic; padding: 0; color:#dddddd !important; text-decoration: none">Developers</a></li>
+      	    <li><a href="/business/data/" class='footer-text-element' style="text-align: center !important; align-self: center; font-family: Lato, sans-serif; font-size: 0.9rem; font-style: italic; padding: 0; color:#dddddd !important; text-decoration: none">Internet of Things</a></li>
+      	    <li><a href="/infrastructure/" class='footer-text-element' style="text-align: center !important; align-self: center; font-family: Lato, sans-serif; font-size: 0.9rem; font-style: italic; padding: 0; color:#dddddd !important; text-decoration: none">Infrastructure</a></li>
+                                
+                            </ul>
+                        </div>
+                        <p style="text-align: center; font-family: Lato, sans-serif; font-size: 1rem; font-style: italic; font-weight: bold; color: white; width: 100%; padding: 1.2rem 0; margin: 0;">
+                            NEWS
+                        </p>
+                        <div style="display:inline-block;">
+                            <ul class="list-unstyled">
+                                
+      	    <li><a href="/email-updates/" class='footer-text-element' style="text-align: center !important; align-self: center; font-family: Lato, sans-serif; font-size: 0.9rem; font-style: italic; padding: 0; color:#dddddd !important; text-decoration: none">Fun Newsletter!</a></li>
+                                
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-4 text-center">
+                        <p style="text-align: center; font-family: Lato, sans-serif; font-size: 1rem; font-style: italic; font-weight: bold; color: white; width: 100%; padding: 1.2rem 0; margin: 0;">
+                            ORDER
+                        </p>
+                        <div style="display:inline-block;" >
+                            <ul class="list-unstyled" style="text-align: left; margin-bottom:0 !important;">
+                                <a href="https://shop.crownstone.rocks?launch=en&ref=http://crownstone.rocks/en/2020/07/10/insight-into-the-crownstone-app" class="footer-text-element" style="text-align: left !important; align-self: center; font-family: Lato, sans-serif; font-size: 0.9rem; font-style: italic; padding: 0; color:#dddddd !important; text-decoration: none">
+                                    <i class="el el-shopping-cart mr-2"></i>
+                                    
+                                    Webshop
+                                    
+                                </a>
+                            </ul>
+
+                            <ul class="list-unstyled" style="text-align: left">
+                                <a href="https://subscribe.crownstone.rocks/welcome?launch=en&ref=http://crownstone.rocks/en/2020/07/10/insight-into-the-crownstone-app&loc=footer" class="footer-text-element" style="text-align: left !important; align-self: center; font-family: Lato, sans-serif; font-size: 0.9rem; font-style: italic; padding: 0; color:#dddddd !important; text-decoration: none">
+                                    <i class="el el-person mr-2"></i>
+                                    
+                                    Subscription
+                                    
+                                </a>
+                            </ul>
+                        </div>
+
+                        <p style="text-align: center; font-family: Lato, sans-serif; font-size: 1rem; font-style: italic; font-weight: bold; color: white; width: 100%; padding: 1.2rem 0; margin: 0;">
+                            CONTACT
+                        </p>
+                        <div style="display:inline-block;">
+                            <ul class="list-unstyled" style="text-align: left">
+<!--                                <li>-->
+<!--                                    <script type="text/javascript">/*<![CDATA[*/var a=new Array(".rocks", "stone", "crown", "@", "sk", "a");document.write("<a href='mailto:");for(i=a.length-1;i>=0;i&#45;&#45;){document.write(a[i])}document.write("?subject=Get in contact' class='footer-text-element' style=\"text-align: center !important; align-self: center; font-family: Lato, sans-serif; font-size: 0.9rem; font-style: italic; padding: 0; color:#dddddd !important; text-decoration: none\"><i class='el el-envelope footer'></i>Email us!</a>");/*]]>*/</script>-->
+<!--                                    <noscript><i class="el el-envelope footer"></i>Email team@...</noscript>-->
+<!--                                </li>-->
+                                <li>
+                                    <a href="https://crownstone.rocks/contact" class="footer-text-element" style="text-align: center !important; align-self: center; font-family: Lato, sans-serif; font-size: 0.9rem; font-style: italic; padding: 0; color:#dddddd !important; text-decoration: none">
+                                        <i class="el el-group footer"></i>Contact us
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="https://crownstone.rocks/privacy-policy" class="footer-text-element" style="text-align: center !important; align-self: center; font-family: Lato, sans-serif; font-size: 0.9rem; font-style: italic; padding: 0; color:#dddddd !important; text-decoration: none">
+                                        <i class="el el-ok footer"></i>Privacy
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://crownstone.rocks/presskit" class="footer-text-element" style="text-align: center !important; align-self: center; font-family: Lato, sans-serif; font-size: 0.9rem; font-style: italic; padding: 0; color:#dddddd !important; text-decoration: none">
+                                        <i class="el el-idea footer"></i>Press
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-1"></div>
+        </div>
+        <br/>
+
+        <!--   SOCIAL MEDIA     -->
+        <div class="row footer-container" style="justify-content: space-around; padding: 3rem;">
+            <div class="col-md-6">
+                <div class="row align-items-center">
+                    <div class="col social-media-icons-container">
+                        <a href="https://www.facebook.com/crownstones/" target="_blank" class="footer-social-media-icons" style="text-align: center; color: lightgray; font-size: 2rem; margin: 0; padding: 0;"><i class="el el-facebook"></i></a>
+                    </div>
+
+                    <div class="col social-media-icons-container">
+                        <a href="https://twitter.com/CrownstoneRocks" target="_blank" class="footer-social-media-icons" style="text-align: center; color: lightgray; font-size: 2rem; margin: 0; padding: 0;"><i class="el el-twitter"></i></a>
+                    </div>
+
+                    <div class="col social-media-icons-container">
+                        <a href="https://discord.gg/zPhesU2CZv" target="_blank" class="footer-social-media-icons" style="text-align: center; color: lightgray; font-size: 2rem; margin: 0; padding: 0;"> <img src="/images/contact/discord-gray.svg" alt="discord-icon" style="min-width: 50px; width: 50%"> </a>
+                    </div>
+
+                    <div class="col social-media-icons-container">
+                        <a href="https://www.youtube.com/channel/UCru1PX6P1JyhsI-OEMXnBdg" target="_blank" class="footer-social-media-icons" style="text-align: center; color: lightgray; font-size: 2rem; margin: 0; padding: 0;"><i class="el el-youtube"></i></a>
+                    </div>
+
+                    <div class="col social-media-icons-container">
+                        <a href="https://www.linkedin.com/company/crownstone" target="_blank" class="footer-social-media-icons"><i class="el el-linkedin" style="text-align: center; color: lightgray; font-size: 2rem; margin: 0; padding: 0;"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12 text-center colofon">
+               <div class="accent" style="margin: 0;">Crownstone</div>
+               <p style="margin: 0;">Stationsplein 45 d1.118</p>
+               <p style="margin: 0;">3013 AK Rotterdam, The Netherlands</p>
+               <p style="margin: 0;">0031103073955 / 010-3073955</p>
+               <br/>
+               <p style="margin: 0;">
+                  This site uses external services. Cookies for the webshop (<a href="https://www.shopify.com/legal/cookies" class="link-footer">cookie policy</a>).
+               </p>
+            </div>
+        </div>
+    </div>
+    <br />
+</div>
+
+
+<script async defer src="https://cdn.simpleanalytics.io/hello.js"></script>
+<noscript><img src="https://api.simpleanalytics.io/hello.gif" alt=""></noscript>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-17146802-16', 'auto');
+  ga('set', 'allowAdFeatures', false);
+  ga('send', 'pageview');
+</script>
+
+
+
+<!-- in debug mode, Google Chrome complains about .map files, do not worry -->                    
+<script type="text/javascript" src="/assets/themes/flat/resources/jquery/jquery-3.3.1.min.js"></script>
+<script type="text/javascript" src="/assets/themes/flat/resources/bootstrap/js/bootstrap.min.js"></script>
+<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+<!--[if gt IE 9]>
+<script type="text/javascript" src="/assets/themes/flat/resources/bootstrap/js/ie10-viewport-bug-workaround.js"></script>
+<![endif]-->
+
+
+</body>
+</html>
+

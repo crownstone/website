@@ -1,0 +1,1847 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    
+
+    <meta name="description" content="The renormalization group, an interesting method from statistical physics.">
+
+    
+
+    
+
+    <meta name="keywords" content="renormalization group, statistics, introduction, networks, smart home, smart homes, domotica, smart plug, home automation, power plug, gadgets, apple, open-source, raspberry pi, smart outlet, smart switch, arduino, alexa, amazon echo, nest, toon, philips hue, homewizard, fibaro, klik-aan-klik-uit, energy savings, comfort">
+    
+    <meta name="author" content="Crownstone B.V.">
+    <link rel="icon" type="image/x-icon" href="https://crownstone.rocks/images/favicon.ico?">
+    <link rel="apple-touch-icon" href="https://crownstone.rocks/images/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="https://crownstone.rocks/images/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="https://crownstone.rocks/images/apple-touch-icon-114x114.png">
+
+    <meta name="theme-color" content="#ff8400">
+    <meta name="msapplication-navbutton-color" content="#ff8400">
+    <meta name="apple-mobile-web-app-status-bar-style" content="#ff8400">
+
+    <meta http-equiv="Content-Language" content="en">
+<link rel="alternate" hreflang="en" href="https://crownstone.rocks/2012/02/27/the-renormalization-group"/>
+<link rel="alternate" hreflang="nl" href="https://crownstone.rocks/nl/2012/02/27/the-renormalization-group"/>
+
+
+    <meta name="google-site-verification" content="qsSndPwnJ3H5zpj9z6ZvY-r4WnvSpMBe5QchxVbIWvw" />
+
+    
+    <title>Crownstone | The renormalization group on networks, an introduction</title>
+	<!-- Twitter social card -->
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:title" content="The renormalization group on networks, an introduction">
+	<meta name="twitter:description" content="The renormalization group, an interesting method from statistical physics.">
+	<meta name="twitter:image" content="https://crownstone.rocks/images/crownstone-social-card.jpg">
+	<meta name="twitter:image:width" content="240">
+	<meta name="twitter:image:height" content="240">
+    <!-- Open graph social card -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="The renormalization group on networks, an introduction">
+    <meta property="og:url" content="https://crownstone.rocks/2012/02/27/the-renormalization-group">
+    <meta property="og:image" content="https://crownstone.rocks/images/crownstone-social-card.jpg">
+    <meta property="og:image:secure_url" content="https://crownstone.rocks/images/crownstone-social-card.jpg">
+    <meta property="og:description" content="The renormalization group, an interesting method from statistical physics.">
+    <meta property="og:site_name" content="Crownstone">
+    <!-- Bootstrap as framework -->
+    <link href="/assets/themes/flat/resources/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/assets/themes/flat/css/crownstone-global.css" rel="stylesheet">
+    <link href="/assets/themes/flat/css/elusive-icons.min.css" rel="stylesheet">
+    <link href="/assets/themes/flat/css/syntax.css" rel="stylesheet">
+    <!-- 
+    <link href="/assets/themes/flat/css/elusive-webfont.css" rel="stylesheet"> 
+    -->
+    <!--[if lt IE 9]>
+        <script src="/assets/themes/flat/resources/respond/Respond.min.js"></script>
+    <![endif]-->
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <!--[if gt IE 9]>
+    <link href="./bootstrap/css/ie10-viewport-bug-workaround.css" rel="stylesheet"> 
+    <![endif]-->
+    <link href="/atom.xml" type="application/atom+xml" rel="alternate" title="Sitewide ATOM Feed">
+    <link href="/rss.xml" type="application/rss+xml" rel="alternate" title="Sitewide RSS Feed">
+    
+
+    
+    
+    
+</head>
+
+<body>
+
+   <nav class="navbar navbar-light navbar-expand-lg">
+      <div class="container navContainer">
+         <img class="navbar-brand topLogo xs img-responsive" src="/images/apple-touch-icon-114x114.png" alt="">
+         <div class="crownstoneText d-block d-lg-none">Crownstone</div>
+
+         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarContents" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+         </button>
+
+         <div class="collapse navbar-collapse" id="navbarContents">
+            <ul class="navbar-nav">
+                                                                                                             
+				<li class="nav-item inactive "><a href="/" class="nav-link">Welcome</a></li>
+                       
+
+               
+
+
+
+<li class="nav-item dropdown">
+    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        Smart Home
+    </a>
+    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink" style="z-index: 1001; padding: 0;">
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+       
+          <a class="dropdown-item inactive " href="/product/" style="background-color: transparent;">Product</a>
+          
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+       
+          <a class="dropdown-item inactive " href="/scenarios/" style="background-color: transparent;">Scenarios</a>
+          
+      
+     
+    
+     
+      
+       
+          <a class="dropdown-item inactive " href="/works-with/" style="background-color: transparent;">Works with</a>
+          
+      
+     
+    
+     
+      
+     
+    
+     
+      
+       
+          <a class="dropdown-item inactive " href="/installation/" style="background-color: transparent;">Installation</a>
+          
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+    
+     
+      
+     
+    
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+    </div>
+</li>
+
+
+               
+
+
+
+<li class="nav-item dropdown">
+    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        
+         Business
+        
+    </a>
+    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink" style="z-index: 1001; padding: 0;">
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+       
+          <a class="dropdown-item inactive " href="/business/oem/" style="background-color: transparent;">OEM</a>
+          
+      
+     
+    
+     
+      
+     
+    
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+       
+          <a class="dropdown-item inactive " href="/business/residential-real-estate/" style="background-color: transparent;">Real Estate</a>
+          
+      
+     
+    
+     
+    
+     
+      
+       
+          <a class="dropdown-item inactive " href="/business/indoor-positioning" style="background-color: transparent;">Indoor Positioning</a>
+          
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+       
+          <a class="dropdown-item inactive " href="/business/asset-tracking" style="background-color: transparent;">Asset Tracking</a>
+          
+      
+     
+    
+     
+      
+     
+    
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+       
+          <a class="dropdown-item inactive " href="/business/energy-monitoring" style="background-color: transparent;">Energy Monitoring</a>
+          
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+    
+     
+      
+     
+    
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+    </div>
+</li>
+
+
+               
+
+
+
+<li class="nav-item dropdown">
+    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        
+        About us
+        
+    </a>
+    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink" style="z-index: 1001; padding: 0;">
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+       
+          <a class="dropdown-item inactive " href="/about-us/" style="background-color: transparent;">Crownstone</a>
+          
+      
+     
+    
+     
+    
+     
+      
+       
+          <a class="dropdown-item inactive " href="/jobs/" style="background-color: transparent;">Jobs</a>
+          
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+    
+     
+      
+     
+    
+     
+      
+       
+          <a class="dropdown-item inactive " href="/internships/" style="background-color: transparent;">Internships</a>
+          
+      
+     
+    
+     
+      
+       
+          <a class="dropdown-item inactive " href="/team/" style="background-color: transparent;">Team</a>
+          
+      
+     
+    
+     
+      
+     
+    
+     
+      
+       
+          <a class="dropdown-item inactive " href="/blog/" style="background-color: transparent;">Blog</a>
+          
+      
+     
+    
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+    
+     
+      
+     
+    
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+       
+          <a class="dropdown-item inactive " href="/investors/" style="background-color: transparent;">Investors</a>
+          
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+    </div>
+</li>
+
+
+               
+				<li class="nav-item inactive "><a href="/where-to-buy/" class="nav-link">Where to buy</a></li>
+				<li class="nav-item inactive "><a href="/support/" class="nav-link">Support</a></li>
+
+            </ul>
+
+            <ul class="navbar-nav mr-right">
+               
+<li class="nav-item">
+	
+	
+	<!-- note the space before nav-url, without it polyglot will relativize it: https://github.com/untra/polyglot -->
+	<a style="font-weight: bold;" href=" https://crownstone.rocks/2012/02/27/the-renormalization-group" class="nav-link lang-menu" style="border-bottom: 2px solid white">en</a>
+</li>
+
+<li class="nav-item">
+	
+	
+	<!-- note the space before nav-url, without it polyglot will relativize it: https://github.com/untra/polyglot -->
+	<a  href=" https://crownstone.rocks/nl/2012/02/27/the-renormalization-group" class="nav-link lang-menu" style="border-bottom: 2px solid white">nl</a>
+</li>
+
+               
+          	<li class="nav-item"><a href="/search/" class="nav-link active"><i class="el el-search"></i></a></li>
+
+            </ul>
+         </div>
+      </div>
+   </nav>
+
+
+
+
+
+
+
+
+
+
+<div class="container-fluid post-container">
+	<div class="container">
+		<div class="row post-full">
+			<div class="col-md-12">
+				
+				<div class="date d-none d-lg-block">
+					<strong class="date_month">Feb</strong>
+					<strong class="date_day">27</strong>
+					<strong class="date_year">2012</strong>
+				</div>
+				
+				
+				<div class="post">
+					<div class="content">
+						
+<h1 id="header-the-renormalization-group-on-networks">The renormalization group on networks</h1>
+
+<p>Modern physics is actually one big quest to solve the many-body problem. Most
+often stated in soundbites invented by famous people from for example the
+influential Santa Fé school, but sometimes as old as Aristotle, such as “the
+whole is greater than the sum of the parts”. In physics this often came to
+mean: the whole is the sum of parts plus all their interactions. These
+interactions can sometimes be neatly organised in the form of Feynmann
+diagrams, the mysterious drawings you might sometimes see on the cover of
+physics books.</p>
+
+<h2 id="header-blocks">Blocks</h2>
+
+<p>Not exactly a new kid on the block, we are somewhere in the 50s-70s, group
+renormalization became a tool in particle physics to cope with the many
+possible interactions between elementary particles. First of all, the
+physicists borrowed from the old idea of considering a system at different
+scales. Think of the different resolutions of for example Google maps.
+Secondly, the physicist gave up on the idea that a system could be described
+by a finite number of interactions, but instead of that realised that an
+infinite number of interactions would not be such a big problem if the
+relation of the “interaction landscape” (my words) on one scale would have a
+simple reation with the “interaction landscape” on another scale. The example
+often used in statistical physics is that of the Ising model which is a 2D
+grid with so-called spins, that can point upwards or downwards. The spins
+influence their neighbours: a spin aligns its orientation according to the
+majority of its neighbours. By considering the larger scale of so-called block
+spins, we take blocks of say 3x3 spins and assign a spin direction to this
+larger block. Now, we have to come up with a description for the interactions
+between the block spins on this higher level. Not only that, but these
+interactions should also somehow be a coarse grained description of the
+interactions on the lower level. The idea of group renormalisation is that by
+repeating this pattern we end up with a flow from one “interaction landscape”
+to another: a flow through the space of coupling constants. We now miss one
+important piece of the puzzle to make sense of all this. This “flow” can
+namely be very chaotic. However, there is one specific phenomenon that is
+deeply related to the concept of scale invariance, which is the second order
+phase transition. A second order phase transition is a critical phenomenon
+that makes a system transition from one state to another in a very abrupt
+manner. Think earthquakes, crackling noise, etc. A system that is “poised at
+this edge of chaos” corresponds to a group renormalisation flow that is
+directed towards a fixed point! We suddenly have a way to describe the global
+behaviour - through a huge series of scales - from local interactions!</p>
+
+<h2 id="header-network">Network</h2>
+
+<p><img src="https://crownstone.rocks/attachments/renormalization_newman_and_watts.jpg" alt="Renormalization on networks" class="float-right" /></p>
+
+<p>This is all
+very well, but nothing makes much sense without examples. We can give an
+example of the Ising model, or of self-organised criticality with sandpiles
+(Bak), but for swarm robotics, we are most interested in graphs. We have one
+remark here, most graph-based research disregards the spatial embedding of
+this graph in the real world, however, in our case of a network of robots,
+this is instead one of the most interesting and challenging future directions
+of “complex systems” research. The scientific world has been talking the last
+decade about networks with the so-called small world property. Imagine a
+network of people, where people correspond to the nodes on a graph and people
+that know each other are represented by edges. Imagine these nodes on a
+circle, and organise them a bit and you will see a structure as in Fig. 1
+(from Newman and Watts publicly available paper [1]). The hypothesis is that
+this small world property is a critial phenomenon, and hence group
+renormalization can be applied.</p>
+
+<h2 id="header-parameters-l-k-and-p">Parameters L, k and p</h2>
+
+<p>We just summarize Newman and Watts findings here… The authors want to show
+that if the number of “shortcuts” goes to zero, the system exhibits a second-
+order phase transition observing the parameter \(l\), the average distance between
+vertices. Besides the system size \(L\), and a parameter \(k\) which stands for some
+fixed range for which every node is connected to all its neighbours, there is
+a random parameter \(p\). This \(p\) stands for a rewiring probability for every \(kL\)
+connection (and is “quenched”, that means, it is only done once). The
+renormalization procedure can be divided into two different cases, which is
+very typical for the procedure. For \(k=1\), their blocking procedure takes two
+subsequent vertices on the ring and replaces them by one vertex. A “shortcut”
+to one of the vertices is preserved and will now point to the new vertex. The
+number of vertices \(L\) becomes \(L/2\). The number of edges goes from \(L\) to \(L/2\) and
+hence the probability to pick a given edge goes from \(p\) to \(2p\). For the case of
+\(k&gt;1\), the system size goes from \(L\) to \(L/k\), the probability from \(p\) to \(k^2 p\), the
+range parameter goes from \(k\) to \(1\), and the mean distance stays the same. Hence,
+every system with \(k&gt;1\) can be converted in a system with \(k=1\) and then a group
+renormalisation procedure can be applied over and over again.</p>
+
+<h2 id="header-the-transition">The transition</h2>
+
+<p><img src="https://crownstone.rocks/attachments/renormalization_newman_and_watts_results.jpg" alt="Renormalization on networks, results" class="float-right" /></p>
+
+<p>The authors write down an expression for \(l\), the
+average distance between vertices. Let us not repeat the exact form of this
+equation, but explain between which regimes the mentioned transition would
+take place. If a system is really small, then for a given fixed \(p\), there is on
+average less than one shortcut in the graph. This means that the average
+distance between vertices just happens over the ring and hence scales linearly
+with the system size \(L\). However, when the system becomes larger, and \(p\) is
+still fixed, in the end shortcuts will show up, and the distance between
+vertices will scale logarithmic with respect to \(L\). The transition between
+these two regimes is the one that interests us.</p>
+
+<h2 id="header-conclusion">Conclusion</h2>
+
+<p>In Fig. 2 you can see that the authors indeed were able to show this continous
+phase transition in the system. So, what do we have here!? We have a relation
+between system size and the famous average number of “degrees of separation”
+between nodes on a network. Now, you would be able to be all cocky on parties
+and tell fellow nerds that it’s not just six degrees of separation between you
+and some famous person, but that this depends on \(L\), \(p\) and \(k\): the system size,
+the number of shortcuts, and the range of neighbours someone has.</p>
+
+<p>This text introduced the renormalization group in networks. Interesting would be take these results and check how it can be applied to swarm robotics!</p>
+
+<p>[1] Renormalization group analysis of the small-world network model, 2009, T. Payne</p>
+
+
+					</div>
+					
+					<div class="d-lg-none">
+						<div class="text-date">
+							<p>27 February 2012</p> 
+						</div>
+					</div>
+
+					
+		
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-12">
+
+					
+					<div class="tag_box inline">
+						
+						
+
+
+	
+		
+			<a class="tag" href="/tags.html#renormalization group">renormalization group</a>
+		
+			<a class="tag" href="/tags.html#statistics">statistics</a>
+		
+			<a class="tag" href="/tags.html#introduction">introduction</a>
+		
+			<a class="tag" href="/tags.html#networks">networks</a>
+		
+	
+
+
+
+
+					</div>
+					
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="container-fluid post-footer">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6">
+					<ul class="pagination">
+						
+						<li class="page-item prev"><a class="page-link" href="/2012/02/20/reprogrammable-remote-control-dongles" title="Reprogrammable Remote Control dongles">&larr; Previous</a></li>
+						
+						<li class="page-item"><a class="page-link" href="/blog">Archive</a></li>
+						
+						<li class="page-item next"><a class="page-link" href="/2012/03/20/self-organisation-literature" title="Self-organisation Literature">Next &rarr;</a></li>
+						
+					</ul>
+			</div>
+			<div class="col-md-6">
+
+					<div class="social-button-footer">
+						<p>
+						<a class="btn btn-social-icon btn-twitter" href="http://twitter.com/intent/tweet?url=https://crownstone.rocks/2012/02/27/the-renormalization-group&text=The renormalization group on networks, an introduction"><i class="el el-twitter"></i></a>
+						<a class="btn btn-social-icon btn-facebook" href="http://facebook.com/sharer.php?u=https://crownstone.rocks/2012/02/27/the-renormalization-group"><i class="el el-facebook"></i></a>
+						<a class="btn btn-social-icon btn-googleplus" href="https://plus.google.com/share?url=https://crownstone.rocks/2012/02/27/the-renormalization-group"><i class="el el-googleplus"></i></a>
+						<a class="btn btn-social-icon btn-linkedin" href="https://www.linkedin.com/shareArticle?mini=true&url=https://crownstone.rocks/2012/02/27/the-renormalization-group"><i class="el el-linkedin"></i></a>
+						<a class="btn btn-social-icon btn-reddit" href="http://reddit.com/submit?url=https://crownstone.rocks/2012/02/27/the-renormalization-group&title=The renormalization group on networks, an introduction"><i class="el el-reddit"></i></a>
+						<a class="btn btn-social-icon btn-hackernews" href="https://news.ycombinator.com/submitlink?u=https://crownstone.rocks/2012/02/27/the-renormalization-group&t=The renormalization group on networks, an introduction"><strong>Y</strong></a>
+						</p>
+					</div>
+
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-md-12">
+					
+
+
+  <div id="disqus_thread">
+	<div class="disqus_block">
+		<p>
+			<a href="#" onclick="disqus();return false;"><i class="el el-group"></i> Show Comments</a>
+		</p>
+		<p>
+			(not shown automatically to support your privacy)
+		</p>
+	</div>
+</div>
+
+<script type="text/javascript">
+	var disqus_shortname = 'crownstone'; 
+	var disqus_loaded = false;
+	// load disqus comments only on demand
+	function disqus() {
+
+	  if (!disqus_loaded)  {
+		var e = document.createElement("script");
+		e.type = "text/javascript";
+		e.async = true;
+		e.src = "//" + disqus_shortname + ".disqus.com/embed.js";
+		(document.getElementsByTagName("head")[0] ||
+		 document.getElementsByTagName("body")[0])
+		.appendChild(e);
+	  }
+	}
+</script>
+
+
+
+
+
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+
+
+
+<div class="container-fluid gray-bg">
+    <div class="row justify-content-center">
+        <div class="col-xl-6">
+            <p class="newsletter-text">
+                
+                Be the first to hear about Crownstone's newest features!
+                
+            </p>
+            <div class="newsletter bottom">
+            	<div class="wrapper">
+            		<form action="//rocks.us10.list-manage.com/subscribe/post?u=d03baf337210e326a61dc14d5&id=a23d3e9ded" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" target="_blank">
+            			<label for="Email" class="newsletter__label hidden-label">Sign up to our mailing list</label>
+            			<div class="input-group">
+            			    
+                            <input type="email" value="" placeholder="New things to learn and read!" name="EMAIL" id="Email" class="input-group-field newsletter__input" autocorrect="off" autocapitalize="off">
+                            
+            				<span class="input-group-btn">
+            					<button type="submit" class="btn newsletter__submit" name="subscribe" id="Subscribe">
+            					
+            					<span class="newsletter__submit-text--large">I like!</span>
+            					
+            					<span class="newsletter__submit-text--small">→</span>
+            					</button>
+            				</span>
+            			</div>
+            		</form>
+            	</div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="footer">
+    <br />
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-1"></div>
+            <div class="col-sm-10">
+                <div class="row">
+                    <div class="col-sm-4 text-center">
+                        <p style="text-align: center; font-family: Lato, sans-serif; font-size: 1rem; font-style: italic; font-weight: bold; color: white; width: 100%; padding: 1.2rem 0; margin: 0;">
+                            CUSTOMER
+                        </p>
+                        <div style="display:inline-block;">
+                            <ul class="list-unstyled">
+                                
+      	    <li><a href="/" class='footer-text-element' style="text-align: center !important; align-self: center; font-family: Lato, sans-serif; font-size: 0.9rem; font-style: italic; padding: 0; color:#dddddd !important; text-decoration: none">Welcome</a></li>
+      	    <li><a href="/product/" class='footer-text-element' style="text-align: center !important; align-self: center; font-family: Lato, sans-serif; font-size: 0.9rem; font-style: italic; padding: 0; color:#dddddd !important; text-decoration: none">Product</a></li>
+      	    <li><a href="/scenarios/" class='footer-text-element' style="text-align: center !important; align-self: center; font-family: Lato, sans-serif; font-size: 0.9rem; font-style: italic; padding: 0; color:#dddddd !important; text-decoration: none">Scenarios</a></li>
+      	    <li><a href="/works-with/" class='footer-text-element' style="text-align: center !important; align-self: center; font-family: Lato, sans-serif; font-size: 0.9rem; font-style: italic; padding: 0; color:#dddddd !important; text-decoration: none">Works with</a></li>
+      	    <li><a href="/installation/" class='footer-text-element' style="text-align: center !important; align-self: center; font-family: Lato, sans-serif; font-size: 0.9rem; font-style: italic; padding: 0; color:#dddddd !important; text-decoration: none">Installation</a></li>
+                                
+                            </ul>
+                        </div>
+
+                        <p style="text-align: center; font-family: Lato, sans-serif; font-size: 1rem; font-style: italic; font-weight: bold; color: white; width: 100%; padding: 1.2rem 0; margin: 0;">
+                            ABOUT US
+                        </p>
+                        <div style="display:inline-block;">
+                            <ul class="list-unstyled">
+                                
+      	    <li><a href="/about-us/" class='footer-text-element' style="text-align: center !important; align-self: center; font-family: Lato, sans-serif; font-size: 0.9rem; font-style: italic; padding: 0; color:#dddddd !important; text-decoration: none">Crownstone</a></li>
+      	    <li><a href="/jobs/" class='footer-text-element' style="text-align: center !important; align-self: center; font-family: Lato, sans-serif; font-size: 0.9rem; font-style: italic; padding: 0; color:#dddddd !important; text-decoration: none">Jobs</a></li>
+      	    <li><a href="/internships/" class='footer-text-element' style="text-align: center !important; align-self: center; font-family: Lato, sans-serif; font-size: 0.9rem; font-style: italic; padding: 0; color:#dddddd !important; text-decoration: none">Internships</a></li>
+      	    <li><a href="/team/" class='footer-text-element' style="text-align: center !important; align-self: center; font-family: Lato, sans-serif; font-size: 0.9rem; font-style: italic; padding: 0; color:#dddddd !important; text-decoration: none">Team</a></li>
+      	    <li><a href="/investors/" class='footer-text-element' style="text-align: center !important; align-self: center; font-family: Lato, sans-serif; font-size: 0.9rem; font-style: italic; padding: 0; color:#dddddd !important; text-decoration: none">Investors</a></li>
+                                
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-4 text-center">
+                        <p style="text-align: center; font-family: Lato, sans-serif; font-size: 1rem; font-style: italic; font-weight: bold; color: white; width: 100%; padding: 1.2rem 0; margin: 0;">
+                            B2B
+                        </p>
+                        <div style="display:inline-block;">
+                            <ul class="list-unstyled">
+                                
+      	    <li><a href="/business/oem/" class='footer-text-element' style="text-align: center !important; align-self: center; font-family: Lato, sans-serif; font-size: 0.9rem; font-style: italic; padding: 0; color:#dddddd !important; text-decoration: none">OEM</a></li>
+      	    <li><a href="/business/residential-real-estate/" class='footer-text-element' style="text-align: center !important; align-self: center; font-family: Lato, sans-serif; font-size: 0.9rem; font-style: italic; padding: 0; color:#dddddd !important; text-decoration: none">Real Estate Developers</a></li>
+      	    <li><a href="/business/" class='footer-text-element' style="text-align: center !important; align-self: center; font-family: Lato, sans-serif; font-size: 0.9rem; font-style: italic; padding: 0; color:#dddddd !important; text-decoration: none">Use Cases</a></li>
+      	    <li><a href="/business/developers/" class='footer-text-element' style="text-align: center !important; align-self: center; font-family: Lato, sans-serif; font-size: 0.9rem; font-style: italic; padding: 0; color:#dddddd !important; text-decoration: none">Developers</a></li>
+      	    <li><a href="/business/data/" class='footer-text-element' style="text-align: center !important; align-self: center; font-family: Lato, sans-serif; font-size: 0.9rem; font-style: italic; padding: 0; color:#dddddd !important; text-decoration: none">Internet of Things</a></li>
+      	    <li><a href="/infrastructure/" class='footer-text-element' style="text-align: center !important; align-self: center; font-family: Lato, sans-serif; font-size: 0.9rem; font-style: italic; padding: 0; color:#dddddd !important; text-decoration: none">Infrastructure</a></li>
+                                
+                            </ul>
+                        </div>
+                        <p style="text-align: center; font-family: Lato, sans-serif; font-size: 1rem; font-style: italic; font-weight: bold; color: white; width: 100%; padding: 1.2rem 0; margin: 0;">
+                            NEWS
+                        </p>
+                        <div style="display:inline-block;">
+                            <ul class="list-unstyled">
+                                
+      	    <li><a href="/email-updates/" class='footer-text-element' style="text-align: center !important; align-self: center; font-family: Lato, sans-serif; font-size: 0.9rem; font-style: italic; padding: 0; color:#dddddd !important; text-decoration: none">Fun Newsletter!</a></li>
+                                
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-4 text-center">
+                        <p style="text-align: center; font-family: Lato, sans-serif; font-size: 1rem; font-style: italic; font-weight: bold; color: white; width: 100%; padding: 1.2rem 0; margin: 0;">
+                            ORDER
+                        </p>
+                        <div style="display:inline-block;" >
+                            <ul class="list-unstyled" style="text-align: left; margin-bottom:0 !important;">
+                                <a href="https://shop.crownstone.rocks?launch=en&ref=http://crownstone.rocks/en/2012/02/27/the-renormalization-group" class="footer-text-element" style="text-align: left !important; align-self: center; font-family: Lato, sans-serif; font-size: 0.9rem; font-style: italic; padding: 0; color:#dddddd !important; text-decoration: none">
+                                    <i class="el el-shopping-cart mr-2"></i>
+                                    
+                                    Webshop
+                                    
+                                </a>
+                            </ul>
+
+                            <ul class="list-unstyled" style="text-align: left">
+                                <a href="https://subscribe.crownstone.rocks/welcome?launch=en&ref=http://crownstone.rocks/en/2012/02/27/the-renormalization-group&loc=footer" class="footer-text-element" style="text-align: left !important; align-self: center; font-family: Lato, sans-serif; font-size: 0.9rem; font-style: italic; padding: 0; color:#dddddd !important; text-decoration: none">
+                                    <i class="el el-person mr-2"></i>
+                                    
+                                    Subscription
+                                    
+                                </a>
+                            </ul>
+                        </div>
+
+                        <p style="text-align: center; font-family: Lato, sans-serif; font-size: 1rem; font-style: italic; font-weight: bold; color: white; width: 100%; padding: 1.2rem 0; margin: 0;">
+                            CONTACT
+                        </p>
+                        <div style="display:inline-block;">
+                            <ul class="list-unstyled" style="text-align: left">
+<!--                                <li>-->
+<!--                                    <script type="text/javascript">/*<![CDATA[*/var a=new Array(".rocks", "stone", "crown", "@", "sk", "a");document.write("<a href='mailto:");for(i=a.length-1;i>=0;i&#45;&#45;){document.write(a[i])}document.write("?subject=Get in contact' class='footer-text-element' style=\"text-align: center !important; align-self: center; font-family: Lato, sans-serif; font-size: 0.9rem; font-style: italic; padding: 0; color:#dddddd !important; text-decoration: none\"><i class='el el-envelope footer'></i>Email us!</a>");/*]]>*/</script>-->
+<!--                                    <noscript><i class="el el-envelope footer"></i>Email team@...</noscript>-->
+<!--                                </li>-->
+                                <li>
+                                    <a href="https://crownstone.rocks/contact" class="footer-text-element" style="text-align: center !important; align-self: center; font-family: Lato, sans-serif; font-size: 0.9rem; font-style: italic; padding: 0; color:#dddddd !important; text-decoration: none">
+                                        <i class="el el-group footer"></i>Contact us
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="https://crownstone.rocks/privacy-policy" class="footer-text-element" style="text-align: center !important; align-self: center; font-family: Lato, sans-serif; font-size: 0.9rem; font-style: italic; padding: 0; color:#dddddd !important; text-decoration: none">
+                                        <i class="el el-ok footer"></i>Privacy
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://crownstone.rocks/presskit" class="footer-text-element" style="text-align: center !important; align-self: center; font-family: Lato, sans-serif; font-size: 0.9rem; font-style: italic; padding: 0; color:#dddddd !important; text-decoration: none">
+                                        <i class="el el-idea footer"></i>Press
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-1"></div>
+        </div>
+        <br/>
+
+        <!--   SOCIAL MEDIA     -->
+        <div class="row footer-container" style="justify-content: space-around; padding: 3rem;">
+            <div class="col-md-6">
+                <div class="row align-items-center">
+                    <div class="col social-media-icons-container">
+                        <a href="https://www.facebook.com/crownstones/" target="_blank" class="footer-social-media-icons" style="text-align: center; color: lightgray; font-size: 2rem; margin: 0; padding: 0;"><i class="el el-facebook"></i></a>
+                    </div>
+
+                    <div class="col social-media-icons-container">
+                        <a href="https://twitter.com/CrownstoneRocks" target="_blank" class="footer-social-media-icons" style="text-align: center; color: lightgray; font-size: 2rem; margin: 0; padding: 0;"><i class="el el-twitter"></i></a>
+                    </div>
+
+                    <div class="col social-media-icons-container">
+                        <a href="https://discord.gg/zPhesU2CZv" target="_blank" class="footer-social-media-icons" style="text-align: center; color: lightgray; font-size: 2rem; margin: 0; padding: 0;"> <img src="/images/contact/discord-gray.svg" alt="discord-icon" style="min-width: 50px; width: 50%"> </a>
+                    </div>
+
+                    <div class="col social-media-icons-container">
+                        <a href="https://www.youtube.com/channel/UCru1PX6P1JyhsI-OEMXnBdg" target="_blank" class="footer-social-media-icons" style="text-align: center; color: lightgray; font-size: 2rem; margin: 0; padding: 0;"><i class="el el-youtube"></i></a>
+                    </div>
+
+                    <div class="col social-media-icons-container">
+                        <a href="https://www.linkedin.com/company/crownstone" target="_blank" class="footer-social-media-icons"><i class="el el-linkedin" style="text-align: center; color: lightgray; font-size: 2rem; margin: 0; padding: 0;"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12 text-center colofon">
+               <div class="accent" style="margin: 0;">Crownstone</div>
+               <p style="margin: 0;">Stationsplein 45 d1.118</p>
+               <p style="margin: 0;">3013 AK Rotterdam, The Netherlands</p>
+               <p style="margin: 0;">0031103073955 / 010-3073955</p>
+               <br/>
+               <p style="margin: 0;">
+                  This site uses external services. Cookies for the webshop (<a href="https://www.shopify.com/legal/cookies" class="link-footer">cookie policy</a>).
+               </p>
+            </div>
+        </div>
+    </div>
+    <br />
+</div>
+
+
+<script async defer src="https://cdn.simpleanalytics.io/hello.js"></script>
+<noscript><img src="https://api.simpleanalytics.io/hello.gif" alt=""></noscript>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-17146802-16', 'auto');
+  ga('set', 'allowAdFeatures', false);
+  ga('send', 'pageview');
+</script>
+
+
+
+<!-- in debug mode, Google Chrome complains about .map files, do not worry -->                    
+<script type="text/javascript" src="/assets/themes/flat/resources/jquery/jquery-3.3.1.min.js"></script>
+<script type="text/javascript" src="/assets/themes/flat/resources/bootstrap/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+<!--[if gt IE 9]>
+<script type="text/javascript" src="/assets/themes/flat/resources/bootstrap/js/ie10-viewport-bug-workaround.js"></script>
+<![endif]-->
+
+
+</body>
+</html>
+

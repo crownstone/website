@@ -1,0 +1,1790 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    
+
+    <meta name="description" content="A smart light switch allows a light to be switched both digitally as well as physically. It is not as easy as it seems to build this!">
+
+    
+
+    
+
+    <meta name="keywords" content="switch, smart switch, switchcraft, smart home, smart homes, domotica, smart plug, home automation, power plug, gadgets, apple, open-source, raspberry pi, smart outlet, smart switch, arduino, alexa, amazon echo, nest, toon, philips hue, homewizard, fibaro, klik-aan-klik-uit, energy savings, comfort">
+    
+    <meta name="author" content="Crownstone B.V.">
+    <link rel="icon" type="image/x-icon" href="https://crownstone.rocks/images/favicon.ico?">
+    <link rel="apple-touch-icon" href="https://crownstone.rocks/images/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="https://crownstone.rocks/images/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="https://crownstone.rocks/images/apple-touch-icon-114x114.png">
+
+    <meta name="theme-color" content="#ff8400">
+    <meta name="msapplication-navbutton-color" content="#ff8400">
+    <meta name="apple-mobile-web-app-status-bar-style" content="#ff8400">
+
+    <meta http-equiv="Content-Language" content="nl">
+<link rel="alternate" hreflang="en" href="https://crownstone.rocks/2021/03/09/the-2-wire-smart-switch-has-no-neutral"/>
+<link rel="alternate" hreflang="nl" href="https://crownstone.rocks/nl/2021/03/09/the-2-wire-smart-switch-has-no-neutral"/>
+
+
+    <meta name="google-site-verification" content="qsSndPwnJ3H5zpj9z6ZvY-r4WnvSpMBe5QchxVbIWvw" />
+
+    
+    <title>Crownstone | A truly smart light switch</title>
+	<!-- Twitter social card -->
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:title" content="A truly smart light switch">
+	<meta name="twitter:description" content="A smart light switch allows a light to be switched both digitally as well as physically. It is not as easy as it seems to build this!">
+	<meta name="twitter:image" content="https://crownstone.rocks/attachments/blog/cs_switchcraft_1.png">
+	<meta name="twitter:image:width" content="240">
+	<meta name="twitter:image:height" content="240">
+    <!-- Open graph social card -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="A truly smart light switch">
+    <meta property="og:url" content="https://crownstone.rocks/2021/03/09/the-2-wire-smart-switch-has-no-neutral">
+    <meta property="og:image" content="https://crownstone.rocks/attachments/blog/cs_switchcraft_1.png">
+    <meta property="og:image:secure_url" content="https://crownstone.rocks/attachments/blog/cs_switchcraft_1.png">
+    <meta property="og:description" content="A smart light switch allows a light to be switched both digitally as well as physically. It is not as easy as it seems to build this!">
+    <meta property="og:site_name" content="Crownstone">
+    <!-- Bootstrap as framework -->
+    <link href="/nl/assets/themes/flat/resources/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/nl/assets/themes/flat/css/crownstone-global.css" rel="stylesheet">
+    <link href="/nl/assets/themes/flat/css/elusive-icons.min.css" rel="stylesheet">
+    <link href="/nl/assets/themes/flat/css/syntax.css" rel="stylesheet">
+    <!-- 
+    <link href="/nl/assets/themes/flat/css/elusive-webfont.css" rel="stylesheet"> 
+    -->
+    <!--[if lt IE 9]>
+        <script src="/assets/themes/flat/resources/respond/Respond.min.js"></script>
+    <![endif]-->
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <!--[if gt IE 9]>
+    <link href="./bootstrap/css/ie10-viewport-bug-workaround.css" rel="stylesheet"> 
+    <![endif]-->
+    <link href="/nl/atom.xml" type="application/atom+xml" rel="alternate" title="Sitewide ATOM Feed">
+    <link href="/nl/rss.xml" type="application/rss+xml" rel="alternate" title="Sitewide RSS Feed">
+    
+
+    
+    
+    
+</head>
+
+<body>
+
+   <nav class="navbar navbar-light navbar-expand-lg">
+      <div class="container navContainer">
+         <img class="navbar-brand topLogo xs img-responsive" src="/images/apple-touch-icon-114x114.png" alt="">
+         <div class="crownstoneText d-block d-lg-none">Crownstone</div>
+
+         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarContents" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+         </button>
+
+         <div class="collapse navbar-collapse" id="navbarContents">
+            <ul class="navbar-nav">
+                                                                                                             
+				<li class="nav-item inactive "><a href="/nl/" class="nav-link">Welkom</a></li>
+                       
+
+               
+
+
+
+<li class="nav-item dropdown">
+    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        Smart Home
+    </a>
+    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink" style="z-index: 1001; padding: 0;">
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+       
+          <a class="dropdown-item inactive " href="/nl/product/" style="background-color: transparent;">Product</a>
+          
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+       
+          <a class="dropdown-item inactive " href="/nl/scenarios/" style="background-color: transparent;">Scenario's</a>
+          
+      
+     
+    
+     
+      
+     
+    
+     
+      
+       
+          <a class="dropdown-item inactive " href="/nl/works-with/" style="background-color: transparent;">Werkt met</a>
+          
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+       
+          <a class="dropdown-item inactive " href="/nl/installation/" style="background-color: transparent;">Installatie</a>
+          
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+    
+     
+      
+     
+    
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+    </div>
+</li>
+
+
+               
+
+
+
+<li class="nav-item dropdown">
+    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        
+        Zakelijk
+        
+    </a>
+    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink" style="z-index: 1001; padding: 0;">
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+       
+          <a class="dropdown-item inactive " href="/nl/business/oem/" style="background-color: transparent;">OEM</a>
+          
+      
+     
+    
+     
+      
+     
+    
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+       
+          <a class="dropdown-item inactive " href="/nl/business/residential-real-estate/" style="background-color: transparent;">Real Estate</a>
+          
+      
+     
+    
+     
+    
+     
+      
+       
+          <a class="dropdown-item inactive " href="/nl/business/indoor-positioning" style="background-color: transparent;">Indoor Positioning</a>
+          
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+       
+          <a class="dropdown-item inactive " href="/nl/business/asset-tracking" style="background-color: transparent;">Asset Tracking</a>
+          
+      
+     
+    
+     
+    
+     
+      
+     
+    
+     
+      
+       
+          <a class="dropdown-item inactive " href="/nl/business/energy-monitoring" style="background-color: transparent;">Energy Monitoring</a>
+          
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+    
+     
+      
+     
+    
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+    </div>
+</li>
+
+
+               
+
+
+
+<li class="nav-item dropdown">
+    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        
+        Over ons
+        
+    </a>
+    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink" style="z-index: 1001; padding: 0;">
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+       
+          <a class="dropdown-item inactive " href="/nl/blog/" style="background-color: transparent;">Blog</a>
+          
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+       
+          <a class="dropdown-item inactive " href="/nl/about-us/" style="background-color: transparent;">Crownstone</a>
+          
+      
+     
+    
+     
+    
+     
+      
+       
+          <a class="dropdown-item inactive " href="/nl/jobs/" style="background-color: transparent;">Banen</a>
+          
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+    
+     
+      
+     
+    
+     
+      
+       
+          <a class="dropdown-item inactive " href="/nl/internships/" style="background-color: transparent;">Internships</a>
+          
+      
+     
+    
+     
+      
+       
+          <a class="dropdown-item inactive " href="/nl/team/" style="background-color: transparent;">Team</a>
+          
+      
+     
+    
+     
+      
+     
+    
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+    
+     
+      
+     
+    
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+       
+          <a class="dropdown-item inactive " href="/nl/investors/" style="background-color: transparent;">Investors</a>
+          
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+    </div>
+</li>
+
+
+               
+				<li class="nav-item inactive "><a href="/nl/where-to-buy/" class="nav-link">Winkel</a></li>
+				<li class="nav-item inactive "><a href="/nl/support/" class="nav-link">Support</a></li>
+
+            </ul>
+
+            <ul class="navbar-nav mr-right">
+               
+<li class="nav-item">
+	
+	
+	<!-- note the space before nav-url, without it polyglot will relativize it: https://github.com/untra/polyglot -->
+	<a  href=" https://crownstone.rocks/2021/03/09/the-2-wire-smart-switch-has-no-neutral" class="nav-link lang-menu" style="border-bottom: 2px solid white">en</a>
+</li>
+
+<li class="nav-item">
+	
+	
+	<!-- note the space before nav-url, without it polyglot will relativize it: https://github.com/untra/polyglot -->
+	<a style="font-weight: bold;" href=" https://crownstone.rocks/nl/2021/03/09/the-2-wire-smart-switch-has-no-neutral" class="nav-link lang-menu" style="border-bottom: 2px solid white">nl</a>
+</li>
+
+               
+          	<li class="nav-item"><a href="/nl/search/" class="nav-link active"><i class="el el-search"></i></a></li>
+
+            </ul>
+         </div>
+      </div>
+   </nav>
+
+
+
+
+
+
+
+
+
+
+<div class="container-fluid post-container">
+	<div class="container">
+		<div class="row post-full">
+			<div class="col-md-12">
+				
+				<div class="date d-none d-lg-block">
+					<strong class="date_month">Mar</strong>
+					<strong class="date_day">9</strong>
+					<strong class="date_year">2021</strong>
+				</div>
+				
+				
+				<div class="post">
+					<div class="content">
+						
+<h1 id="header-making-a-2-wire-switch-smart">Making a 2-wire switch smart</h1>
+
+<p>There are quite a few blog posts and products online that describe the problem of making a 2-wire switch <strong>smart</strong>.</p>
+
+<p>Check for example:</p>
+<ul>
+  <li><a href="https://theiotpad.com/tips/smart-switches-no-neutral-wire">The IOT Pad</a></li>
+  <li><a href="https://thesmartcave.com/smart-switch-with-no-neutral/">the smart cave</a></li>
+  <li><a href="https://www.smarthome.com/pages/what-to-do-if-you-dont-have-a-neutral-wire">smart home</a></li>
+  <li><a href="https://www.techhive.com/article/3512824/c-by-ge-hubless-no-neutral-wire-required-smart-switch-how-did-they-do-it.html">techhive on C by GE switches</a></li>
+  <li><a href="https://www.yoswit.com/2-wire-smart-light-switch.html">Yoswit products</a></li>
+</ul>
+
+<p>All of the above choose one solution to solve this… Crownstone did something even <strong>smarter</strong>!</p>
+
+<p>First, we will describe what’s so hard to tackle with 2-wire switches. Second, we will analyse common solutions. Third, we will introduce the <strong>switchcraft</strong> solution by Crownstone and explain its benefits in detail.</p>
+
+<h2 id="header-whats-so-difficult">What’s so difficult?</h2>
+
+<p>A 2-wire switch does have, indeed, <strong>two</strong> wires. One incoming wire and one outgoing wire. The incoming wire is the <strong>live</strong> wire from the grid. The outgoing wire goes to the light. There is a neutral wire, but it is not at the switch. It is going straight to the light. When the switch is toggled the live wire will start or stop carrying current. This turns the light on or off.</p>
+
+<p>Now, it might already be clear why this can be a problem. If the switch is toggled such that the live wire is disconnected from the light, there is no current flowing. If there is no current flowing electrical components in the light switch will not be powered. This means that there is no wireless connection possible and you cannot dim the device digitally.</p>
+
+<h2 id="header-common-solutions">Common solutions</h2>
+
+<p>One solution is to incorporate a battery function in the switch. This is not necessary a physical battery, but something that stories energy for a longer time. It can indeed be a rechargeable battery or for example a so-called supercapacitor. This component can be charging when the light is on. When the light is switched off the smart module in the switch uses the energy of the battery or the capacitor to keep listening for digital commands. There is a disadvantage though. When the light is switched off for long times (and this depends on capacity and the energy use of the switch itself), it will stop listening for digital commands. Or worse, if a non-rechargeable battery is used, you might need to swap the batteries of your “smart” light switches after a few years! Argh!!</p>
+
+<p>A second solution is to have the switch toggle between high current and a very low current. The switch can be seen as a device that is in series with the light. It can draw a tiny bit of current while you do not notice at the light that there is this amount of current flowing. This especially works with old-fashioned incandescent or halogen light bulbs. There is again a disadvantage. LED lights require less power than ever. This means that a small current is already big enough to actually turn on the LEDs! For that reason, manufacturers often offer a workaround: an additional device that has to be placed at the light. It is a capacitor that pulls away enough current from the light to prevent it from switching on. The more energy your LEDs use, the likelier it is that this hack works.</p>
+
+<p>A third solution is so-called energy-harvesting. An energy-harvesting switch (check the manufacturer EnOcean) uses the physical energy of a switch event to send a wireless message. This message can be sent to a module that does the actual switching. The module can be placed at the light where you have both a live and a neutral wire. Of course, if you use the physical switch as well, you run the risk of powering everything off. To prevent this, you can replace your physical switch by this energy-harvesting switch. There are very few disadvantages here, we will just list two. First, this type of technology is relative expensive. Second, there are only very few messages that will be sent by the switch. If the receiving module accidentally misses those, it will miss the event and you have to toggle another time.</p>
+
+<h2 id="header-switchcraft">Switchcraft</h2>
+
+<p>The solution in the Crownstone modules is quite different. The Crownstone measures the input voltage on a high frequency (around 5 kHz). For a single sine wave - in Europe at 50 Hz - this results in a lot of samples, around a 100. We use this information to recognize temporary dips in the power supply. This, we can use to our advantage to recognize dips caused by a light switch! The Crownstone is mounted at the ceiling light. That is also often the most convenient location (with respect to space). We configure the light switch as a <strong>pulse switch</strong>, in particular a break switch.</p>
+
+<p><img src="https://crownstone.rocks/attachments/installation/en/switchcraft_wiring_diagram.png" alt="Switchcraft wiring diagram" /></p>
+
+<p>The pulse (the temporary disconnect) travels to the Crownstone and can be recognized as such. This allows the Crownstone to switch state. This has quite a few advantages:</p>
+
+<ul>
+  <li>You can switch any light source. Even if we a LED would use only 10 mW, this setup would still work!</li>
+  <li>You can switch the light any time. It is not the case that after a holiday the batteries in your switches got depleted.</li>
+</ul>
+
+<p>There are a few other interesting consequences as well. One example, you can arrange multiple pulse switches in series. Each of those will be able to control the Crownstone at the end. This means you can create a hotel switch with many more than two or three switches. Another example, you can flip the switch multiple times and - potentially - have different actions as result. The Crownstone’s interpretation of the incoming train of pulses can be such that it distinguishes between flipping the switch once and multiple times.</p>
+
+<h2 id="header-are-there-disadvantages">Are there disadvantages?</h2>
+
+<p>You might wonder why other manufacturers do not use this solution. First, it requires accurate monitoring of the incoming voltage. This cannot be done by off-the-shelf monitoring chips. It requires the electronic expertise to implement the measurement circuit, it makes the product slightly more expensive to build, and it requires software expertise to recognize the switch events. This all apart from the fact that inventions like these are creative! Second, it requires the module to stay active with power for a while after the supply is cut off. This is not a logical engineering requirement except for this use case! To come up with a solution like this means that the team of electronic and software engineers have to work together and understand each other’s requirements extremely well.</p>
+
+<p>There are always downsides imaginable. However, with careful considerations there are very few. For example, if the electricity grid itself falls out for a while and the power comes back on, this does not take the same time as flipping a switch (around 5 ms). In other words, the lights will not go on after a power failure. The only issue we can imagine at Crownstone is with very particular switches that have uncharacteristic traveling times. If you find something interesting, let us know!</p>
+
+<h2 id="header-conclusion">Conclusion</h2>
+
+<p><img src="https://crownstone.rocks/attachments/blog/switch-and-kid.png" alt="Switch with kid" /></p>
+
+<p>It is important to be able to use the physical light switch and be able to use digital commands at the same time. There are only a few ways to do this and each have their own disadvantages. Crownstone uses a new method that has many benefits compared to the existing methods. It works with a two-wire setup so it can be used to retrofit buildings. It works with LEDs, even if they use almost no power to light up. We think it’s a neat function and we hope lot’s of people will benefit from physical and digital switching alike!</p>
+
+					</div>
+					
+					<div class="d-lg-none">
+						<div class="text-date">
+							<p>09 March 2021</p> 
+						</div>
+					</div>
+
+					
+		
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-12">
+
+					
+					<div class="tag_box inline">
+						
+						
+
+
+	
+		
+			<a class="tag" href="/tags.html#switch">switch</a>
+		
+			<a class="tag" href="/tags.html#smart switch">smart switch</a>
+		
+			<a class="tag" href="/tags.html#switchcraft">switchcraft</a>
+		
+	
+
+
+
+
+					</div>
+					
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="container-fluid post-footer">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6">
+					<ul class="pagination">
+						
+						<li class="page-item prev"><a class="page-link" href="/nl/2021/02/24/sustainable-households" title="Sustainable Households">&larr; Previous</a></li>
+						
+						<li class="page-item"><a class="page-link" href="/nl/blog">Archive</a></li>
+						
+						<li class="page-item next disabled"><a class="page-link">Next &rarr;</a>
+						
+					</ul>
+			</div>
+			<div class="col-md-6">
+
+					<div class="social-button-footer">
+						<p>
+						<a class="btn btn-social-icon btn-twitter" href="http://twitter.com/intent/tweet?url=https://crownstone.rocks/2021/03/09/the-2-wire-smart-switch-has-no-neutral&text=A truly smart light switch"><i class="el el-twitter"></i></a>
+						<a class="btn btn-social-icon btn-facebook" href="http://facebook.com/sharer.php?u=https://crownstone.rocks/2021/03/09/the-2-wire-smart-switch-has-no-neutral"><i class="el el-facebook"></i></a>
+						<a class="btn btn-social-icon btn-googleplus" href="https://plus.google.com/share?url=https://crownstone.rocks/2021/03/09/the-2-wire-smart-switch-has-no-neutral"><i class="el el-googleplus"></i></a>
+						<a class="btn btn-social-icon btn-linkedin" href="https://www.linkedin.com/shareArticle?mini=true&url=https://crownstone.rocks/2021/03/09/the-2-wire-smart-switch-has-no-neutral"><i class="el el-linkedin"></i></a>
+						<a class="btn btn-social-icon btn-reddit" href="http://reddit.com/submit?url=https://crownstone.rocks/2021/03/09/the-2-wire-smart-switch-has-no-neutral&title=A truly smart light switch"><i class="el el-reddit"></i></a>
+						<a class="btn btn-social-icon btn-hackernews" href="https://news.ycombinator.com/submitlink?u=https://crownstone.rocks/2021/03/09/the-2-wire-smart-switch-has-no-neutral&t=A truly smart light switch"><strong>Y</strong></a>
+						</p>
+					</div>
+
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-md-12">
+					
+
+
+  <div id="disqus_thread">
+	<div class="disqus_block">
+		<p>
+			<a href="#" onclick="disqus();return false;"><i class="el el-group"></i> Show Comments</a>
+		</p>
+		<p>
+			(not shown automatically to support your privacy)
+		</p>
+	</div>
+</div>
+
+<script type="text/javascript">
+	var disqus_shortname = 'crownstone'; 
+	var disqus_loaded = false;
+	// load disqus comments only on demand
+	function disqus() {
+
+	  if (!disqus_loaded)  {
+		var e = document.createElement("script");
+		e.type = "text/javascript";
+		e.async = true;
+		e.src = "//" + disqus_shortname + ".disqus.com/embed.js";
+		(document.getElementsByTagName("head")[0] ||
+		 document.getElementsByTagName("body")[0])
+		.appendChild(e);
+	  }
+	}
+</script>
+
+
+
+
+
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+
+
+
+<div class="container-fluid gray-bg">
+    <div class="row justify-content-center">
+        <div class="col-xl-6">
+            <p class="newsletter-text">
+                
+                Hoor als eerste over de nieuwste functies van Crownstone! (Nieuwsbrief is in het Engels)
+                
+            </p>
+            <div class="newsletter bottom">
+            	<div class="wrapper">
+            		<form action="//rocks.us10.list-manage.com/subscribe/post?u=d03baf337210e326a61dc14d5&id=a23d3e9ded" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" target="_blank">
+            			<label for="Email" class="newsletter__label hidden-label">Sign up to our mailing list</label>
+            			<div class="input-group">
+            			    
+                            <input type="email" value="" placeholder="Nieuwe dingen om te leren en te lezen!" name="EMAIL" id="Email" class="input-group-field newsletter__input" autocorrect="off" autocapitalize="off">
+                            
+            				<span class="input-group-btn">
+            					<button type="submit" class="btn newsletter__submit" name="subscribe" id="Subscribe">
+            					
+            					<span class="newsletter__submit-text--large">Ik doe mee!</span>
+            					
+            					<span class="newsletter__submit-text--small">→</span>
+            					</button>
+            				</span>
+            			</div>
+            		</form>
+            	</div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="footer">
+    <br />
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-1"></div>
+            <div class="col-sm-10">
+                <div class="row">
+                    <div class="col-sm-4 text-center">
+                        <p style="text-align: center; font-family: Lato, sans-serif; font-size: 1rem; font-style: italic; font-weight: bold; color: white; width: 100%; padding: 1.2rem 0; margin: 0;">
+                            CUSTOMER
+                        </p>
+                        <div style="display:inline-block;">
+                            <ul class="list-unstyled">
+                                
+      	    <li><a href="/nl/" class='footer-text-element' style="text-align: center !important; align-self: center; font-family: Lato, sans-serif; font-size: 0.9rem; font-style: italic; padding: 0; color:#dddddd !important; text-decoration: none">Welkom</a></li>
+      	    <li><a href="/nl/product/" class='footer-text-element' style="text-align: center !important; align-self: center; font-family: Lato, sans-serif; font-size: 0.9rem; font-style: italic; padding: 0; color:#dddddd !important; text-decoration: none">Product</a></li>
+      	    <li><a href="/nl/scenarios/" class='footer-text-element' style="text-align: center !important; align-self: center; font-family: Lato, sans-serif; font-size: 0.9rem; font-style: italic; padding: 0; color:#dddddd !important; text-decoration: none">Scenario's</a></li>
+      	    <li><a href="/nl/works-with/" class='footer-text-element' style="text-align: center !important; align-self: center; font-family: Lato, sans-serif; font-size: 0.9rem; font-style: italic; padding: 0; color:#dddddd !important; text-decoration: none">Werkt met</a></li>
+      	    <li><a href="/nl/blog/" class='footer-text-element' style="text-align: center !important; align-self: center; font-family: Lato, sans-serif; font-size: 0.9rem; font-style: italic; padding: 0; color:#dddddd !important; text-decoration: none">Blog</a></li>
+      	    <li><a href="/nl/installation/" class='footer-text-element' style="text-align: center !important; align-self: center; font-family: Lato, sans-serif; font-size: 0.9rem; font-style: italic; padding: 0; color:#dddddd !important; text-decoration: none">Installatie</a></li>
+      	    <li><a href="/nl/jobs/" class='footer-text-element' style="text-align: center !important; align-self: center; font-family: Lato, sans-serif; font-size: 0.9rem; font-style: italic; padding: 0; color:#dddddd !important; text-decoration: none">Banen</a></li>
+      	    <li><a href="/nl/team/" class='footer-text-element' style="text-align: center !important; align-self: center; font-family: Lato, sans-serif; font-size: 0.9rem; font-style: italic; padding: 0; color:#dddddd !important; text-decoration: none">Team</a></li>
+      	    <li><a href="/nl/where-to-buy/" class='footer-text-element' style="text-align: center !important; align-self: center; font-family: Lato, sans-serif; font-size: 0.9rem; font-style: italic; padding: 0; color:#dddddd !important; text-decoration: none">Winkel</a></li>
+                                
+                            </ul>
+                        </div>
+
+                        <p style="text-align: center; font-family: Lato, sans-serif; font-size: 1rem; font-style: italic; font-weight: bold; color: white; width: 100%; padding: 1.2rem 0; margin: 0;">
+                            ABOUT US
+                        </p>
+                        <div style="display:inline-block;">
+                            <ul class="list-unstyled">
+                                
+      	    <li><a href="/nl/about-us/" class='footer-text-element' style="text-align: center !important; align-self: center; font-family: Lato, sans-serif; font-size: 0.9rem; font-style: italic; padding: 0; color:#dddddd !important; text-decoration: none">Crownstone</a></li>
+      	    <li><a href="/nl/internships/" class='footer-text-element' style="text-align: center !important; align-self: center; font-family: Lato, sans-serif; font-size: 0.9rem; font-style: italic; padding: 0; color:#dddddd !important; text-decoration: none">Internships</a></li>
+      	    <li><a href="/nl/investors/" class='footer-text-element' style="text-align: center !important; align-self: center; font-family: Lato, sans-serif; font-size: 0.9rem; font-style: italic; padding: 0; color:#dddddd !important; text-decoration: none">Investors</a></li>
+                                
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-4 text-center">
+                        <p style="text-align: center; font-family: Lato, sans-serif; font-size: 1rem; font-style: italic; font-weight: bold; color: white; width: 100%; padding: 1.2rem 0; margin: 0;">
+                            B2B
+                        </p>
+                        <div style="display:inline-block;">
+                            <ul class="list-unstyled">
+                                
+      	    <li><a href="/nl/business/oem/" class='footer-text-element' style="text-align: center !important; align-self: center; font-family: Lato, sans-serif; font-size: 0.9rem; font-style: italic; padding: 0; color:#dddddd !important; text-decoration: none">OEM</a></li>
+      	    <li><a href="/nl/business/residential-real-estate/" class='footer-text-element' style="text-align: center !important; align-self: center; font-family: Lato, sans-serif; font-size: 0.9rem; font-style: italic; padding: 0; color:#dddddd !important; text-decoration: none">Real Estate Developers</a></li>
+      	    <li><a href="/nl/business/" class='footer-text-element' style="text-align: center !important; align-self: center; font-family: Lato, sans-serif; font-size: 0.9rem; font-style: italic; padding: 0; color:#dddddd !important; text-decoration: none">Use Cases</a></li>
+      	    <li><a href="/nl/business/developers/" class='footer-text-element' style="text-align: center !important; align-self: center; font-family: Lato, sans-serif; font-size: 0.9rem; font-style: italic; padding: 0; color:#dddddd !important; text-decoration: none">Developers</a></li>
+      	    <li><a href="/nl/business/data/" class='footer-text-element' style="text-align: center !important; align-self: center; font-family: Lato, sans-serif; font-size: 0.9rem; font-style: italic; padding: 0; color:#dddddd !important; text-decoration: none">Internet of Things</a></li>
+      	    <li><a href="/nl/infrastructure/" class='footer-text-element' style="text-align: center !important; align-self: center; font-family: Lato, sans-serif; font-size: 0.9rem; font-style: italic; padding: 0; color:#dddddd !important; text-decoration: none">Infrastructure</a></li>
+                                
+                            </ul>
+                        </div>
+                        <p style="text-align: center; font-family: Lato, sans-serif; font-size: 1rem; font-style: italic; font-weight: bold; color: white; width: 100%; padding: 1.2rem 0; margin: 0;">
+                            NEWS
+                        </p>
+                        <div style="display:inline-block;">
+                            <ul class="list-unstyled">
+                                
+      	    <li><a href="/nl/email-updates/" class='footer-text-element' style="text-align: center !important; align-self: center; font-family: Lato, sans-serif; font-size: 0.9rem; font-style: italic; padding: 0; color:#dddddd !important; text-decoration: none">Fun Newsletter!</a></li>
+                                
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-4 text-center">
+                        <p style="text-align: center; font-family: Lato, sans-serif; font-size: 1rem; font-style: italic; font-weight: bold; color: white; width: 100%; padding: 1.2rem 0; margin: 0;">
+                            ORDER
+                        </p>
+                        <div style="display:inline-block;" >
+                            <ul class="list-unstyled" style="text-align: left; margin-bottom:0 !important;">
+                                <a href="https://shop.crownstone.rocks?launch=nl&ref=http://crownstone.rocks/nl/2021/03/09/the-2-wire-smart-switch-has-no-neutral" class="footer-text-element" style="text-align: left !important; align-self: center; font-family: Lato, sans-serif; font-size: 0.9rem; font-style: italic; padding: 0; color:#dddddd !important; text-decoration: none">
+                                    <i class="el el-shopping-cart mr-2"></i>
+                                    
+                                    Webwinkel
+                                    
+                                </a>
+                            </ul>
+
+                            <ul class="list-unstyled" style="text-align: left">
+                                <a href="https://subscribe.crownstone.rocks/welcome?launch=nl&ref=http://crownstone.rocks/nl/2021/03/09/the-2-wire-smart-switch-has-no-neutral&loc=footer" class="footer-text-element" style="text-align: left !important; align-self: center; font-family: Lato, sans-serif; font-size: 0.9rem; font-style: italic; padding: 0; color:#dddddd !important; text-decoration: none">
+                                    <i class="el el-person mr-2"></i>
+                                    
+                                    Abonnement
+                                    
+                                </a>
+                            </ul>
+                        </div>
+
+                        <p style="text-align: center; font-family: Lato, sans-serif; font-size: 1rem; font-style: italic; font-weight: bold; color: white; width: 100%; padding: 1.2rem 0; margin: 0;">
+                            CONTACT
+                        </p>
+                        <div style="display:inline-block;">
+                            <ul class="list-unstyled" style="text-align: left">
+<!--                                <li>-->
+<!--                                    <script type="text/javascript">/*<![CDATA[*/var a=new Array(".rocks", "stone", "crown", "@", "sk", "a");document.write("<a href='mailto:");for(i=a.length-1;i>=0;i&#45;&#45;){document.write(a[i])}document.write("?subject=Get in contact' class='footer-text-element' style=\"text-align: center !important; align-self: center; font-family: Lato, sans-serif; font-size: 0.9rem; font-style: italic; padding: 0; color:#dddddd !important; text-decoration: none\"><i class='el el-envelope footer'></i>Email us!</a>");/*]]>*/</script>-->
+<!--                                    <noscript><i class="el el-envelope footer"></i>Email team@...</noscript>-->
+<!--                                </li>-->
+                                <li>
+                                    <a href="https://crownstone.rocks/nl/contact" class="footer-text-element" style="text-align: center !important; align-self: center; font-family: Lato, sans-serif; font-size: 0.9rem; font-style: italic; padding: 0; color:#dddddd !important; text-decoration: none">
+                                        <i class="el el-group footer"></i>Contact us
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="https://crownstone.rocks/nl/privacy-policy" class="footer-text-element" style="text-align: center !important; align-self: center; font-family: Lato, sans-serif; font-size: 0.9rem; font-style: italic; padding: 0; color:#dddddd !important; text-decoration: none">
+                                        <i class="el el-ok footer"></i>Privacy
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://crownstone.rocks/nl/presskit" class="footer-text-element" style="text-align: center !important; align-self: center; font-family: Lato, sans-serif; font-size: 0.9rem; font-style: italic; padding: 0; color:#dddddd !important; text-decoration: none">
+                                        <i class="el el-idea footer"></i>Press
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-1"></div>
+        </div>
+        <br/>
+
+        <!--   SOCIAL MEDIA     -->
+        <div class="row footer-container" style="justify-content: space-around; padding: 3rem;">
+            <div class="col-md-6">
+                <div class="row align-items-center">
+                    <div class="col social-media-icons-container">
+                        <a href="https://www.facebook.com/crownstones/" target="_blank" class="footer-social-media-icons" style="text-align: center; color: lightgray; font-size: 2rem; margin: 0; padding: 0;"><i class="el el-facebook"></i></a>
+                    </div>
+
+                    <div class="col social-media-icons-container">
+                        <a href="https://twitter.com/CrownstoneRocks" target="_blank" class="footer-social-media-icons" style="text-align: center; color: lightgray; font-size: 2rem; margin: 0; padding: 0;"><i class="el el-twitter"></i></a>
+                    </div>
+
+                    <div class="col social-media-icons-container">
+                        <a href="https://discord.gg/zPhesU2CZv" target="_blank" class="footer-social-media-icons" style="text-align: center; color: lightgray; font-size: 2rem; margin: 0; padding: 0;"> <img src="/images/contact/discord-gray.svg" alt="discord-icon" style="min-width: 50px; width: 50%"> </a>
+                    </div>
+
+                    <div class="col social-media-icons-container">
+                        <a href="https://www.youtube.com/channel/UCru1PX6P1JyhsI-OEMXnBdg" target="_blank" class="footer-social-media-icons" style="text-align: center; color: lightgray; font-size: 2rem; margin: 0; padding: 0;"><i class="el el-youtube"></i></a>
+                    </div>
+
+                    <div class="col social-media-icons-container">
+                        <a href="https://www.linkedin.com/company/crownstone" target="_blank" class="footer-social-media-icons"><i class="el el-linkedin" style="text-align: center; color: lightgray; font-size: 2rem; margin: 0; padding: 0;"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12 text-center colofon">
+               <div class="accent" style="margin: 0;">Crownstone</div>
+               <p style="margin: 0;">Stationsplein 45 d1.118</p>
+               <p style="margin: 0;">3013 AK Rotterdam, The Netherlands</p>
+               <p style="margin: 0;">0031103073955 / 010-3073955</p>
+               <br/>
+               <p style="margin: 0;">
+                  This site uses external services. Cookies for the webshop (<a href="https://www.shopify.com/legal/cookies" class="link-footer">cookie policy</a>).
+               </p>
+            </div>
+        </div>
+    </div>
+    <br />
+</div>
+
+
+<script async defer src="https://cdn.simpleanalytics.io/hello.js"></script>
+<noscript><img src="https://api.simpleanalytics.io/hello.gif" alt=""></noscript>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-17146802-16', 'auto');
+  ga('set', 'allowAdFeatures', false);
+  ga('send', 'pageview');
+</script>
+
+
+
+<!-- in debug mode, Google Chrome complains about .map files, do not worry -->                    
+<script type="text/javascript" src="/assets/themes/flat/resources/jquery/jquery-3.3.1.min.js"></script>
+<script type="text/javascript" src="/assets/themes/flat/resources/bootstrap/js/bootstrap.min.js"></script>
+<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+<!--[if gt IE 9]>
+<script type="text/javascript" src="/assets/themes/flat/resources/bootstrap/js/ie10-viewport-bug-workaround.js"></script>
+<![endif]-->
+
+
+</body>
+</html>
+

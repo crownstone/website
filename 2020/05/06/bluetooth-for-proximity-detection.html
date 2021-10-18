@@ -1,0 +1,1905 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    
+
+    <meta name="description" content="Bluetooth LE for contact tracing is not a panacea. There are many factors that influence signal strength.">
+
+    
+
+    
+
+    <meta name="keywords" content="bluetooth, proximity detection, contact tracing, multi-channel, multi-channel attenuation, multi-channel fading, multiple phones, smart home, smart homes, domotica, smart plug, home automation, power plug, gadgets, apple, open-source, raspberry pi, smart outlet, smart switch, arduino, alexa, amazon echo, nest, toon, philips hue, homewizard, fibaro, klik-aan-klik-uit, energy savings, comfort">
+    
+    <meta name="author" content="Crownstone B.V.">
+    <link rel="icon" type="image/x-icon" href="https://crownstone.rocks/images/favicon.ico?">
+    <link rel="apple-touch-icon" href="https://crownstone.rocks/images/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="https://crownstone.rocks/images/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="https://crownstone.rocks/images/apple-touch-icon-114x114.png">
+
+    <meta name="theme-color" content="#ff8400">
+    <meta name="msapplication-navbutton-color" content="#ff8400">
+    <meta name="apple-mobile-web-app-status-bar-style" content="#ff8400">
+
+    <meta http-equiv="Content-Language" content="en">
+<link rel="alternate" hreflang="en" href="https://crownstone.rocks/2020/05/06/bluetooth-for-proximity-detection"/>
+<link rel="alternate" hreflang="nl" href="https://crownstone.rocks/nl/2020/05/06/bluetooth-for-proximity-detection"/>
+
+
+    <meta name="google-site-verification" content="qsSndPwnJ3H5zpj9z6ZvY-r4WnvSpMBe5QchxVbIWvw" />
+
+    
+    <title>Crownstone | Bluetooth for proximity detection.</title>
+	<!-- Twitter social card -->
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:title" content="Bluetooth for proximity detection.">
+	<meta name="twitter:description" content="Bluetooth LE for contact tracing is not a panacea. There are many factors that influence signal strength.">
+	<meta name="twitter:image" content="https://crownstone.rocks/attachments/blog/multiple_phones.png">
+	<meta name="twitter:image:width" content="240">
+	<meta name="twitter:image:height" content="240">
+    <!-- Open graph social card -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Bluetooth for proximity detection.">
+    <meta property="og:url" content="https://crownstone.rocks/2020/05/06/bluetooth-for-proximity-detection">
+    <meta property="og:image" content="https://crownstone.rocks/attachments/blog/multiple_phones.png">
+    <meta property="og:image:secure_url" content="https://crownstone.rocks/attachments/blog/multiple_phones.png">
+    <meta property="og:description" content="Bluetooth LE for contact tracing is not a panacea. There are many factors that influence signal strength.">
+    <meta property="og:site_name" content="Crownstone">
+    <!-- Bootstrap as framework -->
+    <link href="/assets/themes/flat/resources/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/assets/themes/flat/css/crownstone-global.css" rel="stylesheet">
+    <link href="/assets/themes/flat/css/elusive-icons.min.css" rel="stylesheet">
+    <link href="/assets/themes/flat/css/syntax.css" rel="stylesheet">
+    <!-- 
+    <link href="/assets/themes/flat/css/elusive-webfont.css" rel="stylesheet"> 
+    -->
+    <!--[if lt IE 9]>
+        <script src="/assets/themes/flat/resources/respond/Respond.min.js"></script>
+    <![endif]-->
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <!--[if gt IE 9]>
+    <link href="./bootstrap/css/ie10-viewport-bug-workaround.css" rel="stylesheet"> 
+    <![endif]-->
+    <link href="/atom.xml" type="application/atom+xml" rel="alternate" title="Sitewide ATOM Feed">
+    <link href="/rss.xml" type="application/rss+xml" rel="alternate" title="Sitewide RSS Feed">
+    
+
+    
+    
+    
+</head>
+
+<body>
+
+   <nav class="navbar navbar-light navbar-expand-lg">
+      <div class="container navContainer">
+         <img class="navbar-brand topLogo xs img-responsive" src="/images/apple-touch-icon-114x114.png" alt="">
+         <div class="crownstoneText d-block d-lg-none">Crownstone</div>
+
+         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarContents" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+         </button>
+
+         <div class="collapse navbar-collapse" id="navbarContents">
+            <ul class="navbar-nav">
+                                                                                                             
+				<li class="nav-item inactive "><a href="/" class="nav-link">Welcome</a></li>
+                       
+
+               
+
+
+
+<li class="nav-item dropdown">
+    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        Smart Home
+    </a>
+    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink" style="z-index: 1001; padding: 0;">
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+       
+          <a class="dropdown-item inactive " href="/product/" style="background-color: transparent;">Product</a>
+          
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+       
+          <a class="dropdown-item inactive " href="/scenarios/" style="background-color: transparent;">Scenarios</a>
+          
+      
+     
+    
+     
+      
+       
+          <a class="dropdown-item inactive " href="/works-with/" style="background-color: transparent;">Works with</a>
+          
+      
+     
+    
+     
+      
+     
+    
+     
+      
+       
+          <a class="dropdown-item inactive " href="/installation/" style="background-color: transparent;">Installation</a>
+          
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+    
+     
+      
+     
+    
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+    </div>
+</li>
+
+
+               
+
+
+
+<li class="nav-item dropdown">
+    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        
+         Business
+        
+    </a>
+    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink" style="z-index: 1001; padding: 0;">
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+       
+          <a class="dropdown-item inactive " href="/business/oem/" style="background-color: transparent;">OEM</a>
+          
+      
+     
+    
+     
+      
+     
+    
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+       
+          <a class="dropdown-item inactive " href="/business/residential-real-estate/" style="background-color: transparent;">Real Estate</a>
+          
+      
+     
+    
+     
+    
+     
+      
+       
+          <a class="dropdown-item inactive " href="/business/indoor-positioning" style="background-color: transparent;">Indoor Positioning</a>
+          
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+       
+          <a class="dropdown-item inactive " href="/business/asset-tracking" style="background-color: transparent;">Asset Tracking</a>
+          
+      
+     
+    
+     
+      
+     
+    
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+       
+          <a class="dropdown-item inactive " href="/business/energy-monitoring" style="background-color: transparent;">Energy Monitoring</a>
+          
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+    
+     
+      
+     
+    
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+    </div>
+</li>
+
+
+               
+
+
+
+<li class="nav-item dropdown">
+    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        
+        About us
+        
+    </a>
+    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink" style="z-index: 1001; padding: 0;">
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+       
+          <a class="dropdown-item inactive " href="/about-us/" style="background-color: transparent;">Crownstone</a>
+          
+      
+     
+    
+     
+    
+     
+      
+       
+          <a class="dropdown-item inactive " href="/jobs/" style="background-color: transparent;">Jobs</a>
+          
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+    
+     
+      
+     
+    
+     
+      
+       
+          <a class="dropdown-item inactive " href="/internships/" style="background-color: transparent;">Internships</a>
+          
+      
+     
+    
+     
+      
+       
+          <a class="dropdown-item inactive " href="/team/" style="background-color: transparent;">Team</a>
+          
+      
+     
+    
+     
+      
+     
+    
+     
+      
+       
+          <a class="dropdown-item inactive " href="/blog/" style="background-color: transparent;">Blog</a>
+          
+      
+     
+    
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+    
+     
+      
+     
+    
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+       
+          <a class="dropdown-item inactive " href="/investors/" style="background-color: transparent;">Investors</a>
+          
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+    </div>
+</li>
+
+
+               
+				<li class="nav-item inactive "><a href="/where-to-buy/" class="nav-link">Where to buy</a></li>
+				<li class="nav-item inactive "><a href="/support/" class="nav-link">Support</a></li>
+
+            </ul>
+
+            <ul class="navbar-nav mr-right">
+               
+<li class="nav-item">
+	
+	
+	<!-- note the space before nav-url, without it polyglot will relativize it: https://github.com/untra/polyglot -->
+	<a style="font-weight: bold;" href=" https://crownstone.rocks/2020/05/06/bluetooth-for-proximity-detection" class="nav-link lang-menu" style="border-bottom: 2px solid white">en</a>
+</li>
+
+<li class="nav-item">
+	
+	
+	<!-- note the space before nav-url, without it polyglot will relativize it: https://github.com/untra/polyglot -->
+	<a  href=" https://crownstone.rocks/nl/2020/05/06/bluetooth-for-proximity-detection" class="nav-link lang-menu" style="border-bottom: 2px solid white">nl</a>
+</li>
+
+               
+          	<li class="nav-item"><a href="/search/" class="nav-link active"><i class="el el-search"></i></a></li>
+
+            </ul>
+         </div>
+      </div>
+   </nav>
+
+
+
+
+
+
+
+
+
+
+<div class="container-fluid post-container">
+	<div class="container">
+		<div class="row post-full">
+			<div class="col-md-12">
+				
+				<div class="date d-none d-lg-block">
+					<strong class="date_month">May</strong>
+					<strong class="date_day">6</strong>
+					<strong class="date_year">2020</strong>
+				</div>
+				
+				
+				<div class="post">
+					<div class="content">
+						
+<h1 id="header-bluetooth-for-proximity-detection">Bluetooth for proximity detection</h1>
+
+<p>Crownstone is a company that has years of experience with indoor localization using Bluetooth Low Energy (Bluetooth LE). 
+With the current spread of the Covid-19 disease, it is intended to roll out so-called <strong>contact tracing</strong> apps. Its
+aim is to collect knowledge about contact events. There is a time window in which the SARS-CoV-2 virus 
+can transmit from one person to the other when they are in each other’s physical proximity. The proximity between two smartphones
+can be used as a proxy to the proximity of people. To the astute observer, yes, this does take into account neither
+surface contamination, nor the ability of a virus to remain floating in the air for longer times. It is an
+<strong>approximation</strong> of the risk of infection.</p>
+
+<p>On personal title Anne has already describe a few of the challenges that the use of Bluetooth LE 
+<a href="https://www.linkedin.com/pulse/covid-19-bluetooth-tracking-anne-van-rossum">implies</a>. At Crownstone, one of our
+core values is <strong>transparency</strong>. For that reason <strong>privacy</strong> is a very important right to us. However, we won’t touch
+that topic here. For starters, it is important that a technical solution <strong>works</strong>. Let us illustrate this with a 
+short parable. If cameras would be deployed to <strong>recognize bike theft</strong>, but there are reasons to 
+assume that the computer vision algorithms won’t work, it is important to listen to those “annoying techies”. If it does
+not work, it does not work…</p>
+
+<h1 id="header-bluetooth-le">Bluetooth LE</h1>
+
+<p>The Bluetooth LE packets are sent using a Bluetooth chipset and radio on your smartphone. On an iPhone or Android
+this can e.g. be the Broadcom BCM43xx family (read this <a href="https://blog.exodusintel.com/2017/07/26/broadpwn/">story</a> from
+a reverse engineer to learn much more). The radio broadcasts signals through an antenna. Those radio waves can be 
+modelled by a program like that of <a href="https://www.comsol.nl/">Comsol</a>. The performance is typically analyzed with
+a Smith chart (impedance), return loss diagram (bandwidth), and so on. Below you can see two figures at a state where we
+were still tuning the antenna together with the Van Mierlo engineers.</p>
+
+<div style="display: flex; align-items: center; justify-content: center;">
+  <div style="flex: 50%; padding: 5px;">
+    <p><img src="https://crownstone.rocks/attachments/blog/smith_chart_impedance.png" alt="Smith chart" title="Smith chart" /></p>
+  </div>
+  <div style="flex: 50%; padding: 5px;">
+    <p><img src="https://crownstone.rocks/attachments/blog/antenna_bandwidth.png" alt="Antenna bandwidth" title="Antenna bandwidth" /></p>
+  </div>
+</div>
+
+<h2 id="header-orientation">Orientation</h2>
+
+<p>We decided in the end to use a different antenna. The details of this ProAnt OnBoard SMD 2400 Antenna (PRO-OB-440) can be found in the <a href="https://crownstone.rocks/attachments/hardware/proant_onboard_smd_2400_datasheet.pdf">datasheet</a> and <a href="https://crownstone.rocks/attachments/hardware/proant_onboard_smd_2400_application_note.pdf">application note</a>.</p>
+
+<div style="display: block">
+  <p><img src="https://crownstone.rocks/attachments/blog/antenna_design_new.png" alt="Antenna design" title="Antenna design" class="float-left" width="42%" style="margin:4%" />
+<img src="https://crownstone.rocks/attachments/blog/antenna_polarization.png" alt="Antenna polarization" title="Antenna polarization" class="float-right" width="42%" style="margin:4%" /></p>
+</div>
+
+<p>You see how the orientation of the antenna has influence on the radiation pattern. This is very typical of antennas
+and they differ in how “spherical” the pattern is. You see that it’s even different for horizontal polarization (HP) versus vertical polarization (VP).</p>
+
+<p>One of the interns at Crownstone studied these effects in detail. For example, here you see the antenna aspects of multiple phone models in an indirect manner, namely through the signal strength
+values with which the phones registers the strength of the incoming message.</p>
+
+<p><img src="https://crownstone.rocks/attachments/blog/multiple_phones.png" alt="Multiple Phones" /></p>
+
+<p>Now we rotate the phone and we see completely different distributions.</p>
+
+<p><img src="https://crownstone.rocks/attachments/blog/multiple_phones_orientation.png" alt="Multiple Phones with different Orientation" /></p>
+
+<p>The Bluetooth spectrum runs from 2402 MHz up to 2480 MHz and is divided into 40 channels. The channels used for
+the Bluetooth LE advertisers in these applications are 37, 38, and 39. To best cope with interference they are spread
+very widely, the first channel at the beginning, the second somewhere in the middle, and the third at the end of the
+spectrum. Each channel comes with different properties and that is very clearly visible in the pictures of above.
+<strong>Orientation</strong> has a lot of impact on the signal strengths per <strong>individual channel</strong>.</p>
+
+<p>A potential benefit of Apple and Google writing their own code would be that they can make use of this information.
+That this will be done is very unlikely. Yes, the information can be used to improve distance estimates, but it takes
+considerable engineering effort to do this over all possible phone types, antenna configurations, and the presence
+of covers, headphones, or battery packs outside of a lab setting.</p>
+
+<h2 id="header-obstructions-and-reflections">Obstructions and reflections</h2>
+
+<p>A radio signal does not only travel in a straight line. For OpenTrace, the reference implementation of BlueTrace, the
+protocol underlying the TraceTogether app from Singapore, there has been some good work on <a href="https://github.com/opentrace-community/opentrace-calibration/files/4499313/Coronavirus.COVID-19.-.Calibration.Method.and.Proximity.Accuracy.-.EN.pdf">calibration (pdf)</a>.</p>
+
+<p>It is not hard to imagine that messages from a smartphone in a pocket or handbag are received at lower signal strengths
+than if they do not have to <strong>penetrate</strong> to those materials. There are other aspects that are relevant to indoor
+situations and to moving objects. Indoors the signal can be reflected on surfaces. The combined signal at the receiver
+can sum up to be large due to those reflections. This <strong>multi-path attenuation</strong> will give results where it seems someone
+is closer than they actually are. Similarly, with particular phase difference, reflections subtract from the 
+received signal power. When two people are walking phase shifts change continuously and have to be taken into account.
+In this article it states that the <strong>fading</strong> effects cannot be neglected, at least for moist ground when there’s ample
+reflection.</p>
+
+<p>To understand the impact of people themselves, a study by another intern at Crownstone might be enlightening. We already
+knew that there were many aspects that were influencing received signal strengths. Hence, we thought how to make use
+of that, rather than see it as an enemy. The question rose: If we carefully monitor signal strengths, can we derive information on walls,
+doors, or people? The latter we called <strong>device-free localization</strong>.</p>
+
+<p><img src="https://crownstone.rocks/attachments/blog/shadowing_person.png" alt="Influence of a person" /></p>
+
+<p>In this graph a <strong>shadowing effect</strong> is shown. The received signal strengths are monitored between two Crownstones facing
+each other. A person walks through the “virtual beam” of communicating Bluetooth LE messages. You see a drop due to
+this shadowing effect. The signals do not pass through the person for a short period.</p>
+
+<p>That shows how good our body is in being an impenetrable barrier for Bluetooth signals. If your phone is in front of
+your body, the signals received at your back will be much and much weaker than the ones in the front.</p>
+
+<h1 id="header-how-then-does-crownstone-do-it">How then does Crownstone do it?</h1>
+
+<p>If this all is so hard, how come Crownstone’s system works? There are two reasons for this: (1) the use of multiple
+Crownstones, and (2) self-learning algorithms.</p>
+
+<h2 id="header-use-of-multiple-crownstones">Use of multiple Crownstones</h2>
+
+<p>At Crownstone we can quite accurately pinpoint the location of a user, but for that we use the signal strengths of
+messages that arrive from multiple Crownstones. We combine those with algorithms to derive the location of a user.
+If you place the Crownstones very close together you can get extremely high accuracies. Bluetooth LE accuracy is
+therefore not just depending on the signals itself. If you have multiple of those signals you can learn much better
+if someone is nearby.</p>
+
+<div class="videowrapper">
+		<center>
+		<iframe frameborder="0" width="560" height="420" allowfullscreen="" src="//www.youtube.com/embed/ZtnYH53A4zE?color=white&amp;theme=light&amp;title="></iframe>
+		</center>
+		</div>
+
+<p>The above movie shows a demo where the position is estimated at a level of centimeters rather than meters. Note that
+this requires a high density of Crownstones. It is not practical in the real world!</p>
+
+<h2 id="header-self-learning">Self-learning</h2>
+
+<p>Another aspect why the Crownstone system works, while contact tracing is much more difficult, is the fact that it is
+self-learning. The Crownstones - because every phone can be different - ask for the help of the user. The 
+Crownstone’s AI on the phone asks the user to walk around in a casual way, e.g. with the phone in their pocket or in 
+their hand. During this process it collects all signal strengths while the user stays in the same room. After this
+learning process, the system generates a <strong>fingerprint</strong> of the room. At a later stage, when a particular pattern of 
+signals is seen, it is matched with the fingerprints and the classifier outputs the most reasonable guess for the 
+current room.</p>
+
+<p>A system like this won’t work for contact tracing. It can be done in the lab, with contact events 
+simulated by people passing each other. However, this information is hard to obtain from the field, especially given
+privacy constraints.</p>
+
+<h1 id="header-summary">Summary</h1>
+
+<p>There are many other technical and operational facets as well, as already described in <a href="https://www.linkedin.com/pulse/covid-19-bluetooth-tracking-anne-van-rossum">this post</a>. 
+For example: the ability of Bluetooth LE signals to travel through walls, through ceilings, through glass. Another example: the difficulty of taking
+3D into account. Imagine a flat with the upstairs neighbour only two or three meters away. Think of someone
+sitting on a balcony and someone walking by. There are also considerations with respect to the smartphones themselves
+from allowing processes to run Bluetooth in the background (one of our most popular <a href="https://crownstone.rocks/2018/06/27/ios-advertisements-in-the-background">technical posts</a>).
+The TraceTogether app for example asks iPhone users to run the app in the foreground and upside down.</p>
+
+<p><img src="https://crownstone.rocks/attachments/blog/trace_together_upside_down.png" alt="TraceTogether upside down" /></p>
+
+<p>There are also tradeoffs between scanning, advertising, key rotation, and battery consumption. There are even questions of
+efficacy: contacts happen between <strong>two</strong> parties. Both have to have a system that works properly. If 60% of the people
+(that’s a lot!) install the app, we have only 0.6 times 0.6 = 36% of the potential contact events covered.
+If the app works for 80% of those people (questionable) this drops to the square of (0.6 * 0.8) = 23%. If the 
+detection rate is 80% (questionable high as well) it drops even lower. Note that in the true world, there are false negatives besides false 
+positives, which can strong demotivate people as well. If you get a warning that you were close to someone infected
+every day, it will not work.</p>
+
+<p>There is very little reason to assume that this is the right technology for the job. There can be many ways in which
+technology helps in this crisis though. Let us all be creative and <a href="https://www.linkedin.com/pulse/app-tunnel-vision-anne-van-rossum/">find those ways</a>!</p>
+
+<h1 id="header-references">References</h1>
+
+<ul>
+  <li>Indoor Localization using BLE (<a href="https://crownstone.rocks/attachments/internships/tomvandijk.pdf">pdf</a>) by T. van Dijk.
+Faculty of Mechanical, Maritime and Materials Engineering (3mE)·Delft University of Technology.</li>
+  <li>Translating BLE Received Signals across different Smartphones (<a href="https://crownstone.rocks/attachments/internships/dimitrisxenakis.pdf">pdf</a>) by D. Xenakis.
+Geomatics for the Built Environment, Delft University of Technology.</li>
+  <li>Contact Tracing Coronavirus COVID-19 - Calibration Method and Proximity Accuracy 
+(<a href="https://github.com/opentrace-community/opentrace-calibration/files/4499313/Coronavirus.COVID-19.-.Calibration.Method.and.Proximity.Accuracy.-.EN.pdf">pdf</a>)
+by H.J. Meckelburg. Rurh-Univerität Bochum.</li>
+</ul>
+
+
+					</div>
+					
+					<div class="d-lg-none">
+						<div class="text-date">
+							<p>06 May 2020</p> 
+						</div>
+					</div>
+
+					
+		
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-12">
+
+					
+					<div class="tag_box inline">
+						
+						
+
+
+	
+		
+			<a class="tag" href="/tags.html#bluetooth">bluetooth</a>
+		
+			<a class="tag" href="/tags.html#proximity detection">proximity detection</a>
+		
+			<a class="tag" href="/tags.html#contact tracing">contact tracing</a>
+		
+			<a class="tag" href="/tags.html#multi-channel">multi-channel</a>
+		
+			<a class="tag" href="/tags.html#multi-channel attenuation">multi-channel attenuation</a>
+		
+			<a class="tag" href="/tags.html#multi-channel fading">multi-channel fading</a>
+		
+			<a class="tag" href="/tags.html#multiple phones">multiple phones</a>
+		
+	
+
+
+
+
+					</div>
+					
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="container-fluid post-footer">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6">
+					<ul class="pagination">
+						
+						<li class="page-item prev"><a class="page-link" href="/2020/03/04/crownstone-new-behaviour" title="Crownstone New Behaviour.">&larr; Previous</a></li>
+						
+						<li class="page-item"><a class="page-link" href="/blog">Archive</a></li>
+						
+						<li class="page-item next"><a class="page-link" href="/2020/06/22/automation-the-key-ingredient-for-a-truly-smart-home" title="Automation: the key ingredient for a truly smart home!">Next &rarr;</a></li>
+						
+					</ul>
+			</div>
+			<div class="col-md-6">
+
+					<div class="social-button-footer">
+						<p>
+						<a class="btn btn-social-icon btn-twitter" href="http://twitter.com/intent/tweet?url=https://crownstone.rocks/2020/05/06/bluetooth-for-proximity-detection&text=Bluetooth for proximity detection."><i class="el el-twitter"></i></a>
+						<a class="btn btn-social-icon btn-facebook" href="http://facebook.com/sharer.php?u=https://crownstone.rocks/2020/05/06/bluetooth-for-proximity-detection"><i class="el el-facebook"></i></a>
+						<a class="btn btn-social-icon btn-googleplus" href="https://plus.google.com/share?url=https://crownstone.rocks/2020/05/06/bluetooth-for-proximity-detection"><i class="el el-googleplus"></i></a>
+						<a class="btn btn-social-icon btn-linkedin" href="https://www.linkedin.com/shareArticle?mini=true&url=https://crownstone.rocks/2020/05/06/bluetooth-for-proximity-detection"><i class="el el-linkedin"></i></a>
+						<a class="btn btn-social-icon btn-reddit" href="http://reddit.com/submit?url=https://crownstone.rocks/2020/05/06/bluetooth-for-proximity-detection&title=Bluetooth for proximity detection."><i class="el el-reddit"></i></a>
+						<a class="btn btn-social-icon btn-hackernews" href="https://news.ycombinator.com/submitlink?u=https://crownstone.rocks/2020/05/06/bluetooth-for-proximity-detection&t=Bluetooth for proximity detection."><strong>Y</strong></a>
+						</p>
+					</div>
+
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-md-12">
+					
+
+
+  <div id="disqus_thread">
+	<div class="disqus_block">
+		<p>
+			<a href="#" onclick="disqus();return false;"><i class="el el-group"></i> Show Comments</a>
+		</p>
+		<p>
+			(not shown automatically to support your privacy)
+		</p>
+	</div>
+</div>
+
+<script type="text/javascript">
+	var disqus_shortname = 'crownstone'; 
+	var disqus_loaded = false;
+	// load disqus comments only on demand
+	function disqus() {
+
+	  if (!disqus_loaded)  {
+		var e = document.createElement("script");
+		e.type = "text/javascript";
+		e.async = true;
+		e.src = "//" + disqus_shortname + ".disqus.com/embed.js";
+		(document.getElementsByTagName("head")[0] ||
+		 document.getElementsByTagName("body")[0])
+		.appendChild(e);
+	  }
+	}
+</script>
+
+
+
+
+
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+
+
+
+<div class="container-fluid gray-bg">
+    <div class="row justify-content-center">
+        <div class="col-xl-6">
+            <p class="newsletter-text">
+                
+                Be the first to hear about Crownstone's newest features!
+                
+            </p>
+            <div class="newsletter bottom">
+            	<div class="wrapper">
+            		<form action="//rocks.us10.list-manage.com/subscribe/post?u=d03baf337210e326a61dc14d5&id=a23d3e9ded" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" target="_blank">
+            			<label for="Email" class="newsletter__label hidden-label">Sign up to our mailing list</label>
+            			<div class="input-group">
+            			    
+                            <input type="email" value="" placeholder="New things to learn and read!" name="EMAIL" id="Email" class="input-group-field newsletter__input" autocorrect="off" autocapitalize="off">
+                            
+            				<span class="input-group-btn">
+            					<button type="submit" class="btn newsletter__submit" name="subscribe" id="Subscribe">
+            					
+            					<span class="newsletter__submit-text--large">I like!</span>
+            					
+            					<span class="newsletter__submit-text--small">→</span>
+            					</button>
+            				</span>
+            			</div>
+            		</form>
+            	</div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="footer">
+    <br />
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-1"></div>
+            <div class="col-sm-10">
+                <div class="row">
+                    <div class="col-sm-4 text-center">
+                        <p style="text-align: center; font-family: Lato, sans-serif; font-size: 1rem; font-style: italic; font-weight: bold; color: white; width: 100%; padding: 1.2rem 0; margin: 0;">
+                            CUSTOMER
+                        </p>
+                        <div style="display:inline-block;">
+                            <ul class="list-unstyled">
+                                
+      	    <li><a href="/" class='footer-text-element' style="text-align: center !important; align-self: center; font-family: Lato, sans-serif; font-size: 0.9rem; font-style: italic; padding: 0; color:#dddddd !important; text-decoration: none">Welcome</a></li>
+      	    <li><a href="/product/" class='footer-text-element' style="text-align: center !important; align-self: center; font-family: Lato, sans-serif; font-size: 0.9rem; font-style: italic; padding: 0; color:#dddddd !important; text-decoration: none">Product</a></li>
+      	    <li><a href="/scenarios/" class='footer-text-element' style="text-align: center !important; align-self: center; font-family: Lato, sans-serif; font-size: 0.9rem; font-style: italic; padding: 0; color:#dddddd !important; text-decoration: none">Scenarios</a></li>
+      	    <li><a href="/works-with/" class='footer-text-element' style="text-align: center !important; align-self: center; font-family: Lato, sans-serif; font-size: 0.9rem; font-style: italic; padding: 0; color:#dddddd !important; text-decoration: none">Works with</a></li>
+      	    <li><a href="/installation/" class='footer-text-element' style="text-align: center !important; align-self: center; font-family: Lato, sans-serif; font-size: 0.9rem; font-style: italic; padding: 0; color:#dddddd !important; text-decoration: none">Installation</a></li>
+                                
+                            </ul>
+                        </div>
+
+                        <p style="text-align: center; font-family: Lato, sans-serif; font-size: 1rem; font-style: italic; font-weight: bold; color: white; width: 100%; padding: 1.2rem 0; margin: 0;">
+                            ABOUT US
+                        </p>
+                        <div style="display:inline-block;">
+                            <ul class="list-unstyled">
+                                
+      	    <li><a href="/about-us/" class='footer-text-element' style="text-align: center !important; align-self: center; font-family: Lato, sans-serif; font-size: 0.9rem; font-style: italic; padding: 0; color:#dddddd !important; text-decoration: none">Crownstone</a></li>
+      	    <li><a href="/jobs/" class='footer-text-element' style="text-align: center !important; align-self: center; font-family: Lato, sans-serif; font-size: 0.9rem; font-style: italic; padding: 0; color:#dddddd !important; text-decoration: none">Jobs</a></li>
+      	    <li><a href="/internships/" class='footer-text-element' style="text-align: center !important; align-self: center; font-family: Lato, sans-serif; font-size: 0.9rem; font-style: italic; padding: 0; color:#dddddd !important; text-decoration: none">Internships</a></li>
+      	    <li><a href="/team/" class='footer-text-element' style="text-align: center !important; align-self: center; font-family: Lato, sans-serif; font-size: 0.9rem; font-style: italic; padding: 0; color:#dddddd !important; text-decoration: none">Team</a></li>
+      	    <li><a href="/investors/" class='footer-text-element' style="text-align: center !important; align-self: center; font-family: Lato, sans-serif; font-size: 0.9rem; font-style: italic; padding: 0; color:#dddddd !important; text-decoration: none">Investors</a></li>
+                                
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-4 text-center">
+                        <p style="text-align: center; font-family: Lato, sans-serif; font-size: 1rem; font-style: italic; font-weight: bold; color: white; width: 100%; padding: 1.2rem 0; margin: 0;">
+                            B2B
+                        </p>
+                        <div style="display:inline-block;">
+                            <ul class="list-unstyled">
+                                
+      	    <li><a href="/business/oem/" class='footer-text-element' style="text-align: center !important; align-self: center; font-family: Lato, sans-serif; font-size: 0.9rem; font-style: italic; padding: 0; color:#dddddd !important; text-decoration: none">OEM</a></li>
+      	    <li><a href="/business/residential-real-estate/" class='footer-text-element' style="text-align: center !important; align-self: center; font-family: Lato, sans-serif; font-size: 0.9rem; font-style: italic; padding: 0; color:#dddddd !important; text-decoration: none">Real Estate Developers</a></li>
+      	    <li><a href="/business/" class='footer-text-element' style="text-align: center !important; align-self: center; font-family: Lato, sans-serif; font-size: 0.9rem; font-style: italic; padding: 0; color:#dddddd !important; text-decoration: none">Use Cases</a></li>
+      	    <li><a href="/business/developers/" class='footer-text-element' style="text-align: center !important; align-self: center; font-family: Lato, sans-serif; font-size: 0.9rem; font-style: italic; padding: 0; color:#dddddd !important; text-decoration: none">Developers</a></li>
+      	    <li><a href="/business/data/" class='footer-text-element' style="text-align: center !important; align-self: center; font-family: Lato, sans-serif; font-size: 0.9rem; font-style: italic; padding: 0; color:#dddddd !important; text-decoration: none">Internet of Things</a></li>
+      	    <li><a href="/infrastructure/" class='footer-text-element' style="text-align: center !important; align-self: center; font-family: Lato, sans-serif; font-size: 0.9rem; font-style: italic; padding: 0; color:#dddddd !important; text-decoration: none">Infrastructure</a></li>
+                                
+                            </ul>
+                        </div>
+                        <p style="text-align: center; font-family: Lato, sans-serif; font-size: 1rem; font-style: italic; font-weight: bold; color: white; width: 100%; padding: 1.2rem 0; margin: 0;">
+                            NEWS
+                        </p>
+                        <div style="display:inline-block;">
+                            <ul class="list-unstyled">
+                                
+      	    <li><a href="/email-updates/" class='footer-text-element' style="text-align: center !important; align-self: center; font-family: Lato, sans-serif; font-size: 0.9rem; font-style: italic; padding: 0; color:#dddddd !important; text-decoration: none">Fun Newsletter!</a></li>
+                                
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-4 text-center">
+                        <p style="text-align: center; font-family: Lato, sans-serif; font-size: 1rem; font-style: italic; font-weight: bold; color: white; width: 100%; padding: 1.2rem 0; margin: 0;">
+                            ORDER
+                        </p>
+                        <div style="display:inline-block;" >
+                            <ul class="list-unstyled" style="text-align: left; margin-bottom:0 !important;">
+                                <a href="https://shop.crownstone.rocks?launch=en&ref=http://crownstone.rocks/en/2020/05/06/bluetooth-for-proximity-detection" class="footer-text-element" style="text-align: left !important; align-self: center; font-family: Lato, sans-serif; font-size: 0.9rem; font-style: italic; padding: 0; color:#dddddd !important; text-decoration: none">
+                                    <i class="el el-shopping-cart mr-2"></i>
+                                    
+                                    Webshop
+                                    
+                                </a>
+                            </ul>
+
+                            <ul class="list-unstyled" style="text-align: left">
+                                <a href="https://subscribe.crownstone.rocks/welcome?launch=en&ref=http://crownstone.rocks/en/2020/05/06/bluetooth-for-proximity-detection&loc=footer" class="footer-text-element" style="text-align: left !important; align-self: center; font-family: Lato, sans-serif; font-size: 0.9rem; font-style: italic; padding: 0; color:#dddddd !important; text-decoration: none">
+                                    <i class="el el-person mr-2"></i>
+                                    
+                                    Subscription
+                                    
+                                </a>
+                            </ul>
+                        </div>
+
+                        <p style="text-align: center; font-family: Lato, sans-serif; font-size: 1rem; font-style: italic; font-weight: bold; color: white; width: 100%; padding: 1.2rem 0; margin: 0;">
+                            CONTACT
+                        </p>
+                        <div style="display:inline-block;">
+                            <ul class="list-unstyled" style="text-align: left">
+<!--                                <li>-->
+<!--                                    <script type="text/javascript">/*<![CDATA[*/var a=new Array(".rocks", "stone", "crown", "@", "sk", "a");document.write("<a href='mailto:");for(i=a.length-1;i>=0;i&#45;&#45;){document.write(a[i])}document.write("?subject=Get in contact' class='footer-text-element' style=\"text-align: center !important; align-self: center; font-family: Lato, sans-serif; font-size: 0.9rem; font-style: italic; padding: 0; color:#dddddd !important; text-decoration: none\"><i class='el el-envelope footer'></i>Email us!</a>");/*]]>*/</script>-->
+<!--                                    <noscript><i class="el el-envelope footer"></i>Email team@...</noscript>-->
+<!--                                </li>-->
+                                <li>
+                                    <a href="https://crownstone.rocks/contact" class="footer-text-element" style="text-align: center !important; align-self: center; font-family: Lato, sans-serif; font-size: 0.9rem; font-style: italic; padding: 0; color:#dddddd !important; text-decoration: none">
+                                        <i class="el el-group footer"></i>Contact us
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="https://crownstone.rocks/privacy-policy" class="footer-text-element" style="text-align: center !important; align-self: center; font-family: Lato, sans-serif; font-size: 0.9rem; font-style: italic; padding: 0; color:#dddddd !important; text-decoration: none">
+                                        <i class="el el-ok footer"></i>Privacy
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://crownstone.rocks/presskit" class="footer-text-element" style="text-align: center !important; align-self: center; font-family: Lato, sans-serif; font-size: 0.9rem; font-style: italic; padding: 0; color:#dddddd !important; text-decoration: none">
+                                        <i class="el el-idea footer"></i>Press
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-1"></div>
+        </div>
+        <br/>
+
+        <!--   SOCIAL MEDIA     -->
+        <div class="row footer-container" style="justify-content: space-around; padding: 3rem;">
+            <div class="col-md-6">
+                <div class="row align-items-center">
+                    <div class="col social-media-icons-container">
+                        <a href="https://www.facebook.com/crownstones/" target="_blank" class="footer-social-media-icons" style="text-align: center; color: lightgray; font-size: 2rem; margin: 0; padding: 0;"><i class="el el-facebook"></i></a>
+                    </div>
+
+                    <div class="col social-media-icons-container">
+                        <a href="https://twitter.com/CrownstoneRocks" target="_blank" class="footer-social-media-icons" style="text-align: center; color: lightgray; font-size: 2rem; margin: 0; padding: 0;"><i class="el el-twitter"></i></a>
+                    </div>
+
+                    <div class="col social-media-icons-container">
+                        <a href="https://discord.gg/zPhesU2CZv" target="_blank" class="footer-social-media-icons" style="text-align: center; color: lightgray; font-size: 2rem; margin: 0; padding: 0;"> <img src="/images/contact/discord-gray.svg" alt="discord-icon" style="min-width: 50px; width: 50%"> </a>
+                    </div>
+
+                    <div class="col social-media-icons-container">
+                        <a href="https://www.youtube.com/channel/UCru1PX6P1JyhsI-OEMXnBdg" target="_blank" class="footer-social-media-icons" style="text-align: center; color: lightgray; font-size: 2rem; margin: 0; padding: 0;"><i class="el el-youtube"></i></a>
+                    </div>
+
+                    <div class="col social-media-icons-container">
+                        <a href="https://www.linkedin.com/company/crownstone" target="_blank" class="footer-social-media-icons"><i class="el el-linkedin" style="text-align: center; color: lightgray; font-size: 2rem; margin: 0; padding: 0;"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12 text-center colofon">
+               <div class="accent" style="margin: 0;">Crownstone</div>
+               <p style="margin: 0;">Stationsplein 45 d1.118</p>
+               <p style="margin: 0;">3013 AK Rotterdam, The Netherlands</p>
+               <p style="margin: 0;">0031103073955 / 010-3073955</p>
+               <br/>
+               <p style="margin: 0;">
+                  This site uses external services. Cookies for the webshop (<a href="https://www.shopify.com/legal/cookies" class="link-footer">cookie policy</a>).
+               </p>
+            </div>
+        </div>
+    </div>
+    <br />
+</div>
+
+
+<script async defer src="https://cdn.simpleanalytics.io/hello.js"></script>
+<noscript><img src="https://api.simpleanalytics.io/hello.gif" alt=""></noscript>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-17146802-16', 'auto');
+  ga('set', 'allowAdFeatures', false);
+  ga('send', 'pageview');
+</script>
+
+
+
+<!-- in debug mode, Google Chrome complains about .map files, do not worry -->                    
+<script type="text/javascript" src="/assets/themes/flat/resources/jquery/jquery-3.3.1.min.js"></script>
+<script type="text/javascript" src="/assets/themes/flat/resources/bootstrap/js/bootstrap.min.js"></script>
+<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+<!--[if gt IE 9]>
+<script type="text/javascript" src="/assets/themes/flat/resources/bootstrap/js/ie10-viewport-bug-workaround.js"></script>
+<![endif]-->
+
+
+</body>
+</html>
+
