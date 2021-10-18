@@ -2,7 +2,7 @@
 
 [![Website](https://img.shields.io/website-up-down-green-red/https/crownstone.rocks.svg)]()
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Build Status](https://travis-ci.com/crownstone/website.svg?branch=master)](https://travis-ci.com/crownstone/website)
+[![Build website](https://github.com/crownstone/website/actions/workflows/website-continuous-integration.yml/badge.svg)](https://github.com/crownstone/website/actions/workflows/website-continuous-integration.yml)
 
 You can find this website at [https://crownstone.rocks](https://crownstone.rocks).
 
