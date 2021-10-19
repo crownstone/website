@@ -3,7 +3,8 @@ layout: page
 title: Hall of Fame
 header: Pages
 description: "Hall of fame with former colleagues, graduation students, and interns!"
-group:
+background-image: banner-hall-of-fame
+banner-caption: "Hall of Fame"
 permalink: hall-of-fame/
 employee-gallery:
   - image: "hughjones.jpg"

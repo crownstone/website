@@ -5,7 +5,7 @@ header : Blog
 description: "Blog written by the Crownstone team"
 group: [navigation-about-us-submenu]
 permalink: blog/
-background-image: banner-blog.jpg
+background-image: banner-blog
 banner-caption: "Daytime stories"
 ---
 {% include JB/setup %}

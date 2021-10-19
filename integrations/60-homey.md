@@ -4,7 +4,7 @@ title            : "Integrate Crownstone with Homey"
 header           : "Integrate Crownstone with Homey"
 description      : "Crownstone brings the functionality of switching, dimming, and presence information to your Homey flows"
 markdown         : true
-background-image : banner-homey.jpg
+background-image : banner-homey
 permalink        : integrations/homey/
 ---
 

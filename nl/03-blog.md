@@ -5,7 +5,7 @@ header : Blog
 group: [navigation-about-us-submenu, navigation-consumer-footer]
 lang: nl
 permalink: blog/
-background-image: banner-blog.jpg
+background-image: banner-blog
 banner-caption: "Goed verhaal"
 ---
 {% include JB/setup %}

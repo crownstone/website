@@ -3,7 +3,7 @@ layout: page
 title: Indoor positioning
 header: Indoor positioning
 permalink: indoor-positioning/
-background-image: banner-indoor-positioning.jpg
+background-image: banner-indoor-positioning
 banner-caption: Indoor positioning
 kramdown: 
   parse_block_html: true

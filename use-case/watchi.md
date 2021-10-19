@@ -4,7 +4,7 @@ title: Watchi
 header: Watchi
 description: "Crownstone Use Case at Watchi"
 markdown: true
-background-image: banner-elderly.jpg
+background-image: banner-elderly
 permalink: use-case/watchi/
 ---
 {% include JB/setup %}

@@ -6,7 +6,7 @@ description: "Crownstone Alexa integration"
 keywords: "crownstone, alexa, integration, smart home, voice technology"
 kramdown: 
   parse_block_html: true
-background-image: banner-alexa.jpg
+background-image: banner-alexa
 permalink: integrations/alexa/
 ---
 {% include JB/setup %}

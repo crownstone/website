@@ -7,7 +7,7 @@ header: Home
 description: "Crownstones use your presence to turn on devices as well as dim the lights."
 keywords: "switch, smart switch, dimmer, energy meter, smart meter, smart home, save energy, Homey, Philips Hue, Google Home"
 group: [navigation, navigation-consumer-footer]
-background-image-home: banner-home-page.jpg
+background-image-home: banner-home-page
 tags: [smart home, smart plug, switch, dimmer, power monitor, bluetooth, ble, bluetooth low energy, indoor positioning]
 kramdown:
   parse_block_html: true

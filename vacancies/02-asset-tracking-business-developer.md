@@ -6,7 +6,7 @@ description: "Work at Crownstone as Asset tracking business developer"
 keywords: "job, vacancy, business, developer, asset, tracking, technology, dutch"
 kramdown: 
   parse_block_html: true
-large-background-image: banner-tracking-developer.jpg
+large-background-image: banner-tracking-developer
 banner-caption: "Join our team!"
 slogan-banner: vacancies/slogan-2.jpg
 skip-newsletter: true

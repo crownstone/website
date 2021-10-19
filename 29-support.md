@@ -4,7 +4,7 @@ title: Support
 header: Pages
 group: [navigation-support]
 permalink: support/
-background-image: banner-faq.jpg
+background-image: banner-faq
 banner-caption: Support
 topics:
   - title: Crownstone app

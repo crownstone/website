@@ -4,7 +4,7 @@ title: Installation behind ceiling light
 header: Installation behind ceiling light
 group: installation
 permalink: installation/ceiling-light
-background-image-home: banner-ceiling-light.jpg
+background-image-home: banner-ceiling-light
 ---
 {% include JB/setup %}
 

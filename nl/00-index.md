@@ -7,7 +7,7 @@ header: Home
 description: "Crownstones gebruiken uw aanwezigheid om apparaten en lampen te schakelen en te dimmen."
 keywords: "schakelaar, slimme schakelaar, dimmer, energie meter, slimme meter, Homey, Philips Hue, domotica, energie besparen"
 group: [navigation, navigation-consumer-footer]
-background-image-home: banner-home-page.jpg
+background-image-home: banner-home-page
 lang: nl
 kramdown: 
   parse_block_html: true

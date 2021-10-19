@@ -3,7 +3,7 @@ layout: page
 title: General information help
 header: General information help
 permalink: general-info-faq/
-background-image: banner-faq-general-info.jpg
+background-image: banner-faq-general-info
 banner-caption: General information
 kramdown: 
   parse_block_html: true

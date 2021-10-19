@@ -9,7 +9,7 @@ kramdown:
 markdown: true
 local_css:
   - syntax.css
-background-image: banner-arduino-pcb.jpg
+background-image: banner-arduino-pcb
 permalink: challenges/arduino/
 ---
 {% include JB/setup %}

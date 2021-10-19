@@ -5,7 +5,7 @@ header: Aanlaatstress
 group: []
 keywords: [op reis, aanlaatstress, domotica]
 social-image: images/banners/banner-holidays.jpg
-background-image: banner-holidays.jpg
+background-image: banner-holidays
 banner-caption: "Gerust op reis!"
 markdown: true
 lang: nl

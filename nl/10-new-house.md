@@ -5,7 +5,7 @@ header: Pages
 description: "Je huis, slimmer dan ooit!"
 lang: nl
 permalink: nieuw-huis/
-background-image-home: banner-new-house.jpg
+background-image-home: banner-new-house
 slogan-banner: slogan_presence.jpg
 kramdown: 
   parse_block_html: true

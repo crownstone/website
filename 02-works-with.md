@@ -5,7 +5,7 @@ header: Pages
 description: "Integrations supported by Crownstone"
 group: [navigation-smart-home-submenu, navigation-consumer-footer]
 permalink: works-with/
-background-image: banner-works-with.jpg
+background-image: banner-works-with
 banner-caption: Connect your home
 coming-soon:
     - title: Integration with Philips Hue 

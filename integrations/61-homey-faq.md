@@ -4,7 +4,7 @@ title: Homey Help
 header: Homey Help
 group: Landing
 permalink: integrations/homey-faq/
-background-image: banner-homey-faq.jpg
+background-image: banner-homey-faq
 banner-caption: Crownstone & Homey
 kramdown: 
   parse_block_html: true

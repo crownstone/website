@@ -4,7 +4,7 @@ title: Installation
 header: Pages
 permalink: installation/
 group: [navigation-smart-home-submenu, navigation-consumer-footer]
-background-image: banner-installation.jpg
+background-image: banner-installation
 banner-caption: Installation
 installations:
   - slogan: Installation behind single socket

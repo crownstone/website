@@ -4,7 +4,7 @@ title: Winkel
 header: Winkel
 permalink: where-to-buy/
 lang: nl
-background-image: banner-where-to-buy.jpg
+background-image: banner-where-to-buy
 group: [navigation-support, navigation-consumer-footer]
 kramdown:
   parse_block_html: true
@@ -29,6 +29,9 @@ retailers:
   - image: /images/home2link.jpg
     image-alt: home2link logo
     link: "https://www.home2link.nl/brands/crownstone/"
+  - image: /images/slimmedingen.png
+    image-alt: slimme dingen logo
+    link: "https://www.slimmedingen.nl/brands/crownstone/"
   - image: /images/retailers.svg
     image-alt: retailers
     link: /will-be-up-soon
