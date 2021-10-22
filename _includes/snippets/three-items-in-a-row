@@ -1,0 +1,66 @@
+{% if include.id %}
+  {% assign items = page.[include.id] %}
+{% else %}
+  {% assign items = page.three-in-row %}
+{% endif %}
+
+{% if include.background and include.background == "dark" %}
+<div class="row justify-content-center m-0 pt-5 pb-5" style='background-color: #003e52;'>
+
+    {% assign cntr = 1 %}
+
+    {% for item in items %}
+
+    {% assign cntr = cntr | plus: 1 %}
+    {% assign three_items = cntr | modulo: 4 %}
+
+    <div class="col-md-3 pb-3 pl-5 pr-5">
+        <div class="row justify-content-center">
+            <div class="col-xs-12">
+                <img src="{{ item.image }}" alt="{{ item.image-alt }}" style="width: 100%">
+                <p style="text-align: center; font-family: Lato, sans-serif; font-size: 1rem !important; color: white !important; padding: 0; margin: 0;">
+                    {{ item.description }}
+                </p>
+            </div>
+        </div>
+    </div>
+
+    {% if three_items == 0 %}
+        <div class="w-100"></div>
+    {% endif %}
+
+    {% endfor %}
+
+</div>
+
+{% else %}
+
+<div class="row justify-content-center m-0 pt-5 pb-5" style='background-color: white;'>
+
+    {% assign cntr = 1 %}
+
+    {% for item in items %}
+
+    {% assign cntr = cntr | plus: 1 %}
+    {% assign three_items = cntr | modulo: 4 %}
+
+    <div class="col-md-3 pb-3 pl-5 pr-5">
+        <div class="row justify-content-center">
+            <div class="col-xs-12">
+                <img src="{{ item.image }}" alt="{{ item.image-alt }}" style="width: 100%">
+                <p style="text-align: center; font-family: Lato, sans-serif; font-size: 1rem !important; color: #003e52 !important; padding: 0; margin: 0;">
+                    {{ item.description }}
+                </p>
+            </div>
+        </div>
+    </div>
+
+    {% if three_items == 0 %}
+        <div class="w-100"></div>
+    {% endif %}
+
+    {% endfor %}
+
+</div>
+
+{% endif %}

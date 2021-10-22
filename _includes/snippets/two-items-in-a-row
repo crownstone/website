@@ -1,0 +1,35 @@
+{% if include.id %}
+  {% assign items = page.[include.id] %}
+{% else %}
+  {% assign items = page.architecture %}
+{% endif %}
+
+<div class="row justify-content-center m-0 pt-5 pb-5" style='background-color: #003e52;'>
+
+    {% for item in items %}
+
+    <div class="col-md-3 pl-5 pr-5 pb-3 ml-5 mr-5">
+        <div class="row justify-content-center">
+            <div class="col-xs-12">
+                <img src="{{ item.image }}" alt="{{ item.image-alt }}" style="width: 100%">
+                <p style="text-align: center; font-family: Lato, sans-serif; font-weight: bold; font-size: 1.1rem !important; color: #ff8400 !important; padding: 0; margin: 0;">
+                    {{ item.title }}
+                </p>
+                <p style="text-align: center; font-family: Lato, sans-serif; font-size: 1rem !important; color: white !important; padding: 0; margin: 0;">
+                    {{ item.description }}
+                </p>
+            </div>
+        </div>
+    </div>
+
+    {% assign cntr = cntr | plus: 1 %}
+
+    {% assign two_items = cntr | modulo: 2 %}
+
+    {% if two_items == 0 %}
+        <div class="w-100"></div>
+    {% endif %}
+
+    {% endfor %}
+
+</div>
