@@ -5,48 +5,49 @@ header: Business
 group: [navigation-business-submenu]
 skip-newsletter: true
 background-image: banner-indoor-positioning-b2b
+permalink: business/indoor-positioning/
 banner-caption: Indoor positioning
 architecture:
-  - title: Wireless fingerprinting
-    description: The algorithms run on the smartphone. The integration of this SDK is moderately complex. The SDK implements fingerprinting. Localization can be very accurate but it requires training.
+  - title: Wireless fingerprints
+    description: The algorithms run on the smartphone. The integration of the Crownstone mobile fingerprinting SDK is moderately complex. Localization can be very accurate but is labor-intensive. It requires training the algorithm per room for different smartphones.
     image: /images/indoor-positioning-b2b/smartphone.svg
     image-alt: smartphone
   - title: In-network localization
-    description: The algorithms run on the Crownstone network. The integration of this SDK is relatively simple. The smartphone only has to function as an iBeacon.
+    description: The algorithms run on the Crownstone mesh. The integration of the Crownstone mobile iBeacon SDK is relatively simple. Localization can be less accurate. This setup requires a hub to get the localization data towards your servers. This can also localize tags (no SDK required).
     image: /images/indoor-positioning-b2b/network.svg
     image-alt: network
   - title: Crownstone as iBeacons
-    description: The default localization mechanisms on a smartphone are used and the Crownstones are configured as iBeacons.
+    description: The default localization mechanisms on a smartphone are used. No Crownstone SDK is required. The Crownstones are configured as normal iBeacons. Localization accuracy depends on the smartphone libraries your developer use.
     image: /images/indoor-positioning-b2b/ibeacons.svg
     image-alt: iBeacons
-  - title: Hub localization
-    description: Information about tags or phones is communicated over Bluetooth mesh to a hub where the algorithms run for positioning.
+  - title: Centralized localization
+    description: The algorithms run on a Crownstone hub or in the cloud. Proximity information is communicated over Bluetooth mesh to a hub. Localization in real-time might be challenging (expect multiple second delays). This can also localize tags (no SDK required).
     image: /images/indoor-positioning-b2b/tag.svg
     image-alt: ble tag
 solutions:
-  - description: Support for the app developers to integrate our SDK
+  - description: Support for the app developers to integrate our SDKs.
     image: /images/indoor-positioning-b2b/sdk.svg
     image-alt: sdk
-  - description: Hubs and servers and implement an interface towards a backend
+  - description: Hubs and servers. We can provide hardware and cloud services. We can implement an uplink towards a custom interface on your backend.
     image: /images/indoor-positioning-b2b/hub.svg
     image-alt: hub
-  - description: Software updates and security patches for the firmware
+  - description: Software updates and security patches for firmware over-the-air.
     image: /images/indoor-positioning-b2b/firmware.svg
     image-alt: firmware
 software-modules:
-  - description: Monitoring services on which nodes are up through internet-connected hubs.
+  - description: We can provide monitoring or maintenance services about Crownstones, the Crownstone network, hubs, or other hardware if required.
     image: /images/indoor-positioning-b2b/monitoring.svg
     image-alt: monitoring
-  - description: We can build dashboards if there is no application partner.
+  - description: We can build dashboards if you have no application partner.
     image: /images/indoor-positioning-b2b/dashboard.svg
     image-alt: dashboards
-  - description: We can build apps if there is no app development partner
+  - description: We can build apps if you have no app development partner.
     image: /images/indoor-positioning-b2b/apps.svg
     image-alt: apps
-  - description: We can integrate with building automation or energy management systems
+  - description: We can integrate with building automation or energy management systems.
     image: /images/indoor-positioning-b2b/building.svg
     image-alt: building
-  - description: Possible to integrate with Bluetooth sensors without an intermediate platform
+  - description: We can directly integrate with Bluetooth sensors from any nearby Crownstone making any potentional Bluetooth sensor part of your smart building.
     image: /images/indoor-positioning-b2b/sensor.svg
     image-alt: sensor
 areas:
@@ -121,11 +122,11 @@ The basics
 
 {% include snippets/two-cols-centered-text-img-begin text-alignment='right' %}
 
-### Broadcasting distance
+### Broadcast distance
 
 <p>&nbsp;</p>
 
-Expect a Crownstone to broadcast 5-10m to contribute to the indoor positioning
+A Crownstone or tag can broadcast from 5m to up to 50m while still contributing to indoor positioning.
 
 {% include snippets/two-cols-centered-text-img-end img='/images/indoor-positioning-b2b/broadcasting.svg' img-alt='broadcasting' %}
 
@@ -136,11 +137,11 @@ Expect a Crownstone to broadcast 5-10m to contribute to the indoor positioning
 
 {% include snippets/two-cols-centered-text-img-begin %}
 
-### Recommended number
+### Density
 
 <p>&nbsp;</p>
 
-Try to have most places covered by around 4 Crownstones. Most often 2 Crownstones per 25m2 gives enough info to the classifier.
+The more Crownstones, the higher the accuracy. As a rule of thumb, **two Crownstones** per room is sufficient for fingerprinting (see below).
 
 {% include snippets/two-cols-centered-text-img-end img='/images/indoor-positioning-b2b/room.svg' img-alt='room' %}
 
@@ -151,11 +152,11 @@ Try to have most places covered by around 4 Crownstones. Most often 2 Crownstone
 
 {% include snippets/two-cols-centered-text-img-begin text-alignment='right' %}
 
-### Fingerprints
+### Wireless fingerprints
 
 <p>&nbsp;</p>
 
- The classifier is a room-based and uses fingerprints. An accuracy "in meters" does not reflect this.
+The fingerpint classifier can learn to localize people **per room**. This is often more useful than so-called trilateration and an actual position in meters (or yards).
 
 {% include snippets/two-cols-centered-text-img-end img='/images/indoor-positioning-b2b/radar.svg' img-alt='radar' %}
 
@@ -166,7 +167,7 @@ Try to have most places covered by around 4 Crownstones. Most often 2 Crownstone
 
 {% include snippets/two-cols-centered-text-img-begin %}
 
-### Latency is also important
+### Latency
 
 <p>&nbsp;</p>
 
@@ -181,11 +182,11 @@ More Crownstones means fewer misclassifications which means algorithms can make 
 
 {% include snippets/two-cols-centered-text-img-begin text-alignment='right' %}
 
-### Occupancy and location
+### Location and occupancy
 
 <p>&nbsp;</p>
 
-Data provided from our API gives information of occupancy monitoring per room and location per user.
+Data provided through our API can give information about the location of a user, or provide information about the occupancy per room.
 
 {% include snippets/two-cols-centered-text-img-end img='/images/indoor-positioning-b2b/occupancy.svg' img-alt='occupancy' %}
 
@@ -204,7 +205,7 @@ Architecture
 
 {% include snippets/centered-text-home-begin background='dark'%}
 
-There are **four ways** with which indoor localization can be implemented
+Crownstone supports at least **four ways** to integrate indoor localization.
 
 {% include snippets/centered-text-home-end %}
 
@@ -216,7 +217,7 @@ There are **four ways** with which indoor localization can be implemented
 
 {% include snippets/slogan-begin %}
 
-An integral solution
+A complete solution
 
 {% include snippets/slogan-end %}
 

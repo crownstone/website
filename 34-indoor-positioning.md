@@ -82,11 +82,11 @@ The basics
 
 {% include snippets/two-cols-centered-text-img-begin text-alignment='right' %}
 
-### Broadcasting distance
+### Broadcast distance
 
 <p>&nbsp;</p>
 
-Expect a Crownstone to broadcast 5-10m to contribute to the indoor positioning
+A Crownstone or tag can broadcast from 5m to up to 50m while still contributing to indoor positioning.
 
 {% include snippets/two-cols-centered-text-img-end img='/images/indoor-positioning/broadcasting.svg' img-alt='broadcasting' %}
 
@@ -97,11 +97,11 @@ Expect a Crownstone to broadcast 5-10m to contribute to the indoor positioning
 
 {% include snippets/two-cols-centered-text-img-begin %}
 
-### Recommended number
+### Density
 
 <p>&nbsp;</p>
 
-Try to have most places covered by around 4 Crownstones. Most often 2 Crownstones per room gives enough info to the classifier.
+The more Crownstones, the higher the accuracy. As a rule of thumb, **two Crownstones** per room is sufficient for fingerprinting (see below).
 
 {% include snippets/two-cols-centered-text-img-end img='/images/indoor-positioning/min-number.svg' img-alt='minimum number of devices' %}
 
@@ -112,11 +112,11 @@ Try to have most places covered by around 4 Crownstones. Most often 2 Crownstone
 
 {% include snippets/two-cols-centered-text-img-begin text-alignment='right' %}
 
-### Fingerprints
+### Wireless fingerprints
 
 <p>&nbsp;</p>
 
- The classifier is a room-based and uses fingerprints. An accuracy "in meters" does not reflect this.
+The fingerpint classifier can learn to localize people **per room**. This is often more useful than so-called trilateration and an actual position in meters (or yards).
 
 {% include snippets/two-cols-centered-text-img-end img='/images/indoor-positioning/fingerprints.svg' img-alt='radar' %}
 
@@ -127,11 +127,11 @@ Try to have most places covered by around 4 Crownstones. Most often 2 Crownstone
 
 {% include snippets/two-cols-centered-text-img-begin %}
 
-### Latency is also important
+### Latency
 
 <p>&nbsp;</p>
 
-More Crownstones means fewer misclassifications which means algorithms can make their decisions faster.
+Latency is an often neglected, but can be the main reason to choose more Crownstones. The better the results of a single step of the algorithms, the faster they end up at the right room or indoor position.
 
 {% include snippets/two-cols-centered-text-img-end img='/images/indoor-positioning/latency.svg' img-alt='latency' %}
 
