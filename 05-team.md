@@ -42,11 +42,9 @@ intern-gallery:
     affiliation: "Engineering and Applied Science, Hogeschool Rotterdam"
     report:
       title: "Power monitoring"
-  - image: "marvinhazebroek.jpg"
-    name: "Marvin Hazebroek"
-    affiliation: "Technische Informatica, Hogeschool Rotterdam"
-    report:
-      title: "SmartThings integration"
+  - image: "ambervissers.jpg"
+    name: "Amber Vissers"
+    affiliation: "Human Technologies, Techniek College Rotterdam"
 advisors-gallery:
   - image: "janpeterlarsen.png"
     name: "Jan Peter Larsen"
@@ -144,11 +142,6 @@ core-team-gallery:
     github: "ArrowAcrobatics"
     report:
       title: "Arend has a masters in Mathematics. He'll make sure Crownstone is secure and our algorithms are top-notch."
-  - image: "elkesalzmann.jpg"
-    name: "Elke Salzmann"
-    affiliation: "Electrician"
-    report:
-      title: "Elke, for a flawless installation of Crownstones!"
 ---
 {% include JB/setup %}
 

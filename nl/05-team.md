@@ -19,22 +19,39 @@ graduates-gallery:
     report:
       title: "In-network localization"
 intern-gallery:
-  - image: "martjankoedam.jpg"
-    name: "Mart-Jan Koedam"
+  - image: "danielvanderdrift.jpg"
+    name: "Daniel van der Drift"
     affiliation: "Technische Informatica, Hogeschool Rotterdam"
     report:
-      title: "Crownstone with Homey"
-  - image: "joeyouwens.png"
-    name: "Joey Ouwens"
-    affiliation: "Informatica, Hogeschool Rotterdam"
+      title: "Node-RED integration"
+  - image: "jaapsontrop.jpg"
+    name: "Jaap Sontrop"
+    affiliation: "Engineering and Applied Science, Hogeschool Rotterdam"
     report:
-      title: "Crownstone with Philips Hue"
-  - image: "kevinvanrijn.jpg"
-    name: "Kevin van Rijn"
+      title: "Smart switch and dimmer"
+  - image: "merijnplagge.jpg"
+    name: "Merijn Plagge"
     affiliation: "Technische Informatica, Hogeschool Rotterdam"
     report:
-      title: "Low Level Bluetooth Low-Energy Library"
+      title: "Microapps"
+  - image: "jordyvanmaenen.jpg"
+    name: "Jordy van Maenen"
+    affiliation: "Engineering and Applied Science, Hogeschool Rotterdam"
+    report:
+      title: "Power monitoring"
+  - image: "ambervissers.jpg"
+    name: "Amber Vissers"
+    affiliation: "Human Technologies, Techniek College Rotterdam"
 advisors-gallery:
+  - image: "janpeterlarsen.png"
+    name: "Jan Peter Larsen"
+    affiliation: "CEO Almende Investments"
+    linkedin: "janpeterlarsen"
+    website: "almende-investments.com/"
+    report:
+      title: "Jan Peter knows how to run a business. Crownstone benefits from his ample experience as managing director of Sense Labs, NiceDay, and "
+      link-text: "Almende Investments."
+      link: "almende-investments.com/"
   - image: "hansabbink.jpg"
     name: "Hans Abbink"
     affiliation: "Founder Almende Investments"
@@ -104,11 +121,6 @@ core-team-gallery:
     github: "ArrowAcrobatics"
     report:
       title: "Arend heeft een master in wiskunde. Hij draagt zorg voor veilige en vooruitstrevende algoritmes!"
-  - image: "elkesalzmann.jpg"
-    name: "Elke Salzmann"
-    affiliation: "Elektricien"
-    report:
-      title: "Elke, voor een foutloze Crownstone installatie!"
 ---
 {% include JB/setup %}
 
