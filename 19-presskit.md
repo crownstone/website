@@ -143,13 +143,14 @@ If you need a slide deck for a particular customer, feel free to contact us for 
 
 The press kit contains the following folders:
 
-* Diagrams: grayscale installation sketches.
 * Icons: for dimming, switching, positioning, etc.
+* Installation: near the light, in a single or double socket, at the switch.
 * Logo: black, transparent svg.
-* Products: pictures of Crownstone plugs, builtin Crownstones, Guidestones, and PCBs.
+* Products: pictures of the Crownstone Built-in One and the Guidestones.
 * Renders: exploded views and renderings in living room setting.
+* Works with Crownstone: for integrations and companion products.
 
-The press kit can be downloaded here: [presskit visuals (zip, 38 MB)]({{ site.url }}/attachments/presskit/presskit.zip).
+The press kit can be downloaded here: [presskit visuals (zip, 15 MB)]({{ site.url }}/attachments/presskit/presskit.zip). If higher resolution pictures for your medium are required, contact us!
 
 ## Webshop kit
 

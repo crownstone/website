@@ -69,17 +69,9 @@ our mission, vision, slogan, legacy, and core values.
 
 * [Crownstone Document Template](https://docs.google.com/document/d/1rhXi-uVL_nNeGsjVHyJq5ORIcF2m5P5FoUzEDoU1kcc)
 
-# Styleguide ZIP file
+# Presskit
 
-The styleguide contains the following folders:
-
-* Diagrams: grayscale installation sketches.
-* Icons: for dimming, switching, positioning, etc.
-* Logo: black, transparent svg.
-* Products: pictures of Crownstone plugs, builtin Crownstones, Guidestones, and PCBs.
-* Renders: exploded views and renderings in living room setting.
-
-It can be downloaded here: [styleguide visuals (zip, 342 MB)](https://github.com/crownstone/website/releases/download/v.0.0.1-alpha/styleguide.zip).
+A presskit with all kind of materials like logo, icons, product pictures, and renders can be found at the [presskit page]({{ site.url }}/presskit).
 
 # Insiders
 
