@@ -32,21 +32,21 @@ features:
     title: Energy monitor
     description: View your energy consumption per device in real time
 segments:
-  - title: "Consumers"
+  - subtitle: "Consumers"
     slogan: "Create your own smart home"
-    image: "/images/chilling_living_room.jpg"
+    image: "/images/chilling_living_room"
     link: "/product/"
-  - title: "Subscribers"
+  - subtitle: "Subscribers"
     slogan: "Check out our subscription"
-    image: "/images/dad_and_son.jpg"
+    image: "/images/dad_and_son"
     link: "/campaigns/cs-subscription/"
-  - title: "Real estate developers"
+  - subtitle: "Real estate developers"
     slogan: "Start selling smarter homes"
-    image: "/images/rotterdam_real_state.jpg"
+    image: "/images/rotterdam_real_state"
     link: "/business/residential-real-estate/"
-  - title: "OEM"
+  - subtitle: "OEM"
     slogan: "Start collaborating with us"
-    image: "/images/oem.jpg"
+    image: "/images/oem"
     link: "/business/oem/"
 ---
 
@@ -70,11 +70,11 @@ Your home sets your lights automatically at **your** desired level, so you never
 
 {% include snippets/centered-text-home-end %}
 
-{% include snippets/centered-image-home img-size='large' img='/images/builtin-sketch.png' img-alt='builtin-sketch'%}
+{% include snippets/centered-image-home img-size='large' img='/images/builtin-sketch' format='png' img-alt='builtin-sketch'%}
 
 {% include snippets/full-width-container-end %}
 
-{% include snippets/container-image-relative-begin img-bg='/images/coming_home.jpg' horizontal-alignment='left' %}
+{% include snippets/container-image-relative-begin img-bg='/images/coming_home' horizontal-alignment='left' %}
 
 ## Welcome Home!
 
@@ -96,11 +96,11 @@ Crownstone modules can be placed behind outlets and **ceiling lights**! Not only
 
 {% include snippets/centered-text-home-end %}
 
-{% include snippets/centered-image-home img-size='small' img='/images/built-ins.png' img-alt='built-ins' class='built-in-img' %}
+{% include snippets/centered-image-home img-size='small' img='/images/built-ins' format='png' img-alt='built-ins' class='built-in-img' %}
 
 {% include snippets/full-width-container-end %}
 
-{% include snippets/container-image-relative-begin img-bg='/images/reading_couch.jpg' %}
+{% include snippets/container-image-relative-begin img-bg='/images/reading_couch' %}
 
 ## Sunset
 
@@ -130,4 +130,4 @@ A Crownstone is like a miniaturized smartphone. There are many apps and function
 
 {% include snippets/full-width-container-end %}
 
-{% include snippets/customer-segments %}
+{% include snippets/two-frames-in-a-row id='segments' background='blue' %}

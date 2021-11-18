@@ -6,15 +6,15 @@ description: "It is a switch, a dimmer, a power monitor, and a standby killer at
 keywords: "switch, smart switch, dimmer, power monitor, standby killer, energy savings, home automation"
 group: [navigation-smart-home-submenu, navigation-consumer-footer]
 permalink: product/
-installations:
-  - title: Information for installers
-    image: /images/installers.jpg
+options:
+  - slogan: Information for installers
+    image: /images/installers
     link: /installation/
-  - title: Discover our smart subscription
-    image: /images/installation.jpg
+  - slogan: Discover our smart subscription
+    image: /images/installation
     link: /campaigns/cs-subscription/
-  - title: Check the installation manuals
-    image: /images/self_installation.jpg
+  - slogan: Check the installation manuals
+    image: /images/self_installation
     link: /installation/
 specs:
   - icon: el-cog
@@ -58,12 +58,12 @@ Standing lamps, ceiling lights. The shape, size, or form does not matter!
 
 {% include snippets/centered-text-home-end %}
 
-{% include snippets/centered-image-home img-size='large' img='/images/lamps_diverse.png' img-alt='lamps'%}
+{% include snippets/centered-image-home img-size='large' img='/images/lamps_diverse' format='png' img-alt='lamps'%}
 
 {% include snippets/full-width-container-end %}
 
 
-{% include snippets/container-image-relative-begin img-bg='/images/wall_switch.jpg' bg-position='center left' %}
+{% include snippets/container-image-relative-begin img-bg='/images/wall_switch' bg-position='center left' %}
 
 ## Keep your wall switch!
 
@@ -87,14 +87,14 @@ You can see **real-time energy** usage in the Crownstone app. It is possible to 
 
 {% include snippets/centered-text-home-end %}
 
-{% include snippets/centered-image-home img-size='small' img='/images/gif_energy_monitoring2.gif' img-alt='energy-monitoring'%}
+{% include snippets/centered-image-home img-size='small' img='/images/gif_energy_monitoring2' format='gif' img-alt='energy-monitoring'%}
 
 {% include snippets/circles-bg-end %}
 
 {% include snippets/full-width-container-end %}
 
 
-{% include snippets/container-image-relative-begin img-bg='/images/bathroom.jpg' %}
+{% include snippets/container-image-relative-begin img-bg='/images/bathroom' %}
 
 ## Dim your lights at night
 
@@ -121,13 +121,13 @@ You can simply ask **Alexa** or **Google** to turn on the lights for you.
 {% include snippets/centered-image-two-columns img1='/images/google.jpg' img1-alt='google' img2='/images/alexa.png' img2-alt='alexa'%}
 
 
-{% include snippets/container-image-relative-begin img-bg='/images/standby_killer.jpg' horizontal-alignment='left' bg-position='center right' %}
+{% include snippets/container-image-relative-begin img-bg='/images/standby_killer' horizontal-alignment='left' bg-position='center right' %}
 
 ## Crownstone is also a stand-by killer
 
 Placing a Crownstone behind a **set-top box**\* can save you on average €30 a year on your electricity bill.&nbsp;
 
-###### *check the power consumption of other devices in this **[calculator](https://subscribe.crownstone.rocks/calculator)**.
+*check the power consumption of other devices in this **[calculator](https://subscribe.crownstone.rocks/calculator)**
 
 {% include snippets/container-image-relative-end %}
 
@@ -148,8 +148,7 @@ The **installation** of Crownstones can be done in three different ways. It can 
 
 {% include snippets/full-width-container-end %}
 
-{% include snippets/installation-possibilities %}
-
+{% include snippets/three-frames-in-a-row %}
 
 {% include snippets/full-width-container-begin %}
 

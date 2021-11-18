@@ -8,11 +8,11 @@ permalink: works-with/
 background-image: banner-works-with
 banner-caption: Connect your home
 coming-soon:
-    - title: Integration with Philips Hue 
-      image: /images/hue.jpg
+    - slogan: Integration with Philips Hue 
+      image: /images/hue
       link: /will-be-up-soon/
-    - title: Integration with Node-RED
-      image: /images/node-red.jpg
+    - slogan: Integration with Node-RED
+      image: /images/node-red
       link: /will-be-up-soon/
 ---
 
@@ -28,7 +28,7 @@ Learn how our integrations can help you!
 {% include snippets/slogan-end %}
 
 {% include snippets/margin %}
-{% include snippets/centered-image-home img-size='large' img='/images/logos-integrations.jpg' img-alt='logos of integrations'%}
+{% include snippets/centered-image-home img-size='large' img='/images/logos-integrations' format='jpg' img-alt='logos of integrations'%}
 {% include snippets/margin %}
 
 {% include snippets/circles-bg-end %}
@@ -49,7 +49,7 @@ When not carrying your smartphone with you, you can simply ask **Google** or **A
 
 {% include snippets/centered-image-two-columns img1='/images/google.jpg' img1-alt='google' img2='/images/alexa.png' img2-alt='alexa'%}
 
-{% include snippets/container-image-relative-with-subimg-begin img-bg='/images/ha-integration.jpg' bg-position='center' img-sub='/images/ha-logo.png' img-sub-alt='ha-logo' %}
+{% include snippets/container-image-relative-with-subimg-begin img-bg='/images/ha-integration' bg-position='center' img-sub='/images/ha-logo.png' img-sub-alt='ha-logo' %}
 Crownstone integration with **Home Assistant** allows you to trigger a certain action when a specific user enters or leaves a room!
 {% include snippets/container-image-relative-with-subimg-end %}
 
@@ -104,7 +104,7 @@ The integration of Crownstone with Home Assistant enables you to personalize you
 {% include snippets/centered-text-large text='Learn more about the integration with Home assistant' link='/integrations/home-assistant/' %}
 
 
-{% include snippets/container-image-relative-begin img-bg='/images/apple-watch.jpg' horizontal-alignment='left'%}
+{% include snippets/container-image-relative-begin img-bg='/images/apple-watch' horizontal-alignment='left'%}
 
 ## Works with Apple Watch!
 
@@ -165,7 +165,7 @@ The integration with Google Home enables you to control your Crownstones with yo
 
 
 
-{% include snippets/container-image-relative-with-subimg-begin img-bg='/images/homey_scene.jpg' bg-position='center' img-sub='/images/homey-logo.png' img-sub-alt='homey-logo' %}
+{% include snippets/container-image-relative-with-subimg-begin img-bg='/images/homey_scene' bg-position='center' img-sub='/images/homey-logo.png' img-sub-alt='homey-logo' %}
 Crownstone talks with **Homey**. This will allow you to make other devices react to your presence.
 {% include snippets/container-image-relative-with-subimg-end %}
 
@@ -230,6 +230,6 @@ Coming soon!
 
 {% include snippets/margin %}
 
-{% include snippets/coming-soon background='orange' %} 
+{% include snippets/two-frames-in-a-row id='coming-soon' no-arrow='true' background='orange'%}
 
 {% include snippets/margin %}

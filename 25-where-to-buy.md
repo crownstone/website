@@ -9,17 +9,17 @@ group: [navigation-support]
 kramdown:
   parse_block_html: true
 where-to-buy:
-  - title: Visit our Webshop
-    image: /images/builtin-box-10.jpg
+  - slogan: Visit our Webshop
+    image: /images/builtin-box-10
     link: "https://shop.crownstone.rocks/?ref=where-to-buy&id=option/"
-  - title: Get a Smart Home subscription
-    image: /images/subscription-option.jpg
+  - slogan: Get a Smart Home subscription
+    image: /images/subscription-option
     link: /campaigns/cs-subscription/
-  - title: Find your favourite store
-    image: /images/store-option.jpg
+  - slogan: Find your favourite store
+    image: /images/store-option
     link: /where-to-buy#cs-retailers
-  - title: In your new home
-    image: /images/real-estate.jpg
+  - slogan: In your new home
+    image: /images/real-estate
     link: /nieuw-huis
 retailers:
   - image: /images/bolcom.jpg
@@ -60,7 +60,7 @@ Finally, you can get Crownstones in your new house through a **real estate** dev
 {% include snippets/full-width-container-end %}
 
 
-{% include snippets/where-to-buy %}
+{% include snippets/two-frames-in-a-row id='where-to-buy' %}
 
 
 {% include snippets/slogan-begin %}

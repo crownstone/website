@@ -9,16 +9,30 @@ permalink: works-with/
 background-image: banner-works-with
 banner-caption: Werkt met...
 coming-soon:
-    - title: Integratie met Philips Hue
-      image: /images/hue.jpg
+    - slogan: Integratie met Philips Hue
+      image: /images/hue
       link: /will-be-up-soon/
-    - title: Integratie met Homey
-      image: /images/homey.jpg
+    - slogan: Integratie met Node-RED
+      image: /images/node-red
       link: /will-be-up-soon/
 ---
 
 
 {% include JB/setup %}
+
+{% include snippets/full-width-container-begin %}
+{% include snippets/circles-bg-begin img='/images/circles_1.png' bg-position='center' %}
+
+{% include snippets/slogan-begin %}
+Ontdek hoe onze integraties je kunnen helpen!
+{% include snippets/slogan-end %}
+
+{% include snippets/margin %}
+{% include snippets/centered-image-home img-size='large' img='/images/logos-integrations' format='jpg' img-alt='logos of integrations'%}
+{% include snippets/margin %}
+
+{% include snippets/circles-bg-end %}
+{% include snippets/full-width-container-end %}
 
 {% include snippets/slogan-begin %}
 Crownstone reageert op jouw stem
@@ -34,7 +48,7 @@ Als je je smartphone even niet bij de hand hebt, vraag je gewoon aan **Google** 
 
 {% include snippets/centered-image-two-columns img1='/images/google.jpg' img1-alt='google' img2='/images/alexa.png' img2-alt='alexa'%}
 
-{% include snippets/container-image-relative-with-subimg-begin img-bg='/images/ha-integration.jpg' bg-position='center' img-sub='/images/ha-logo.png' img-sub-alt='ha-logo' %}
+{% include snippets/container-image-relative-with-subimg-begin img-bg='/images/ha-integration' bg-position='center' img-sub='/images/ha-logo.png' img-sub-alt='ha-logo' %}
 Crownstone's integratie met **Home Assistant** kan acties uitvoeren als een (specifieke) gebruiker een kamer binnenkomt of verlaat!
 {% include snippets/container-image-relative-with-subimg-end %}
 
@@ -88,7 +102,7 @@ De integratie van Crownstone met Home Assistant maakt het mogelijk om jouw slimm
 {% include snippets/centered-text-large text='Leer meer over de integratie met Home assistant' link='/integrations/home-assistant/' %}
 
 
-{% include snippets/container-image-relative-begin img-bg='/images/apple-watch.jpg' horizontal-alignment='left'%}
+{% include snippets/container-image-relative-begin img-bg='/images/apple-watch' horizontal-alignment='left'%}
 
 ## Apple Watch werkt ook!
 
@@ -146,12 +160,73 @@ Door de integratie met Google Home kan je met **stem commando's** Crownstones be
 
 {% include snippets/centered-text-large text='Leer meer over de integratie met Google Home' link='/integrations/google-home/' %}
 
+
+
+{% include snippets/container-image-relative-with-subimg-begin img-bg='/images/homey_scene' bg-position='center' img-sub='/images/homey-logo.png' img-sub-alt='homey-logo' %}
+Crownstone talks with **Homey**. This will allow you to make other devices react to your presence.
+{% include snippets/container-image-relative-with-subimg-end %}
+
+
+{% include snippets/slogan-begin %}
+
+Crownstone app for Homey
+
+{% include snippets/slogan-end %}
+
+
+{% include snippets/full-width-container-begin%}
+
+{% include snippets/two-cols-centered-text-img-begin text-alignment='right' %}
+
+Now in your **Homey flows** you can have not only Crownstones reacting to your **presence**, but also other devices coupled to your Homey. For example, philips hue lights, tado thermostat, etc.
+ 
+{% include snippets/two-cols-centered-text-img-end img='/images/homey-talks-with.png' img-alt='talks-with-homey' %}
+
+{% include snippets/full-width-container-end %}
+
+
+{% include snippets/full-width-container-begin%}
+
+{% include snippets/two-cols-centered-text-img-begin %}
+
+#### **Activate a scene with your presence...**
+
+<p>&nbsp;</p>
+
+When someone enters the living room and it is dark outside, activate the philips hue sunset scene!
+ 
+{% include snippets/two-cols-centered-text-img-end img='/images/homey-scenario-1.jpg' img-alt='homey-scenario-1' %}
+
+{% include snippets/full-width-container-end %}
+
+
+{% include snippets/full-width-container-begin%}
+
+{% include snippets/two-cols-centered-text-img-begin text-alignment='right'%}
+
+#### **Let your fan automatically turn on if...**
+
+<p>&nbsp;</p>
+
+You enter a room and the temperature is above a predefined threshold
+ 
+{% include snippets/two-cols-centered-text-img-end img='/images/homey-scenario-2.jpg' img-alt='homey-scenario-2' %}
+
+{% include snippets/full-width-container-end %}
+
+
+{% include snippets/centered-text-large text='Learn more about the Crownstone app for Homey' link='/integrations/homey/' %}
+
+
+
 {% include snippets/slogan-begin %}
 
 Binnenkort!
 
 {% include snippets/slogan-end %}
 
-{% include snippets/coming-soon background='orange'%}
+{% include snippets/margin %}
+
+{% include snippets/two-frames-in-a-row id='coming-soon' no-arrow='true' background='orange'%}
 
 {% include snippets/margin %}

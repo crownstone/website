@@ -1,75 +1,67 @@
 ---
 layout: page
-title: Installatie van enkel stopcontact
-header: Installatie van enkel stopcontact
+title: Installation behind single socket
+header: Installation behind single socket
 group: installation
 permalink: installation/single-outlet
 markdown: true
 ---
 {% include JB/setup %}
 
-# Crownstone installatie
+# Crownstone installation
 
-Algemene installatie instructies kunnen worden gevonden op de [Installatie pagina](/nl/installation). De handleiding op
-deze pagina neemt
-je stap voor stap aan de hand van foto's door het installatieproces van een Crownstone bij een enkel stopcontact. De
-bedrading wordt in het onderstaande voorbeeld aangebracht met extra lasklemmen. Voor een dubbel stopcontact volg de 
-handleiding specifiek voor [dubbele stopcontacten](/nl/installation/double-outlet).
+General instructions for the installation can be found in the [Installation page](/installation). 
+The instructions below will take you step-by-step through the process of installing a Crownstone behind a **single socket**.
 
-![Step 0](/images/installation/single/0.png)
+If at any point you are unsure of what to do, stop installation immediately and contact an electrician.
 
-Zet de stroom uit in de meterkast voor het installeren van de inbouw Crownstones.
+![Step 0](/images/installation/single/0.png){: style="max-width: 70%"}{: .img-center}
 
-![Step 1](/images/installation/single/1.png)
+*Step 1:* Before installing your built-in Crownstones, turn off the power at the **fuse box.**
 
-Haal het dekraampje van het stopcontact af. Dit kan door de schroef in het midden van het stopcontact los te draaien.
+![Step 1](/images/installation/single/1.png){: style="max-width: 70%"}{: .img-center}
 
-![Step 2](/images/installation/single/2.png)
+*Step 2:* Remove the cover from the socket. This can be done by loosening the screw in the middle of the socket.
 
-Haal het metalen frame uit het stopcontact. Dit kan door de schroeven links en rechts los te draaien.
+![Step 2](/images/installation/single/2.png){: style="max-width: 70%"}{: .img-center}
 
-![Step 3](/images/installation/single/3.png)
+*Step 3:* Unplug the metal frame from the power outlet. This can be done by loosening the screws on the left and right.
 
-Maak de draden los.
+![Step 3](/images/installation/single/3.png){: style="max-width: 70%"}{: .img-center}
 
-![Step 4](/images/installation/single/4.png)
+*Step 4:* Disconnect the wires.
 
-Knip een blauwe en een bruine draad op lengte. Iets van 10-15 cm.
+![Step 4](/images/installation/single/4.png){: style="max-width: 70%"}{: .img-center}
 
-![Step 5](/images/installation/single/5.png)
+*Step 5:* Cut a blue and a brown wire to length. Something about 10-15 cm.
 
-Strip een blauwe en een bruine draad op ongeveer 9 mm aan weerszijden.
+![Step 5](/images/installation/single/5.png){: style="max-width: 70%"}{: .img-center}
 
-![Step 6](/images/installation/single/6.png)
+*Step 6:* Strip a blue and a brown wire about 9 mm on each side.
 
-Steek de bruine draad in "out/fase". Steek de blauwe draad in "out/N" van neutraal.
+![Step 6](/images/installation/single/6.png){: style="max-width: 70%"}{: .img-center}
 
-![Step 7](/images/installation/single/7.png)
+*Step 7:* Plug the brown wire into "out/phase". Plug the blue wire into "out/N" of neutral.
 
-Steek van de draden die uit de muur komen de bruine draad in "in/L" van lijn en de blauwe draad in "in/N" van neutraal.
+![Step 7](/images/installation/single/7.png){: style="max-width: 70%"}{: .img-center}
 
-![Step 8](/images/installation/single/8.png)
+*Step 8:* From the wires coming out of the wall, insert the brown wire into "in/L" of line and the blue wire into "in/N" of neutral.
 
-Duw de Crownstone met beleid al een beetje terug in de inbouwdoos en steek de bedrading terug in het stopcontact. Let
-goed om dat de aarde draad naar de connector voor "aarde" gaat. De bruine en blauwe draad kunnen in neutraal en fase
-op het stopcontact. Je ziet dus dat de aarde draad niet op de Crownstone zelf wordt aangesloten (dit heeft namelijk
-geen zin voor een apparaatje zoals de Crownstone).
+![Step 8](/images/installation/single/8.png){: style="max-width: 70%"}{: .img-center}
 
-![Step 9](/images/installation/single/9.png)
+*Step 9:* Carefully push the Crownstone back into the wall box a bit and plug the wiring back into the socket. 
+Note that the ground wire goes to the "ground" connector. The brown and blue wire can be in neutral and phase on the socket. 
+So you see that the ground wire is not connected to the Crownstone itself (this makes no sense for a device such as the Crownstone).
 
-Duw de Crownstone nog verder terug en duw het metalen frame dicht tegen de inbouwdoos aan. Schroef de schroeven aan
-weerszijden goed vast.
+![Step 9](/images/installation/single/9.png){: style="max-width: 70%"}{: .img-center}
 
-![Step 10](/images/installation/single/10.png)
+*Step 10:* Push the Crownstone back even further and push the metal frame close to the flush-mounted box. Tight the screws on both sides well.
 
-Zet het dekraam terug.
+![Step 10](/images/installation/single/10.png){: style="max-width: 70%"}{: .img-center}
 
-![Step 11](/images/installation/single/11.png)
+*Step 11:* Put the cover of the socket back.
 
-Zet de spanning weer op het stopcontact en test uiteraard of de Crownstone goed is aangesloten. Het relay in de 
-Crownstone hoeft niet perse te geleiden als het uit de fabriek komt. Testen kan dus het beste door de Crownstone
-te configureren in de smartphone app.
+![Step 11](/images/installation/single/11.png){: style="max-width: 70%"}{: .img-center}
 
-
-
-
+*Step 12:* Put the power back on the socket and, of course, test whether the Crownstone is properly connected.
+The relay in the Crownstone does not necessarily have to conduct when it comes from the factory. Testing is therefore best done by configuring the Crownstone in the smartphone app.

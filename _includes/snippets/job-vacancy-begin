@@ -2,7 +2,11 @@
 
 <div class="col-lg-4 faq-topics" id="{{include.img-alt}}" style="padding: 0 !important" >
 <div class="row justify-content-center" style="margin: 0 !important">
-<img src="{{ ci-image }}" alt="{{ include.img-alt }}" style='width: 100%; margin-bottom: 1rem'>
+<picture>
+  <source srcset="{{ ci-image }}.webp" type="image/webp">
+  <source srcset="{{ ci-image }}.jpg" type="image/jpeg">
+  <img src="{{ ci-image }}.jpg" alt="{{include.img-alt}}" class="img-vacancy">
+</picture>
 </div>
 
 <div class="row justify-content-center" style="margin: 0 !important">

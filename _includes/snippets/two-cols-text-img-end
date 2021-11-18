@@ -47,19 +47,25 @@
 </div>
 
 {% if include.xl-img and include.xl-img == 'true' %}
-    {% if include.background and include.background == 'blue' %}
-    <div class="col-md-7 intra-padding align-items-center blue-bg">
-    {% else %}
-    <div class="col-md-7 intra-padding align-items-center">
-    {% endif %}
+{% if include.background and include.background == 'blue' %}
+<div class="col-md-7 intra-padding align-items-center blue-bg">
 {% else %}
-    {% if include.background and include.background == 'blue' %}
-    <div class="col-md-5 intra-padding align-items-center blue-bg">
-    {% else %}
-    <div class="col-md-5 intra-padding align-items-center">
-    {% endif %}
+<div class="col-md-7 intra-padding align-items-center">
+{% endif %}
+{% else %}
+{% if include.background and include.background == 'blue' %}
+<div class="col-md-5 intra-padding align-items-center blue-bg">
+{% else %}
+<div class="col-md-5 intra-padding align-items-center">
+{% endif %}
 {% endif %}
 
+{% if include.map and include.map == 'true' %}
+<iframe width="100%" height="500px" style="float:center" src="https://render.githubusercontent.com/view/geojson?url=https://gist.githubusercontent.com/mrquincle/d467ac542cf5263c17946e14019bbae9/raw/6cf2b5e9aa1ec955fbd8d8d4f0da994f1781f1ce/installers.geojson">
+<p>Your browser does not support iframes</p>
+</iframe>
+{% else %}
 <img src="{{ci-img}}" alt="{{include.img-alt}}"/>
+{% endif %}
 </div>
 </div>

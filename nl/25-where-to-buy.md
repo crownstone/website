@@ -5,22 +5,21 @@ header: Winkel
 permalink: where-to-buy/
 lang: nl
 background-image: banner-where-to-buy
-group: [navigation-support, navigation-consumer-footer]
+group: [navigation-support]
 kramdown:
   parse_block_html: true
-markdown: true
 where-to-buy:
-  - title: Ga naar de Crownstone webshop
-    image: /images/builtin-box-10.jpg
+  - slogan: Ga naar de Crownstone webshop
+    image: /images/builtin-box-10
     link: "https://shop.crownstone.rocks/?ref=where-to-buy&id=option/"
-  - title: Bekijk een Smart Home abonnement
-    image: /images/subscription-option.jpg
+  - slogan: Bekijk een Smart Home abonnement
+    image: /images/subscription-option
     link: /campaigns/cs-subscription/
-  - title: Shop in je favoriete webwinkel
-    image: /images/store-option.jpg
+  - slogan: Shop in je favoriete webwinkel
+    image: /images/store-option
     link: /where-to-buy/
-  - title: In je nieuwe huis
-    image: /images/real-estate.jpg
+  - slogan: In je nieuwe huis
+    image: /images/real-estate
     link: /nieuw-huis
 retailers:
   - image: /images/bolcom.jpg
@@ -39,6 +38,7 @@ retailers:
 
 
 {% include JB/setup %}
+
 
 {% include snippets/slogan-begin %}
 
@@ -59,7 +59,8 @@ En het kan zo zijn dat je ze hebt gekocht met je nieuwe huis via een **vastgoedo
 
 {% include snippets/full-width-container-end %}
 
-{% include snippets/where-to-buy %}
+{% include snippets/two-frames-in-a-row id='where-to-buy' %}
+
 
 {% include snippets/slogan-begin %}
 

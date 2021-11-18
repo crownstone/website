@@ -35,12 +35,12 @@ benefits-ble:
     img-alt: ble tags
     title: "BLE tags can have many shapes: buttons, tiles, cards, etc."
 areas:
-  - title: Health care
-    image: /images/asset-tracking/health.jpg
-  - title: Collaborative workspaces
-    image: /images/asset-tracking/lab.jpg
-  - title: Hospitality
-    image: /images/asset-tracking/hotel.jpg
+  - slogan: Health care
+    image: /images/asset-tracking/health
+  - slogan: Collaborative workspaces
+    image: /images/asset-tracking/lab
+  - slogan: Hospitality
+    image: /images/asset-tracking/hotel
 ---
 
 
@@ -57,11 +57,11 @@ Bluetooth Asset Tracking
 
 {% include snippets/two-cols-text-img-begin%}
 
-##### Crownstones are also able to scan for any Bluetooth LE device in a building. 
+**Crownstones are also able to scan for any Bluetooth LE device in a building.**
 
 <p>&nbsp;</p>  
 
-###### You can use off-the-shelf Bluetooth tags attached to your assets and the Crownstones communicate over **Bluetooth mesh** the location of those tags towards a gateway. Subsequently, we work together with partners or customers to **integrate** this asset tracking information in your system or cloud.
+You can use off-the-shelf Bluetooth tags attached to your assets and the Crownstones communicate over **Bluetooth mesh** the location of those tags towards a gateway. Subsequently, we work together with partners or customers to **integrate** this asset tracking information in your system or cloud.
 
 {% include snippets/two-cols-text-img-end img='/images/asset-tracking/cs-bluetooth.png' img-alt='cs bluetooth' %}
 
@@ -161,8 +161,11 @@ Application areas
 {% include snippets/slogan-end %}
 
 
-{% include snippets/application-areas %}
+{% include snippets/margin %}
 
+{% include snippets/three-frames-in-a-row  id='areas' no-arrow='true' no-link='true' %}
+
+{% include snippets/margin %}
 
 
 {% include snippets/slogan-begin %}

@@ -59,7 +59,7 @@ Crownstone is always looking for talented people with expertise in embedded prog
 
 {% include snippets/global-container-begin %}
 
-{% include snippets/job-vacancy-begin img="/images/electrical-engineer.jpg" img-alt="electrical-engineer" title="Electrical Engineer" %}
+{% include snippets/job-vacancy-begin img="/images/electrical-engineer" img-alt="electrical-engineer" title="Electrical Engineer" %}
 
 In this role you will help us developing products that extend the smart home, leverage our expertise in Bluetooth products or allow us to improve our indoor localization and device monitoring offerings.
 Some of these products are a 3-phase switch of the Crownstone and an IoT version (4G LTE/NB-IoT) apart from third-party products that seamlessly fit our roadmap.
@@ -68,7 +68,7 @@ We work together with Dutch and international companies for productizing and mas
 {% include snippets/job-vacancy-end job-id="electrical-engineer"%}
 
 
-{% include snippets/job-vacancy-begin img="/images/oem-developer.jpg" img-alt="oem-business-developer" title="OEM Business developer" %}
+{% include snippets/job-vacancy-begin img="/images/oem-developer" img-alt="oem-business-developer" title="OEM Business developer" %}
 
 If you are a strategic thinker, a self-motivated and energetic individual, and want to create new revenue streams from OEM accounts in strategic markets, then this is the perfect challenge! 
 Working at Crownstone as a business developer means having the opportunity to create strong relationships with big companies around the globe. You'll explore the market, identify and connect with new OEM customers, manage the contact from the first steps and close the deal, and finally maintain a good relationship with them.
@@ -80,7 +80,7 @@ Working at Crownstone as a business developer means having the opportunity to cr
 
 {% include snippets/global-container-begin %}
 
-{% include snippets/job-vacancy-begin img="/images/software-engineer.jpg" img-alt="software-engineer" title="Embedded Software Engineer" %}
+{% include snippets/job-vacancy-begin img="/images/software-engineer" img-alt="software-engineer" title="Embedded Software Engineer" %}
 
 If you like embedded programming, this is the perfect challenge! Do you also like to work on algorithms? Even better! 
 Do literature research, create a simulator, prototype your algorithm in Python, test your theories and finally implement your features in the Crownstone firmware! 
@@ -89,7 +89,7 @@ There are many challenges like improved indoor localization, in network localiza
 {% include snippets/job-vacancy-end job-id="software-engineer"%}
 
 
-{% include snippets/job-vacancy-begin img="/images/asset-tracking-developer.jpg" img-alt="asset tracking business developer" title="Asset Tracking Business developer" %}
+{% include snippets/job-vacancy-begin img="/images/asset-tracking-developer" img-alt="asset tracking business developer" title="Asset Tracking Business developer" %}
 
 If you subscribe to our vision that the field of indoor positioning is likely going to be larger than that of outdoor positioning, this role might be a perfect fit for you. 
 You are a self-motivated person who likes to explore the myriad ways in which our technology for pinpointing the position of Bluetooth devices indoors can be leveraged to do asset tracking. 
@@ -102,7 +102,7 @@ Working at Crownstone as a business developer means having the opportunity to cr
 
 {% include snippets/global-container-begin %}
 
-{% include snippets/job-vacancy-begin img="/images/finance.jpg" img-alt="finance" title="Finance" %}
+{% include snippets/job-vacancy-begin img="/images/finance" img-alt="finance" title="Finance" %}
 
 You want to play a significant role in an innovative company! This is the perfect position for you if you would like to establish the strategy for internationalization. 
 In addition, you don’t mind enrolling in promising subsidy programs, and you are excited about thinking about funding and mutual beneficial collaboration with venture capitalists and international companies… 

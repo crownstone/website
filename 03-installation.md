@@ -6,18 +6,18 @@ permalink: installation/
 group: [navigation-smart-home-submenu, navigation-consumer-footer]
 background-image: banner-installation
 banner-caption: Installation
-installations:
+options:
   - slogan: Installation behind single socket
-    image: /images/installation/single/8.png
+    image: /images/installation/single
     link: /installation/single-outlet
   - slogan: Installation behind double socket
-    image: /images/installation/double/7.png
+    image: /images/installation/double
     link: /installation/double-outlet
   - slogan: Installation behind ceiling lights
-    image: /images/installation_ceiling-lamp.jpg
+    image: /images/installation/ceiling
     link: /installation/ceiling-light
   - slogan: Switchcraft installation
-    image: /images/switchcraft.png
+    image: /images/installation/switchcraft
     link: /installation/switchcraft
 steps:
   - title: STEP 1
@@ -56,7 +56,7 @@ The app will guide you through the process to register and to setup your Crownst
 
 {% include snippets/centered-text-home-end %}
 
-{% include snippets/centered-image-home img-size='small' img='/images/phone_app.png' img-alt='phone_app'%}
+{% include snippets/centered-image-home img-size='small' img='/images/phone_app' format='png' img-alt='phone_app'%}
 
 {% include snippets/full-width-container-end %}
 
@@ -88,10 +88,14 @@ Installation options
 
 {% include snippets/slogan-end %}
 
-{% include snippets/installation-page-options %}
+{% include snippets/margin %}
+
+{% include snippets/two-frames-in-a-row %}
+
+{% include snippets/margin %}
 
 
-{% include snippets/container-image-relative-begin img-bg='/images/dimmed_lamp.jpg' bg-position='bottom left' vertical-alignment='top'%}
+{% include snippets/container-image-relative-begin img-bg='/images/dimmed_lamp' bg-position='bottom left' vertical-alignment='top'%}
 
 ## Dimming lights with Crownstone
 
@@ -114,7 +118,7 @@ Crownstones can be installed at a light controlled by an ordinary light **switch
 
 {% include snippets/centered-text-home-end %}
 
-{% include snippets/centered-image-home img-size='small' img='/images/desklamp.png' img-alt='desk lamp'%}
+{% include snippets/centered-image-home img-size='small' img='/images/desklamp' format='png' img-alt='desk lamp'%}
 
 {% include snippets/full-width-container-end %}
 

@@ -9,13 +9,13 @@ skip-newsletter: true
 permalink: business/residential-real-estate/
 background-image: banner-real-estate
 banner-caption: Real Estate
-installations:
+options:
   - slogan: Information for installers
-    image: /images/external_installer.jpg
+    image: /images/external_installer
     link: /installation/
   - slogan: Installation via Crownstone
-    image: /images/cs_installer.jpg
-    link: /will-be-up-soon/
+    image: /images/cs_installer
+    link: /business/installation-by-crownstone
 ---
 
 {% include JB/setup %}
@@ -123,7 +123,7 @@ You can find Crownstones in real estate projects such as “Smart Villas”
 
 {% include snippets/centered-text-home-end %}
 
-{% include snippets/centered-image-home img-size='large' img='/images/projects/blauwdraad_smartvillas.jpg' img-alt='smart-villas'%}
+{% include snippets/centered-image-home img-size='large' img='/images/projects/blauwdraad_smartvillas' format='jpg' img-alt='smart-villas'%}
 
 {% include snippets/full-width-container-end %}
 
@@ -196,7 +196,11 @@ Installation of the Crownstones can be easily done by an installer. You can also
 
 {% include snippets/full-width-container-end %}
 
-{% include snippets/installation-options %}
+{% include snippets/margin %}
+
+{% include snippets/two-frames-in-a-row %}
+
+{% include snippets/margin %}
 
 
 {% include snippets/contact-section-real-estate %}

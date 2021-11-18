@@ -36,7 +36,7 @@ This makes it possible for the Crownstones to react upon your **presence and pro
 
 {% include snippets/centered-text-home-end %}
 
-{% include snippets/centered-image-home img-size='small' img='/images/indoor-positioning/map.jpg' img-alt='map'%}
+{% include snippets/centered-image-home img-size='small' img='/images/indoor-positioning/map' format='jpg' img-alt='map'%}
 
 {% include snippets/full-width-container-end %}
 

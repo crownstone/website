@@ -3,115 +3,153 @@ layout: page
 title: Installatie
 header: Pages
 group: [navigation-smart-home-submenu, navigation-consumer-footer]
+background-image: banner-installation
+banner-caption: Installatie
 permalink: installation/
 lang: nl
-markdown: true
+options:
+  - slogan: Installatie van enkel stopcontact
+    image: /images/installation/single
+    link: /nl/installation/single-outlet
+  - slogan: Installatie van dubbel stopcontact
+    image: /images/installation/double
+    link: /nl/installation/double-outlet
+  - slogan: Installatie bij plafondverlichting
+    image: /images/installation/ceiling
+    link: /nl/installation/ceiling-light
+  - slogan: Switchcraft installatie
+    image: /images/installation/switchcraft
+    link: /nl/installation/switchcraft
+steps:
+  - title: STAP 1
+    description: Controleer of de lampen dimbaar zijn
+    image: /images/step1_dimmable.png
+    image-alt: stap 1
+  - title: STAP 2
+    description: Download de Crownstone app
+    image: /images/step2_app.png
+    image-alt: stap 2
+  - title: STAP 3
+    description: Zet dimmen aan in de instellingen van de Crownstone
+    image: /images/step3_dimming.png
+    image-alt: stap 3
 ---
+
 {% include JB/setup %}
 
-# Crownstone app installatie
+{% include snippets/slogan-begin %}
 
-Om de Crownstone te gebruiken en te configureren heb je de [Crownstone app](https://crownstone.rocks/app/) nodig.
-Deze smartphone app is geschikt voor iOS en Adroid.
-Voor iOS is het [beschikbaar](https://apps.apple.com/us/app/crownstone/id1136616106) in de Apple App Store, en voor
-Android can het worden [gevonden](https://play.google.com/store/apps/details?id=rocks.crownstone.consumerapp) in de Google Play Store.
+De Crownstone app
 
+{% include snippets/slogan-end %}
+
+
+{% include snippets/full-width-container-begin %}
+
+{% include snippets/centered-text-home-begin background='light'%}
+
+Om de Crownstones te gebruiken en te configureren heb je de Crownstone app nodig. Deze smartphone app is beschikbaar voor
+**[iOS](https://apps.apple.com/us/app/crownstone/id1136616106)** en 
+**[Android.](https://play.google.com/store/apps/details?id=rocks.crownstone.consumerapp)** 
 De app zal je door het registratieproces heenleiden en maakt het mogelijk de Crownstones in te stellen.
 
-Voor gedetailleerde foto's wat betreft de installatie achter stopcontacten, zie ook de instructies voor 
-[enkele stopcontacten]({{ site.url }}/installation/single-outlet) en
-[dubbele stopcontacten]({{ site.url }}/installation/double-outlet).
+{% include snippets/centered-text-home-end %}
+
+{% include snippets/centered-image-home img-size='small' img='/images/phone_app' format='png' img-alt='phone_app'%}
+
+{% include snippets/full-width-container-end %}
 
 
-# Installatie achter een dimmer
+{% include snippets/centered-text-large text='Ontdek meer over de Crownstone app' link='/app' %}
 
-Installeer de Crownstone **niet** tussen een fysieke dimmer en een lichtpunt. Dit stoort de voeding van de 
-Crownstone zelf. Het zal de Crownstone dimmen in plaats van he licht en dat is niet de bedoeling.
-Installatie met een dimmer wordt **niet** ondersteund en kan de levensduur van het product sterk verkorten.
 
-Installeer de Crownstones evenmin tussen het lichtnet en de fysieke dimmer. Het is geen fijne gebruikerservaring. 
 
-Je kan de Crownstones installeren bij een licht dat wordt aangestuurd vanuit een normale schakelaar (zie onderaan de
-pagina). Je kan het licht dan dimmen met de Crownstone app of met apparaten van derden zoals de Amazon Alexa. Het
-gebruik van de schakelaar wisselt dan tussen de stand "uit" en de laatste "dimstand".
+{% include snippets/slogan-begin background='blue' %}
 
-# Installatie achter een stopcontact.
+It's time to install your Crownstones!
 
-Als u niet zeker weet wat u moet doen, stop direct de installatie en neem contact op met een erkend elektricien.
+{% include snippets/slogan-end %}
 
-1. Zet de stroom uit in de meterkast voor het installeren van de inbouw Crownstones.
-2. Maak het stopcontact open en verbind de draden zoals getekend in onderstaand schakelschema in Figuur A.
-3. Maak het stopcontact weer dicht en zet de stroom weer aan in de meterkast.
-4. Open de app en plaats uw smartphone dicht bij het stopcontact met de Crownstone. Volg de instructies in de app voor het toevoegen van een nieuwe
-Crownstone. 
 
-Als bovenstaande iets te snel gaat, er is een heel gedetailleerde stap-voor-stap-handleiding met foto's 
-voor [enkele]({{ site.url }}/installation/single-outlet)
-en [dubbele]({{ site.url }}/installation/double-outlet) stopcontacten.
+{% include snippets/full-width-container-begin background='blue'%}
 
-{% include snippets/image-with-caption url="/attachments/installation/nl/socket_wiring_diagram.png" description="Figuur A: Inbouw Crownstone schakelschema. Pas op, de draadkleuren kunnen anders zijn." %}
+{% include snippets/two-cols-centered-text-img-begin background='blue' extra-style='padding: 3rem 0 !important' %}
 
-Hier komen wat algemene tips. Natuurlijk, let goed op de poorten op de Crownstone zelf. Sluit de draden goed aan. 
-Wissel niet per ongeluk in en uit om. Als deze worden omgedraaid, kan het zo zijn dat de Crownstone wel opstart, maar
-dan is het niet mogelijk om iets te schakelen. Strip en buig de bedrading vooraf. Alleen daarna sluit je de Crownstone
-aan en stop je 'm in de inbouwdoos. Het voorbuigen van de draden verminderd ook de belasting op de poorten van de 
-Crownstone. Wees er ook zeker van dat de draden kloppen! Ga er niet vanuit dat de kleuren "correct" zijn. In de loop
-van de geschiedenis zijn draadkleuren meerdere keren veranderd en ze zijn nog steeds anders afhankelijk van het land.
+Crownstones can be placed behind single or double **power outlets** as well as behind your **ceiling lights**. For detailed installation instructions, check the links below. 
+ 
+{% include snippets/two-cols-centered-text-img-end background='blue' img='/images/install_cs.png' img-alt='install_crownstone'%}
 
-# Installatie bij plafondverlichting
+{% include snippets/full-width-container-end %}
 
-Als u niet zeker weet wat u moet doen, stop direct de installatie en neem contact op met een erkend elektricien.
 
-1. Zet de stroom uit in de meterkast voor het installeren van de inbouw Crownstones.
-2. De Crownstone wordt aangebracht bij de plafondlamp, niet bij de wandschakelaar (Figuur B). Verwijder de plafondverlichting en verbind de draden zoals
-getekend in onderstaand schakelschema (Figuur C).
-3. Indien het gewenst is om de bestaande schakelaar te gebruiken tegelijkertijd met de Crownstone, zie de Switchcraft installatie instructies hieronder. Na
-installatie van de Crownstone, plaats de plafondlamp terug en zet de stroom weer aan in de meterkast.
-4. Open de app en plaats uw smartphone dicht bij de lamp met de zojuist geïnstalleerde Crownstone. Volg de instructies in de app voor het toevoegen
-van een nieuwe Crownstone. 
 
-{% include snippets/image-with-caption url="/attachments/installation/nl/ceiling_light_placement.png" description="Figuur B: De Crownstone wordt geplaatst in het plafond." %}
+{% include snippets/slogan-begin %}
 
-{% include snippets/image-with-caption url="/attachments/installation/nl/ceiling_light_wiring_diagram.png" description="Figuur C: Inbouw Crownstone schakelschema. Pas op, de draadkleuren kunnen anders zijn. Aarde kan mogelijk afwezig zijn." %}
+Installation options
 
-# Switchcraft installation
+{% include snippets/slogan-end %}
 
-Als u niet zeker weet wat u moet doen, stop direct de installatie en neem contact op met een erkend elektricien.
+{% include snippets/margin %}
 
-Switchcraft is een aanpassing van een wandschakelaar zodat deze samen met
-een Crownstone kan worden gebruikt. Elke wandschakelaar die ingezet kan
-worden in een normale hotelschakeling kan worden gebruikt voor Switchcraft.
-Deze instructies veronderstellen dat de Crownstone al is geïnstalleerd volgens de
-"Installatie bij plafondverlichting" instructie hierboven.
+{% include snippets/two-frames-in-a-row %}
 
-1. Zet de stroom uit in de meterkast voordat u de wandschakelaar gaat aanpassen. 
-2. Switchcraft werkt door middel van het aanbrengen van een extra draad tussen de twee uitgangen van de schakelaar (getoond in schakelschema (Figuur D) met [X]). Als de schakelaar wordt omgezet, wordt de stroom kort onderbroken. De Crownstone ziet dit als een schakelcommando. Maak de wandschakelaar open en verbind de draden zoals getekend in onderstaand schakelschema (Figuur D).
-3. Plaats de wandschakelaar terug en zet de stroom weer aan in de meterkast.
-4. Open de app en zoek de Crownstone die nu via Switchcraft kan worden bediend. Deze functie moet in de instellingen van een Crownstone worden aangezet voordat deze zal reageren.
+{% include snippets/margin %}
 
-{% include snippets/image-with-caption url="/attachments/installation/nl/switchcraft_wiring_diagram.png" description="Figuur D: Switchcraft schakelschema. Aanpassing van de bedrading aangegeven
-met [X]." %}
 
-In plaats van de bestaande schakelaar wijzigen, is het ook mogelijk om een "pulsschakelaar" te kopen of te
-gebruiken. Let er op dat dit een schakelaar is met een breek-contact (of verbreek-contact), dus **niet** een maak-contact.
-Als de knop niet wordt ingedrukt stroomt de electriciteit vrij door het circuit. Wanneer de knop is ingedrukt, stopt
-de stroom. De Crownstone kan deze interruptie detecteren en de toestand veranderen (schakelen tussen aan en uit).
 
-Het is mogelijk om heel veel van deze pulsschakelaars in serie te zetten voor dezelfde lichten. Dit biedt soms 
-voordelen ten opzichte van een traditionele hotelschakeling.
+{% include snippets/container-image-relative-begin img-bg='/images/dimmed_lamp' bg-position='bottom left' vertical-alignment='top'%}
 
 ## Lichten dimmen met Crownstone
 
-De Crownstone kan of hoge stromen schakelen of lichten dimmen. Om de
-dimmer functionaliteit te gebruiken moet je deze eerst aanzetten. Volg deze
-stappen:
+De Crownstone kan of hoge stromen schakelen of lichten dimmen. Je kan lichten dimmen tussen de **0 to 100 W** met een enkele Crownstone.
 
-* Controleer of de lampen dimbaar zijn.
-* Download de Crownstone app, registreer en voeg je Crownstone toe.
-* Zet dimmen aan in de instellingen van de Crownstone.
+{% include snippets/container-image-relative-end %}
 
-U kunt lichten dimmen tussen de 0 en 100 W met een enkele Crownstone.
 
-Meer informatie over dimcompatibiliteit kan worden gevonden op <https://crownstone.rocks/compatibility/dimming/>.
 
-Voor overige vragen en hulp met betrekking op de app kunt u terecht op <https://crownstone.rocks/app-help>.
+{% include snippets/slogan-begin %}
+
+Crownstones achter lampen met schakelaar
+
+{% include snippets/slogan-end %}
+
+{% include snippets/full-width-container-begin %}
+
+{% include snippets/centered-text-home-begin background='light'%}
+
+Je kan de Crownstones installeren bij een licht dat wordt aangestuurd vanuit een normale **schakelaar**. Je kan het licht dan dimmen met de Crownstone app of met jouw stem. Het gebruik van de schakelaar wisselt dan tussen de stand **“uit”** en de laatste **“dimstand”**.
+
+{% include snippets/centered-text-home-end %}
+
+{% include snippets/centered-image-home img-size='small' img='/images/desklamp' format='png' img-alt='desk lamp'%}
+
+{% include snippets/full-width-container-end %}
+
+
+
+{% include snippets/slogan-begin background='blue' %}
+
+Dimmen inschakelen in drie stappen!
+
+{% include snippets/slogan-end %}
+
+{% include snippets/steps-dimming %}
+
+
+
+{% include snippets/slogan-begin %}
+
+Installatie achter een dimmer
+
+{% include snippets/slogan-end %}
+
+{% include snippets/full-width-container-begin%}
+
+{% include snippets/two-cols-centered-text-img-begin text-alignment='right' extra-style='padding: 3.5rem 0 !important' %}
+
+Installeer de Crownstone **niet** tussen een fysieke dimmer en een lichtpunt. Dit stoort de voeding van de Crownstone zelf. Het zal de Crownstone dimmen in plaats van he licht en dat is niet de bedoeling.
+Installatie met een dimmer wordt **niet** ondersteund en kan de levensduur van het product sterk verkorten.
+
+{% include snippets/two-cols-centered-text-img-end img='/images/no-dimmers.jpg' img-alt='no-dimmers' %}
+
+{% include snippets/full-width-container-end %}

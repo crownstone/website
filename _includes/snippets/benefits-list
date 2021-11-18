@@ -25,9 +25,9 @@
 
              {% endfor %}
 
-             {% assign cntr = cntr | plus: 1 %}
+             {% assign cntr_ = cntr_ | plus: 1 %}
 
-             {% assign three_items = cntr | modulo: 3 %}
+             {% assign three_items = cntr_ | modulo: 3 %}
 
              {% if three_items == 0 %}
 

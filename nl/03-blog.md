@@ -2,7 +2,7 @@
 layout: page
 title : Blog
 header : Blog
-group: [navigation-about-us-submenu, navigation-consumer-footer]
+group: [navigation-about-us-submenu]
 lang: nl
 permalink: blog/
 background-image: banner-blog

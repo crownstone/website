@@ -40,12 +40,12 @@ features-list:
     title: Switchcraft
     description: Je bestaande lichtschakelaars blijven gewoon werken!
 support-options:
-  - title: Scenario's
+  - slogan: Scenario's
     link: /nl/scenarios/
-    image: /images/support-scenarios.jpg
-  - title: Support
+    image: /images/support-scenarios
+  - slogan: Support
     link: /nl/support/
-    image: /images/support-help.jpg
+    image: /images/support-help
 ---
 
 {% include JB/setup %}
@@ -96,7 +96,7 @@ Op deze [pagina]({{ site.url }}/nl/app) vind je meer informatie over onze app.
 
 {% include snippets/centered-text-home-end %}
 
-{% include snippets/centered-image-home img-size='small' img='/images/cs_app.png' img-alt='cs_app'%}
+{% include snippets/centered-image-home img-size='small' img='/images/cs_app' format='png' img-alt='cs_app'%}
 
 {% include snippets/circles-bg-end %}
 
@@ -139,9 +139,9 @@ Voor veelgestelde vragen kan je terecht op onze **Support** pagina.
 {% include snippets/centered-text-home-end %}
 
 
+{% include snippets/two-frames-in-a-row id='support-options' background='orange'%}
 
-{% include snippets/support-options orange-bg="true" %}
 
-
+{% include snippets/margin %}
 
 {% include snippets/contact-new-house %}

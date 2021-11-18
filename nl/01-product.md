@@ -7,15 +7,15 @@ keywords: "switch, smart switch, dimmer, power monitor, standby killer, energy s
 group: [navigation-smart-home-submenu, navigation-consumer-footer]
 lang: nl
 permalink: product/
-installations:
-  - title: Informatie voor installeurs
-    image: /images/installers.jpg
+options:
+  - slogan: Informatie voor installeurs
+    image: /images/installers
     link: /installation/
-  - title: Ontdek ons smart home abonnement
-    image: /images/installation.jpg
+  - slogan: Ontdek ons smart home abonnement
+    image: /images/installation
     link: https://subscribe.crownstone.rocks/welcome?dest=smartscenarios&ref=http://crownstone.rocks/product/
-  - title: Installatiehandleiding
-    image: /images/self_installation.jpg
+  - slogan: Installatiehandleiding
+    image: /images/self_installation
     link: /installation/
 specs:
   - icon: el-cog
@@ -59,12 +59,12 @@ Staande lampen, plafondlampen; vorm of grootte maakt niet uit!
 
 {% include snippets/centered-text-home-end %}
 
-{% include snippets/centered-image-home img-size='large' img='/images/lamps_diverse.png' img-alt='lamps'%}
+{% include snippets/centered-image-home img-size='large' img='/images/lamps_diverse' format='png' img-alt='lamps'%}
 
 {% include snippets/full-width-container-end %}
 
 
-{% include snippets/container-image-relative-begin img-bg='/images/wall_switch.jpg' bg-position='center left' %}
+{% include snippets/container-image-relative-begin img-bg='/images/wall_switch' bg-position='center left' %}
 
 ## Je wandschakelaar blijft werken!
 
@@ -88,14 +88,14 @@ Je kan energieverbruik in de Crownstone app direct inzien. Het is mogelijk om he
 
 {% include snippets/centered-text-home-end %}
 
-{% include snippets/centered-image-home img-size='small' img='/images/gif_energy_monitoring2.gif' img-alt='energy-monitoring'%}
+{% include snippets/centered-image-home img-size='small' img='/images/gif_energy_monitoring2' format='gif' img-alt='energy-monitoring'%}
 
 {% include snippets/circles-bg-end %}
 
 {% include snippets/full-width-container-end %}
 
 
-{% include snippets/container-image-relative-begin img-bg='/images/bathroom.jpg' %}
+{% include snippets/container-image-relative-begin img-bg='/images/bathroom' %}
 
 ## Dim 's nachts je lampen
 
@@ -122,13 +122,13 @@ Vraag aan **Alexa** of **Google** om de lampen voor je aan te doen.
 {% include snippets/centered-image-two-columns img1='/images/google.jpg' img1-alt='google' img2='/images/alexa.png' img2-alt='alexa'%}
 
 
-{% include snippets/container-image-relative-begin img-bg='/images/standby_killer.jpg' horizontal-alignment='left' bg-position='center right' %}
+{% include snippets/container-image-relative-begin img-bg='/images/standby_killer' horizontal-alignment='left' bg-position='center right' %}
 
 ## Crownstone is een stand-by killer
 
 Je kan al snel €30 per jaar besparen als je een Crownstone achter je **mediabox**\* zet.
 
-###### *kijk naar het energieverbruik van andere apparaten in onze **[rekentool](https://subscribe.crownstone.rocks/calculator)**.
+*kijk naar het energieverbruik van andere apparaten in onze **[rekentool](https://subscribe.crownstone.rocks/calculator)**.
 
 {% include snippets/container-image-relative-end %}
 
@@ -149,7 +149,7 @@ De installatie van Crownstone kan op drie manieren worden gedaan. Het kan worden
 
 {% include snippets/full-width-container-end %}
 
-{% include snippets/installation-possibilities %}
+{% include snippets/three-frames-in-a-row %}
 
 
 {% include snippets/full-width-container-begin %}

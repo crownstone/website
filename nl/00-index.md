@@ -32,21 +32,21 @@ features:
     title: Energieverbruik
     description: Bekijk energieverbruik real-time per apparaat
 segments:
-  - title: Consumenten
+  - subtitle: Consumenten
     slogan: Maak je eigen huis slim!
-    image: /images/chilling_living_room.jpg
+    image: /images/chilling_living_room
     link: /nl/product
-  - title: Abonnees
+  - subtitle: Abonnees
     slogan: Een goedkope oplossing inclusief installatie
-    image: /images/dad_and_son.jpg
+    image: /images/dad_and_son
     link: https://subscribe.crownstone.rocks/welcome?dest=smartscenarios&ref=crownstone.rocks&loc=subscribers
-  - title: Vastgoedontwikkelaars
+  - subtitle: Vastgoedontwikkelaars
     slogan: Verkoop slimmere gebouwen
-    image: /images/rotterdam_real_state.jpg
+    image: /images/rotterdam_real_state
     link: /business/residential-real-estate/
-  - title: OEM
+  - subtitle: OEM
     slogan: Samenwerk met Crownstone
-    image: /images/oem.jpg
+    image: /images/oem
     link: /business/oem/
 ---
 
@@ -70,11 +70,11 @@ Jouw huis zet de lichten automatisch op de sterkte die **jij** graag wil zien. J
 
 {% include snippets/centered-text-home-end %}
 
-{% include snippets/centered-image-home img-size='large' img='/images/builtin-sketch.png' img-alt='builtin-sketch'%}
+{% include snippets/centered-image-home img-size='large' img='/images/builtin-sketch' format='png' img-alt='builtin-sketch'%}
 
 {% include snippets/full-width-container-end %}
 
-{% include snippets/container-image-relative-begin img-bg='/images/coming_home.jpg' horizontal-alignment='left' %}
+{% include snippets/container-image-relative-begin img-bg='/images/coming_home' horizontal-alignment='left' %}
 
 ## Welkom Thuis!
 
@@ -96,11 +96,11 @@ Crownstone modules (kroonsteentjes) kunnen worden geplaatst achter stopcontacten
 
 {% include snippets/centered-text-home-end %}
 
-{% include snippets/centered-image-home img-size='small' img='/images/built-ins.png' img-alt='built-ins' class='built-in-img' %}
+{% include snippets/centered-image-home img-size='small' img='/images/built-ins' format='png' img-alt='built-ins' class='built-in-img' %}
 
 {% include snippets/full-width-container-end %}
 
-{% include snippets/container-image-relative-begin img-bg='/images/reading_couch.jpg' %}
+{% include snippets/container-image-relative-begin img-bg='/images/reading_couch' %}
 
 ## Zonsondergang
 
@@ -130,4 +130,4 @@ Een Crownstone is een soort van miniatuur smartphone. Er zijn verschillende apps
 
 {% include snippets/full-width-container-end %}
 
-{% include snippets/customer-segments %}
+{% include snippets/two-frames-in-a-row id='segments' background='blue'%}

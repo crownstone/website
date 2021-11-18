@@ -6,18 +6,17 @@ group: [navigation-smart-home-submenu, navigation-consumer-footer]
 lang: nl
 permalink: scenarios/
 children-disable: [crownstone, autopilot]
-background-image-home: banner-scenarios
+background-image: banner-scenarios
+banner-caption: Scenario's
 coming-soon:
-    - title: Wake up light
-      image: /images/wakeup.jpg
+    - slogan: Wake up light
+      image: /images/wakeup
       link: /will-be-up-soon/
-    - title: Energy usage overview
-      image: /images/energy_usage.jpg
+    - slogan: Energy usage overview
+      image: /images/energy_usage
       link: /will-be-up-soon/
 ---
 {% include JB/setup %}
-
-{% include snippets/home-banner %}
 
 {% include snippets/slogan-begin %}
 
@@ -33,11 +32,11 @@ Wij willen graag dat we jou tijd besparen in plaats van jou tijd kosten. Hier zi
 
 {% include snippets/centered-text-home-end %}
 
-{% include snippets/centered-image-home img-size='large' img='/images/devices.png' img-alt='devices'%}
+{% include snippets/centered-image-home img-size='large' img='/images/devices' format='png' img-alt='devices'%}
 
 {% include snippets/full-width-container-end %}
 
-{% include snippets/container-image-relative-begin img-bg='/images/sunset.jpg' bg-position='top center' %}
+{% include snippets/container-image-relative-begin img-bg='/images/sunset' bg-position='top center' %}
 
 ## Zonsondergang
 
@@ -59,11 +58,11 @@ Zet stopcontacten uit als **jij**, als volwassene, niet in de buurt bent. Natuur
 
 {% include snippets/centered-text-home-end %}
 
-{% include snippets/centered-image-home img-size='small' img='/images/danger.png' img-alt='danger' %}
+{% include snippets/centered-image-home img-size='small' img='/images/danger' format='png' img-alt='danger' %}
 
 {% include snippets/full-width-container-end %}
 
-{% include snippets/container-image-relative-begin img-bg='/images/nighttime.jpg' horizontal-alignment='left' %}
+{% include snippets/container-image-relative-begin img-bg='/images/nighttime' horizontal-alignment='left' %}
 
 ## Nachtverlichting
 
@@ -85,11 +84,11 @@ Zet je kerstboomverlichting aan als je in de woonkamer bent. Je kan het ook zo i
 
 {% include snippets/centered-text-home-end %}
 
-{% include snippets/centered-image-home img-size='large' img='/images/christmas.png' img-alt='christmas' %}
+{% include snippets/centered-image-home img-size='large' img='/images/christmas' format='png' img-alt='christmas' %}
 
 {% include snippets/full-width-container-end %}
 
-{% include snippets/container-image-relative-begin img-bg='/images/kids_tv.jpg' bg-position='top center' %}
+{% include snippets/container-image-relative-begin img-bg='/images/kids_tv' bg-position='top center' %}
 
 ## Naar bed!
 
@@ -113,4 +112,9 @@ Elke paar maanden komen er nieuwe functies beschikbaar op de Crownstones. Ze wor
 
 {% include snippets/full-width-container-end %}
 
-{% include snippets/coming-soon %}
+
+{% include snippets/margin %}
+
+{% include snippets/two-frames-in-a-row id='coming-soon' no-arrow='true'%}
+
+{% include snippets/margin %}

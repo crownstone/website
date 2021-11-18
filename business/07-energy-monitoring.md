@@ -9,12 +9,12 @@ permalink: business/energy-monitoring
 background-image: banner-energy-monitoring
 banner-caption: Energy Monitoring
 areas:
-  - title: Health care
-    image: /images/energy-monitoring/health.jpg
-  - title: Offices
-    image: /images/energy-monitoring/offices.jpg
-  - title: Industrial
-    image: /images/energy-monitoring/industrial.jpg
+  - slogan: Health care
+    image: /images/energy-monitoring/health
+  - slogan: Offices
+    image: /images/energy-monitoring/offices
+  - slogan: Industrial
+    image: /images/energy-monitoring/industrial
 ---
 
 
@@ -32,11 +32,11 @@ Crownstone for energy monitoring
 
 {% include snippets/two-cols-text-img-begin%}
 
-##### Crownstones can also perform energy monitoring per device
+**Crownstones can also perform energy monitoring per device**
 
 <p>&nbsp;</p>  
 
-###### Crownstones form a **bluetooth mesh** and can broadcast **energy data** towards a hub where it can be collected. This energy data includes: current, voltage, power and power factor.
+*Crownstones form a **bluetooth mesh** and can broadcast **energy data** towards a hub where it can be collected. This energy data includes: current, voltage, power and power factor.*
 
 {% include snippets/two-cols-text-img-end img='/images/energy-monitoring/ble-mesh.png' img-alt='bluetooth mesh' %}
 
@@ -186,8 +186,11 @@ Application areas
 {% include snippets/slogan-end %}
 
 
-{% include snippets/application-areas %}
+{% include snippets/margin %}
 
+{% include snippets/three-frames-in-a-row  id='areas' no-arrow='true' no-link='true' %}
+
+{% include snippets/margin %}
 
 
 {% include snippets/slogan-begin %}

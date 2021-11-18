@@ -2,7 +2,7 @@
 {% assign ci-image2 = include.img-sub %}
 
 <div class="row align-items-end m-0 p-0" style="position: relative">
-<div class="container-bg-white" style="background-image: url({{ ci-image1 }}); background-position:{{include.bg-position}}"> </div>
+<div class="container-bg-white" style="background-image: url({{ ci-image1 }}.jpg); background-image: -webkit-image-set(url({{ ci-image1 }}.webp) 1x); background-position:{{ include.bg-position }}"> </div>
 
 {% if include.horizontal-alignment and include.horizontal-alignment == "left" %}
 <div class="text-container-bg-white">
@@ -13,6 +13,6 @@
 <div class="col bg-white-container" markdown="1" style='text-align: center'>
 <div class="row justify-content-center m-1 p-0">
 <div class="col-md-3">
-  <img src="{{ci-image2}}" alt="{{include.img-sub-alt}}"/>
+  <img src="{{ ci-image2 }}" alt="{{include.img-sub-alt}}"/>
 </div>
 </div>

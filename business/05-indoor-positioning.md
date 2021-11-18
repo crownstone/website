@@ -51,12 +51,12 @@ software-modules:
     image: /images/indoor-positioning-b2b/sensor.svg
     image-alt: sensor
 areas:
-  - title: Workforce management
-    image: /images/indoor-positioning-b2b/workforce.jpg
-  - title: Workplace efficiency
-    image: /images/indoor-positioning-b2b/workplace.jpg
-  - title: Building automation
-    image: /images/indoor-positioning-b2b/automation.jpg
+  - slogan: Workforce management
+    image: /images/indoor-positioning-b2b/workforce
+  - slogan: Workplace efficiency
+    image: /images/indoor-positioning-b2b/workplace
+  - slogan: Building automation
+    image: /images/indoor-positioning-b2b/automation
 ---
 
 
@@ -78,7 +78,7 @@ It's the ability of the Crownstones to know **where** someone is when carrying e
 
 {% include snippets/centered-text-home-end %}
 
-{% include snippets/centered-image-home img-size='small' img='/images/indoor-positioning-b2b/positioning.jpg' img-alt='positioning'%}
+{% include snippets/centered-image-home img-size='small' img='/images/indoor-positioning-b2b/positioning' format='jpg' img-alt='positioning'%}
 
 {% include snippets/full-width-container-end %}
 
@@ -253,8 +253,11 @@ Application areas
 {% include snippets/slogan-end %}
 
 
-{% include snippets/application-areas %}
+{% include snippets/margin %}
 
+{% include snippets/three-frames-in-a-row  id='areas' no-arrow='true' no-link='true' %}
+
+{% include snippets/margin %}
 
 
 {% include snippets/slogan-begin %}

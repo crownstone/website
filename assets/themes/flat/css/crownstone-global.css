@@ -72,9 +72,10 @@ h3, h4, h5, h6, .h3, .h4, .h5, .h6 {
 	font-family: 'LatoLight';
 }
 
-h5{
+p.subtitle-bold{
 	font-size: 1.4rem;
 	font-weight: bold;
+	line-height: 1.2;
 }
 
 .no-padding {
@@ -153,6 +154,12 @@ img.topLogo.xs {
 .carousel {
 	width: 75%;
 	margin: 0 auto;
+}
+
+.img-center{
+	display: 		block;
+	margin-left: 	auto;
+	margin-right:   auto;
 }
 
 div.bannerContainer {
@@ -2009,6 +2016,22 @@ p.thought:after {
 
 .agent-profile {
 	color: white;
+}
+
+.col-bottom-aligned{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.col-bottom-aligned-child{
+	flex: 1;
+	width: 100%;
+}
+
+.img-vacancy{
+	width: 100%;
+	margin-bottom: 1rem
 }
 
 /**
