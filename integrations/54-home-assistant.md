@@ -4,7 +4,7 @@ title            : "Integrate Crownstone with Home Assistant"
 header           : "Integrate Crownstone with Home Assistant"
 description      : "Crownstone brings the functionality of switch, dimming, and presence information using Crownstones to Home Assistant"
 markdown         : true
-background-image : banner-home-assistant
+background-image : banner-ha-hacs
 permalink        : integrations/home-assistant/
 ---
 
@@ -25,6 +25,76 @@ Home Assistant itself is 100% free! To install Home Assistant follow the [Instal
 ## Getting started
 
 If you followed the installation guide, your Home Assistant should be up and running! Awesome!
+In this guide we will show you how to set up the Crownstone integration directly as Home Assistant integration and through [HACS](https://hacs.xyz/) (Home Assistant Community Store).
+
+## Option 1: Directly as Home Assistant integration
+
+### Adding the Crownstone integration in HACS
+
+*Step 1:* Go to the **Configuration** menu located at the side bar from your dashboard
+
+{% include snippets/centered_img_home_assistant img='/attachments/home-assistant/integration/step1.jpg' img-alt='HA step 1' zoom-modal='modal-step-1' %}
+
+
+*Step 2:* Click on the **Integrations** section from the configuration menu
+
+{% include snippets/centered_img_home_assistant img='/attachments/home-assistant/integration/step2.jpg' img-alt='HA step 2' zoom-modal='modal-step-2' %}
+
+
+*Step 3:* Click on the **Add Integration** button located at the bottom right corner
+
+{% include snippets/centered_img_home_assistant img='/attachments/home-assistant/integration/step3.jpg' img-alt='HA step 3' zoom-modal='modal-step-3' %}
+
+
+*Step 4:* Type **Crownstone** on the search field of the window that just got opened. Then click on the arrow to continue.
+
+{% include snippets/centered_img_home_assistant img='/attachments/home-assistant/integration/step4.jpg' img-alt='HA step 4' zoom-modal='modal-step-4' %}
+
+
+*Step 5:* Enter your email and password of your Crownstone account, and click on **Submit**.
+
+{% include snippets/centered_img_home_assistant img='/attachments/home-assistant/integration/step5.jpg' img-alt='HA step 5' zoom-modal='modal-step-5' %}
+
+
+*Step 6:* Plug the Crownstone **USB Dongle** in one of your computer's USB ports. The dongle provides independent switching of Crownstones (no smartphone required) and enables the power & energy usage entities. Verify that the dongle is plugged in before continuing.
+
+{% include snippets/centered_img_home_assistant img='/attachments/home-assistant/HA_7.1.png' img-alt='HA step 6' zoom-modal='modal-step-6' %}
+
+
+*Step 7:* Head over to the **Crownstone app** on your phone, tap the **+** button, select Crownstone -> Crownstone USB and follow the steps.
+
+{% include snippets/centered_img_home_assistant img='/attachments/home-assistant/HA_7.1.1.png' img-alt='HA step 7' zoom-modal='modal-step-7' %}
+
+
+*Step 8:* After plugging in your dongle in one of your computer’s USB ports (e.g. Raspberry Pi 4), click on **Submit**.
+
+{% include snippets/centered_img_home_assistant img='/attachments/home-assistant/integration/step8.jpg' img-alt='HA step 8' zoom-modal='modal-step-8
+' %}
+
+
+*Step 9:* In the window that pops up you can see the **devices** that have been added to Home Assistant. Check if all of your devices have been included. You can also add your devices to a Home Assistant area if you wish. Next, click on **Finish.**
+
+{% include snippets/centered_img_home_assistant img='/attachments/home-assistant/integration/step9.jpg' img-alt='HA step 9' zoom-modal='modal-step-9' %}
+
+
+*Step 10:* Now you can visualize Crownstone as part of your **Integrations**.
+
+{% include snippets/centered_img_home_assistant img='/attachments/home-assistant/integration/step10.jpg' img-alt='HA step 10' zoom-modal='modal-step-10' %}
+
+
+*Step 11:* Once the setup is complete, you can go to your Overview, click on the 3 dots button at the top right corner and click on **Edit Dashboard**. From there you can add cards for your new Crownstone entities. Be creative!
+
+Recommended cards:
+- Dimmable lights: **Light** card for each entity
+- Presence entities (house, living room): **Glance** card
+- Rest of the Crownstones: **Entities** card
+- Energy usage / Power usage entities: **Grid** card with **Sensor** card for each entity
+
+{% include snippets/centered_img_home_assistant img='/attachments/home-assistant/integration/step11.jpg' img-alt='HA step 11' zoom-modal='modal-step-11' %}
+
+
+
+## Option 2: Through HACS
 
 ### Installing HACS
 
@@ -52,7 +122,7 @@ Go to this [page](https://hacs.xyz/docs/configuration/basic) and follow the inst
 
 {% include snippets/centered_img_home_assistant img='/attachments/home-assistant/HA_4.png' img-alt='Home Assistant Step_4' zoom-modal='modal-step-4' %}
 
-## Setting up the Crownstone integration
+### Setting up the Crownstone integration
 
 *Step 1:* Go to Configuration -> Integrations and click on **+ Add Integration**. Search for Crownstone in the list. If you cannot find it, make sure that the previous steps were done right.
 
@@ -88,6 +158,7 @@ Recommended cards:
 - Energy usage / Power usage entities: **Grid** card with **Sensor** card for each entity
 
 {% include snippets/centered_img_home_assistant img='/attachments/home-assistant/HA_9.png' img-alt='Home Assistant Step_9' zoom-modal='modal-step-9' %}
+
 
 
 ## Additional information 

@@ -36,7 +36,7 @@ benefits:
 
 {% include snippets/full-width-container-begin %}
 
-{% include snippets/circles-bg-begin img='/images/circles_2.png' bg-position='center' %}
+{% include snippets/circles-bg-begin img='/images/circles_1.png' bg-position='center' %}
 
 {% include snippets/slogan-begin %}
 
@@ -46,19 +46,16 @@ Installation by Crownstone
 
 {% include snippets/centered-text-home-begin background='light'%}
 
-When you chose Crownstone to include into your residential real estate portfolio, you can also make use of our **installation service**. Our electricians can provide you with the followings installation options
+When you chose Crownstone to include into your residential real estate portfolio, you can also make use of our **installation service**.
+Our electricians can help you not only to install our smart devices behind **power outlets**, but also behind **ceiling lights** and enable the **wall switches** to work together with the Crownstones.
 
 {% include snippets/centered-text-home-end %}
+
+{% include snippets/centered-image-home img-size='large' img='/images/installation/double' format='jpg' img-alt='builtin behind double socket'%}
 
 {% include snippets/circles-bg-end %}
 
 {% include snippets/full-width-container-end %}
-
-
-{% include snippets/two-frames-in-a-row no-arrow='true' %}
-
-
-{% include snippets/margin %}
 
 
 {% include snippets/slogan-begin background='blue' %}
@@ -127,6 +124,7 @@ If you are considering to include Crownstones into your residential real estate 
 For questions and request a quotation drop us an email.
 
 {% assign email = ".rocks, stone, crown, @, sk, a" | split: ", "  %}
+
 {% include snippets/contact-option-end email=email subject="Question: Installation for real estate developer"%}
 
 

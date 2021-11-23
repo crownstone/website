@@ -1,11 +1,11 @@
 {% assign ci-image = include.img %}
 
-<div class="col-md-4 col-lg-3 forget-box" id="{{include.img-alt}}" style="padding: 0 !important" >
+<div class="col-md-4 col-lg-3 forget-box col-bottom-aligned" id="{{include.img-alt}}" style="padding: 0 !important" >
 
 <img src="{{ ci-image }}" alt="{{ include.img-alt }}" style='width: 100%; padding: 1rem;'>
 
-<div class="row justify-content-center text-truncate" style="margin: 0 !important; white-space: normal; font-family: Lato, sans-serif; font-size: 1.3rem !important; font-style: normal !important; color: #003e52 !important; padding: 1rem 1.5rem !important; width: 100%; text-align: center;" >
+<div class="row justify-content-center text-truncate col-bottom-aligned-child" style="margin: 0 !important; white-space: normal; font-family: Lato, sans-serif; font-size: 1.3rem !important; font-style: normal !important; color: #003e52 !important; padding: 1rem 1.5rem !important; width: 100%; text-align: center;" >
 {{ include.title }}
 </div>
 
-<div class="row justify-content-center" style="margin: 0 !important; text-align: center; padding: 0 1.5rem !important; font-size: 1rem !important;" markdown="1">
+<div class="row justify-content-center col-bottom-aligned-child" style="margin: 0 !important; text-align: center; padding: 0 1.5rem !important; font-size: 1rem !important;" markdown="1">
