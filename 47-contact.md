@@ -59,14 +59,14 @@ Interested in our technology? Then talk with us, we're all ears!
 {% include snippets/contact-option-end tel="true" %}
 
 
-{% include snippets/contact-option-begin img="/images/contact/wa.svg" img-alt="wa-icon" title="Send a Whatsapp" %}
+{% include snippets/contact-option-begin img="/images/contact/wa.svg" img-alt="wa-icon" title="Send a WhatsApp" %}
 
-If you prefer to chat with us, send us a message on Whatsapp.
+If you prefer to chat with us, send us a message on WhatsApp.
 
 {% include snippets/contact-option-end wa="true" %}
 
 
-{% include snippets/contact-option-begin img="/images/contact/discord.svg" img-alt="discord-icon" title="Join our community" %}
+{% include snippets/contact-option-begin img="/images/contact/discord-new.svg" img-alt="discord-icon" title="Join our community" %}
 
 For general questions or more in-depth discussions, use Discord!
 
