@@ -40,15 +40,15 @@
 	<meta name="twitter:card" content="summary">
 	<meta name="twitter:title" content="Integrate Crownstone with Home Assistant">
 	<meta name="twitter:description" content="Crownstone brings the functionality of switch, dimming, and presence information using Crownstones to Home Assistant">
-	<meta name="twitter:image" content="https://crownstone.rocks/images/banners/banner-home-assistant">
+	<meta name="twitter:image" content="https://crownstone.rocks/images/banners/banner-ha-hacs">
 	<meta name="twitter:image:width" content="240">
 	<meta name="twitter:image:height" content="240">
     <!-- Open graph social card -->
     <meta property="og:type" content="website">
     <meta property="og:title" content="Integrate Crownstone with Home Assistant">
     <meta property="og:url" content="https://crownstone.rocks/integrations/home-assistant/">
-    <meta property="og:image" content="https://crownstone.rocks/images/banners/banner-home-assistant">
-    <meta property="og:image:secure_url" content="https://crownstone.rocks/images/banners/banner-home-assistant">
+    <meta property="og:image" content="https://crownstone.rocks/images/banners/banner-ha-hacs">
+    <meta property="og:image:secure_url" content="https://crownstone.rocks/images/banners/banner-ha-hacs">
     <meta property="og:description" content="Crownstone brings the functionality of switch, dimming, and presence information using Crownstones to Home Assistant">
     <meta property="og:site_name" content="Crownstone">
     <!-- Bootstrap as framework -->
@@ -1371,19 +1371,19 @@
 
 
 <!-- background-image -->
-<div class="bannerContainer xl d-none d-xl-flex" style="background-image: url(/images/banners/banner-home-assistant.jpg); background-image: -webkit-image-set(url(/images/banners/banner-home-assistant.webp) 1x)">
+<div class="bannerContainer xl d-none d-xl-flex" style="background-image: url(/images/banners/banner-ha-hacs.jpg); background-image: -webkit-image-set(url(/images/banners/banner-ha-hacs.webp) 1x)">
    
 </div>
-<div class="bannerContainer lg d-none d-lg-flex d-xl-none" style="background-image: url(/images/banners/banner-home-assistant.jpg); background-image: -webkit-image-set(url(/images/banners/banner-home-assistant.webp) 1x)">
+<div class="bannerContainer lg d-none d-lg-flex d-xl-none" style="background-image: url(/images/banners/banner-ha-hacs.jpg); background-image: -webkit-image-set(url(/images/banners/banner-ha-hacs.webp) 1x)">
    
 </div>
-<div class="bannerContainer md d-none d-md-flex d-lg-none" style="background-image: url(/images/banners/banner-home-assistant.jpg); background-image: -webkit-image-set(url(/images/banners/banner-home-assistant.webp) 1x)">
+<div class="bannerContainer md d-none d-md-flex d-lg-none" style="background-image: url(/images/banners/banner-ha-hacs.jpg); background-image: -webkit-image-set(url(/images/banners/banner-ha-hacs.webp) 1x)">
    
 </div>
-<div class="bannerContainer sm d-none d-sm-flex d-md-none" style="background-image: url(/images/banners/banner-home-assistant.jpg); background-image: -webkit-image-set(url(/images/banners/banner-home-assistant.webp) 1x)">
+<div class="bannerContainer sm d-none d-sm-flex d-md-none" style="background-image: url(/images/banners/banner-ha-hacs.jpg); background-image: -webkit-image-set(url(/images/banners/banner-ha-hacs.webp) 1x)">
    
 </div>
-<div class="bannerContainer xs d-flex d-sm-none" style="background-image: url(/images/banners/banner-home-assistant.jpg); background-image: -webkit-image-set(url(/images/banners/banner-home-assistant.webp) 1x)">
+<div class="bannerContainer xs d-flex d-sm-none" style="background-image: url(/images/banners/banner-ha-hacs.jpg); background-image: -webkit-image-set(url(/images/banners/banner-ha-hacs.webp) 1x)">
 </div>
 <!-- end background-image -->
 
@@ -1416,7 +1416,266 @@
 
 <h2 id="header-getting-started">Getting started</h2>
 
-<p>If you followed the installation guide, your Home Assistant should be up and running! Awesome!</p>
+<p>If you followed the installation guide, your Home Assistant should be up and running! Awesome!
+In this guide we will show you how to set up the Crownstone integration directly as Home Assistant integration and through <a href="https://hacs.xyz/">HACS</a> (Home Assistant Community Store).</p>
+
+<h2 id="header-option-1-directly-as-home-assistant-integration">Option 1: Directly as Home Assistant integration</h2>
+
+<h3 id="header-adding-the-crownstone-integration-in-hacs">Adding the Crownstone integration in HACS</h3>
+
+<p><em>Step 1:</em> Go to the <strong>Configuration</strong> menu located at the side bar from your dashboard</p>
+
+<div class="row justify-content-center m-0 p-0">
+    <div class="col-md-10 pb-5 pl-3 pr-3">
+        <img src="/attachments/home-assistant/integration/step1.jpg" alt="HA step 1" style="width:100%;cursor:pointer" onclick="onClick(this)" />
+    </div>
+</div>
+
+<div id="modal-step-1" class="w3-modal" style="padding-top: 10% !important" onclick="this.style.display='none'">
+  <span class="w3-button w3-hover-red w3-xlarge w3-display-topright">&times;</span>
+  <div class="w3-modal-content w3-animate-zoom">
+    <img id="HA step 1" style="transform: scale(1.5);" />
+  </div>
+</div>
+
+<script>
+function onClick(element) {
+  document.getElementById("HA step 1").src = element.src;
+  document.getElementById("modal-step-1").style.display = "block";
+}
+</script>
+
+<p><em>Step 2:</em> Click on the <strong>Integrations</strong> section from the configuration menu</p>
+
+<div class="row justify-content-center m-0 p-0">
+    <div class="col-md-10 pb-5 pl-3 pr-3">
+        <img src="/attachments/home-assistant/integration/step2.jpg" alt="HA step 2" style="width:100%;cursor:pointer" onclick="onClick(this)" />
+    </div>
+</div>
+
+<div id="modal-step-2" class="w3-modal" style="padding-top: 10% !important" onclick="this.style.display='none'">
+  <span class="w3-button w3-hover-red w3-xlarge w3-display-topright">&times;</span>
+  <div class="w3-modal-content w3-animate-zoom">
+    <img id="HA step 2" style="transform: scale(1.5);" />
+  </div>
+</div>
+
+<script>
+function onClick(element) {
+  document.getElementById("HA step 2").src = element.src;
+  document.getElementById("modal-step-2").style.display = "block";
+}
+</script>
+
+<p><em>Step 3:</em> Click on the <strong>Add Integration</strong> button located at the bottom right corner</p>
+
+<div class="row justify-content-center m-0 p-0">
+    <div class="col-md-10 pb-5 pl-3 pr-3">
+        <img src="/attachments/home-assistant/integration/step3.jpg" alt="HA step 3" style="width:100%;cursor:pointer" onclick="onClick(this)" />
+    </div>
+</div>
+
+<div id="modal-step-3" class="w3-modal" style="padding-top: 10% !important" onclick="this.style.display='none'">
+  <span class="w3-button w3-hover-red w3-xlarge w3-display-topright">&times;</span>
+  <div class="w3-modal-content w3-animate-zoom">
+    <img id="HA step 3" style="transform: scale(1.5);" />
+  </div>
+</div>
+
+<script>
+function onClick(element) {
+  document.getElementById("HA step 3").src = element.src;
+  document.getElementById("modal-step-3").style.display = "block";
+}
+</script>
+
+<p><em>Step 4:</em> Type <strong>Crownstone</strong> on the search field of the window that just got opened. Then click on the arrow to continue.</p>
+
+<div class="row justify-content-center m-0 p-0">
+    <div class="col-md-10 pb-5 pl-3 pr-3">
+        <img src="/attachments/home-assistant/integration/step4.jpg" alt="HA step 4" style="width:100%;cursor:pointer" onclick="onClick(this)" />
+    </div>
+</div>
+
+<div id="modal-step-4" class="w3-modal" style="padding-top: 10% !important" onclick="this.style.display='none'">
+  <span class="w3-button w3-hover-red w3-xlarge w3-display-topright">&times;</span>
+  <div class="w3-modal-content w3-animate-zoom">
+    <img id="HA step 4" style="transform: scale(1.5);" />
+  </div>
+</div>
+
+<script>
+function onClick(element) {
+  document.getElementById("HA step 4").src = element.src;
+  document.getElementById("modal-step-4").style.display = "block";
+}
+</script>
+
+<p><em>Step 5:</em> Enter your email and password of your Crownstone account, and click on <strong>Submit</strong>.</p>
+
+<div class="row justify-content-center m-0 p-0">
+    <div class="col-md-10 pb-5 pl-3 pr-3">
+        <img src="/attachments/home-assistant/integration/step5.jpg" alt="HA step 5" style="width:100%;cursor:pointer" onclick="onClick(this)" />
+    </div>
+</div>
+
+<div id="modal-step-5" class="w3-modal" style="padding-top: 10% !important" onclick="this.style.display='none'">
+  <span class="w3-button w3-hover-red w3-xlarge w3-display-topright">&times;</span>
+  <div class="w3-modal-content w3-animate-zoom">
+    <img id="HA step 5" style="transform: scale(1.5);" />
+  </div>
+</div>
+
+<script>
+function onClick(element) {
+  document.getElementById("HA step 5").src = element.src;
+  document.getElementById("modal-step-5").style.display = "block";
+}
+</script>
+
+<p><em>Step 6:</em> Plug the Crownstone <strong>USB Dongle</strong> in one of your computer’s USB ports. The dongle provides independent switching of Crownstones (no smartphone required) and enables the power &amp; energy usage entities. Verify that the dongle is plugged in before continuing.</p>
+
+<div class="row justify-content-center m-0 p-0">
+    <div class="col-md-10 pb-5 pl-3 pr-3">
+        <img src="/attachments/home-assistant/HA_7.1.png" alt="HA step 6" style="width:100%;cursor:pointer" onclick="onClick(this)" />
+    </div>
+</div>
+
+<div id="modal-step-6" class="w3-modal" style="padding-top: 10% !important" onclick="this.style.display='none'">
+  <span class="w3-button w3-hover-red w3-xlarge w3-display-topright">&times;</span>
+  <div class="w3-modal-content w3-animate-zoom">
+    <img id="HA step 6" style="transform: scale(1.5);" />
+  </div>
+</div>
+
+<script>
+function onClick(element) {
+  document.getElementById("HA step 6").src = element.src;
+  document.getElementById("modal-step-6").style.display = "block";
+}
+</script>
+
+<p><em>Step 7:</em> Head over to the <strong>Crownstone app</strong> on your phone, tap the <strong>+</strong> button, select Crownstone -&gt; Crownstone USB and follow the steps.</p>
+
+<div class="row justify-content-center m-0 p-0">
+    <div class="col-md-10 pb-5 pl-3 pr-3">
+        <img src="/attachments/home-assistant/HA_7.1.1.png" alt="HA step 7" style="width:100%;cursor:pointer" onclick="onClick(this)" />
+    </div>
+</div>
+
+<div id="modal-step-7" class="w3-modal" style="padding-top: 10% !important" onclick="this.style.display='none'">
+  <span class="w3-button w3-hover-red w3-xlarge w3-display-topright">&times;</span>
+  <div class="w3-modal-content w3-animate-zoom">
+    <img id="HA step 7" style="transform: scale(1.5);" />
+  </div>
+</div>
+
+<script>
+function onClick(element) {
+  document.getElementById("HA step 7").src = element.src;
+  document.getElementById("modal-step-7").style.display = "block";
+}
+</script>
+
+<p><em>Step 8:</em> After plugging in your dongle in one of your computer’s USB ports (e.g. Raspberry Pi 4), click on <strong>Submit</strong>.</p>
+
+<div class="row justify-content-center m-0 p-0">
+    <div class="col-md-10 pb-5 pl-3 pr-3">
+        <img src="/attachments/home-assistant/integration/step8.jpg" alt="HA step 8" style="width:100%;cursor:pointer" onclick="onClick(this)" />
+    </div>
+</div>
+
+<div id="modal-step-8
+" class="w3-modal" style="padding-top: 10% !important" onclick="this.style.display='none'">
+  <span class="w3-button w3-hover-red w3-xlarge w3-display-topright">&times;</span>
+  <div class="w3-modal-content w3-animate-zoom">
+    <img id="HA step 8" style="transform: scale(1.5);" />
+  </div>
+</div>
+
+<script>
+function onClick(element) {
+  document.getElementById("HA step 8").src = element.src;
+  document.getElementById("modal-step-8
+").style.display = "block";
+}
+</script>
+
+<p><em>Step 9:</em> In the window that pops up you can see the <strong>devices</strong> that have been added to Home Assistant. Check if all of your devices have been included. You can also add your devices to a Home Assistant area if you wish. Next, click on <strong>Finish.</strong></p>
+
+<div class="row justify-content-center m-0 p-0">
+    <div class="col-md-10 pb-5 pl-3 pr-3">
+        <img src="/attachments/home-assistant/integration/step9.jpg" alt="HA step 9" style="width:100%;cursor:pointer" onclick="onClick(this)" />
+    </div>
+</div>
+
+<div id="modal-step-9" class="w3-modal" style="padding-top: 10% !important" onclick="this.style.display='none'">
+  <span class="w3-button w3-hover-red w3-xlarge w3-display-topright">&times;</span>
+  <div class="w3-modal-content w3-animate-zoom">
+    <img id="HA step 9" style="transform: scale(1.5);" />
+  </div>
+</div>
+
+<script>
+function onClick(element) {
+  document.getElementById("HA step 9").src = element.src;
+  document.getElementById("modal-step-9").style.display = "block";
+}
+</script>
+
+<p><em>Step 10:</em> Now you can visualize Crownstone as part of your <strong>Integrations</strong>.</p>
+
+<div class="row justify-content-center m-0 p-0">
+    <div class="col-md-10 pb-5 pl-3 pr-3">
+        <img src="/attachments/home-assistant/integration/step10.jpg" alt="HA step 10" style="width:100%;cursor:pointer" onclick="onClick(this)" />
+    </div>
+</div>
+
+<div id="modal-step-10" class="w3-modal" style="padding-top: 10% !important" onclick="this.style.display='none'">
+  <span class="w3-button w3-hover-red w3-xlarge w3-display-topright">&times;</span>
+  <div class="w3-modal-content w3-animate-zoom">
+    <img id="HA step 10" style="transform: scale(1.5);" />
+  </div>
+</div>
+
+<script>
+function onClick(element) {
+  document.getElementById("HA step 10").src = element.src;
+  document.getElementById("modal-step-10").style.display = "block";
+}
+</script>
+
+<p><em>Step 11:</em> Once the setup is complete, you can go to your Overview, click on the 3 dots button at the top right corner and click on <strong>Edit Dashboard</strong>. From there you can add cards for your new Crownstone entities. Be creative!</p>
+
+<p>Recommended cards:</p>
+<ul>
+  <li>Dimmable lights: <strong>Light</strong> card for each entity</li>
+  <li>Presence entities (house, living room): <strong>Glance</strong> card</li>
+  <li>Rest of the Crownstones: <strong>Entities</strong> card</li>
+  <li>Energy usage / Power usage entities: <strong>Grid</strong> card with <strong>Sensor</strong> card for each entity</li>
+</ul>
+
+<div class="row justify-content-center m-0 p-0">
+    <div class="col-md-10 pb-5 pl-3 pr-3">
+        <img src="/attachments/home-assistant/integration/step11.jpg" alt="HA step 11" style="width:100%;cursor:pointer" onclick="onClick(this)" />
+    </div>
+</div>
+
+<div id="modal-step-11" class="w3-modal" style="padding-top: 10% !important" onclick="this.style.display='none'">
+  <span class="w3-button w3-hover-red w3-xlarge w3-display-topright">&times;</span>
+  <div class="w3-modal-content w3-animate-zoom">
+    <img id="HA step 11" style="transform: scale(1.5);" />
+  </div>
+</div>
+
+<script>
+function onClick(element) {
+  document.getElementById("HA step 11").src = element.src;
+  document.getElementById("modal-step-11").style.display = "block";
+}
+</script>
+
+<h2 id="header-option-2-through-hacs">Option 2: Through HACS</h2>
 
 <h3 id="header-installing-hacs">Installing HACS</h3>
 
@@ -1426,7 +1685,7 @@
 
 <p>Go to this <a href="https://hacs.xyz/docs/configuration/basic">page</a> and follow the instructions. This action requires a GitHub account. If you don’t have a GitHub account yet, you can sign up <a href="https://github.com/join?ref_cta=Sign+up&amp;ref_loc=header+logged+out&amp;ref_page=%2F&amp;source=header-home">here</a>. Make sure your browser cache for the Home Assistant page is cleared, otherwise HACS might not show up.</p>
 
-<h3 id="header-adding-the-crownstone-integration-in-hacs">Adding the Crownstone integration in HACS</h3>
+<h3 id="header-adding-the-crownstone-integration-in-hacs-1">Adding the Crownstone integration in HACS</h3>
 
 <p><em>Step 1:</em> Click on the 3 dots at the top right corner and click on <strong>Custom repositories</strong></p>
 
@@ -1516,7 +1775,7 @@ function onClick(element) {
 }
 </script>
 
-<h2 id="header-setting-up-the-crownstone-integration">Setting up the Crownstone integration</h2>
+<h3 id="header-setting-up-the-crownstone-integration">Setting up the Crownstone integration</h3>
 
 <p><em>Step 1:</em> Go to Configuration -&gt; Integrations and click on <strong>+ Add Integration</strong>. Search for Crownstone in the list. If you cannot find it, make sure that the previous steps were done right.</p>
 
@@ -2016,7 +2275,7 @@ function onClick(element) {
                     </div>
 
                     <div class="col social-media-icons-container">
-                        <a href="https://discord.gg/zPhesU2CZv" target="_blank" class="footer-social-media-icons" style="text-align: center; color: lightgray; font-size: 2rem; margin: 0; padding: 0;"> <img src="/images/contact/discord-gray.svg" alt="discord-icon" style="min-width: 50px; width: 50%"> </a>
+                        <a href="https://discord.gg/zPhesU2CZv" target="_blank" class="footer-social-media-icons" style="text-align: center; color: lightgray; font-size: 2rem; margin: 0; padding: 0;"> <img src="/images/contact/discord-gray-new.svg" alt="discord-icon" style="min-width: 50px; width: 50%"> </a>
                     </div>
 
                     <div class="col social-media-icons-container">

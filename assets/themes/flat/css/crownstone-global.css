@@ -1240,6 +1240,59 @@ body .post-container b, strong {
 	font-size:12pt;
 }
 
+/* Date unit at the left side of each blog post */
+
+.date {
+	background: transparent url("/assets/themes/flat/images/calendar_background_orange.png") no-repeat;
+	display: block;
+	width: 60px;
+	height: 60px;
+	float: left;
+	margin: 15px 2px -40px -108px;
+	padding: 0 0 8px 0px;
+	border: 0;
+	text-transform: uppercase;
+	font-family: "Open Sans", sans-serif;
+}
+
+.date_month {
+	display: block;
+	font-size: 15px;
+	font-weight: bold;
+	margin-top: -8px;
+	text-align: center;
+	color: white;
+}
+
+.date_day {
+	display: block;
+	font-size: 28px;
+	font-weight: bold;
+	margin-top: -8px;
+	text-align: center;
+	color: #282828;
+}
+
+.date_year {
+	display: block;
+	font-size: 10px;
+	margin-top: -8px;
+	text-align: center;
+	color: white;
+}
+
+/* Author at the right side of each blog post */
+
+.author-block {
+	font-family: 'LatoLight';
+	display: block;
+	margin: 20px 0px 0px 20px;
+	float: right;
+	border: 0;
+	text-transform: uppercase;
+	height: auto;
+}
+
 /* Align right */
 .float-right {
 	float: right;
