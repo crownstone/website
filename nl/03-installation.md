@@ -66,7 +66,7 @@ De app zal je door het registratieproces heenleiden en maakt het mogelijk de Cro
 
 {% include snippets/slogan-begin background='blue' %}
 
-It's time to install your Crownstones!
+Installatie van Crownstones
 
 {% include snippets/slogan-end %}
 
@@ -75,8 +75,9 @@ It's time to install your Crownstones!
 
 {% include snippets/two-cols-centered-text-img-begin background='blue' extra-style='padding: 3rem 0 !important' %}
 
-Crownstones can be placed behind single or double **power outlets** as well as behind your **ceiling lights**. For detailed installation instructions, check the links below. 
- 
+Crownstones kunnen worden geplaatst achter enkele of dubbele **stopcontacten** en achter **plafondverlichting**.
+Voor gedetailleerde installatieinstructies, klik op een van de plaatjes hieronder.
+
 {% include snippets/two-cols-centered-text-img-end background='blue' img='/images/install_cs.png' img-alt='install_crownstone'%}
 
 {% include snippets/full-width-container-end %}
@@ -85,7 +86,7 @@ Crownstones can be placed behind single or double **power outlets** as well as b
 
 {% include snippets/slogan-begin %}
 
-Installation options
+Opties voor installatie
 
 {% include snippets/slogan-end %}
 
@@ -147,7 +148,7 @@ Installatie achter een dimmer
 
 {% include snippets/two-cols-centered-text-img-begin text-alignment='right' extra-style='padding: 3.5rem 0 !important' %}
 
-Installeer de Crownstone **niet** tussen een fysieke dimmer en een lichtpunt. Dit stoort de voeding van de Crownstone zelf. Het zal de Crownstone dimmen in plaats van he licht en dat is niet de bedoeling.
+Installeer de Crownstone **niet** tussen een fysieke dimmer en een lichtpunt. Dit stoort de voeding van de Crownstone zelf. Het zal de Crownstone dimmen in plaats van het licht en dat is niet de bedoeling.
 Installatie met een dimmer wordt **niet** ondersteund en kan de levensduur van het product sterk verkorten.
 
 {% include snippets/two-cols-centered-text-img-end img='/images/no-dimmers.jpg' img-alt='no-dimmers' %}

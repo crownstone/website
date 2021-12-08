@@ -58,7 +58,6 @@ Integratie met Home Assistant
 
 {% include snippets/slogan-end %}
 
-
 {% include snippets/full-width-container-begin%}
 
 {% include snippets/two-cols-centered-text-img-begin text-alignment='right' %}
@@ -73,7 +72,7 @@ De integratie van Crownstone met Home Assistant maakt het mogelijk om jouw slimm
 
 {% include snippets/two-cols-centered-text-img-begin %}
 
-#### **Je kan triggers instellen voor verschillende gebruikers.**
+#### Stel triggers in voor meerdere gebruikers.
 
 <p>&nbsp;</p>
 
@@ -88,12 +87,12 @@ De integratie van Crownstone met Home Assistant maakt het mogelijk om jouw slimm
 
 {% include snippets/two-cols-centered-text-img-begin text-alignment='right' %}
 
-#### **Je kan triggers instellen voor een specifieke gebruiker.**
+#### Stel triggers in voor een specifieke gebruiker.
 
 <p>&nbsp;</p>
 
-"Als **Richard** de woonkamer binnenkomt, zet dan de muziek aan."
- 
+"Zet de muziek aan zodra **Richard** de woonkamer binnenkomt"
+
 {% include snippets/two-cols-centered-text-img-end img='/images/entering-room.jpg' img-alt='entering-room' %}
 
 {% include snippets/full-width-container-end %}
@@ -106,7 +105,7 @@ De integratie van Crownstone met Home Assistant maakt het mogelijk om jouw slimm
 
 ## Apple Watch werkt ook!
 
-Je kan je Apple Watch gebruiken om je Crownstones te **bedienen**. Je kan ze schakelen of dimmen vanaf het horloge.
+Je kan je Apple Watch gebruiken om je Crownstones te **bedienen**. Je kan ze schakelen of dimmen vanaf de smartwatch.
 
 
 {% include snippets/container-image-relative-end %}
@@ -133,7 +132,7 @@ Door de integratie met Google Home kan je met **stem commando's** Crownstones be
 
 {% include snippets/two-cols-centered-text-img-begin %}
 
-#### **Als je zin hebt in een goed boek...**
+#### Als je zin hebt in een goed boek...
 
 <p>&nbsp;</p>
 
@@ -148,11 +147,11 @@ Door de integratie met Google Home kan je met **stem commando's** Crownstones be
 
 {% include snippets/two-cols-centered-text-img-begin text-alignment='right' %}
 
-#### **Je kan Crownstones gebruiken in Google routines**
+#### Je kan Crownstones gebruiken in Google routines
 
 <p>&nbsp;</p>
 
-"Ok Google, Movie Time!"
+"Oké Google, tijd voor een film!"
 
 {% include snippets/two-cols-centered-text-img-end img='/images/google-integration-2.jpg' img-alt='ga-2' %}
 
@@ -160,16 +159,16 @@ Door de integratie met Google Home kan je met **stem commando's** Crownstones be
 
 {% include snippets/centered-text-large text='Leer meer over de integratie met Google Home' link='/integrations/google-home/' %}
 
-
-
 {% include snippets/container-image-relative-with-subimg-begin img-bg='/images/homey_scene' bg-position='center' img-sub='/images/homey-logo.png' img-sub-alt='homey-logo' %}
-Crownstone talks with **Homey**. This will allow you to make other devices react to your presence.
+
+Crowstone werkt met **Homey**. Dit betekent dat ook andere apparaten dan Crownstone op jouw aanwezigheid kunnen gaan reageren.
+
 {% include snippets/container-image-relative-with-subimg-end %}
 
 
 {% include snippets/slogan-begin %}
 
-Crownstone app for Homey
+Crownstone Homey app
 
 {% include snippets/slogan-end %}
 
@@ -178,7 +177,7 @@ Crownstone app for Homey
 
 {% include snippets/two-cols-centered-text-img-begin text-alignment='right' %}
 
-Now in your **Homey flows** you can have not only Crownstones reacting to your **presence**, but also other devices coupled to your Homey. For example, philips hue lights, tado thermostat, etc.
+In de **Homey flows** kunnen nu niet alleen Crownstones reageren op jouw **aanwezigheid**, maar ook andere apparaten die aan je Homey zijn gekoppeld. Bijvoorbeeld, Philips Hue lampen, een Tado thermostaat, enzovoorts.
  
 {% include snippets/two-cols-centered-text-img-end img='/images/homey-talks-with.png' img-alt='talks-with-homey' %}
 
@@ -189,33 +188,32 @@ Now in your **Homey flows** you can have not only Crownstones reacting to your *
 
 {% include snippets/two-cols-centered-text-img-begin %}
 
-#### **Activate a scene with your presence...**
+#### Activeer een scène met je aanwezigheid.
 
 <p>&nbsp;</p>
 
-When someone enters the living room and it is dark outside, activate the philips hue sunset scene!
- 
+Zittend op de bank in de woonkamer, activeer automatisch de Philips Hue "zonsondergangsscène" zodra het donker wordt.
+
 {% include snippets/two-cols-centered-text-img-end img='/images/homey-scenario-1.jpg' img-alt='homey-scenario-1' %}
 
 {% include snippets/full-width-container-end %}
-
 
 {% include snippets/full-width-container-begin%}
 
 {% include snippets/two-cols-centered-text-img-begin text-alignment='right'%}
 
-#### **Let your fan automatically turn on if...**
+#### Zet automatisch een ventilator aan...
 
 <p>&nbsp;</p>
 
-You enter a room and the temperature is above a predefined threshold
- 
+Wanneer je je in een steeds warmer wordende kamer bevindt en de temperatuur een bepaald niveau overschrijdt.
+
 {% include snippets/two-cols-centered-text-img-end img='/images/homey-scenario-2.jpg' img-alt='homey-scenario-2' %}
 
 {% include snippets/full-width-container-end %}
 
 
-{% include snippets/centered-text-large text='Learn more about the Crownstone app for Homey' link='/integrations/homey/' %}
+{% include snippets/centered-text-large text='Leer meer over de Crownstone Homey app' link='/integrations/homey/' %}
 
 
 
