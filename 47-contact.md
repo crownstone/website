@@ -75,7 +75,7 @@ For general questions or more in-depth discussions, use Discord!
 
 {% include snippets/contact-option-begin img="/images/contact/financial.svg" img-alt="finance-icon" title="Financial contact" %}
 
-For questions regarding offers, quotes, invoices, etc. you can send an email to
+For questions about quotes, invoices, etc. you can email us at
 
 {% assign email = ".rocks, stone, crown, @, ling, bil" | split: ", "  %}
 {% include snippets/contact-option-end email=email subject="Financial Inquiry"%}

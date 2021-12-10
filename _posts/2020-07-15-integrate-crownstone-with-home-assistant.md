@@ -4,7 +4,7 @@ title       : "Integrate Crownstone with Home Assistant"
 description : "Crownstone brings the functionality of switch, dimming, and persence information using Crownstones to Home Assistant"
 tags        : [home assistant, integration]
 author      : ricardosteijn
-picture     : images/banners/banner-home-assistant.png
+picture     : images/banners/banner-home-assistant-logo.jpg
 excerpt     : "Home assistant is an open-source platform for smart homes. Crownstone is now integrated with Home Assistant so that
 presence information can be used to trigger all kind of smart home actions with other hardware integrated with Home Assistant."
 ---

@@ -173,6 +173,19 @@ It is important not to place the Crownstones too far from each other. They have 
 {% include snippets/faq-end %}
 
 
+
+{% include snippets/faq-begin ref="faqCopyTo" question="How can I set the same behaviour to many Crownstones?" %}
+
+There is a very easy way in which you can set the same behaviour to many Crownstones. To do so, you need to go to the Crownstone's behaviour you want to copy and click on **Edit**. 
+Then you click on the **Copy to...** option. On the next screen you can select the Crownstones that you want to have the same behaviour. In this way you don't have to set manually the same behaviour to each Crownstone.
+Consider that the previous behaviour of those Crownstones will be overwritten by the new one. 
+                                
+![Crownstone Copy To 1](/images/faq-app/copy_to_1.jpg){: style="width:23%"}
+![Crownstone Copy To 2](/images/faq-app/copy_to_2.jpg){: style="width:23%"}
+
+{% include snippets/faq-end %}
+
+
 {% include snippets/faq-group-end %}
 
 
