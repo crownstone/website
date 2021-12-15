@@ -511,6 +511,11 @@ div.faq-topics{
 	margin: 1.5rem 1.5rem;
 }
 
+div.icon-container{
+	margin: 1.5rem 1.5rem;
+	padding: 1rem;
+}
+
 a.title-segments, p.title-segments{
 	text-align: left;
 	font-family: Lato, sans-serif;

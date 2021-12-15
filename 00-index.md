@@ -52,7 +52,7 @@ segments:
 
 {% include JB/setup %}
 
-{% include snippets/orange-top-bar text='New: <a href="https://subscribe.crownstone.rocks/welcome?dest=smartscenarios&ref=crownstone.rocks&loc=banner">Subscriptions</a>! Our <a href="https://shop.crownstone.rocks">shop</a> deliveries are sent weekly.' %}
+{% include snippets/orange-top-bar text='New: <a href="/press">Press release</a>! Our <a href="https://shop.crownstone.rocks">shop</a> deliveries are sent weekly.' %}
 
 {% include snippets/home-banner %}
 

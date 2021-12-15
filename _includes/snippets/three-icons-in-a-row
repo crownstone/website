@@ -1,0 +1,39 @@
+{% if include.id %}
+  {% assign icons = page.[include.id] %}
+{% else %}
+  {% assign icons = page.icons %}
+{% endif %}
+
+<div class="container-fluid">
+    <div class="row justify-content-center segments-padding m-0">
+        <div class="col-md-10">
+            <div class="row justify-content-center mb-3">
+
+                {% for icon in icons %}
+
+                <div class="col-md-3 icon-container" onclick="location.href='{{ icon.link }}'" style="cursor: pointer">
+                    <img src="{{ icon.image }}" alt="{{ icon.image-alt }}" width="100%">
+
+                    <div class="row justify-content-center">
+                        <a class="title-segments" href= "{{ icon.link }}" style="text-align: center; font-family: Lato, sans-serif; font-style: normal !important; font-size: 1rem !important; color: gray !important; padding: 0; margin: 0 0 0.5rem !important;">
+                            {{ icon.title }}
+                        </a>
+                    </div>
+                </div>
+
+                {% endfor %}
+
+                {% assign cntr = cntr | plus: 1 %}
+
+                {% assign three_items = cntr | modulo: 3 %}
+
+                {% if three_items == 0 %}
+
+                <div class="w-100"></div>
+
+                {% endif %}
+
+            </div>
+        </div>
+    </div>
+</div>
