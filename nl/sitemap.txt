@@ -43,6 +43,7 @@ https://crownstone.rocks/community/
 https://crownstone.rocks/app-help/
 https://crownstone.rocks/signup-thank-you/
 https://crownstone.rocks/indoor-localization/
+https://crownstone.rocks/press/
 https://crownstone.rocks/presskit/
 https://crownstone.rocks/updates
 https://crownstone.rocks/email-updates/
