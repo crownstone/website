@@ -58,7 +58,7 @@ body small a {
 
 h1, h2, .h1, .h2 {
 	font-family: 'Lato';
-	line-height: 1.5em; 
+	line-height: 1.5em;
 }
 
 h1, h2, h3, .h1, .h2, .h3 {
@@ -69,6 +69,13 @@ h1, h2, h3, .h1, .h2, .h3 {
 
 h3, h4, h5, h6, .h3, .h4, .h5, .h6 {
 	font-family: 'LatoLight';
+}
+
+/*
+ * Make headers in two-column format slightly smaller (but the text is kept at the same size).
+ */
+.cs-two-cols h1, h2, h3, h4, h5 {
+	font-size: 1.5rem;
 }
 
 p.subtitle-bold{

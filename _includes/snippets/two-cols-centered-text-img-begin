@@ -1,19 +1,17 @@
-{% if include.text-alignment and include.text-alignment == 'right' %}
-    {% if include.background and include.background == 'blue' %}
-    <div class="row justify-content-center align-items-center m-0 intra-padding flex-row-reverse blue-bg" style='{{ include.extra-style }}'>
-    {% else %}
-    <div class="row justify-content-center align-items-center m-0 intra-padding flex-row-reverse" style='{{ include.extra-style }}'>
-    {% endif %}
+{% if include.background and include.background == 'blue' %}
+    {% assign background-class = 'blue-bg' %}
+    {% assign text-class = 'white-text' %}
 {% else %}
-    {% if include.background and include.background == 'blue' %}
-    <div class="row justify-content-center align-items-center m-0 intra-padding blue-bg" style='{{ include.extra-style }}'>
-    {% else %}
-    <div class="row justify-content-center align-items-center m-0 intra-padding" style='{{ include.extra-style }}'>
-    {% endif %}
+    {% assign background-class = '' %}
+    {% assign text-class = 'blue-text' %}
 {% endif %}
 
-{% if include.background and include.background == 'blue' %}
-<div class="col-md-5 intra-padding description-small white-text" markdown="1" style='text-align: center;'>
+{% if include.text-alignment and include.text-alignment == 'right' %}
+    {% assign flex-row-alignment = 'flex-row-reverse' %}
 {% else %}
-<div class="col-md-5 intra-padding description-small blue-text" markdown="1" style='text-align: center;'>
+    {% assign flex-row-alignment = '' %}
 {% endif %}
+
+<div class="row justify-content-center align-items-center m-0 intra-padding {{ flex-row-alignment }} {{ background-class }}" style='{{ include.extra-style }}'>
+
+<div class="cs-two-cols col-md-5 intra-padding description-small {{ text-class }}" markdown="1" style='text-align: center;'>
