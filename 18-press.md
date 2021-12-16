@@ -2,11 +2,12 @@
 layout: page
 title: Press
 header: Pages
-description: "News bout Crownstone in the national and international press"
+description: "Read the newest press release of Crownstone and explore previous national and international press releases. Enjoy the reading!"
 group: [navigation-about-us-submenu]
 permalink: press/
 background-image: banner-press
 banner-caption: Press
+social-image: "images/hospital.jpg"
 international-press:
   - subtitle: "Home & Smart, 2018"
     slogan: "Crownstone Plugs für Indoor Localization und Building Automation"
