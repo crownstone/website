@@ -2,10 +2,11 @@
 layout: page
 title: Press
 header: Pages
-description: "Read the newest press release of Crownstone and explore previous national and international press releases. Enjoy the reading!"
+description: "News about Crownstone in the national and international press"
 group: [navigation-about-us-submenu]
 permalink: press/
 background-image: banner-press
+social-image: images/hospital.jpg
 banner-caption: Press
 social-image: "images/hospital.jpg"
 international-press:
@@ -21,7 +22,7 @@ international-press:
     slogan: "CES 2018: Tech Preview of the Show's Coolest New Products"
     image: "/images/cs-plug"
     link: "https://www.bbc.com/news/technology-42574569"
-  - subtitle: "ENIGE, 2017"
+  - subtitle: "ENGIE, 2017"
     slogan: "Crownstone: Plug-and-play indoor positioning"
     image: "/images/use-cases"
     link: "https://innovation.engie.com/en/news/news/smart-buildings/crownstone-plug-and-play-indoor-positioning/8237"
@@ -138,7 +139,7 @@ International press releases
 
 National press releases
 
-{% include snippets/slogan-end %} 
+{% include snippets/slogan-end %}
 
 
 {% include snippets/two-frames-in-a-row id='national-press'  %}
