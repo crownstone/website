@@ -8,6 +8,7 @@ permalink: press/
 background-image: banner-press
 social-image: images/hospital.jpg
 banner-caption: Press
+social-image: "images/hospital.jpg"
 international-press:
   - subtitle: "Home & Smart, 2018"
     slogan: "Crownstone Plugs für Indoor Localization und Building Automation"
