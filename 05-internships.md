@@ -60,8 +60,7 @@ We have several graduation projects available. If you graduate at our place you 
 
 Crownstones can not only operate as iBeacons, but also as scanning devices that can localize anything that sends out BLE messages, such as wearables (Apple Watch, Fitbit, Jawbone, but also special watches carried by people with dementia).
 
-{% include snippets/internship-end pdf-link="https://docs.google.com/document/d/1Hx9MgrsoVnLQxju43YvXe0w8ADPw_iBMtMdZqjW3dIw/export?format=pdf" %}
-
+{% include snippets/internship-end pdf-link="https://docs.google.com/document/d/1As9rY5-jWdyDmgVhuye1kmyxPMGYe_1rT4Cdgg-p_J0/export?format=pdf" %}
 
 {% include snippets/internship-begin img="/images/internships/machine.jpg" img-alt="deep-learning" title="Deep learning for Machines" %}
 
