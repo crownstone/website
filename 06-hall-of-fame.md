@@ -210,6 +210,29 @@ graduate-gallery:
     affiliation: " Utrecht University"
     linkedin: "freek-van-polen-08960719"
 intern-gallery:
+  - image: "danielvanderdrift.jpg"
+    name: "Daniel van der Drift"
+    affiliation: "Technische Informatica, Hogeschool Rotterdam"
+    report:
+      title: "Node-RED integration"
+  - image: "jaapsontrop.jpg"
+    name: "Jaap Sontrop"
+    affiliation: "Engineering and Applied Science, Hogeschool Rotterdam"
+    report:
+      title: "Smart switch and dimmer"
+  - image: "merijnplagge.jpg"
+    name: "Merijn Plagge"
+    affiliation: "Technische Informatica, Hogeschool Rotterdam"
+    report:
+      title: "Microapps"
+  - image: "jordyvanmaenen.jpg"
+    name: "Jordy van Maenen"
+    affiliation: "Engineering and Applied Science, Hogeschool Rotterdam"
+    report:
+      title: "Power monitoring"
+  - image: "ambervissers.jpg"
+    name: "Amber Vissers"
+    affiliation: "Human Technologies, Techniek College Rotterdam"
   - image: "martjankoedam.jpg"
     name: "Martjan Koedam"
     affiliation: "Technische Informatica, Hogeschool Rotterdam"

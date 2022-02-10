@@ -22,29 +22,16 @@ graduates-gallery:
     report:
       title: "In-network localization"
 intern-gallery:
-  - image: "danielvanderdrift.jpg"
-    name: "Daniel van der Drift"
-    affiliation: "Technische Informatica, Hogeschool Rotterdam"
-    report:
-      title: "Node-RED integration"
-  - image: "jaapsontrop.jpg"
-    name: "Jaap Sontrop"
+  - image: "iesverhage.jpg"
+    name: "Ies Verhage"
     affiliation: "Engineering and Applied Science, Hogeschool Rotterdam"
     report:
-      title: "Smart switch and dimmer"
-  - image: "merijnplagge.jpg"
-    name: "Merijn Plagge"
-    affiliation: "Technische Informatica, Hogeschool Rotterdam"
-    report:
-      title: "Microapps"
-  - image: "jordyvanmaenen.jpg"
-    name: "Jordy van Maenen"
+      title: "Power outlet tags"
+  - image: "irfaanbodha.jpg"
+    name: "Irfaan Bodha"
     affiliation: "Engineering and Applied Science, Hogeschool Rotterdam"
     report:
-      title: "Power monitoring"
-  - image: "ambervissers.jpg"
-    name: "Amber Vissers"
-    affiliation: "Human Technologies, Techniek College Rotterdam"
+      title: "Three-phase power monitoring"
 advisors-gallery:
   - image: "janpeterlarsen.png"
     name: "Jan Peter Larsen"

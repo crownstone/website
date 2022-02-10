@@ -117,7 +117,7 @@ Latest press release
 
 <p>&nbsp;</p>
 
-Crownstone and [Blyott](ww.blyott.com) announce today a new, top-notch, asset tracking solution for hospitals. The partnership combines the in-depth know-how of Blyott regarding healthcare organisations with the Crownstone state-of-the-art asset tracking hardware and software... [read more](https://drive.google.com/file/d/1NRKBQKv4Lrf2tt7H-3X6jYkIEoVGXzip/preview)
+Crownstone and [Blyott](https://www.blyott.com) announce today a new, top-notch, asset tracking solution for hospitals. The partnership combines the in-depth know-how of Blyott regarding healthcare organisations with the Crownstone state-of-the-art asset tracking hardware and software... [read more](https://drive.google.com/file/d/1NRKBQKv4Lrf2tt7H-3X6jYkIEoVGXzip/preview)
 
 {% include snippets/two-cols-text-img-end img='/images/hospital.jpg' img-alt='hospital' %}
 
