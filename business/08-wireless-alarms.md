@@ -9,14 +9,12 @@ permalink: business/wireless-alarms
 background-image: banner-wireless-alarms
 banner-caption: Wireless Alarms
 segments:
-    - slogan: Healthcare organisations
-      image: /images/wireless-alarms/healthcare_1
-    - slogan: "Integrators: Tech companies"
-      image: /images/wireless-alarms/integrators_1
-    - slogan: "OEMs: Nurse call systems"
-      image: /images/wireless-alarms/nurse_systems_1
-    - slogan: Business
-      image: /images/wireless-alarms/business
+  - slogan: Healthcare organisations
+    image: /images/wireless-alarms/healthcare_1
+  - slogan: "Integrators: Tech companies"
+    image: /images/wireless-alarms/integrators_1
+  - slogan: Business
+    image: /images/wireless-alarms/business
 applications:
   - title: Ring bell button
     description: A button placed next to a door to ring someone in the office. No wires are needed for installation.
@@ -80,12 +78,12 @@ Segments we can support
 {% include snippets/slogan-end %}
 
 
-{% include snippets/two-frames-in-a-row id='segments' no-link='true' no-arrow='true' background='blue' %}
+{% include snippets/three-frames-in-a-row id='segments' no-link='true' no-arrow='true' main-background='blue'%}
 
 
 {% include snippets/slogan-begin %}
 
-How can we help you?
+Wireless alarms for healthcare
 
 {% include snippets/slogan-end %}
 
@@ -111,7 +109,7 @@ For this solution we work together with our partner **[SAFE](https://www.safe-ap
 
 {% include snippets/two-cols-text-img-begin text-alignment='right' %}
 
-**Wireless alarm for integrators** 
+**Wireless alarms for integrators** 
 
 In this segment we work together with **healthcare tech** companies that develop alarm systems and who want to have Crownstone technology on top of their products. Crownstone integrates with **sensors** used in the healthcare sector by hospitals, nursing homes, home care, etc.
 
@@ -122,26 +120,13 @@ We at Crownstone have created a **wireless integration** with sensors from our p
 {% include snippets/full-width-container-end %}
 
 
-{% include snippets/full-width-container-begin%}
-
-{% include snippets/two-cols-text-img-begin%}
-
-**Wireless alarms for OEMs with nurse call systems** 
-
-Crownstone integrates with OEMs. Using our expertise in embedded development and analog electronics, we can **design electronics** and **develop firmware** for hardware. This enables OEMs to extend their nurse call systems with our functionality at the same time that these systems keep meeting the requirements of modern care services and which are subject to the standards **DIN 18040-1** and **DIN VDE 0834**. 
-
-{% include snippets/two-cols-text-img-end img='/images/wireless-alarms/nurse_systems_2.jpg' img-alt='OEMs with nurse systems' %}
-
-{% include snippets/full-width-container-end %}
-
-
 {% include snippets/margin %}
 
 
 
 {% include snippets/slogan-begin background='blue' %}
 
-Wireless signaling for business
+Wireless signaling for businesses
 
 {% include snippets/slogan-end %}
 

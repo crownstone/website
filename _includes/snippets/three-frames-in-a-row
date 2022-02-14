@@ -4,6 +4,12 @@
   {% assign options = page.options %}
 {% endif %}
 
+
+{% if include.main-background and include.main-background == 'blue' %}
+<div class="container-fluid blue-bg segments-padding">
+<div class="w-100" style="height: 3.5rem"> </div>
+{% endif %}
+
 <div class="row justify-content-center m-0">
 
      {% assign cntr = 0 %}
@@ -60,3 +66,8 @@
 
     {% endfor %}
 </div>
+
+{% if include.main-background and include.main-background == 'blue' %}
+<div class="w-100" style="height: 3.5rem"> </div>
+</div>
+{% endif %}
