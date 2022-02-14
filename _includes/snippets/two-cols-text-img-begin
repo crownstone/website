@@ -14,5 +14,8 @@
 
 <div class="row justify-content-center align-items-center m-0 intra-padding {{ flex-row-alignment }} {{ background-class }}" style='{{ include.extra-style }}'>
 
+{% if include.text-alignment and include.text-alignment == 'right' %}
+<div class="cs-two-cols col-md-5 intra-padding description-small {{ text-class }}" markdown="1" style='text-align: right;'>
+{% else %}
 <div class="cs-two-cols col-md-5 intra-padding description-small {{ text-class }}" markdown="1" style='text-align: left;'>
-
+{% endif %}
