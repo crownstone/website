@@ -32,9 +32,10 @@ https://crownstone.rocks/campaigns/cs-subscription/
 https://crownstone.rocks/hall-of-fame/
 https://crownstone.rocks/business/energy-monitoring
 https://crownstone.rocks/ethical-policy/
-https://crownstone.rocks/business/installation-by-crownstone
 https://crownstone.rocks/privacy-policy/
+https://crownstone.rocks/business/wireless-alarms
 https://crownstone.rocks/terms-of-service/
+https://crownstone.rocks/business/installation-by-crownstone
 https://crownstone.rocks/nieuw-huis/
 https://crownstone.rocks/forum/
 https://crownstone.rocks/search/

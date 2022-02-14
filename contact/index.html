@@ -281,6 +281,10 @@
      
     
      
+      
+     
+    
+     
     
      
       
@@ -669,6 +673,14 @@
      
     
      
+      
+     
+    
+     
+      
+       
+          <a class="dropdown-item inactive " href="/business/wireless-alarms" style="background-color: transparent;">Wireless Alarms</a>
+          
       
      
     
@@ -1121,6 +1133,10 @@
      
     
      
+      
+     
+    
+     
     
      
       
@@ -1492,29 +1508,26 @@ Send us an email
 
 
 <div class="col text-truncate col-bottom-aligned-child" style="margin: 0 !important; white-space: normal; text-align: center; font-family: Lato, sans-serif; font-style: normal !important; font-size: 1.1rem !important; color: #003e52 !important; padding: 1rem 1.5rem !important; width: 100%">
+
 <script type="text/javascript">
 	/*<![CDATA[*/
 	var a=new Array(".rocks", "stone", "crown", "@", "sk", "a");
+	<!-- Write in plain but obfuscated text -->
 	document.write("<span>");
 	for(i=a.length-1;i>=0;i--){
 		document.write(a[i])
 	}
 	document.write("</span> <br>");
+	<!-- Write as hyperlink -->
+	document.write("<a href='mailto:");
+	for(i=a.length-1;i>=0;i--) {
+		document.write(a[i])
+	}
+	document.write("?subject=General Inquiry' class='no-link-style'>");
+	document.write("<i class='el el-envelope no-link-style'></i></a>");
 	/*]]>*/
 </script>
 
-<script type="text/javascript">
-	/*<![CDATA[*/
-    var a=new Array(".rocks", "stone", "crown", "@", "sk", "a");
-    document.write("<a href='mailto:");
-    for(i=a.length-1;i>=0;i--) {
-        document.write(a[i])
-    }
-    document.write("?subject=General Inquiry' class='no-link-style'>");
-    document.write("<i class='el el-envelope no-link-style'></i></a>");
-    /*]]>*/
-</script>
-
 
 
 
@@ -1526,6 +1539,7 @@ Send us an email
 </div>
 
 </div>
+
 
 
 
@@ -1564,6 +1578,7 @@ Give us a call
 </div>
 
 </div>
+
 
 
 
@@ -1607,6 +1622,7 @@ Send a WhatsApp
 
 
 
+
 <div class="col-md-4 col-lg-3 forget-box col-bottom-aligned" id="discord-icon" style="padding: 0 !important">
 
 <img src="/images/contact/discord-new.svg" alt="discord-icon" style="width: 100%; padding: 1rem;" />
@@ -1644,6 +1660,7 @@ Crownstone Community <br />
 
 
 
+
 <div class="col-md-4 col-lg-3 forget-box col-bottom-aligned" id="finance-icon" style="padding: 0 !important">
 
 <img src="/images/contact/financial.svg" alt="finance-icon" style="width: 100%; padding: 1rem;" />
@@ -1660,29 +1677,26 @@ Financial contact
 
 
 <div class="col text-truncate col-bottom-aligned-child" style="margin: 0 !important; white-space: normal; text-align: center; font-family: Lato, sans-serif; font-style: normal !important; font-size: 1.1rem !important; color: #003e52 !important; padding: 1rem 1.5rem !important; width: 100%">
+
 <script type="text/javascript">
 	/*<![CDATA[*/
 	var a=new Array(".rocks", "stone", "crown", "@", "ling", "bil");
+	<!-- Write in plain but obfuscated text -->
 	document.write("<span>");
 	for(i=a.length-1;i>=0;i--){
 		document.write(a[i])
 	}
 	document.write("</span> <br>");
+	<!-- Write as hyperlink -->
+	document.write("<a href='mailto:");
+	for(i=a.length-1;i>=0;i--) {
+		document.write(a[i])
+	}
+	document.write("?subject=Financial Inquiry' class='no-link-style'>");
+	document.write("<i class='el el-envelope no-link-style'></i></a>");
 	/*]]>*/
 </script>
 
-<script type="text/javascript">
-	/*<![CDATA[*/
-    var a=new Array(".rocks", "stone", "crown", "@", "ling", "bil");
-    document.write("<a href='mailto:");
-    for(i=a.length-1;i>=0;i--) {
-        document.write(a[i])
-    }
-    document.write("?subject=Financial Inquiry' class='no-link-style'>");
-    document.write("<i class='el el-envelope no-link-style'></i></a>");
-    /*]]>*/
-</script>
-
 
 
 
@@ -1694,6 +1708,7 @@ Financial contact
 </div>
 
 </div>
+
 
 
 </div>
@@ -1724,7 +1739,8 @@ Where to find us?
 
 <div class="row justify-content-center align-items-center m-0 intra-padding flex-row-reverse " style="">
 
-<div class="cs-two-cols col-md-5 intra-padding description-small blue-text" style="text-align: left;">
+
+<div class="cs-two-cols col-md-5 intra-padding description-small blue-text" style="text-align: right;">
 
       <p>The address of our head quarters:</p>
 
