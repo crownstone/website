@@ -129,12 +129,12 @@ How to find our office?
 **Driving:** We like to refer you to the directions provided by [Google Maps](https://www.google.ie/maps/place/Crownstone/@51.9233355,4.4669633,17z/data=!3m1!4b1!4m5!3m4!1s0x47c434a44d95a89d:0xc1a444b798de16f9!8m2!3d51.9233355!4d4.469152).
 
 
-**Public Transportation:** The closest option for public transportation is Rotterdam central station. In there you have access to the train, bus, tram and metro. When facing the main entrance of the Rotterdam central station you will have at your left the "Groothandelsgebouw", where our office is located.
+**Public Transportation:** The closest option for public transportation is Rotterdam central station. There you have access to the train, bus, tram, and metro. When facing the main entrance of the Rotterdam central station you will have at your left the "Groothandelsgebouw", where our office is located.
 
 
 **Parking:** You can park in the Engels Parking, which is located at the back of the "Groothandelsgebouw". It can be accessed via the Conradstraat.
 
-**Within the building:** Access the “Groothandelsgebouw” through the main entrance. Here, follow the directions for “Kleinhandel”. This means, go to the first floor, and then go left to the entrance to Kleinhandel. Follow the corridor all the way to the back of the building (you will pass several doors). Almost at the back of the building you will see the Crownstone office at the right.
+**Within the building:** Access the “Groothandelsgebouw” through the main entrance. Here, follow the directions for “Kleinhandel”. This means, go to the first floor, and then go left to the entrance to Kleinhandel. Follow the corridor all the way to the back of the building (you will pass several doors). Almost at the back of the building, you will see the Crownstone office on the right.
 
 
 {% include snippets/specs spread="true" %}

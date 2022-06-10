@@ -41,7 +41,7 @@ Crownstone designs and manufactures **indoor positioning** hardware for truly sm
 
 {% include snippets/two-cols-text-img-begin background='blue'%}
 
-##### In the future the market of indoor positioning will be larger than that of outdoor positioning (GPS)
+##### In the future, the market for indoor positioning will be larger than that of outdoor positioning (GPS)
 
 <p>&nbsp;</p>
 
@@ -56,12 +56,12 @@ Our homes and offices will never be smart if they do not know where we are!
 
 {% include snippets/two-cols-text-img-begin text-alignment='right' background='blue'%}
 
-##### Every device will get a chip, in particular power outlets and lights
+##### Every device will get a chip, in particular, power outlets and lights
 
 <p>&nbsp;</p>
 
-There are many more power outlets than smartphones in the world.
-A smart home company which solves the smart outlet puzzle will provide billions of chips per year, will automate billions of human acts per year, and will save billions in energy costs per year.
+There are many more power outlets than smartphones in the world. 
+A smart home company that solves the smart outlet puzzle will provide billions of chips per year, will automate billions of human acts per year, and will save billions in energy costs per year
 
 {% include snippets/two-cols-text-img-end img='/images/investors/bet2.jpg' img-alt='bet2' %}
 
@@ -84,7 +84,7 @@ Current Investors
 
 Crownstone has as seed investor [Almende Investments](http://almende-investments.com), 
 did partake in the [Rockstart accelerator](http://www.rockstart.com/blog/rockstart-introduces-participants-of-2016-smart-energy-accelerator), 
-and launched as company on the 20th of May 2016.
+and launched as a company on the 20th of May 2016.
 
 {% include snippets/two-cols-text-img-end img='/images/investors/investors.png' img-alt='investors' %}
 
@@ -104,7 +104,7 @@ Our background
 
 {% include snippets/centered-text-home-begin background='light'%}
 
-There are some important insights that guided our decision making. We want to share a few of them with you.
+There are some important insights that guided our decision-making. We want to share a few of them with you.
 
 {% include snippets/centered-text-home-end %}
 
@@ -119,7 +119,7 @@ There are some important insights that guided our decision making. We want to sh
 
 <p>&nbsp;</p>
 
-Smart homes need a smart hub. Nowadays voice assistants (Alexa, Google Home, etc.) are conquering the market. These can be seen as "gateway devices" into the smart home market. The most popular **follow-up** products are smart lights, and smart **plugs**, and smart **outlets**!
+Smart homes need a smart hub. Nowadays voice assistants (Alexa, Google Home, etc.) are conquering the market. These can be seen as "gateway devices" into the smart home market. The most popular **follow-up** products are smart lights, smart **plugs**, and smart **outlets**!
 
 {% include snippets/two-cols-text-img-end img='/images/investors/why-now.jpg' img-alt='why now' %}
 
@@ -134,8 +134,8 @@ Smart homes need a smart hub. Nowadays voice assistants (Alexa, Google Home, etc
 
 <p>&nbsp;</p>
 
-Convential wireless protocols (ZigBee, ZWave) did fit the smart home application because they formed a network. Bluetooth did not. However, nowadays, **Bluetooth Mesh** lifts this severe limitation.
-With Bluetooth there are suddenly billions of Bluetooth devices that can be connected. Costs of Bluetooth chips is much lower. In addition, when choosing Bluetooth this means the ability to do **indoor positioning** of Bluetooth smartphones, wearables, and tags.
+Conventional wireless protocols (ZigBee, ZWave) did fit the smart home application because they formed a network. Bluetooth did not. However, nowadays, **Bluetooth Mesh** lifts this severe limitation. 
+With Bluetooth, there are suddenly billions of Bluetooth devices that can be connected. The costs of Bluetooth chips are much lower. In addition, when choosing Bluetooth this means the ability to do **indoor positioning** of Bluetooth smartphones, wearables, and tags.
 
 {% include snippets/two-cols-text-img-end img='/images/investors/why-ble.jpg' img-alt='why bluetooth' %}
 
@@ -173,7 +173,7 @@ Factors in our favor
 
 <p>&nbsp;</p>
 
-The Crownstone products can immediately contribute to insight in **energy use** and contribute to **energy savings**.
+The Crownstone products can immediately contribute to insight into **energy use** and contribute to **energy savings**.
  
 {% include snippets/two-cols-centered-text-img-end img='/images/investors/sustainable.png' img-alt='sustainable' %}
 
@@ -203,7 +203,7 @@ After communication and lights, we are starting the electrification process of h
 
 <p> </p>
 
-Regarding **indoor positioning** there is a shift from explaining what this can do to active requests from partners who already know that they want this type of solution.
+Regarding **indoor positioning**, there is a shift from explaining what this can do to active requests from partners who already know that they want this type of solution.
  
 {% include snippets/two-cols-centered-text-img-end img='/images/investors/proximity.png' img-alt='proximity' %}
 
@@ -220,7 +220,7 @@ Regarding **indoor positioning** there is a shift from explaining what this can 
 {% include snippets/row-begin %}
 {% include snippets/column-begin colsize="12" color-text="#003e52"%}
 
-There are competitors in this market, but indoor localization is a **unique angle**. The big companies, Google, Amazon, Apple, will invest on their hubs, but not on the peripheral devices. 
+There are competitors in this market, but indoor localization is a **unique angle**. The big companies, Google, Amazon, and Apple, will invest in their hubs, but not in the peripheral devices. 
 There are too many of those and it would diversify their hardware portfolio too much. They will build ecosystems rather than compete and will invest in selected **top brands**. We are building such a brand.
 
 {% include snippets/column-end %}
@@ -247,7 +247,7 @@ Contact
 {% include snippets/row-begin %}
 {% include snippets/column-begin colsize="12" color-text="#003e52"%}
 
-For more information on insight in our choices with respect to technology, sales, marketing, and execution, feel free to contact the CEO, Anne van Rossum.
+For more information on insight into our choices concerning technology, sales, marketing, and execution, feel free to contact the CEO, Anne van Rossum.
 
 {% assign email = ".rocks, stone, crown, @, ne, an" | split: ", "  %}
 <div class="email"><i class='el el-envelope'></i> email: {% include snippets/email subject="Crownstone Investments" email=email %}</div>

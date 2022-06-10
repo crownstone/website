@@ -41,7 +41,7 @@ Crownstone designs and manufactures **indoor positioning** hardware for truly sm
 
 {% include snippets/two-cols-text-img-begin background='blue'%}
 
-**In the future the market of indoor positioning will be larger than that of outdoor positioning (GPS)**
+**In the future, the market for indoor positioning will be larger than that for outdoor positioning (GPS)**
 
 <p>&nbsp;</p>
 
@@ -56,12 +56,12 @@ Our homes and offices will never be smart if they do not know where we are!
 
 {% include snippets/two-cols-text-img-begin text-alignment='right' background='blue'%}
 
-**Every device will get a chip, in particular power outlets and lights**
+**Every device will get a chip, in particular, power outlets and lights**
 
 <p>&nbsp;</p>
 
 There are many more power outlets than smartphones in the world.
-A smart home company which solves the smart outlet puzzle will provide billions of chips per year, will automate billions of human acts per year, and will save billions in energy costs per year.
+A smart home company that solves the smart outlet puzzle will provide billions of chips per year, will automate billions of human acts per year, and will save billions in energy costs per year.
 
 {% include snippets/two-cols-text-img-end img='/images/bet2.jpg' img-alt='bet2' %}
 
@@ -136,7 +136,7 @@ Our background
 
 Crownstone has been originally developed by DoBots, has as seed investor [Almende Investments](http://almende-investments.com), 
 is part of the [Rockstart accelerator](http://www.rockstart.com/blog/rockstart-introduces-participants-of-2016-smart-energy-accelerator), 
-and launched as company on the 20th of May 2016.
+and launched as a company on the 20th of May 2016.
 
 {% include snippets/two-cols-text-img-end img='/images/origins.png' img-alt='origins' %}
 
@@ -145,7 +145,7 @@ and launched as company on the 20th of May 2016.
 {% include snippets/column-begin colsize="12" %}
 
 We have a very transparent manner of operation. A lot of information about us can be found online, such as the [Kickstarter](https://www.kickstarter.com/projects/dobots/crownstone) 
-where we raised over 70.000 euros for the Crownstones, our [blog]({{ BASE_PATH }}/blog), where we give you a lot of insight into our projects, and our [github repositories](https://github.com/crownstone).
+where we raised over 70.000 euros for the Crownstones, our [blog]({{ BASE_PATH }}/blog), where we give you a lot of insight into our projects, and our [Github repositories](https://github.com/crownstone).
 
 {% include snippets/column-end %}
 {% include snippets/row-end %}

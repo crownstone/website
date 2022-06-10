@@ -61,7 +61,7 @@ Bluetooth Asset Tracking
 
 <p>&nbsp;</p>  
 
-You can use off-the-shelf Bluetooth tags attached to your assets and the Crownstones communicate over **Bluetooth mesh** the location of those tags towards a gateway. Subsequently, we work together with partners or customers to **integrate** this asset tracking information in your system or cloud.
+You can use off-the-shelf Bluetooth tags attached to your assets and the Crownstones communicate over **Bluetooth mesh** the location of those tags towards a gateway. Subsequently, we work together with partners or customers to **integrate** this asset tracking information into your system or cloud.
 
 {% include snippets/two-cols-text-img-end img='/images/asset-tracking/cs-bluetooth.png' img-alt='cs bluetooth' %}
 
@@ -123,20 +123,20 @@ How it works
 
 {% include snippets/how-it-works-begin img="/images/asset-tracking/ble-tag.png" img-alt="bluetooth tag" title="Bluetooth tags" %}
 
-Bluetooth Low Energy tags are attached to **high value assets**. For example: wheelchairs, IV pumps in hospitals, and other devices.
+Bluetooth Low Energy tags are attached to **high-value assets**. For example, wheelchairs, IV pumps in hospitals, and other devices.
 
 {% include snippets/how-it-works-end %}
 
 
 {% include snippets/how-it-works-begin img="/images/asset-tracking/built-ins.png" img-alt="Crownstones" title="Crownstones" %}
 
-Crownstones are configured with mesh **security keys** and a **filter** which defines which assets have to be tracked.
+Crownstones are configured with mesh **security keys** and a **filter** that defines which assets have to be tracked.
 
 {% include snippets/how-it-works-end %}
 
 {% include snippets/how-it-works-begin img="/images/asset-tracking/hub.png" img-alt="Crownstone hub" title="A Gateway" %}
 
-A hub is configured to obtain the encrypted the data from the Crownstones and to send this data **upstream** to the cloud.
+A hub is configured to obtain the encrypted data from the Crownstones and to send this data **upstream** to the cloud.
 
 {% include snippets/how-it-works-end %}
 
@@ -177,8 +177,8 @@ Support
 
 {% include snippets/centered-text-home-begin background='light'%}
 
-We can deliver additional support such as **configuration** within your backend or by providing a **custom uplink** towards your backend on a case by case basis.
-We can also provide you with a service level agreement for your application which defines monitoring services for our hardware or our services, include updates of the Crownstone hub software, or implement other application demands.
+We can deliver additional support such as **configuration** within your backend or by providing a **custom uplink** towards your backend on a case-by-case basis.
+We can also provide you with a service level agreement for your application which defines monitoring services for our hardware or our services, includes updates of the Crownstone hub software, or implement other application demands.
 
 {% include snippets/centered-text-home-end %}
 

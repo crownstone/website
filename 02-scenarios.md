@@ -9,7 +9,7 @@ children-disable: [crownstone, autopilot]
 background-image: banner-scenarios
 banner-caption: Scenarios
 coming-soon:
-    - slogan: Wake up light
+    - slogan: Wake-up light
       image: /images/wakeup
       link: /will-be-up-soon/
     - slogan: Energy usage overview
@@ -41,7 +41,7 @@ We like you to **save** time rather than **spend** time on your smart home! Here
 
 ## Sunset
 
-The sunset scene turns on the lights for you when it is getting dark. Of course it does only turn on the lights based on your **presence**!
+The sunset scene turns on the lights for you when it is getting dark. Of course, it does only turn on the lights based on your **presence**!
 
 {% include snippets/container-image-relative-end %}
 
@@ -67,7 +67,7 @@ Turn off outlets when **you**, the adult, are not around! Sure, you won't forget
 
 ## Nighttime bathroom
 
-Your **wall switch** will **dim** the lights in the night. This is a nice combination of our switchcraft functionality with so-called twilight behaviour.
+Your **wall switch** will **dim** the lights at night. This is a nice combination of our switchcraft functionality with so-called twilight behaviour.
 
 {% include snippets/container-image-relative-end %}
 
@@ -93,7 +93,7 @@ Turn on your Christmas tree lights when you are in the living room! You can set 
 
 ## Bedtime!
 
-Trigger a **go to bed** time for your kids by switching the television off after their favorite program. Secretly, we use this for ourselves as well... Ceiling lights turn off at twelve o'clock; time to go to bed!
+Trigger a **go to bed** time for your kids by switching the television off after their favorite program. Secretly, we use this for ourselves as well... Ceiling lights turn off at noon; time to go to bed!
 
 {% include snippets/container-image-relative-end %}
 
@@ -107,7 +107,7 @@ Coming soon!
 
 {% include snippets/centered-text-home-begin background='light'%}
 
-We're constantly adding more functions to the Crownstones so they become **smarter** over time! Coming soon: the Crownstone as a **wake up light**. Use your normal ceiling light to simulate the sunrise in the morning!
+We're constantly adding more functions to the Crownstones so they become **smarter** over time! Coming soon: the Crownstone as a **wake-up light**. Use your normal ceiling light to simulate the sunrise in the morning!
 
 {% include snippets/centered-text-home-end %}
 

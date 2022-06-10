@@ -57,7 +57,7 @@ Benefits of home automation
 
 <p>&nbsp;</p>
 
-Smart home technology is a relevant factor to buy a home by **81%** of smart devices owners.
+Smart home technology is a relevant factor to buy a home by **81%** of smart device owners.
  
 {% include snippets/two-cols-centered-text-img-end img='/images/relations.png' img-alt='buyers' %}
 
@@ -72,7 +72,7 @@ Smart home technology is a relevant factor to buy a home by **81%** of smart dev
 
 <p>&nbsp;</p>
 
-According to the National Association of Realtors, the price of a property can be boosted up by **5%**.
+According to the National Association of Realtors, the price of a property can be boosted by **5%**.
  
 {% include snippets/two-cols-centered-text-img-end img='/images/prices.png' img-alt='prices' %}
 
@@ -87,7 +87,7 @@ According to the National Association of Realtors, the price of a property can b
 
 <p>&nbsp;</p>
 
-Homes with smart tech not only increase their value, but also sell **33%** faster than homes without according to real estate agents.
+Homes with smart tech not only increase their value but also sell **33%** faster than homes without according to real estate agents.
  
 {% include snippets/two-cols-centered-text-img-end img='/images/faster.png' img-alt='faster' %}
 
@@ -102,7 +102,7 @@ Homes with smart tech not only increase their value, but also sell **33%** faste
 
 <p>&nbsp;</p>
 
-Smart home technology makes a property more sustainable, as it becomes more energy efficient, which allows buyers to obtain more **attractive mortgages**.
+Smart home technology makes a property more sustainable, as it becomes more energy-efficient, which allows buyers to obtain more **attractive mortgages**.
  
 {% include snippets/two-cols-centered-text-img-end img='/images/sustainable.png' img-alt='sustainable' %}
 
@@ -142,7 +142,7 @@ Why buyers want to have a smart home?
 
 <p>&nbsp;</p>
 
-For millennials, technology plays an important role in their lives. In the first quarter of 2019, **43.8%** of all homes sold in the Netherlands were bought by people under age 34. 
+For millennials, technology plays an important role in their lives. In the first quarter of 2019, **43.8%** of all homes sold in the Netherlands were bought by people under the age 34. 
  
 {% include snippets/two-cols-centered-text-img-end img='/images/next_generation.png' img-alt='next_generation' %}
 
@@ -172,7 +172,7 @@ Smart home technology helps homeowners be more energy efficient by turning on de
 
 <p>&nbsp;</p>
 
-A smart home is a milestone for convenient living. It gives users more me to spend with their loved ones or on their hobbies. **81%** of home buyers say they'd rather buy a home with smart home products already installed.
+A smart home is a milestone for convenient living. It gives users more time to spend with their loved ones or on their hobbies. **81%** of home buyers say they'd rather buy a home with smart home products already installed.
  
 {% include snippets/two-cols-centered-text-img-end img='/images/convenience.png' img-alt='convenience' %}
 

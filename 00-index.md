@@ -78,7 +78,7 @@ Your home sets your lights automatically at **your** desired level, so you never
 
 ## Welcome Home!
 
-Crownstone lets your home react to you. Lamps, ceiling fans, and space heaters can detect your presence through your smartphone and turn on automatically!
+Crownstone lets your home react to you. Lamps, ceiling fans, and space heaters can detect your presence through your smartphone and be turned on automatically!
 
 {% include snippets/container-image-relative-end %}
 
@@ -92,7 +92,7 @@ Make any light smart
 
 {% include snippets/centered-text-home-begin background='dark' %}
 
-Crownstone modules can be placed behind outlets and **ceiling lights**! Not only can the light be of any shape or form, the light switch will still work with our switchcraft! The Crownstone modules use the presence of your smartphone to figure out whether you're in the room. That's how it makes your lights truly smart!
+Crownstone modules can be placed behind outlets and **ceiling lights**! Not only can the light be of any shape or form, but the light switch will also still work with our switchcraft! The Crownstone modules use the presence of your smartphone to figure out whether you’re in the room. That’s how it makes your lights truly smart!
 
 {% include snippets/centered-text-home-end %}
 

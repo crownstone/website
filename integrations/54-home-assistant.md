@@ -12,7 +12,7 @@ permalink        : integrations/home-assistant/
 
 # Home Assistant
 
-Home Assistant is an open source platform which lets you integrate smart home devices of any kind!
+Home Assistant is an open-source platform which lets you integrate smart home devices of any kind!
 
 Home Assistant now works with Crownstone. Switching and dimming your Crownstones, getting presence updates, it's all possible in your Home Assistant. Do you already have Philips Hue lights or Fibaro switches? No problem! Home Assistant lets you use Crownstone's **unique presence detection** on room level to create automations with any other device in Home Assistant!
 

@@ -17,15 +17,15 @@ segments:
     image: /images/wireless-alarms/business
 applications:
   - title: Ring bell button
-    description: A button placed next to a door to ring someone in the office. No wires needed.
+    description: A button is placed next to a door to ring someone in the office. No wires are needed.
     image: /images/wireless-alarms/button_1.svg
     image-alt: ring bell button
   - title: Fire alarm button
-    description: A button placed next to a fire alarm for a call to BHV personnel.
+    description: A button is placed next to a fire alarm for a call to Emergency Response personnel.
     image: /images/wireless-alarms/button_2.svg
     image-alt: fire alarm button
   - title: Indicator button
-    description: A button placed next to a machine to indicate if something is wrong or  that an action needs to be carried out.
+    description: A button is placed next to a machine to indicate if something is wrong or if an action needs to be carried out.
     image: /images/wireless-alarms/button_3.svg
     image-alt: indicator button
   - title: Customer satisfaction button
@@ -33,7 +33,7 @@ applications:
     image: /images/wireless-alarms/button_4.svg
     image-alt: customer satisfaction button
   - title: Occupation button
-    description: A button placed in a meeting room to reserve or cancel it.
+    description: A button is placed in a meeting room to reserve or cancel it.
     image: /images/wireless-alarms/button_5.svg
     image-alt: occupation button
   - title: Customized button
@@ -96,7 +96,7 @@ Personnel in the mental care sector requires a method to send an alarm when a co
 
 This works at the patient's home and outside. However, a mental care organization is a multi-storey building where GPS is not sufficient. The exact location can in this case be pinpointed by using Crownstone's **indoor localization** feature.
 
-Personnel can carry the same emergency button, and in this case the Crownstone network picks up the alarm (rather than the smartphone) and sends it through. We work together with our partner [SAFE](https://www.safe-app.nl/indoor-lokalisatie/) to make the alarm system seamless in its use by any mental care professional.
+Personnel can carry the same emergency button, and in this case, the Crownstone network picks up the alarm (rather than the smartphone) and sends it through. We work together with our partner [SAFE](https://www.safe-app.nl/indoor-lokalisatie/) to make the alarm system seamless in its use by any mental care professional.
 
 {% include snippets/two-cols-text-img-end img='/images/wireless-alarms/healthcare_2.jpg' img-alt='health care SAFE' %}
 
@@ -105,15 +105,15 @@ Personnel can carry the same emergency button, and in this case the Crownstone n
 
 {% include snippets/full-width-container-begin %}
 
-{% include snippets/two-cols-text-img-begin text-alignment='left' %}
+{% include snippets/two-cols-text-img-begin text-alignment='right' %}
 
 # Wireless alarms for elderly care
 
-In the elderly care sector there are sensors with respect to movement, incontinence, unrest (troubled sounds), that allow personnel to keep an eye on the inhabitants of their nursing home.
+In the elderly care sector, there are sensors concerning movement, incontinence, and unrest (troubled sounds), that allow personnel to keep an eye on the inhabitants of their nursing home.
 
-Technology in this sector can benefit from the fine-grained positioning information from Crownstone. In situations where the elderly are willing to have a wearable, which can look like beautiful jewelry, it is easy to detecting wandering.
+Technology in this sector can benefit from the fine-grained positioning information from Crownstone. In situations where the elderly are willing to have a wearable, which can look like beautiful jewelry, it is easy to detect wandering.
 
-Moreover, Crownstone developed a **Crownstone-Vahlkamp** bridge to integrate the sensors that [Vahlkamp](https://vahlkamp.nl/en/) brings to the market. This is not only of interest to elderly care organisations, but also for people who want to have a solution that might work at home. If you're interested in **wireless integrations** (like this one on the so-called *868.2 MHz social alarm band*) for your technology, contact us!
+Moreover, Crownstone developed a **Crownstone-Vahlkamp** bridge to integrate the sensors that [Vahlkamp](https://vahlkamp.nl/en/) brings to the market. This is not only of interest to elderly care organisations, but also to people who want to have a solution that might work at home. If you're interested in **wireless integrations** (like this one on the so-called *868.2 MHz social alarm band*) for your technology, contact us!
 
 {% include snippets/two-cols-text-img-end img='/images/wireless-alarms/integrators_2.jpg' img-alt='sensors Vahlkamp' %}
 
@@ -135,7 +135,7 @@ Wireless signals for your business
 
 {% include snippets/centered-text-home-begin background='dark'%}
 
-Alarm buttons can be seen as a button that emit a particular signal. This can serve a different purpose than in the care sector. Some examples of **business applications**.
+Alarm buttons can be seen as a button that emits a particular signal. This can serve a different purpose than in the care sector. Some examples of **business applications**.
 
 {% include snippets/centered-text-home-end %}
 

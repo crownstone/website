@@ -13,7 +13,7 @@ permalink        : integrations/homey/
 
 # Homey
 
-With the Crownstone app for Homey you can have not only Crownstones reacting to **your presence**, but also other devices coupled to your Homey. 
+With the Crownstone app for Homey, you can have not only Crownstones reacting to **your presence** but also other devices coupled to your Homey. 
 This is possible when using Crownstone within your **Homey flows**. For example, now both your Crownstones and your Philips Hue lights can be switched on when you are in the living room and it is getting dark!
 
 ## Getting started
@@ -53,7 +53,7 @@ Let's make a pair of flows where Crownstones are being included.
 With this flow you can make your **Philips hue** sunset scene to get activate only when someone is present in a room! 
 
 1. The **When card** will be a Date & time card **The sun sets**.
-2. The **And card** will be a Crownstone card of **who is present where**. In this case we want to activate the scene when anybody is present in the room.
+2. The **And card** will be a Crownstone card of **who is present where**. In this case, we want to activate the scene when anybody is present in the room.
 3. The **Then card** will be a Philips hue card of **Activate a scene**. Choose your favorite scene for the sunset!
 
     ![Flow2]({{ site.url }}/attachments/homey/flow2.png){: style="width:75%"}

@@ -31,7 +31,7 @@ Come join us!
 
 {% include snippets/two-cols-text-img-begin%}
 
-We have several **positions available!** We’re a no-nonsense team (no long story about how great we are) and you’ll feel home within a few days! 
+We have several **positions available!** We’re a no-nonsense team (no long story about how great we are) and you’ll feel at home within a few days! 
 Check our full-time positions and get to know how **challenging** and **rewarding** working at Crownstone can be!
 
 {% include snippets/two-cols-text-img-end img='/images/network.jpg' img-alt='network' %}
@@ -50,7 +50,7 @@ Full-time positions
 
 {% include snippets/centered-text-home-begin background='light'%}
 
-Crownstone is always looking for talented people with expertise in embedded programming, AI or machine learning. If you send us a motivation letter with links to past projects on GitHub, or have done Kaggle competitions, this is a big plus! We have just one requirement: a European work permit.
+Crownstone is always looking for talented people with expertise in embedded programming, AI, or machine learning. If you send us a motivation letter with links to past projects on GitHub or have done Kaggle competitions, this is a big plus! We have just one requirement: a European work permit.
 
 {% include snippets/centered-text-home-end %}
 
@@ -61,7 +61,7 @@ Crownstone is always looking for talented people with expertise in embedded prog
 
 {% include snippets/job-vacancy-begin img="/images/electrical-engineer" img-alt="electrical-engineer" title="Electrical Engineer" %}
 
-In this role you will help us developing products that extend the smart home, leverage our expertise in Bluetooth products or allow us to improve our indoor localization and device monitoring offerings.
+In this role, you will help us to develop products that extend the smart home, leverage our expertise in Bluetooth products, or allow us to improve our indoor localization and device monitoring offerings. 
 Some of these products are a 3-phase switch of the Crownstone and an IoT version (4G LTE/NB-IoT) apart from third-party products that seamlessly fit our roadmap.
 We work together with Dutch and international companies for productizing and mass production. Expertise in this respect will definitely be a plus!
 
@@ -84,7 +84,7 @@ Working at Crownstone as a business developer means having the opportunity to cr
 
 If you like embedded programming, this is the perfect challenge! Do you also like to work on algorithms? Even better! 
 Do literature research, create a simulator, prototype your algorithm in Python, test your theories and finally implement your features in the Crownstone firmware! 
-There are many challenges like improved indoor localization, in network localization, device classification, mesh traffic optimization etc. Our firmware is written in C++ and is open-source. 
+There are many challenges like improved indoor localization, in-network localization, device classification, mesh traffic optimization, etc. Our firmware is written in C++ and is open-source.
 
 {% include snippets/job-vacancy-end job-id="software-engineer"%}
 
@@ -104,8 +104,8 @@ Working at Crownstone as a business developer means having the opportunity to cr
 
 {% include snippets/job-vacancy-begin img="/images/finance" img-alt="finance" title="Finance" %}
 
-You want to play a significant role in an innovative company! This is the perfect position for you if you would like to establish the strategy for internationalization. 
-In addition, you don’t mind enrolling in promising subsidy programs, and you are excited about thinking about funding and mutual beneficial collaboration with venture capitalists and international companies… 
+You want to play a significant role in an innovative company! This is the perfect position for you if you would like to establish a strategy for internationalization. 
+In addition, you don’t mind enrolling in promising subsidy programs, and you are excited about thinking about funding and mutually beneficial collaboration with venture capitalists and international companies… 
 In that case, drop us a note!
 
 {% include snippets/job-vacancy-end job-id="finance"%}
@@ -127,7 +127,7 @@ Open applications
 
 {% include snippets/two-cols-text-img-begin text-alignment="right" background="blue" %}
 
-If there are currently no job openings that match your interest, you can send an open application. We're always open to hear interesting stories!
+If there are currently no job openings that match your interest, you can send an open application. We're always open to hearing interesting stories!
 
 {% include snippets/two-cols-text-img-end background="blue" img='/images/open-application.jpg' img-alt='open-application' btn='true' btn-text='Send motivation' btn-contact='job' %}
 

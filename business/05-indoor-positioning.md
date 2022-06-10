@@ -21,7 +21,7 @@ architecture:
     image: /images/indoor-positioning-b2b/ibeacons.svg
     image-alt: iBeacons
   - title: Centralized localization
-    description: The algorithms run on a Crownstone hub or in the cloud. Proximity information is communicated over Bluetooth mesh to a hub. Localization in real-time might be challenging (expect multiple second delays). This can also localize tags (no SDK required).
+    description: The algorithms run on a Crownstone hub or in the cloud. Proximity information is communicated over Bluetooth mesh to a hub. Localization in real-time might be challenging (expect multiple-second delays). This can also localize tags (no SDK required).
     image: /images/indoor-positioning-b2b/tag.svg
     image-alt: ble tag
 solutions:
@@ -47,7 +47,7 @@ software-modules:
   - description: We can integrate with building automation or energy management systems.
     image: /images/indoor-positioning-b2b/building.svg
     image-alt: building
-  - description: We can directly integrate with Bluetooth sensors from any nearby Crownstone making any potentional Bluetooth sensor part of your smart building.
+  - description: We can directly integrate with Bluetooth sensors from any nearby Crownstone making any Bluetooth sensor part of your smart building.
     image: /images/indoor-positioning-b2b/sensor.svg
     image-alt: sensor
 areas:
@@ -74,7 +74,7 @@ Indoor positioning
 
 {% include snippets/centered-text-home-begin background='light'%}
 
-It's the ability of the Crownstones to know **where** someone is when carrying either a smart device or a bluetooth tag. Crownstones use the position of these smart devices through measuring **Bluetooth Low Energy** signals. This makes it possible for the Crownstones to react upon **presence and proximity**.
+It's the ability of the Crownstones to know **where** someone is when carrying either a smart device or a Bluetooth tag. Crownstones use the position of these smart devices by measuring **Bluetooth Low Energy** signals. This makes it possible for the Crownstones to react to **presence and proximity**.
 
 {% include snippets/centered-text-home-end %}
 
@@ -104,7 +104,7 @@ Requirements for indoor positioning
 
 
 - We recommend one Crownstone module per 10 - 25m2
-- To have bluetooth enabled in your smartphone or to carry a bluetooth tag.
+- To have Bluetooth enabled in your smartphone or to carry a Bluetooth tag.
 
 {% include snippets/two-cols-text-img-end background="blue" img='/images/indoor-positioning-b2b/office.jpg' img-alt='office'%}
 
@@ -156,7 +156,7 @@ The more Crownstones, the higher the accuracy. As a rule of thumb, **two Crownst
 
 <p>&nbsp;</p>
 
-The fingerpint classifier can learn to localize people **per room**. This is often more useful than so-called trilateration and an actual position in meters (or yards).
+The fingerprint classifier can learn to localize people **per room**. This is often more useful than so-called trilateration and an actual position in meters (or yards).
 
 {% include snippets/two-cols-centered-text-img-end img='/images/indoor-positioning-b2b/radar.svg' img-alt='radar' %}
 

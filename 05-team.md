@@ -105,7 +105,7 @@ core-team-gallery:
     twitter: "Bart_vanVliet"
     github: "vliedel"
     report:
-      title: "Bart has a masters in Mechanical Engineering and does not shy away from the most in-depth embedded programming jobs. Ask him anything on the nRF architecture!"
+      title: "Bart has a masters in Mechanical Engineering and does not shy away from the most in-depth embedded programming jobs. Ask him anything about the nRF architecture!"
   - image: "alexdemulder.jpg"
     name: "Alex de Mulder"
     affiliation: "Senior Software Developer"
@@ -113,7 +113,7 @@ core-team-gallery:
     vimeo: "alexdemulder"
     github: "AlexDM0"
     report:
-      title: "Alex has a masters in Applied Physics and is a stellar developer. At times his physics training shows, for example in the beautiful visualizations in our app."
+      title: "Alex has a master in Applied Physics and is a stellar developer. At times his physics training shows, for example, the beautiful visualizations in our app."
   - image: "teresavandam.jpg"
     name: "Teresa van Dam"
     affiliation: "Business Developer"
@@ -190,7 +190,7 @@ Interns
 
 {% include snippets/centered-text-home-begin background='light'%}
 
-Our most recent interns, who perform a wide range of tasks. They help people with advice on Crownstones, test all kind of smartphone variants, organize hackathons, building a booth for trade fairs, desoldering and soldering electronic components, product assembly, and much more.
+Our most recent interns, perform a wide range of tasks. They help people with advice on Crownstones, test all kinds of smartphone variants, organize hackathons, build a booth for trade fairs, desoldering and soldering electronic components, product assembly, and much more.
 
 {% include snippets/centered-text-home-end %}
 

@@ -58,7 +58,7 @@ Your questions answered
 
 {% include snippets/centered-text-home-begin background='light'%}
 
-We've answered some questions to get you started or help you troubleshoot. Feel free to browse around our FAQ if you're curious about the details of our Crownstone **app**, how Crownstones **work** or what our third party **integrations** can do.
+We've answered some questions to get you started or help you troubleshoot. Feel free to browse around our FAQ if you're curious about the details of our Crownstone **app**, how Crownstones **work**, or what our third-party **integrations** can do.
 
 {% include snippets/centered-text-home-end %}
 

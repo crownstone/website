@@ -4,7 +4,7 @@
 
 <img src="{{ ci-image }}" alt="{{ include.img-alt }}" style='width: 100%; padding: 1rem;'>
 
-<div class="row justify-content-center text-truncate" style="margin: 0 !important; white-space: normal; font-family: Lato, sans-serif; font-size: 1.5rem !important; font-style: normal !important; color: #003e52 !important; padding: 1.5rem !important; width: 100%" >
+<div class="row justify-content-center text-truncate" style="margin: 0 !important; white-space: normal; font-family: Lato, sans-serif; font-size: 1.5rem !important; font-style: normal !important; text-align: center; color: #003e52 !important; padding: 1.5rem !important; width: 100%" >
 {{ include.title }}
 </div>
 

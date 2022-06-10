@@ -52,7 +52,7 @@ Install the Crownstone app
 To use and configure your Crownstones you need the Crownstone app, which is available for
 **[iOS](https://apps.apple.com/us/app/crownstone/id1136616106)** and 
 **[Android.](https://play.google.com/store/apps/details?id=rocks.crownstone.consumerapp)** 
-The app will guide you through the process to register and to setup your Crownstones.
+The app will guide you through the process to register and set up your Crownstones.
 
 {% include snippets/centered-text-home-end %}
 
@@ -114,7 +114,7 @@ Crownstones behind lamps with a switch
 
 {% include snippets/centered-text-home-begin background='light'%}
 
-Crownstones can be installed at a light controlled by an ordinary light **switch**. The light can be dimmed directly with the app or via a voice command. Flipping the switch will toggle between **“off”** and the last **“dimmed state”.**
+Crownstones can be installed at a light controlled by an ordinary light **switch**. The light can be dimmed directly with the app or via voice command. Flipping the switch will toggle between **“off”** and the last **“dimmed state”.**
 
 {% include snippets/centered-text-home-end %}
 

@@ -65,7 +65,7 @@ Integration with Home Assistant
 {% include snippets/two-cols-centered-text-img-begin text-alignment='right' %}
 
 Crownstone together with Home Assistant allows you to personalize your home automation **routines** even further!
-Thanks to Home Assistant you can create triggers based on your **personal** presence in house or in a room.
+Thanks to Home Assistant you can create triggers based on your **presence** in the house or in a room.
 
 {% include snippets/two-cols-centered-text-img-end img='/images/ha-logo-large.png' img-alt='ha-logo' %}
 
@@ -182,7 +182,7 @@ Crownstone app for Homey
 
 {% include snippets/two-cols-centered-text-img-begin text-alignment='right' %}
 
-In your **Homey flows** you can have not only Crownstones reacting to your **presence**, but also other devices coupled to your Homey. For example, Philips Hue lights, Tado thermostat, etc.
+In your **Homey flows**, you can have not only Crownstones reacting to your **presence** but also other devices coupled to your Homey. For example, Philips Hue lights, Tado thermostats, etc.
 
 {% include snippets/two-cols-centered-text-img-end img='/images/homey-talks-with.png' img-alt='talks-with-homey' %}
 

@@ -83,7 +83,7 @@ To make that decision we recommend you to consider the following
 {% include snippets/two-centered-columns-begin  title='Buy the product when...' img='/images/shopping-kart.svg' img-alt='shopping kart'%}
 
 - You want to start the experience with a few Crownstone units 
-- You don't mind to take care of the installation 
+- You don't mind taking care of the installation 
 - You have already some experience with smart home technology
 
 {% include snippets/two-centered-columns-end  link="https://shop.crownstone.rocks/?ref=where-to-buy&id=kart/" call-to-action="Let's get some Crownstones!" %}

@@ -36,7 +36,7 @@ Crownstone for energy monitoring
 
 <p>&nbsp;</p>  
 
-*Crownstones form a **bluetooth mesh** and can broadcast **energy data** towards a hub where it can be collected. This energy data includes: current, voltage, power and power factor.*
+Crownstones form a **Bluetooth mesh** and can broadcast **energy data** towards a hub where it can be collected. This energy data includes current, voltage, power, and power factor.
 
 {% include snippets/two-cols-text-img-end img='/images/energy-monitoring/ble-mesh.png' img-alt='bluetooth mesh' %}
 
@@ -70,7 +70,7 @@ Continuous energy monitoring provides on average energy savings of 12% and it ca
 
 {% include snippets/two-cols-centered-text-img-begin %}
 
-### First step to reduce CO2 emissions
+### The first step to reducing CO2 emissions
 
 <p>&nbsp;</p>
 
@@ -100,7 +100,7 @@ Access to energy data helps to detect changes in the energy consumption to take 
 
 {% include snippets/two-cols-centered-text-img-begin %}
 
-### Comply with energy saving regulations
+### Comply with energy-saving regulations
 
 <p>&nbsp;</p>
 
@@ -134,7 +134,7 @@ Our technology
 
 The energy data broadcasted towards the hub contains **samples per minute**.
 
-- The hub can function as a **bridge** towards the servers of our business partners. In that case there's no need to hit our API's
+- The hub can function as a **bridge** toward the servers of our business partners. In that case there's no need to hit our API's
 - The software on the hub can be **updated remotely** to keep it secure and improvements can be committed (e.g. in bandwidth or accuracy).
 
 {% include snippets/two-cols-text-img-end background="blue" img='/images/energy-monitoring/graph_watts.gif' img-alt='graph power monitoring'%}
@@ -202,8 +202,8 @@ Support
 
 {% include snippets/centered-text-home-begin background='light'%}
 
-We can deliver additional support such as **configuration** within your backend or by providing a **custom uplink** towards your backend on a case by case basis.
-We can also provide you with a service level agreement for your application which defines monitoring services for our hardware or our services, include updates of the Crownstone hub software, or implement other application demands.
+We can deliver additional support such as **configuration** within your backend or by providing a **custom uplink** towards your backend on a case-by-case basis.
+We can also provide you with a service level agreement for your application which defines monitoring services for our hardware or our services, includes updates of the Crownstone hub software, or implement other application demands.
 
 {% include snippets/centered-text-home-end %}
 
