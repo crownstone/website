@@ -15,13 +15,24 @@
 {% endif %}
 
 {% if page.social-image %}
-	{% capture social_image %}{{ site.production_url }}/{{ page.social-image }}{% endcapture %}
+	{% capture social_image_raw %}{{ site.production_url }}/{{ page.social-image }}{% endcapture %}
 {% elsif page.picture %}
-	{% capture social_image %}{{ site.production_url }}/{{ page.picture }}{% endcapture %}
+	{% capture social_image_raw %}{{ site.production_url }}/{{ page.picture }}{% endcapture %}
 {% elsif page.background-image %}
-	{% capture social_image %}{{ site.production_url }}/images/banners/{{ page.background-image }}{% endcapture %}
+	{% capture social_image_raw %}{{ site.production_url }}/images/banners/{{ page.background-image }}{% endcapture %}
 {% else %}
-	{% capture social_image %}{{ site.production_url }}/images/crownstone-social-card.jpg{% endcapture %}
+	{% capture social_image_raw %}{{ site.production_url }}/images/crownstone-social-card.jpg{% endcapture %}
+{% endif %}
+
+{% assign ext = social_image_raw | split:'.' | last %}
+{% if ext == "jpg" %}
+	{% assign social_image = social_image_raw %}
+{% elsif ext == "jpeg" %}
+	{% assign social_image = social_image_raw %}
+{% elsif ext == "png" %}
+	{% assign social_image = social_image_raw %}
+{% else %}
+	{% assign social_image = social_image_raw | append: '.jpg' %}
 {% endif %}
 
 {% if include.channel == "twitter" %}
