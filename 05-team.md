@@ -190,7 +190,7 @@ Interns
 
 {% include snippets/centered-text-home-begin background='light'%}
 
-Our most recent interns, perform a wide range of tasks. They help people with advice on Crownstones, test all kinds of smartphone variants, organize hackathons, build a booth for trade fairs, desoldering and soldering electronic components, product assembly, and much more.
+Our interns perform a wide range of tasks. They help people with advice on Crownstones, test all kinds of smartphone variants, organize hackathons, build a booth for trade fairs, desolder and solder electronic components, perform product assembly, and much more.
 
 {% include snippets/centered-text-home-end %}
 

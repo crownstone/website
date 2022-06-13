@@ -93,7 +93,7 @@ Turn on your Christmas tree lights when you are in the living room! You can set 
 
 ## Bedtime!
 
-Trigger a **go to bed** time for your kids by switching the television off after their favorite program. Secretly, we use this for ourselves as well... Ceiling lights turn off at noon; time to go to bed!
+Trigger a **go to bed** time for your kids by switching the television off after their favorite program. Secretly, we use this for ourselves as well... Ceiling lights turn off at midnight; time to go to bed!
 
 {% include snippets/container-image-relative-end %}
 

@@ -64,8 +64,8 @@ Integration with Home Assistant
 
 {% include snippets/two-cols-centered-text-img-begin text-alignment='right' %}
 
-Crownstone together with Home Assistant allows you to personalize your home automation **routines** even further!
-Thanks to Home Assistant you can create triggers based on your **presence** in the house or in a room.
+Crownstone together with Home Assistant allows you to define home automation **routines** per person and their preferences!
+Thanks to Home Assistant you can create triggers based on your **personal** presence in the house or in a room. For example, turn on the music when **you** enter, but not when someone else enters the living room.
 
 {% include snippets/two-cols-centered-text-img-end img='/images/ha-logo-large.png' img-alt='ha-logo' %}
 

@@ -52,7 +52,7 @@ segments:
 
 {% include JB/setup %}
 
-{% include snippets/orange-top-bar text='Een slim huis voor slechts € 15 per maand. Meld je <a href="https://subscribe.crownstone.rocks/welcome?dest=smartscenarios&ref=crownstone.rocks&loc=banner">nu aan</a> en krijg een gratis Google Home Mini bij de installatie.' %}
+{% include snippets/orange-top-bar text='Koop rechtstreeks bij <a href="https://shop.crownstone.rocks">ons als fabrikant</a>.' %}
 
 {% include snippets/home-banner %}
 
