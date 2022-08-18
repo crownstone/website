@@ -24,7 +24,7 @@ Wat kan de Crownstone doen?
 * De Crownstone is een schakelaar, een dimmer, een vermogenssensor, en een standby-killer ineen. Alleen al de standby-killer functie bespaart een gemiddeld huishouden 10% op de elektriciteitsrekening. Al snel meer dan 60 euro per jaar.
 * De Crownstone maakt het mogelijk om een slim huis te hebben zonder dat je hoeft te priegelen op je telefoon. Apparaten en lichten kunnen automatisch worden aangezet als je een kamer binnenkomt door de smartphone in je zak of aan je oor te hebben. Het is op deze manier ultiem comfort!
 * Het kan LED lichten dimmen. Een traditionele dimmer kan vaak LED verlichting niet helemaal uitzetten.
-* Het kan gebruikt worden tegelijk met een lichtschakelaar (met [switchcraft]({{ BASE_PATH}/installation/switchcraft).
+* Het kan gebruikt worden tegelijk met een lichtschakelaar (met [switchcraft]({{ BASE_PATH }}/installation/switchcraft).
 * Het is een tijdklok die de lokale tijd kent, bijv. om een poortlicht aan te zetten alleen dan wanneer het donker is.
 
 De Crownstones kunnen over de loop van de komende tijd ook steeds meer (met automatische updates):
