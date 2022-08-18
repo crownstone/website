@@ -27,7 +27,7 @@ The Crownstones can be integrated in many solutions and on many different levels
 The cloud is required to setup the Crownstones: keys and IDs will be generated, and locations can be set.
 After that, it can be used to add users, so they can also make use of your Crownstones.
 The cloud is also used to synchronize data between users, and serves as data storage.
-You can read how to use it in the [REST API documentation](https://github.com/crownstone/crownstone-sdk/blob/master/REST_API.md).
+You can read how to use it in the [REST API documentation](https://github.com/crownstone/crownstone-sdk#rest-api).
 
 ![Image of Strongloop API Explorer](https://raw.githubusercontent.com/crownstone/crownstone-sdk/master/images/strongloop-api-explorer.png){: style="width: 100%"}
 
@@ -35,8 +35,8 @@ You can read how to use it in the [REST API documentation](https://github.com/cr
 
 To make things easy, we provide native libraries for smartphones. The following libraries are available and can be found on GitHub:
 
-- [Android](https://github.com/crownstone/bluenet-lib-android)
-- [iOS](https://github.com/crownstone/bluenet-lib-ios)
+- [Android](https://github.com/crownstone/bluenet-android-lib/)
+- [iOS](https://github.com/crownstone/bluenet-ios-lib)
 
 ## <a name="bluenet_lib"></a>Controlling and reading out Crownstones
 
@@ -125,21 +125,21 @@ It is written in React Native.
 
 # <a name="bluenet"></a>Bluenet Firmware
 
-The [Bluenet](https://github.com/crownstone/bluenet/) firmware can be downloaded from GitHub. 
+The [Bluenet](https://github.com/crownstone/bluenet/) firmware can be downloaded from GitHub.
 
 ![Protocol example](https://raw.githubusercontent.com/crownstone/bluenet/master/docs/diagrams/adv-packet.png)
 
 For the documentation, see the following links:
 
 - [Bluenet](https://github.com/crownstone/bluenet/) 
-The firmware itself. 
-- [Bluetooth Protocol](https://github.com/crownstone/bluenet/blob/master/docs/PROTOCOL.md)
+The firmware itself.
+- [Bluetooth Protocol](https://github.com/crownstone/bluenet/blob/master/docs/protocol/PROTOCOL.md)
 Protocol description of the services, characteristics, advertisements, and mesh.
-- [Installation Manual](https://github.com/crownstone/bluenet/blob/master/docs/INSTALL.md) 
+- [Installation Manual](https://github.com/crownstone/bluenet/blob/master/docs/INSTALL.md)
 A step by step description to install the build system required to build and run the bluenet firmware.
-- [License](https://github.com/crownstone/bluenet/blob/master/LICENSE.txt)
+- [License](https://github.com/crownstone/bluenet/tree/master/source)
 Triple licensed (LGPLv3, Apache, MIT License).
-- [Bootloader](https://github.com/crownstone/bluenet-bootloader). 
+- [Bootloader](https://github.com/crownstone/bluenet-bootloader).
 A slightly modified version of the bootloader (compared to the one from Nordic).
 
 Have fun!

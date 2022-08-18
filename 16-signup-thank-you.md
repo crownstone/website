@@ -52,12 +52,11 @@ To make sure someone else cannot register with your email address, we kindly ask
 
 To get you started, we gathered some links to resources here for you:
 
-* [Alexa]({{ site.url }}/integrations/alexa), where the integration with Alexa is described. You do need the Crownstone
-hardware for this!
+* [Works with]({{ site.url }}/works-with), where integrations are described, for example with Alexa or Home Assistant. You do need the Crownstone hardware for this!
 
-* [Crownstone for business](https://crownstone.rocks/business/), where we describe our position w.r.t. indoor localization and automation in the larger ecosystem of the industry. 
+* [Crownstone for business](https://crownstone.rocks/business/), where we describe our position w.r.t. indoor localization and automation in the larger ecosystem of the industry.
 
-* [Technology](https://crownstone.rocks/technology-consumer/), on the website gives an overview of the technology currently implemented and the features that are upcoming.
+* [Scenarios](https://crownstone.rocks/scenarios/) gives an overview of scenarios, for example, automatically dimming at night, which can be realized through using Crownstones.
 
 * The [bluenet firmware](https://github.com/crownstone/bluenet) can be used for our plugs and digital connectors, but you might also would like to use it for your own hardware or prototypes if it's based on the nRF52 chipset by Nordic. You will have encryption, mesh communication, iBeacon conformity, a DFU procedure, a setup process, etc. See [here](https://github.com/crownstone/bluenet/blob/master/docs/FIRMWARE_SPECS.md) for a more technical list of specifications. No need to reinvent the wheel anymore!
 

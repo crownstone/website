@@ -14,7 +14,7 @@ jobs:
     - name: Set up Ruby
       uses: ruby/setup-ruby@v1
       with:
-        ruby-version: '2.7'
+        ruby-version: '3.0'
         bundler-cache: true # run 'bundle install' and caches installed gems automatically
     - name: Install jekyll
       run: gem install jekyll
@@ -27,3 +27,18 @@ jobs:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         publish_branch: gh-pages
         publish_dir: ./_site
+  markdown-link-check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository code
+        uses: actions/checkout@master
+      - run: echo "💡 The ${{ github.repository }} repository has been cloned to the runner."
+      - uses: gaurav-nelson/github-action-markdown-link-check@v1
+        with:
+          use-quiet-mode: 'no'
+          folder-path: '.'
+          config-file: '_config/mlc_config.json'
+          max-depth: -1
+      - name: Finish up
+        run: |
+          echo "🍏 This job's status is ${{ job.status }}."

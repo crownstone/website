@@ -11,7 +11,7 @@ permalink: app/privacy-policy/
 
 # APP PRIVACY POLICY
 
-See also our [Terms of Service](/terms-of-service), [Ethical Policy](/ethical-policy) and our [Privacy Policy](/privacy-policy).
+See also our [Terms of Service]({{site.url}}/terms-of-service), [Ethical Policy]({{site.url}}/ethical-policy) and our [Privacy Policy]({{site.url}}/privacy-policy).
 This page describes our app privacy policy.
 
 Summarized, we do **not sell** your data, we do **not share** your data, we do **not want** your data. 

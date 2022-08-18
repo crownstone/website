@@ -153,9 +153,9 @@ graduate-gallery:
       title: "Nonlinear System Identification and Control for Autonomous Robots"
       url: "thesis/laurensbliek.pdf"
     articles:
-      - url: "https://arxiv.org/abs/1309.7959"
+      - url: https://arxiv.org/abs/1309.7959
         ref: "0"
-      - url: "https://arxiv.org/abs/1308.6498"
+      - url: https://arxiv.org/abs/1308.6498
         ref: "1"
     affiliation: "Delft Institute of Applied Mathematics, TU Delft"
     linkedin: "laurens-bliek-7a4b366a"
@@ -186,7 +186,7 @@ graduate-gallery:
       title: "Self-assembly of Modular Robots from Finite Number of Modules using Graph Grammars"
       url: "thesis/vijethrai.pdf"
     articles:
-      - url: "https://ieeexplore.ieee.org/xpl/login.jsp?tp=&arnumber=6095038&url=http%3A%2F%2Fieeexplore.ieee.org%2Fxpls%2Fabs_all.jsp%3Farnumber%3D6095038"
+      - url: https://ieeexplore.ieee.org/abstract/document/6095038
         ref: "0"
     affiliation: "Cornell University"
     linkedin: "vijeth-rai-71532b2b"

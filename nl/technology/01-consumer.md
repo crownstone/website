@@ -16,15 +16,15 @@ lang: nl
 {% include snippets/column-begin colsize="12" %}
 
 # Technologie
-                
-Crownstone gebruikt je aanwezigheid en nabijheid (zogenaamde lokatiebepaling binnenshuis) om lichten en apparaten te bedienen thuis of in een kantooromgeving. Crownstones komen met smartphone apps en maken zo een slim huis mogelijk. Zo'n app kan bijvoorbeeld gevaarlijke apparatuur uitzetten als er geen volwassenen in de buurt zijn voor veiligheidsredenen. Crownstones verstrekt daarnaast deze lokatiebepaling aan de [zakelijke markt](/business) als een hardware-als-een-platform oplossing. 
-               
+
+Crownstone gebruikt je aanwezigheid en nabijheid (zogenaamde lokatiebepaling binnenshuis) om lichten en apparaten te bedienen thuis of in een kantooromgeving. Crownstones komen met smartphone apps en maken zo een slim huis mogelijk. Zo'n app kan bijvoorbeeld gevaarlijke apparatuur uitzetten als er geen volwassenen in de buurt zijn voor veiligheidsredenen. Crownstones verstrekt daarnaast deze lokatiebepaling aan de [zakelijke markt](/business) als een hardware-als-een-platform oplossing.
+
 Wat kan de Crownstone doen?
 
 * De Crownstone is een schakelaar, een dimmer, een vermogenssensor, en een standby-killer ineen. Alleen al de standby-killer functie bespaart een gemiddeld huishouden 10% op de elektriciteitsrekening. Al snel meer dan 60 euro per jaar.
 * De Crownstone maakt het mogelijk om een slim huis te hebben zonder dat je hoeft te priegelen op je telefoon. Apparaten en lichten kunnen automatisch worden aangezet als je een kamer binnenkomt door de smartphone in je zak of aan je oor te hebben. Het is op deze manier ultiem comfort!
 * Het kan LED lichten dimmen. Een traditionele dimmer kan vaak LED verlichting niet helemaal uitzetten.
-* Het kan gebruikt worden tegelijk met een lichtschakelaar (met [switchcraft](/installation).
+* Het kan gebruikt worden tegelijk met een lichtschakelaar (met [switchcraft]({{ BASE_PATH}/installation/switchcraft).
 * Het is een tijdklok die de lokale tijd kent, bijv. om een poortlicht aan te zetten alleen dan wanneer het donker is.
 
 De Crownstones kunnen over de loop van de komende tijd ook steeds meer (met automatische updates):
@@ -132,9 +132,9 @@ Krijg een beetje gevoel voor de Crownstones door in deze modellen met ze te inte
 {% include snippets/column-begin colsize="6" %}
 
 # Kickstarter
-    
+
 De Crownstone is oorspronkelijk ontwikkelt voor een [Kickstarter](https://www.kickstarter.com/projects/dobots/crownstone/)
-project. 
+project.
 We waren in korte tijd bekend op veel Europese nieuwskanalen, hadden meer dan 70.000 euro aan pre-orders gerealiseerd, 
 en in het geheel heeft het onze business de juiste eerste boost gegeven (bijvoorbeeld in de vorm van acceptatie in de 
 Rockstart accelerator). Sommige van de Crownstone mogelijkheden kan je zien in dit Kickstarter promofilmpje.
@@ -144,7 +144,7 @@ Rockstart accelerator). Sommige van de Crownstone mogelijkheden kan je zien in d
 
 {% include snippets/divider %}
 
-<!-- Technical specs clip-->
+<!-- Technical specs clip -->
 
 {% include snippets/row-begin %}
 {% include snippets/column-begin colsize="6" %}

@@ -44,7 +44,8 @@ Yes, that is possible.
 
 {% include snippets/faq-begin ref="faqTransformer" question="Are there any other reasons to have spots without a transformer?" %}
 
-Transformers are generally more expensive, since they drive the spots, have to be dimmable, have to be able to carry a certain wattage etc. You can visit this [page](https://www.lamp123.nl/merken/philips/led-lampen/detail/16215/philips-led-spot-dimbaar-38w-50w-gu10-warm-glow-6-stuks.html) to see an example of spots that don’t use a transformer.
+Transformers are generally more expensive, since they drive the spots, have to be dimmable, have to be able to carry a certain wattage etc. Many reasons to choose spots without a transformer!
+
 {% include snippets/faq-end %}
 
 

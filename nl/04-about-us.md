@@ -134,9 +134,8 @@ Onze achtergrond
 
 {% include snippets/two-cols-text-img-begin %}
 
-Het Crownstone product is oorspronkelijk ontwikkeld door DoBots en heeft achter zich als investeerder [Almende Investments](http://almende-investments.com).
-Crownstone is opgericht op 20 Mei 2016 en heeft deelgenomen aan de prestigieuze [Rockstart accelerator](http://www.rockstart.com/blog/rockstart-introduces-participants-of-2016-smart-energy-accelerator), 
-
+Crownstone ontwikkelt smart home electronics en firmware voor meer dan 5 jaar (opgericht in 2016).
+Almende Investments was de eerste investeerder.
 
 {% include snippets/two-cols-text-img-end img='/images/origins.png' img-alt='origins' %}
 
@@ -144,7 +143,7 @@ Crownstone is opgericht op 20 Mei 2016 en heeft deelgenomen aan de prestigieuze 
 {% include snippets/row-begin %}
 {% include snippets/column-begin colsize="12" %}
 
-Crownstone opereert in een zeer transparante wijze. Veel informatie over ons kan online worden gevonden, zoals de [Kickstarter](https://www.kickstarter.com/projects/dobots/crownstone) 
+Crownstone opereert in een zeer transparante wijze. Veel informatie over ons kan online worden gevonden, zoals de [Kickstarter](https://www.kickstarter.com/projects/dobots/crownstone)
 waar de eerste marktpotentie duidelijk voor ons werd, ons [blog]({{ BASE_PATH }}/blog), waar we veel inzicht geven in onze projecten en onze open-source code in onze [github repositories](https://github.com/crownstone).
 
 {% include snippets/column-end %}

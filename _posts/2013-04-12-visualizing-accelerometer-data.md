@@ -43,7 +43,8 @@ is not that complicated, it is easier to choose an existing solution. This
 implementation simplicity is reflected in the number of apps available
 performing the task of recording sensory data. After a quick review of
 available apps in the Google [Play store](http://play.google.com/), our weapon
-of choice became [Sensor Logger](https://play.google.com/store/apps/details?id=com.kzs6502.sensorlogger). Its benefits are the adjustable sensor rate, the
+of choice became - the now obsolete - "Sensor Logger" app.
+Its benefits are the adjustable sensor rate, the
 number of (virtual) sensors (raw accelerometer, linear acceleration,
 orientation, rotation, etc) and the easy csv format in which data is logged. A
 drawback is the lack of gps recording, but due the nature of your recordings

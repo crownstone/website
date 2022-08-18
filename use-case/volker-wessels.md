@@ -12,7 +12,7 @@ permalink: use-case/volkerwessels/
 # Internet of Things
 
 The Crownstone infrastructure can be used in smart offices for sustainability and communication. It has been integrated
-with the [Yodiwo platform](https://www.yodiwo.com/theplatform/). The Yodiwo platform contains a graphical user 
+with the [Yodiwo platform](https://www.yodiwo.com/). The Yodiwo platform contains a graphical user 
 interface, called [Cyan](https://tcyan.yodiwo.com/login), in which development and deployment can be done in a 
 visual style with graphs. Network devices, cloud services, analytics are blocks that all can be linked together in
 a graphical user interface. The Yodiwo platform also contains a hardware device (IoT Fog Gateway) that can function 

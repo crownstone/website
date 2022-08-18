@@ -33,7 +33,7 @@ The other function you will be able to find is a lock. You can make sure that a 
 There have been a lot of improvements that are not immediately visible in the app user interface:
 
 * On Android we have been optimizing the BLE library. We've even considered the use of SweetBlue which would come with a commercial license. However, although this aims to solve a lot of BLE problems on Android phones, they have a [large list with issues](https://github.com/iDevicesInc/SweetBlue/wiki/Android-BLE-Issues) and we dare to say that our library is already better. :-) If you're experiencing trouble with a particular Android phone drop Bart a message!
-* We've been creating our first [Python binding](https://github.com/crownstone/bluenet-python-lib) that makes use of a particular Crownstone mesh-aware USB stick that you can put on a Raspberry PI or other convenient hub. This accelerates the integration with systems from B2B partners as well as home automation systems like [home-assistant.io](https://home-assistant.io/).
+* We've been creating our first [Python binding](https://github.com/crownstone/crownstone-lib-python) that makes use of a particular Crownstone mesh-aware USB stick that you can put on a Raspberry PI or other convenient hub. This accelerates the integration with systems from B2B partners as well as home automation systems like [home-assistant.io](https://home-assistant.io/).
 * The webhooks in the [Crownstone cloud](https://github.com/crownstone/crownstone-cloud) are pretty stable now. They can be used by dedicated partners who want to give their users real-time access to switch, power, or localization data.
 
 ## What to be expected next?
@@ -60,7 +60,7 @@ We will be visiting [Hannover Messe](http://www.hannovermesse.de/home) from Apri
 
 There have been quite a few interesting developments in the world.
 
-* Andreas Brekken going through the installation process of using IOTA, a coin that promises to bring cryptocurrency to the internet of things and [not being happy about it](https://shitcoin.com/iota-cannot-be-used-for-iot-loss-of-funds-may-occur-e45b1ed9dd6b).
+* Andreas Brekken going through the installation process of using IOTA, a coin that promises to bring cryptocurrency to the internet of things and [not being happy about it](https://medium.com/andreas-tries-blockchain/iota-cannot-be-used-for-iot-loss-of-funds-may-occur-e45b1ed9dd6b).
 * Taylor Lorenz characterizing the CES as [full of robots and machines that don't work](https://www.thedailybeast.com/ces-was-full-of-useless-robots-and-machines-that-dont-work). :-)
 * A [preview of Android P](https://android-developers.googleblog.com/2018/03/previewing-android-p.html) reveals a large emphasis on indoor localization. This is good news for us, because it means that (1) smartphones will become better optimized to run this type of function in the background, and (2) allows us to extend our indoor localization skills beyond our current hardware.
 * An interesting [frequency deviation](https://www.entsoe.eu/news-events/announcements/announcements-archive/Pages/News/2018-03-06-press-release-continuing-frequency-deviation-in-the-continental-european-power-system.aspx) in the European electricity grid originating in Serbia/Kosovo. A lot of clocks are synced to the 50 Hz of the grid, but in our case dimming depends also on the 50 Hz. Note that we use a combination of frequency discovery (by zero point detection) and this 50 Hz prior, so we're quite stable against such deviations.
@@ -68,5 +68,5 @@ There have been quite a few interesting developments in the world.
 
 ## Meetup
 
-The following meetup is still quite some time away, Friday the 1st of June! The meetup is gonna be about the Crownstone integrated with the [Homey](https://www.athom.com/en/). Feel free to [subscribe](https://www.meetup.com/Smart-Home-Bluetooth-Hackerspace/events/248695959/) already to the event!
+The following meetup is still quite some time away, Friday the 1st of June! The meetup is gonna be about the Crownstone integrated with the [Homey](https://www.athom.com/en/).
 

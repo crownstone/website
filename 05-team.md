@@ -37,7 +37,7 @@ advisors-gallery:
     name: "Jan Peter Larsen"
     affiliation: "CEO Almende Investments"
     linkedin: "janpeterlarsen"
-    website: "almende-investments.com/"
+    website: https://almende.com/investments/
     report:
       title: "Jan Peter knows how to run a business. Crownstone benefits from his ample experience as managing director of Sense Labs, NiceDay, and "
       link-text: "Almende Investments."
@@ -47,7 +47,7 @@ advisors-gallery:
     affiliation: "Founder Almende Investments"
     linkedin: "hansabbink"
     twitter: "hans_abbink"
-    website: "almende-investments.com/"
+    website: https://almende.com/investments/
     report:
       title: "Hans Abbink is a successful entrepreneur and investor in the Rotterdam region under the investment company "
       link-text: "Almende Investments."
@@ -59,13 +59,13 @@ advisors-gallery:
     report:
       title: "Anton Montagne teaches at the Technical University Delft and wrote the book on "
       link-text: "electronic design."
-      link: "www.analog-electronics.eu/Structured-Electronic-Design/structured-electronic-design.html"
+      link: https://www.analog-electronics.eu/Structured-Electronic-Design/structured-electronic-design.html
   - image: "alexanderweisz.jpg"
     name: "Alexander Weisz"
     affiliation: "Business Consultant"
     linkedin: "alexanderjweisz"
     twitter: "alexander_we"
-    website: "alexanderweisz.nl"
+    website: https://alexanderweisz.nl
     report:
       title: "Alexander Weisz is an expert in management and business development for starting companies such as Finch Buildings and "
       link-text: "Quantoz."

@@ -1,0 +1,36 @@
+{
+    "aliveStatusCodes": [200, 206, 0],
+    "projectBaseUrl": "https://crownstone.rocks",
+    "replacementPatterns": [
+        {
+            "pattern": "^{{site.url}}/",
+            "replacement": "{{BASEURL}}/"
+        },
+        {
+            "pattern": "^%7B%7Bsite.url%7D%7D",
+            "replacement": "{{BASEURL}}/"
+        },
+        {
+            "pattern": "^{{ site.url }}/",
+            "replacement": "{{BASEURL}}/"
+        },
+        {
+            "pattern": "^/",
+            "replacement": "{{BASEURL}}/"
+        }
+    ],
+    "ignorePatterns": [
+        {
+            "pattern": "^#.*$"
+        },
+        {
+            "pattern": "^https://linkedin.com/company/crownstone"
+        },
+        {
+            "pattern": "^https://www.crunchbase.com/organization/crownstone"
+        },
+        {
+            "pattern": "https://www.kickstarter.com/projects/dobots/crownstone"
+        }
+    ]
+}

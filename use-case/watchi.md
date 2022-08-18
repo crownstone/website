@@ -25,5 +25,5 @@ Information about how the dashboards for the care provider looks like, how the d
 
 # Watchi Services
 
-The Watchi can be obtained directly at the [manufacturer](https://www.watchi.nl/care/). More information about the particular professional setting can be found at [LeefcirkelXL Care Professional](https://www.watchi.nl/leefcirkelxl/).
+The Watchi can be obtained directly at the [manufacturer](https://www.watchi.nl/care/). More information about the particular professional setting can be found at the [Watchi website](https://www.watchi.nl/).
 

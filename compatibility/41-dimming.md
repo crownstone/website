@@ -55,13 +55,7 @@ Now, what happens when a halogen lamp is dimmed? The temperature can be reduced 
 disrupted! This means that its lifetime drops to that of an ordinary incandescent light bulb.
 In other words, yes, you can dim a halogen light, but try not to!
 
-## Particular lamps we have tested 
-
-These are not necessarily recommendations, although there are beautiful lamps here! :-)
-
-[![Classic Gold Rustic LED Bulb]({{ site.url }}/attachments/leds/3857-Classic-gold-rustic-LED-4W-lichtbron-01-605x605.jpg "Classic Gold Rustic LED Bulb"){: style="height: 300px"}](https://www.nostalux.nl/Buitenverlichting/lichtbronnen/lamp-edison-led-3857.html)
-[![LED Spot]({{ site.url }}/attachments/leds/8718696582558-IMS-nl_NL.jpg "LED Spot"){: style="height: 300px"}](https://www.philips.nl/c-p/8718696582558/led-spot-dimbaar)
-[![LED Bulb]({{ site.url }}/attachments/leds/49032-05-62.jpg "LED Bulb"){: style="height: 300px"}](http://www.lucide.be/nl/productinformatie/p/49032-05-62/lamp/led-bulb)
-[![LED Bulb]({{ site.url }}/attachments/leds/49017-05-62.jpg "LED Bulb"){: style="height: 300px"}](http://www.lucide.be/nl/productinformatie/p/49017-05-62/lamp/led-bulb)
+## LEDs
 
 We have not encountered a LED lamp that is supposed to be dimmable without being able to dim it. Note that if a LED lamp explicitly states that it cannot be dimmed, this is indeed not possible!
+

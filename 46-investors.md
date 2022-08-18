@@ -82,8 +82,8 @@ Current Investors
 
 {% include snippets/two-cols-text-img-begin %}
 
-Crownstone has as seed investor [Almende Investments](http://almende-investments.com), 
-did partake in the [Rockstart accelerator](http://www.rockstart.com/blog/rockstart-introduces-participants-of-2016-smart-energy-accelerator), 
+Crownstone has as seed investor [Almende Investments](http://almende-investments.com),
+did partake in the Rockstart accelerator,
 and launched as a company on the 20th of May 2016.
 
 {% include snippets/two-cols-text-img-end img='/images/investors/investors.png' img-alt='investors' %}

@@ -41,7 +41,7 @@ Social media:
 
 International:
 
-* "Sockets and Light Switches Follow You in House with Crownstone", 2019, [Smarthome Magazine](https://smarthomemagazine.net/sockets-and-light-switches-follow-you-in-house-with-crownstone/)
+* "Sockets and Light Switches Follow You in House with Crownstone", 2019, Smarthome Magazine
 * "Crownstone Plugs für Indoor Localization und Building Automation", 2018, [Home & Smart](https://www.homeandsmart.de/crownstone-plug-indoor-localisation).
 * "Switch to a Smarter Future", 2018, [Hannover Messe](https://www.hannovermesse.de/en/news/news-details_80642-504194.xhtml)
 * "CES 2018: Tech Preview of the Show's Coolest New Products", 2018, [BBC News](https://www.bbc.com/news/technology-42574569)
@@ -63,7 +63,7 @@ National:
 * "Smart Industry in de praktijk: DoBots lanceert slim stopcontact op Kickstarter", 2015, [smartindustry.nl](https://www.smartindustry.nl/nieuws/smart-industry-in-de-praktijk-dobots-lanceert-slim-stopcontact-op-kickstarter/).
 * "Crownstone: slim stopcontact maakt van jouw huis een smart home", Sophie de Kok, 2015, [dutchcowboys.nl](http://www.dutchcowboys.nl/technology/crownstone-slim-stopcontact-maakt-van-jouw-huis-een-smarthome).
 * "Crownstone: met dit slimme stopcontact kun je energie besparen in huis", 2015 [businessinsider.nl](https://www.businessinsider.nl/crownstone-met-dit-slimme-stopcontact-kun-je-energie-besparen-in-huis-491717/).
-* "Crownstone: een simpele oplossing voor een slimmer huis", 2015 [fme](https://www.fme.nl/en/node/4173).
+* "Crownstone: een simpele oplossing voor een slimmer huis", 2015, fme
 * "Deze ondernemer ontdekte het grote verschil tussen Kickstarter en Indiegogo", Maarten Keswiel, 2015, [sprout.nl](https://www.sprout.nl/artikel/crowdfunding/deze-ondernemer-ontdekte-het-grote-verschil-tussen-kickstarter-en-indiegogo).
 * "Nederlandse Dobots Kickstart Crownstone: iBeacons in je stopcontact", Remco Bron, 2015, [ibeacon-nieuws.nl](https://ibeacon-nieuws.nl/nederlandse-dobots-kickstart-crownstone-ibeacons-in-je-stopcontact/).
 * "Crownstone: Nederlanders maken slim stopcontact dat je moet hebben", Milton Broen, 2015, [want.nl](https://www.want.nl/crownstone-nederlanders-maken-slim-stopcontact-dat-je-moet-hebben/).
@@ -92,7 +92,7 @@ Talks:
 
 ## Webinars
 
-* "ISSO organiseert webinar over indoor locatiebepaling", 2017, [ISSO](https://isso.nl/updates/nieuws/nieuwsitem/news/isso-organiseert-webinar-over-indoor-locatiebepaling/)
+* "ISSO organiseert webinar over indoor locatiebepaling", 2017, ISSO
 
 ## Logo
 
@@ -167,7 +167,7 @@ The webshop kit can be downloaded here: [webshop kit]({{ site.url }}/attachments
 ![Crownstone at CES]({{ site.url }}/attachments/engie-crownstone.jpeg "Crownstone at CES"){: style="width:40%" .float-right}
 
 * [Beurs Eigen Huis](https://www.realiseerjedroomhuis.nl/crownstone/), Mar. 15-17, 2019
-* [CES 2019](https://ces19.mapyourshow.com/7_0/exhibitor/exhibitor-details.cfm?ExhID=T0000336), Consumer Electronics Show, Las Vegas, Jan. 8-11, 2019
+* CES 2019, Consumer Electronics Show, Las Vegas, Jan. 8-11, 2019
 * [CES Unveiled](https://www.ces.tech/Events-Programs/CES-Unveiled/Amsterdam/Exhibitors.aspx), Amsterdam, Sep. 27, 2018
 * Maatschap [The Future Group](https://www.the-future-group.com/), May 22, 2018
 * Hannover Messe, Hannover, Apr. 23-27, 2018
@@ -177,7 +177,7 @@ The webshop kit can be downloaded here: [webshop kit]({{ site.url }}/attachments
 
 ## Investors
 
-* [Rockstart](https://www.rockstart.com/startups/crownstone/)
+* Rockstart
 * [Almende Investments](https://almende-investments.com/crownstone/)
 * Overview at [Crunchbase](https://www.crunchbase.com/organization/crownstone)
 

@@ -37,7 +37,7 @@ advisors-gallery:
     name: "Jan Peter Larsen"
     affiliation: "CEO Almende Investments"
     linkedin: "janpeterlarsen"
-    website: "almende-investments.com/"
+    website: https://almende.com/investments/
     report:
       title: "Jan Peter weet hoe hij een bedrijf moet runnen. Crownstone profiteert van zijn ruime ervaring als directeur van Sense Labs, NiceDay en "
       link-text: "Almende Investments."
@@ -47,7 +47,7 @@ advisors-gallery:
     affiliation: "Founder Almende Investments"
     linkedin: "hansabbink"
     twitter: "hans_abbink"
-    website: "almende-investments.com/"
+    website: https://almende.com/investments/
     report:
       title: "Hans Abbink is succesvol ondernemer en investeerder in de regio Rotterdam onder de investeringsmaatschappij "
       link-text: "Almende Investments."
@@ -59,13 +59,13 @@ advisors-gallery:
     report:
       title: "Anton Montagne doceert aan de Technische Universiteit Delft en schreef het boek over "
       link-text: "electronic design."
-      link: "www.analog-electronics.eu/Structured-Electronic-Design/structured-electronic-design.html"
+      link: https://www.analog-electronics.eu/Structured-Electronic-Design/structured-electronic-design.html
   - image: "alexanderweisz.jpg"
     name: "Alexander Weisz"
     affiliation: "Business Consultant"
     linked: "alexanderjweisz"
     twitter: "alexander_we"
-    website: "alexanderweisz.nl"
+    website: https://alexanderweisz.nl
     report:
       title: "Alexander Weisz is een expert in management en business development voor startende bedrijven zoals Finch Buildings en"
       link-text: "Quantoz."
@@ -78,7 +78,7 @@ advisors-gallery:
     report:
       title: "Berend Olde Rikkert heeft ruime ervaring in de energiesector als vice president Energy and Utilities zowel bij Capgemini als bij het succesvolle bedrijf"
       link-text: "Quby."
-      link: "www.quby.com"
+      link: https://www.quby.com
 core-team-gallery:
   - image: "annevanrossum.jpg"
     name: "Anne van Rossum"
@@ -87,7 +87,7 @@ core-team-gallery:
     twitter: "annevanrossum"
     googleplus: "+Annevanrossum"
     github: "mrquincle"
-    website: "annevanrossum.com"
+    website: https://annevanrossum.com
     report:
       title: "Anne studeerde electrotechniek en cognitieve psychologie. Bij Almende en DoBots heeft hij veel onderzoek gedaan naar autonome robots. Elke donderdag is wiskundedag!"
   - image: "peetvantooren.jpg"

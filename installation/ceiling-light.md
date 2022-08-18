@@ -15,8 +15,8 @@ background-image-home: banner-ceiling-light
 
 # Crownstone installation
 
-General instructions for the installation can be found in the [Installation page](/installation). 
-The instructions below will take you step-by-step through the process of installing a Crownstone behind a **ceiling light**. 
+General instructions for the installation can be found in the [Installation page](/installation).
+The instructions below will take you step-by-step through the process of installing a Crownstone behind a **ceiling light**.
 If at any point you are unsure of what to do, stop installation immediately and contact an electrician.
 
 {% include snippets/column-end %}
@@ -57,8 +57,8 @@ If at any point you are unsure of what to do, stop installation immediately and 
 {% include snippets/row-begin %}
 {% include snippets/column-begin colsize="12" %}
 
-*Step 3*: If you want to use your existing **wall switch** together with Crownstone, take a look at the [Switchcraft](/installation) installation instructions for more information! 
-Your ceiling light is now finished, put it back up and turn the power back on at the fuse box.
+*Step 3*: If you want to use your existing **wall switch** together with Crownstone, take a look at the [Switchcraft](/installation/switchcraft) installation instructions for more information!
+Your setup is now finished, put the ceiling light back up and turn the power on at the fuse box.
 
 {% include snippets/column-end %}
 {% include snippets/row-end %}
@@ -68,8 +68,8 @@ Your ceiling light is now finished, put it back up and turn the power back on at
 {% include snippets/row-begin %}
 {% include snippets/column-begin colsize="12" %}
 
-*Step 4*: Open the Crownstone **app** to add your new Built-in to your Sphere. 
-Hold your smartphone near the ceiling light with your Crownstone while your new device is being added.
+*Step 4*: Open the Crownstone **app** to add your new built-in Crownstone to your Sphere.
+Hold your smartphone in the vicinity of the ceiling light while your new device is being added to the app.
 
 {% include snippets/column-end %}
 {% include snippets/row-end %}

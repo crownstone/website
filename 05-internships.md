@@ -60,27 +60,27 @@ We have several graduation projects available. If you graduate at our place you 
 
 Crownstones can not only operate as iBeacons, but also as scanning devices that can localize anything that sends out BLE messages, such as wearables (Apple Watch, Fitbit, Jawbone, and also special watches carried by people with dementia).
 
-{% include snippets/internship-end pdf-link="https://docs.google.com/document/d/1As9rY5-jWdyDmgVhuye1kmyxPMGYe_1rT4Cdgg-p_J0/export?format=pdf" %}
+{% include snippets/internship-end pdf-link=https://docs.google.com/document/d/1As9rY5-jWdyDmgVhuye1kmyxPMGYe_1rT4Cdgg-p_J0/export?format=pdf %}
 
 {% include snippets/internship-begin img="/images/internships/machine.jpg" img-alt="deep-learning" title="Deep learning for Machines" %}
 
 Crownstones can monitor different types of devices such as machines, tools, appliances, etc. This allows them to recognize usage patterns. To do this properly advanced machine learning is required, hence deep learning!
 
-{% include snippets/internship-end pdf-link="https://docs.google.com/document/d/1Hx9MgrsoVnLQxju43YvXe0w8ADPw_iBMtMdZqjW3dIw/export?format=pdf" %}
+{% include snippets/internship-end pdf-link=https://docs.google.com/document/d/1Hx9MgrsoVnLQxju43YvXe0w8ADPw_iBMtMdZqjW3dIw/export?format=pdf %}
 
 
 {% include snippets/internship-begin img="/images/internships/device.jpg" img-alt="device" title="Device Identification" %}
 
 Crownstones can distinguish devices based on a “footprint” of current and voltage levels over time. To do this properly advanced machine learning is required, hence deep learning!
 
-{% include snippets/internship-end pdf-link="https://docs.google.com/document/d/1_KFARtHk35xYPuTZ0ELSSYMtzJwtzKnauewwFsbddAk/export?format=pdf" taken="true" %}
+{% include snippets/internship-end pdf-link=https://docs.google.com/document/d/1_KFARtHk35xYPuTZ0ELSSYMtzJwtzKnauewwFsbddAk/export?format=pdf taken="true" %}
 
 
 {% include snippets/internship-begin img="/images/internships/presence.jpg" img-alt="presence" title="Passive Presence Detection" %}
 
 It is possible to infer from Bluetooth disturbances alone that there are people around, magic! If you want to learn a lot about state-of-the-art signal processing, this is your project!
 
-{% include snippets/internship-end pdf-link="https://docs.google.com/document/d/1ueT68ln1fLUbdVk4uW5Ohai09G7xjJr3o504Dlv_J2U/export?format=pdf" %}
+{% include snippets/internship-end pdf-link=https://docs.google.com/document/d/1ueT68ln1fLUbdVk4uW5Ohai09G7xjJr3o504Dlv_J2U/export?format=pdf %}
 
 
 

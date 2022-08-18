@@ -134,9 +134,8 @@ Our background
 
 {% include snippets/two-cols-text-img-begin %}
 
-Crownstone has been originally developed by DoBots, has as seed investor [Almende Investments](http://almende-investments.com), 
-is part of the [Rockstart accelerator](http://www.rockstart.com/blog/rockstart-introduces-participants-of-2016-smart-energy-accelerator), 
-and launched as a company on the 20th of May 2016.
+Crownstone is developing smart home electronics in firmware for more than 5 years (founded in 2016).
+Its seed investor is Almende Investments.
 
 {% include snippets/two-cols-text-img-end img='/images/origins.png' img-alt='origins' %}
 
@@ -144,7 +143,7 @@ and launched as a company on the 20th of May 2016.
 {% include snippets/row-begin %}
 {% include snippets/column-begin colsize="12" %}
 
-We have a very transparent manner of operation. A lot of information about us can be found online, such as the [Kickstarter](https://www.kickstarter.com/projects/dobots/crownstone) 
+We have a very transparent manner of operation. A lot of information about us can be found online, such as the [Kickstarter](https://www.kickstarter.com/projects/dobots/crownstone)
 where we raised over 70.000 euros for the Crownstones, our [blog]({{ BASE_PATH }}/blog), where we give you a lot of insight into our projects, and our [Github repositories](https://github.com/crownstone).
 
 {% include snippets/column-end %}

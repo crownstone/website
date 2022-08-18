@@ -11,7 +11,7 @@ kramdown:
 where-to-buy:
   - slogan: Ga naar de Crownstone webshop
     image: /images/builtin-box-10
-    link: "https://shop.crownstone.rocks/?ref=where-to-buy&id=option/"
+    link: https://shop.crownstone.rocks/?ref=where-to-buy&id=option/
   - slogan: Bekijk een Smart Home abonnement
     image: /images/subscription-option
     link: /campaigns/cs-subscription/
@@ -24,13 +24,13 @@ where-to-buy:
 retailers:
   - image: /images/bolcom.jpg
     image-alt: bolcom logo
-    link: "https://www.bol.com/nl/b/crownstone/599519309/"
+    link: https://www.bol.com/nl/b/crownstone/599519309/
   - image: /images/home2link.jpg
     image-alt: home2link logo
-    link: "https://www.home2link.nl/brands/crownstone/"
+    link: https://www.home2link.nl/brands/crownstone/
   - image: /images/slimmedingen.png
     image-alt: slimme dingen logo
-    link: "https://www.slimmedingen.nl/brands/crownstone/"
+    link: https://www.slimmedingen.nl/brands/crownstone/
   - image: /images/retailers.svg
     image-alt: retailers
     link: /will-be-up-soon

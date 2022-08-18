@@ -52,7 +52,7 @@ segments:
 
 {% include JB/setup %}
 
-{% include snippets/orange-top-bar text='Koop rechtstreeks bij <a href="https://shop.crownstone.rocks">ons als fabrikant</a>.' %}
+{% include snippets/orange-top-bar text='Nieuw! <a href="https://crownstone-labs.com">Crownstone Labs</a> ontwerpt uw slimme producten.' %}
 
 {% include snippets/home-banner %}
 

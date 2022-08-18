@@ -19,7 +19,7 @@ The IoT Crownstone allows remote on/off control of any device that is plugged in
 [Flexitricity](https://www.flexitricity.com/en-gb/),
 [Kiwi Power](https://www.kiwipowered.com/) are active.
 
-The residential market is an important one according to Peppler, working at Ashden, a non-profit in favor of carbon reduction ([source](https://thefuturescentre.org/articles/3360/how-demand-aggregators-are-flexing-energy-system)).
+The residential market is an important one according to a spokesman at [Ashden](https://ashden.org/), a non-profit in favor of carbon reduction.
 
 <div class="bubble-list">
 	<div class="bubble-right clearfix">
@@ -27,7 +27,7 @@ The residential market is an important one according to Peppler, working at Ashd
 		<div class="bubble-content">
 			<div class="point"></div>
 			<p>
-The key thing is making the hardware cheaper. Once you get time and variable pricing I don't see why this can't break into the domestic market. 
+The key thing is making the hardware cheaper. Once you get time and variable pricing I don't see why this can't break into the domestic market.
 			</p>	
 		</div>
 	</div>

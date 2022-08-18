@@ -98,11 +98,11 @@ Recommended cards:
 
 ### Installing HACS
 
-Follow these [instructions](https://hacs.xyz/docs/installation/installation) for the type of Home Assistant you are running.
+Follow the instructions on the [HACS website](https://hacs.xyz/) for the type of Home Assistant you are running.
 
 ### Enabling HACS
 
-Go to this [page](https://hacs.xyz/docs/configuration/basic) and follow the instructions. This action requires a GitHub account. If you don’t have a GitHub account yet, you can sign up [here](https://github.com/join?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F&source=header-home). Make sure your browser cache for the Home Assistant page is cleared, otherwise HACS might not show up.
+Go to this [page](https://hacs.xyz/docs/configuration/basic) to configure and enable HACS. This action requires a GitHub account. If you don’t have a GitHub account yet, you can sign up [here](https://github.com/join?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F&source=header-home). Make sure your browser cache for the Home Assistant page is cleared, otherwise HACS might not show up.
 
 ### Adding the Crownstone integration in HACS
 
