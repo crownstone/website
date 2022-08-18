@@ -80,7 +80,7 @@ Crownstones can distinguish devices based on a “footprint” of current and vo
 
 It is possible to infer from Bluetooth disturbances alone that there are people around, magic! If you want to learn a lot about state-of-the-art signal processing, this is your project!
 
-{% include snippets/internship-end pdf-link=https://docs.google.com/document/d/1ueT68ln1fLUbdVk4uW5Ohai09G7xjJr3o504Dlv_J2U/export?format=pdf %}
+{% include snippets/internship-end pdf-link='https://docs.google.com/document/d/1ueT68ln1fLUbdVk4uW5Ohai09G7xjJr3o504Dlv_J2U/export?format=pdf' %}
 
 
 
