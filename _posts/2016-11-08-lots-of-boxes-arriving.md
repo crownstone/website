@@ -37,7 +37,7 @@ If you like to be involved in this process, drop us a line of course! We will do
 ![Built-in Crownstone]({{ site.url }}/attachments/builtin-crownstone-view2.jpg "Built-in Crownstone"){: .float-left width="42%" style="margin:4%"}
 ![Built-in Crownstone]({{ site.url }}/attachments/builtin-crownstone-view3.jpg "Built-in Crownstone"){: .float-right width="42%" style="margin:4%"}
 
- You see that the shape has been slightly adapted from the first [development items](https://shop.crownstone.rocks/products/development-kit-with-six-built-in-crownstones) to accommodate for both the relays and the X2 capacitor. The thickness is one of the most important design considerations (besides of course fitting in the junction box). By having the relay and the capacitor on their side we're able to reach a thinness of only 14 mm (1 mm less than the 15 mm we anticipated)!
+ You see that the shape has been slightly adapted from the first development items to accommodate for both the relays and the X2 capacitor. The thickness is one of the most important design considerations (besides of course fitting in the junction box). By having the relay and the capacitor on their side we're able to reach a thinness of only 14 mm (1 mm less than the 15 mm we anticipated)!
 
 ## Action!
 

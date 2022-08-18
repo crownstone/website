@@ -16,7 +16,7 @@ Friends! If we tell others of our achievements or if we can compete with them, t
 
 ## Sportopia
 
-The application developed by Kevin Groen, Aster Schultz, and Dennis Reep is called Sportopia and is available on [Google Play](https://play.google.com/store/apps/details?id=alm.motiv.AlmendeMotivator). It hooks up to your Facebook contacts, so it nicely integrates with your social network. It then enables you to send so-called challenges to your friends. For example, you can ask your roommate to get beer from the supermarket. A perhaps questionable activity with respect to exercise overall, but an activity nevertheless! As proof you can ask for evidence in the form of pictures. In the meantime you can try to motivate him with text messages.
+The application developed by Kevin Groen, Aster Schultz, and Dennis Reep is called Sportopia. It hooks up to your Facebook contacts, so it nicely integrates with your social network. It then enables you to send so-called challenges to your friends. For example, you can ask your roommate to get beer from the supermarket. A perhaps questionable activity with respect to exercise overall, but an activity nevertheless! As proof you can ask for evidence in the form of pictures. In the meantime you can try to motivate him with text messages.
 
 ![Sportopia Friends]({{ site.url }}/attachments/friends.png){: style="width: 300px"}
 ![Sportopia Challenges]({{ site.url }}/attachments/challenges.png){: style="width: 300px"}

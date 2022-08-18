@@ -43,8 +43,6 @@ To explain how inference proceeds is something for another blog post (check the 
 
 An illustrative example is from Del Pero et al. in [Understanding bayesian rooms using composite 3d object models](http://www.cv-foundation.org/openaccess/content_cvpr_2013/papers/Del_Pero_Understanding_Bayesian_Rooms_2013_CVPR_paper.pdf):
 
-![Chairs]({{ site.url }}/slides/abs14/images/delpero.png "Chairs")`
-
 One of the chairs you can see very well, but the other is occluded by the table. To perform inference over this structure requires a presentation of a chair and the ability of reasoning over multiple of those composed objects. Only then it becomes feasible to infer the full chair behind this table.
 
 Another example is speaker diarization. Imagine an organized meeting, there are people talking, supposedly not at the same time, but sequentially. How do we perform inference on the number of speakers present and how can we build an inference engine that benefits from Bob talking at time $$t[0] \cdots t[30]$$, and him talking at time $$t[120] \cdots t[180]$$? The system should all the time improve from Bob talking!

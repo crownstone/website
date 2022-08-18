@@ -90,5 +90,5 @@ The full source code is available online on [GitHub](https://github.com/wouterbu
 
 [^1]: Michael Montemerlo, Sebastian Thrun, Daphne Koller, and Ben Wegbreit. FastSLAM: A factored solution to the simultaneous localization and mapping problem. Proc. of 8th National Conference on Artificial Intelligence/14th Conference on Innovative Applications of Artificial Intelligence, 68(2):593–598, 2002.
 [^2]: Neil Zhao. Full-featured pedometer design realized with 3-Axis digital accelerometer. Analog Dialogue, 44(6), 2010.
-[^3]: Sébastien Ménigot. Pedometer in HTML5 for Firefox OS and Firefox for Android, 2014. [source](http://sebastien.menigot.free.fr/index.php?option=com_content&view=article&id=93:pedometer-in-html5-&catid=46:web-application-for-firefox-os&Itemid=82)
+[^3]: Sébastien Ménigot. Pedometer in HTML5 for Firefox OS and Firefox for Android, 2014.
 [^4]: Dali Sun, Alexander Kleiner, and Thomas M. Wendt. Multi-robot range-only SLAM by active sensor nodes for urban search and rescue. In Robocup 2008: Robot Soccer World Cup XII, volume 5399, pages 318–330, 2009.

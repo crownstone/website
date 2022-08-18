@@ -10,8 +10,7 @@ tags: ["localization", "slam"]
 
 # Localization
 
-This is a follow-up on the earlier post about
-[SLAM]({{site.url}}/2012/02/28/a-brief-story-of-slam/). Localization
+This is a follow-up on the earlier post about SLAM Localization
 is inherent to SLAM if the system is working perfectly, but that usually requires
 expensive sensors like laser range finders and lots of computing power. As we
 envision cheap and expendable robots, we would like to know whether reliable

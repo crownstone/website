@@ -77,8 +77,6 @@ advisors-gallery:
     twitter: "berendor"
     report:
       title: "Berend Olde Rikkert heeft ruime ervaring in de energiesector als vice president Energy and Utilities zowel bij Capgemini als bij het succesvolle bedrijf"
-      link-text: "Quby."
-      link: https://www.quby.com
 core-team-gallery:
   - image: "annevanrossum.jpg"
     name: "Anne van Rossum"

@@ -97,10 +97,9 @@ before "the robots take over".
 
 A global perspective on our smart homes, our privacy, upcoming artificial intelligence, and what this means for us:
 
-
 * [Facebook](https://www.buzzfeednews.com/article/katienotopoulos/facebook-advertisers-data-brokers-car-dealerships) who has your data!?
 * Starting the 1st of July, Dutch companies are obligated to use LED lights. The [motion](https://www.tweedekamer.nl/kamerstukken/brieven_regering/detail?id=2018Z20512&did=2018D53429) cites a reduction of 0.9 megaton CO2.
-* [Xcel Energy](https://finance.yahoo.com/news/xcel-energy-end-coal-upper-154800947.html) (3.3M customers) closes two coal plants. 
+* [Xcel Energy](https://www.xcelenergy.com/) (3.3M customers) closes two coal plants.
 * [Heat pumps](https://radar.avrotros.nl/uitzendingen/gemist/item/tv-uitzending-25-02-2019/) in the Dutch tv-program Radar got a very bad vibe, but was that 
 [justified](https://www.vakbladwarmtepompen.nl/projecten/artikel/2019/03/warmtepompgebruiker-bij-radar-wat-ging-er-mis-1014414)?
 * [Delete Facebook](https://github.com/weskerfoot/DeleteFB) posts with a Selenium script.
@@ -109,8 +108,3 @@ A global perspective on our smart homes, our privacy, upcoming artificial intell
 * A new documentary on the first smartphone, [General Magic](https://hyperallergic.com/500449/general-magic-documentary-smartphone-apple-silicon-valley/), which flopped spectacularly.
 * [Ian Bicking](https://www.ianbicking.org/blog/2019/04/users-want-control-is-a-shrug.html) on what privacy actually means for different people.
 
-# Meet us
-
-Reserve the 7th of June in your calendar for our yearly [meetup](https://www.meetup.com/Smart-Home-Bluetooth-Hackerspace/events/256744310/).
-There's free food and beer and it's the perfect opportunity to get hands-on experience with smart home tech!
-Also a warm welcome to Teresa who will work on making sure that our smart homes find their new users!

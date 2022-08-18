@@ -1,5 +1,5 @@
 {
-    "aliveStatusCodes": [200, 206, 0],
+    "aliveStatusCodes": [200, 206, 0, 999],
     "projectBaseUrl": "https://crownstone.rocks",
     "replacementPatterns": [
         {
@@ -24,13 +24,17 @@
             "pattern": "^#.*$"
         },
         {
-            "pattern": "^https://linkedin.com/company/crownstone"
+            "pattern": "https://linkedin.com/company/*"
         },
         {
-            "pattern": "^https://www.crunchbase.com/organization/crownstone"
+            "pattern": "https://www.crunchbase.com/*"
         },
         {
-            "pattern": "https://www.kickstarter.com/projects/dobots/crownstone"
+            "pattern": "https://www.kickstarter.com/*"
+        },
+        {
+            "pattern": "https://trends.google.com/*"
         }
+
     ]
 }

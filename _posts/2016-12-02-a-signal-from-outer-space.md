@@ -22,8 +22,8 @@ An interesting example of communicating with another form of intelligence can be
 ## Bluetooth Signals
 
  The Crownstones receive Bluetooth Low Energy (BLE) messages on a frequency of 2.4 GHz. This is the same frequency as WiFi (although nowadays you also have 5 GHz routers). To snoop up BLE messages we use the so-called 
-[Ubertooth](https://hakshop.com/products/ubertooth-one). We namely encountered strange behavior in the arrival frequency of BLE messages from Crownstones configured as 
-[Eddystones (Google beacon)](https://developers.google.com/beacons/) 
+[Ubertooth](https://hakshop.com/products/ubertooth-one). We namely encountered strange behavior in the arrival frequency of BLE messages from Crownstones configured as
+Eddystones (Google beacons)
 versus the ones configured as full Crownstones. So, Ubertooth to the rescue! Let's see how these things communicate!
 
 ![Ubertooth]({{ site.url }}/attachments/ubertooth-device.jpg "Ubertooth device"){: .float-left width="42%" style="margin:4%"}
@@ -53,10 +53,11 @@ The first 100 Crownstones we have assembled at our office! We namely need to obt
 ## Installation Signals!
 
  A few of the very early backers are currently testing Crownstones at home, to make sure we will offer you all the best experience possible! For the plugs this will be relatively simple. However, if you have ordered built-in Crownstones we can imagine that you like to get some installation advice!
- We are working together with 
-[ConComCow](http://www.concomcow.nl/) 
-to realize a part of the Real Life Learning roadmap for students at 
-[Human Technology van het Techniek College Rotterdam](https://www.techniekcollegerotterdam.nl/maakindustrie-bouwen-wonen/opleiding/technicus-human-technology). Our society needs to train people to obtain a combination of social and technical skills! We call this the "social mechanic" (sociale monteur). It is frustrating to have a technician coming to your home who doesn't actually address the real problem you have!
+ We are working together with
+[ConComCow](http://www.concomcow.nl/)
+to realize a part of the Real Life Learning roadmap for students at
+[Techniek College Rotterdam](https://www.techniekcollegerotterdam.nl/).
+Our society needs to train people to obtain a combination of social and technical skills! We call this the "social mechanic" (sociale monteur). It is frustrating to have a technician coming to your home who doesn't actually address the real problem you have!
 
 <p style="text-align: center">
 <a href="mailto:team@crownstone.rocks?subject=I like to get free installation advice" class="button-link" style="display: inline-block; margin-left: auto; margin-right: auto">I like to get free installation advice!</a>
@@ -69,9 +70,7 @@ to realize a part of the Real Life Learning roadmap for students at
 
 ## Hacking Signals!
 
- Our 
-[monthly hackerspace](https://www.meetup.com/Smart-Home-Bluetooth-Hackerspace/) 
-event is cool, but we decided that this time we wanted to be participants! Hence, we joined the 
+We joined the 
 [Robots at your Service hackathon](https://robots.devpost.com/). A 48-hour hackathon that inspires people to think about technology in the life of the elderly. After listening to 80 year olds complaining about tech in their lives, we knew what to do! Let them punch these useless robots! The 
 [FrustyBot](https://devpost.com/software/frustybot)
 was born! Hit the shapeless robot on a string and when your frustration boils over, it will helpfully reach out to a friendly human to guide you through yet another app on your swipe machine ("veegmachine" as one of the elderly eloquently baptized the smartphone).

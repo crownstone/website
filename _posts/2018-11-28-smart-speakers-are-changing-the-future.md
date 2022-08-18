@@ -25,7 +25,7 @@ Recently a device came on the market that is selling extremely well, namely the 
 
 ![]({{site.url}}/attachments/blog/smart_speaker_reach.png)
 
-If you're living in Europe, the offering of this type of technology is slower, but it just lags. The different languages are hurdles for the technology. However, these are just minor bumps. If you understand Dutch, check the [last talk at this Tweakers meetup](https://tweakers.net/plan/1179/bekijk-hier-de-talks-terug-van-de-meet-up-smarthome-in-eindhoven.html) to see how - for a different language - only a small part of a deep neural net needs to be retrained. Case in point, Google Home is now [available](https://www.coolblue.nl/en/product/803578/google-home.html) in the Netherlands.
+If you're living in Europe, the offering of this type of technology is slower, but it just lags. The different languages are hurdles for the technology. However, these are just minor bumps. If you understand Dutch, check the [last talk at this Tweakers meetup](https://tweakers.net/plan/1179/bekijk-hier-de-talks-terug-van-de-meet-up-smarthome-in-eindhoven.html) to see how - for a different language - only a small part of a deep neural net needs to be retrained. Case in point, Google Home is now (2018) available in the Netherlands.
 
 What's next?
 ============
@@ -39,8 +39,8 @@ Smart speakers are a key enabling technology for smart homes. The trend for incr
 Smart Home Voices
 =================
 
-Amazon is one of the key players in smart speakers. Alexa [fits](https://marketingland.com/amazons-alexa-finds-its-business-model-in-skill-purchases-248948) its business model like a glove. Customer contact without relying on a search engine or someone else's app store. Crownstone's indoor positioning tech is a perfect add-on to voice tech (or from our perspective: it's of course the other way around).  
-  
+Amazon is one of the key players in smart speakers. Alexa [fits](https://marketingland.com/amazons-alexa-finds-its-business-model-in-skill-purchases-248948) its business model like a glove. Customer contact without relying on a search engine or someone else's app store. Crownstone's indoor positioning tech is a perfect add-on to voice tech (or from our perspective: it's of course the other way around).
+
 Now, if your Alexa is configured for the UK you're in luck! We enabled the Alexa skill for our English-speaking customers in Europe. You can help us as well! We need German, French, and Spanish text translations and the skill will also become available in those countries. The open-source code (and the text to be translated) can be found at [Github](https://github.com/crownstone/crownstone-alexa).
 
 ![]({{site.url}}/attachments/blog/alexa_store.png)
@@ -63,5 +63,5 @@ A global perspective on smart homes, artificial intelligence, and what this mean
 Meet us!
 ========
 
-If you're curious what our smart home tech might mean for you, contact us! In January we will be in the United States, Las Vegas at CES 2019. [Add us](https://ces19.mapyourshow.com/7_0/exhibitor/exhibitor-details.cfm?ExhID=T0000336) to your schedule for a demo with super cool new functions! Also, drop Anne a message if you're in the Bay Area. In March we will be at Jaarbeurs Utecht, the Netherlands at [Beurs Eigen Huis](https://www.realiseerjedroomhuis.nl/voorjaarseditie-2019/). And, for any question [Slack](https://crownstone.slack.com/) us!
+If you're curious what our smart home tech might mean for you, contact us! In January we will be in the United States, Las Vegas at CES 2019. Add us to your schedule for a demo with super cool new functions! Also, drop Anne a message if you're in the Bay Area. In March we will be at Jaarbeurs Utecht, the Netherlands at Beurs Eigen Huis. And, for any question [Slack](https://crownstone.slack.com/) us!
 

@@ -3,7 +3,7 @@ layout: post
 title: "Why is engineering of the utmost importance?"
 description: "Good electrical engineering is an art."
 tags: []
-author: 
+author: annevanrossum
 ---
 {% include JB/setup %}
 
@@ -39,9 +39,4 @@ Here you see the first samples at the left and the current samples at the right.
 ## Shipping
 
 Of course you're all curious when we will ship! We want to be 100% sure that our product is 100% perfect. This means that there should be nothing in the hardware that we didn't anticipate! One of our competitors (although without our unique selling point of presence detection due to the use of Wi-Fi, not Bluetooth), [Parce](http://www.parce.de/en/), had to recall all their products, a warning tale! So, be prepared to receive them soon, but we won't overhaste in sending them out.
-
-## Engage!
-
-Come to our monthly hackerspace to get to know us! Just out of work you can drop by at Rotterdam Central Station tomorrow. [Join our Hackerspace!](www.meetup.com/Smart-Home-Bluetooth-Hackerspace/) You'll discover how the app will look like for example! We're happy we're approaching the end of our product development. It's been a crazy time and we're grateful you've been with us along the journey!
- 
    

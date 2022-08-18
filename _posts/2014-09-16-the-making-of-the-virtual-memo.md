@@ -10,9 +10,8 @@ author: annevanrossum
 
 # Virtual Memo
 
-The virtual memo (or "virtuele memo") is a gadget created by a group of companies for the [Wots](http://wots.nl) 
-conference. On the moment you can read a bit more on the [Wots page](http://wots.nl/gadget-virtuele-memo/), but 
-those websites tend to be removed after the event, so this blog post will be a sticky reference to what this thing is
+The virtual memo (or "virtuele memo") is a gadget created by a group of companies for the [Wots](http://wots.nl)
+conference. This blog post will be a sticky reference to what this thing is
 about and what you can do with it.
 
 ![Memo logo]({{ site.url }}/attachments/memo_logo.jpg){: .float-right style="width: 500px"}

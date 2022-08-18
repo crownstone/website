@@ -58,10 +58,8 @@ Just think of the possibilities and advantages!
   * Getting coffee for colleagues becomes a breeze
   * No germ spreading through coffee machine buttons
   * Pretty, identifying RFID tags on every cup (dishwasher-proof of course)
-  * Maybe even [find the cup when it is lost](http://soft.vub.ac.be/soft/edu/thesis/proposals1213/thingdb)
-  * Automatic statistics gathered by the [Arduino & RFID reader in the coffee machine](http://andrewbrobinson.com/2011/12/27
-/hacking-the-keurig-b40-coffee-maker-part-1-hardware/)
-
+  * Maybe even find the cup when it is lost
+  * Automatic statistics gathered by the Arduino & RFID reader in the coffee machine
   * Connect it to a webserver and have a live coffee consumption leaderboard
   * Automatic machine status messages and requests for refilling, etc. The coffee machine becomes a truly autonomous entity!
   * Overrule standard settings for a particular cup through the internet or coffee machine interface. Use machine learning to predict and learn these deviations.

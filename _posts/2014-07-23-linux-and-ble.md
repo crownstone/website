@@ -19,11 +19,11 @@ On Android you definitely need the [nRF Master Control Panel](https://play.googl
 
 ## iOS
 
-A convenient tool on iOS is [BLE Utility](https://itunes.apple.com/us/app/ble-utility/id606210918?mt=8). It is graphical nice and clean and it shows all services and characteristics you need. You can easily set a characteristic that you have defined yourself on a custom BLE device.
+A convenient tool on iOS is the app "BLE Utility". It is graphical nice and clean and it shows all services and characteristics you need. You can easily set a characteristic that you have defined yourself on a custom BLE device.
 
 ## Ubuntu
 
-There are plenty of BLE dongles you can buy if your laptop (or raspberry pi) does not support Bluetooth Low-Energy, Bluetooth 4, Bluetooth Smart, or iBeacon (whatever they call it nowadays) out of the box. We ordered a few at [MiniInTheBox](http://www.miniinthebox.com/nl/3mbps-bluetooth-mvo-usb-dongle-met-20m-werkbereik_p367687.html) that have [CSR](http://www.csr.com/products/technology/low-energy) (Cambridge Silicon Radio) as label.
+There are plenty of BLE dongles you can buy if your laptop (or raspberry pi) does not support Bluetooth Low-Energy, Bluetooth 4, Bluetooth Smart, or iBeacon (whatever they call it nowadays) out of the box. We ordered a few at the well-known online shops.
 
 Type in `hciconfig` before and after you plug in the new dongle.
 

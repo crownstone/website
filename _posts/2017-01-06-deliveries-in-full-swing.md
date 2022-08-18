@@ -25,11 +25,8 @@ To be able to properly answer questions, we have created an [app-help page](http
 
 ## Nordic at CES
 
-Currently [Nordic](https://www.nordicsemi.com/eng/Events/CES-2017) is at [CES in Las Vegas](http://www.ces.tech/) (Consumer Electronics Show) featuring a wide range of products that uses their nRF51 and nRF52 series (the chip that's in the Crownstone). In hindsight it is logical that a wireless technology that is present on the smartphone will become ubiquitous, but now it became reality! Crownstone has a special place right in the center. A few builtin Crownstones are switched by an [EnOcean](https://www.enocean.com/en/) switch (using Dolphin energy harvesting). You can see that the switch is not attached to anything, moreover, it does not have a battery either! If you happen to be in Las Vegas, drop us a message! 
+Currently [Nordic](https://www.nordicsemi.com/) is at [CES in Las Vegas](http://www.ces.tech/) (Consumer Electronics Show) featuring a wide range of products that uses their nRF51 and nRF52 series (the chip that's in the Crownstone). In hindsight it is logical that a wireless technology that is present on the smartphone will become ubiquitous, but now it became reality! Crownstone has a special place right in the center. A few builtin Crownstones are switched by an [EnOcean](https://www.enocean.com/en/) switch (using Dolphin energy harvesting). You can see that the switch is not attached to anything, moreover, it does not have a battery either! If you happen to be in Las Vegas, drop us a message! 
 
 ![Nordic at CES]({{ site.url }}/attachments/nordic-ces0.jpg "Nordic at CES"){: .float-left width="42%" style="margin:4%"}
 ![Nordic at CES]({{ site.url }}/attachments/nordic-ces1.jpg "Nordic at CES"){: .float-right width="42%" style="margin:4%"}
 
-## Welcome!
-
-Every first Friday in the month, also this month, there is a [meetup](https://www.meetup.com/Smart-Home-Bluetooth-Hackerspace/) hosted by us! If you want to know more about smart homes this might be nice for you. The plan is to talk a little bit about hacking, a bit about the future (privacy for example), and a bit about artificial intelligence. Naturally there will be plenty of time to play with the Crownstones! 

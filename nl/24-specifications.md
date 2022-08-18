@@ -36,10 +36,9 @@ permalink: specifications/
 | Open-source                                   | Software beschikbaar op <https://github.com/crownstone>       |
 | Mobiele telefoons                             | Gratis consumenten app: iOS en Android                        |
 | Mobiele bibliotheken                          | Beschikbaar: iOS en Android                                   |
-| Variant: Crownstone plug                      | <https://shop.crownstone.rocks/products/crownstone-plugs>     |
 | Variant: Crownstone Builtin One               | <https://shop.crownstone.rocks/products/built-in-crownstone>  |
 
 Dit is een lijst met de meest standaard eigenschappen.
-Kijk ook op de 
+Kijk ook op de
 [technologie pagina]( {{ site.url }}/technology-consumer)
 voor meer geavanceerde features die automatisch beschikbaar komen.

@@ -13,8 +13,11 @@ author: annevanrossum
 
 What would a smart energy contract look like? At Qurrent (the utility company) a [Hackathon](https://hackathon.qurrent.nl/?href=crownstone) is organized by [Qurrent](https://www.qurrent.nl/) itself and [Label A](https://labela.nl/) that is exactly meant to answer this question. One interesting point you might have not considered is consumer protection. In a lot of situations the [ACM](https://www.acm.nl/en/) (consumer protection agency) in the Netherlands allows people to cancel their contract if there is a price change. Now, assume the price changes each hour due to wind and sun. Providers that give you these benefits suddenly are at a disadvantage with respect to utilities that are less environmentally friendly! Make sure you sign up fast, or they might run out of spots.
 
-The prize to win! A nice 10.000 kWh per team. Nice energy to do some altcoin mining. :-) [Join our hackerspace meetup](https://www.meetup.com/Smart-Home-Bluetooth-Hackerspace/events/241340315/) to - eventually - prepare for this hackathon. If you already know how to control the Crownstones, you can even quicker come up with smart energy-related applications!
-Plenty of updates!
+The prize to win! A nice 10.000 kWh per team. Nice energy to do some altcoin mining. :-)
+
+
+# Plenty of updates!
+
 There has been quite some progress in the software development, firmware as well as app. The behavior is now easy accessible. Moreover, it is possible to set a timer. Stay tuned for more!
 
 ![Screenshot schedule]({{site.url}}/attachments/screenshot-schedule.jpg)
@@ -24,7 +27,7 @@ Android will have a significant update next week. We already got nice feedback a
 
 ## Webinar for installers
 
-Webinar for installers. If you know people who earn their money as installers, point them to this [ISSO webinar](https://isso.nl/updates/nieuws/nieuwsitem/news/isso-organiseert-webinar-over-indoor-locatiebepaling/) (September 12 at 12 o'clock). Anne will explain indoor localization and other things around smart homes that are relevant to the installer.
+Webinar for installers. If you know people who earn their money as installers, there's an ISSO webinar (September 12 at 12 o'clock). Anne will explain indoor localization and other things around smart homes that are relevant to the installer.
 
 ## Interesting stuff in the world
 

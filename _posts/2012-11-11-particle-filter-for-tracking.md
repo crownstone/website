@@ -33,6 +33,6 @@ decomposition depending on the coffee quantity in the morning.
 {% youtube LmxHQdzytRw %}
 
 For other algorithms do also not hesitate to visit the website
-[NETS](http://almende.github.com/nets/) dedicated to algorithms only!
+[NETS](https://github.com/almende) dedicated to algorithms only!
 
 

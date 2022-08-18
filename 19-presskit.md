@@ -43,7 +43,7 @@ International:
 
 * "Sockets and Light Switches Follow You in House with Crownstone", 2019, Smarthome Magazine
 * "Crownstone Plugs für Indoor Localization und Building Automation", 2018, [Home & Smart](https://www.homeandsmart.de/crownstone-plug-indoor-localisation).
-* "Switch to a Smarter Future", 2018, [Hannover Messe](https://www.hannovermesse.de/en/news/news-details_80642-504194.xhtml)
+* "Switch to a Smarter Future", 2018, Hannover Messe
 * "CES 2018: Tech Preview of the Show's Coolest New Products", 2018, [BBC News](https://www.bbc.com/news/technology-42574569)
 * "Crownstone: Plug-and-play indoor positioning", 2017 [ENGIE](https://innovation.engie.com/en/news/news/smart-buildings/crownstone-plug-and-play-indoor-positioning/8237)
 * "Indoor localization with the Internet of Things", 2017, [shared press release together with EnOcean](https://crownstone.rocks/attachments/PressReleaseCrownstoneEnOcean.pdf).
@@ -60,7 +60,7 @@ National:
 * "Nederlandse start-up introduceert module om stopcontacten slim te maken", Olaf van Miltenburg, 2015, [Tweakers](https://tweakers.net/nieuws/105284/nederlandse-start-up-introduceert-module-om-stopcontacten-slim-te-maken.html).
 * "Rotterdammers lanceren 'slim' stopcontact Crownstone", 2015, [nu.nl](http://www.nu.nl/gadgets/4126449/rotterdammers-lanceren-slim-stopcontact-crownstone.html).
 * "Slimmer huis dankzij een stekker", Samira Himmit, 2016, [NRC](https://www.nrc.nl/nieuws/2016/12/15/slimmer-huis-dankzij-een-stekker-5780952-a1536988).
-* "Smart Industry in de praktijk: DoBots lanceert slim stopcontact op Kickstarter", 2015, [smartindustry.nl](https://www.smartindustry.nl/nieuws/smart-industry-in-de-praktijk-dobots-lanceert-slim-stopcontact-op-kickstarter/).
+* "Smart Industry in de praktijk: DoBots lanceert slim stopcontact op Kickstarter", 2015, smartindustry.nl
 * "Crownstone: slim stopcontact maakt van jouw huis een smart home", Sophie de Kok, 2015, [dutchcowboys.nl](http://www.dutchcowboys.nl/technology/crownstone-slim-stopcontact-maakt-van-jouw-huis-een-smarthome).
 * "Crownstone: met dit slimme stopcontact kun je energie besparen in huis", 2015 [businessinsider.nl](https://www.businessinsider.nl/crownstone-met-dit-slimme-stopcontact-kun-je-energie-besparen-in-huis-491717/).
 * "Crownstone: een simpele oplossing voor een slimmer huis", 2015, fme

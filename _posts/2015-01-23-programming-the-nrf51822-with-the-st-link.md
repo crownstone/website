@@ -12,7 +12,7 @@ tags: [nrf51822, bluetooth low energy]
 
 If your device has a connector that is meant for The Segger JLink programmer, you can find the pin layout at
 <https://www.segger.com/jlink-adapters.html#CM_9pin>. The default programmer with the Nordic development kit comes with
-the J-Link 9-pin Cortex-M adapter. 
+the J-Link 9-pin Cortex-M adapter.
 
 The ones that you will need to break out are four wires that at the top:
 
@@ -26,7 +26,7 @@ The first one is optional! It does not provide power, it is used to **measure** 
 # ST-Link programmer
 
 The ST-Link programmer is not easy obtainable, just as the J-Link programmer is actually hard to come by as a separate
-product. 
+product.
 
 For that reason it is worth to check into the STM32FDISCOVERY board. You can get the [STM32FDISCOVERY at Mouser](http://no.mouser.com/ProductDetail/STMicroelectronics/STM32F4DISCOVERY/?qs=J2qbEwLrpCGdWLY96ibNeQ%3D%3D) for € 13,47. This board is anyway fun, it has a
 lot of GPIO (pins) and it has an ST-Link on-board.
@@ -51,10 +51,9 @@ connect it:
 Use something like a logic analyzer to see if you do things wrong. This is a very, very useful tool that can save you
 a lot of time.
 
-# Scripts
+# Programming
 
-Normally the Crownstone we program with the J-Link from Segger, but if you want to use this cheaper solution, we also
-created some files for you at the [BlueNet repository at github](https://github.com/dobots/bluenet/tree/master/scripts).
+The Crownstone we program with the J-Link from Segger. Read how to do this at the [Bluenet repository at github](https://github.com/crownstone/bluenet).
 
 ## Combination
 
@@ -85,13 +84,13 @@ Download fom github and compile the source:
     git clone https://github.com/ntfreak/openocd
     sudo aptitude install libtool automake libusb-1.0-0-dev expect
     cd openocd
-    ./bootstrap 
+    ./bootstrap
     ./configure --enable-stlink
     make
     sudo make install
 
-You will see that there are several files on [github](https://github.com/dobots/bluenet/tree/master/scripts/openocd) 
-that you can use. There is a `49-stlinkv2.rules` file that you can use for `udev` so that no superuser rights are 
+You will see that there are several files on [github](https://github.com/crownstone/bluenet/tree/d1e370ac968849a7544791a07706b9172e566af0/source/scripts/openocd)
+that you can use (note that this is old, 2019). There is a `49-stlinkv2.rules` file that you can use for `udev` so that no superuser rights are
 required to use the `ST-Link`. There is also an `openocd.cfg` file that sets the defaults for the hardware we are
 gonna use (the `nrf51` series).
 
@@ -117,6 +116,6 @@ This will upload the binary you have previously composed to the target. Ready yo
 If your target does not have pins to break out UART, it might be worth to first try and start experimenting with the
 RFduino. That board has enough pins broken out, to see what for example the Crownstone code is actually doing. For
 example if you combine a SoftDevice with the wrong bootloader, you will see proper error messages. If you know how
-to hook up `gdb` over OpenOCD, please feel free to file an issue at <https://github.com/dobots/bluenet/> and I will
+to hook up `gdb` over OpenOCD, please feel free to file an issue at <https://github.com/crownstone/bluenet/> and we will
 be happy to update this guide.
 

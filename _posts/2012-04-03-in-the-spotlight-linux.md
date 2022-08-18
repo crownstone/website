@@ -58,7 +58,7 @@ has been invented by Bayer to mimic the physiology of the human retina which
 is more sensitive to green.
 
 The media framework set up by Laurent makes it possible to make an image
-processing pipeline where there is a list of /dev/video* devices with
+processing pipeline where there is a list of `/dev/video*` devices with
 different output. The pipeline can be configured such that one of these
 streams raw images, another monochrome images, and yet another YUYV images.
 
@@ -85,13 +85,10 @@ and the place where the modules will be installed.
     export FIRESWARM_KERNEL_MODULES=${FIRESWARM_KERNEL}/build/modules  
     mkdir -p ${FIRESWARM_KERNEL_MODULES}  
     make ARCH=arm INSTALL_MOD_PATH=${FIRESWARM_KERNEL_MODULES} modules_install
-  
-There are .config files included in the kernel (of course). So you will have
-to browse the webs for something that is usable. For your convenience I put a
-.config here that is build from Sakoman's 3.2 .config version and an
-omap3-overo .config file, plus some changes from ourselves for Linux 3.3:
-[.config](documents/10530/0/.config). You will of course need to check them,
-it might have keyboard/mouse disabled for example. You will benefit from two
+
+There are `.config` files included in the kernel (of course). So you will have
+to browse the webs for something that is usable. 
+You will benefit from two
 utility programs, namely media-ctl and yavta. You can find them at
 [git.ideasonboard.org](http://git.ideasonboard.org).
 

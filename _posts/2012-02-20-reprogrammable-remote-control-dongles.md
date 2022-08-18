@@ -34,7 +34,7 @@ to combine with other coding options, either single chip based or not.
 
 ##  Joybien
 
-In the picture you see the JoyXtix dongle from Joybien [1]. There are three
+In the picture you see the JoyXtix dongle from Joybien. There are three
 ways in which this friendly manufacturer of dongles, based in Taiwan, can open
 up their API for application developers on Android or iPhone:
 
@@ -43,8 +43,4 @@ up their API for application developers on Android or iPhone:
   3. Provide a **programmable device** (the solution of above) that takes input from the headphone output and translates it into hex code for the microcontroller in the dongle. Instead of programming over serial, or over USB, or over Bluetooth, we program this time over audio! This of course is of much more use than only the "dongle industry". Any device attached to a smartphone (via the headphone connector) might profit from reprogrammability by users, which can be over-the-air and even come with its "own app store for smartphone add-ons".
 
 We had the idea first. :-)
-
-
-[1] [http://www.joybien.com/product/Product_JoyXtix.html](http://www.joybien.com/product/Product_JoyXtix.html)
-
 

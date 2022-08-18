@@ -30,7 +30,7 @@ In this picture you see a fancy bike from [Van Moof](https://www.vanmoof.com/en_
 
 Of course, Bluetooth Low-Energy is the solution!
 
-If enough people are walking around it is possible to use all those phones as location sensors. This is the concept behind [Crowd GPS from TrackR](https://www.thetrackr.com/#crowdgps). Every person that is within BLE range of a device that requires tracking can help with finding it!
+If enough people are walking around it is possible to use all those phones as location sensors. This is the concept behind Crowd GPS from TrackR. Every person that is within BLE range of a device that requires tracking can help with finding it!
 
 It doesn't take long to realize that the Crownstones might help with that as well! Imagine the Crowd GPS network we can roll out, awesome! The social consequences of the Crownstones are so plentiful it amazes us all the time how much this technology can work like a catalyst.
 
@@ -38,5 +38,3 @@ It doesn't take long to realize that the Crownstones might help with that as wel
 
 [CES](https://www.ces.tech/) is the biggest consumer electronics fair in the world. As our ardent readers you know we are using the newest Nordic chip on the market as well as contributing to their [OpenMesh code](https://github.com/crownstone/nRF51-ble-bcast-mesh). We are extremely honored to be asked to have our products displayed in their booth in Las Vegas! If you have suggestions about how to make our product the "coolest", don't hesitate to drop us some creative ideas!
 
-If you want to do this in person, our [meetup list](http://meetup.com/Smart-Home-Bluetooth-Hackerspace/) is approaching 100 members, feel free to drop by any Friday!
- 

@@ -22,5 +22,5 @@ For the first prototype I used an [rfd module](http://www.rfduino.com/product/rf
 To keep the prototype a bit small, we used paper with a [silver ink marker](http://agic.cc/) to connect to the battery. The casing is 3D printed and should provide enough protection for the electronics not to be sqeezed.
 
 ## Code
-I slightly modified the code we had for the [crownstone](http://dobots.nl/products/crownstone.html), such that it samples the voltage over the pressure sensor on request and puts the result in another characteristic. The code can be found [here](https://github.com/vliedel/bluenet/tree/vilt).
+I slightly modified the code we had for the Ccrownstone, such that it samples the voltage over the pressure sensor on request and puts the result in another characteristic. The code can be found [here](https://github.com/vliedel/bluenet/tree/vilt).
 

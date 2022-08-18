@@ -81,7 +81,7 @@ A global perspective on our smart homes, our privacy, upcoming artificial intell
 * Ron Wyden, a democratic senator [proposed a bill](https://trofire.com/2019/02/08/democrat-proposes-jail-time-for-tech-companies-who-steal-your-data/) to enforce jail time for tech companies stealing your data.
 * If you run [Home Assistant](https://data.home-assistant.io/) as your smart home platform, there is now a portal for data scientists!
 * An [autonomous startup](https://techcrunch.com/2019/02/11/softbanks-next-bet-940m-into-autonomous-delivery-startup-nuro/), Nuro, raising short of 1 billion euros, in this case to deliver goods at home.
-* The NSA released in a very good open-source reverse engineering framework, [Ghidra](https://www.nsa.gov/resources/everyone/ghidra/). 
+* The NSA released in a very good open-source reverse engineering framework, Ghidra.
 
 # Meet us
 

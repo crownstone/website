@@ -9,7 +9,7 @@ author: bartvanvliet
 
 # I'm Busy: the app that keeps up your status
 
-We made a simple [app](https://play.google.com/store/apps/details?id=nl.dobots.imbusy) that can notify others when you're busy.
+We made a simple app that can notify others when you're busy.
 It's made for elderly people who, for example, don't want to be interrupted while they're in the bathroom.
 
 The app uses Bluetooth Smart beacons (which includes iBeacons) to localize itself. The iBeacon protocol is also
@@ -28,6 +28,6 @@ In order to get your status to friends, we make use of XMPP, since it's a nice p
 For the app, we used [Smack](http://www.igniterealtime.org/projects/smack/index.jsp), which now easily runs on Android (before, you had to use aSmack).
 XMPP sped up development, as it already provides authorization, keeps up contact lists, and synchronizes the status.
 
-To scan for beacons, I used our own [bluenet android library](https://github.com/dobots/bluenet-lib-android).
+To scan for beacons, I used our own [bluenet android library](https://github.com/crownstone/bluenet-android-lib).
 
 And of course, you can find the source code on [GitHub](https://github.com/dobots/imbusy-app).

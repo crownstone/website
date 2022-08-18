@@ -160,7 +160,7 @@ For detailed specifications, see the
 {% include snippets/column-begin colsize="6" %}
 
 <div class="embed-responsive embed-responsive-16by9">
-<iframe class="embed-responsive-item" src="//player.vimeo.com/video/138335017"></iframe>
+<iframe class="embed-responsive-item" src="https://player.vimeo.com/video/138335017"></iframe>
 </div>
 
 {% include snippets/column-end %}
