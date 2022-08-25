@@ -27,7 +27,7 @@ To be able to switch between the different kinds of info, I added a simple push 
 # Video
 In the video you see it all working. As soon as I connect to the Crownstone, the RSSI starts to update. Then I click the button and ask for a sample of the current graph.
 
-{% youtube NiflbCiuCBE %}
+{% youtube JS4tf2v2Wg4?t=85 %}
 
 # Code
 You can find the code I made for the MicroView at our [github](https://github.com/dobots/crownstone-micro-view). And the Crownstone code is available under the [bluenet repository](https://github.com/crownstone/bluenet).
