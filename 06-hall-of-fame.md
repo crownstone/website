@@ -210,6 +210,16 @@ graduate-gallery:
     affiliation: " Utrecht University"
     linkedin: "freek-van-polen-08960719"
 intern-gallery:
+  - image: "iesverhage.jpg"
+    name: "Ies Verhage"
+    affiliation: "Engineering and Applied Science, Hogeschool Rotterdam"
+    report:
+      title: "Power outlet tags"
+  - image: "irfaanbodha.jpg"
+    name: "Irfaan Bodha"
+    affiliation: "Engineering and Applied Science, Hogeschool Rotterdam"
+    report:
+      title: "Three-phase power monitoring"
   - image: "danielvanderdrift.jpg"
     name: "Daniel van der Drift"
     affiliation: "Technische Informatica, Hogeschool Rotterdam"

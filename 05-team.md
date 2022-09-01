@@ -22,16 +22,21 @@ graduates-gallery:
     report:
       title: "In-network localization"
 intern-gallery:
-  - image: "iesverhage.jpg"
-    name: "Ies Verhage"
+  - image: "pietertenvelde.png"
+    name: "Pieter ten Velde"
     affiliation: "Engineering and Applied Science, Hogeschool Rotterdam"
     report:
-      title: "Power outlet tags"
-  - image: "irfaanbodha.jpg"
-    name: "Irfaan Bodha"
+      title: "IoT Router Hardware"
+  - image: "adilelhaji.jpg"
+    name: "Adil el Haji"
     affiliation: "Engineering and Applied Science, Hogeschool Rotterdam"
     report:
-      title: "Three-phase power monitoring"
+      title: "Solar tags"
+  - image: "ricardosteijn.jpg"
+    name: "Ricardo Steijn"
+    affiliation: "Communicatie, Media en Informatietechnologie, Hogeschool Rotterdam"
+    report:
+      title: "Edge-computing"
 advisors-gallery:
   - image: "janpeterlarsen.png"
     name: "Jan Peter Larsen"
