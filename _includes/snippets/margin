@@ -1,1 +1,5 @@
+{% if include.color-bg %}
+<div class="w-100" style="height: 3.5rem; background: #003e52"> </div>
+{% else %}
 <div class="w-100" style="height: 3.5rem"> </div>
+{% endif %}

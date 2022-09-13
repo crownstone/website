@@ -6,4 +6,4 @@
 <div class="container">
 {% endif %}
 {% endif %}
-<div class="row {{ include.visibility }}">
+<div class="row {{ include.visibility }} {{ include.class }}">
