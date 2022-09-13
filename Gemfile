@@ -16,3 +16,4 @@ end
 gem 'uglifier'
 gem 'rake'
 gem 'rouge'
+gem "webrick", "~> 1.7"
