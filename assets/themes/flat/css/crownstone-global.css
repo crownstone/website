@@ -1890,6 +1890,7 @@ tbody:hover tr:hover td {
 .competitors {
 	max-width: 100%;
 	overflow-x: auto;
+	padding: 40px;
 }
 
 @media screen and (max-width: 590px) {
@@ -1914,6 +1915,11 @@ tbody:hover tr:hover td {
 
 .competitors tr:first-child td:nth-child(n+2) {
 	width: 12%;
+}
+
+.no-margin-row{
+	padding: 0;
+	margin: 0;
 }
 
 /*
