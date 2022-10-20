@@ -132,12 +132,6 @@ core-team-gallery:
     github: "ArrowAcrobatics"
     report:
       title: "Arend has a masters in Mathematics. He'll make sure Crownstone is secure and our algorithms are top-notch."
-  - image: "jeffreystephan.png"
-    name: "Jeffrey Stephan"
-    affiliation: "Business Developer"
-    linkedin: "jeffrey-stephan-a6767a52"
-    report:
-      title: "Jeffrey means business! He'll make sure our solutions will fix your problems!"
 ---
 {% include JB/setup %}
 

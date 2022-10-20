@@ -130,12 +130,6 @@ core-team-gallery:
     github: "ArrowAcrobatics"
     report:
       title: "Arend heeft een master in wiskunde. Hij draagt zorg voor veilige en vooruitstrevende algoritmes!"
-  - image: "jeffreystephan.png"
-    name: "Jeffrey Stephan"
-    affiliation: "Business Developer"
-    linkedin: "jeffrey-stephan-a6767a52"
-    report:
-      title: "Jeffrey betekent zaken! Hij zorgt ervoor dat onze oplossingen daadwerkelijk jouw problemen oplossen!"
 ---
 {% include JB/setup %}
 
