@@ -4,7 +4,7 @@
  <title>Crownstone</title>
  <link href="https://crownstone.rocks/nl/" rel="self"/>
  <link href="https://crownstone.rocks"/>
- <updated>2022-11-23T12:14:39+00:00</updated>
+ <updated>2023-02-16T15:33:13+00:00</updated>
  <id>https://crownstone.rocks</id>
  <author>
    <name>Crownstone B.V.</name>
@@ -1924,7 +1924,7 @@ next!&lt;/p&gt;
 &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;git clone git@github.com:alexa/alexa-skills-kit-sdk-for-nodejs
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;p&gt;Just a quick note on the side, if you want to copy something from &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;vim&lt;/code&gt;, you can use &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;V&lt;/code&gt; to switch to visual mode and then &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;:'&amp;lt;,'&amp;gt;:w !xclip -se c&lt;/code&gt; to copy it to clipboard.&lt;/p&gt;
+&lt;p&gt;Just a quick note on the side, if you want to copy something from &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;vim&lt;/code&gt;, you can use &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;V&lt;/code&gt; to switch to visual mode and then &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;:&apos;&amp;lt;,&apos;&amp;gt;:w !xclip -se c&lt;/code&gt; to copy it to clipboard.&lt;/p&gt;
 
 &lt;p&gt;In this case we want to create a so-called:&lt;/p&gt;
 
@@ -2297,7 +2297,7 @@ as COO! Alexander has a lot of experience in business development, building orga
 &lt;h1 id=&quot;header-engineering&quot;&gt;Engineering!&lt;/h1&gt;
 &lt;p&gt;How important is good engineering actually? We consider it extremely important! Consider this update an ode to the engineer!&lt;/p&gt;
 
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&quot;Manufacturing is more than just putting parts together. It's coming up with ideas, testing principles and perfecting the engineering, as well as final assembly.&quot; 
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&quot;Manufacturing is more than just putting parts together. It&apos;s coming up with ideas, testing principles and perfecting the engineering, as well as final assembly.&quot; 
 	- James Dyson
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
@@ -3703,9 +3703,9 @@ neural network has now learned the XOR function in one step, by only adapting
 the output weights. The next code can be used to visualise this:&lt;/p&gt;
 
 &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;O = S*H; %output
-plot(y,'b*'); %desired output hold on;
-plot(1:T,O(:,1:T),'r.'); %output during learning phase
-hold on; plot(T+1:T+gen,O(:,T+1:T+gen),'g.'); %output during generalisation phase
+plot(y,&apos;b*&apos;); %desired output hold on;
+plot(1:T,O(:,1:T),&apos;r.&apos;); %output during learning phase
+hold on; plot(T+1:T+gen,O(:,T+1:T+gen),&apos;g.&apos;); %output during generalisation phase
 hold off;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
@@ -4252,10 +4252,10 @@ with lsmod for yourself. If you don’t see a &lt;code class=&quot;language-plai
 applied the patch of above. Then after you see the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;/dev/video&lt;/code&gt; devices listed,
 it’s time to make work of the media-ctl utility.&lt;/p&gt;
 
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;./media-ctl -v -l '&quot;mt9v032 3-005c&quot;:0-&amp;gt;&quot;OMAP3 ISP CCDC&quot;:0[1]'  
-./media-ctl -v -l '&quot;OMAP3 ISP CCDC&quot;:1-&amp;gt;&quot;OMAP3 ISP CCDC output&quot;:0[1]'  
-./media-ctl -v -f '&quot;mt9v032 3-005c&quot;:0 [SGRBG10 752x480]'  
-./media-ctl -v -f '&quot;OMAP3 ISP CCDC&quot;:1 [SGRBG10 752x480]'
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;./media-ctl -v -l &apos;&quot;mt9v032 3-005c&quot;:0-&amp;gt;&quot;OMAP3 ISP CCDC&quot;:0[1]&apos;  
+./media-ctl -v -l &apos;&quot;OMAP3 ISP CCDC&quot;:1-&amp;gt;&quot;OMAP3 ISP CCDC output&quot;:0[1]&apos;  
+./media-ctl -v -f &apos;&quot;mt9v032 3-005c&quot;:0 [SGRBG10 752x480]&apos;  
+./media-ctl -v -f &apos;&quot;OMAP3 ISP CCDC&quot;:1 [SGRBG10 752x480]&apos;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;And use yavta to capture some images:&lt;/p&gt;
