@@ -83,16 +83,6 @@ advisors-gallery:
     report:
       title: "Berend Olde Rikkert heeft ruime ervaring in de energiesector als vice president Energy and Utilities zowel bij Capgemini als bij het succesvolle bedrijf"
 core-team-gallery:
-  - image: "annevanrossum.jpg"
-    name: "Anne van Rossum"
-    affiliation: "CEO"
-    linkedin: "annevanrossum"
-    twitter: "annevanrossum"
-    googleplus: "+Annevanrossum"
-    github: "mrquincle"
-    website: https://annevanrossum.com
-    report:
-      title: "Anne studeerde electrotechniek en cognitieve psychologie. Bij Almende en DoBots heeft hij veel onderzoek gedaan naar autonome robots. Elke donderdag is wiskundedag!"
   - image: "peetvantooren.jpg"
     name: "Peet van Tooren"
     affiliation: "CTO"
@@ -101,35 +91,12 @@ core-team-gallery:
     googleplus: "+PeetvanToorenvan"
     report:
       title: "Peet heeft voor veel internationale bedrijven (Siemens, Philips) gewerkt, vooral in de autoindustrie, voornamelijk op navigatiesoftware."
-  - image: "bartvanvliet.jpg"
-    name: "Bart van Vliet"
-    affiliation: "Senior Software Developer"
-    linkedin: "bart-van-vliet-4197b8103"
-    twitter: "Bart_vanVliet"
-    github: "vliedel"
-    report:
-      title: "Bart heeft een master in werktuigbouwkunde en is niet bang voor de meest uitdagende embedded software problemen. Vraag hem alles over de nRF architectuur!"
-  - image: "alexdemulder.jpg"
-    name: "Alex de Mulder"
-    affiliation: "Senior Software Developer"
-    linkedin: "alex-de-mulder-443a1bb"
-    vimeo: "alexdemulder"
-    github: "AlexDM0"
-    report:
-      title: "Alex heeft een master in natuurkunde en is een sterontwikkelaar. Zijn natuurkunde achtergrond fonkelt soms door in bijvoorbeeld de mooie visualisaties in onze app."
   - image: "teresavandam.jpg"
     name: "Teresa van Dam"
     affiliation: "Business Developer"
     linkedin: "teresa-jacqueline-van-dam-a9386aa1"
     report:
       title: "Teresa heeft een master in data science. Ze zorgt ervoor dat onze product en diensten op de markt komen!"
-  - image: "arenddejonge.png"
-    name: "Arend de Jonge"
-    affiliation: "Algoritme Ontwerper & Firmware Developer"
-    linkedin: "arend-de-jonge-2b2512187"
-    github: "ArrowAcrobatics"
-    report:
-      title: "Arend heeft een master in wiskunde. Hij draagt zorg voor veilige en vooruitstrevende algoritmes!"
 ---
 {% include JB/setup %}
 
