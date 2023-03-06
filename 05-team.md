@@ -83,16 +83,6 @@ advisors-gallery:
     report:
       title: "Berend Olde Rikkert has ample experience in the energy sector as vice president Energy and Utilities at Capgemini as well as at the successful company"
 core-team-gallery:
-  - image: "annevanrossum.jpg"
-    name: "Anne van Rossum"
-    affiliation: "CEO"
-    linkedin: "annevanrossum"
-    twitter: "annevanrossum"
-    googleplus: "+Annevanrossum"
-    github: "mrquincle"
-    website: "annevanrossum.com"
-    report:
-      title: "Anne studied Mathematics, Electrical Engineering, and Cognitive Psychology. At Almende and DoBots he coordinated and did research on autonomous robots."
   - image: "peetvantooren.jpg"
     name: "Peet van Tooren"
     affiliation: "CTO"
@@ -101,22 +91,6 @@ core-team-gallery:
     googleplus: "+PeetvanToorenvan"
     report:
       title: "Peet worked for a lot of international companies (Siemens, Philips) in the car industry, mainly on navigation software."
-  - image: "bartvanvliet.jpg"
-    name: "Bart van Vliet"
-    affiliation: "Senior Software Developer"
-    linkedin: "bart-van-vliet-4197b8103"
-    twitter: "Bart_vanVliet"
-    github: "vliedel"
-    report:
-      title: "Bart has a masters in Mechanical Engineering and does not shy away from the most in-depth embedded programming jobs. Ask him anything about the nRF architecture!"
-  - image: "alexdemulder.jpg"
-    name: "Alex de Mulder"
-    affiliation: "Senior Software Developer"
-    linkedin: "alex-de-mulder-443a1bb"
-    vimeo: "alexdemulder"
-    github: "AlexDM0"
-    report:
-      title: "Alex has a master in Applied Physics and is a stellar developer. At times his physics training shows, for example, the beautiful visualizations in our app."
   - image: "teresavandam.jpg"
     name: "Teresa van Dam"
     affiliation: "Business Developer"
@@ -125,13 +99,6 @@ core-team-gallery:
     github: "tere92"
     report:
       title: "Teresa has a masters in Data Science and makes sure that our products and services are embraced by the market!"
-  - image: "arenddejonge.png"
-    name: "Arend de Jonge"
-    affiliation: "Algorithm Designer & Firmware Developer"
-    linkedin: "arend-de-jonge-2b2512187"
-    github: "ArrowAcrobatics"
-    report:
-      title: "Arend has a masters in Mathematics. He'll make sure Crownstone is secure and our algorithms are top-notch."
 ---
 {% include JB/setup %}
 
