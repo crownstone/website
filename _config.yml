@@ -78,6 +78,10 @@ contact-andries:
   name: Andries Stam
   email: [ '.org', 'ende', 'alm', '@', 'dries', 'an' ]
 
+contact-michiel:
+  name: Michiel van Dis
+  email: [ '.org', 'ende', 'alm', '@', 'chiel', 'mi' ]
+
 # The production_url is only used when full-domain names are needed
 # such as sitemap.txt 
 # Most places will/should use BASE_PATH to make the urls
