@@ -7,7 +7,7 @@
         {% if site.active_lang == "nl" %}
         Zakelijk
         {% else %}
-         Business
+        For Businesses
         {% endif %}
     </a>
     <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink" style="z-index: 1001; padding: 0;">

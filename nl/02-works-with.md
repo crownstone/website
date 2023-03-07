@@ -3,7 +3,6 @@ layout: page
 title: Werkt met
 header: Pages
 description: "Door Crownstone ondersteunde Integraties"
-group: [navigation-smart-home-submenu, navigation-consumer-footer]
 lang: nl
 permalink: works-with/
 background-image: banner-works-with

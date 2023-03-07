@@ -6,7 +6,6 @@ description: "Banen rondom IoT, artificial intelligence, smart homes"
 keywords: "baan, afstudeerstage, afstuderen, stage, machine learning, kunstmatige intelligentie, artificial intelligence, internet of things, domotica, smart homes, afstudeeronderzoek, stagiair, master, afstudeeropdracht, bedrijf"
 kramdown: 
   parse_block_html: true
-group: [navigation-about-us-submenu, navigation-about-us-footer]
 skip-newsletter: true
 lang: nl
 permalink: jobs/

@@ -3,7 +3,8 @@ layout: page
 title: Installation
 header: Pages
 permalink: installation/
-group: [navigation-smart-home-submenu, navigation-consumer-footer]
+group: [navigation-consumers-submenu, navigation-consumer-footer]
+skip-newsletter: true
 background-image: banner-installation
 banner-caption: Installation
 options:

@@ -2,9 +2,9 @@
 layout: page
 title : Blog
 header : Blog
-group: [navigation-about-us-submenu]
 lang: nl
 permalink: blog/
+group: [navigation-about-us-submenu]
 background-image: banner-blog
 banner-caption: "Goed verhaal"
 ---

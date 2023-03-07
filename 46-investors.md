@@ -8,7 +8,6 @@ kramdown:
   parse_block_html: true
 background-image: banner-investors
 banner-caption: "Investors"
-group: [navigation-about-us-submenu, navigation-about-us-footer]
 permalink: investors/
 ---
 {% include JB/setup %}

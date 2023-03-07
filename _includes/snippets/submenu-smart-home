@@ -1,10 +1,14 @@
 {% assign pages_list = site.pages | sort:"name" %}
-{% assign group = 'navigation-smart-home-submenu' %}
+{% assign group = 'navigation-consumers-submenu' %}
 
 
 <li class="nav-item dropdown">
     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-        Smart Home
+        {% if site.active_lang == "nl" %}
+        Voor gebruikers
+        {% else %}
+        For Consumers
+        {% endif %}
     </a>
     <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink" style="z-index: 1001; padding: 0;">
     {% for node in pages_list %}

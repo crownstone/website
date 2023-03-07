@@ -4,7 +4,8 @@ title: Product
 header: Pages
 description: "It is a switch, a dimmer, a power monitor, and a standby killer at once."
 keywords: "switch, smart switch, dimmer, power monitor, standby killer, energy savings, home automation"
-group: [navigation-smart-home-submenu, navigation-consumer-footer]
+group: [navigation-consumers-submenu, navigation-consumer-footer]
+skip-newsletter: true
 permalink: product/
 options:
   - slogan: Information for installers
@@ -150,24 +151,4 @@ The **installation** of Crownstones can be done in three different ways. It can 
 
 {% include snippets/three-frames-in-a-row %}
 
-{% include snippets/full-width-container-begin %}
-
-{% include snippets/circles-bg-begin img='/images/circles_1.png' bg-position='center' %}
-
-{% include snippets/slogan-begin %}
-
-Discover more!
-
-{% include snippets/slogan-end %}
-
-{% include snippets/centered-two-columns-begin reverse-row='flex-row-reverse' %}
-
-Get our latest version of the Crownstone, the Crownstone built-in One! Make any power outlet or any light a bit smarter!
-
-{% include snippets/centered-two-columns-end img='/images/3-built-ins.png' img-alt='built-ins' btn='true' link='https://shop.crownstone.rocks/products/built-in-crownstone?launch=en&ref=http://crownstone.rocks/product/' text-btn='Get the One!' %}
-
-{% include snippets/specs %}
-
-{% include snippets/circles-bg-end %}
-
-{% include snippets/full-width-container-end %}
+{% include snippets/margin %}

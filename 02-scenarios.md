@@ -3,7 +3,8 @@ layout: page
 title: Scenarios
 header: Pages
 description: "Scenarios that bring comfort or save energy!"
-group: [navigation-smart-home-submenu, navigation-consumer-footer]
+group: [navigation-consumers-submenu, navigation-consumer-footer]
+skip-newsletter: true
 permalink: scenarios/
 children-disable: [crownstone, autopilot]
 background-image: banner-scenarios

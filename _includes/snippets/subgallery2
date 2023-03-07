@@ -1,0 +1,96 @@
+{% if include.id %}
+  {% assign gallery = page.[include.id] %}
+{% else %}
+  {% assign gallery = page.gallery %}
+{% endif %}
+
+<div class="row justify-content-center m-0 subgallery">
+
+  {% assign cntr = 0 %}
+
+  {% if page.gallery_img_size %}
+	  {% assign img_size = page.gallery_img_size %}
+  {% else %}
+	  {% assign img_size = "128px" %}
+  {% endif %}
+
+  {% for person in gallery %}
+
+  {% if person.enable == false %}
+
+  {% else %}
+
+  <div class="col-xs-10 col-sm-5 col-md-4 col-lg-3 forget-box">
+    <div class="center text-center">
+      <p><img class="img-responsive img-thumbnail rounded-circle" style="margin: 1rem" src="{{ BASE_PATH}}/images/team/{{ person.image }}" width="{{ img_size }}" height="{{ img_size }}" alt="{{ person.name }}"></p>
+	  <p class='subtitle-bold'>{{ person.name }}</p>
+	  {% if person.linkedin %}
+		<a class="btn btn-social-icon btn-linkedin" href="http://nl.linkedin.com/in/{{ person.linkedin }}/"><i class="el el-linkedin"></i></a>
+	  {% endif %}
+	  {% if person.twitter %}
+		<a class="btn btn-social-icon btn-twitter" href="https://twitter.com/{{ person.twitter }}"><i class="el el-twitter"></i></a>
+	  {% endif %}
+	  {% if person.googleplus %}
+		<a class="btn btn-social-icon btn-googleplus" href="https://plus.google.com/{{ person.googleplus }}"><i class="el el-googleplus"></i></a>
+	  {% endif %}
+	  {% if person.github %}
+		<a class="btn btn-social-icon btn-github" href="https://github.com/{{ person.github }}"><i class="el el-github"></i></a>
+	  {% endif %}
+	  {% if person.website %}
+		<a class="btn btn-social-icon btn-home" href="http://{{ person.website }}"><i class="el el-home"></i></a>
+	  {% endif %}
+	  {% if person.vimeo %}
+		<a class="btn btn-social-icon btn-vimeo" href="https://vimeo.com/{{ person.vimeo }}"><i class="el el-vimeo"></i></a>
+	  {% endif %}
+	  {% if person.report %}
+	  <p>
+	  {{ person.report.title }}
+	  </p>
+	  {% endif %}
+
+	  {% if person.btn %}
+	  <div class="row justify-content-center intra-padding">
+      <div class="newsletter bottom">
+      <div class="wrapper">
+
+	  {% if person.btn.contact and person.btn.contact == 'peet' %}
+	  <script type="text/javascript">/*<![CDATA[*/var a=new Array("{{ site.contact-peet.email[0] }}", "{{ site.contact-peet.email[1] }}", "{{ site.contact-peet.email[2] }}", "{{ site.contact-peet.email[3] }}", "{{ site.contact-peet.email[4] }}", "{{ site.contact-peet.email[5] }}");document.write("<a href='mailto:");for(i=a.length-1;i>=0;i--){document.write(a[i])}document.write("?subject=Get in contact' class='btn' style=\"text-align: center !important; align-self: flex-end; border-radius: 0.25rem; padding: .375rem 1.25rem; font-family: Lato, sans-serif; font-size: 1rem; letter-spacing: 1px; color: white !important; background-color: #ff8400; box-shadow: 3px 3px 4px rgb(0 0 0 / 16%); text-decoration: none\">CONTACT</a>");/*]]>*/</script>
+      <noscript>CONTACT</noscript>
+      {% endif %}
+
+      {% if person.btn.contact and person.btn.contact == 'teresa' %}
+      <script type="text/javascript">/*<![CDATA[*/var a=new Array("{{ site.contact-teresa.email[0] }}", "{{ site.contact-teresa.email[1] }}", "{{ site.contact-teresa.email[2] }}", "{{ site.contact-teresa.email[3] }}", "{{ site.contact-teresa.email[4] }}", "{{ site.contact-teresa.email[5] }}");document.write("<a href='mailto:");for(i=a.length-1;i>=0;i--){document.write(a[i])}document.write("?subject=Get in contact' class='btn' style=\"text-align: center !important; align-self: flex-end; border-radius: 0.25rem; padding: .375rem 1.25rem; font-family: Lato, sans-serif; font-size: 1rem; letter-spacing: 1px; color: white !important; background-color: #ff8400; box-shadow: 3px 3px 4px rgb(0 0 0 / 16%); text-decoration: none\">CONTACT</a>");/*]]>*/</script>
+      <noscript>CONTACT</noscript>
+      {% endif %}
+
+      {% if person.btn.contact and person.btn.contact == 'jp' %}
+      <script type="text/javascript">/*<![CDATA[*/var a=new Array("{{ site.contact-jp.email[0] }}", "{{ site.contact-jp.email[1] }}", "{{ site.contact-jp.email[2] }}", "{{ site.contact-jp.email[3] }}", "{{ site.contact-jp.email[4] }}", "{{ site.contact-jp.email[5] }}");document.write("<a href='mailto:");for(i=a.length-1;i>=0;i--){document.write(a[i])}document.write("?subject=Get in contact' class='btn' style=\"text-align: center !important; align-self: flex-end; border-radius: 0.25rem; padding: .375rem 1.25rem; font-family: Lato, sans-serif; font-size: 1rem; letter-spacing: 1px; color: white !important; background-color: #ff8400; box-shadow: 3px 3px 4px rgb(0 0 0 / 16%); text-decoration: none\">CONTACT</a>");/*]]>*/</script>
+      <noscript>CONTACT</noscript>
+      {% endif %}
+
+      {% if person.btn.contact and person.btn.contact == 'andries' %}
+      <script type="text/javascript">/*<![CDATA[*/var a=new Array("{{ site.contact-andries.email[0] }}", "{{ site.contact-andries.email[1] }}", "{{ site.contact-andries.email[2] }}", "{{ site.contact-andries.email[3] }}", "{{ site.contact-andries.email[4] }}", "{{ site.contact-andries.email[5] }}");document.write("<a href='mailto:");for(i=a.length-1;i>=0;i--){document.write(a[i])}document.write("?subject=Get in contact' class='btn' style=\"text-align: center !important; align-self: flex-end; border-radius: 0.25rem; padding: .375rem 1.25rem; font-family: Lato, sans-serif; font-size: 1rem; letter-spacing: 1px; color: white !important; background-color: #ff8400; box-shadow: 3px 3px 4px rgb(0 0 0 / 16%); text-decoration: none\">CONTACT</a>");/*]]>*/</script>
+      <noscript>CONTACT</noscript>
+      {% endif %}
+
+      </div>
+      </div>
+      </div>
+      {% endif %}
+
+    </div>
+  </div>
+  {% assign cntr = cntr | plus: 1 %}
+
+  {% assign two_items = cntr | modulo: 2 %}
+  {% assign four_items = cntr | modulo: 4 %}
+  {% if four_items == 0 %}
+  <div class="clearfix visible-xl-block"></div>
+  {% elsif two_items == 0 %}
+  <div class="clearfix visible-sm-block"></div>
+  {% endif %}
+
+  {% endif %}
+
+  {% endfor %}
+</div>

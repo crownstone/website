@@ -174,19 +174,6 @@
                                 {% endstrip %}
                             </ul>
                         </div>
-
-                        <p style="text-align: center; font-family: Lato, sans-serif; font-size: 1rem; font-style: italic; font-weight: bold; color: white; width: 100%; padding: 1.2rem 0; margin: 0;">
-                            ABOUT US
-                        </p>
-                        <div style="display:inline-block;">
-                            <ul class="list-unstyled">
-                                {% strip %}
-                                {% assign pages_list = site.pages | sort:"name" %}
-                                {% assign group = 'navigation-about-us-footer' %}
-                                {% include JB/pages_list %}
-                                {% endstrip %}
-                            </ul>
-                        </div>
                     </div>
 
                     <div class="col-sm-4 text-center">
@@ -202,76 +189,28 @@
                                 {% endstrip %}
                             </ul>
                         </div>
+                    </div>
+
+                    <div class="col-sm-4 text-center">
                         <p style="text-align: center; font-family: Lato, sans-serif; font-size: 1rem; font-style: italic; font-weight: bold; color: white; width: 100%; padding: 1.2rem 0; margin: 0;">
-                            NEWS
+                            ABOUT US
                         </p>
                         <div style="display:inline-block;">
                             <ul class="list-unstyled">
                                 {% strip %}
                                 {% assign pages_list = site.pages | sort:"name" %}
-                                {% assign group = 'navigation-action-footer' %}
+                                {% assign group = 'navigation-about-us-footer' %}
                                 {% include JB/pages_list %}
                                 {% endstrip %}
-                            </ul>
-                        </div>
-                    </div>
-
-                    <div class="col-sm-4 text-center">
-                        <p style="text-align: center; font-family: Lato, sans-serif; font-size: 1rem; font-style: italic; font-weight: bold; color: white; width: 100%; padding: 1.2rem 0; margin: 0;">
-                            ORDER
-                        </p>
-                        <div style="display:inline-block;" >
-                            <ul class="list-unstyled" style="text-align: left; margin-bottom:0 !important;">
-                                <a href="https://shop.crownstone.rocks?launch={{ site.active_lang }}&ref=http://crownstone.rocks/{{ site.active_lang}}{{ page.url }}" class="footer-text-element" style="text-align: left !important; align-self: center; font-family: Lato, sans-serif; font-size: 0.9rem; font-style: italic; padding: 0; color:#dddddd !important; text-decoration: none">
-                                    <i class="el el-shopping-cart mr-2"></i>
-                                    {% if site.active_lang == "nl" %}
-                                    Webwinkel
-                                    {% else %}
-                                    Webshop
-                                    {% endif %}
-                                </a>
-                            </ul>
-
-                            <ul class="list-unstyled" style="text-align: left">
-                                <a href="https://subscribe.crownstone.rocks/welcome?launch={{ site.active_lang }}&ref=http://crownstone.rocks/{{ site.active_lang}}{{ page.url }}&loc=footer" class="footer-text-element" style="text-align: left !important; align-self: center; font-family: Lato, sans-serif; font-size: 0.9rem; font-style: italic; padding: 0; color:#dddddd !important; text-decoration: none">
-                                    <i class="el el-person mr-2"></i>
-                                    {% if site.active_lang == "nl" %}
-                                    Abonnement
-                                    {% else %}
-                                    Subscription
-                                    {% endif %}
-                                </a>
-                            </ul>
-                        </div>
-
-                        <p style="text-align: center; font-family: Lato, sans-serif; font-size: 1rem; font-style: italic; font-weight: bold; color: white; width: 100%; padding: 1.2rem 0; margin: 0;">
-                            CONTACT
-                        </p>
-                        <div style="display:inline-block;">
-                            <ul class="list-unstyled" style="text-align: left">
-<!--                                <li>-->
-<!--                                    <script type="text/javascript">/*<![CDATA[*/var a=new Array("{{ site.contact-team.email[0] }}", "{{ site.contact-team.email[1] }}", "{{ site.contact-team.email[2] }}", "{{ site.contact-team.email[3] }}", "{{ site.contact-team.email[4] }}", "{{ site.contact-team.email[5] }}");document.write("<a href='mailto:");for(i=a.length-1;i>=0;i&#45;&#45;){document.write(a[i])}document.write("?subject=Get in contact' class='footer-text-element' style=\"text-align: center !important; align-self: center; font-family: Lato, sans-serif; font-size: 0.9rem; font-style: italic; padding: 0; color:#dddddd !important; text-decoration: none\"><i class='el el-envelope footer'></i>Email us!</a>");/*]]>*/</script>-->
-<!--                                    <noscript><i class="el el-envelope footer"></i>Email team@...</noscript>-->
-<!--                                </li>-->
-                                <li>
-                                    <a href="{{ site.url }}/contact" class="footer-text-element" style="text-align: center !important; align-self: center; font-family: Lato, sans-serif; font-size: 0.9rem; font-style: italic; padding: 0; color:#dddddd !important; text-decoration: none">
-                                        <i class="el el-group footer"></i>Contact us
-                                    </a>
-                                </li>
 
                                 <li>
                                     <a href="{{ site.url }}/privacy-policy" class="footer-text-element" style="text-align: center !important; align-self: center; font-family: Lato, sans-serif; font-size: 0.9rem; font-style: italic; padding: 0; color:#dddddd !important; text-decoration: none">
-                                        <i class="el el-ok footer"></i>Privacy
+                                        Privacy
                                     </a>
                                 </li>
                                 <li>
                                     <a href="{{ site.url }}/presskit" class="footer-text-element" style="text-align: center !important; align-self: center; font-family: Lato, sans-serif; font-size: 0.9rem; font-style: italic; padding: 0; color:#dddddd !important; text-decoration: none">
-                                        <i class="el el-idea footer"></i>Presskit
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="{{ site.url }}/press" class="footer-text-element" style="text-align: center !important; align-self: center; font-family: Lato, sans-serif; font-size: 0.9rem; font-style: italic; padding: 0; color:#dddddd !important; text-decoration: none">
-                                        <i class="el el-globe footer"></i>Press
+                                        Presskit
                                     </a>
                                 </li>
                             </ul>

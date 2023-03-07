@@ -4,7 +4,6 @@ title: Business
 footer-title: Use Cases
 header: Business
 description: "Business Use Cases"
-group: [navigation-business-footer]
 markdown: true
 background-image: banner-office
 permalink: business/

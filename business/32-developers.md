@@ -3,7 +3,6 @@ layout: page
 title: Developers
 header: Business
 description: "Developers and APIs"
-group: [navigation-business-footer]
 markdown: true
 permalink: business/developers/
 background-image: banner-developers1

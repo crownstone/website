@@ -9,6 +9,7 @@ kramdown:
 background-image: banner-about-us
 banner-caption: "Over Crownstone..."
 group: [navigation-about-us-submenu, navigation-about-us-footer]
+skip-newsletter: true
 permalink: about-us/
 ---
 {% include JB/setup %}

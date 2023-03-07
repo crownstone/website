@@ -3,7 +3,6 @@ layout: page
 title: OEM
 header: Business
 description: "Product development and partnerships"
-group: [navigation-business-submenu, navigation-business-footer]
 skip-newsletter: true
 permalink: business/oem/
 areas:
