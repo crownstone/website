@@ -68,8 +68,8 @@
       <noscript>CONTACT</noscript>
       {% endif %}
 
-      {% if person.btn.contact and person.btn.contact == 'andries' %}
-      <script type="text/javascript">/*<![CDATA[*/var a=new Array("{{ site.contact-andries.email[0] }}", "{{ site.contact-andries.email[1] }}", "{{ site.contact-andries.email[2] }}", "{{ site.contact-andries.email[3] }}", "{{ site.contact-andries.email[4] }}", "{{ site.contact-andries.email[5] }}");document.write("<a href='mailto:");for(i=a.length-1;i>=0;i--){document.write(a[i])}document.write("?subject=Get in contact' class='btn' style=\"text-align: center !important; align-self: flex-end; border-radius: 0.25rem; padding: .375rem 1.25rem; font-family: Lato, sans-serif; font-size: 1rem; letter-spacing: 1px; color: white !important; background-color: #ff8400; box-shadow: 3px 3px 4px rgb(0 0 0 / 16%); text-decoration: none\">CONTACT</a>");/*]]>*/</script>
+      {% if person.btn.contact and person.btn.contact == 'michiel' %}
+      <script type="text/javascript">/*<![CDATA[*/var a=new Array("{{ site.contact-michiel.email[0] }}", "{{ site.contact-michiel.email[1] }}", "{{ site.contact-michiel.email[2] }}", "{{ site.contact-michiel.email[3] }}", "{{ site.contact-michiel.email[4] }}", "{{ site.contact-michiel.email[5] }}");document.write("<a href='mailto:");for(i=a.length-1;i>=0;i--){document.write(a[i])}document.write("?subject=Get in contact' class='btn' style=\"text-align: center !important; align-self: flex-end; border-radius: 0.25rem; padding: .375rem 1.25rem; font-family: Lato, sans-serif; font-size: 1rem; letter-spacing: 1px; color: white !important; background-color: #ff8400; box-shadow: 3px 3px 4px rgb(0 0 0 / 16%); text-decoration: none\">CONTACT</a>");/*]]>*/</script>
       <noscript>CONTACT</noscript>
       {% endif %}
 

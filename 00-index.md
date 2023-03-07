@@ -69,14 +69,14 @@ contact:
       title: "For commercial questions"
     btn:
       contact: jp
-  - image: "andriesstam.jpg"
-    name: "Andries Stam"
-    linkedin: "andriesstam"
-    website: "https://almende.com/research-and-development/"
+  - image: "michielvandis.jpg"
+    name: "Michiel van Dis"
+    linkedin: "michiel-van-dis"
+    website: "https://almende.com/investments/"
     report:
       title: "For commercial questions"
     btn:
-      contact: andries
+      contact: michiel
 ---
 
 {% include JB/setup %}
