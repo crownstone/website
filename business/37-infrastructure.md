@@ -4,7 +4,6 @@ title: Infrastructure
 footer-title: Infrastructure
 header: Business
 description: "Crownstone for businesses"
-group: [navigation-business-footer]
 markdown: true
 background-image: banner-office
 permalink: infrastructure/

@@ -3,7 +3,7 @@ layout: page
 title: Asset Tracking
 header: Business
 description: "Bluetooth LE for asset tracking"
-group: [navigation-business-submenu]
+group: [navigation-business-submenu, navigation-business-footer]
 skip-newsletter: true
 permalink: business/asset-tracking
 background-image: banner-asset-tracking

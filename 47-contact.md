@@ -2,7 +2,6 @@
 layout: page
 title: Contact
 header: Contact
-group: [navigation-support]
 markdown: true
 background-image: banner-address
 banner-caption: Contact us!

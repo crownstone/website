@@ -2,7 +2,7 @@
 layout: page
 title: Installatie
 header: Pages
-group: [navigation-smart-home-submenu, navigation-consumer-footer]
+group: [navigation-consumers-submenu, navigation-consumer-footer]
 background-image: banner-installation
 banner-caption: Installatie
 permalink: installation/

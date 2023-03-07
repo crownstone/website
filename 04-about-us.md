@@ -6,6 +6,7 @@ description: "Learn more about Crownstone background and our vision!"
 keywords: "team, contact, personal, Crownstone, vision"
 kramdown: 
   parse_block_html: true
+skip-newsletter: true
 background-image: banner-about-us
 banner-caption: "About Crownstone..."
 group: [navigation-about-us-submenu, navigation-about-us-footer]

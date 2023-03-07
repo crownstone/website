@@ -2,7 +2,7 @@
 layout: page
 title: Indoor Positioning
 header: Business
-group: [navigation-business-submenu]
+group: [navigation-business-submenu, navigation-business-footer]
 skip-newsletter: true
 background-image: banner-indoor-positioning-b2b
 permalink: business/indoor-positioning/

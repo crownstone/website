@@ -3,7 +3,7 @@ layout: page
 title: Wireless Alarms
 header: Business
 description: "Crownstone technology for wireless alarms"
-group: [navigation-business-submenu]
+group: [navigation-business-submenu, navigation-business-footer]
 skip-newsletter: true
 permalink: business/wireless-alarms
 background-image: banner-wireless-alarms

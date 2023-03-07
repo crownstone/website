@@ -62,6 +62,22 @@ legal-team:
   name: Crownstone Legal
   email: [ '.rocks', 'stone', 'crown', '@', 'scribe', 'sub' ]
 
+contact-peet:
+  name: Peet van Tooren
+  email: [ '.org', 'ende', 'alm', '@', 'et', 'pe' ]
+
+contact-teresa:
+  name: Teresa van Dam
+  email: [ '.rocks', 'stone', 'crown', '@', 'esa', 'ter' ]
+
+contact-jp:
+  name: Jan Peter Larsen
+  email: [ '.org', 'ende', 'alm', '@', 'p', 'j' ]
+
+contact-andries:
+  name: Andries Stam
+  email: [ '.org', 'ende', 'alm', '@', 'dries', 'an' ]
+
 # The production_url is only used when full-domain names are needed
 # such as sitemap.txt 
 # Most places will/should use BASE_PATH to make the urls

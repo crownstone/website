@@ -4,6 +4,7 @@ title: Presskit
 header: Presskit
 group: Landing
 markdown: true
+skip-newsletter: true
 permalink: presskit/
 description: "In the press, additional pictures for the press and much more."
 keywords: "press, presskit, CES, Consumer Electronics Show, 2018, pictures, Crownstone, history"

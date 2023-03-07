@@ -4,6 +4,7 @@ title: Support
 header: Pages
 group: [navigation-support]
 permalink: support/
+skip-newsletter: true
 background-image: banner-faq
 banner-caption: Support
 topics:

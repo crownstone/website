@@ -2,7 +2,7 @@
 layout: page
 title: Scenario's
 header: Pages
-group: [navigation-smart-home-submenu, navigation-consumer-footer]
+group: [navigation-consumers-submenu, navigation-consumer-footer]
 lang: nl
 permalink: scenarios/
 children-disable: [crownstone, autopilot]

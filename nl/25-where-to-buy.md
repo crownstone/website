@@ -5,7 +5,6 @@ header: Winkel
 permalink: where-to-buy/
 lang: nl
 background-image: banner-where-to-buy
-group: [navigation-support]
 kramdown:
   parse_block_html: true
 where-to-buy:

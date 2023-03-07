@@ -3,7 +3,7 @@ layout: page
 title: Energy Monitoring
 header: Business
 description: "Crownstones for energy monitoring"
-group: [navigation-business-submenu]
+group: [navigation-business-submenu, navigation-business-footer]
 skip-newsletter: true
 permalink: business/energy-monitoring
 background-image: banner-energy-monitoring

@@ -3,8 +3,8 @@ layout: page
 title: Works with
 header: Pages
 description: "Integrations supported by Crownstone"
-group: [navigation-smart-home-submenu, navigation-consumer-footer]
 permalink: works-with/
+skip-newsletter: true
 background-image: banner-works-with
 banner-caption: Connect your home
 coming-soon:

@@ -5,6 +5,7 @@ header: Privacy
 description: Privacy Policy of Crownstone
 group: Policy
 markdown: true
+skip-newsletter: true
 permalink: privacy-policy/
 ---
 {% include JB/setup %}
