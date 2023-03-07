@@ -76,6 +76,7 @@ https://crownstone.rocks/aardappelbatterij/
 https://crownstone.rocks/will-be-up-soon/
 https://crownstone.rocks/investors/
 https://crownstone.rocks/contact/
+https://crownstone.rocks/data-privacy-users/
 https://crownstone.rocks/integrations/alexa/
 https://crownstone.rocks/integrations/toon/
 https://crownstone.rocks/integrations/home-assistant/
