@@ -138,7 +138,7 @@ The Crownstone cloud has been centralized on a single TransIP server. The Commun
 
 {% include snippets/two-cols-centered-text-img-begin background='blue' %}
 
-The Community will also maintain the Crownstone apps for Android and iOS
+The Community will also maintain the Crownstone apps for [Android](https://play.google.com/store/apps/details?id=rocks.crownstone.consumerapp&pli=1) and [iOS](https://apps.apple.com/us/app/crownstone/id1136616106)
 
 {% include snippets/two-cols-centered-text-img-end img='/images/update/apps.png' img-alt='apps' %}
 
@@ -214,7 +214,7 @@ Research
 
 {% include snippets/centered-text-home-begin background='dark' %}
 
-There are quite a few projects at [Almende](https://almende.com/research-and-development/) in which Crownstone technology plays an important role in the coming years:
+There are quite a few projects at [Almende](https://almende.com/research-and-development/) in which Crownstone technology plays an important role in the coming years
 
 {% include snippets/centered-text-home-end %}
 
