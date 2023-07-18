@@ -49,7 +49,7 @@ contact:
     twitter: "PMAvanTooren"
     googleplus: "+PeetvanToorenvan"
     report:
-      title: "For B2B technical questions"
+      title: "Voor B2B technische vragen"
     btn:
       contact: peet
   - image: "teresavandam.jpg"
@@ -58,7 +58,7 @@ contact:
     twitter: "TereYaqui"
     github: "tere92"
     report:
-      title: "For project questions"
+      title: "Voor projectvragen"
     btn:
       contact: teresa
   - image: "janpeterlarsen.png"
@@ -66,17 +66,17 @@ contact:
     linkedin: "janpeterlarsen"
     website: "https://almende.com/investments/"
     report:
-      title: "For commercial questions"
+      title: "Voor commerciële vragen"
     btn:
       contact: jp
-  - image: "andriesstam.jpg"
-    name: "Andries Stam"
-    linkedin: "andriesstam"
-    website: "https://almende.com/research-and-development/"
+  - image: "michielvandis.jpg"
+    name: "Michiel van Dis"
+    linkedin: "michiel-van-dis"
+    website: "https://almende.com/investments/"
     report:
-      title: "For commercial questions"
+      title: "Voor commerciële vragen"
     btn:
-      contact: andries
+      contact: michiel
 ---
 
 {% include JB/setup %}
@@ -89,9 +89,9 @@ contact:
 
 {% include snippets/centered-two-columns-begin %}
 
-## From consumers to businesses! 
+## Van consumenten naar zakelijk! 
 
-Crownstone has changed course. Our services will focus on **OEMs** and **business-to-business**. This brings consequences to our consumer products which are no longer for sale. However, consumers won't be left out in the cold. Below you can find more information regarding the future of our consumers, business partners, and research projects.
+Crownstone is van koers veranderd. Onze diensten zullen zich richten op **OEM's** en **business-to-business**. Dit heeft gevolgen voor onze consumentenproducten die niet meer te koop zijn. De consument blijft echter niet in de kou staan. Hieronder vind je meer informatie over de toekomst van onze consumenten, zakelijke partners en onderzoeksprojecten.
 
 {% include snippets/centered-two-columns-end img='/images/built_in-laying.png' img-alt='built-in' %}
 
@@ -111,34 +111,34 @@ Crownstone Community
 
 {% include snippets/centered-text-home-begin background='dark' %}
 
-Although our consumer products are no longer for sale, our consumers won’t be left out in the cold. We at Crownstone have come up with a strategy, which is the **Crownstone Community**. People within this community are volunteers, and this is what you can expect from it:
+Hoewel onze consumentenproducten niet meer te koop zijn, blijven onze consumenten niet in de kou staan. Wij bij Crownstone hebben een strategie bedacht, namelijk de **Crownstone Community**. Mensen binnen deze gemeenschap zijn vrijwilligers, en dit is wat je ervan kunt verwachten:
 
 {% include snippets/centered-text-home-end %}
 
 {% include snippets/two-cols-centered-text-img-begin text-alignment='right' background='blue' %}
 
-It can be found on this [discord server](https://discord.com/invite/TPYfMvV7bD), and it will handle support questions
+Het is te vinden op deze [discord server](https://discord.com/invite/TPYfMvV7bD) en het zal ondersteuningsvragen afhandelen
 
 {% include snippets/two-cols-centered-text-img-end img='/images/update/discord.png' img-alt='discord' %}
 
 
 {% include snippets/two-cols-centered-text-img-begin background='blue' %}
 
-The community will maintain the code base of the product line at [GitHub](https://github.com/Crownstone-Community)
+De community zal de codebasis van de productlijn op [GitHub](https://github.com/Crownstone-Community) onderhouden
 
 {% include snippets/two-cols-centered-text-img-end img='/images/update/github.png' img-alt='github' %}
 
 
 {% include snippets/two-cols-centered-text-img-begin text-alignment='right' background='blue' %}
 
-The Crownstone cloud has been centralized on a single TransIP server. The Community will perform the related dev op tasks
+De Crownstone cloud is gecentraliseerd op één TransIP server. De Community zal de gerelateerde ontwikkeltaken uitvoeren
 
 {% include snippets/two-cols-centered-text-img-end img='/images/update/server.png' img-alt='server' %}
 
 
 {% include snippets/two-cols-centered-text-img-begin background='blue' %}
 
-The Community will also maintain the Crownstone apps for Android and iOS
+De Community zal ook de Crownstone-apps voor [Android](https://play.google.com/store/apps/details?id=rocks.crownstone.consumerapp&pli=1) en [iOS](https://apps.apple.com/us/app/crownstone/id1136616106) onderhouden
 
 {% include snippets/two-cols-centered-text-img-end img='/images/update/apps.png' img-alt='apps' %}
 
@@ -148,7 +148,7 @@ The Community will also maintain the Crownstone apps for Android and iOS
 
 {% include snippets/slogan-begin %}
 
-Businesses
+Zakelijk
 
 {% include snippets/slogan-end %}
 
@@ -156,7 +156,7 @@ Businesses
 
 {% include snippets/centered-text-home-begin background='light' %}
 
-Crownstone's technology is very broad, which means that Crownstone can cater to a variety of companies with either software development or services. Below you can find some application areas of our technology 
+Crownstone's technologie is breed, wat betekent dat Crownstone verschillende bedrijven kan bedienen met zowel softwareontwikkeling als diensten. Hieronder vind je enkele toepassingsgebieden van onze technologie
 
 {% include snippets/centered-text-home-end %}
 
@@ -173,7 +173,7 @@ Crownstone's technology is very broad, which means that Crownstone can cater to 
 
 {% include snippets/slogan-begin %}
 
-Our latest projects
+Onze meest recente projecten
 
 {% include snippets/slogan-end %}
 
@@ -184,7 +184,7 @@ Our latest projects
 
 **Local Cloud**  
 
-One of our latest interesting developments has been the support for a **private cloud** option. Using the [cloud installer](https://github.com/Crownstone-Community/cloud-installer) we have implemented a solution at [Green Energy Park](https://www.greenenergypark.be/) which sends energy and power data toward a **Priva installation** from a local hub. Installation of such hubs is now a breeze!
+Een van onze laatste interessante ontwikkelingen is de ondersteuning voor een **private cloud-optie**. Met behulp van de [cloud installer](https://github.com/Crownstone-Community/cloud-installer) hebben we op [Green Energy Park](https://www.greenenergypark.be/) een oplossing geïmplementeerd die energie- en vermogensgegevens vanaf een lokale hub naar een **Priva-installatie** stuurt. Installatie van dergelijke hubs is nu een fluitje van een cent!
 
 {% include snippets/two-cols-text-img-end img='/images/update/green-park.jpg' img-alt='green park' %}
 
@@ -195,7 +195,7 @@ One of our latest interesting developments has been the support for a **private 
 
 **Bluetooth asset tracking**
 
-Crownstone developed a **Bluetooth-based asset tracking system** together with our partner [Blyott](https://blyott.com/). This system saves money for the healthcare industry by reducing purchases and search time. One major advantage for our customers is that because we use **Bluetooth mesh**, we do not depend on security-critical Wi-Fi infrastructure. The Bluetooth mesh is entirely self-sufficient. 
+Crownstone ontwikkelde samen met onze partner [Blyott](https://blyott.com/) een op **Bluetooth gebaseerd asset tracking systeem**. Dit systeem bespaart geld voor de gezondheidszorg door aankopen en zoektijd te verminderen. Een groot voordeel voor onze klanten is dat we, omdat we **Bluetooth-mesh** gebruiken, niet afhankelijk zijn van beveiligingskritische wifi-infrastructuur. De Bluetooth-mesh is volledig zelfvoorzienend.
  
 {% include snippets/two-cols-text-img-end img='/images/update/blyott.jpg' img-alt='blyott' %}
 
@@ -205,7 +205,7 @@ Crownstone developed a **Bluetooth-based asset tracking system** together with o
 
 {% include snippets/slogan-begin background='blue' %}
 
-Research
+Onderzoek
 
 {% include snippets/slogan-end %}
 
@@ -214,7 +214,7 @@ Research
 
 {% include snippets/centered-text-home-begin background='dark' %}
 
-There are quite a few projects at [Almende](https://almende.com/research-and-development/) in which Crownstone technology plays an important role in the coming years:
+Op [Almende](https://almende.com/research-and-development/) zijn er de komende jaren nogal wat projecten waarbij Crownstone-technologie een belangrijke rol speelt 
 
 {% include snippets/centered-text-home-end %}
 
@@ -230,18 +230,18 @@ There are quite a few projects at [Almende](https://almende.com/research-and-dev
 
 <p>&nbsp;</p>
 
-[DAIS](https://dais-project.eu/) (Distributed Artificial Intelligent System) is a pan-European project bringing faster, more secure, and energy-efficient data processing solutions through the development of **edge AI** software and hardware components. The ability of Crownstones to run **microapps** with custom code allows for implementations of in-network localization and application identification in a distributed manner.
+[DAIS](https://dais-project.eu/) (Distributed Artificial Intelligent System) is een pan-Europees project dat snellere, veiligere en energie-efficiëntere oplossingen voor gegevensverwerking biedt door de ontwikkeling van **edge AI-software** en hardwarecomponenten. Het vermogen van Crownstones om **micro-apps** met aangepaste code uit te voeren maakt implementaties van netwerklokalisatie en applicatie-identificatie op een gedistribueerde manier mogelijk.
 
 {% include snippets/two-cols-text-img-end background="blue" img='/images/update/dais.jpeg' img-alt='dais'%}
 
 
 {% include snippets/two-cols-text-img-begin background="blue" text-alignment='right' %}
 
-### Passive presence detection
+### Passieve aanwezigheidsdetectie
 
 <p>&nbsp;</p>
 
-Crownstone and [Gociety](https://www.golivehealth.nl/) are collaborating! Crownstone is responsible for the development of a new compound sensor system for the detection of unusual behavior in households of people with dementia. **Microapps** that propagate data from wireless senior wristbands to a phone (and alarm center) have been developed, and state-of-the-art research is being done on **device-free detection**.
+Crownstone en [Gociety](https://www.golivehealth.nl/) werken samen! Crownstone is verantwoordelijk voor de ontwikkeling van een nieuw samengesteld sensorsysteem voor de detectie van afwijkend gedrag in huishoudens van mensen met dementie. Er zijn microapps ontwikkeld die gegevens van draadloze polsbandjes voor senioren doorgeven aan een telefoon (en alarmcentrale) en er wordt state-of-the-art onderzoek gedaan naar **device-free detectie**.
 
 {% include snippets/two-cols-text-img-end background="blue" img='/images/update/gociety.jpg' img-alt='gociety'%}
 
@@ -252,7 +252,7 @@ Crownstone and [Gociety](https://www.golivehealth.nl/) are collaborating! Crowns
 
 <p>&nbsp;</p>
 
-This [project](https://brains4buildings.org/) focuses on developing methods to leverage big data from smart meters, BMS, and IoT devices, to reduce energy consumption, increase comfort, respond flexibly to user behavior and local energy supply and demand, and save on installation maintenance costs. **Power and energy visualizations** among others powered by Crownstone data are part of the project goals.
+Dit [project](https://brains4buildings.org/) richt zich op het ontwikkelen van methoden om big data uit slimme meters, BMS en IoT-apparaten te benutten om het energieverbruik te verminderen, het comfort te verhogen, flexibel in te spelen op gebruikersgedrag en lokale vraag en aanbod van energie, en te besparen op installatie-onderhoudskosten. Stroom- en energievisualisaties, onder andere mogelijk gemaakt door Crownstone-gegevens maken deel uit van de projectdoelstellingen.
 
 {% include snippets/two-cols-text-img-end background="blue" img='/images/update/b4b.jpg' img-alt='b4b'%}
 
@@ -263,7 +263,7 @@ This [project](https://brains4buildings.org/) focuses on developing methods to l
 
 {% include snippets/slogan-begin %}
 
-Our partners
+Onze partners
 
 {% include snippets/slogan-end %}
 
