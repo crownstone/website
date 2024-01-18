@@ -44,6 +44,19 @@
 </div>
 {% endif %}
 
+{% if include.link-left %}
+<div class="row justify-content-begin intra-padding">
+<div class="newsletter bottom">
+<div class="wrapper">
+<a href= "{{ include.url }}" class='btn' style="text-align: center !important; align-self: flex-end; border-radius: 0.25rem; padding: .375rem 1.25rem; font-family: Lato, sans-serif; font-size: 1rem; letter-spacing: 1px; color: white !important; background-color: #ff8400; box-shadow: 3px 3px 4px rgb(0 0 0 / 16%); text-decoration: none;">
+{{ include.link-text }}
+</a>
+</div>
+</div>
+</div>
+{% endif %}
+
+
 </div>
 
 {% if include.xl-img and include.xl-img == 'true' %}

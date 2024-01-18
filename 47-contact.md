@@ -1,23 +1,15 @@
 ---
 layout: page
 title: Contact
-header: Contact
+header: Pages
 markdown: true
-background-image: banner-address
+group: [navigation-contact]
+background-image: banner-ceiling-light
 banner-caption: Contact us!
 skip-newsletter: true
 permalink: contact/
-specs:
-  - icon: el-idea
-    title: Press
-    link: /presskit/
-  - icon: el-envelope
-    title: Newsletter
-    link: /email-updates/
-  - icon: el-edit
-    title: Blog
-    link: /blog/
 ---
+
 {% include JB/setup %}
 
 
@@ -56,20 +48,6 @@ For general questions drop us an email. We'd love to help you!
 Interested in our technology? Then talk with us, we're all ears!
 
 {% include snippets/contact-option-end tel="true" %}
-
-
-{% include snippets/contact-option-begin img="/images/contact/wa.svg" img-alt="wa-icon" title="Send a WhatsApp" %}
-
-If you prefer to chat with us, send us a message on WhatsApp.
-
-{% include snippets/contact-option-end wa="true" %}
-
-
-{% include snippets/contact-option-begin img="/images/contact/discord-new.svg" img-alt="discord-icon" title="Join our community" %}
-
-For general questions or more in-depth discussions, use Discord!
-
-{% include snippets/contact-option-end link="true" %}
 
 
 {% include snippets/contact-option-begin img="/images/contact/financial.svg" img-alt="finance-icon" title="Financial contact" %}
@@ -136,4 +114,4 @@ How to find our office?
 **Within the building:** Access the “Groothandelsgebouw” through the main entrance. Here, follow the directions for “Kleinhandel”. This means, go to the first floor, and then go left to the entrance to Kleinhandel. Follow the corridor all the way to the back of the building (you will pass several doors). Almost at the back of the building, you will see the Crownstone office on the right.
 
 
-{% include snippets/specs spread="true" %}
+{% include snippets/margin %}

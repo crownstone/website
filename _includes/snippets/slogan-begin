@@ -6,8 +6,8 @@
 <div class="container-fluid transparent-bg">
     <div class="row justify-content-center m-0 transparent-bg">
         {% if include.color-text and include.color-text == 'white'%}
-        <h1 class="slogan white-text" style='color: white !important;'>
+        <h1 class="slogan white-text" style='color: white !important;' id="{{include.id}}">
         {% else %}
-        <h1 class="slogan blue-text" style='color: #003e52 !important;'>
+        <h1 class="slogan blue-text" style='color: #003e52 !important;' id="{{include.id}}">
         {% endif %}
 {% endif %}

@@ -1,31 +1,19 @@
 ---
 layout: page
-title: Welkom
+title: Home
 hide_title: true
 twitter: true
 header: Home
-description: "Crownstones gebruiken uw aanwezigheid om apparaten en lampen te schakelen en te dimmen."
+description: "Crownstone ondersteunt uw bedrijf met slimme oplossingen."
 keywords: "schakelaar, slimme schakelaar, dimmer, energie meter, slimme meter, Homey, Philips Hue, domotica, energie besparen"
-group: [navigation, navigation-consumer-footer]
-background-image-home: banner-home-page
+group: [navigation, navigation-business-footer]
+background-image: banner-main
+banner-caption: Crownstone
 lang: nl
 skip-newsletter: true
 kramdown: 
   parse_block_html: true
 permalink: /
-areas:
-  - image: /images/position
-    slogan: Indoor positioning
-    link: /business/indoor-positioning/
-  - image: /images/assets
-    slogan: Asset tracking
-    link: /business/asset-tracking
-  - image: /images/e-monitoring
-    slogan: Energy monitoring
-    link: /business/energy-monitoring
-  - image: /images/wireless
-    slogan: Wireless switching
-    link: /will-be-up-soon/
 partners:
   - link: "https://brains4buildings.org/"
     image: /images/update/b4b_logo.png
@@ -61,6 +49,14 @@ contact:
       title: "Voor projectvragen"
     btn:
       contact: teresa
+  - image: "aadnales.jpg"
+    name: "Aad Nales"
+    linkedin: "aadnales"
+    website: "https://almende.com/investments/"
+    report:
+      title: "Voor commerciële vragen"
+    btn:
+      contact: aad
   - image: "janpeterlarsen.png"
     name: "Jan Peter Larsen"
     linkedin: "janpeterlarsen"
@@ -69,78 +65,29 @@ contact:
       title: "Voor commerciële vragen"
     btn:
       contact: jp
-  - image: "michielvandis.jpg"
-    name: "Michiel van Dis"
-    linkedin: "michiel-van-dis"
-    website: "https://almende.com/investments/"
-    report:
-      title: "Voor commerciële vragen"
-    btn:
-      contact: michiel
 ---
 
 {% include JB/setup %}
 
 
 
-{% include snippets/full-width-container-begin %}
-
-{% include snippets/circles-bg-begin img='/images/circles_1.png' bg-position='center' %}
-
-{% include snippets/centered-two-columns-begin %}
-
-## Van consumenten naar zakelijk! 
-
-Crownstone is van koers veranderd. Onze diensten zullen zich richten op **OEM's** en **business-to-business**. Dit heeft gevolgen voor onze consumentenproducten die niet meer te koop zijn. De consument blijft echter niet in de kou staan. Hieronder vind je meer informatie over de toekomst van onze consumenten, zakelijke partners en onderzoeksprojecten.
-
-{% include snippets/centered-two-columns-end img='/images/built_in-laying.png' img-alt='built-in' %}
-
-{% include snippets/circles-bg-end %}
-
-{% include snippets/full-width-container-end %}
-
-
-
 {% include snippets/slogan-begin background='blue' %}
 
-Crownstone Community
+Crownstone empowers your business with smart solutions 
 
 {% include snippets/slogan-end %}
 
 {% include snippets/full-width-container-begin background='blue'%}
 
-{% include snippets/centered-text-home-begin background='dark' %}
+{% include snippets/two-cols-text-img-begin background="blue" %}
 
-Hoewel onze consumentenproducten niet meer te koop zijn, blijven onze consumenten niet in de kou staan. Wij bij Crownstone hebben een strategie bedacht, namelijk de **Crownstone Community**. Mensen binnen deze gemeenschap zijn vrijwilligers, en dit is wat je ervan kunt verwachten:
+### Revolutionize your IT infrastructure with smart solutions and BLE expertise
 
-{% include snippets/centered-text-home-end %}
+<p>&nbsp;</p>
 
-{% include snippets/two-cols-centered-text-img-begin text-alignment='right' background='blue' %}
+Crownstone elevates your IT ecosystem with cutting-edge bluetooth technology. Our technology has a wide range of applications. From asset tracking in hospitals to monitoring energy consumption for preventive maintenance of high-value equipment. We thrive on engaging challenges that allow us to harness the power of our technology and implement innovative solutions. Got an intriguing challenge? Reach out to our [team of experts!](#contact)
 
-Het is te vinden op deze [discord server](https://discord.com/invite/TPYfMvV7bD) en het zal ondersteuningsvragen afhandelen
-
-{% include snippets/two-cols-centered-text-img-end img='/images/update/discord.png' img-alt='discord' %}
-
-
-{% include snippets/two-cols-centered-text-img-begin background='blue' %}
-
-De community zal de codebasis van de productlijn op [GitHub](https://github.com/Crownstone-Community) onderhouden
-
-{% include snippets/two-cols-centered-text-img-end img='/images/update/github.png' img-alt='github' %}
-
-
-{% include snippets/two-cols-centered-text-img-begin text-alignment='right' background='blue' %}
-
-De Crownstone cloud is gecentraliseerd op één TransIP server. De Community zal de gerelateerde ontwikkeltaken uitvoeren
-
-{% include snippets/two-cols-centered-text-img-end img='/images/update/server.png' img-alt='server' %}
-
-
-{% include snippets/two-cols-centered-text-img-begin background='blue' %}
-
-De Community zal ook de Crownstone-apps voor [Android](https://play.google.com/store/apps/details?id=rocks.crownstone.consumerapp&pli=1) en [iOS](https://apps.apple.com/us/app/crownstone/id1136616106) onderhouden
-
-{% include snippets/two-cols-centered-text-img-end img='/images/update/apps.png' img-alt='apps' %}
+{% include snippets/two-cols-text-img-end background="blue" img='/images/built_in-laying.png' img-alt='built-in' %}
 
 {% include snippets/full-width-container-end %}
 
@@ -148,7 +95,7 @@ De Community zal ook de Crownstone-apps voor [Android](https://play.google.com/s
 
 {% include snippets/slogan-begin %}
 
-Zakelijk
+Businesses
 
 {% include snippets/slogan-end %}
 
@@ -156,114 +103,103 @@ Zakelijk
 
 {% include snippets/centered-text-home-begin background='light' %}
 
-Crownstone's technologie is breed, wat betekent dat Crownstone verschillende bedrijven kan bedienen met zowel softwareontwikkeling als diensten. Hieronder vind je enkele toepassingsgebieden van onze technologie
+Crownstone's technology is versatile, allowing us to cater to a diverse range of companies through software development and services. Explore some of the application areas of our technology below
 
 {% include snippets/centered-text-home-end %}
 
 {% include snippets/full-width-container-end %}
 
-
-{% include snippets/margin %}
-
-{% include snippets/two-frames-in-a-row id='areas' no-arrow='true' background='orange'%}
-
-{% include snippets/margin %}
-
-
-
-{% include snippets/slogan-begin %}
-
-Onze meest recente projecten
-
-{% include snippets/slogan-end %}
 
 
 {% include snippets/full-width-container-begin%}
 
 {% include snippets/two-cols-text-img-begin%}
 
-**Local Cloud**  
+### Indoor positioning
 
-Een van onze laatste interessante ontwikkelingen is de ondersteuning voor een **private cloud-optie**. Met behulp van de [cloud installer](https://github.com/Crownstone-Community/cloud-installer) hebben we op [Green Energy Park](https://www.greenenergypark.be/) een oplossing geïmplementeerd die energie- en vermogensgegevens vanaf een lokale hub naar een **Priva-installatie** stuurt. Installatie van dergelijke hubs is nu een fluitje van een cent!
+Crownstones pinpoint the location of individuals using Bluetooth tags or smart devices by measuring Bluetooth Low Energy signals. This enables to react to presence and proximity. Applications of indoor positioning include healthcare for patient tracking and smart buildings for improved security and automation.
 
-{% include snippets/two-cols-text-img-end img='/images/update/green-park.jpg' img-alt='green park' %}
+{% include snippets/two-cols-text-img-end img='/images/position.jpg' img-alt='positioning' link-left='true' url='/business/indoor-positioning/' link-text='Explore further' %}
+
+{% include snippets/full-width-container-end %}
 
 
 {% include snippets/full-width-container-begin%}
 
 {% include snippets/two-cols-text-img-begin text-alignment='right' %}
 
-**Bluetooth asset tracking**
+### Asset tracking
 
-Crownstone ontwikkelde samen met onze partner [Blyott](https://blyott.com/) een op **Bluetooth gebaseerd asset tracking systeem**. Dit systeem bespaart geld voor de gezondheidszorg door aankopen en zoektijd te verminderen. Een groot voordeel voor onze klanten is dat we, omdat we **Bluetooth-mesh** gebruiken, niet afhankelijk zijn van beveiligingskritische wifi-infrastructuur. De Bluetooth-mesh is volledig zelfvoorzienend.
- 
-{% include snippets/two-cols-text-img-end img='/images/update/blyott.jpg' img-alt='blyott' %}
+Crownstones scan for Bluetooth LE devices within a building. Attach off-the-shelf Bluetooth tags to assets, and Crownstones use Bluetooth mesh to communicate tag locations to a gateway. BLE asset tracking offers cost efficiency, enhanced security, scalability, and future-proofing.
 
-{% include snippets/full-width-container-end %}
-
-
-
-{% include snippets/slogan-begin background='blue' %}
-
-Onderzoek
-
-{% include snippets/slogan-end %}
-
-
-{% include snippets/full-width-container-begin background='blue'%}
-
-{% include snippets/centered-text-home-begin background='dark' %}
-
-Op [Almende](https://almende.com/research-and-development/) zijn er de komende jaren nogal wat projecten waarbij Crownstone-technologie een belangrijke rol speelt 
-
-{% include snippets/centered-text-home-end %}
+{% include snippets/two-cols-text-img-end img='/images/assets.jpg' img-alt='assets' link='true' url='/business/asset-tracking/' link-text='Explore further' %}
 
 {% include snippets/full-width-container-end %}
-
 
 
 {% include snippets/full-width-container-begin%}
 
-{% include snippets/two-cols-text-img-begin background="blue"%}
+{% include snippets/two-cols-text-img-begin%}
 
-### DAIS project
+### Energy monitoring
 
-<p>&nbsp;</p>
+Crownstones extend their functionality to include energy monitoring on device level. Operating within a Bluetooth mesh network, they broadcast energy-related metrics such as current, voltage, power, and power factor to a central hub, facilitating data collection for further analysis.
 
-[DAIS](https://dais-project.eu/) (Distributed Artificial Intelligent System) is een pan-Europees project dat snellere, veiligere en energie-efficiëntere oplossingen voor gegevensverwerking biedt door de ontwikkeling van **edge AI-software** en hardwarecomponenten. Het vermogen van Crownstones om **micro-apps** met aangepaste code uit te voeren maakt implementaties van netwerklokalisatie en applicatie-identificatie op een gedistribueerde manier mogelijk.
+{% include snippets/two-cols-text-img-end img='/images/e-monitoring.jpg' img-alt='energy monitoring' link-left='true' url='/business/energy-monitoring/' link-text='Explore further' %}
 
-{% include snippets/two-cols-text-img-end background="blue" img='/images/update/dais.jpeg' img-alt='dais'%}
-
-
-{% include snippets/two-cols-text-img-begin background="blue" text-alignment='right' %}
-
-### Passieve aanwezigheidsdetectie
-
-<p>&nbsp;</p>
-
-Crownstone en [Gociety](https://www.golivehealth.nl/) werken samen! Crownstone is verantwoordelijk voor de ontwikkeling van een nieuw samengesteld sensorsysteem voor de detectie van afwijkend gedrag in huishoudens van mensen met dementie. Er zijn microapps ontwikkeld die gegevens van draadloze polsbandjes voor senioren doorgeven aan een telefoon (en alarmcentrale) en er wordt state-of-the-art onderzoek gedaan naar **device-free detectie**.
-
-{% include snippets/two-cols-text-img-end background="blue" img='/images/update/gociety.jpg' img-alt='gociety'%}
+{% include snippets/full-width-container-end %}
 
 
-{% include snippets/two-cols-text-img-begin background="blue"%}
+{% include snippets/full-width-container-begin%}
 
-### Brains4Buildings
+{% include snippets/two-cols-text-img-begin text-alignment='right' %}
 
-<p>&nbsp;</p>
+### Wireless alarms
 
-Dit [project](https://brains4buildings.org/) richt zich op het ontwikkelen van methoden om big data uit slimme meters, BMS en IoT-apparaten te benutten om het energieverbruik te verminderen, het comfort te verhogen, flexibel in te spelen op gebruikersgedrag en lokale vraag en aanbod van energie, en te besparen op installatie-onderhoudskosten. Stroom- en energievisualisaties, onder andere mogelijk gemaakt door Crownstone-gegevens maken deel uit van de projectdoelstellingen.
+Crownstone offers companies already providing alarm systems to enhance their product portfolio with our technology. Our solutions are tailored for technology providers in sectors such as mental care, elderly care, and the general office  sector.
 
-{% include snippets/two-cols-text-img-end background="blue" img='/images/update/b4b.jpg' img-alt='b4b'%}
-
+{% include snippets/two-cols-text-img-end img='/images/wireless.jpeg' img-alt='wireless' link='true' url='/business/wireless-alarms/' link-text='Explore further' %}
 
 {% include snippets/full-width-container-end %}
 
 
 
+{% include snippets/slogan-begin background='blue'%}
+
+Our latest projects
+
+{% include snippets/slogan-end background='blue'%}
+
+
+{% include snippets/full-width-container-begin background='blue'%}
+
+{% include snippets/two-cols-text-img-begin background='blue'%}
+
+**Local Cloud**  
+
+One of our latest interesting developments has been the support for a **private cloud** option. Using the [cloud installer](https://github.com/Crownstone-Community/cloud-installer) we have implemented a solution at [Green Energy Park](https://www.greenenergypark.be/) which sends energy and power data toward a **Priva installation** from a local hub. Installation of such hubs is now a breeze!
+
+{% include snippets/two-cols-text-img-end background='blue' img='/images/update/green-park.jpg' img-alt='green park' %}
+
+{% include snippets/full-width-container-end background='blue' %}
+
+
+{% include snippets/full-width-container-begin background='blue'%}
+
+{% include snippets/two-cols-text-img-begin background='blue' text-alignment='right' %}
+
+**Bluetooth asset tracking**
+
+Crownstone developed a **Bluetooth-based asset tracking system** together with our partner [Blyott](https://blyott.com/). This system saves money for the healthcare industry by reducing purchases and search time. One major advantage for our customers is that because we use **Bluetooth mesh**, we do not depend on security-critical Wi-Fi infrastructure. The Bluetooth mesh is entirely self-sufficient. 
+ 
+{% include snippets/two-cols-text-img-end background='blue' img='/images/update/blyott.jpg' img-alt='blyott' %}
+
+{% include snippets/full-width-container-end background='blue' %}
+
+
 {% include snippets/slogan-begin %}
 
-Onze partners
+Our partners
 
 {% include snippets/slogan-end %}
 
@@ -272,11 +208,8 @@ Onze partners
 
 
 
-{% include snippets/slogan-begin %}
-
+{% include snippets/slogan-begin id="contact" %}
 Contact
-
 {% include snippets/slogan-end %}
-
 
 {% include snippets/subgallery2 id="contact" %}

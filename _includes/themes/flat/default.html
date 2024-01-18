@@ -115,10 +115,11 @@
          <div class="collapse navbar-collapse" id="navbarContents">
             <ul class="navbar-nav">
                {% include snippets/menu-pages %}
-               {% include snippets/submenu-smart-home %}
                {% include snippets/submenu-business %}
+               {% include snippets/submenu-smart-home %}
+               {% include snippets/menu-research %}
                {% include snippets/submenu-about-us %}
-               {% include snippets/menu-support %}
+               {% include snippets/menu-contact %}
             </ul>
 
             <ul class="navbar-nav mr-right">
@@ -163,13 +164,13 @@
                 <div class="row">
                     <div class="col-sm-4 text-center">
                         <p style="text-align: center; font-family: Lato, sans-serif; font-size: 1rem; font-style: italic; font-weight: bold; color: white; width: 100%; padding: 1.2rem 0; margin: 0;">
-                            CUSTOMER
+                            B2B
                         </p>
                         <div style="display:inline-block;">
                             <ul class="list-unstyled">
                                 {% strip %}
                                 {% assign pages_list = site.pages | sort:"name" %}
-                                {% assign group = 'navigation-consumer-footer' %}
+                                {% assign group = 'navigation-business-footer' %}
                                 {% include JB/pages_list %}
                                 {% endstrip %}
                             </ul>
@@ -178,13 +179,13 @@
 
                     <div class="col-sm-4 text-center">
                         <p style="text-align: center; font-family: Lato, sans-serif; font-size: 1rem; font-style: italic; font-weight: bold; color: white; width: 100%; padding: 1.2rem 0; margin: 0;">
-                            B2B
+                            CUSTOMER
                         </p>
                         <div style="display:inline-block;">
                             <ul class="list-unstyled">
                                 {% strip %}
-                                {% assign pages_list = site.pages | sort:"header" %}
-                                {% assign group = 'navigation-business-footer' %}
+                                {% assign pages_list = site.pages | sort:"name" %}
+                                {% assign group = 'navigation-consumer-footer' %}
                                 {% include JB/pages_list %}
                                 {% endstrip %}
                             </ul>
@@ -208,11 +209,6 @@
                                         Privacy
                                     </a>
                                 </li>
-                                <li>
-                                    <a href="{{ site.url }}/presskit" class="footer-text-element" style="text-align: center !important; align-self: center; font-family: Lato, sans-serif; font-size: 0.9rem; font-style: italic; padding: 0; color:#dddddd !important; text-decoration: none">
-                                        Presskit
-                                    </a>
-                                </li>
                             </ul>
                         </div>
                     </div>
@@ -227,11 +223,7 @@
             <div class="col-md-6">
                 <div class="row align-items-center">
                     <div class="col social-media-icons-container">
-                        <a href="https://www.facebook.com/crownstones/" target="_blank" class="footer-social-media-icons" style="text-align: center; color: lightgray; font-size: 2rem; margin: 0; padding: 0;"><i class="el el-facebook"></i></a>
-                    </div>
-
-                    <div class="col social-media-icons-container">
-                        <a href="https://twitter.com/CrownstoneRocks" target="_blank" class="footer-social-media-icons" style="text-align: center; color: lightgray; font-size: 2rem; margin: 0; padding: 0;"><i class="el el-twitter"></i></a>
+                        <a href="https://www.linkedin.com/company/crownstone" target="_blank" class="footer-social-media-icons"><i class="el el-linkedin" style="text-align: center; color: lightgray; font-size: 2rem; margin: 0; padding: 0;"></i></a>
                     </div>
 
                     <div class="col social-media-icons-container">
@@ -240,10 +232,6 @@
 
                     <div class="col social-media-icons-container">
                         <a href="https://www.youtube.com/channel/UCru1PX6P1JyhsI-OEMXnBdg" target="_blank" class="footer-social-media-icons" style="text-align: center; color: lightgray; font-size: 2rem; margin: 0; padding: 0;"><i class="el el-youtube"></i></a>
-                    </div>
-
-                    <div class="col social-media-icons-container">
-                        <a href="https://www.linkedin.com/company/crownstone" target="_blank" class="footer-social-media-icons"><i class="el el-linkedin" style="text-align: center; color: lightgray; font-size: 2rem; margin: 0; padding: 0;"></i></a>
                     </div>
                 </div>
             </div>
@@ -254,10 +242,6 @@
                <p style="margin: 0;">{{ site.company.street }}</p>
                <p style="margin: 0;">{{ site.company.postal_code }}</p>
                <p style="margin: 0;">{{ site.company.phone_international }} / {{ site.company.phone_local }}</p>
-               <br/>
-               <p style="margin: 0;">
-                  This site uses external services. Cookies for the webshop (<a href="https://www.shopify.com/legal/cookies" class="link-footer">cookie policy</a>).
-               </p>
             </div>
         </div>
     </div>
