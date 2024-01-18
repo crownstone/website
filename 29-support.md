@@ -2,7 +2,7 @@
 layout: page
 title: Support
 header: Pages
-group: [navigation-support]
+group: [navigation-consumers-submenu, navigation-consumer-footer]
 permalink: support/
 skip-newsletter: true
 background-image: banner-faq

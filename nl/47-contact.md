@@ -1,23 +1,14 @@
 ---
 layout: page
 title: Contact
-header: Contact
+header: Pages
 lang: nl
 markdown: true
-background-image: banner-address
+group: [navigation-contact]
+background-image: banner-ceiling-light
 banner-caption: Neem contact op!
 skip-newsletter: true
 permalink: contact/
-specs:
-  - icon: el-idea
-    title: Press
-    link: /presskit/
-  - icon: el-envelope
-    title: Newsletter
-    link: /email-updates/
-  - icon: el-edit
-    title: Blog
-    link: /blog/
 ---
 {% include JB/setup %}
 
@@ -57,20 +48,6 @@ Voor algemene vragen stuur ons een e-mail. We helpen je graag!
 Interesse in onze technologie? Praat dan met ons, we zijn een en al oor!
 
 {% include snippets/contact-option-end tel="true" %}
-
-
-{% include snippets/contact-option-begin img="/images/contact/wa.svg" img-alt="wa-icon" title="Stuur een Whatsapp" %}
-
-Als je liever met ons chat, stuur ons dan een WhatsApp-bericht.
-
-{% include snippets/contact-option-end wa="true" %}
-
-
-{% include snippets/contact-option-begin img="/images/contact/discord.svg" img-alt="discord-icon" title="Word lid van onze community" %}
-
-Voor algemene vragen of meer diepgaande discussies, gebruik Discord!
-
-{% include snippets/contact-option-end link="true" %}
 
 
 {% include snippets/contact-option-begin img="/images/contact/financial.svg" img-alt="finance-icon" title="Financieel contact" %}
@@ -133,5 +110,3 @@ Hoe kom ik daar?
 **Parkeren:** Je kan parkeren in de Engels Parking, deze is gelegen aan de achterzijde van het Groothandelsgebouw. Het is te bereiken via de Conradstraat.
 
 **Binnen het gebouw:** Via de hoofdentree toegang tot het Groothandelsgebouw. Volg hier de aanwijzingen voor “Kleinhandel”. Dit betekent: ga naar de eerste verdieping en ga dan links naar de ingang van Kleinhandel. Volg de gang helemaal naar de achterkant van het gebouw (je passeert verschillende deuren). Bijna aan de achterkant van het gebouw zie je aan de rechterkant het kantoor van Crownstone.
-
-{% include snippets/specs spread="true" %}
