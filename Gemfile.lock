@@ -87,7 +87,6 @@ GEM
     uglifier (4.2.0)
       execjs (>= 0.3.0, < 3)
     unicode-display_width (2.5.0)
-    wdm (0.1.1)
     webrick (1.8.1)
 
 PLATFORMS
@@ -106,7 +105,6 @@ DEPENDENCIES
   rake
   rouge
   uglifier
-  wdm (>= 0.1.0)
   webrick (~> 1.7)
 
 BUNDLED WITH
