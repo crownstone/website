@@ -26,6 +26,7 @@ https://crownstone.rocks/business/residential-real-estate/
 https://crownstone.rocks/campaigns/ghg/
 https://crownstone.rocks/business/indoor-positioning/
 https://crownstone.rocks/internships/
+https://crownstone.rocks/research/
 https://crownstone.rocks/team/
 https://crownstone.rocks/business/asset-tracking
 https://crownstone.rocks/campaigns/cs-subscription/
@@ -50,7 +51,6 @@ https://crownstone.rocks/presskit/
 https://crownstone.rocks/updates
 https://crownstone.rocks/email-updates/
 https://crownstone.rocks/faq/
-https://crownstone.rocks/research/
 https://crownstone.rocks/specifications/
 https://crownstone.rocks/where-to-buy/
 https://crownstone.rocks/certification/
