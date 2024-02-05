@@ -16,11 +16,13 @@
                     <img src="{{ feature.image }}" alt="cs_feature"/>
                 </div>
                 <div class="col-sm-8 m-2">
+                    {% if feature.title %}
                     <div class="row justify-content-center">
                         <p class="title-cs-features">
                             {{ feature.title }}
                         </p>
                     </div>
+                    {% endif %}
                     <div class="row justify-content-center">
                         <p class="description-cs-features">
                             {{ feature.description }}
