@@ -118,7 +118,7 @@ Crownstone's technology is versatile, allowing us to cater to a diverse range of
 
 Crownstones pinpoint the location of individuals using Bluetooth tags or smart devices by measuring Bluetooth Low Energy signals. This enables to react to presence and proximity. Applications of indoor positioning include healthcare for patient tracking and smart buildings for improved security and automation.
 
-{% include snippets/two-cols-text-img-end img='/images/position.jpg' img-alt='positioning' link-left='true' url='/business/indoor-positioning/' link-text='Explore further' %}
+{% include snippets/two-cols-text-img-end img='/images/position.jpg' img-alt='positioning' link-left='true' url='/business/indoor-positioning' link-text='Explore further' %}
 
 {% include snippets/full-width-container-end %}
 
@@ -131,7 +131,7 @@ Crownstones pinpoint the location of individuals using Bluetooth tags or smart d
 
 Crownstones scan for Bluetooth LE devices within a building. Attach off-the-shelf Bluetooth tags to assets, and Crownstones use Bluetooth mesh to communicate tag locations to a gateway. BLE asset tracking offers cost efficiency, enhanced security, scalability, and future-proofing.
 
-{% include snippets/two-cols-text-img-end img='/images/assets.jpg' img-alt='assets' link='true' url='/business/asset-tracking/' link-text='Explore further' %}
+{% include snippets/two-cols-text-img-end img='/images/assets.jpg' img-alt='assets' link='true' url='/business/asset-tracking' link-text='Explore further' %}
 
 {% include snippets/full-width-container-end %}
 
@@ -144,7 +144,7 @@ Crownstones scan for Bluetooth LE devices within a building. Attach off-the-shel
 
 Crownstones extend their functionality to include energy monitoring on device level. Operating within a Bluetooth mesh network, they broadcast energy-related metrics such as current, voltage, power, and power factor to a central hub, facilitating data collection for further analysis.
 
-{% include snippets/two-cols-text-img-end img='/images/e-monitoring.jpg' img-alt='energy monitoring' link-left='true' url='/business/energy-monitoring/' link-text='Explore further' %}
+{% include snippets/two-cols-text-img-end img='/images/e-monitoring.jpg' img-alt='energy monitoring' link-left='true' url='/business/energy-monitoring' link-text='Explore further' %}
 
 {% include snippets/full-width-container-end %}
 
@@ -157,7 +157,7 @@ Crownstones extend their functionality to include energy monitoring on device le
 
 Crownstone offers companies already providing alarm systems to enhance their product portfolio with our technology. Our solutions are tailored for technology providers in sectors such as mental care, elderly care, and the general office  sector.
 
-{% include snippets/two-cols-text-img-end img='/images/wireless.jpeg' img-alt='wireless' link='true' url='/business/wireless-alarms/' link-text='Explore further' %}
+{% include snippets/two-cols-text-img-end img='/images/wireless.jpeg' img-alt='wireless' link='true' url='/business/wireless-alarms' link-text='Explore further' %}
 
 {% include snippets/full-width-container-end %}
 

@@ -1,11 +1,11 @@
-<div class="container-fluid gray-bg">
+<div class="container-fluid" style="background-image: url({{BASE_URL}}/images/contact-bg-real-estate.jpg)">
     <div class="row justify-content-center">
         <div class="col-xl-6">
             <p class="newsletter-text">
                 {% if site.active_lang == "en" %}
-                Be the first to hear about Crownstone's newest features!
+                Stay informed about our latest updates, news, and solutions. subscribe to our newsletter and never miss out on valuable insights – sign up now!
                 {% else %}
-                Hoor als eerste over de nieuwste functies van Crownstone! (Nieuwsbrief is in het Engels)
+                Blijf op de hoogte van onze laatste updates, nieuws en oplossingen. Schrijf je in voor onze nieuwsbrief en mis nooit meer waardevolle inzichten – meld je nu aan!
                 {% endif %}
             </p>
             <div class="newsletter bottom">
@@ -14,16 +14,16 @@
             			<label for="Email" class="newsletter__label hidden-label">Sign up to our mailing list</label>
             			<div class="input-group">
             			    {% if site.active_lang == "en" %}
-                            <input type="email" value="" placeholder="New things to learn and read!" name="EMAIL" id="Email" class="input-group-field newsletter__input" autocorrect="off" autocapitalize="off">
+                            <input type="email" value="" placeholder="Your e-mail" name="EMAIL" id="Email" class="input-group-field newsletter__input" autocorrect="off" autocapitalize="off">
                             {% else %}
-                            <input type="email" value="" placeholder="Nieuwe dingen om te leren en te lezen!" name="EMAIL" id="Email" class="input-group-field newsletter__input" autocorrect="off" autocapitalize="off">
+                            <input type="email" value="" placeholder="Je email" name="EMAIL" id="Email" class="input-group-field newsletter__input" autocorrect="off" autocapitalize="off">
                             {% endif %}
             				<span class="input-group-btn">
             					<button type="submit" class="btn newsletter__submit" name="subscribe" id="Subscribe">
             					{% if site.active_lang == "en" %}
-            					<span class="newsletter__submit-text--large">I like!</span>
+            					<span class="newsletter__submit-text--large">Subscribe</span>
             					{% else %}
-            					<span class="newsletter__submit-text--large">Ik doe mee!</span>
+            					<span class="newsletter__submit-text--large">Schrijf mij in</span>
             					{% endif %}
             					<span class="newsletter__submit-text--small">→</span>
             					</button>
