@@ -35,15 +35,26 @@ reasons:
     image: /images/indoor-positioning-b2b/productivity-2.svg
     image-alt: productivity
 solutions:
-  - description: Support for the app developers to integrate our SDKs.
-    image: /images/indoor-positioning-b2b/sdk-dark.svg
-    image-alt: sdk
-  - description: Hubs and servers. We can provide hardware and cloud services. We can implement an uplink towards a custom interface on your backend.
-    image: /images/indoor-positioning-b2b/hub-dark.svg
-    image-alt: hub
-  - description: Software updates and security patches for firmware over-the-air.
-    image: /images/indoor-positioning-b2b/firmware-dark.svg
-    image-alt: firmware
+  - title: "Accurate indoor navigation"
+    description: "Bluetooth indoor positioning offers precise room-level accuracy, facilitating navigation in large indoor spaces like airports, hospitals, and universities, where GPS signals may be unreliable. This enables users to find their way to medical appointments or locate lecture halls with ease."
+    image: /images/indoor-positioning-b2b/station.jpg
+    image-alt: airport
+  - title: "Efficient Resource Management"
+    description: "Facilities can enhance resource allocation by analyzing space utilization and identifying areas for improvement. For example, switching off heating and lighting in unoccupied areas not only reduces operational costs but also benefits the environment."
+    image: /images/indoor-positioning-b2b/office_.jpg
+    image-alt: office
+  - title: "Provide safety and security"
+    description: "Indoor positioning with Bluetooth is used for emergency response systems, helping to locate individuals in distress within a building quickly. Consider individuals who work alone in vast spaces or workers who are frequently exposed to hazardous environments."
+    image: /images/indoor-positioning-b2b/factory.jpg
+    image-alt: factory
+  - title: "Data for analytics purposes"
+    description: "Indoor localisation provides valuable data on foot traffic patterns, popular areas within a building, and customer behavior, which can be used for strategic decision-making and improving operations."
+    image: /images/indoor-positioning-b2b/analytics.jpg
+    image-alt: analytics
+  - title: "Target customers effectively"
+    description: "Businesses can deliver personalized, location-based services or promotions to customers based on their proximity to specific areas or products within a store or shopping mall."
+    image: /images/indoor-positioning-b2b/mall.jpg
+    image-alt: mall
 ---
 
 
@@ -51,7 +62,7 @@ solutions:
 
 
 {% include snippets/slogan-begin %}
-Revolutionize your space with advanced indoor positioning solutions
+Revolutionize your space with our advanced indoor positioning system
 {% include snippets/slogan-end %}
 
 
@@ -59,33 +70,21 @@ Revolutionize your space with advanced indoor positioning solutions
 
 {% include snippets/two-cols-text-img-begin%}
 
-### Unlocking efficiency with innovative indoor localization solutions for businesses
+### Elevate your indoor experience by harnessing the potential of indoor positioning technology.
 
 Location data serves as the cornerstone of smart buildings, facilitating efficient resource allocation and boosting productivity across various functions. Crownstones play a pivotal role in providing this essential location data, whether individuals carry smart devices or Bluetooth tags.
 
-{% include snippets/two-cols-text-img-end img='/images/indoor-positioning-b2b/office.jpg' img-alt='office' link-left='true' url='/business/indoor-positioning/#contact' link-text='Explore possibilities' %}
+{% include snippets/two-cols-text-img-end img='/images/indoor-positioning-b2b/smart_buildings.jpg' img-alt='smart buildings' link-left='true' url='/business/indoor-positioning#contact' link-text='Explore possibilities' %}
 
 {% include snippets/full-width-container-end %}
-
 
 {% include snippets/cs_features id='benefits'%}
 
 
 
 {% include snippets/slogan-begin background='blue'%}
-An integral solution
+How can indoor positioning help?
 {% include snippets/slogan-end %}
-
-
-{% include snippets/full-width-container-begin background='blue' %}
-
-{% include snippets/centered-text-home-begin background='dark'%}
-
-In addition to our localization solutions, we are also able to offer the following 
-
-{% include snippets/centered-text-home-end %}
-
-{% include snippets/full-width-container-end %}
 
 {% include snippets/three-items-in-a-row  id='solutions' background='dark'%}
 
@@ -99,11 +98,14 @@ In addition to our localization solutions, we are also able to offer the followi
 Get in contact
 {% include snippets/slogan-end %}
 
-{% include snippets/two-cols-text-img-begin text-alignment='right'%}
+{% include snippets/two-cols-text-img-begin extra-style='padding-bottom: 0 !important' %}
 
-Ready to unlock the full potential of your business space? **Contact us** today to explore the countless possibilities for optimizing your operations and enhancing productivity. Don't wait any longer to revolutionize your space. Connect with **Aad** to schedule a free meeting! 
+Ready to unlock the full potential of your business space? **Schedule a meeting** to explore the possibilities for integrating our indoor positioning system.
 
-{% include snippets/two-cols-text-img-end img='/images/team/aadnales.jpg' img-alt='aad nales' btn='true' btn-contact='aad' btn-text='Schedule a meeting'%}
+{% include snippets/two-cols-text-img-end img='/images/indoor-positioning-b2b/contact.png' img-alt='contact' btn='true' btn-alignment='left'  btn-contact='aad' btn-text='Schedule a meeting'%}
+
+{% assign email = ".org, ende, alm, @, ad, a" | split: ", "  %}
+{% include snippets/contact-person image="/images/team/aadnales.jpg" image-alt="aad nales" tel="+31 (0)65 420 7340" email=email subject='Indoor positioning possibilities' %}
 
 {% include snippets/circles-bg-end %}
 
@@ -111,9 +113,7 @@ Ready to unlock the full potential of your business space? **Contact us** today 
 
 
 {% include snippets/slogan-begin background='blue' %}
-
 Why incorporating positioning systems is crucial for your buildings?
-
 {% include snippets/slogan-end %}
 
 
