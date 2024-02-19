@@ -1,0 +1,60 @@
+{% assign email = include.email %}
+
+{% if include.background and include.background == 'blue' %}
+    {% assign background-class = 'blue-bg' %}
+    {% assign text-class = 'white-text' %}
+{% else %}
+    {% assign background-class = '' %}
+    {% assign text-class = 'blue-text' %}
+{% endif %}
+
+<div class="row justify-content-start align-items-center m-0 intra-padding {{ background-class }}" style='padding-top: 0 !important'>
+
+<div class="col-md-1"> </div>
+
+<div class="col-md-2 p-5 description-small {{ text-class }}" style='text-align: left;'>
+    <img src="{{ include.image }}" alt="{{ include.image-alt }}" style="width: 100%">
+</div>
+
+<div class="col-md-8 p-5 intra-padding description-small {{ text-class }}" markdown="1" style='text-align: left;'>
+
+<div class="row justify-content-center align-items-center" style='width: 100%'>
+<div class="col-md-12" markdown="1" style='text-align: left; font-size: 1rem !important;'>
+
+Reach out to **Aad**, a seasoned IT professional with over 20 years of industry expertise and a fervent advocate of **self-organization**.
+
+</div>
+</div>
+
+<div class="row justify-content-start align-items-center">
+<div class="col-md-8">
+<a href="tel:{{ include.tel }}" class='no-link-style' style="margin: 0 !important; white-space: normal; text-align: center; font-family: Lato, sans-serif; font-style: normal !important; font-size: 1rem !important; color: #003e52 !important; padding: 1rem 1.5rem !important; width: 100%" > <i class="el el-phone no-link-style" style="margin-right: 10px; padding-top: 5px; color: #ff8400 !important;"></i> {{ include.tel }} </a>
+</div>
+</div>
+
+<div class="row justify-content-start align-items-center">
+<div class="col-md-8">
+<script type="text/javascript">
+	/*<![CDATA[*/
+	var a=new Array("{{ email[0] }}", "{{ email[1] }}", "{{ email[2] }}", "{{ email[3] }}", "{{ email[4] }}", "{{ email[5] }}");
+	<!-- Write as hyperlink -->
+    	document.write("<a href='mailto:");
+    	for(i=a.length-1;i>=0;i--) {
+    		document.write(a[i])
+    	}
+    	document.write("?subject={{ include.subject}}' class='no-link-style' style='margin: 0 !important; white-space: normal; text-align: center; font-family: Lato, sans-serif; font-style: normal !important; font-size: 1rem !important; color: #003e52 !important; padding: 1rem 1.5rem !important; width: 100%' >");
+    	document.write("<i class='el el-envelope no-link-style' style='margin-right: 10px; padding-top: 5px; color: #ff8400 !important'></i>");
+	<!-- Write in plain but obfuscated text -->
+	for(i=a.length-1;i>=0;i--){
+		document.write(a[i])
+	}
+	document.write("</a>");
+	/*]]>*/
+</script>
+</div>
+</div>
+
+</div>
+
+<div class="col-md-1"> </div>
+</div>

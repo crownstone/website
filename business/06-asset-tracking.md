@@ -61,7 +61,7 @@ Enhance asset management with our asset tracking solutions
 
 Attach off-the-shelf Bluetooth tags to assets, and Crownstones use Bluetooth mesh to communicate tag locations to a gateway. BLE asset tracking offers cost efficiency, enhanced security, scalability, and future-proofing.
 
-{% include snippets/two-cols-text-img-end img='/images/asset-tracking/technology.jpg' img-alt='technology' link-left='true' url='/business/asset-tracking/#contact' link-text='Explore possibilities'%}
+{% include snippets/two-cols-text-img-end img='/images/asset-tracking/technology.jpg' img-alt='technology' link-left='true' url='/business/asset-tracking#contact' link-text='Explore possibilities'%}
 
 {% include snippets/full-width-container-end %}
 

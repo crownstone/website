@@ -19,7 +19,7 @@
             <div class="col-xs-12">
                 <img src="{{ item.image }}" alt="{{ item.image-alt }}" style="width: 100%">
                 {% if item.title %}
-                <p style="text-align: center; font-family: Lato, sans-serif; font-weight: bold; font-size: 1.1rem !important; color: #ff8400 !important; padding: 0; margin: 0;">
+                <p style="text-align: center; font-family: Lato, sans-serif; font-weight: bold; font-size: 1.1rem !important; color: #ff8400 !important; padding: 0; margin: 1.5rem;">
                     {{ item.title }}
                 </p>
                 {% endif %}

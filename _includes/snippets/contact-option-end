@@ -28,10 +28,10 @@
 {% if include.tel %}
 <div class="col text-truncate col-bottom-aligned-child" style="margin: 0 !important; white-space: normal; text-align: center; font-family: Lato, sans-serif; font-style: normal !important; font-size: 1.1rem !important; color: #003e52 !important; padding: 1rem 1.5rem !important; width: 100%" >
 
-{{ site.company.phone_local }} <br>
+06-542-07340 <br>
 
 <div class="row justify-content-center col-bottom-aligned-child" style="margin: 0 !important; text-align: center; font-family: Lato, sans-serif; font-style: normal !important; font-size: 1.1rem !important; color: #003e52 !important; padding: 0 !important; width: 100%" >
-<a href="tel:{{ site.company.phone_international }}" class='no-link-style'> <i class="el el-phone no-link-style" style="margin-right: 10px; padding-top: 5px;"></i> </a>
+<a href="tel:{{ 0031654207340 }}" class='no-link-style'> <i class="el el-phone no-link-style" style="margin-right: 10px; padding-top: 5px;"></i> </a>
 </div>
 {% endif %}
 
