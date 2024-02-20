@@ -13,7 +13,7 @@
 
             <div class="col-sm-4 features-container">
                 <div class="col-sm-3 feature-icon-container">
-                    <img src="{{ feature.image }}" alt="cs_feature"/>
+                    <img src="{{ feature.image }}" alt="{{ feature.image-alt }}"/>
                 </div>
                 <div class="col-sm-9 m-2">
                     {% if feature.title %}
