@@ -43,6 +43,27 @@ benefits-ble:
     description: It provides real-time visibility into asset location, enabling proactive management and enhanced security
     image: /images/asset-tracking/rlt.svg
     image-alt: real-time tracking
+solutions:
+  - title: "Improved Asset Visibility"
+    description: "Gain real-time visibility into the location and status of assets throughout their lifecycle, reducing the risk of loss, misplacement or theft. This allows for easy identification of asset location, whether they are in storage, in transit, or in use at a job site."
+    image: /images/asset-tracking/visibility.jpg
+    image-alt: real-time asset visibility reduces lost and theft
+  - title: "Enhanced Operational Efficiency"
+    description: "Asset tracking streamlines the process of locating and accessing assets, reducing the time spent searching for tools or equipment. This improves overall workflow efficiency and allows employees to focus on their core tasks."
+    image: /images/asset-tracking/efficiency.jpg
+    image-alt: asset tracking enhances operations by enhancing workflow efficiency
+  - title: "Cost Savings"
+    description: "By reallocating underutilized assets to areas of higher demand or by maximizing asset utilization, businesses can reduce the need to purchase additional assets, saving on capital expenditures. In addition, labor costs associated with manual tracking methods are reduced as well."
+    image: /images/asset-tracking/costs.jpg
+    image-alt: minimize inventory costs and asset purchases
+  - title: "Data-Driven Insights"
+    description: "By providing data on asset usage, maintenance history, and performance metrics, asset tracking systems enable businesses to make informed decisions about asset management, resource allocation, and process optimization. This leads to more efficient operations and better business outcomes."
+    image: /images/asset-tracking/insights.jpg
+    image-alt: asset location data enables informed business decisions
+  - title: "Preventive Maintenance"
+    description: "Implement proactive maintenance schedules based on asset usage data to prevent costly breakdowns, minimize downtime, and prolong asset lifespan. This ensures that assets are available when needed, increasing overall productivity."
+    image: /images/asset-tracking/maintenance.jpg
+    image-alt: personalized location-based services
 ---
 
 
@@ -57,9 +78,10 @@ Enhance asset management with our asset tracking solutions
 
 {% include snippets/two-cols-text-img-begin%}
 
-### Crownstones are also able to scan for any Bluetooth LE device in a building. 
+### Crownstones can track any Bluetooth LE device in a building. 
 
-Attach off-the-shelf Bluetooth tags to assets, and Crownstones use Bluetooth mesh to communicate tag locations to a gateway. BLE asset tracking offers cost efficiency, enhanced security, scalability, and future-proofing.
+Attach off-the-shelf Bluetooth tags to assets, and Crownstones use Bluetooth mesh to communicate the location of those tags to a gateway providing **real-time visibility** into asset location. 
+Asset tracking enables businesses to **streamline workflows**, **optimize resource allocation**, and make informed decisions, ultimately driving greater **productivity** and **profitability**.
 
 {% include snippets/two-cols-text-img-end img='/images/asset-tracking/technology.jpg' img-alt='technology' link-left='true' url='/business/asset-tracking#contact' link-text='Explore possibilities'%}
 
@@ -70,13 +92,29 @@ Attach off-the-shelf Bluetooth tags to assets, and Crownstones use Bluetooth mes
 
 
 
+{% include snippets/slogan-begin background='blue'%}
+How can asset tracking help?
+{% include snippets/slogan-end %}
+
+{% include snippets/three-items-in-a-row  id='solutions' background='dark'%}
+
+
+
+{% include snippets/slogan-begin %}
+
+Why to use BLE for asset tracking?
+
+{% include snippets/slogan-end %}
+
+{% include snippets/three-items-in-a-row id='benefits-ble' %}
+
+
+
 {% include snippets/slogan-begin background='blue' %}
 
 Explore some of our use cases
 
 {% include snippets/slogan-end %}
-
-
 
 {% include snippets/full-width-container-begin%}
 
@@ -100,22 +138,9 @@ Crownstone, in collaboration with our partner Blyott, has created a Bluetooth-ba
 Get in contact
 {% include snippets/slogan-end %}
 
-{% include snippets/two-cols-text-img-begin text-alignment='right'%}
-
-Ready to optimize your asset management and boost productivity? **Reach out** to us today to explore the myriad possibilities for streamlining your operations. Don't hesitate to transform your asset-tracking strategy. Contact **Aad** now to arrange a meeting!
-
-{% include snippets/two-cols-text-img-end img='/images/team/aadnales.jpg' img-alt='aad nales' btn='true' btn-contact='aad' btn-text='Schedule a meeting'%}
+{% assign email = ".org, ende, alm, @, ad, a" | split: ", "  %}
+{% include snippets/contact-person image="/images/team/aadnales.jpg" image-alt="aad nales" tel="+31 (0)65 420 7340" email=email subject='Asset tracking possibilities' %}
 
 {% include snippets/circles-bg-end %}
 
 {% include snippets/full-width-container-end %}
-
-
-
-{% include snippets/slogan-begin %}
-
-Why to use BLE for asset tracking?
-
-{% include snippets/slogan-end %}
-
-{% include snippets/three-items-in-a-row id='benefits-ble' %}
