@@ -104,12 +104,6 @@ How can indoor positioning help?
 Get in contact
 {% include snippets/slogan-end %}
 
-{% include snippets/two-cols-text-img-begin extra-style='padding-bottom: 0 !important' %}
-
-Ready to unlock the full potential of your business space? **Schedule a meeting** to explore the possibilities for integrating our indoor positioning system.
-
-{% include snippets/two-cols-text-img-end img='/images/indoor-positioning-b2b/contact.png' img-alt='contact indoor positioning expert' btn='true' btn-alignment='left'  btn-contact='aad' btn-text='Schedule a meeting'%}
-
 {% assign email = ".org, ende, alm, @, ad, a" | split: ", "  %}
 {% include snippets/contact-person image="/images/team/aadnales.jpg" image-alt="aad nales" tel="+31 (0)65 420 7340" email=email subject='Indoor positioning possibilities' %}
 
