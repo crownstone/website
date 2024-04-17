@@ -5,7 +5,7 @@ header: Pages
 group: [navigation-consumers-submenu, navigation-consumer-footer]
 permalink: support/
 skip-newsletter: true
-background-image: banner-faq
+large-background-image: banner-faq
 banner-caption: Support
 topics:
   - title: Crownstone app

@@ -5,7 +5,7 @@ header: Pages
 permalink: installation/
 group: [navigation-consumers-submenu, navigation-consumer-footer]
 skip-newsletter: true
-background-image: banner-installation
+large-background-image: banner-installation
 banner-caption: Installation
 options:
   - slogan: Installation behind single socket
