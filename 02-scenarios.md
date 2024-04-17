@@ -7,7 +7,7 @@ group: [navigation-consumers-submenu, navigation-consumer-footer]
 skip-newsletter: true
 permalink: scenarios/
 children-disable: [crownstone, autopilot]
-background-image: banner-scenarios
+large-background-image: banner-scenarios
 banner-caption: Scenarios
 coming-soon:
     - slogan: Wake-up light

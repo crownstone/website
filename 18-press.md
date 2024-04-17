@@ -6,7 +6,7 @@ description: "News about Crownstone in the national and international press"
 group: [navigation-about-us-submenu]
 permalink: press/
 skip-newsletter: true
-background-image: banner-press
+large-background-image: banner-press
 social-image: images/hospital.jpg
 banner-caption: Press
 social-image: "images/hospital.jpg"

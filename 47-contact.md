@@ -4,7 +4,7 @@ title: Contact
 header: Pages
 markdown: true
 group: [navigation-contact]
-background-image: banner-ceiling-light
+large-background-image: banner-ceiling-light
 banner-caption: Contact us!
 skip-newsletter: true
 permalink: contact/
@@ -110,8 +110,6 @@ How to find our office?
 
 
 **Parking:** You can park in the Engels Parking, which is located at the back of the "Groothandelsgebouw". It can be accessed via the Conradstraat.
-
-**Within the building:** Access the “Groothandelsgebouw” through the main entrance. Here, follow the directions for “Kleinhandel”. This means, go to the first floor, and then go left to the entrance to Kleinhandel. Follow the corridor all the way to the back of the building (you will pass several doors). Almost at the back of the building, you will see the Crownstone office on the right.
 
 
 {% include snippets/margin %}

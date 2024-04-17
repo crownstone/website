@@ -6,7 +6,7 @@ description: "Research projects that benefit from Crownstone technology"
 group: [navigation-research, navigation-about-us-footer]
 skip-newsletter: true
 permalink: research/
-background-image: banner-technology
+large-background-image: banner-technology
 banner-caption: Research
 kramdown:
   parse_block_html: true

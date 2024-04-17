@@ -6,7 +6,7 @@ description: "Follow us an Facebook, Twitter, or contact us individually!"
 keywords: "team, follow us, facebook, twitter, contact, personal, Crownstone"
 kramdown:
   parse_block_html: true
-background-image: banner-team
+large-background-image: banner-team
 banner-caption: "Our team!"
 group: [navigation-about-us-submenu, navigation-about-us-footer]
 skip-newsletter: true
@@ -93,12 +93,27 @@ core-team-gallery:
       title: "Peet worked for a lot of international companies (Siemens, Philips) in the car industry, mainly on navigation software."
   - image: "teresavandam.jpg"
     name: "Teresa van Dam"
-    affiliation: "Business Developer"
+    affiliation: "Senior Researcher"
     linkedin: "teresa-jacqueline-van-dam-a9386aa1"
     twitter: "TereYaqui"
     github: "tere92"
     report:
-      title: "Teresa has a masters in Data Science and makes sure that our products and services are embraced by the market!"
+      title: "Teresa has a master's degree in data science and develops world-class AI algorithms that make our technology smarter."
+  - image: "sander.jpeg"
+    name: "Sander Steeghs-Turchina"
+    affiliation: "Firmware Developer"
+    linkedin: "sander-steeghs"
+    github: "sandersteeghs"
+    report:
+      title: "Sander has a masters in Embedded systems and focuses on developing state-of-the-art firmware for our products." 
+  - image: "chielvandiepen.jpg"
+    name: "Chiel van Diepen"
+    affiliation: "System Engineer"
+    linkedin: "chielvandiepen"
+    report:
+      title: "Chiel has a masters in Embedded systems and focuses on electrical design and development of our hardware." 
+
+
 ---
 {% include JB/setup %}
 

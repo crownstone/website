@@ -6,7 +6,7 @@ description: "Blog written by the Crownstone team"
 group: [navigation-about-us-submenu]
 permalink: blog/
 skip-newsletter: true
-background-image: banner-blog
+large-background-image: banner-blog
 banner-caption: "Daytime stories"
 ---
 {% include JB/setup %}
