@@ -113,7 +113,7 @@ in artikel 3.2 van deze Module.
 De Bedenktijd gaat in op het moment dat het Abonnement wordt geactiveerd door het in gebruik nemen van de Crownstones
 via de Crownstone app.
 2. U kunt de Overeenkomst ontbinden door: - te bellen naar 010-3073955 (u betaalt uw gebruikelijke belkosten); 
-- een brief te sturen naar Crownstone, Stationsplein 45 d1.118, 3013 AK Rotterdam of via email te ontbinden (zie 
+- een brief te sturen naar Crownstone, Stationsplein 45 E7.154, 3013 AK Rotterdam of via email te ontbinden (zie 
 contactgegevens in de laatste module); 
 3. Wanneer u na activatie de Overeenkomst ontbindt volgens de voorwaarden van dit artikel 5 wordt er een telefonische
 afspraak gemaakt. In deze afspraak wordt u - in goed overleg - gevraagd om oftewel de Crownstones te deinstalleren en 
@@ -204,7 +204,7 @@ klacht.
 1. Crownstone en haar groepsvennootschappen gaan zorgvuldig en volgens de wet met uw gegevens om. Crownstone gebruikt uw 
 persoonsgegevens bijvoorbeeld voor de uitvoering van uw Overeenkomst, voor service- en commerciële berichten. Voor 
 commerciële berichten kunt u zich op ieder moment afmelden via de afmeldlink in onze e-mails, 
-of per brief aan Crownstone, Stationsplein 45 d1.118, 3013 AK Rotterdam. Op de verwerking van uw persoonsgegevens in verband 
+of per brief aan Crownstone, Stationsplein 45 E7.154, 3013 AK Rotterdam. Op de verwerking van uw persoonsgegevens in verband 
 met de Crownstones is onze [privacy policy](https://crownstone.rocks/nl/privacy-policy/) van toepassingen.
 
 ## ARTIKEL 10. Wijziging van de Algemene Voor­ waarden, prijzen en/of tarieven 
